@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1711",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The user wants direct routes from Heathrow Airport to other airports. The API ranked 9 provides direct routes for an airport without airline restriction, matching the request perfectly.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The user wants direct routes from Heathrow Airport to other airports. The API ranked 9 provides direct routes for an airport without airline restriction, matching the request perfectly."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1362,
+    "total_tokens": 1416,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 526,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 310,
+      "service_ttlt_ms": 770,
+      "total_duration_ms": 675,
+      "user_visible_ttft_ms": 193
+    }
+  }
+}

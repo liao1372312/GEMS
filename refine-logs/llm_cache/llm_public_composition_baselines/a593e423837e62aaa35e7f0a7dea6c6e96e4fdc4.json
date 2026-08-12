@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to find unique team-building activities in London and then identify nearby restaurants for a team lunch based on the activity locations, fulfilling both parts of the user request and the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API can be used to find unique team-building activities in London and then identify nearby restaurants for a team lunch based on the activity locations, fulfilling both parts of the user request and the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1923,
+    "total_tokens": 1993,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 1693,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 321,
+      "service_ttlt_ms": 1935,
+      "total_duration_ms": 1807,
+      "user_visible_ttft_ms": 185
+    }
+  }
+}

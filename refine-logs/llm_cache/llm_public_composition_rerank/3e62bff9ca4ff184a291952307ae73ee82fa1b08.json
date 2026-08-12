@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_323",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Instagram API_v2 - Hashtag Feed directly supports fetching content from Instagram using hashtags, which can be used to find professional team-building facilitators. It requires only a tag parameter, which can be set to relevant hashtags like 'team building' or similar, matching the subtask intent precisely. Other APIs do not provide Instagram contact details or are unrelated to social media or team-building facilitators.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Instagram API_v2 - Hashtag Feed directly supports fetching content from Instagram using hashtags, which can be used to find professional team-building facilitators. It requires only a tag parameter, which can be set to relevant hashtags like 'team building' or similar, matching the subtask intent precisely. Other APIs do not provide Instagram contact details or are unrelated to social media or team-building facilitators."
+  },
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 2327,
+    "total_tokens": 2428,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 123,
+      "engine_ttlt_ms": 1675,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 332,
+      "service_ttlt_ms": 1899,
+      "total_duration_ms": 1818,
+      "user_visible_ttft_ms": 219
+    }
+  }
+}

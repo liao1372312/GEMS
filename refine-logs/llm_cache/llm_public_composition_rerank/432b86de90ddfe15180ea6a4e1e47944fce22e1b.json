@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1412",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide tips or information about feeding a new puppy; they mostly return pet data by ID or inventory status, which does not satisfy the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide tips or information about feeding a new puppy; they mostly return pet data by ID or inventory status, which does not satisfy the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1370,
+    "total_tokens": 1427,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 694,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 336,
+      "service_ttlt_ms": 920,
+      "total_duration_ms": 811,
+      "user_visible_ttft_ms": 217
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API 'Cartify - getAllUsers' is the most relevant candidate to obtain a list of healthcare professionals for targeted mailing, which is the primary need in the request. Although it is in the Commerce domain, it provides user data which might include healthcare professionals. Other APIs are unrelated to healthcare professionals or nutritional analysis. However, the nutritional analysis part is not directly addressed by any candidate, so the best step is to first get the healthcare professionals list using the top candidate.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API 'Cartify - getAllUsers' is the most relevant candidate to obtain a list of healthcare professionals for targeted mailing, which is the primary need in the request. Although it is in the Commerce domain, it provides user data which might include healthcare professionals. Other APIs are unrelated to healthcare professionals or nutritional analysis. However, the nutritional analysis part is not directly addressed by any candidate, so the best step is to first get the healthcare professionals list using the top candidate."
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 1820,
+    "total_tokens": 1939,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1187,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 1374,
+      "total_duration_ms": 1284,
+      "user_visible_ttft_ms": 142
+    }
+  }
+}

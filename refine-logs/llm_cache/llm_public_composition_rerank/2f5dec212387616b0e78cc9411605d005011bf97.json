@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2616",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask requires compiling details of popular coupons including terms and expiration dates, which aligns with getting detailed information. Among the candidates, only 'Schwab - quote/get-details' API provides detailed information about a financial quote, which is the closest relevant API in the Finance domain. Other APIs are unrelated to coupons or finance or do not provide detailed coupon information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask requires compiling details of popular coupons including terms and expiration dates, which aligns with getting detailed information. Among the candidates, only 'Schwab - quote/get-details' API provides detailed information about a financial quote, which is the closest relevant API in the Finance domain. Other APIs are unrelated to coupons or finance or do not provide detailed coupon information."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1782,
+    "total_tokens": 1875,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 28,
+      "engine_ttft_ms": 340,
+      "engine_ttlt_ms": 2963,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 28,
+      "service_ttft_ms": 481,
+      "service_ttlt_ms": 3100,
+      "total_duration_ms": 3002,
+      "user_visible_ttft_ms": 377
+    }
+  }
+}

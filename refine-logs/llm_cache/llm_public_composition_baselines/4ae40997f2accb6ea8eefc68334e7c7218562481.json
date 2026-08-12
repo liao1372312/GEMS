@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides real-time top coins by followers change, which is the first part of the user request. To get sentiment change values, the fourth-ranked API can be used next. For influencer posts related to Bitcoin, the ninth-ranked API is suitable. Starting with the top-ranked API is the best first step.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides real-time top coins by followers change, which is the first part of the user request. To get sentiment change values, the fourth-ranked API can be used next. For influencer posts related to Bitcoin, the ninth-ranked API is suitable. Starting with the top-ranked API is the best first step."
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 2705,
+    "total_tokens": 2791,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1124,
+      "pre_inference_ms": 173,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1361,
+      "total_duration_ms": 1197,
+      "user_visible_ttft_ms": 118
+    }
+  }
+}

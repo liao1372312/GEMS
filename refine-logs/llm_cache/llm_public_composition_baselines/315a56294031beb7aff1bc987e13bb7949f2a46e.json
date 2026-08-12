@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The user needs ESG scores for Apple Inc., which requires company information including ticker symbol; the 'Stoxx - Get Company Information' API provides detailed company info and is most relevant for retrieving ESG scores.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The user needs ESG scores for Apple Inc., which requires company information including ticker symbol; the 'Stoxx - Get Company Information' API provides detailed company info and is most relevant for retrieving ESG scores."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1271,
+    "total_tokens": 1334,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 921,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 1033,
+      "total_duration_ms": 962,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

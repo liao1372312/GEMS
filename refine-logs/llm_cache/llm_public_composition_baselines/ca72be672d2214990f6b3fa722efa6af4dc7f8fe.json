@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_872",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.3, \"rationale\": \"None of the candidates provide Chuck Norris jokes, number trivia, or landmark recommendations; the top-ranked candidate offers random programming memes, which is closest to entertainment but not fully aligned.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.3,
+    "rationale": "None of the candidates provide Chuck Norris jokes, number trivia, or landmark recommendations; the top-ranked candidate offers random programming memes, which is closest to entertainment but not fully aligned."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1443,
+    "total_tokens": 1500,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 513,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 161,
+      "service_ttlt_ms": 633,
+      "total_duration_ms": 556,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

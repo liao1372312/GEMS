@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2571",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"This API is related to birthday cakes and can be relevant for fetching recipe details like cooking times for the surprise birthday party.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "This API is related to birthday cakes and can be relevant for fetching recipe details like cooking times for the surprise birthday party."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1549,
+    "total_tokens": 1595,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 423,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 690,
+      "total_duration_ms": 602,
+      "user_visible_ttft_ms": 175
+    }
+  }
+}

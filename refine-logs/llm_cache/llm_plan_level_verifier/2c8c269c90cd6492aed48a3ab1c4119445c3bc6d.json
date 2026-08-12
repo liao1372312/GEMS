@@ -1,0 +1,75 @@
+{
+  "record_id": "Tourism_response_1369",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"No suitable API for webcams; semantic top-1 and LLM choice are the same and unrelated.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"No suitable API for webcams; semantic top-1 and LLM choice are the same and unrelated.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"LLM choice (airport search) unrelated to webcams; keep semantic top-1 which is also unrelated but consistent.\"},{\"step_id\":4,\"accept_llm\":false,\"reason\":\"No suitable API for webcams; semantic top-1 and LLM choice are the same and unrelated.\"},{\"step_id\":5,\"accept_llm\":true,\"reason\":\"LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI).\"},{\"step_id\":6,\"accept_llm\":true,\"reason\":\"LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI).\"},{\"step_id\":7,\"accept_llm\":true,\"reason\":\"LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI).\"},{\"step_id\":8,\"accept_llm\":true,\"reason\":\"LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI).\"}],\"workflow_confidence\":0.4}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "No suitable API for webcams; semantic top-1 and LLM choice are the same and unrelated."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "No suitable API for webcams; semantic top-1 and LLM choice are the same and unrelated."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice (airport search) unrelated to webcams; keep semantic top-1 which is also unrelated but consistent."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "No suitable API for webcams; semantic top-1 and LLM choice are the same and unrelated."
+      },
+      {
+        "step_id": 5,
+        "accept_llm": true,
+        "reason": "LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI)."
+      },
+      {
+        "step_id": 6,
+        "accept_llm": true,
+        "reason": "LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI)."
+      },
+      {
+        "step_id": 7,
+        "accept_llm": true,
+        "reason": "LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI)."
+      },
+      {
+        "step_id": 8,
+        "accept_llm": true,
+        "reason": "LLM choice (Unofficial Trust Pilot) is more relevant for business details and photos than semantic top-1 (HandballAPI)."
+      }
+    ],
+    "workflow_confidence": 0.4
+  },
+  "usage": {
+    "completion_tokens": 322,
+    "prompt_tokens": 3323,
+    "total_tokens": 3645,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 87,
+      "engine_ttlt_ms": 2809,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 208,
+      "service_ttlt_ms": 2927,
+      "total_duration_ms": 2884,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

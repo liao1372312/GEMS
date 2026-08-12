@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1563",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user wants to fetch the latest odds, and 'Admiralbet - Odds' specifically provides latest odds from Admiralbet, matching the subtask description better than matches endpoints.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user wants to fetch the latest odds, and 'Admiralbet - Odds' specifically provides latest odds from Admiralbet, matching the subtask description better than matches endpoints."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 867,
+    "total_tokens": 925,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 200,
+      "user_visible_ttft_ms": 111,
+      "total_duration_ms": 2275,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 37,
+      "service_ttlt_ms": 2354,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 2223,
+      "engine_tbt_ms": 37
+    }
+  }
+}

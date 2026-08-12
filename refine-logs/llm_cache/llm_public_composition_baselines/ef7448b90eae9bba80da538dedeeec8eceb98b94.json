@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1772",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The user needs usernames of all users on a platform; MoodRing - Users API provides user data and matches the data retrieval intent best.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The user needs usernames of all users on a platform; MoodRing - Users API provides user data and matches the data retrieval intent best."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1315,
+    "total_tokens": 1364,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 226,
+      "user_visible_ttft_ms": 103,
+      "total_duration_ms": 535,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 648,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 474,
+      "engine_tbt_ms": 9
+    }
+  }
+}

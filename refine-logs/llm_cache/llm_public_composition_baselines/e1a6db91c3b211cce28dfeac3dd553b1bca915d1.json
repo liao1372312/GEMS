@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4611",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"This API provides comprehensive stock market information including movers, which likely includes top losers, fitting the subtask requirements for querying stock market top losers with market type and time period.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "This API provides comprehensive stock market information including movers, which likely includes top losers, fitting the subtask requirements for querying stock market top losers with market type and time period."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1362,
+    "total_tokens": 1418,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 809,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 506,
+      "service_ttlt_ms": 1239,
+      "total_duration_ms": 1200,
+      "user_visible_ttft_ms": 421
+    }
+  }
+}

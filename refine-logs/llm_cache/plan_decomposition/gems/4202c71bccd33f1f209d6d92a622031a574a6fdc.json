@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random quote from a villain to inspire the comic book storyline.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve interesting facts about numbers to incorporate into the comic book storyline.\",\n      \"domain\": \"education\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random quote from a villain to inspire the comic book storyline.",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve interesting facts about numbers to incorporate into the comic book storyline.",
+        "domain": "education",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random quote from a villain to inspire the comic book storyline.",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve interesting facts about numbers to incorporate into the comic book storyline.",
+      "domain": "education",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 2175,
+    "total_tokens": 2272,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1114,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 289,
+      "service_ttlt_ms": 1355,
+      "total_duration_ms": 1231,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

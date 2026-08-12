@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4299",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs are related to recipes or halal restaurant searches; however, the user requested easy-to-follow chicken recipes suitable for outdoor dining, which is unrelated to the available APIs. Therefore, no suitable API is available for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs are related to recipes or halal restaurant searches; however, the user requested easy-to-follow chicken recipes suitable for outdoor dining, which is unrelated to the available APIs. Therefore, no suitable API is available for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 2023,
+    "total_tokens": 2094,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 997,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 228,
+      "service_ttlt_ms": 1186,
+      "total_duration_ms": 1089,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

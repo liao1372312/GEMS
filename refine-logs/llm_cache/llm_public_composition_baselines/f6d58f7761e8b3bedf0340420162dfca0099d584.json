@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3844",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides both the roster and schedule for the Boston Celtics in 2008, matching the user's request for basketball history. However, the user also requested the latest Formula 1 news, which is not covered by this API. Since the user request is multi-domain, the best first step is to get the Celtics data, then separately fetch Formula 1 news.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides both the roster and schedule for the Boston Celtics in 2008, matching the user's request for basketball history. However, the user also requested the latest Formula 1 news, which is not covered by this API. Since the user request is multi-domain, the best first step is to get the Celtics data, then separately fetch Formula 1 news."
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 1685,
+    "total_tokens": 1782,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1251,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 422,
+      "service_ttlt_ms": 1626,
+      "total_duration_ms": 1515,
+      "user_visible_ttft_ms": 301
+    }
+  }
+}

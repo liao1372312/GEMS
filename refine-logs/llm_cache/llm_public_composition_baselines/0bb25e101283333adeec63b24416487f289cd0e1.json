@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_396",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Finance Social Sentiment API provides a list of trending tickers and profiles on social media platforms related to crypto, which directly matches the subtask of getting trending profiles in the crypto market.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Finance Social Sentiment API provides a list of trending tickers and profiles on social media platforms related to crypto, which directly matches the subtask of getting trending profiles in the crypto market."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1528,
+    "total_tokens": 1588,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 469,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 139,
+      "service_ttlt_ms": 569,
+      "total_duration_ms": 495,
+      "user_visible_ttft_ms": 59
+    }
+  }
+}

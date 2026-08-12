@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide ESG scores for Apple Inc. The candidate ranked 1 is about US tax rate by zip code, which is unrelated to ESG scores. No suitable API candidate matches the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide ESG scores for Apple Inc. The candidate ranked 1 is about US tax rate by zip code, which is unrelated to ESG scores. No suitable API candidate matches the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1268,
+    "total_tokens": 1332,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 981,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 271,
+      "service_ttlt_ms": 1215,
+      "total_duration_ms": 1103,
+      "user_visible_ttft_ms": 148
+    }
+  }
+}

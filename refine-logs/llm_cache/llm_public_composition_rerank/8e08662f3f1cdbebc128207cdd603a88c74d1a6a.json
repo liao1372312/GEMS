@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1125",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs directly provide healthcare facility location data or phone number verification. However, the Linkedin Live Data - Supported Locations API can provide location data that might be used as a starting point for location-based searches. It is the closest relevant API among the candidates, while others are unrelated to healthcare or location services.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs directly provide healthcare facility location data or phone number verification. However, the Linkedin Live Data - Supported Locations API can provide location data that might be used as a starting point for location-based searches. It is the closest relevant API among the candidates, while others are unrelated to healthcare or location services."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1645,
+    "total_tokens": 1730,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1148,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 261,
+      "service_ttlt_ms": 1367,
+      "total_duration_ms": 1235,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

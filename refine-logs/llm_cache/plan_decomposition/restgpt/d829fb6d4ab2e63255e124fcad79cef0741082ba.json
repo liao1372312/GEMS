@@ -1,0 +1,66 @@
+{
+  "record_id": "Finance_response_3009",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the current exchange rates for multiple currencies.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the current exchange rate from EUR to USD.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"base_currency\", \"target_currency\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the current exchange rates for multiple currencies.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the current exchange rate from EUR to USD.",
+        "domain": "Finance",
+        "required_inputs": [
+          "base_currency",
+          "target_currency"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the current exchange rates for multiple currencies.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the current exchange rate from EUR to USD.",
+      "domain": "Finance",
+      "required_inputs": [
+        "base_currency",
+        "target_currency"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 176,
+    "total_tokens": 270,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 274,
+      "user_visible_ttft_ms": 101,
+      "total_duration_ms": 1433,
+      "pre_inference_ms": 173,
+      "service_tbt_ms": 14,
+      "service_ttlt_ms": 1521,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1288,
+      "engine_tbt_ms": 13
+    }
+  }
+}

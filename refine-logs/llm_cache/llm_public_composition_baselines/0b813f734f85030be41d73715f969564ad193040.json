@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2860",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"Candidate rank 5 provides a direct API to search restaurants by town, suitable for finding restaurants in Los Angeles for the team lunch.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "Candidate rank 5 provides a direct API to search restaurants by town, suitable for finding restaurants in Los Angeles for the team lunch."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1396,
+    "total_tokens": 1444,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 30,
+      "engine_ttft_ms": 110,
+      "engine_ttlt_ms": 1558,
+      "pre_inference_ms": 154,
+      "service_tbt_ms": 30,
+      "service_ttft_ms": 321,
+      "service_ttlt_ms": 1765,
+      "total_duration_ms": 1619,
+      "user_visible_ttft_ms": 167
+    }
+  }
+}

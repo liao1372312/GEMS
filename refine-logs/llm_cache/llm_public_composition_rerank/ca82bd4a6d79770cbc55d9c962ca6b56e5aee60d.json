@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1896",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The 'Travel Hacking Tool - Get Airplane List' API provides detailed information about airplane types, which is relevant to researching vehicles for family travel in Italy. It directly addresses the subtask of suggesting vehicle types and requires no additional parameters, making it suitable and specific for the travel domain.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The 'Travel Hacking Tool - Get Airplane List' API provides detailed information about airplane types, which is relevant to researching vehicles for family travel in Italy. It directly addresses the subtask of suggesting vehicle types and requires no additional parameters, making it suitable and specific for the travel domain."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1669,
+    "total_tokens": 1744,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1174,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 1342,
+      "total_duration_ms": 1225,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

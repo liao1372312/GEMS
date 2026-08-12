@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2628",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.7, \"rationale\": \"Only the Profanity Filter API mentions returning current UTC time, which is relevant to obtaining current date and time in Dakar; other APIs are unrelated to time or location data.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.7,
+    "rationale": "Only the Profanity Filter API mentions returning current UTC time, which is relevant to obtaining current date and time in Dakar; other APIs are unrelated to time or location data."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1302,
+    "total_tokens": 1358,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 693,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 168,
+      "service_ttlt_ms": 833,
+      "total_duration_ms": 746,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

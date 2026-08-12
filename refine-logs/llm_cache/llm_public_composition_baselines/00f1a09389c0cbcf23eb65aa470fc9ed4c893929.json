@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates match the subtask requirements for analyzing title tags and providing SEO recommendations for a travel blog website.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates match the subtask requirements for analyzing title tags and providing SEO recommendations for a travel blog website."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1209,
+    "total_tokens": 1254,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 454,
+      "pre_inference_ms": 141,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 296,
+      "service_ttlt_ms": 683,
+      "total_duration_ms": 547,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

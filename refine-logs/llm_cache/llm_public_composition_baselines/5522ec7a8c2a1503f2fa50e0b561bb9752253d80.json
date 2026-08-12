@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4874",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request includes two subtasks: generating a map tile with French labels for specific coordinates and getting the latest average price of a used Apple MacBook Pro 13\\\" 2020. Candidate 1 provides the price data for the Apple product, matching the product and condition parameters. Candidate 2 provides the map tile with French labels for the specified coordinates. Since the user request involves both mapping and price data, candidate 1 is selected for the price subtask with high confidence, as it directly matches the product and condition requirements.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request includes two subtasks: generating a map tile with French labels for specific coordinates and getting the latest average price of a used Apple MacBook Pro 13\" 2020. Candidate 1 provides the price data for the Apple product, matching the product and condition parameters. Candidate 2 provides the map tile with French labels for the specified coordinates. Since the user request involves both mapping and price data, candidate 1 is selected for the price subtask with high confidence, as it directly matches the product and condition requirements."
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 2224,
+    "total_tokens": 2353,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1172,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 227,
+      "service_ttlt_ms": 1354,
+      "total_duration_ms": 1256,
+      "user_visible_ttft_ms": 119
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_536",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs relate to analyzing the carbon footprint of fertilizers or provide relevant environmental data.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs relate to analyzing the carbon footprint of fertilizers or provide relevant environmental data."
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 1512,
+    "total_tokens": 1553,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 718,
+      "pre_inference_ms": 191,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 312,
+      "service_ttlt_ms": 1090,
+      "total_duration_ms": 909,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

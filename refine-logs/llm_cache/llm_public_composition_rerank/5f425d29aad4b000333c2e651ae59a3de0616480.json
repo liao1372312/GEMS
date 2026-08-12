@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_239",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The 23andMe - risks API directly provides lifetime disease risk data for populations, matching the medical domain and subtask requirements. It requires a profile_id, which can be linked to population demographics and disease types, making it the best fit among candidates.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The 23andMe - risks API directly provides lifetime disease risk data for populations, matching the medical domain and subtask requirements. It requires a profile_id, which can be linked to population demographics and disease types, making it the best fit among candidates."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 2182,
+    "total_tokens": 2255,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 1265,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 277,
+      "service_ttlt_ms": 1460,
+      "total_duration_ms": 1393,
+      "user_visible_ttft_ms": 158
+    }
+  }
+}

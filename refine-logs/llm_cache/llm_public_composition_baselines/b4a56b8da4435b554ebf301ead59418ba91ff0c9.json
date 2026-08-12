@@ -1,0 +1,27 @@
+{
+  "record_id": "Finance_response_3353",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The first candidate provides daily featured football predictions with higher probabilities and better odds, matching the subtask requirement perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The first candidate provides daily featured football predictions with higher probabilities and better odds, matching the subtask requirement perfectly."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1008,
+    "total_tokens": 1052,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 43
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1005
+    }
+  }
+}

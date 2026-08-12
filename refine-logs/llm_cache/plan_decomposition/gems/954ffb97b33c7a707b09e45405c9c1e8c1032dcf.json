@@ -1,0 +1,55 @@
+{
+  "record_id": "Medical_response_2571",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve unique cake recipes from ComfyFood that include ingredients like chocolate and fruits, along with cooking times\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"ingredient\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve unique cake recipes from ComfyFood that include ingredients like chocolate and fruits, along with cooking times",
+        "domain": "Food",
+        "required_inputs": [
+          "ingredient"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve unique cake recipes from ComfyFood that include ingredients like chocolate and fruits, along with cooking times",
+      "domain": "Food",
+      "required_inputs": [
+        "ingredient"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 2672,
+    "total_tokens": 2734,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 35,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 2226,
+      "pre_inference_ms": 192,
+      "service_tbt_ms": 35,
+      "service_ttft_ms": 360,
+      "service_ttlt_ms": 2492,
+      "total_duration_ms": 2315,
+      "user_visible_ttft_ms": 168
+    }
+  },
+  "goal_hints": [
+    "I'm planning a surprise birthday party for my best friend and I need some unique recipe ideas from ComfyFood that include ingredients like chocolate and fruits cooking times"
+  ]
+}

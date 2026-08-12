@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5147",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to fetching blocklists or their XML versions; no suitable API is available.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to fetching blocklists or their XML versions; no suitable API is available."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 2006,
+    "total_tokens": 2049,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 925,
+      "pre_inference_ms": 155,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 325,
+      "service_ttlt_ms": 1156,
+      "total_duration_ms": 1019,
+      "user_visible_ttft_ms": 170
+    }
+  }
+}

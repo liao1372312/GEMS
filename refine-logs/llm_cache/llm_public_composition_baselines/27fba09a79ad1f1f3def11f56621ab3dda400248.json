@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4306",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants news about AR and VR, and the top-ranked candidate specifically provides the latest news on AR and VR, matching the subtask requirements precisely.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants news about AR and VR, and the top-ranked candidate specifically provides the latest news on AR and VR, matching the subtask requirements precisely."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1639,
+    "total_tokens": 1692,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 59,
+      "engine_ttft_ms": 921,
+      "engine_ttlt_ms": 4055,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 59,
+      "service_ttft_ms": 1533,
+      "service_ttlt_ms": 4663,
+      "total_duration_ms": 4596,
+      "user_visible_ttft_ms": 1459
+    }
+  }
+}

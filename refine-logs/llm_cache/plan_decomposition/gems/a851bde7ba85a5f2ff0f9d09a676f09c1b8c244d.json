@@ -1,0 +1,89 @@
+{
+  "record_id": "Medical_response_2024",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve news articles related to COVID-19 from BMJ using the Covid news_v2 API with the required newsId parameter.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"newsId\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch keyword trends for 'COVID-19' using the Targeted Keyword trend API with the keyword parameter.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"keyword\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve news articles related to COVID-19 from BMJ using the Covid news_v2 API with the required newsId parameter.",
+        "domain": "Medical",
+        "required_inputs": [
+          "newsId"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch keyword trends for 'COVID-19' using the Targeted Keyword trend API with the keyword parameter.",
+        "domain": "Medical",
+        "required_inputs": [
+          "keyword"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve news articles related to COVID-19 from BMJ using the Covid news_v2 API with the required newsId parameter.",
+      "domain": "Medical",
+      "required_inputs": [
+        "newsId"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch keyword trends for 'COVID-19' using the Targeted Keyword trend API with the keyword parameter.",
+      "domain": "Medical",
+      "required_inputs": [
+        "keyword"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 2121,
+    "total_tokens": 2240,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1234,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 333,
+      "service_ttlt_ms": 1459,
+      "total_duration_ms": 1345,
+      "user_visible_ttft_ms": 212
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve news articles related to COVID-19 from the BMJ source using the Covid news_v2 API.",
+        "domain": "Medical",
+        "required_inputs": [
+          "news_source",
+          "topic"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch keyword trends for 'COVID-19' using the Targeted Keyword trend API.",
+        "domain": "Medical",
+        "required_inputs": [
+          "keyword"
+        ]
+      }
+    ]
+  }
+}

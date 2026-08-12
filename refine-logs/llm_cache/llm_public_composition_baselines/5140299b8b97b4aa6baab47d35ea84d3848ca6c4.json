@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3229",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API specifically provides the country name for a given IP address, which matches the user's request for the IP 103.255.5.26. For the ZIP code of the address in Zurich, no direct API is provided, so only the IP country name API is selected.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API specifically provides the country name for a given IP address, which matches the user's request for the IP 103.255.5.26. For the ZIP code of the address in Zurich, no direct API is provided, so only the IP country name API is selected."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1541,
+    "total_tokens": 1621,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 165,
+      "engine_ttlt_ms": 1201,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 329,
+      "service_ttlt_ms": 1355,
+      "total_duration_ms": 1254,
+      "user_visible_ttft_ms": 220
+    }
+  }
+}

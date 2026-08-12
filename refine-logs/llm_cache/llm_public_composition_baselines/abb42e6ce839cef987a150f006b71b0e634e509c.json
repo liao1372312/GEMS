@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3328",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.95, \"rationale\": \"The Quotient - /equity/live API specifically provides current market price data for stocks on worldwide stock exchanges including NASDAQ, and supports querying by stock symbol such as GOOGL.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.95,
+    "rationale": "The Quotient - /equity/live API specifically provides current market price data for stocks on worldwide stock exchanges including NASDAQ, and supports querying by stock symbol such as GOOGL."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1615,
+    "total_tokens": 1674,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 1017,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 295,
+      "service_ttlt_ms": 1356,
+      "total_duration_ms": 1239,
+      "user_visible_ttft_ms": 174
+    }
+  }
+}

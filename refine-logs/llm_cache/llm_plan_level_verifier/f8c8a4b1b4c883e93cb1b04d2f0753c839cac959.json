@@ -1,0 +1,55 @@
+{
+  "record_id": "Finance_response_3328",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides historical candlestick data for Bitcoin with daily interval, better matching the requirement than semantic top-1 which returns current market price data.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API supports required parameters and is appropriate; LLM choice is the same as semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is more appropriate for stock price data; LLM choice is less specific and lower ranked.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 and LLM choice are the same and appropriate; no change needed.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice provides historical candlestick data for Bitcoin with daily interval, better matching the requirement than semantic top-1 which returns current market price data."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API supports required parameters and is appropriate; LLM choice is the same as semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is more appropriate for stock price data; LLM choice is less specific and lower ranked."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "Semantic top-1 and LLM choice are the same and appropriate; no change needed."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 217,
+    "prompt_tokens": 2277,
+    "total_tokens": 2494,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 4317,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 300,
+      "service_ttlt_ms": 4530,
+      "total_duration_ms": 4412,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

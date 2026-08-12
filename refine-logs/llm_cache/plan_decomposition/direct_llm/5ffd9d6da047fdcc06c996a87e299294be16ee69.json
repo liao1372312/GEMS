@@ -1,0 +1,80 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of vegan dishes from the List of Foods API\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a recommended vegan dish from the retrieved list\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"list of vegan dishes\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch detailed recipe information including ingredients, method, and image for the selected dish\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"selected dish name or ID\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of vegan dishes from the List of Foods API",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a recommended vegan dish from the retrieved list",
+        "domain": "Food",
+        "required_inputs": [
+          "list of vegan dishes"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch detailed recipe information including ingredients, method, and image for the selected dish",
+        "domain": "Food",
+        "required_inputs": [
+          "selected dish name or ID"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of vegan dishes from the List of Foods API",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a recommended vegan dish from the retrieved list",
+      "domain": "Food",
+      "required_inputs": [
+        "list of vegan dishes"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch detailed recipe information including ingredients, method, and image for the selected dish",
+      "domain": "Food",
+      "required_inputs": [
+        "selected dish name or ID"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 195,
+    "total_tokens": 342,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 28,
+      "engine_ttlt_ms": 1168,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 1333,
+      "total_duration_ms": 1226,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

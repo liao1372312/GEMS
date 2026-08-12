@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4584",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide homicide rate data or rankings of world cities by homicide rates, which is essential for the user's request about safety and homicide rates for vacation planning.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide homicide rate data or rankings of world cities by homicide rates, which is essential for the user's request about safety and homicide rates for vacation planning."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1898,
+    "total_tokens": 1954,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 505,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 688,
+      "total_duration_ms": 574,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

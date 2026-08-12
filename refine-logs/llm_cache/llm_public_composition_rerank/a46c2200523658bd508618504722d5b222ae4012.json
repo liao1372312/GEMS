@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_536",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The subtask requires fetching vaccination guidelines relevant to gardening activities, which is a content search task. The 'URL Content Extractor - Search Content' API can search content based on a query, making it suitable to find vaccination guidelines. Other APIs are unrelated to health or gardening guidelines.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The subtask requires fetching vaccination guidelines relevant to gardening activities, which is a content search task. The 'URL Content Extractor - Search Content' API can search content based on a query, making it suitable to find vaccination guidelines. Other APIs are unrelated to health or gardening guidelines."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1829,
+    "total_tokens": 1907,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 30,
+      "engine_ttft_ms": 100,
+      "engine_ttlt_ms": 2422,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 30,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 2534,
+      "total_duration_ms": 2468,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

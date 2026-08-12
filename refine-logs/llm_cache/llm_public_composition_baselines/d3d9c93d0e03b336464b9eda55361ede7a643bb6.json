@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5398",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Divanscore - matches/detail API provides detailed match information including special types, start times, competition names, and participating teams, which aligns well with the requirement to fetch detailed info for each ongoing match by match_id.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Divanscore - matches/detail API provides detailed match information including special types, start times, competition names, and participating teams, which aligns well with the requirement to fetch detailed info for each ongoing match by match_id."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1566,
+    "total_tokens": 1632,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 553,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 741,
+      "total_duration_ms": 647,
+      "user_visible_ttft_ms": 140
+    }
+  }
+}

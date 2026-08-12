@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1860",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide appetizer recipes or burger descriptions, nor do they support combining such data into a menu. The request domain is Medical, but the user request is about food menu planning, and no suitable API is available in the candidates.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide appetizer recipes or burger descriptions, nor do they support combining such data into a menu. The request domain is Medical, but the user request is about food menu planning, and no suitable API is available in the candidates."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1577,
+    "total_tokens": 1648,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 655,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 315,
+      "service_ttlt_ms": 919,
+      "total_duration_ms": 827,
+      "user_visible_ttft_ms": 214
+    }
+  }
+}

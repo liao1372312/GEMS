@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Provides historical data for teams involved in NCAA Final Four matches, suitable for obtaining team data for predictions.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Provides historical data for teams involved in NCAA Final Four matches, suitable for obtaining team data for predictions."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 1188,
+    "total_tokens": 1230,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 355,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 246,
+      "service_ttlt_ms": 550,
+      "total_duration_ms": 442,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

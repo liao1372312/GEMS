@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_852",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Humor-Jokes-and-Memes random-joke API can provide a Chuck Norris joke, which is part of the user request. However, no single API covers all requested data (music trivia, Chuck Norris joke, and number fact). This API best matches the Chuck Norris joke part, which is a key entertainment element.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Humor-Jokes-and-Memes random-joke API can provide a Chuck Norris joke, which is part of the user request. However, no single API covers all requested data (music trivia, Chuck Norris joke, and number fact). This API best matches the Chuck Norris joke part, which is a key entertainment element."
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 1508,
+    "total_tokens": 1594,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1283,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 327,
+      "service_ttlt_ms": 1529,
+      "total_duration_ms": 1430,
+      "user_visible_ttft_ms": 216
+    }
+  }
+}

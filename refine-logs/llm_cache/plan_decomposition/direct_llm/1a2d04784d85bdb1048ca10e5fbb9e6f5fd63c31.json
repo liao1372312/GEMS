@@ -1,0 +1,84 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the sport type for which ongoing match information is needed\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"sport_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve a list of ongoing matches for the specified sport\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"sport_type\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch detailed information for each ongoing match\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"match_ids\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the sport type for which ongoing match information is needed",
+        "domain": "Technology",
+        "required_inputs": [
+          "sport_type"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve a list of ongoing matches for the specified sport",
+        "domain": "Technology",
+        "required_inputs": [
+          "sport_type"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch detailed information for each ongoing match",
+        "domain": "Technology",
+        "required_inputs": [
+          "match_ids"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the sport type for which ongoing match information is needed",
+      "domain": "Technology",
+      "required_inputs": [
+        "sport_type"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve a list of ongoing matches for the specified sport",
+      "domain": "Technology",
+      "required_inputs": [
+        "sport_type"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch detailed information for each ongoing match",
+      "domain": "Technology",
+      "required_inputs": [
+        "match_ids"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 162,
+    "total_tokens": 299,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 1374,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 1548,
+      "total_duration_ms": 1437,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "query": "Find a web API endpoint that can get Geolocation from an IP Address",
+    "role": "provider",
+    "top_k": 8,
+    "seed_top_k": 24,
+    "hops": 1,
+    "nodes": 35,
+    "edges": 27,
+    "memory": "outputs/gems_memory.json"
+  },
+  "evidence": [
+    {
+      "kind": "node",
+      "id": "api:endpoint:af65582c62f7315c",
+      "type": "api",
+      "score": 0.5142,
+      "reliability": 0.8195,
+      "risk": 0.0,
+      "description": "GET https://ip-geolocation-find-ip-location-and-ip-info.p.rapidapi.com/backend/ipinfo/. Endpoint: Get IP Geolocation. Description: This endpoint returns geolocation and other useful points from an IP Address. If IP address is provided as query parameter, geolocation is performed on that IP address. If IP address is left empty, geolocation data of client IP is returned.. Required parameters: . Optional parameters: ip (STRING).. This endpoint returns geolocation and other useful points from an IP ",
+      "attrs": {
+        "endpoint_id": "af65582c62f7315c",
+        "service_id": "svc_9a85c4ab4249c2fa9fa0",
+        "service_name": "IP Geolocation Find IP Location and IP Info",
+        "endpoint_name": "Get IP Geolocation",
+        "category": "Location",
+        "method": "GET",
+        "url": "https://ip-geolocation-find-ip-location-and-ip-info.p.rapidapi.com/backend/ipinfo/"
+      }
+    },
+    {
+      "kind": "node",
+      "id": "api:endpoint:a6dcfb4f0452ba9c",
+      "type": "api",
+      "score": 0.5038,
+      "reliability": 0.8142,
+      "risk": 0.0,
+      "description": "GET https://ip-geolocation21.p.rapidapi.com/backend/ipinfo/. Endpoint: Get IP Geolocation. Description: This endpoint returns geolocation and other useful points from an IP Address. If IP address is provided as query parameter, geolocation is performed on that IP address. If IP address is left empty, geolocation data of client IP is returned.. Required parameters: . Optional parameters: ip (STRING).. This endpoint returns geolocation and other useful points from an IP Address. If IP address is p",
+      "attrs": {
+        "endpoint_id": "a6dcfb4f0452ba9c",
+        "service_id": "svc_26394080428fa79f4da3",
+        "service_name": "IP Geolocation_v3",
+        "endpoint_name": "Get IP Geolocation",
+        "category": "Location",
+        "method": "GET",
+        "url": "https://ip-geolocation21.p.rapidapi.com/backend/ipinfo/"
+      }
+    },
+    {
+      "kind": "node",
+      "id": "api:endpoint:534eaadd761da452",
+      "type": "api",
+      "score": 0.4972,
+      "reliability": 0.8156,
+      "risk": 0.0,
+      "description": "GET https://ip-address-geolocation1.p.rapidapi.com/{ip}/?token=free. Endpoint: IP Geolocation. Description: Returns the geolocation of the given IP address. Required parameters: ip (string). Optional parameters: .. Returns the geolocation of the given IP address. Complete free IP address geolocation API. Category: Location. Method: GET",
+      "attrs": {
+        "endpoint_id": "534eaadd761da452",
+        "service_id": "svc_9022eec7763e1bf5a082",
+        "service_name": "IP Address Geolocation",
+        "endpoint_name": "IP Geolocation",
+        "category": "Location",
+        "method": "GET",
+        "url": "https://ip-address-geolocation1.p.rapidapi.com/{ip}/?token=free"
+      }
+    },
+    {
+      "kind": "node",
+      "id": "api:endpoint:2c03abb39eb4b50e",
+      "type": "api",
+      "score": 0.4832,
+      "reliability": 0.8685,
+      "risk": 0.0,
+      "description": "GET https://ip-to-income.p.rapidapi.com/. Endpoint: IP address. Description: IP address. Required parameters: ip (STRING). Optional parameters: .. IP address. Get the per capita income USD/yr with the IP address in the US. Useful in LTV & user valuation modeling. Category: Data. Method: GET",
+      "attrs": {
+        "endpoint_id": "2c03abb39eb4b50e",
+        "service_id": "svc_8f701dc7ab27f2654561",
+        "service_name": "IP to Income",
+        "endpoint_name": "IP address",
+        "category": "Data",
+        "method": "GET",
+        "url": "https://ip-to-income.p.rapidapi.com/"
+      }
+    },
+    {
+      "kind": "node",
+      "id": "api:endpoint:87ad864fe0b51457",
+      "type": "api",
+      "score": 0.4601,
+      "reliability": 0.8683,
+      "risk": 0.0,
+      "description": "GET https://itcooking-eu-ip-geolocation1.p.rapidapi.com/geoip/v1/lite/GetIpInfoLite. Endpoint: /geoip/v1/lite/GetIpInfoLite. Description: Identifying location for 1 IP address.. Required parameters: ip (STRING). Optional parameters: .. Identifying location for 1 IP address.. IP Geolocation REST API by Itcooking.eu. Fast and easy way to get (lookup) geolocation data to IPv4 and IPv6 address.. Category: Location. Method: GET",
+      "attrs": {
+        "endpoint_id": "87ad864fe0b51457",
+        "service_id": "svc_00016709f75303d191e6",
+        "service_name": "Itcooking.eu - IP Geolocation",
+        "endpoint_name": "/geoip/v1/lite/GetIpInfoLite",
+        "category": "Location",
+        "method": "GET",
+        "url": "https://itcooking-eu-ip-geolocation1.p.rapidapi.com/geoip/v1/lite/GetIpInfoLite"
+      }
+    },
+    {
+      "kind": "node",
+      "id": "api:endpoint:9a50c965e5567f38",
+      "type": "api",
+      "score": 0.4593,
+      "reliability": 0.8689,
+      "risk": 0.0,
+      "description": "GET https://ip-address3.p.rapidapi.com/. Endpoint: Get User IP. Description: Get user IP address.. Required parameters: . Optional parameters: .. Get user IP address.. Low latency API to retrieve User IP Address. Use to integrate on web based client apps to determine IP address of user.. Category: Location. Method: GET",
+      "attrs": {
+        "endpoint_id": "9a50c965e5567f38",
+        "service_id": "svc_2f8b02da4fa198fa2a5e",
+        "service_name": "IP Address",
+        "endpoint_name": "Get User IP",
+        "category": "Location",
+        "method": "GET",
+        "url": "https://ip-address3.p.rapidapi.com/"
+      }
+    },
+    {
+      "kind": "node",
+      "id": "api:endpoint:2c88c998bee1ff53",
+      "type": "api",
+      "score": 0.4472,
+      "reliability": 0.7796,
+      "risk": 0.0,
+      "description": "GET https://ip-geolocator1.p.rapidapi.com/v1/lookup/72.30.2.43. Endpoint: IP lookup. Description: ## Retrieve an IP address geolocation and ASN informations.. Required parameters: ip (string): `IP address` to retrieve. Optional parameters: .. ## Retrieve an IP address geolocation and ASN informations.. JSON API for geolocating IP addresses Free monthly requests: 100k. IP info provided: coordinates, city, timezone, country, continent, ASN & others.. Category: Location. Method: GET",
+      "attrs": {
+        "endpoint_id": "2c88c998bee1ff53",
+        "service_id": "svc_24b340fd667317f4e955",
+        "service_name": "IP Geolocator",
+        "endpoint_name": "IP lookup",
+        "category": "Location",
+        "method": "GET",
+        "url": "https://ip-geolocator1.p.rapidapi.com/v1/lookup/72.30.2.43"
+      }
+    },
+    {
+      "kind": "node",
+      "id": "qos:10c9bb6374f20b54",
+      "type": "qos",
+      "score": 0.4291,
+      "reliability": 0.6216,
+      "risk": 0.0619,
+      "description": "QoS for Geolocation from an IP Address: latency 598, service level 100, success rate 0, popularity 0.",
+      "attrs": {
+        "endpoint_id": "10c9bb6374f20b54"
+      }
+    }
+  ]
+}

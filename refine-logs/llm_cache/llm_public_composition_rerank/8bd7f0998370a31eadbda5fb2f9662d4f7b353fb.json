@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1981",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Rewards as a Service - 4. Get list of rewards' API directly provides a list of rewards (coupons) which aligns with the subtask to retrieve available coupons for hotels and attractions. It requires no parameters, so it can be used with the given inputs. Other APIs are unrelated to coupons or deals.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'Rewards as a Service - 4. Get list of rewards' API directly provides a list of rewards (coupons) which aligns with the subtask to retrieve available coupons for hotels and attractions. It requires no parameters, so it can be used with the given inputs. Other APIs are unrelated to coupons or deals."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 2056,
+    "total_tokens": 2143,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 1720,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 509,
+      "service_ttlt_ms": 2148,
+      "total_duration_ms": 2058,
+      "user_visible_ttft_ms": 412
+    }
+  }
+}

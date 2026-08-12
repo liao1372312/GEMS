@@ -1,0 +1,82 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find halal restaurants in Korea to accommodate dietary restrictions of a friend.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Find halal restaurants in Korea to accommodate dietary restrictions of a friend.",
+        "domain": "Medical",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Find halal restaurants in Korea to accommodate dietary restrictions of a friend.",
+      "domain": "Medical",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 2934,
+    "total_tokens": 3035,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 826,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 252,
+      "service_ttlt_ms": 1017,
+      "total_duration_ms": 912,
+      "user_visible_ttft_ms": 136
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Find halal restaurants in Korea to accommodate dietary restrictions of a friend.",
+        "domain": "Medical",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  }
+}

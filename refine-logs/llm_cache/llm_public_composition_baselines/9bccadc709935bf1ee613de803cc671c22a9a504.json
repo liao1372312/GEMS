@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor API can be used to search and extract romantic love quotes and historical facts about the wedding year, which aligns well with the user's request for love quotes and historical facts for the slideshow.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor API can be used to search and extract romantic love quotes and historical facts about the wedding year, which aligns well with the user's request for love quotes and historical facts for the slideshow."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1625,
+    "total_tokens": 1688,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 547,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 186,
+      "service_ttlt_ms": 667,
+      "total_duration_ms": 581,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

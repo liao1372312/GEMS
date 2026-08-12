@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1241",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The Priceline com Provider - Download cities clusters API directly provides a list of hotel city clusters, which is the closest relevant data to a list of areas in New York City for reference, fitting the tourism domain and subtask intent better than generic city/state search or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Priceline com Provider - Download cities clusters API directly provides a list of hotel city clusters, which is the closest relevant data to a list of areas in New York City for reference, fitting the tourism domain and subtask intent better than generic city/state search or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1763,
+    "total_tokens": 1834,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 716,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 178,
+      "service_ttlt_ms": 857,
+      "total_duration_ms": 763,
+      "user_visible_ttft_ms": 79
+    }
+  }
+}

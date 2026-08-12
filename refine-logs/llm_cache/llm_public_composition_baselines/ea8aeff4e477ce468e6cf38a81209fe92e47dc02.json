@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3159",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The Recipe Finder - dinner/ingredient API is the most relevant for gathering recipes that include salmon, quinoa, and asparagus for a dinner party, matching the user's request for healthy dinner recipes with nutritional analysis and portion control guidelines.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The Recipe Finder - dinner/ingredient API is the most relevant for gathering recipes that include salmon, quinoa, and asparagus for a dinner party, matching the user's request for healthy dinner recipes with nutritional analysis and portion control guidelines."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1882,
+    "total_tokens": 1948,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 774,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 188,
+      "service_ttlt_ms": 914,
+      "total_duration_ms": 851,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

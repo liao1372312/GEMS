@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The 'Gas Price - stateUsaPrice' API provides gas prices in the United States by state, including California, which matches the requirement to fetch current gas price data for California.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The 'Gas Price - stateUsaPrice' API provides gas prices in the United States by state, including California, which matches the requirement to fetch current gas price data for California."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1209,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 49,
+      "engine_ttft_ms": 509,
+      "engine_ttlt_ms": 3391,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 49,
+      "service_ttft_ms": 1171,
+      "service_ttlt_ms": 4046,
+      "total_duration_ms": 3941,
+      "user_visible_ttft_ms": 1056
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5198",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"Candidate 2 directly provides quotes from Max Verstappen, matching the request for motivational quotes from the F1 driver. Candidate 1 provides UFC fight details but does not cover the quotes, so it cannot fulfill the entire request alone.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "Candidate 2 directly provides quotes from Max Verstappen, matching the request for motivational quotes from the F1 driver. Candidate 1 provides UFC fight details but does not cover the quotes, so it cannot fulfill the entire request alone."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1440,
+    "total_tokens": 1508,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 724,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 384,
+      "service_ttlt_ms": 1057,
+      "total_duration_ms": 945,
+      "user_visible_ttft_ms": 267
+    }
+  }
+}

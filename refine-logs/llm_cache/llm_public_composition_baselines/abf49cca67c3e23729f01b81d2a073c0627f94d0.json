@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Kohls stores/list API is the most relevant and suitable for listing stores near the given GEO location within the shopping domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Kohls stores/list API is the most relevant and suitable for listing stores near the given GEO location within the shopping domain."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 2010,
+    "total_tokens": 2057,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 490,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 740,
+      "total_duration_ms": 600,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2852",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 1.0, \"rationale\": \"None of the candidate APIs provide grocery search or pricing information for apples; all are recipe search APIs by ingredient and unrelated to grocery options or prices. Therefore, no candidate API matches the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 1.0,
+    "rationale": "None of the candidate APIs provide grocery search or pricing information for apples; all are recipe search APIs by ingredient and unrelated to grocery options or prices. Therefore, no candidate API matches the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 2266,
+    "total_tokens": 2328,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 1060,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 249,
+      "service_ttlt_ms": 1253,
+      "total_duration_ms": 1146,
+      "user_visible_ttft_ms": 130
+    }
+  }
+}

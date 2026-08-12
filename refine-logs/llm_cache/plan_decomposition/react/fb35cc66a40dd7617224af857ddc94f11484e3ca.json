@@ -1,0 +1,66 @@
+{
+  "record_id": "Finance_response_3009",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the current exchange rates for a list of different currencies\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the current exchange rate from EUR to USD\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"base_currency\", \"target_currency\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the current exchange rates for a list of different currencies",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the current exchange rate from EUR to USD",
+        "domain": "Finance",
+        "required_inputs": [
+          "base_currency",
+          "target_currency"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the current exchange rates for a list of different currencies",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the current exchange rate from EUR to USD",
+      "domain": "Finance",
+      "required_inputs": [
+        "base_currency",
+        "target_currency"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 179,
+    "total_tokens": 276,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1430,
+      "pre_inference_ms": 1865,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 2025,
+      "service_ttlt_ms": 3400,
+      "total_duration_ms": 1543,
+      "user_visible_ttft_ms": 160
+    }
+  }
+}

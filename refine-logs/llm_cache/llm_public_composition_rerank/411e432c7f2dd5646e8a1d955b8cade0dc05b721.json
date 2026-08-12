@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7245",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs explicitly provide dad jokes, but the first API is unrelated to jokes or entertainment. No other API matches the subtask of fetching a professional dad joke. Therefore, no suitable API is available among the candidates for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs explicitly provide dad jokes, but the first API is unrelated to jokes or entertainment. No other API matches the subtask of fetching a professional dad joke. Therefore, no suitable API is available among the candidates for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1888,
+    "total_tokens": 1960,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 819,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 343,
+      "service_ttlt_ms": 1110,
+      "total_duration_ms": 1002,
+      "user_visible_ttft_ms": 217
+    }
+  }
+}

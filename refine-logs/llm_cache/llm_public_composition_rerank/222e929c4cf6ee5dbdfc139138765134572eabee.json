@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3815",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide mathematical facts about numbers. No suitable API is available in the given candidates for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide mathematical facts about numbers. No suitable API is available in the given candidates for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 2063,
+    "total_tokens": 2110,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 907,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 207,
+      "service_ttlt_ms": 1054,
+      "total_duration_ms": 974,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

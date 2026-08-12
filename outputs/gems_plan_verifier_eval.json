@@ -1,0 +1,977 @@
+{
+  "paper_ready": true,
+  "selection_split": "val",
+  "selection_note": "paper-ready: policy selected on validation split",
+  "objective": "plan",
+  "best_policy": {
+    "confidence_min": 0.9,
+    "margin_max": 1.0,
+    "margin_min": 0.0,
+    "sim_drop_max": 0.05,
+    "sim_drop_min": 0.002,
+    "param_overlap_min": 0.0,
+    "max_changed_steps": 2,
+    "max_plan_steps": 3,
+    "require_llm_change": false,
+    "allowed_ranks": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "semantic_top1_test": {
+    "api_acc": 0.6147672552166934,
+    "api_top3_proxy": 0.7560192616372392,
+    "api_mrr_proxy": 0.7139372977655472,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "llm_available": 623,
+    "llm_accepted": 264,
+    "llm_changed": 0,
+    "llm_accept_rate": 0.42375601926163725,
+    "llm_change_rate": 0.0,
+    "coverage": 1.0,
+    "steps": 623,
+    "workflows": 211
+  },
+  "all_llm_test": {
+    "api_acc": 0.6725521669341894,
+    "api_top3_proxy": 0.9373996789727127,
+    "api_mrr_proxy": 0.8122850263700984,
+    "workflow_exact": 0.3886255924170616,
+    "para_f1": 0.750187265917603,
+    "llm_available": 623,
+    "llm_accepted": 623,
+    "llm_changed": 359,
+    "llm_accept_rate": 1.0,
+    "llm_change_rate": 0.5762439807383628,
+    "coverage": 1.0,
+    "steps": 623,
+    "workflows": 211
+  },
+  "gems_plan_verifier_test": {
+    "api_acc": 0.6243980738362761,
+    "api_top3_proxy": 0.8250401284109149,
+    "api_mrr_proxy": 0.7442660959514886,
+    "workflow_exact": 0.4028436018957346,
+    "para_f1": 0.7055644729802033,
+    "llm_available": 623,
+    "llm_accepted": 411,
+    "llm_changed": 147,
+    "llm_accept_rate": 0.6597110754414125,
+    "llm_change_rate": 0.23595505617977527,
+    "coverage": 1.0,
+    "steps": 623,
+    "workflows": 211
+  },
+  "top_20_selection": [
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.0,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 3,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.7052980132450332,
+        "api_top3_proxy": 0.8692052980132451,
+        "api_mrr_proxy": 0.8004125932933877,
+        "workflow_exact": 0.5190476190476191,
+        "para_f1": 0.7922737306843267,
+        "llm_available": 604,
+        "llm_accepted": 392,
+        "llm_changed": 118,
+        "llm_accept_rate": 0.6490066225165563,
+        "llm_change_rate": 0.19536423841059603,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5190476190476191,
+        0.7052980132450332,
+        0.7922737306843267,
+        -0.19536423841059603
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.0,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8294701986754967,
+        "api_mrr_proxy": 0.7735992851886889,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.7762693156732892,
+        "llm_available": 604,
+        "llm_accepted": 324,
+        "llm_changed": 50,
+        "llm_accept_rate": 0.5364238410596026,
+        "llm_change_rate": 0.08278145695364239,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5142857142857142,
+        0.6821192052980133,
+        0.7762693156732892,
+        -0.08278145695364239
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.0,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8294701986754967,
+        "api_mrr_proxy": 0.7735992851886889,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.7762693156732892,
+        "llm_available": 604,
+        "llm_accepted": 324,
+        "llm_changed": 50,
+        "llm_accept_rate": 0.5364238410596026,
+        "llm_change_rate": 0.08278145695364239,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5142857142857142,
+        0.6821192052980133,
+        0.7762693156732892,
+        -0.08278145695364239
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8294701986754967,
+        "api_mrr_proxy": 0.7735992851886889,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.7762693156732892,
+        "llm_available": 604,
+        "llm_accepted": 324,
+        "llm_changed": 50,
+        "llm_accept_rate": 0.5364238410596026,
+        "llm_change_rate": 0.08278145695364239,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5142857142857142,
+        0.6821192052980133,
+        0.7762693156732892,
+        -0.08278145695364239
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8294701986754967,
+        "api_mrr_proxy": 0.7735992851886889,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.7762693156732892,
+        "llm_available": 604,
+        "llm_accepted": 324,
+        "llm_changed": 50,
+        "llm_accept_rate": 0.5364238410596026,
+        "llm_change_rate": 0.08278145695364239,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5142857142857142,
+        0.6821192052980133,
+        0.7762693156732892,
+        -0.08278145695364239
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.0,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6788079470198676,
+        "api_top3_proxy": 0.8311258278145696,
+        "api_mrr_proxy": 0.7724955324293069,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.7729580573951434,
+        "llm_available": 604,
+        "llm_accepted": 328,
+        "llm_changed": 54,
+        "llm_accept_rate": 0.543046357615894,
+        "llm_change_rate": 0.08940397350993377,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5142857142857142,
+        0.6788079470198676,
+        0.7729580573951434,
+        -0.08940397350993377
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.0,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6788079470198676,
+        "api_top3_proxy": 0.8311258278145696,
+        "api_mrr_proxy": 0.7724955324293069,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.7729580573951434,
+        "llm_available": 604,
+        "llm_accepted": 328,
+        "llm_changed": 54,
+        "llm_accept_rate": 0.543046357615894,
+        "llm_change_rate": 0.08940397350993377,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5142857142857142,
+        0.6788079470198676,
+        0.7729580573951434,
+        -0.08940397350993377
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.0,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 3,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6970198675496688,
+        "api_top3_proxy": 0.8857615894039735,
+        "api_mrr_proxy": 0.8028382213812675,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7906181015452539,
+        "llm_available": 604,
+        "llm_accepted": 416,
+        "llm_changed": 142,
+        "llm_accept_rate": 0.6887417218543046,
+        "llm_change_rate": 0.23509933774834438,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6970198675496688,
+        0.7906181015452539,
+        -0.23509933774834438
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 0.02,
+        "margin_min": 0.0,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 3,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6970198675496688,
+        "api_top3_proxy": 0.859271523178808,
+        "api_mrr_proxy": 0.7924491485335852,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7782560706401765,
+        "llm_available": 604,
+        "llm_accepted": 377,
+        "llm_changed": 103,
+        "llm_accept_rate": 0.6241721854304636,
+        "llm_change_rate": 0.17052980132450332,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6970198675496688,
+        0.7782560706401765,
+        -0.17052980132450332
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 0.02,
+        "margin_min": 0.0,
+        "sim_drop_max": 0.05,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 1,
+        "max_plan_steps": 3,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6837748344370861,
+        "api_top3_proxy": 0.8311258278145696,
+        "api_mrr_proxy": 0.7749310154525382,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 329,
+        "llm_changed": 55,
+        "llm_accept_rate": 0.5447019867549668,
+        "llm_change_rate": 0.09105960264900662,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6837748344370861,
+        0.7746136865342164,
+        -0.09105960264900662
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.0,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8410596026490066,
+        "api_mrr_proxy": 0.7777613528855247,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 339,
+        "llm_changed": 65,
+        "llm_accept_rate": 0.5612582781456954,
+        "llm_change_rate": 0.1076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6821192052980133,
+        0.7746136865342164,
+        -0.1076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.0,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8410596026490066,
+        "api_mrr_proxy": 0.7777613528855247,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 339,
+        "llm_changed": 65,
+        "llm_accept_rate": 0.5612582781456954,
+        "llm_change_rate": 0.1076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6821192052980133,
+        0.7746136865342164,
+        -0.1076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8410596026490066,
+        "api_mrr_proxy": 0.7777613528855247,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 339,
+        "llm_changed": 65,
+        "llm_accept_rate": 0.5612582781456954,
+        "llm_change_rate": 0.1076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6821192052980133,
+        0.7746136865342164,
+        -0.1076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "api_top3_proxy": 0.8410596026490066,
+        "api_mrr_proxy": 0.7777613528855247,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 339,
+        "llm_changed": 65,
+        "llm_accept_rate": 0.5612582781456954,
+        "llm_change_rate": 0.1076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6821192052980133,
+        0.7746136865342164,
+        -0.1076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 0.02,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.0,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6804635761589404,
+        "api_top3_proxy": 0.8278145695364238,
+        "api_mrr_proxy": 0.7722057973299691,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 320,
+        "llm_changed": 46,
+        "llm_accept_rate": 0.5298013245033113,
+        "llm_change_rate": 0.076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6804635761589404,
+        0.7746136865342164,
+        -0.076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 0.02,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.0,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6804635761589404,
+        "api_top3_proxy": 0.8278145695364238,
+        "api_mrr_proxy": 0.7722057973299691,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 320,
+        "llm_changed": 46,
+        "llm_accept_rate": 0.5298013245033113,
+        "llm_change_rate": 0.076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6804635761589404,
+        0.7746136865342164,
+        -0.076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 0.02,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6804635761589404,
+        "api_top3_proxy": 0.8278145695364238,
+        "api_mrr_proxy": 0.7722057973299691,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 320,
+        "llm_changed": 46,
+        "llm_accept_rate": 0.5298013245033113,
+        "llm_change_rate": 0.076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6804635761589404,
+        0.7746136865342164,
+        -0.076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 0.02,
+        "margin_min": 0.002,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6804635761589404,
+        "api_top3_proxy": 0.8278145695364238,
+        "api_mrr_proxy": 0.7722057973299691,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7746136865342164,
+        "llm_available": 604,
+        "llm_accepted": 320,
+        "llm_changed": 46,
+        "llm_accept_rate": 0.5298013245033113,
+        "llm_change_rate": 0.076158940397351,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6804635761589404,
+        0.7746136865342164,
+        -0.076158940397351
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.0,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 2,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6788079470198676,
+        "api_top3_proxy": 0.8427152317880795,
+        "api_mrr_proxy": 0.7766576001261428,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7713024282560706,
+        "llm_available": 604,
+        "llm_accepted": 343,
+        "llm_changed": 69,
+        "llm_accept_rate": 0.5678807947019867,
+        "llm_change_rate": 0.11423841059602649,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6788079470198676,
+        0.7713024282560706,
+        -0.11423841059602649
+      ]
+    },
+    {
+      "policy": {
+        "confidence_min": 0.9,
+        "margin_max": 1.0,
+        "margin_min": 0.0,
+        "sim_drop_max": 1.0,
+        "sim_drop_min": 0.002,
+        "param_overlap_min": 0.0,
+        "max_changed_steps": 99,
+        "max_plan_steps": 2,
+        "require_llm_change": false,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6788079470198676,
+        "api_top3_proxy": 0.8427152317880795,
+        "api_mrr_proxy": 0.7766576001261428,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.7713024282560706,
+        "llm_available": 604,
+        "llm_accepted": 343,
+        "llm_changed": 69,
+        "llm_accept_rate": 0.5678807947019867,
+        "llm_change_rate": 0.11423841059602649,
+        "coverage": 1.0,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.5095238095238095,
+        0.6788079470198676,
+        0.7713024282560706,
+        -0.11423841059602649
+      ]
+    }
+  ],
+  "available_llm_predictions": 1227,
+  "val_coverage": 1.0
+}

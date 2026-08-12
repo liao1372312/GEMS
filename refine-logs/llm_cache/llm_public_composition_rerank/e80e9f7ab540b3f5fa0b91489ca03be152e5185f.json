@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1248",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The Financial Modeling Prep API specifically returns companies' cash flow statements and requires the company symbol, which matches the subtask to fetch the cash flow statement for AAPL stock. It is a finance domain API and more specific than generic or forecast APIs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The Financial Modeling Prep API specifically returns companies' cash flow statements and requires the company symbol, which matches the subtask to fetch the cash flow statement for AAPL stock. It is a finance domain API and more specific than generic or forecast APIs."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1713,
+    "total_tokens": 1784,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 1174,
+      "pre_inference_ms": 135,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 297,
+      "service_ttlt_ms": 1376,
+      "total_duration_ms": 1254,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_829",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Stock Prices - YTD Historical Daily Prices' API provides daily open, high, low, and close prices for a given symbol, which can be used for cryptocurrencies like Bitcoin by specifying the ticker. It directly satisfies the subtask of retrieving daily price data over a date range, and required parameters can be bound from the subtask inputs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'Stock Prices - YTD Historical Daily Prices' API provides daily open, high, low, and close prices for a given symbol, which can be used for cryptocurrencies like Bitcoin by specifying the ticker. It directly satisfies the subtask of retrieving daily price data over a date range, and required parameters can be bound from the subtask inputs."
+  },
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 1958,
+    "total_tokens": 2049,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 30,
+      "engine_ttft_ms": 349,
+      "engine_ttlt_ms": 3116,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 30,
+      "service_ttft_ms": 468,
+      "service_ttlt_ms": 3215,
+      "total_duration_ms": 3143,
+      "user_visible_ttft_ms": 392
+    }
+  }
+}

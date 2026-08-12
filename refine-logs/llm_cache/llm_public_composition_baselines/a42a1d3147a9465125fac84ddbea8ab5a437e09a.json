@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user needs the current tax rate for zip code 94102, and the RetrieveUSTaxRate - GetTaxRateByZip API directly provides US tax rates by zip code, making it the most relevant choice for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user needs the current tax rate for zip code 94102, and the RetrieveUSTaxRate - GetTaxRateByZip API directly provides US tax rates by zip code, making it the most relevant choice for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1473,
+    "total_tokens": 1542,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 567,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 761,
+      "total_duration_ms": 652,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

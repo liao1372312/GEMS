@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4281",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.8, \"rationale\": \"This API provides location information and is relevant for querying geocode information for places like parks.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.8,
+    "rationale": "This API provides location information and is relevant for querying geocode information for places like parks."
+  },
+  "usage": {
+    "completion_tokens": 40,
+    "prompt_tokens": 1435,
+    "total_tokens": 1475,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 540,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 224,
+      "service_ttlt_ms": 706,
+      "total_duration_ms": 598,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "record_id": "Technology_response_4586",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice directly supports searching Chuck Norris jokes, matching the subtask better than the semantic top-1 which is about books.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice provides direct math facts about numbers, clearly better matching the subtask than the semantic top-1 which is a generic content search.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice provides direct trivia facts about a specified year, exactly matching the subtask better than the semantic top-1 generic content search.\"},{\"step_id\":4,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1; no change needed.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice directly supports searching Chuck Norris jokes, matching the subtask better than the semantic top-1 which is about books."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice provides direct math facts about numbers, clearly better matching the subtask than the semantic top-1 which is a generic content search."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice provides direct trivia facts about a specified year, exactly matching the subtask better than the semantic top-1 generic content search."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1746,
+    "total_tokens": 1915,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 2599,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 2782,
+      "total_duration_ms": 2677,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

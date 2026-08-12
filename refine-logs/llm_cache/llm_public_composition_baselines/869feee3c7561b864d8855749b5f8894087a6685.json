@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3973",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Google Reviews Scraper API is the only candidate related to business and reviews, suitable for fetching photos of restaurants by their names.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Google Reviews Scraper API is the only candidate related to business and reviews, suitable for fetching photos of restaurants by their names."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1599,
+    "total_tokens": 1647,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 546,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 706,
+      "total_duration_ms": 601,
+      "user_visible_ttft_ms": 99
+    }
+  }
+}

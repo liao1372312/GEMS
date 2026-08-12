@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5221",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide functionality to gather interesting citations related to the word 'celebration'. The available APIs are mostly related to gaming taboo words, number formatting, mobile phone data, finance, location search, or password generation, none of which fit the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide functionality to gather interesting citations related to the word 'celebration'. The available APIs are mostly related to gaming taboo words, number formatting, mobile phone data, finance, location search, or password generation, none of which fit the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1961,
+    "total_tokens": 2039,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 1200,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 295,
+      "service_ttlt_ms": 1370,
+      "total_duration_ms": 1258,
+      "user_visible_ttft_ms": 170
+    }
+  }
+}

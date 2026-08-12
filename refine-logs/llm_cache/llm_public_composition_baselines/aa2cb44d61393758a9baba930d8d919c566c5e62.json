@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5496",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"This API provides automated resistance and support data for tokens 3375 and 3306, matching the user's request for analyzing resistance and support levels.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "This API provides automated resistance and support data for tokens 3375 and 3306, matching the user's request for analyzing resistance and support levels."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1429,
+    "total_tokens": 1480,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 34,
+      "engine_ttft_ms": 110,
+      "engine_ttlt_ms": 1820,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 1456,
+      "service_ttlt_ms": 3162,
+      "total_duration_ms": 3075,
+      "user_visible_ttft_ms": 1362
+    }
+  }
+}

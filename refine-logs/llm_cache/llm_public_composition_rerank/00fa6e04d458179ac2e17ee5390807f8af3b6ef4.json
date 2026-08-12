@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs explicitly mention airplane types, but the user wants airplane types for vacation. The provided APIs mostly relate to gas prices or unrelated domains. Since no API directly matches airplane types, none is ideal. However, given the user request and subtask, no candidate fits well. The best approach is to select none, but since one must be selected, the top-ranked API is chosen by default, though it does not satisfy the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs explicitly mention airplane types, but the user wants airplane types for vacation. The provided APIs mostly relate to gas prices or unrelated domains. Since no API directly matches airplane types, none is ideal. However, given the user request and subtask, no candidate fits well. The best approach is to select none, but since one must be selected, the top-ranked API is chosen by default, though it does not satisfy the subtask."
+  },
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 1414,
+    "total_tokens": 1527,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 30,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 3435,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 30,
+      "service_ttft_ms": 1463,
+      "service_ttlt_ms": 4818,
+      "total_duration_ms": 4720,
+      "user_visible_ttft_ms": 1359
+    }
+  }
+}

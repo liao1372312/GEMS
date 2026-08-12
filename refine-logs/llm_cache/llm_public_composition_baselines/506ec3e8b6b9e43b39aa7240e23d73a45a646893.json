@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4642",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates directly provide lifetime disease risks or nutritional analysis data. However, the 'URL Content Extractor - Search Content' API can be used to search for relevant content on these topics by providing appropriate queries, making it the best available option.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates directly provide lifetime disease risks or nutritional analysis data. However, the 'URL Content Extractor - Search Content' API can be used to search for relevant content on these topics by providing appropriate queries, making it the best available option."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1798,
+    "total_tokens": 1870,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 681,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 172,
+      "service_ttlt_ms": 794,
+      "total_duration_ms": 712,
+      "user_visible_ttft_ms": 82
+    }
+  }
+}

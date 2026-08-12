@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_695",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"FoodieFetch API provides food-related data including popular restaurant information, which is more aligned with popular recipe websites than recipe search by ingredient APIs that require specific ingredients. It is the most relevant among the candidates for fetching popular recipe or food-related website information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "FoodieFetch API provides food-related data including popular restaurant information, which is more aligned with popular recipe websites than recipe search by ingredient APIs that require specific ingredients. It is the most relevant among the candidates for fetching popular recipe or food-related website information."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 2256,
+    "total_tokens": 2323,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1313,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 167,
+      "service_ttlt_ms": 1425,
+      "total_duration_ms": 1341,
+      "user_visible_ttft_ms": 77
+    }
+  }
+}

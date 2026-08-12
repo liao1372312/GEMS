@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2852",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.8, \"rationale\": \"The user needs a detailed recipe for the 'Margarita' cocktail including ingredients and preparation steps. Among the candidates, all are recipe finders by ingredient but limited to specific food categories like icecream, cake, pastry, etc. The first candidate is for icecream recipes by ingredient, which is unrelated to cocktails. However, none of the candidates explicitly support cocktail recipes or searching by recipe name. Given the lack of a direct cocktail recipe API, the best available candidate is the first one, which at least returns recipes with ingredients and instructions, though it is not ideal. No candidate directly supports cocktail recipes or searching by recipe name 'Margarita', so confidence is moderate.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.8,
+    "rationale": "The user needs a detailed recipe for the 'Margarita' cocktail including ingredients and preparation steps. Among the candidates, all are recipe finders by ingredient but limited to specific food categories like icecream, cake, pastry, etc. The first candidate is for icecream recipes by ingredient, which is unrelated to cocktails. However, none of the candidates explicitly support cocktail recipes or searching by recipe name. Given the lack of a direct cocktail recipe API, the best available candidate is the first one, which at least returns recipes with ingredients and instructions, though it is not ideal. No candidate directly supports cocktail recipes or searching by recipe name 'Margarita', so confidence is moderate."
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 2270,
+    "total_tokens": 2428,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 159,
+      "engine_ttlt_ms": 3048,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 273,
+      "service_ttlt_ms": 3158,
+      "total_duration_ms": 3078,
+      "user_visible_ttft_ms": 186
+    }
+  }
+}

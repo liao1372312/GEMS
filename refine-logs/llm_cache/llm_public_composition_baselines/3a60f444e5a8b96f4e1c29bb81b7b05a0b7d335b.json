@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to extract detailed content about nearby restaurants based on the locations of the team-building activities found in task 2, making it suitable for identifying nearby restaurants for a team lunch.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API can be used to extract detailed content about nearby restaurants based on the locations of the team-building activities found in task 2, making it suitable for identifying nearby restaurants for a team lunch."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1910,
+    "total_tokens": 1978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1566,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 1761,
+      "total_duration_ms": 1665,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

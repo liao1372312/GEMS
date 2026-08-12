@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_1920",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Geography - Get Continents' is more relevant to geographic and tourism information than unrelated 'Stars API'.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 'Stars API - Planet list' is unrelated but LLM choice 'Addressr' is specific to Australian addresses, not tourist attractions in Brazil, so it does not clearly improve relevance.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 'Addressr' API is unrelated to image search; LLM choice 'Web Search - spellCheck' is for spell checking, not image search, so neither fits well; keep semantic top-1 by default.\"\n    }\n  ],\n  \"workflow_confidence\": 0.4\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice 'Geography - Get Continents' is more relevant to geographic and tourism information than unrelated 'Stars API'."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 'Stars API - Planet list' is unrelated but LLM choice 'Addressr' is specific to Australian addresses, not tourist attractions in Brazil, so it does not clearly improve relevance."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Semantic top-1 'Addressr' API is unrelated to image search; LLM choice 'Web Search - spellCheck' is for spell checking, not image search, so neither fits well; keep semantic top-1 by default."
+      }
+    ],
+    "workflow_confidence": 0.4
+  },
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 1151,
+    "total_tokens": 1362,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1851,
+      "pre_inference_ms": 156,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 2030,
+      "total_duration_ms": 1880,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

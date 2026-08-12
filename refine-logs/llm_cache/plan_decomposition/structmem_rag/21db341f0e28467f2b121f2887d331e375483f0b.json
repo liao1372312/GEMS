@@ -1,0 +1,68 @@
+{
+  "record_id": "Tourism_response_5444",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of popular tourist attractions in the specified new city, including their names, types, and addresses.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"city name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch recent horse racing statistics for the horse named 'ZANAHIYR' to provide performance details.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"horse name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of popular tourist attractions in the specified new city, including their names, types, and addresses.",
+        "domain": "tourism",
+        "required_inputs": [
+          "city name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch recent horse racing statistics for the horse named 'ZANAHIYR' to provide performance details.",
+        "domain": "sports",
+        "required_inputs": [
+          "horse name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of popular tourist attractions in the specified new city, including their names, types, and addresses.",
+      "domain": "tourism",
+      "required_inputs": [
+        "city name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch recent horse racing statistics for the horse named 'ZANAHIYR' to provide performance details.",
+      "domain": "sports",
+      "required_inputs": [
+        "horse name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 698,
+    "total_tokens": 816,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1156,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 264,
+      "service_ttlt_ms": 1370,
+      "total_duration_ms": 1265,
+      "user_visible_ttft_ms": 150
+    }
+  }
+}

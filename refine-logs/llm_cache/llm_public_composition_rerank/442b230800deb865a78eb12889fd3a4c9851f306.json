@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_492",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.8, \"rationale\": \"The Florida Realty API provides real estate data including cities and property listings, which is relevant for retrieving hotel or accommodation information near landmarks. Although it is specific to Florida, it is the only candidate related to lodging or real estate. Other APIs are unrelated to tourism or accommodations.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.8,
+    "rationale": "The Florida Realty API provides real estate data including cities and property listings, which is relevant for retrieving hotel or accommodation information near landmarks. Although it is specific to Florida, it is the only candidate related to lodging or real estate. Other APIs are unrelated to tourism or accommodations."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1544,
+    "total_tokens": 1620,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 1322,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 186,
+      "service_ttlt_ms": 1434,
+      "total_duration_ms": 1356,
+      "user_visible_ttft_ms": 103
+    }
+  }
+}

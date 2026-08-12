@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3159",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API is specifically designed to find dinner recipes by ingredient, matching the user's request to gather recipes including salmon, quinoa, and asparagus for a healthy dinner menu.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API is specifically designed to find dinner recipes by ingredient, matching the user's request to gather recipes including salmon, quinoa, and asparagus for a healthy dinner menu."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1875,
+    "total_tokens": 1931,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 218,
+      "user_visible_ttft_ms": 101,
+      "total_duration_ms": 788,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 898,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 715,
+      "engine_tbt_ms": 12
+    }
+  }
+}

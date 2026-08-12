@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_700",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The World Time - Timezone for Location API directly provides current time, timezone abbreviation, and daylight savings info for London, matching the user's request perfectly.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The World Time - Timezone for Location API directly provides current time, timezone abbreviation, and daylight savings info for London, matching the user's request perfectly."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1945,
+    "total_tokens": 1997,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 735,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 251,
+      "service_ttlt_ms": 910,
+      "total_duration_ms": 790,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

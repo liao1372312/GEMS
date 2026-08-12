@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7282",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the provided APIs directly relate to retrieving news about artificial intelligence or independent films. However, the highest-ranked API is unrelated to the user's request. Since no suitable API is available for the requested news retrieval, the best choice is to indicate no suitable API found.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the provided APIs directly relate to retrieving news about artificial intelligence or independent films. However, the highest-ranked API is unrelated to the user's request. Since no suitable API is available for the requested news retrieval, the best choice is to indicate no suitable API found."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1610,
+    "total_tokens": 1685,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 817,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 160,
+      "service_ttlt_ms": 938,
+      "total_duration_ms": 851,
+      "user_visible_ttft_ms": 67
+    }
+  }
+}

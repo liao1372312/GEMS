@@ -1,0 +1,60 @@
+{
+  "record_id": "Tourism_response_4653",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve general information about Rome as a travel destination\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch details about a random Roman god\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve general information about Rome as a travel destination",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch details about a random Roman god",
+        "domain": "Tourism",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve general information about Rome as a travel destination",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch details about a random Roman god",
+      "domain": "Tourism",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 175,
+    "total_tokens": 263,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 1051,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 145,
+      "service_ttlt_ms": 1161,
+      "total_duration_ms": 1081,
+      "user_visible_ttft_ms": 59
+    }
+  }
+}

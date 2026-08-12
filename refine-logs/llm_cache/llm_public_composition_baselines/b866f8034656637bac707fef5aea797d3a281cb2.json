@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_569",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"This API matches the subtask of checking recent disasters near Paris by address and date range, which fits the user's request for recent disasters in the vicinity of Paris.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "This API matches the subtask of checking recent disasters near Paris by address and date range, which fits the user's request for recent disasters in the vicinity of Paris."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1785,
+    "total_tokens": 1839,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 598,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 186,
+      "service_ttlt_ms": 723,
+      "total_duration_ms": 635,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

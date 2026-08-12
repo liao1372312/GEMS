@@ -1,0 +1,86 @@
+{
+  "record_id": "Cross_Domain_response_8358",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for books relevant to the upcoming exams\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"exam subjects or topics\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select and purchase the identified books\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"selected book details\", \"payment information\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Generate barcodes for the purchased books\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"purchased book details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for books relevant to the upcoming exams",
+        "domain": "education",
+        "required_inputs": [
+          "exam subjects or topics"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Select and purchase the identified books",
+        "domain": "education",
+        "required_inputs": [
+          "selected book details",
+          "payment information"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Generate barcodes for the purchased books",
+        "domain": "education",
+        "required_inputs": [
+          "purchased book details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for books relevant to the upcoming exams",
+      "domain": "education",
+      "required_inputs": [
+        "exam subjects or topics"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Select and purchase the identified books",
+      "domain": "education",
+      "required_inputs": [
+        "selected book details",
+        "payment information"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Generate barcodes for the purchased books",
+      "domain": "education",
+      "required_inputs": [
+        "purchased book details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 176,
+    "total_tokens": 315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1506,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 216,
+      "service_ttlt_ms": 1673,
+      "total_duration_ms": 1542,
+      "user_visible_ttft_ms": 77
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1083",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The TrueWay Geocoding - Geocode API directly satisfies the subtask of obtaining geocoordinates for a given address and requires the 'address' parameter which is provided ('123 Pine Street, London'). It is specific to geocoding and from the mapping domain, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The TrueWay Geocoding - Geocode API directly satisfies the subtask of obtaining geocoordinates for a given address and requires the 'address' parameter which is provided ('123 Pine Street, London'). It is specific to geocoding and from the mapping domain, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1858,
+    "total_tokens": 1940,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 1054,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 1236,
+      "total_duration_ms": 1108,
+      "user_visible_ttft_ms": 103
+    }
+  }
+}

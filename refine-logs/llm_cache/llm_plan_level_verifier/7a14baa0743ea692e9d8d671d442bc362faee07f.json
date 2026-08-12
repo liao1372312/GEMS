@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_5446",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to vehicle info; LLM choice is related but requires make, model, year, not license plate; no better API available, keep semantic top-1 to avoid breaking workflow.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to trademark checks; LLM choice is social media user data, not trademark availability; no USPTO Trademark API available; keep semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.3\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to vehicle info; LLM choice is related but requires make, model, year, not license plate; no better API available, keep semantic top-1 to avoid breaking workflow."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to trademark checks; LLM choice is social media user data, not trademark availability; no USPTO Trademark API available; keep semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.3
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1251,
+    "total_tokens": 1403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 34,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 5302,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 5448,
+      "total_duration_ms": 5339,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1241",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.95, \"rationale\": \"The Priceline com Provider - Download chains API is from the travel domain and supports hotel-related queries on Priceline, making it the most relevant and specific API for finding hotel deals in New York City for the given dates.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.95,
+    "rationale": "The Priceline com Provider - Download chains API is from the travel domain and supports hotel-related queries on Priceline, making it the most relevant and specific API for finding hotel deals in New York City for the given dates."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1866,
+    "total_tokens": 1930,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 744,
+      "pre_inference_ms": 162,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 292,
+      "service_ttlt_ms": 999,
+      "total_duration_ms": 885,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

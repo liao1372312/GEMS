@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5444",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user specifically requested recent horse racing statistics for the horse named 'ZANAHIYR'. Among the candidates, only the WonderboyAPI relates to racing information, making it the most relevant choice for fulfilling the subtask.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user specifically requested recent horse racing statistics for the horse named 'ZANAHIYR'. Among the candidates, only the WonderboyAPI relates to racing information, making it the most relevant choice for fulfilling the subtask."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1567,
+    "total_tokens": 1634,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 67,
+      "engine_ttft_ms": 3274,
+      "engine_ttlt_ms": 7755,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 67,
+      "service_ttft_ms": 3946,
+      "service_ttlt_ms": 8422,
+      "total_duration_ms": 8322,
+      "user_visible_ttft_ms": 3838
+    }
+  }
+}

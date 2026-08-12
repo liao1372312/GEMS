@@ -1,0 +1,80 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of vegan dishes from the 'List of Foods' API\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a recommended vegan dish from the retrieved list\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"list of vegan dishes\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch a detailed recipe for the selected vegan dish including ingredients, method, and an image\",\n      \"domain\": \"Recipe\",\n      \"required_inputs\": [\"selected vegan dish\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of vegan dishes from the 'List of Foods' API",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a recommended vegan dish from the retrieved list",
+        "domain": "Food",
+        "required_inputs": [
+          "list of vegan dishes"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch a detailed recipe for the selected vegan dish including ingredients, method, and an image",
+        "domain": "Recipe",
+        "required_inputs": [
+          "selected vegan dish"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of vegan dishes from the 'List of Foods' API",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a recommended vegan dish from the retrieved list",
+      "domain": "Food",
+      "required_inputs": [
+        "list of vegan dishes"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch a detailed recipe for the selected vegan dish including ingredients, method, and an image",
+      "domain": "Recipe",
+      "required_inputs": [
+        "selected vegan dish"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 208,
+    "total_tokens": 357,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 2063,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 2178,
+      "total_duration_ms": 2093,
+      "user_visible_ttft_ms": 63
+    }
+  }
+}

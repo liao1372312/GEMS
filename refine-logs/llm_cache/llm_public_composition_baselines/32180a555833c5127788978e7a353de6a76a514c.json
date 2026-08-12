@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3991",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user wants interesting music tracks to feature, so using the 'URL Content Extractor - Search Content' API to search for relevant content is the most suitable option among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user wants interesting music tracks to feature, so using the 'URL Content Extractor - Search Content' API to search for relevant content is the most suitable option among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1611,
+    "total_tokens": 1669,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 59,
+      "engine_ttft_ms": 666,
+      "engine_ttlt_ms": 4096,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 59,
+      "service_ttft_ms": 1302,
+      "service_ttlt_ms": 4728,
+      "total_duration_ms": 4644,
+      "user_visible_ttft_ms": 1211
+    }
+  }
+}

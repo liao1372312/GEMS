@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5446",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants to check the availability of the trademark 'amazon' using the USPTO Trademark API, which aligns with the subtask description. Among the candidates, none explicitly mention USPTO Trademark API, but the closest relevant API for trademark or company name search is the 'Get Companies By SIC Code API - Search Companies by Name' (rank 4) or 'Business and company name API - Search Company By Name' (rank 7). However, these are for company names, not trademarks. Since no direct USPTO Trademark API is listed, the best fit is the TikTok Data API (rank 2) which can check username availability but not trademark. Given the options, none perfectly match the trademark check, but the user specifically wants trademark availability, so no candidate fully matches. Therefore, select rank 1 as it is the highest ranked and most relevant to travel and the user's domain, but confidence is low.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants to check the availability of the trademark 'amazon' using the USPTO Trademark API, which aligns with the subtask description. Among the candidates, none explicitly mention USPTO Trademark API, but the closest relevant API for trademark or company name search is the 'Get Companies By SIC Code API - Search Companies by Name' (rank 4) or 'Business and company name API - Search Company By Name' (rank 7). However, these are for company names, not trademarks. Since no direct USPTO Trademark API is listed, the best fit is the TikTok Data API (rank 2) which can check username availability but not trademark. Given the options, none perfectly match the trademark check, but the user specifically wants trademark availability, so no candidate fully matches. Therefore, select rank 1 as it is the highest ranked and most relevant to travel and the user's domain, but confidence is low."
+  },
+  "usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 1815,
+    "total_tokens": 2022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 2928,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 166,
+      "service_ttlt_ms": 3030,
+      "total_duration_ms": 2957,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

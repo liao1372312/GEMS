@@ -1,0 +1,84 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify cities with excellent air quality suitable for a weekend getaway\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Check availability and book accommodation in the selected city for the weekend\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"weekend dates\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Arrange transportation to and from the selected city for the weekend\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"weekend dates\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Check availability and book accommodation in the selected city for the weekend",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "weekend dates"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Arrange transportation to and from the selected city for the weekend",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "weekend dates"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Check availability and book accommodation in the selected city for the weekend",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "weekend dates"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Arrange transportation to and from the selected city for the weekend",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "weekend dates"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 178,
+    "total_tokens": 331,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 2682,
+      "pre_inference_ms": 155,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 321,
+      "service_ttlt_ms": 2920,
+      "total_duration_ms": 2772,
+      "user_visible_ttft_ms": 165
+    }
+  }
+}

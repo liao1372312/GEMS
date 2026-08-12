@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_809",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"World of Jokes API supports fetching random jokes by category, which can be used to get a manatee joke by specifying the category.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "World of Jokes API supports fetching random jokes by category, which can be used to get a manatee joke by specifying the category."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1367,
+    "total_tokens": 1416,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 518,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 156,
+      "service_ttlt_ms": 611,
+      "total_duration_ms": 543,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2009",
+  "step_id": 10,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Flight Data_v2 API provides travel insights and popular destinations data, which is relevant for suggesting popular tourist attractions in Paris. It is from the travel domain and more specific to city-related travel data than other generic or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Flight Data_v2 API provides travel insights and popular destinations data, which is relevant for suggesting popular tourist attractions in Paris. It is from the travel domain and more specific to city-related travel data than other generic or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1615,
+    "total_tokens": 1683,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 102,
+      "engine_ttlt_ms": 907,
+      "pre_inference_ms": 136,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 307,
+      "service_ttlt_ms": 1104,
+      "total_duration_ms": 977,
+      "user_visible_ttft_ms": 171
+    }
+  }
+}

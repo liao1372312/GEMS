@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3357",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"Candidate 2 provides a time-series endpoint specifically designed to retrieve historical exchange rate data between two specified dates, which fits the requirement to get past week data for USD to EUR.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "Candidate 2 provides a time-series endpoint specifically designed to retrieve historical exchange rate data between two specified dates, which fits the requirement to get past week data for USD to EUR."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1441,
+    "total_tokens": 1498,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 616,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 855,
+      "total_duration_ms": 770,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 1.0, \"rationale\": \"The 'Workout Planner - Get Customized Plan' API directly supports generating workout plans based on parameters like time, target muscle, fitness level, and equipment, which matches the user's request and the subtask of compiling a formatted workout plan.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 1.0,
+    "rationale": "The 'Workout Planner - Get Customized Plan' API directly supports generating workout plans based on parameters like time, target muscle, fitness level, and equipment, which matches the user's request and the subtask of compiling a formatted workout plan."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 2406,
+    "total_tokens": 2474,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 878,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 183,
+      "service_ttlt_ms": 992,
+      "total_duration_ms": 908,
+      "user_visible_ttft_ms": 93
+    }
+  }
+}

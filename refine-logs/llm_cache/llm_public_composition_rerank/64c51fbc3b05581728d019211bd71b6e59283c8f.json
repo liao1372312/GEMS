@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5427",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":7,\"confidence\":0.9,\"rationale\":\"APJOY-Weather Forecast provides daily forecasts including long-term forecasts and accepts location as a parameter, suitable for retrieving a 16-day forecast summary for Blackcomb Mountain.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "APJOY-Weather Forecast provides daily forecasts including long-term forecasts and accepts location as a parameter, suitable for retrieving a 16-day forecast summary for Blackcomb Mountain."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 2102,
+    "total_tokens": 2152,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 29,
+      "engine_ttft_ms": 278,
+      "engine_ttlt_ms": 1711,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 29,
+      "service_ttft_ms": 691,
+      "service_ttlt_ms": 2127,
+      "total_duration_ms": 2044,
+      "user_visible_ttft_ms": 601
+    }
+  }
+}

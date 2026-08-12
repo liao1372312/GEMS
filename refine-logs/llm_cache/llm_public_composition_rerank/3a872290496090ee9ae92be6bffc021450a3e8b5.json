@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_400",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The subtask is to query suitable categories for apparel on Facebook Marketplace. Among the candidates, the Target categories/v2/list API provides a direct way to list all root and sub categories in an eCommerce context, which is relevant for apparel category discovery. Although it is not Facebook Marketplace, it is the closest and most specific eCommerce category listing API available. Other APIs are either deprecated, unrelated to apparel categories, or too generic. The required parameters are none, so it can be called directly.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The subtask is to query suitable categories for apparel on Facebook Marketplace. Among the candidates, the Target categories/v2/list API provides a direct way to list all root and sub categories in an eCommerce context, which is relevant for apparel category discovery. Although it is not Facebook Marketplace, it is the closest and most specific eCommerce category listing API available. Other APIs are either deprecated, unrelated to apparel categories, or too generic. The required parameters are none, so it can be called directly."
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 1672,
+    "total_tokens": 1793,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 2086,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 170,
+      "service_ttlt_ms": 2192,
+      "total_duration_ms": 2115,
+      "user_visible_ttft_ms": 87
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_817",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Melrose Labs Voice API - List allocated numbers provides a list of phone numbers, which is directly relevant to gathering volunteer phone numbers from different countries.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Melrose Labs Voice API - List allocated numbers provides a list of phone numbers, which is directly relevant to gathering volunteer phone numbers from different countries."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1379,
+    "total_tokens": 1431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 976,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 190,
+      "service_ttlt_ms": 1093,
+      "total_duration_ms": 999,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

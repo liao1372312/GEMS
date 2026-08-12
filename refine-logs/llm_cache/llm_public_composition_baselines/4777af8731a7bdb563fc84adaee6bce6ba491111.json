@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4611",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The subtask requires querying the stock market for top losers with parameters market_type and time_period. Candidate rank 2 provides stock financials and movers data, suitable for stock market queries, while others focus on cryptocurrencies or lack required parameters.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask requires querying the stock market for top losers with parameters market_type and time_period. Candidate rank 2 provides stock financials and movers data, suitable for stock market queries, while others focus on cryptocurrencies or lack required parameters."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1372,
+    "total_tokens": 1441,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 725,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 281,
+      "service_ttlt_ms": 954,
+      "total_duration_ms": 837,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

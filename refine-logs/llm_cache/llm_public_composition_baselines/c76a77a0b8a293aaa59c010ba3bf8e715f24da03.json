@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2343",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"This API provides detailed city information by city name, including population and country, which matches the requirement to gather detailed info for the largest cities near Orlando.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "This API provides detailed city information by city name, including population and country, which matches the requirement to gather detailed info for the largest cities near Orlando."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1292,
+    "total_tokens": 1344,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 578,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 189,
+      "service_ttlt_ms": 726,
+      "total_duration_ms": 642,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

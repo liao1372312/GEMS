@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The user requests wisdom quotes related to anger, top-ranked Netflix original series, and today's horoscope in English. Among the candidates, only the 'Sign Hexagram - Get Categories' API relates to wisdom or spiritual content, which can provide wisdom or related insights. Other APIs are unrelated to entertainment or horoscope. Therefore, selecting the Sign Hexagram API is the best fit to partially fulfill the wisdom request. However, no API directly supports Netflix series or horoscope, so this is the best available choice.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The user requests wisdom quotes related to anger, top-ranked Netflix original series, and today's horoscope in English. Among the candidates, only the 'Sign Hexagram - Get Categories' API relates to wisdom or spiritual content, which can provide wisdom or related insights. Other APIs are unrelated to entertainment or horoscope. Therefore, selecting the Sign Hexagram API is the best fit to partially fulfill the wisdom request. However, no API directly supports Netflix series or horoscope, so this is the best available choice."
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 2082,
+    "total_tokens": 2202,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1218,
+      "pre_inference_ms": 145,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 301,
+      "service_ttlt_ms": 1473,
+      "total_duration_ms": 1338,
+      "user_visible_ttft_ms": 156
+    }
+  }
+}

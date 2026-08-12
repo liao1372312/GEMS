@@ -1,0 +1,102 @@
+{
+  "record_id": "Tourism_response_492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Calculate the driving route from New York City to Los Angeles\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Identify major landmarks and attractions along the calculated route\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"route\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Gather details about accommodations near each identified landmark\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"landmarks\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Collect information about restaurants near each identified landmark\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"landmarks\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Calculate the driving route from New York City to Los Angeles",
+        "domain": "Tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Identify major landmarks and attractions along the calculated route",
+        "domain": "Tourism",
+        "required_inputs": [
+          "route"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Gather details about accommodations near each identified landmark",
+        "domain": "Tourism",
+        "required_inputs": [
+          "landmarks"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Collect information about restaurants near each identified landmark",
+        "domain": "Tourism",
+        "required_inputs": [
+          "landmarks"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Calculate the driving route from New York City to Los Angeles",
+      "domain": "Tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Identify major landmarks and attractions along the calculated route",
+      "domain": "Tourism",
+      "required_inputs": [
+        "route"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Gather details about accommodations near each identified landmark",
+      "domain": "Tourism",
+      "required_inputs": [
+        "landmarks"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Collect information about restaurants near each identified landmark",
+      "domain": "Tourism",
+      "required_inputs": [
+        "landmarks"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 327,
+    "total_tokens": 512,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 1849,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 2032,
+      "total_duration_ms": 1938,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

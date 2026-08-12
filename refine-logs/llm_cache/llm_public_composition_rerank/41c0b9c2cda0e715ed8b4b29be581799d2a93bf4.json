@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4098",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The 'Real Estate - property/details' API directly provides detailed information for a specific property using the property_id, which matches the subtask requirement perfectly.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The 'Real Estate - property/details' API directly provides detailed information for a specific property using the property_id, which matches the subtask requirement perfectly."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2393,
+    "total_tokens": 2445,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 115,
+      "engine_ttlt_ms": 703,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 290,
+      "service_ttlt_ms": 863,
+      "total_duration_ms": 756,
+      "user_visible_ttft_ms": 174
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_685",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The Tomba - Enrichment API directly enriches an email address to retrieve the person's full name, position, company, and LinkedIn profile, exactly matching the subtask requirements and using the provided email address as input.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The Tomba - Enrichment API directly enriches an email address to retrieve the person's full name, position, company, and LinkedIn profile, exactly matching the subtask requirements and using the provided email address as input."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1971,
+    "total_tokens": 2037,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 1240,
+      "pre_inference_ms": 135,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 395,
+      "service_ttlt_ms": 1504,
+      "total_duration_ms": 1434,
+      "user_visible_ttft_ms": 260
+    }
+  }
+}

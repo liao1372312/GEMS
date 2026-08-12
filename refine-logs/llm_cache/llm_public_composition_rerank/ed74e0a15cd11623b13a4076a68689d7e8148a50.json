@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5053",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The AG Amazon Data Web Scraper API directly supports searching Amazon products by a search query, which matches the subtask of looking for travel accessories products on Amazon. It requires a searchQuery parameter that can be bound from the subtask input, making it the best fit among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The AG Amazon Data Web Scraper API directly supports searching Amazon products by a search query, which matches the subtask of looking for travel accessories products on Amazon. It requires a searchQuery parameter that can be bound from the subtask input, making it the best fit among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1996,
+    "total_tokens": 2075,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 1564,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 1659,
+      "total_duration_ms": 1590,
+      "user_visible_ttft_ms": 79
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1920",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide information about popular tourist attractions in Rio de Janeiro or Brazil. The available APIs are related to stars, superheroes, airplanes, videos, books, geography (continents and regions), and movies, which do not match the subtask requirement.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide information about popular tourist attractions in Rio de Janeiro or Brazil. The available APIs are related to stars, superheroes, airplanes, videos, books, geography (continents and regions), and movies, which do not match the subtask requirement."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1277,
+    "total_tokens": 1352,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 235,
+      "user_visible_ttft_ms": 118,
+      "total_duration_ms": 1228,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 15,
+      "service_ttlt_ms": 1337,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 1174,
+      "engine_tbt_ms": 15
+    }
+  }
+}

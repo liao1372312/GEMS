@@ -1,0 +1,88 @@
+{
+  "record_id": "Medical_response_2571",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for unique chocolate recipes from ComfyFood including their ingredients and cooking times.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"ingredient\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for unique fruit recipes from ComfyFood including their ingredients and cooking times.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"ingredient\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for unique chocolate recipes from ComfyFood including their ingredients and cooking times.",
+        "domain": "Food",
+        "required_inputs": [
+          "ingredient"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for unique fruit recipes from ComfyFood including their ingredients and cooking times.",
+        "domain": "Food",
+        "required_inputs": [
+          "ingredient"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for unique chocolate recipes from ComfyFood including their ingredients and cooking times.",
+      "domain": "Food",
+      "required_inputs": [
+        "ingredient"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for unique fruit recipes from ComfyFood including their ingredients and cooking times.",
+      "domain": "Food",
+      "required_inputs": [
+        "ingredient"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 2699,
+    "total_tokens": 2803,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 193,
+      "engine_ttlt_ms": 1582,
+      "pre_inference_ms": 189,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 647,
+      "service_ttlt_ms": 1925,
+      "total_duration_ms": 1744,
+      "user_visible_ttft_ms": 459
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for unique recipes from ComfyFood that include chocolate as an ingredient, including their cooking times.",
+        "domain": "Food",
+        "required_inputs": [
+          "ingredient"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for unique recipes from ComfyFood that include fruits as an ingredient, including their cooking times.",
+        "domain": "Food",
+        "required_inputs": [
+          "ingredient"
+        ]
+      }
+    ]
+  }
+}

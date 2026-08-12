@@ -1,0 +1,90 @@
+{
+  "record_id": "Tourism_response_492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the route and major waypoints between New York City and Los Angeles\",\n      \"domain\": \"Mapping\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for interesting landmarks and attractions near the identified route and waypoints\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"route_coordinates\", \"search_radius\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Filter and organize the found landmarks and attractions based on user preferences or popularity\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"landmarks_list\", \"filter_criteria\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the route and major waypoints between New York City and Los Angeles",
+        "domain": "Mapping",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for interesting landmarks and attractions near the identified route and waypoints",
+        "domain": "Tourism",
+        "required_inputs": [
+          "route_coordinates",
+          "search_radius"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Filter and organize the found landmarks and attractions based on user preferences or popularity",
+        "domain": "Tourism",
+        "required_inputs": [
+          "landmarks_list",
+          "filter_criteria"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the route and major waypoints between New York City and Los Angeles",
+      "domain": "Mapping",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for interesting landmarks and attractions near the identified route and waypoints",
+      "domain": "Tourism",
+      "required_inputs": [
+        "route_coordinates",
+        "search_radius"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Filter and organize the found landmarks and attractions based on user preferences or popularity",
+      "domain": "Tourism",
+      "required_inputs": [
+        "landmarks_list",
+        "filter_criteria"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 186,
+    "total_tokens": 352,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1973,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 2159,
+      "total_duration_ms": 2069,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

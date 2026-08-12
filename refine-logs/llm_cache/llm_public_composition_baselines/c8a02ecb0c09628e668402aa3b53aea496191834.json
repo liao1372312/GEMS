@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.95, \"rationale\": \"This API specifically returns financial data including revenue and earnings for a given security symbol like AAPL, matching the subtask to retrieve Apple's income statement.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.95,
+    "rationale": "This API specifically returns financial data including revenue and earnings for a given security symbol like AAPL, matching the subtask to retrieve Apple's income statement."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1263,
+    "total_tokens": 1314,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 465,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 171,
+      "service_ttlt_ms": 594,
+      "total_duration_ms": 511,
+      "user_visible_ttft_ms": 82
+    }
+  }
+}

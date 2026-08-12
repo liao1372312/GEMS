@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2257",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The Webit Image Search API directly supports searching for images with a query parameter, which fits the subtask of searching for images of successful charity events. It is specific to image search and requires a query parameter that can be set to 'successful charity events' or similar, making it the best fit among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The Webit Image Search API directly supports searching for images with a query parameter, which fits the subtask of searching for images of successful charity events. It is specific to image search and requires a query parameter that can be set to 'successful charity events' or similar, making it the best fit among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1680,
+    "total_tokens": 1765,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 86,
+      "engine_ttlt_ms": 1445,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 255,
+      "service_ttlt_ms": 1610,
+      "total_duration_ms": 1507,
+      "user_visible_ttft_ms": 135
+    }
+  }
+}

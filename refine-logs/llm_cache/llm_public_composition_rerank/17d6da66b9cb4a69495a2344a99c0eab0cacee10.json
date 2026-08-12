@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6762",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask is to generate movie-related search suggestions using a keyword. Among the candidates, only the 'yiwugo product data - search shops' and 'search products' APIs accept a keyword parameter, but they are eCommerce APIs unrelated to movies. However, no other API is related to movies or entertainment. Given the lack of a better option, the 'yiwugo product data - search shops' API can accept a keyword and generate search suggestions, though it is not ideal. It is selected because it can bind the required 'keyword' parameter and produce search suggestions, albeit in an unrelated domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to generate movie-related search suggestions using a keyword. Among the candidates, only the 'yiwugo product data - search shops' and 'search products' APIs accept a keyword parameter, but they are eCommerce APIs unrelated to movies. However, no other API is related to movies or entertainment. Given the lack of a better option, the 'yiwugo product data - search shops' API can accept a keyword and generate search suggestions, though it is not ideal. It is selected because it can bind the required 'keyword' parameter and produce search suggestions, albeit in an unrelated domain."
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 2055,
+    "total_tokens": 2199,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 25,
+      "engine_ttft_ms": 93,
+      "engine_ttlt_ms": 3694,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 25,
+      "service_ttft_ms": 1616,
+      "service_ttlt_ms": 5212,
+      "total_duration_ms": 5129,
+      "user_visible_ttft_ms": 1524
+    }
+  }
+}

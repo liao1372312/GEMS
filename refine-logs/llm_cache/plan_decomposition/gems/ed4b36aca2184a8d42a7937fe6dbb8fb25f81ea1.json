@@ -1,0 +1,57 @@
+{
+  "record_id": "Tourism_response_492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify major landmarks and attractions between New York City and Los Angeles.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify major landmarks and attractions between New York City and Los Angeles.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify major landmarks and attractions between New York City and Los Angeles.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 2299,
+    "total_tokens": 2359,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 87,
+      "engine_ttlt_ms": 927,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 1047,
+      "total_duration_ms": 961,
+      "user_visible_ttft_ms": 118
+    }
+  },
+  "goal_hints": [
+    "I'm planning a road trip with my friends and we need to find some interesting landmarks and attractions along the way between New York City and Los Angeles."
+  ]
+}

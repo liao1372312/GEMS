@@ -1,0 +1,51 @@
+{
+  "record_id": "Tourism_response_4653",
+  "raw": "{\"steps\":[{\"id\":1,\"description\":\"Get information about a random Roman god to learn about them for the trip to Rome.\",\"domain\":\"Database\",\"required_inputs\":[]}]}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Get information about a random Roman god to learn about them for the trip to Rome.",
+        "domain": "Database",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Get information about a random Roman god to learn about them for the trip to Rome.",
+      "domain": "Database",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 37,
+    "prompt_tokens": 2293,
+    "total_tokens": 2330,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 457,
+      "pre_inference_ms": 151,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 659,
+      "total_duration_ms": 518,
+      "user_visible_ttft_ms": 107
+    }
+  },
+  "goal_hints": [
+    "I am planning a trip to Rome and I want to learn about a random Roman god."
+  ]
+}

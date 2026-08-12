@@ -1,0 +1,78 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for product details using the barcode '194574942221'.\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"barcode\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"List stores within a 25-mile radius of location (latitude: 33.9733, longitude: -118.2487) that offer the product with barcode '194574942221'.\",\n      \"domain\": \"eCommerce\",\n      \"required_inputs\": [\"latitude\", \"longitude\", \"radius\", \"product_barcode\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for product details using the barcode '194574942221'.",
+        "domain": "shopping",
+        "required_inputs": [
+          "barcode"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "List stores within a 25-mile radius of location (latitude: 33.9733, longitude: -118.2487) that offer the product with barcode '194574942221'.",
+        "domain": "eCommerce",
+        "required_inputs": [
+          "latitude",
+          "longitude",
+          "radius",
+          "product_barcode"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for product details using the barcode '194574942221'.",
+      "domain": "shopping",
+      "required_inputs": [
+        "barcode"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "List stores within a 25-mile radius of location (latitude: 33.9733, longitude: -118.2487) that offer the product with barcode '194574942221'.",
+      "domain": "eCommerce",
+      "required_inputs": [
+        "latitude",
+        "longitude",
+        "radius",
+        "product_barcode"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 2659,
+    "total_tokens": 2797,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 1644,
+      "pre_inference_ms": 168,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 353,
+      "service_ttlt_ms": 1917,
+      "total_duration_ms": 1754,
+      "user_visible_ttft_ms": 185
+    }
+  },
+  "goal_hints": [
+    "I am planning a birthday party for my friend and I want to buy some unique gifts. Can you search for products using the barcode '194574942221' and provide me with the details of the products",
+    "I would like to know the stores near me that offer these products. Please list the stores within a 25-mile radius of my location at longitude '-118.2487' and latitude '33.9733'"
+  ]
+}

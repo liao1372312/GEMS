@@ -1,0 +1,93 @@
+{
+  "record_id": "Finance_response_4774",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Analyze the working days in the month of October for the friend's company from October 1st to October 31st using the appropriate country calendar\",\n      \"domain\": \"Events\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"country_code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Add 2 hours of working time to the start date of October 1st at 9:00 AM for the friend's company\",\n      \"domain\": \"Events\",\n      \"required_inputs\": [\"start_date\", \"start_time\", \"country_code\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Evaluate the expression '($1500 - $100)'\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Analyze the working days in the month of October for the friend's company from October 1st to October 31st using the appropriate country calendar",
+        "domain": "Events",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "country_code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Add 2 hours of working time to the start date of October 1st at 9:00 AM for the friend's company",
+        "domain": "Events",
+        "required_inputs": [
+          "start_date",
+          "start_time",
+          "country_code"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Evaluate the expression '($1500 - $100)'",
+        "domain": "Finance",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Analyze the working days in the month of October for the friend's company from October 1st to October 31st using the appropriate country calendar",
+      "domain": "Events",
+      "required_inputs": [
+        "start_date",
+        "end_date",
+        "country_code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Add 2 hours of working time to the start date of October 1st at 9:00 AM for the friend's company",
+      "domain": "Events",
+      "required_inputs": [
+        "start_date",
+        "start_time",
+        "country_code"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Evaluate the expression '($1500 - $100)'",
+      "domain": "Finance",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 2741,
+    "total_tokens": 2928,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1280,
+      "pre_inference_ms": 148,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 330,
+      "service_ttlt_ms": 1521,
+      "total_duration_ms": 1391,
+      "user_visible_ttft_ms": 182
+    }
+  },
+  "goal_hints": [
+    "Can you analyze the working days in the month of October for my friend's company",
+    "The start date is October 1st and the end date is October 31st",
+    "add 2 hours of working time to the start date of October 1st at 9:00 AM. Evaluate the expression '($1500 - $100)'"
+  ]
+}

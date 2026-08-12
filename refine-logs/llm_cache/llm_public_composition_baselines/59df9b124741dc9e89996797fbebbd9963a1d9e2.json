@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5446",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"Candidate 2 supports checking the availability of the trademark 'amazon' by accepting a 'username' parameter, which aligns with the trademark name check intent in the user's subtask.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "Candidate 2 supports checking the availability of the trademark 'amazon' by accepting a 'username' parameter, which aligns with the trademark name check intent in the user's subtask."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1808,
+    "total_tokens": 1865,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 746,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 906,
+      "total_duration_ms": 806,
+      "user_visible_ttft_ms": 159
+    }
+  }
+}

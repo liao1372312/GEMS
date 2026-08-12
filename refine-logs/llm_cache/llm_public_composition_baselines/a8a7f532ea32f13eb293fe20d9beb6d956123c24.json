@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7245",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Instagram Cheapest - userinfo API can provide real-time social media information about a famous TV personality by username, which is relevant for inviting a guest.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Instagram Cheapest - userinfo API can provide real-time social media information about a famous TV personality by username, which is relevant for inviting a guest."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1571,
+    "total_tokens": 1623,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 630,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 223,
+      "service_ttlt_ms": 814,
+      "total_duration_ms": 741,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9541",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first API is unrelated to movies or IMDb data, and no other candidate APIs focus on movie rankings. None of the candidates specifically provide IMDb top-rated drama movie charts or match the domain 'entertainment.' However, no suitable API is available in the candidate list. Hence, no exact match from provided candidates. The best approach would be to choose none, but since a choice is required, the closest domain-wise is none. No candidate matches the intent and required inputs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first API is unrelated to movies or IMDb data, and no other candidate APIs focus on movie rankings. None of the candidates specifically provide IMDb top-rated drama movie charts or match the domain 'entertainment.' However, no suitable API is available in the candidate list. Hence, no exact match from provided candidates. The best approach would be to choose none, but since a choice is required, the closest domain-wise is none. No candidate matches the intent and required inputs."
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 2557,
+    "total_tokens": 2674,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 94,
+      "engine_ttlt_ms": 1853,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 350,
+      "service_ttlt_ms": 2090,
+      "total_duration_ms": 1983,
+      "user_visible_ttft_ms": 229
+    }
+  }
+}

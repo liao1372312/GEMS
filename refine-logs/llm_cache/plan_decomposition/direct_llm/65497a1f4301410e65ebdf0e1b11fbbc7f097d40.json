@@ -1,0 +1,112 @@
+{
+  "record_id": "Medical_response_3942",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of cake names and images for selection\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the detailed recipe for the cake with ID 5\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"cake_id\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get details of the restaurant with ID 56c467cb7b0d464811a42017\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"restaurant_id\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Extract the address from the restaurant details\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"restaurant_details\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Obtain prediction and other data for the image with the given URL\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"image_url\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of cake names and images for selection",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the detailed recipe for the cake with ID 5",
+        "domain": "Food",
+        "required_inputs": [
+          "cake_id"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get details of the restaurant with ID 56c467cb7b0d464811a42017",
+        "domain": "Food",
+        "required_inputs": [
+          "restaurant_id"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Extract the address from the restaurant details",
+        "domain": "Food",
+        "required_inputs": [
+          "restaurant_details"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Obtain prediction and other data for the image with the given URL",
+        "domain": "Medical",
+        "required_inputs": [
+          "image_url"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of cake names and images for selection",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the detailed recipe for the cake with ID 5",
+      "domain": "Food",
+      "required_inputs": [
+        "cake_id"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get details of the restaurant with ID 56c467cb7b0d464811a42017",
+      "domain": "Food",
+      "required_inputs": [
+        "restaurant_id"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Extract the address from the restaurant details",
+      "domain": "Food",
+      "required_inputs": [
+        "restaurant_details"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Obtain prediction and other data for the image with the given URL",
+      "domain": "Medical",
+      "required_inputs": [
+        "image_url"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 234,
+    "prompt_tokens": 269,
+    "total_tokens": 503,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 2904,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 182,
+      "service_ttlt_ms": 3015,
+      "total_duration_ms": 2927,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

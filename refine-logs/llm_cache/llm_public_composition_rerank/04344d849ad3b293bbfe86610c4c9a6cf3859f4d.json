@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4210",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The subtask requires extracting match timings, participating teams, and odds from basketball match data. The WNBA API - WNBA ScoreBoard (rank 6) provides basketball scoreboard data including scores and stats for a specified date, which is directly relevant and specific to basketball matches. It is more specific than generic football or unrelated APIs and aligns with the user's intent for basketball match details and odds.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The subtask requires extracting match timings, participating teams, and odds from basketball match data. The WNBA API - WNBA ScoreBoard (rank 6) provides basketball scoreboard data including scores and stats for a specified date, which is directly relevant and specific to basketball matches. It is more specific than generic football or unrelated APIs and aligns with the user's intent for basketball match details and odds."
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 2295,
+    "total_tokens": 2395,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 32,
+      "engine_ttft_ms": 106,
+      "engine_ttlt_ms": 3349,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 32,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 3473,
+      "total_duration_ms": 3372,
+      "user_visible_ttft_ms": 128
+    }
+  }
+}

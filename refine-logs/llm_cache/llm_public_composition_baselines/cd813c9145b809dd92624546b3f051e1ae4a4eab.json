@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3624",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"This API provides reliable historical exchange rates data dating back to 1999, which covers the requested period starting from 2019-01-01, and supports multiple currencies including USD, EUR, and GBP.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "This API provides reliable historical exchange rates data dating back to 1999, which covers the requested period starting from 2019-01-01, and supports multiple currencies including USD, EUR, and GBP."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1353,
+    "total_tokens": 1417,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 595,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 154,
+      "service_ttlt_ms": 705,
+      "total_duration_ms": 626,
+      "user_visible_ttft_ms": 67
+    }
+  }
+}

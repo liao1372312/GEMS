@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3009",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Currency_v3 - Latest Rates API provides current exchange rates for all supported currencies, which aligns well with the user's request for current exchange rates for different currencies including EUR to USD.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Currency_v3 - Latest Rates API provides current exchange rates for all supported currencies, which aligns well with the user's request for current exchange rates for different currencies including EUR to USD."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1061,
+    "total_tokens": 1119,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 145,
+      "engine_ttlt_ms": 541,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 5,
+      "service_ttft_ms": 470,
+      "service_ttlt_ms": 738,
+      "total_duration_ms": 649,
+      "user_visible_ttft_ms": 372
+    }
+  }
+}

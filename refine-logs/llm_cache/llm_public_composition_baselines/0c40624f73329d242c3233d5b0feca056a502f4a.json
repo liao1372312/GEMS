@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4306",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user specifically requested news related to India from the India Today Unofficial platform, which matches the description of the API ranked 2. This API provides access to the latest news from India Today, making it the most relevant choice for the user's primary request.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user specifically requested news related to India from the India Today Unofficial platform, which matches the description of the API ranked 2. This API provides access to the latest news from India Today, making it the most relevant choice for the user's primary request."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1452,
+    "total_tokens": 1525,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 61,
+      "engine_ttft_ms": 1033,
+      "engine_ttlt_ms": 5504,
+      "pre_inference_ms": 140,
+      "service_tbt_ms": 61,
+      "service_ttft_ms": 1749,
+      "service_ttlt_ms": 6215,
+      "total_duration_ms": 6087,
+      "user_visible_ttft_ms": 1609
+    }
+  }
+}

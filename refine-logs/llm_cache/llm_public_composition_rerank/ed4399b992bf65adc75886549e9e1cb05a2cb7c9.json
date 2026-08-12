@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The 'Recipe Finder - dinner/ingredient' API directly supports searching for dinner recipes by ingredient, which aligns with the user's request for a vegan dinner dish. Although it requires an ingredient parameter, it can be set to a vegan-friendly ingredient to find suitable recipes. It is more specific than generic search APIs and is in the correct food domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'Recipe Finder - dinner/ingredient' API directly supports searching for dinner recipes by ingredient, which aligns with the user's request for a vegan dinner dish. Although it requires an ingredient parameter, it can be set to a vegan-friendly ingredient to find suitable recipes. It is more specific than generic search APIs and is in the correct food domain."
+  },
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 2141,
+    "total_tokens": 2231,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 34,
+      "engine_ttft_ms": 115,
+      "engine_ttlt_ms": 3165,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 3264,
+      "total_duration_ms": 3186,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

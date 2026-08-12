@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7901",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants to know about Rocket League tournaments in Europe, which is a gaming-related query. Among the candidates, none directly provide gaming tournament info, but the highest-ranked API is a geocoding API unrelated to gaming. However, no gaming-specific API is available. Given the subtask is about Rocket League tournaments in Europe, and no suitable API is present, the best choice is to select the top-ranked API for potential location-related info, though confidence is low.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants to know about Rocket League tournaments in Europe, which is a gaming-related query. Among the candidates, none directly provide gaming tournament info, but the highest-ranked API is a geocoding API unrelated to gaming. However, no gaming-specific API is available. Given the subtask is about Rocket League tournaments in Europe, and no suitable API is present, the best choice is to select the top-ranked API for potential location-related info, though confidence is low."
+  },
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 1742,
+    "total_tokens": 1858,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1252,
+      "pre_inference_ms": 175,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 316,
+      "service_ttlt_ms": 1526,
+      "total_duration_ms": 1364,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

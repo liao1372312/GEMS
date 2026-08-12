@@ -1,0 +1,112 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the list of stock tickers available for comparison using a comprehensive stock listing API.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the minimum trading values for each selected stock ticker over the specified timeframe using a time series statistics API.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"tickers\", \"timeframe\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch or calculate the price differences for the selected stock tickers over the specified timeframe using the same or complementary time series statistics API.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"tickers\", \"timeframe\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the list of stock tickers available for comparison using a comprehensive stock listing API.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the minimum trading values for each selected stock ticker over the specified timeframe using a time series statistics API.",
+        "domain": "Finance",
+        "required_inputs": [
+          "tickers",
+          "timeframe"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch or calculate the price differences for the selected stock tickers over the specified timeframe using the same or complementary time series statistics API.",
+        "domain": "Finance",
+        "required_inputs": [
+          "tickers",
+          "timeframe"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the list of stock tickers available for comparison using a comprehensive stock listing API.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the minimum trading values for each selected stock ticker over the specified timeframe using a time series statistics API.",
+      "domain": "Finance",
+      "required_inputs": [
+        "tickers",
+        "timeframe"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch or calculate the price differences for the selected stock tickers over the specified timeframe using the same or complementary time series statistics API.",
+      "domain": "Finance",
+      "required_inputs": [
+        "tickers",
+        "timeframe"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 2106,
+    "total_tokens": 2281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 25,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 4458,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 25,
+      "service_ttft_ms": 292,
+      "service_ttlt_ms": 4684,
+      "total_duration_ms": 4573,
+      "user_visible_ttft_ms": 168
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the list of stock tickers to identify the stocks for comparison.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the minimum trading values for each selected stock ticker over the desired timeframe.",
+        "domain": "Finance",
+        "required_inputs": [
+          "tickers",
+          "timeframe"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate or fetch the price differences for the selected stocks over the specified timeframe.",
+        "domain": "Finance",
+        "required_inputs": [
+          "tickers",
+          "timeframe"
+        ]
+      }
+    ]
+  }
+}

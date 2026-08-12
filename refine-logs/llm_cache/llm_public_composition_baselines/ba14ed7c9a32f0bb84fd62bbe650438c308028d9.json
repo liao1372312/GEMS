@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The top-ranked API specifically provides the cash flow statement for Apple Inc. (AAPL) as required by the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The top-ranked API specifically provides the cash flow statement for Apple Inc. (AAPL) as required by the subtask."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1436,
+    "total_tokens": 1483,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 424,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 196,
+      "service_ttlt_ms": 563,
+      "total_duration_ms": 469,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The Workout Planner API directly matches the need to generate a customized leg workout plan for a beginner with gym access and a 45-minute duration.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The Workout Planner API directly matches the need to generate a customized leg workout plan for a beginner with gym access and a 45-minute duration."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 2084,
+    "total_tokens": 2134,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 547,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 301,
+      "service_ttlt_ms": 792,
+      "total_duration_ms": 705,
+      "user_visible_ttft_ms": 204
+    }
+  }
+}

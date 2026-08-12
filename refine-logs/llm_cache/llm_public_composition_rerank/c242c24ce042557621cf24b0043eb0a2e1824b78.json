@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5084",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The 'Shazam - Top Track by Country' API directly provides top tracks by country, which fits the subtask of fetching top Indian songs. It requires 'country_code' and 'limit' parameters, which can be set to 'IN' and 10 respectively. Although it does not explicitly mention date filtering, it is the most specific and relevant API for top songs by country compared to others.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The 'Shazam - Top Track by Country' API directly provides top tracks by country, which fits the subtask of fetching top Indian songs. It requires 'country_code' and 'limit' parameters, which can be set to 'IN' and 10 respectively. Although it does not explicitly mention date filtering, it is the most specific and relevant API for top songs by country compared to others."
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 2001,
+    "total_tokens": 2103,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1024,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 324,
+      "service_ttlt_ms": 1317,
+      "total_duration_ms": 1178,
+      "user_visible_ttft_ms": 182
+    }
+  }
+}

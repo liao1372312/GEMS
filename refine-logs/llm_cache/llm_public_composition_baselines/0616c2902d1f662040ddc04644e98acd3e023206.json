@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3612",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Geography - Get Continents API provides information about continents and is likely to include data about countries in Europe, which fits the request to retrieve a list of European countries with their capitals and population.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Geography - Get Continents API provides information about continents and is likely to include data about countries in Europe, which fits the request to retrieve a list of European countries with their capitals and population."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1741,
+    "total_tokens": 1802,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1056,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 156,
+      "service_ttlt_ms": 1159,
+      "total_duration_ms": 1088,
+      "user_visible_ttft_ms": 77
+    }
+  }
+}

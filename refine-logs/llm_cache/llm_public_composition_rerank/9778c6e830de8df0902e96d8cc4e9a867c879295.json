@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_77",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":5,\"confidence\":0.9,\"rationale\":\"The 'Stock And Options - Options' API directly returns stock and options data for a given ticker, including Apple (AAPL). It supports the required input 'ticker' and is specific to options data, making it suitable to fetch verticals for Apple's stock as requested.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The 'Stock And Options - Options' API directly returns stock and options data for a given ticker, including Apple (AAPL). It supports the required input 'ticker' and is specific to options data, making it suitable to fetch verticals for Apple's stock as requested."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1648,
+    "total_tokens": 1719,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 1307,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 1509,
+      "total_duration_ms": 1415,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

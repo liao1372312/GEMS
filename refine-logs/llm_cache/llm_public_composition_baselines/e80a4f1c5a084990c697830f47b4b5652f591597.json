@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_883",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request is to compile and format top songs with details including artist, duration, and genre. Among the candidates, only the Youtube Videos API is related to media content and can provide video/song details. Other APIs are unrelated to music or song data.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request is to compile and format top songs with details including artist, duration, and genre. Among the candidates, only the Youtube Videos API is related to media content and can provide video/song details. Other APIs are unrelated to music or song data."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1282,
+    "total_tokens": 1355,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 754,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1005,
+      "total_duration_ms": 865,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

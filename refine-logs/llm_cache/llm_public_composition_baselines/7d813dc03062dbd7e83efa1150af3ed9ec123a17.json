@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_761",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The subtask is to retrieve the top NFT collections ranked by volume and sales, and candidate rank 3 specifically provides top collections this month, matching the subtask intent and domain.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The subtask is to retrieve the top NFT collections ranked by volume and sales, and candidate rank 3 specifically provides top collections this month, matching the subtask intent and domain."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1065,
+    "total_tokens": 1123,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 777,
+      "pre_inference_ms": 309,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 469,
+      "service_ttlt_ms": 1294,
+      "total_duration_ms": 1013,
+      "user_visible_ttft_ms": 160
+    }
+  }
+}

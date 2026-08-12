@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3973",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The 'Google Reviews Scraper - SearchBusiness' API directly supports searching businesses (such as restaurants) by keyword and returns reviews and ratings, which aligns well with the subtask of finding top-ranked restaurants in San Francisco. It accepts a 'keyword' parameter that can be bound to 'San Francisco restaurants' or similar, fulfilling the required inputs. Other APIs are unrelated or do not provide restaurant-specific data.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The 'Google Reviews Scraper - SearchBusiness' API directly supports searching businesses (such as restaurants) by keyword and returns reviews and ratings, which aligns well with the subtask of finding top-ranked restaurants in San Francisco. It accepts a 'keyword' parameter that can be bound to 'San Francisco restaurants' or similar, fulfilling the required inputs. Other APIs are unrelated or do not provide restaurant-specific data."
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1948,
+    "total_tokens": 2051,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 102,
+      "engine_ttlt_ms": 1905,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 2074,
+      "total_duration_ms": 1986,
+      "user_visible_ttft_ms": 182
+    }
+  }
+}

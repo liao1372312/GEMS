@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_79",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Target.Com Product Details API provides real-time product data including nutritional information, which is suitable for analyzing snack nutritional data and suggesting healthier alternatives.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Target.Com Product Details API provides real-time product data including nutritional information, which is suitable for analyzing snack nutritional data and suggesting healthier alternatives."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1349,
+    "total_tokens": 1399,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 592,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 268,
+      "service_ttlt_ms": 823,
+      "total_duration_ms": 701,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_700",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The TimeZoneDB API provides local time, timezone abbreviation, daylight saving info, and can be queried by timezone name such as 'Europe/London', which directly matches the user's request for current date/time and timezone details for London.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The TimeZoneDB API provides local time, timezone abbreviation, daylight saving info, and can be queried by timezone name such as 'Europe/London', which directly matches the user's request for current date/time and timezone details for London."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1733,
+    "total_tokens": 1801,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1201,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 1432,
+      "total_duration_ms": 1318,
+      "user_visible_ttft_ms": 107
+    }
+  }
+}

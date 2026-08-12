@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3815",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The Shazam API can provide tracks by artists, potentially including songs about teamwork and collaboration, which matches part of the user request. However, no candidate directly provides mathematical facts about the number 2023, so this is the best fit for the music part.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.8,
+    "rationale": "The Shazam API can provide tracks by artists, potentially including songs about teamwork and collaboration, which matches part of the user request. However, no candidate directly provides mathematical facts about the number 2023, so this is the best fit for the music part."
+  },
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 1713,
+    "total_tokens": 1787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 29,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 2235,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 31,
+      "service_ttft_ms": 228,
+      "service_ttlt_ms": 2458,
+      "total_duration_ms": 2361,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

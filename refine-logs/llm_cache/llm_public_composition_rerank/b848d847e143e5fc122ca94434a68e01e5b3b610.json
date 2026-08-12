@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9517",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide NBA team or player data; no suitable API found for fetching NBA teams' player lists.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide NBA team or player data; no suitable API found for fetching NBA teams' player lists."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1864,
+    "total_tokens": 1910,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 878,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 1022,
+      "total_duration_ms": 910,
+      "user_visible_ttft_ms": 96
+    }
+  }
+}

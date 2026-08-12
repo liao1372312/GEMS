@@ -1,0 +1,68 @@
+{
+  "record_id": "Tourism_response_91",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find popular beach resorts with family-friendly amenities\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"destination region or country\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Identify water sports activities available near the suggested beach resorts\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location of the beach resorts\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find popular beach resorts with family-friendly amenities",
+        "domain": "Tourism",
+        "required_inputs": [
+          "destination region or country"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Identify water sports activities available near the suggested beach resorts",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location of the beach resorts"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find popular beach resorts with family-friendly amenities",
+      "domain": "Tourism",
+      "required_inputs": [
+        "destination region or country"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Identify water sports activities available near the suggested beach resorts",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location of the beach resorts"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 197,
+    "total_tokens": 298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1192,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 440,
+      "service_ttlt_ms": 1587,
+      "total_duration_ms": 1514,
+      "user_visible_ttft_ms": 358
+    }
+  }
+}

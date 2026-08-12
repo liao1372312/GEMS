@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API is related to a travel blog, matching the domain and context of the SEO analysis request for a travel blog, making it the most relevant candidate.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API is related to a travel blog, matching the domain and context of the SEO analysis request for a travel blog, making it the most relevant candidate."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1138,
+    "total_tokens": 1193,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 501,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 626,
+      "total_duration_ms": 532,
+      "user_visible_ttft_ms": 98
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 7,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The 'climate data - Get climate data by lat/lon or Key' API is best suited for fetching historical weather records for a specific location like Paris, as it provides climate data worldwide based on location coordinates or key.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The 'climate data - Get climate data by lat/lon or Key' API is best suited for fetching historical weather records for a specific location like Paris, as it provides climate data worldwide based on location coordinates or key."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1514,
+    "total_tokens": 1581,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 628,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 226,
+      "service_ttlt_ms": 777,
+      "total_duration_ms": 688,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

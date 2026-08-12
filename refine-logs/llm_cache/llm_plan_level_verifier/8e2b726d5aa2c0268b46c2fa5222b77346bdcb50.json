@@ -1,0 +1,50 @@
+{
+  "record_id": "Cross_Domain_response_6831",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API matches the step intent of querying trending music charts; semantic top-1 and LLM choice are the same unrelated eCommerce API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API relates to artist info from song IDs; semantic top-1 and LLM choice are the same unrelated geocoding API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API relates to querying latest artist releases; semantic top-1 and LLM choice are the same unrelated geocoding API.\"\n    }\n  ],\n  \"workflow_confidence\": 0\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "No candidate API matches the step intent of querying trending music charts; semantic top-1 and LLM choice are the same unrelated eCommerce API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "No candidate API relates to artist info from song IDs; semantic top-1 and LLM choice are the same unrelated geocoding API."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "No candidate API relates to querying latest artist releases; semantic top-1 and LLM choice are the same unrelated geocoding API."
+      }
+    ],
+    "workflow_confidence": 0
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 1662,
+    "total_tokens": 1841,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 3284,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 3436,
+      "total_duration_ms": 3329,
+      "user_visible_ttft_ms": 104
+    }
+  }
+}

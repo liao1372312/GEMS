@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_7901",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the current list of free games available on the Epic Games Store.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the schedule of upcoming Rocket League tournaments in the Europe region.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"region: Europe\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the current list of free games available on the Epic Games Store.",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the schedule of upcoming Rocket League tournaments in the Europe region.",
+        "domain": "gaming",
+        "required_inputs": [
+          "region: Europe"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the current list of free games available on the Epic Games Store.",
+      "domain": "gaming",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the schedule of upcoming Rocket League tournaments in the Europe region.",
+      "domain": "gaming",
+      "required_inputs": [
+        "region: Europe"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 722,
+    "total_tokens": 821,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 2278,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 174,
+      "service_ttlt_ms": 2382,
+      "total_duration_ms": 2305,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

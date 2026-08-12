@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_808",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":7,\"confidence\":0.9,\"rationale\":\"Skyscanner_v2 - Search Place API is in the travel domain and supports searching places to get entityId needed for hotel search, which aligns well with the subtask of finding hotels in Sydney. It accepts location input and is more specific to travel and accommodation than generic search or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "Skyscanner_v2 - Search Place API is in the travel domain and supports searching places to get entityId needed for hotel search, which aligns well with the subtask of finding hotels in Sydney. It accepts location input and is more specific to travel and accommodation than generic search or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1928,
+    "total_tokens": 2004,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 1326,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 1501,
+      "total_duration_ms": 1413,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

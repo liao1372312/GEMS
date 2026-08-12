@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3612",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The 'Geography - Get Continents' API provides information about continents and likely includes countries within them, which is relevant to retrieving countries in Europe. It requires no parameters and is domain-appropriate for geographic data, making it suitable for listing European countries with their capitals and populations. Other APIs are either unrelated, focused on Africa, or require country-specific input, so this is the best fit.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The 'Geography - Get Continents' API provides information about continents and likely includes countries within them, which is relevant to retrieving countries in Europe. It requires no parameters and is domain-appropriate for geographic data, making it suitable for listing European countries with their capitals and populations. Other APIs are either unrelated, focused on Africa, or require country-specific input, so this is the best fit."
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 2022,
+    "total_tokens": 2118,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 2244,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 303,
+      "service_ttlt_ms": 2461,
+      "total_duration_ms": 2383,
+      "user_visible_ttft_ms": 217
+    }
+  }
+}

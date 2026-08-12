@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4731",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate is a social media data API that supports real-time user search by keyword, which can be used to gather news and updates about competitors in the food industry by searching relevant keywords. It matches the subtask of gathering competitor news best among the given options.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate is a social media data API that supports real-time user search by keyword, which can be used to gather news and updates about competitors in the food industry by searching relevant keywords. It matches the subtask of gathering competitor news best among the given options."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1839,
+    "total_tokens": 1915,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1358,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 182,
+      "service_ttlt_ms": 1495,
+      "total_duration_ms": 1400,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3978",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The subtask is to fetch a list of cocktails including their names and IDs from The Cocktail DB, and candidate 1 matches this exactly with no required parameters.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The subtask is to fetch a list of cocktails including their names and IDs from The Cocktail DB, and candidate 1 matches this exactly with no required parameters."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1293,
+    "total_tokens": 1347,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 573,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 354,
+      "service_ttlt_ms": 863,
+      "total_duration_ms": 756,
+      "user_visible_ttft_ms": 237
+    }
+  }
+}

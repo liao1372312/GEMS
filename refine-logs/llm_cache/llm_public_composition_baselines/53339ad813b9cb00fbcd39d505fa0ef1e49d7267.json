@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Ambee Air Quality API provides real-time air quality data for a specified city, which is relevant to current climate data for Madrid and requires the city name as input.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Ambee Air Quality API provides real-time air quality data for a specified city, which is relevant to current climate data for Madrid and requires the city name as input."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1626,
+    "total_tokens": 1682,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 556,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 416,
+      "service_ttlt_ms": 927,
+      "total_duration_ms": 791,
+      "user_visible_ttft_ms": 271
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5364",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The user request is to fetch the LDU boundaries for postal code 'T0L 1K0'. Candidate rank 5 is specifically designed to query LDU boundary by postal LDU code, matching the request directly and precisely.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The user request is to fetch the LDU boundaries for postal code 'T0L 1K0'. Candidate rank 5 is specifically designed to query LDU boundary by postal LDU code, matching the request directly and precisely."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 2240,
+    "total_tokens": 2309,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 1117,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 316,
+      "service_ttlt_ms": 1355,
+      "total_duration_ms": 1273,
+      "user_visible_ttft_ms": 197
+    }
+  }
+}

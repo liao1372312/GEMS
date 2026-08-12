@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4586",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"This API specifically provides trivia facts about years, matching the subtask to fetch a trivia fact about the year 2000.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "This API specifically provides trivia facts about years, matching the subtask to fetch a trivia fact about the year 2000."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1810,
+    "total_tokens": 1857,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 561,
+      "pre_inference_ms": 157,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 330,
+      "service_ttlt_ms": 823,
+      "total_duration_ms": 675,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4440",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Recipe Finder API (rank 9) is the most relevant for finding recipes for a romantic dinner as it allows searching recipes by ingredient and meal type, matching the user's request for dinner recipes. Other APIs are unrelated to food or recipes.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Recipe Finder API (rank 9) is the most relevant for finding recipes for a romantic dinner as it allows searching recipes by ingredient and meal type, matching the user's request for dinner recipes. Other APIs are unrelated to food or recipes."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1864,
+    "total_tokens": 1934,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 943,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 361,
+      "service_ttlt_ms": 1250,
+      "total_duration_ms": 1140,
+      "user_visible_ttft_ms": 240
+    }
+  }
+}

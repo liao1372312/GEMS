@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_5364",
+  "raw": "{\"decisions\": [{\"step_id\": 1, \"accept_llm\": true, \"reason\": \"LLM choice matches the step intent exactly by querying LDU boundaries for the postal code using ca.boundaries.io, which is the required tool.\"}, {\"step_id\": 2, \"accept_llm\": false, \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"}], \"workflow_confidence\": 1.0}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches the step intent exactly by querying LDU boundaries for the postal code using ca.boundaries.io, which is the required tool."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      }
+    ],
+    "workflow_confidence": 1.0
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 1244,
+    "total_tokens": 1341,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 1947,
+      "pre_inference_ms": 258,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 408,
+      "service_ttlt_ms": 2306,
+      "total_duration_ms": 2159,
+      "user_visible_ttft_ms": 150
+    }
+  }
+}

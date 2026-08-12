@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"This API provides information about banks in a country, including whether they are central or non-central banks, which is relevant for fetching interest rates for the top 5 non-central banks.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "This API provides information about banks in a country, including whether they are central or non-central banks, which is relevant for fetching interest rates for the top 5 non-central banks."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1564,
+    "total_tokens": 1622,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 57
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1557
+    }
+  }
+}

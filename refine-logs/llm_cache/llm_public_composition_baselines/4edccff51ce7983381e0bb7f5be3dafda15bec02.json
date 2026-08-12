@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2343",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.8, \"rationale\": \"Provides a comprehensive list of cities in JSON format, suitable for filtering cities within a 50-mile radius of Orlando.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.8,
+    "rationale": "Provides a comprehensive list of cities in JSON format, suitable for filtering cities within a 50-mile radius of Orlando."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1267,
+    "total_tokens": 1312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 417,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 581,
+      "total_duration_ms": 473,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

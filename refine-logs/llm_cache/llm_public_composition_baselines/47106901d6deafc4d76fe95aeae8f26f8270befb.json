@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_905",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"This API provides trending news articles, suitable for recent gardening news, while no candidate directly offers unique houseplant suggestions.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "This API provides trending news articles, suitable for recent gardening news, while no candidate directly offers unique houseplant suggestions."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1735,
+    "total_tokens": 1780,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 352,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 379,
+      "service_ttlt_ms": 682,
+      "total_duration_ms": 561,
+      "user_visible_ttft_ms": 245
+    }
+  }
+}

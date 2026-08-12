@@ -1,0 +1,122 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify cities with excellent air quality suitable for a weekend getaway\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a city from the identified list based on additional preferences or constraints\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"list of cities with excellent air quality\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Find available accommodation options in the selected city for the weekend\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"weekend dates\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Book accommodation for the family in the selected city\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected accommodation\", \"family details\", \"weekend dates\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Arrange transportation to and from the selected city for the weekend\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"weekend dates\", \"family details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a city from the identified list based on additional preferences or constraints",
+        "domain": "Tourism",
+        "required_inputs": [
+          "list of cities with excellent air quality"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Find available accommodation options in the selected city for the weekend",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "weekend dates"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Book accommodation for the family in the selected city",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected accommodation",
+          "family details",
+          "weekend dates"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Arrange transportation to and from the selected city for the weekend",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "weekend dates",
+          "family details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a city from the identified list based on additional preferences or constraints",
+      "domain": "Tourism",
+      "required_inputs": [
+        "list of cities with excellent air quality"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Find available accommodation options in the selected city for the weekend",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "weekend dates"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Book accommodation for the family in the selected city",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected accommodation",
+        "family details",
+        "weekend dates"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Arrange transportation to and from the selected city for the weekend",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "weekend dates",
+        "family details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 260,
+    "prompt_tokens": 173,
+    "total_tokens": 433,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 109,
+      "engine_ttlt_ms": 4290,
+      "pre_inference_ms": 136,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 322,
+      "service_ttlt_ms": 4505,
+      "total_duration_ms": 4377,
+      "user_visible_ttft_ms": 186
+    }
+  }
+}

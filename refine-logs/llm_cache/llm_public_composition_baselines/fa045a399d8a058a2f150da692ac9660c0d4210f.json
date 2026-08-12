@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7311",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"Rank 2 API provides entertainment content with random programming memes, which can be adapted to provide trivia facts and entertainment. It aligns with the request domain and can offer varied content. Other APIs are less relevant or unrelated to trivia or music albums.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "Rank 2 API provides entertainment content with random programming memes, which can be adapted to provide trivia facts and entertainment. It aligns with the request domain and can offer varied content. Other APIs are less relevant or unrelated to trivia or music albums."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 2181,
+    "total_tokens": 2251,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 687,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 846,
+      "total_duration_ms": 757,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

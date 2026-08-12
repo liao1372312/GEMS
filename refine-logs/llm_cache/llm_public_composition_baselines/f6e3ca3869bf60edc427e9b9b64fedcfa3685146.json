@@ -1,0 +1,27 @@
+{
+  "record_id": "Medical_response_4757",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Birthday Cake DB API is directly relevant to cake recipes with images and detailed recipe retrieval by ID, matching the user's request for cake options, images, and detailed medium difficulty recipe.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Birthday Cake DB API is directly relevant to cake recipes with images and detailed recipe retrieval by ID, matching the user's request for cake options, images, and detailed medium difficulty recipe."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1656,
+    "total_tokens": 1714,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 58
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1650
+    }
+  }
+}

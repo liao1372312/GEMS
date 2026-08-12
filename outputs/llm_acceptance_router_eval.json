@@ -1,0 +1,349 @@
+{
+  "paper_ready": true,
+  "best_threshold": 0.85,
+  "selection_note": "threshold selected on validation split",
+  "semantic_top1_test": {
+    "api_acc": 0.6147672552166934,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "llm_available": 623,
+    "llm_accepted": 0,
+    "llm_accept_rate": 0.0,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "all_llm_test": {
+    "api_acc": 0.6725521669341894,
+    "workflow_exact": 0.3886255924170616,
+    "para_f1": 0.750187265917603,
+    "llm_available": 623,
+    "llm_accepted": 623,
+    "llm_accept_rate": 1.0,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "router_test": {
+    "api_acc": 0.6821829855537721,
+    "workflow_exact": 0.3981042654028436,
+    "para_f1": 0.7550026752273944,
+    "llm_available": 623,
+    "llm_accepted": 524,
+    "llm_accept_rate": 0.841091492776886,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "validation_trained_acceptance": {
+    "best_threshold": 0.625,
+    "val": {
+      "api_acc": 0.8940397350993378,
+      "workflow_exact": 0.7380952380952381,
+      "para_f1": 0.9262693156732892,
+      "llm_accept_rate": 0.7185430463576159,
+      "llm_change_rate": 0.26490066225165565,
+      "steps": 604,
+      "workflows": 210
+    },
+    "test": {
+      "api_acc": 0.6613162118780096,
+      "workflow_exact": 0.36492890995260663,
+      "para_f1": 0.732182985553772,
+      "llm_accept_rate": 0.6886035313001605,
+      "llm_change_rate": 0.26484751203852325,
+      "steps": 623,
+      "workflows": 211
+    },
+    "val_sweep_top10": [
+      {
+        "threshold": 0.625,
+        "metrics": {
+          "api_acc": 0.8940397350993378,
+          "workflow_exact": 0.7380952380952381,
+          "para_f1": 0.9262693156732892,
+          "llm_accept_rate": 0.7185430463576159,
+          "llm_change_rate": 0.26490066225165565,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.8397193314411858
+      },
+      {
+        "threshold": 0.65,
+        "metrics": {
+          "api_acc": 0.8890728476821192,
+          "workflow_exact": 0.7285714285714285,
+          "para_f1": 0.9196467991169979,
+          "llm_accept_rate": 0.7036423841059603,
+          "llm_change_rate": 0.25,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.8325157678965627
+      },
+      {
+        "threshold": 0.6,
+        "metrics": {
+          "api_acc": 0.8857615894039735,
+          "workflow_exact": 0.7142857142857143,
+          "para_f1": 0.9178256070640177,
+          "llm_accept_rate": 0.7367549668874173,
+          "llm_change_rate": 0.28311258278145696,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.825187243771681
+      },
+      {
+        "threshold": 0.675,
+        "metrics": {
+          "api_acc": 0.8791390728476821,
+          "workflow_exact": 0.719047619047619,
+          "para_f1": 0.9130242825607064,
+          "llm_accept_rate": 0.6903973509933775,
+          "llm_change_rate": 0.2367549668874172,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.8235737937559129
+      },
+      {
+        "threshold": 0.575,
+        "metrics": {
+          "api_acc": 0.8758278145695364,
+          "workflow_exact": 0.7095238095238096,
+          "para_f1": 0.9060706401766004,
+          "llm_accept_rate": 0.7615894039735099,
+          "llm_change_rate": 0.3079470198675497,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.8168669189530117
+      },
+      {
+        "threshold": 0.7,
+        "metrics": {
+          "api_acc": 0.8675496688741722,
+          "workflow_exact": 0.7047619047619048,
+          "para_f1": 0.9039183222958058,
+          "llm_accept_rate": 0.6788079470198676,
+          "llm_change_rate": 0.2251655629139073,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.8115267265846737
+      },
+      {
+        "threshold": 0.55,
+        "metrics": {
+          "api_acc": 0.8642384105960265,
+          "workflow_exact": 0.6904761904761905,
+          "para_f1": 0.8948123620309051,
+          "llm_accept_rate": 0.7831125827814569,
+          "llm_change_rate": 0.3294701986754967,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.8023770104068118
+      },
+      {
+        "threshold": 0.725,
+        "metrics": {
+          "api_acc": 0.8509933774834437,
+          "workflow_exact": 0.680952380952381,
+          "para_f1": 0.8886865342163355,
+          "llm_accept_rate": 0.6589403973509934,
+          "llm_change_rate": 0.2052980132450331,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.7924002680542416
+      },
+      {
+        "threshold": 0.525,
+        "metrics": {
+          "api_acc": 0.8410596026490066,
+          "workflow_exact": 0.6428571428571429,
+          "para_f1": 0.8699779249448124,
+          "llm_accept_rate": 0.8079470198675497,
+          "llm_change_rate": 0.3543046357615894,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.7690081993062126
+      },
+      {
+        "threshold": 0.75,
+        "metrics": {
+          "api_acc": 0.8228476821192053,
+          "workflow_exact": 0.6428571428571429,
+          "para_f1": 0.8688189845474613,
+          "llm_accept_rate": 0.6274834437086093,
+          "llm_change_rate": 0.173841059602649,
+          "steps": 604,
+          "workflows": 210
+        },
+        "balanced": 0.7623442920214444
+      }
+    ]
+  },
+  "val_sweep": [
+    {
+      "threshold": 0.0,
+      "metrics": {
+        "api_acc": 0.6754966887417219,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.7733995584988962,
+        "llm_available": 604,
+        "llm_accepted": 604,
+        "llm_accept_rate": 1.0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.5,
+      "metrics": {
+        "api_acc": 0.6754966887417219,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.7733995584988962,
+        "llm_available": 604,
+        "llm_accepted": 517,
+        "llm_accept_rate": 0.8559602649006622,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.6,
+      "metrics": {
+        "api_acc": 0.6754966887417219,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.7733995584988962,
+        "llm_available": 604,
+        "llm_accepted": 517,
+        "llm_accept_rate": 0.8559602649006622,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.7,
+      "metrics": {
+        "api_acc": 0.6754966887417219,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.7733995584988962,
+        "llm_available": 604,
+        "llm_accepted": 517,
+        "llm_accept_rate": 0.8559602649006622,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.8,
+      "metrics": {
+        "api_acc": 0.6821192052980133,
+        "workflow_exact": 0.4380952380952381,
+        "para_f1": 0.7783664459161148,
+        "llm_available": 604,
+        "llm_accepted": 509,
+        "llm_accept_rate": 0.8427152317880795,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.85,
+      "metrics": {
+        "api_acc": 0.6937086092715232,
+        "workflow_exact": 0.4523809523809524,
+        "para_f1": 0.7849889624724061,
+        "llm_available": 604,
+        "llm_accepted": 488,
+        "llm_accept_rate": 0.8079470198675497,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.9,
+      "metrics": {
+        "api_acc": 0.6937086092715232,
+        "workflow_exact": 0.4523809523809524,
+        "para_f1": 0.7849889624724061,
+        "llm_available": 604,
+        "llm_accepted": 488,
+        "llm_accept_rate": 0.8079470198675497,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.95,
+      "metrics": {
+        "api_acc": 0.6887417218543046,
+        "workflow_exact": 0.43333333333333335,
+        "para_f1": 0.7818432671081678,
+        "llm_available": 604,
+        "llm_accepted": 224,
+        "llm_accept_rate": 0.3708609271523179,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.99,
+      "metrics": {
+        "api_acc": 0.6937086092715232,
+        "workflow_exact": 0.4523809523809524,
+        "para_f1": 0.7833885209713024,
+        "llm_available": 604,
+        "llm_accepted": 144,
+        "llm_accept_rate": 0.23841059602649006,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 1.01,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 604,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    }
+  ],
+  "available_llm_predictions": 1227,
+  "coverage": {
+    "val_available": 604,
+    "val_steps": 604,
+    "val_coverage": 1.0,
+    "test_available": 623,
+    "test_steps": 623,
+    "test_coverage": 1.0
+  },
+  "feature_names": [
+    "llm_rank",
+    "llm_rank_recip",
+    "llm_confidence",
+    "top1_similarity",
+    "llm_similarity",
+    "similarity_drop",
+    "margin_1_2",
+    "margin_1_3",
+    "llm_param_overlap",
+    "top1_param_overlap",
+    "llm_api_query_overlap",
+    "top1_api_query_overlap",
+    "llm_text_query_overlap",
+    "top1_text_query_overlap",
+    "same_domain_llm",
+    "same_domain_top1",
+    "plan_steps",
+    "step_id_norm"
+  ]
+}

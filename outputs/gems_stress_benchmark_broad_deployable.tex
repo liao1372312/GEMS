@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Deployable methods on the GEMS-targeted reliability stress benchmark (414 steps, 175 workflows).}
+\label{tab:gems-stress-benchmark-broad-deployable}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccc}
+\toprule
+Method & Reliable@1 $\uparrow$ & Failed@1 $\downarrow$ & Success MRR $\uparrow$ & Workflow Reliable $\uparrow$ & Gold API Acc $\uparrow$ \\
+\midrule
+Semantic Top-1 & 0.7826 & 0.1787 & 0.8804 & 0.7143 & 0.4275 \\
+Trace-RAG & 0.8309 & 0.1401 & 0.9062 & 0.7600 & 0.3527 \\
+StructMem-RAG & 0.8623 & 0.1087 & 0.9246 & 0.8057 & 0.2609 \\
+GraphRAG-static & 0.8792 & 0.0773 & 0.9354 & 0.8514 & 0.3357 \\
+GEMS w/o Reliability & 0.8865 & 0.0845 & 0.9394 & 0.8457 & 0.3261 \\
+\textsc{GEMS} & \textbf{0.9155} & 0.0411 & 0.9547 & 0.9086 & 0.2923 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

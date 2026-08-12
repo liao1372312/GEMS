@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8706",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants a dad joke, which is a joke category. The best API to check joke categories is the 'Sign Hexagram - Get Categories' API, which provides categories and can help identify the 'dad' category for fetching a dad joke.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants a dad joke, which is a joke category. The best API to check joke categories is the 'Sign Hexagram - Get Categories' API, which provides categories and can help identify the 'dad' category for fetching a dad joke."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1502,
+    "total_tokens": 1574,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 593,
+      "pre_inference_ms": 131,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 874,
+      "total_duration_ms": 747,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

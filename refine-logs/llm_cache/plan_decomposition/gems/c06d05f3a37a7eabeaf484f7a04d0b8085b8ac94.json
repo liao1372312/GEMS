@@ -1,0 +1,72 @@
+{
+  "record_id": "Tourism_response_138",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for recent arrest records in Clark County to ensure the safety of the trip.\",\n      \"domain\": \"legal/safety\",\n      \"required_inputs\": [\"county_name\", \"record_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather interesting news articles about Las Vegas to help plan the itinerary.\",\n      \"domain\": \"travel\",\n      \"required_inputs\": [\"location\", \"topic\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for recent arrest records in Clark County to ensure the safety of the trip.",
+        "domain": "legal/safety",
+        "required_inputs": [
+          "county_name",
+          "record_type"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Gather interesting news articles about Las Vegas to help plan the itinerary.",
+        "domain": "travel",
+        "required_inputs": [
+          "location",
+          "topic"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for recent arrest records in Clark County to ensure the safety of the trip.",
+      "domain": "legal/safety",
+      "required_inputs": [
+        "county_name",
+        "record_type"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather interesting news articles about Las Vegas to help plan the itinerary.",
+      "domain": "travel",
+      "required_inputs": [
+        "location",
+        "topic"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 2645,
+    "total_tokens": 2756,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 1655,
+      "pre_inference_ms": 165,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 285,
+      "service_ttlt_ms": 1873,
+      "total_duration_ms": 1718,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

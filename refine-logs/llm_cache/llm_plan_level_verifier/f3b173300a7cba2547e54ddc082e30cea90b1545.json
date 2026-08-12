@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_5427",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice is more specific and directly provides hourly forecasts for ski resorts like Whistler Village, matching the step intent better.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 API only provides 5-day forecast, but LLM choice provides up to 14 days, still less than required 16 days; semantic top-1 is more reliable and matches required parameters.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice provides detailed weather alerts including severe weather alerts by location, fitting the step requirement better than semantic top-1.\"}],\"workflow_confidence\":0.9}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice is more specific and directly provides hourly forecasts for ski resorts like Whistler Village, matching the step intent better."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API only provides 5-day forecast, but LLM choice provides up to 14 days, still less than required 16 days; semantic top-1 is more reliable and matches required parameters."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice provides detailed weather alerts including severe weather alerts by location, fitting the step requirement better than semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1628,
+    "total_tokens": 1778,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 91,
+      "engine_ttlt_ms": 2247,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 320,
+      "service_ttlt_ms": 2464,
+      "total_duration_ms": 2363,
+      "user_visible_ttft_ms": 207
+    }
+  }
+}

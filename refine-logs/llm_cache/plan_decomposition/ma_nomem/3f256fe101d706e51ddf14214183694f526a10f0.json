@@ -1,0 +1,72 @@
+{
+  "record_id": "Tourism_response_5275",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Plan the wine tasting event including selecting wines and cheese pairings\",\n      \"domain\": \"Event Planning\",\n      \"required_inputs\": [\"event location\", \"event date\", \"number of guests\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find available brewery tours in New York\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Plan the wine tasting event including selecting wines and cheese pairings",
+        "domain": "Event Planning",
+        "required_inputs": [
+          "event location",
+          "event date",
+          "number of guests"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find available brewery tours in New York",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Plan the wine tasting event including selecting wines and cheese pairings",
+      "domain": "Event Planning",
+      "required_inputs": [
+        "event location",
+        "event date",
+        "number of guests"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find available brewery tours in New York",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 179,
+    "total_tokens": 284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 31,
+      "engine_ttlt_ms": 1191,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 1414,
+      "total_duration_ms": 1289,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

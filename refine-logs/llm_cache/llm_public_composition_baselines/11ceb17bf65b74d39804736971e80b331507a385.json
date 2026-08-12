@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_715",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user wants personalized horoscope readings and music radio station recommendations. The Horoscope Astrology API provides horoscope content, which aligns with the personalized horoscope readings. Although it does not directly recommend radio stations, it is the most relevant API for the horoscope part of the request. None of the other candidates relate to horoscope or music recommendations, so this is the best fit for the user's intent.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user wants personalized horoscope readings and music radio station recommendations. The Horoscope Astrology API provides horoscope content, which aligns with the personalized horoscope readings. Although it does not directly recommend radio stations, it is the most relevant API for the horoscope part of the request. None of the other candidates relate to horoscope or music recommendations, so this is the best fit for the user's intent."
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 1445,
+    "total_tokens": 1541,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 983,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 256,
+      "service_ttlt_ms": 1184,
+      "total_duration_ms": 1091,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

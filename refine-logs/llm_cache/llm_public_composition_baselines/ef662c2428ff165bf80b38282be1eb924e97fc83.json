@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The SEO Checker - Analyze API is specifically designed for SEO website analysis and can provide on-page SEO performance metrics for the travel blog website as requested.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The SEO Checker - Analyze API is specifically designed for SEO website analysis and can provide on-page SEO performance metrics for the travel blog website as requested."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1377,
+    "total_tokens": 1428,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 940,
+      "pre_inference_ms": 73,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 210,
+      "service_ttlt_ms": 1095,
+      "total_duration_ms": 1035,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Research and suggest a city with excellent air quality suitable for a weekend getaway.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for the best hotel deals in the suggested city for the upcoming weekend.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"destination\", \"check-in date\", \"check-out date\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve a list of popular tourist attractions in the suggested city.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"destination\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Fetch the current and forecasted air quality and weather conditions for the suggested city during the weekend.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"location\", \"date range\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Research and suggest a city with excellent air quality suitable for a weekend getaway.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Search for the best hotel deals in the suggested city for the upcoming weekend.",
+        "domain": "tourism",
+        "required_inputs": [
+          "destination",
+          "check-in date",
+          "check-out date"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Retrieve a list of popular tourist attractions in the suggested city.",
+        "domain": "tourism",
+        "required_inputs": [
+          "destination"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Fetch the current and forecasted air quality and weather conditions for the suggested city during the weekend.",
+        "domain": "tourism",
+        "required_inputs": [
+          "location",
+          "date range"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Research and suggest a city with excellent air quality suitable for a weekend getaway.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Search for the best hotel deals in the suggested city for the upcoming weekend.",
+      "domain": "tourism",
+      "required_inputs": [
+        "destination",
+        "check-in date",
+        "check-out date"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Retrieve a list of popular tourist attractions in the suggested city.",
+      "domain": "tourism",
+      "required_inputs": [
+        "destination"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Fetch the current and forecasted air quality and weather conditions for the suggested city during the weekend.",
+      "domain": "tourism",
+      "required_inputs": [
+        "location",
+        "date range"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 650,
+    "total_tokens": 861,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 2345,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 269,
+      "service_ttlt_ms": 2537,
+      "total_duration_ms": 2415,
+      "user_visible_ttft_ms": 139
+    }
+  }
+}

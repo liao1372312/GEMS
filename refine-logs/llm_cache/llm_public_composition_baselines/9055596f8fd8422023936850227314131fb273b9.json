@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_809",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The top-ranked API specifically provides Chuck Norris jokes and requires no parameters, perfectly matching the subtask requirement.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The top-ranked API specifically provides Chuck Norris jokes and requires no parameters, perfectly matching the subtask requirement."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1380,
+    "total_tokens": 1423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 413,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 219,
+      "service_ttlt_ms": 582,
+      "total_duration_ms": 481,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

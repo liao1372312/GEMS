@@ -1,0 +1,84 @@
+{
+  "record_id": "Tourism_response_700",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the current date and time in London in ISO8601 format\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"city_name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Convert the retrieved date and time to 12-hour and 24-hour formats\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"ISO8601_date_time\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Determine the timezone abbreviation for London and check if it is currently in Daylight Savings Time\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"city_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the current date and time in London in ISO8601 format",
+        "domain": "tourism",
+        "required_inputs": [
+          "city_name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Convert the retrieved date and time to 12-hour and 24-hour formats",
+        "domain": "tourism",
+        "required_inputs": [
+          "ISO8601_date_time"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Determine the timezone abbreviation for London and check if it is currently in Daylight Savings Time",
+        "domain": "tourism",
+        "required_inputs": [
+          "city_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the current date and time in London in ISO8601 format",
+      "domain": "tourism",
+      "required_inputs": [
+        "city_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Convert the retrieved date and time to 12-hour and 24-hour formats",
+      "domain": "tourism",
+      "required_inputs": [
+        "ISO8601_date_time"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Determine the timezone abbreviation for London and check if it is currently in Daylight Savings Time",
+      "domain": "tourism",
+      "required_inputs": [
+        "city_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 227,
+    "total_tokens": 387,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 3493,
+      "pre_inference_ms": 148,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 289,
+      "service_ttlt_ms": 3742,
+      "total_duration_ms": 3617,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

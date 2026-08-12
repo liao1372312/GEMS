@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5446",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided candidate APIs match the subtask of retrieving vehicle information based on a license plate number. The candidates are mostly about companies, airports, social media, trademarks, and other unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided candidate APIs match the subtask of retrieving vehicle information based on a license plate number. The candidates are mostly about companies, airports, social media, trademarks, and other unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1747,
+    "total_tokens": 1809,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1231,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 1438,
+      "total_duration_ms": 1337,
+      "user_visible_ttft_ms": 149
+    }
+  }
+}

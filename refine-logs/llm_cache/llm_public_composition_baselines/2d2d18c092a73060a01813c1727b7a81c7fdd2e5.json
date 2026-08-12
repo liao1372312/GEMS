@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3473",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The request is to fetch the current exchange rate from USD to the friend's favorite currency, which is a finance domain task. Candidate rank 3 is an exchange rate conversion API that supports converting from one currency to another, matching the subtask requirements exactly.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The request is to fetch the current exchange rate from USD to the friend's favorite currency, which is a finance domain task. Candidate rank 3 is an exchange rate conversion API that supports converting from one currency to another, matching the subtask requirements exactly."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1352,
+    "total_tokens": 1424,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 659,
+      "pre_inference_ms": 135,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 371,
+      "service_ttlt_ms": 993,
+      "total_duration_ms": 867,
+      "user_visible_ttft_ms": 236
+    }
+  }
+}

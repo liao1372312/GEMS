@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1412",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 1.0, \"rationale\": \"None of the candidate APIs provide tips or information on feeding, grooming, training, or pet supplies for a new puppy. They mostly return pet data or inventory status, which is not relevant to the user's request for care tips. Therefore, no suitable API is available for this request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 1.0,
+    "rationale": "None of the candidate APIs provide tips or information on feeding, grooming, training, or pet supplies for a new puppy. They mostly return pet data or inventory status, which is not relevant to the user's request for care tips. Therefore, no suitable API is available for this request."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1099,
+    "total_tokens": 1177,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 710,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 170,
+      "service_ttlt_ms": 838,
+      "total_duration_ms": 753,
+      "user_visible_ttft_ms": 77
+    }
+  }
+}

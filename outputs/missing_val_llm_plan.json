@@ -1,0 +1,9 @@
+{
+  "val_steps": 604,
+  "available": 604,
+  "missing": 0,
+  "coverage": 1.0,
+  "missing_steps": [],
+  "chunks": [],
+  "note": "llm_public_composition_rerank.py currently selects the first N validation examples. Use --limit 0 with --continue-on-error in a network-enabled environment to fill all missing cache entries."
+}

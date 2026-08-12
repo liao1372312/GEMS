@@ -1,0 +1,74 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for product details using the provided barcode\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"barcode\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find stores within a 25-mile radius of the given location that offer the identified products\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"product details\", \"longitude\", \"latitude\", \"radius\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for product details using the provided barcode",
+        "domain": "shopping",
+        "required_inputs": [
+          "barcode"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find stores within a 25-mile radius of the given location that offer the identified products",
+        "domain": "shopping",
+        "required_inputs": [
+          "product details",
+          "longitude",
+          "latitude",
+          "radius"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for product details using the provided barcode",
+      "domain": "shopping",
+      "required_inputs": [
+        "barcode"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find stores within a 25-mile radius of the given location that offer the identified products",
+      "domain": "shopping",
+      "required_inputs": [
+        "product details",
+        "longitude",
+        "latitude",
+        "radius"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 242,
+    "total_tokens": 351,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1182,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 135,
+      "service_ttlt_ms": 1273,
+      "total_duration_ms": 1209,
+      "user_visible_ttft_ms": 64
+    }
+  }
+}

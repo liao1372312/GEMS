@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2703",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user specifically requests a cover letter template highlighting skills in Networking and Web Development, and the top-ranked API is designed to generate cover letters using university, degree, and skills information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user specifically requests a cover letter template highlighting skills in Networking and Web Development, and the top-ranked API is designed to generate cover letters using university, degree, and skills information."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1440,
+    "total_tokens": 1498,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 601,
+      "pre_inference_ms": 145,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 309,
+      "service_ttlt_ms": 860,
+      "total_duration_ms": 724,
+      "user_visible_ttft_ms": 164
+    }
+  }
+}

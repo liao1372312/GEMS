@@ -1,0 +1,70 @@
+{
+  "record_id": "Medical_response_4731",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for stories on Medium related to cooking and food to find delicious recipes.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"keywords: cooking, food, recipes\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch competitor news to get the latest updates on food trends.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"topic: food trends\", \"type: competitor news\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for stories on Medium related to cooking and food to find delicious recipes.",
+        "domain": "Medical",
+        "required_inputs": [
+          "keywords: cooking, food, recipes"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch competitor news to get the latest updates on food trends.",
+        "domain": "Medical",
+        "required_inputs": [
+          "topic: food trends",
+          "type: competitor news"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for stories on Medium related to cooking and food to find delicious recipes.",
+      "domain": "Medical",
+      "required_inputs": [
+        "keywords: cooking, food, recipes"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch competitor news to get the latest updates on food trends.",
+      "domain": "Medical",
+      "required_inputs": [
+        "topic: food trends",
+        "type: competitor news"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 298,
+    "total_tokens": 412,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 29,
+      "engine_ttlt_ms": 1158,
+      "pre_inference_ms": 138,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 248,
+      "service_ttlt_ms": 1368,
+      "total_duration_ms": 1241,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

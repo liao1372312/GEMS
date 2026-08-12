@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2401",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide functionality to fetch order details by order ID. The candidates are mostly related to Udemy courses, YouTube data, American football, or Twitter, which are unrelated to the subtask of fetching order details for order ID '01234'.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide functionality to fetch order details by order ID. The candidates are mostly related to Udemy courses, YouTube data, American football, or Twitter, which are unrelated to the subtask of fetching order details for order ID '01234'."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1915,
+    "total_tokens": 1991,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 1301,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 175,
+      "service_ttlt_ms": 1430,
+      "total_duration_ms": 1347,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2807",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.8, \"rationale\": \"The Get Companies By SIC Code API allows searching for companies by name and can provide company data, which is relevant for retrieving a list of logistics companies.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.8,
+    "rationale": "The Get Companies By SIC Code API allows searching for companies by name and can provide company data, which is relevant for retrieving a list of logistics companies."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1794,
+    "total_tokens": 1846,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 783,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 249,
+      "service_ttlt_ms": 931,
+      "total_duration_ms": 816,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

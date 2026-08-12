@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2009",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Flight Data_v2 - City data in json format' API from the Travel domain is the only candidate related to travel and city data, which is relevant for finding hotels in Rome. Although it provides city data rather than direct hotel listings, it is the best available option among the candidates for travel-related information about Rome. Other APIs are unrelated to tourism or accommodations.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'Flight Data_v2 - City data in json format' API from the Travel domain is the only candidate related to travel and city data, which is relevant for finding hotels in Rome. Although it provides city data rather than direct hotel listings, it is the best available option among the candidates for travel-related information about Rome. Other APIs are unrelated to tourism or accommodations."
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 1616,
+    "total_tokens": 1712,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 101,
+      "engine_ttlt_ms": 1898,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 219,
+      "service_ttlt_ms": 2010,
+      "total_duration_ms": 1932,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

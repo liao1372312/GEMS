@@ -1,0 +1,80 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for easy-to-follow chicken recipes that are perfect for outdoor dining and suitable for a picnic with friends.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"cuisine_type\", \"dish_type\", \"serving_size\", \"meal_setting\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find halal restaurants in Korea to accommodate a friend who only eats halal food.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"country\", \"food_preference\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for easy-to-follow chicken recipes that are perfect for outdoor dining and suitable for a picnic with friends.",
+        "domain": "Medical",
+        "required_inputs": [
+          "cuisine_type",
+          "dish_type",
+          "serving_size",
+          "meal_setting"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find halal restaurants in Korea to accommodate a friend who only eats halal food.",
+        "domain": "Medical",
+        "required_inputs": [
+          "country",
+          "food_preference"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for easy-to-follow chicken recipes that are perfect for outdoor dining and suitable for a picnic with friends.",
+      "domain": "Medical",
+      "required_inputs": [
+        "cuisine_type",
+        "dish_type",
+        "serving_size",
+        "meal_setting"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find halal restaurants in Korea to accommodate a friend who only eats halal food.",
+      "domain": "Medical",
+      "required_inputs": [
+        "country",
+        "food_preference"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 2940,
+    "total_tokens": 3068,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1360,
+      "pre_inference_ms": 207,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 444,
+      "service_ttlt_ms": 1726,
+      "total_duration_ms": 1532,
+      "user_visible_ttft_ms": 237
+    }
+  },
+  "goal_hints": [
+    "I'm planning a picnic with my friends and I want to prepare some tasty chicken dishes. Can you provide me with easy-to-follow recipes that are perfect for outdoor dining",
+    "I need to find halal restaurants in Korea for one of my friends who only eats halal food"
+  ]
+}

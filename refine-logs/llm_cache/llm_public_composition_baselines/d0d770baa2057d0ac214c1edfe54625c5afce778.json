@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8576",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor API can search content based on a query, suitable for fetching interesting facts about 'Hotel California' from SongMeanings, matching the user's need for quiz content.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor API can search content based on a query, suitable for fetching interesting facts about 'Hotel California' from SongMeanings, matching the user's need for quiz content."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1588,
+    "total_tokens": 1647,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 1424,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 24,
+      "service_ttft_ms": 269,
+      "service_ttlt_ms": 1619,
+      "total_duration_ms": 1541,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

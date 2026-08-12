@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3049",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Shazam API is the only candidate related to entertainment and media, but none of the candidates are related to tourism or holiday destination recommendations. However, among the given options, the Shazam API is the best fit to provide some form of recommendation or search, even though it is not ideal for holiday destinations.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Shazam API is the only candidate related to entertainment and media, but none of the candidates are related to tourism or holiday destination recommendations. However, among the given options, the Shazam API is the best fit to provide some form of recommendation or search, even though it is not ideal for holiday destinations."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1491,
+    "total_tokens": 1575,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 979,
+      "pre_inference_ms": 186,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 304,
+      "service_ttlt_ms": 1235,
+      "total_duration_ms": 1058,
+      "user_visible_ttft_ms": 118
+    }
+  }
+}

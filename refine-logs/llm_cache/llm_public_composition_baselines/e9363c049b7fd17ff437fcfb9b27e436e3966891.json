@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API is related to currency conversion and exchange rates, which is the closest relevant domain to interest rates for central banks. However, none of the APIs explicitly mention providing central bank interest rates or non-central bank interest rates. Still, the first API is the best available option to attempt fetching financial rates data.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API is related to currency conversion and exchange rates, which is the closest relevant domain to interest rates for central banks. However, none of the APIs explicitly mention providing central bank interest rates or non-central bank interest rates. Still, the first API is the best available option to attempt fetching financial rates data."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1479,
+    "total_tokens": 1564,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 844,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 267,
+      "service_ttlt_ms": 1007,
+      "total_duration_ms": 909,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

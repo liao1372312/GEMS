@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6602",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are related to music or artist album information. However, the user needs album info for a specific artist, and no music-related API is available. The yiwugo product detail API is unrelated but is the only API with a detail retrieval pattern, though it is for eCommerce products, not music. Therefore, no suitable API is available from the candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are related to music or artist album information. However, the user needs album info for a specific artist, and no music-related API is available. The yiwugo product detail API is unrelated but is the only API with a detail retrieval pattern, though it is for eCommerce products, not music. Therefore, no suitable API is available from the candidates."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1890,
+    "total_tokens": 1988,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 1420,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 197,
+      "service_ttlt_ms": 1544,
+      "total_duration_ms": 1452,
+      "user_visible_ttft_ms": 97
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch live updates on ongoing sports matches including current scores and match status\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"sport type\", \"match identifiers or teams\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve detailed match statistics such as player performance and key events\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"match identifiers\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch live updates on ongoing sports matches including current scores and match status",
+        "domain": "Technology",
+        "required_inputs": [
+          "sport type",
+          "match identifiers or teams"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve detailed match statistics such as player performance and key events",
+        "domain": "Technology",
+        "required_inputs": [
+          "match identifiers"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch live updates on ongoing sports matches including current scores and match status",
+      "domain": "Technology",
+      "required_inputs": [
+        "sport type",
+        "match identifiers or teams"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve detailed match statistics such as player performance and key events",
+      "domain": "Technology",
+      "required_inputs": [
+        "match identifiers"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 319,
+    "total_tokens": 425,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1548,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 154,
+      "service_ttlt_ms": 1668,
+      "total_duration_ms": 1604,
+      "user_visible_ttft_ms": 75
+    }
+  }
+}

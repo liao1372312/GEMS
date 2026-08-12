@@ -1,0 +1,76 @@
+{
+  "record_id": "Finance_response_1466",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical exchange rates for the US Dollar to Chinese Yuan from 2022-07-01 to 2022-07-31.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"source_currency\", \"target_currency\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the VAT rates for all European Union member states.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"region\", \"tax_type\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical exchange rates for the US Dollar to Chinese Yuan from 2022-07-01 to 2022-07-31.",
+        "domain": "finance",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "source_currency",
+          "target_currency"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the VAT rates for all European Union member states.",
+        "domain": "finance",
+        "required_inputs": [
+          "region",
+          "tax_type"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch historical exchange rates for the US Dollar to Chinese Yuan from 2022-07-01 to 2022-07-31.",
+      "domain": "finance",
+      "required_inputs": [
+        "start_date",
+        "end_date",
+        "source_currency",
+        "target_currency"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the VAT rates for all European Union member states.",
+      "domain": "finance",
+      "required_inputs": [
+        "region",
+        "tax_type"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 833,
+    "total_tokens": 961,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1606,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 178,
+      "service_ttlt_ms": 1733,
+      "total_duration_ms": 1631,
+      "user_visible_ttft_ms": 72
+    }
+  }
+}

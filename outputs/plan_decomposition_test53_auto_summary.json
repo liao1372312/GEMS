@@ -1,0 +1,85 @@
+{
+  "source_files": [
+    "outputs/plan_decomposition_eval_test53.json",
+    "outputs/plan_decomposition_eval_test53_gems_v2.json"
+  ],
+  "rows": [
+    {
+      "method": "Direct-LLM",
+      "plan_acc": 0.3018867924528302,
+      "plan_sem_f1": 0.4681940700808625,
+      "step_count_acc": 0.660377358490566,
+      "matcher": "auto"
+    },
+    {
+      "method": "CoT-LLM",
+      "plan_acc": 0.24528301886792453,
+      "plan_sem_f1": 0.45152740341419584,
+      "step_count_acc": 0.6415094339622641,
+      "matcher": "auto"
+    },
+    {
+      "method": "ReAct",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.44073075771188974,
+      "step_count_acc": 0.660377358490566,
+      "matcher": "auto"
+    },
+    {
+      "method": "RestGPT-style",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.44011680143755616,
+      "step_count_acc": 0.6415094339622641,
+      "matcher": "auto"
+    },
+    {
+      "method": "MA-NoMem",
+      "plan_acc": 0.24528301886792453,
+      "plan_sem_f1": 0.44016172506738543,
+      "step_count_acc": 0.6037735849056604,
+      "matcher": "auto"
+    },
+    {
+      "method": "Trace-RAG",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.4594788858939802,
+      "step_count_acc": 0.6792452830188679,
+      "matcher": "auto"
+    },
+    {
+      "method": "StructMem-RAG",
+      "plan_acc": 0.20754716981132076,
+      "plan_sem_f1": 0.4687780772686433,
+      "step_count_acc": 0.6415094339622641,
+      "matcher": "auto"
+    },
+    {
+      "method": "GraphRAG-static",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.45835579514824804,
+      "step_count_acc": 0.6037735849056604,
+      "matcher": "auto"
+    },
+    {
+      "method": "AgentKB-style",
+      "plan_acc": 0.20754716981132076,
+      "plan_sem_f1": 0.4631176999101527,
+      "step_count_acc": 0.5849056603773585,
+      "matcher": "auto"
+    },
+    {
+      "method": "\\textsc{GEMS}",
+      "plan_acc": 0.18867924528301888,
+      "plan_sem_f1": 0.4096585804132974,
+      "step_count_acc": 0.6037735849056604,
+      "matcher": "auto"
+    },
+    {
+      "method": "GEMS-v2",
+      "plan_acc": 0.18867924528301888,
+      "plan_sem_f1": 0.45754716981132076,
+      "step_count_acc": 0.6226415094339622,
+      "matcher": "auto"
+    }
+  ]
+}

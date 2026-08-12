@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2593",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 1.0, \"rationale\": \"The Tunisia API - Directions Between 2 Locations directly matches the task of obtaining directions from Sfax to Tunis, providing route details including distance, duration, and steps, which aligns perfectly with the user's request and subtask.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "The Tunisia API - Directions Between 2 Locations directly matches the task of obtaining directions from Sfax to Tunis, providing route details including distance, duration, and steps, which aligns perfectly with the user's request and subtask."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1354,
+    "total_tokens": 1420,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 27,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 1841,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 27,
+      "service_ttft_ms": 164,
+      "service_ttlt_ms": 1943,
+      "total_duration_ms": 1861,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

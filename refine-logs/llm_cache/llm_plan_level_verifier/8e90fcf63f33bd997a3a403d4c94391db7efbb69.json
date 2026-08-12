@@ -1,0 +1,50 @@
+{
+  "record_id": "Cross_Domain_response_935",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Neither semantic top-1 nor LLM choice provides an API for star information; both use GetBooksInfo which is unsuitable for star details.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice GetBooksInfo API is clearly more appropriate for searching books by genre and Lexile range than semantic top-1 City and State Search API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice use GetBooksInfo API which only supports book info, not compiling documents or star info; no better alternative.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Neither semantic top-1 nor LLM choice provides an API for star information; both use GetBooksInfo which is unsuitable for star details."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice GetBooksInfo API is clearly more appropriate for searching books by genre and Lexile range than semantic top-1 City and State Search API."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choice use GetBooksInfo API which only supports book info, not compiling documents or star info; no better alternative."
+      }
+    ],
+    "workflow_confidence": 0.6
+  },
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 1584,
+    "total_tokens": 1771,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 3030,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 251,
+      "service_ttlt_ms": 3211,
+      "total_duration_ms": 3097,
+      "user_visible_ttft_ms": 104
+    }
+  }
+}

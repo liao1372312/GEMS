@@ -1,0 +1,170 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Define the road trip route by specifying start, end, and key stops.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\", \"key_stops\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the coordinates for each location on the road trip route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"location_addresses\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Calculate distances between consecutive stops along the route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"coordinates_list\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Recommend interesting places and scenic spots to visit along the route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"route_coordinates\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Search for budget-friendly restaurants along the road trip route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"route_coordinates\"]\n    },\n    {\n      \"id\": 6,\n      \"description\": \"Search for budget-friendly hotels along the road trip route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"route_coordinates\"]\n    },\n    {\n      \"id\": 7,\n      \"description\": \"Retrieve current exchange rates and currency symbols relevant to the trip locations.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 8,\n      \"description\": \"Estimate and manage the total expenses for accommodation, food, and travel.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"hotel_prices\", \"restaurant_prices\", \"travel_distances\", \"exchange_rates\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Define the road trip route by specifying start, end, and key stops.",
+        "domain": "tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location",
+          "key_stops"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the coordinates for each location on the road trip route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "location_addresses"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate distances between consecutive stops along the route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "coordinates_list"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Recommend interesting places and scenic spots to visit along the route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "route_coordinates"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Search for budget-friendly restaurants along the road trip route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "route_coordinates"
+        ]
+      },
+      {
+        "id": 6,
+        "description": "Search for budget-friendly hotels along the road trip route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "route_coordinates"
+        ]
+      },
+      {
+        "id": 7,
+        "description": "Retrieve current exchange rates and currency symbols relevant to the trip locations.",
+        "domain": "finance",
+        "required_inputs": []
+      },
+      {
+        "id": 8,
+        "description": "Estimate and manage the total expenses for accommodation, food, and travel.",
+        "domain": "finance",
+        "required_inputs": [
+          "hotel_prices",
+          "restaurant_prices",
+          "travel_distances",
+          "exchange_rates"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Define the road trip route by specifying start, end, and key stops.",
+      "domain": "tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location",
+        "key_stops"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the coordinates for each location on the road trip route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "location_addresses"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calculate distances between consecutive stops along the route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "coordinates_list"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Recommend interesting places and scenic spots to visit along the route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "route_coordinates"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Search for budget-friendly restaurants along the road trip route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "route_coordinates"
+      ]
+    },
+    {
+      "id": 6,
+      "description": "Search for budget-friendly hotels along the road trip route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "route_coordinates"
+      ]
+    },
+    {
+      "id": 7,
+      "description": "Retrieve current exchange rates and currency symbols relevant to the trip locations.",
+      "domain": "finance",
+      "required_inputs": []
+    },
+    {
+      "id": 8,
+      "description": "Estimate and manage the total expenses for accommodation, food, and travel.",
+      "domain": "finance",
+      "required_inputs": [
+        "hotel_prices",
+        "restaurant_prices",
+        "travel_distances",
+        "exchange_rates"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 388,
+    "prompt_tokens": 703,
+    "total_tokens": 1091,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 146,
+      "engine_ttlt_ms": 7087,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 327,
+      "service_ttlt_ms": 7377,
+      "total_duration_ms": 7267,
+      "user_visible_ttft_ms": 203
+    }
+  }
+}

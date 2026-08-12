@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3844",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"This API specifically retrieves the Boston Celtics' schedule for a given year, directly matching the subtask to get the 2008 schedule with required parameters franchise and year.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 1.0,
+    "rationale": "This API specifically retrieves the Boston Celtics' schedule for a given year, directly matching the subtask to get the 2008 schedule with required parameters franchise and year."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 2041,
+    "total_tokens": 2096,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 268,
+      "user_visible_ttft_ms": 150,
+      "total_duration_ms": 1132,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 18,
+      "service_ttlt_ms": 1238,
+      "engine_ttft_ms": 92,
+      "engine_ttlt_ms": 1067,
+      "engine_tbt_ms": 18
+    }
+  }
+}

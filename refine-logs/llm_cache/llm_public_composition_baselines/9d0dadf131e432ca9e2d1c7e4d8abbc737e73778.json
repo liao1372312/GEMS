@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.95, \"rationale\": \"The SEO Checker - Analyze API is directly relevant for analyzing website SEO performance and providing optimization recommendations, including image SEO analysis.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.95,
+    "rationale": "The SEO Checker - Analyze API is directly relevant for analyzing website SEO performance and providing optimization recommendations, including image SEO analysis."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1224,
+    "total_tokens": 1270,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 450,
+      "pre_inference_ms": 194,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 295,
+      "service_ttlt_ms": 690,
+      "total_duration_ms": 505,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

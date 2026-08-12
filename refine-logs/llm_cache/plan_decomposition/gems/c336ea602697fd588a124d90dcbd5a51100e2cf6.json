@@ -1,0 +1,82 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the list of upcoming sports matches for which predictions are needed, including match identifiers and event dates.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve accurate predictions for the identified upcoming sports matches using their match identifiers or event dates.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"match identifiers or event date\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the list of upcoming sports matches for which predictions are needed, including match identifiers and event dates.",
+        "domain": "Sports",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve accurate predictions for the identified upcoming sports matches using their match identifiers or event dates.",
+        "domain": "Sports",
+        "required_inputs": [
+          "match identifiers or event date"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the list of upcoming sports matches for which predictions are needed, including match identifiers and event dates.",
+      "domain": "Sports",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve accurate predictions for the identified upcoming sports matches using their match identifiers or event dates.",
+      "domain": "Sports",
+      "required_inputs": [
+        "match identifiers or event date"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 2867,
+    "total_tokens": 2978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 1792,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 250,
+      "service_ttlt_ms": 2205,
+      "total_duration_ms": 2117,
+      "user_visible_ttft_ms": 116
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the upcoming sports matches for which predictions are needed.",
+        "domain": "Sports",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve accurate predictions for the identified upcoming sports matches.",
+        "domain": "Sports",
+        "required_inputs": [
+          "match identifiers or event date"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Query the 'List of Foods' API to retrieve a list of vegan dishes suitable for a dinner party.\",\n      \"domain\": \"Food API\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a recommended vegan dish from the retrieved list.\",\n      \"domain\": \"Food API\",\n      \"required_inputs\": [\"list of vegan dishes\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.\",\n      \"domain\": \"Recipe API\",\n      \"required_inputs\": [\"selected vegan dish\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Query the 'List of Foods' API to retrieve a list of vegan dishes suitable for a dinner party.",
+        "domain": "Food API",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a recommended vegan dish from the retrieved list.",
+        "domain": "Food API",
+        "required_inputs": [
+          "list of vegan dishes"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.",
+        "domain": "Recipe API",
+        "required_inputs": [
+          "selected vegan dish"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Query the 'List of Foods' API to retrieve a list of vegan dishes suitable for a dinner party.",
+      "domain": "Food API",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a recommended vegan dish from the retrieved list.",
+      "domain": "Food API",
+      "required_inputs": [
+        "list of vegan dishes"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.",
+      "domain": "Recipe API",
+      "required_inputs": [
+        "selected vegan dish"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 362,
+    "total_tokens": 525,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 2133,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 156,
+      "service_ttlt_ms": 2237,
+      "total_duration_ms": 2160,
+      "user_visible_ttft_ms": 72
+    }
+  }
+}

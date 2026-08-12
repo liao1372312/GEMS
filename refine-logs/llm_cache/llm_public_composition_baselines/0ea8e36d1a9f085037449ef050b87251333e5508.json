@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_854",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.95, \"rationale\": \"The 'Easy Weather - Complete weather (single call)' API provides current conditions, hourly forecast, daily forecast, and alerts in a single response, which matches the user's need to check current conditions, a 5-day forecast, and severe weather alerts for JFK airport (New York).\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.95,
+    "rationale": "The 'Easy Weather - Complete weather (single call)' API provides current conditions, hourly forecast, daily forecast, and alerts in a single response, which matches the user's need to check current conditions, a 5-day forecast, and severe weather alerts for JFK airport (New York)."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1652,
+    "total_tokens": 1730,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 674,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 163,
+      "service_ttlt_ms": 793,
+      "total_duration_ms": 713,
+      "user_visible_ttft_ms": 74
+    }
+  }
+}

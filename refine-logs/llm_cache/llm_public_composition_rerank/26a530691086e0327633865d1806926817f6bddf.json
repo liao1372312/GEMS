@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_91",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"Skyscanner_v2 - Get Hotel Details API is the most relevant travel-related API that can provide detailed information about hotels and their amenities, which may include water sports activities available in the destination area. It directly relates to tourism and the subtask of investigating water sports activities at the destination.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "Skyscanner_v2 - Get Hotel Details API is the most relevant travel-related API that can provide detailed information about hotels and their amenities, which may include water sports activities available in the destination area. It directly relates to tourism and the subtask of investigating water sports activities at the destination."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1676,
+    "total_tokens": 1756,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 168,
+      "engine_ttlt_ms": 1258,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 403,
+      "service_ttlt_ms": 1489,
+      "total_duration_ms": 1369,
+      "user_visible_ttft_ms": 270
+    }
+  }
+}

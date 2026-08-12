@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_79",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.1, \"rationale\": \"None of the candidates directly analyze nutritional data or suggest healthier alternatives. The top-ranked candidate provides product details from Target.com, which might be used to look up snack products and their nutritional info, but it does not perform nutritional analysis or suggest alternatives. It is the closest match given the available options.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.1,
+    "rationale": "None of the candidates directly analyze nutritional data or suggest healthier alternatives. The top-ranked candidate provides product details from Target.com, which might be used to look up snack products and their nutritional info, but it does not perform nutritional analysis or suggest alternatives. It is the closest match given the available options."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1359,
+    "total_tokens": 1440,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 979,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 271,
+      "service_ttlt_ms": 1187,
+      "total_duration_ms": 1122,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

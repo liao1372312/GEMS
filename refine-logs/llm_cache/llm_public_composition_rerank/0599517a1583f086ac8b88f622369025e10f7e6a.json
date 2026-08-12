@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1248",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The Yahoo Finance_v2 - stock/income-statement API directly provides the income statement for a given stock symbol, matching the subtask to fetch AAPL's income statement. It accepts the required 'symbol' parameter which can be bound to 'AAPL' from the subtask, making it the most specific and appropriate choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The Yahoo Finance_v2 - stock/income-statement API directly provides the income statement for a given stock symbol, matching the subtask to fetch AAPL's income statement. It accepts the required 'symbol' parameter which can be bound to 'AAPL' from the subtask, making it the most specific and appropriate choice."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1463,
+    "total_tokens": 1551,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 925,
+      "pre_inference_ms": 209,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 334,
+      "service_ttlt_ms": 1223,
+      "total_duration_ms": 1030,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

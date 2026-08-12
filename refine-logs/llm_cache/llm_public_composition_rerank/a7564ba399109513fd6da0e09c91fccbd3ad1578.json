@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The subtask requires gathering insights into teams' performance for today's matches, needing date and team IDs. The 'Football Prediction - Home Team Last 10 Matches' API provides detailed recent performance statistics for a specific team ID, directly addressing the subtask intent more specifically than broad live score or prediction APIs.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The subtask requires gathering insights into teams' performance for today's matches, needing date and team IDs. The 'Football Prediction - Home Team Last 10 Matches' API provides detailed recent performance statistics for a specific team ID, directly addressing the subtask intent more specifically than broad live score or prediction APIs."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 2134,
+    "total_tokens": 2216,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1003,
+      "pre_inference_ms": 136,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 321,
+      "service_ttlt_ms": 1232,
+      "total_duration_ms": 1108,
+      "user_visible_ttft_ms": 184
+    }
+  }
+}

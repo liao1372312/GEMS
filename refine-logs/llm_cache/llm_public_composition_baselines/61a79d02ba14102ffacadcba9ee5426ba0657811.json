@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5275",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.8, \"rationale\": \"The Crossref API can provide scientific articles that may include detailed and reliable information on wine and cheese pairings, which is relevant for compiling a recommended list.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.8,
+    "rationale": "The Crossref API can provide scientific articles that may include detailed and reliable information on wine and cheese pairings, which is relevant for compiling a recommended list."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1325,
+    "total_tokens": 1378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 555,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 728,
+      "total_duration_ms": 617,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

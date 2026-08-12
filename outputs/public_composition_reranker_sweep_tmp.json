@@ -1,0 +1,453 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "processed_endpoints": "dataset/processed/endpoints.jsonl",
+    "memory": "outputs/gems_memory_train_only.json",
+    "output": "outputs/public_composition_reranker_sweep_tmp.json",
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "trace_top_k": 16
+  },
+  "best_validation_reranker": {
+    "weights": {
+      "rank": 0.0,
+      "sim": 1.0,
+      "trace": 0.0,
+      "graph": 0.0,
+      "rel": 0.0,
+      "risk": 0.25,
+      "success": 0.0
+    },
+    "val": {
+      "api_acc": 0.6158940397350994,
+      "api_top3": 0.75,
+      "api_mrr": 0.7108686797014611,
+      "workflow_exact": 0.4142857142857143,
+      "hazard_success_proxy": 0.8333333333333334
+    },
+    "objective": 0.6992273730684327,
+    "test": {
+      "api_acc": 0.579454253611557,
+      "api_top3": 0.7271268057784912,
+      "api_mrr": 0.6841932278529389,
+      "workflow_exact": 0.3791469194312796,
+      "hazard_success_proxy": 0.7162162162162162
+    }
+  },
+  "oracle_success_gate": {
+    "weights": {
+      "rank": 0.0,
+      "sim": 1.0,
+      "trace": 0.0,
+      "graph": 0.0,
+      "rel": 0.0,
+      "risk": 0.25,
+      "success": 0.25
+    },
+    "val": {
+      "api_acc": 0.6009933774834437,
+      "api_top3": 0.7251655629139073,
+      "api_mrr": 0.6923959318826869,
+      "workflow_exact": 0.4,
+      "hazard_success_proxy": 1.0
+    },
+    "test": {
+      "api_acc": 0.5457463884430177,
+      "api_top3": 0.6998394863563403,
+      "api_mrr": 0.6553065046243216,
+      "workflow_exact": 0.3459715639810427,
+      "hazard_success_proxy": 1.0
+    },
+    "note": "Uses observed_success at test time; diagnostic upper bound only."
+  },
+  "top_20": [
+    {
+      "weights": {
+        "rank": 0.0,
+        "sim": 1.0,
+        "trace": 0.0,
+        "graph": 0.0,
+        "rel": 0.0,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6158940397350994,
+        "api_top3": 0.75,
+        "api_mrr": 0.7108686797014611,
+        "workflow_exact": 0.4142857142857143,
+        "hazard_success_proxy": 0.8333333333333334
+      },
+      "objective": 0.6992273730684327,
+      "test": {
+        "api_acc": 0.579454253611557,
+        "api_top3": 0.7271268057784912,
+        "api_mrr": 0.6841932278529389,
+        "workflow_exact": 0.3791469194312796,
+        "hazard_success_proxy": 0.7162162162162162
+      }
+    },
+    {
+      "weights": {
+        "rank": 0.0,
+        "sim": 1.0,
+        "trace": 0.0,
+        "graph": 0.0,
+        "rel": 0.0,
+        "risk": 0.1,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6307947019867549,
+        "api_top3": 0.7764900662251656,
+        "api_mrr": 0.7286397561231999,
+        "workflow_exact": 0.4238095238095238,
+        "hazard_success_proxy": 0.6296296296296297
+      },
+      "objective": 0.6937576649497179
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.25,
+        "graph": 0.25,
+        "rel": 0.25,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6423841059602649,
+        "api_top3": 0.8278145695364238,
+        "api_mrr": 0.7517778303374328,
+        "workflow_exact": 0.44285714285714284,
+        "hazard_success_proxy": 0.2037037037037037
+      },
+      "objective": 0.6627544763306352
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.25,
+        "rel": 0.25,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6341059602649006,
+        "api_top3": 0.8278145695364238,
+        "api_mrr": 0.7481426731840637,
+        "workflow_exact": 0.41904761904761906,
+        "hazard_success_proxy": 0.25925925925925924
+      },
+      "objective": 0.6600318861908265
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.25,
+        "rel": 0.1,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6440397350993378,
+        "api_top3": 0.8294701986754967,
+        "api_mrr": 0.7540924261536841,
+        "workflow_exact": 0.43333333333333335,
+        "hazard_success_proxy": 0.14814814814814814
+      },
+      "objective": 0.6588545499141526
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.25,
+        "rel": 0.0,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6456953642384106,
+        "api_top3": 0.8311258278145696,
+        "api_mrr": 0.7559458109954794,
+        "workflow_exact": 0.43333333333333335,
+        "hazard_success_proxy": 0.12962962962962962
+      },
+      "objective": 0.6586583272013735
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.25,
+        "graph": 0.25,
+        "rel": 0.1,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6506622516556292,
+        "api_top3": 0.8344370860927153,
+        "api_mrr": 0.756946415431514,
+        "workflow_exact": 0.4523809523809524,
+        "hazard_success_proxy": 0.07407407407407407
+      },
+      "objective": 0.6580696590630366
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.25,
+        "graph": 0.25,
+        "rel": 0.0,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8311258278145696,
+        "api_mrr": 0.7580547671607267,
+        "workflow_exact": 0.4523809523809524,
+        "hazard_success_proxy": 0.05555555555555555
+      },
+      "objective": 0.6578734363502575
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.0,
+        "rel": 0.0,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6473509933774835,
+        "api_top3": 0.8327814569536424,
+        "api_mrr": 0.7550444129086505,
+        "workflow_exact": 0.44285714285714284,
+        "hazard_success_proxy": 0.09259259259259259
+      },
+      "objective": 0.6566102526367428
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.25,
+        "graph": 0.25,
+        "rel": 0.25,
+        "risk": 0.1,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6490066225165563,
+        "api_top3": 0.8261589403973509,
+        "api_mrr": 0.7544478608220325,
+        "workflow_exact": 0.4523809523809524,
+        "hazard_success_proxy": 0.07407407407407407
+      },
+      "objective": 0.6564140299239637
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.0,
+        "graph": 0.25,
+        "rel": 0.25,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6423841059602649,
+        "api_top3": 0.7996688741721855,
+        "api_mrr": 0.742041154210028,
+        "workflow_exact": 0.4523809523809524,
+        "hazard_success_proxy": 0.12962962962962962
+      },
+      "objective": 0.6553470689232278
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.0,
+        "graph": 0.0,
+        "rel": 0.25,
+        "risk": 0.25,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6456953642384106,
+        "api_top3": 0.7913907284768212,
+        "api_mrr": 0.7399992116051716,
+        "workflow_exact": 0.45714285714285713,
+        "hazard_success_proxy": 0.09259259259259259
+      },
+      "objective": 0.6549546234976699
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.25,
+        "rel": 0.0,
+        "risk": 0.1,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6473509933774835,
+        "api_top3": 0.8311258278145696,
+        "api_mrr": 0.7567151529485961,
+        "workflow_exact": 0.4380952380952381,
+        "hazard_success_proxy": 0.07407407407407407
+      },
+      "objective": 0.6547584007848909
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.25,
+        "rel": 0.1,
+        "risk": 0.0,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6473509933774835,
+        "api_top3": 0.8311258278145696,
+        "api_mrr": 0.7559300430989168,
+        "workflow_exact": 0.4380952380952381,
+        "hazard_success_proxy": 0.07407407407407407
+      },
+      "objective": 0.6547584007848909
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.25,
+        "rel": 0.1,
+        "risk": 0.1,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6473509933774835,
+        "api_top3": 0.8311258278145696,
+        "api_mrr": 0.7553315200252281,
+        "workflow_exact": 0.4380952380952381,
+        "hazard_success_proxy": 0.07407407407407407
+      },
+      "objective": 0.6547584007848909
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.25,
+        "rel": 0.0,
+        "risk": 0.0,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6490066225165563,
+        "api_top3": 0.8344370860927153,
+        "api_mrr": 0.7578609534321449,
+        "workflow_exact": 0.44285714285714284,
+        "hazard_success_proxy": 0.05555555555555555
+      },
+      "objective": 0.6545621780721118
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.5,
+        "graph": 0.0,
+        "rel": 0.0,
+        "risk": 0.1,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6490066225165563,
+        "api_top3": 0.8294701986754967,
+        "api_mrr": 0.7557000946073786,
+        "workflow_exact": 0.44761904761904764,
+        "hazard_success_proxy": 0.05555555555555555
+      },
+      "objective": 0.6545621780721118
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.25,
+        "graph": 0.25,
+        "rel": 0.25,
+        "risk": 0.0,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.6506622516556292,
+        "api_top3": 0.8261589403973509,
+        "api_mrr": 0.755609429202144,
+        "workflow_exact": 0.4523809523809524,
+        "hazard_success_proxy": 0.037037037037037035
+      },
+      "objective": 0.6543659553593328
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.25,
+        "graph": 0.25,
+        "rel": 0.0,
+        "risk": 0.1,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8327814569536424,
+        "api_mrr": 0.7584102018290753,
+        "workflow_exact": 0.4523809523809524,
+        "hazard_success_proxy": 0.018518518518518517
+      },
+      "objective": 0.6541697326465539
+    },
+    {
+      "weights": {
+        "rank": 0.25,
+        "sim": 1.0,
+        "trace": 0.25,
+        "graph": 0.25,
+        "rel": 0.1,
+        "risk": 0.0,
+        "success": 0.0
+      },
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8327814569536424,
+        "api_mrr": 0.7581769683590869,
+        "workflow_exact": 0.4523809523809524,
+        "hazard_success_proxy": 0.018518518518518517
+      },
+      "objective": 0.6541697326465539
+    }
+  ]
+}

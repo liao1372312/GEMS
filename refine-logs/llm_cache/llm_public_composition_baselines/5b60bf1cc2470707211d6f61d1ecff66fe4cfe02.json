@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3462",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.7, \"rationale\": \"Candidate 1 is a news API aggregating articles related to green technology and trends, which is closer to news domain than finance or image search. However, it does not specifically target charity events or the user's requested domain of Technology, so confidence is moderate.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.7,
+    "rationale": "Candidate 1 is a news API aggregating articles related to green technology and trends, which is closer to news domain than finance or image search. However, it does not specifically target charity events or the user's requested domain of Technology, so confidence is moderate."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1164,
+    "total_tokens": 1237,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 981,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 255,
+      "service_ttlt_ms": 1153,
+      "total_duration_ms": 1044,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

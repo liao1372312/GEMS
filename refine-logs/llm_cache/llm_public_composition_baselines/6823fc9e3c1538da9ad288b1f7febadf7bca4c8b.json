@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The MuscleWiki API provides detailed exercise information including target muscles and instructions, which is essential for designing a beginner-friendly 45-minute leg workout plan with exercise selection, duration, and rest periods.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The MuscleWiki API provides detailed exercise information including target muscles and instructions, which is essential for designing a beginner-friendly 45-minute leg workout plan with exercise selection, duration, and rest periods."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1680,
+    "total_tokens": 1740,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 654,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 279,
+      "service_ttlt_ms": 883,
+      "total_duration_ms": 772,
+      "user_visible_ttft_ms": 135
+    }
+  }
+}

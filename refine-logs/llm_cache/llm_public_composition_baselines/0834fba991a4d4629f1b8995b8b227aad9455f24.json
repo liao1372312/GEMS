@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1006",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants albums and singles from their parents' favorite artist. The top-ranked API provides all albums from a specified artist, which aligns well with the request. However, the favorite artist is not yet identified, so the next step is to get that information before making the API call.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants albums and singles from their parents' favorite artist. The top-ranked API provides all albums from a specified artist, which aligns well with the request. However, the favorite artist is not yet identified, so the next step is to get that information before making the API call."
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1612,
+    "total_tokens": 1691,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 965,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 205,
+      "service_ttlt_ms": 1138,
+      "total_duration_ms": 1030,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

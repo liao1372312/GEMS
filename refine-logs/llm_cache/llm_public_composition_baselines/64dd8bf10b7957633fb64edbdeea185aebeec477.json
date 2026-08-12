@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_262",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.7, \"rationale\": \"The user request includes two subtasks: fetching mythic plus scores for a WoW character and fetching Diablo 4 top players. Among candidates, only the Diablo4 Smartable - GetPeople API matches the Diablo 4 top players subtask. However, no candidate matches the mythic plus scores subtask, so the best match is the Diablo4 Smartable - GetPeople API for the Diablo 4 part.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.7,
+    "rationale": "The user request includes two subtasks: fetching mythic plus scores for a WoW character and fetching Diablo 4 top players. Among candidates, only the Diablo4 Smartable - GetPeople API matches the Diablo 4 top players subtask. However, no candidate matches the mythic plus scores subtask, so the best match is the Diablo4 Smartable - GetPeople API for the Diablo 4 part."
+  },
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 1308,
+    "total_tokens": 1413,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 85,
+      "engine_ttlt_ms": 1530,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 214,
+      "service_ttlt_ms": 1645,
+      "total_duration_ms": 1564,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

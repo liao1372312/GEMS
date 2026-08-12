@@ -1,0 +1,158 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Determine the start and end locations for the road trip\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Calculate the driving route and total distance between the start and end locations\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Identify interesting and scenic places to visit along the route\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"route\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Search for budget-friendly accommodations along the route\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"route\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Search for budget-friendly restaurants along the route\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"route\"]\n    },\n    {\n      \"id\": 6,\n      \"description\": \"Estimate travel expenses including fuel, accommodation, and food costs\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"distance\", \"accommodation_options\", \"restaurant_options\"]\n    },\n    {\n      \"id\": 7,\n      \"description\": \"Provide a summary of the planned route with estimated expenses\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"route\", \"estimated_expenses\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Determine the start and end locations for the road trip",
+        "domain": "Travel",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Calculate the driving route and total distance between the start and end locations",
+        "domain": "Travel",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Identify interesting and scenic places to visit along the route",
+        "domain": "Travel",
+        "required_inputs": [
+          "route"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Search for budget-friendly accommodations along the route",
+        "domain": "Finance",
+        "required_inputs": [
+          "route"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Search for budget-friendly restaurants along the route",
+        "domain": "Finance",
+        "required_inputs": [
+          "route"
+        ]
+      },
+      {
+        "id": 6,
+        "description": "Estimate travel expenses including fuel, accommodation, and food costs",
+        "domain": "Finance",
+        "required_inputs": [
+          "distance",
+          "accommodation_options",
+          "restaurant_options"
+        ]
+      },
+      {
+        "id": 7,
+        "description": "Provide a summary of the planned route with estimated expenses",
+        "domain": "Finance",
+        "required_inputs": [
+          "route",
+          "estimated_expenses"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Determine the start and end locations for the road trip",
+      "domain": "Travel",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Calculate the driving route and total distance between the start and end locations",
+      "domain": "Travel",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Identify interesting and scenic places to visit along the route",
+      "domain": "Travel",
+      "required_inputs": [
+        "route"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Search for budget-friendly accommodations along the route",
+      "domain": "Finance",
+      "required_inputs": [
+        "route"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Search for budget-friendly restaurants along the route",
+      "domain": "Finance",
+      "required_inputs": [
+        "route"
+      ]
+    },
+    {
+      "id": 6,
+      "description": "Estimate travel expenses including fuel, accommodation, and food costs",
+      "domain": "Finance",
+      "required_inputs": [
+        "distance",
+        "accommodation_options",
+        "restaurant_options"
+      ]
+    },
+    {
+      "id": 7,
+      "description": "Provide a summary of the planned route with estimated expenses",
+      "domain": "Finance",
+      "required_inputs": [
+        "route",
+        "estimated_expenses"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 328,
+    "prompt_tokens": 393,
+    "total_tokens": 721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 525,
+      "user_visible_ttft_ms": 405,
+      "total_duration_ms": 3826,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 10,
+      "service_ttlt_ms": 3935,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 3493,
+      "engine_tbt_ms": 11
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The World History Timeline API by year is the best fit to provide interesting historical facts about the wedding year, which is a required input for the subtask. It directly supports querying historical events by year, matching the need to combine songs, quotes, and historical facts into a structured slideshow format.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The World History Timeline API by year is the best fit to provide interesting historical facts about the wedding year, which is a required input for the subtask. It directly supports querying historical events by year, matching the need to combine songs, quotes, and historical facts into a structured slideshow format."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1892,
+    "total_tokens": 1972,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 783,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 911,
+      "total_duration_ms": 817,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

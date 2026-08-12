@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Step 5 requires compiling results from Steps 3 and 4 into a report, so an API that handles currency and country information and conversion is most relevant to support the finance domain and data aggregation.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Step 5 requires compiling results from Steps 3 and 4 into a report, so an API that handles currency and country information and conversion is most relevant to support the finance domain and data aggregation."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1633,
+    "total_tokens": 1695,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 517,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 231,
+      "service_ttlt_ms": 705,
+      "total_duration_ms": 595,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

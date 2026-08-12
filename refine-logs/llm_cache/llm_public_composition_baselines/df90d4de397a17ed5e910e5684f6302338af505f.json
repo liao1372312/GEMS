@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3953",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate API provides a list of all available currencies, which directly addresses the user's request for virtual currencies. It is also from the Finance domain, matching the user's request domain. However, the user also asked about interesting products in the store, but no candidate explicitly covers store products. Given the candidates, the best fit is the first API for currencies.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate API provides a list of all available currencies, which directly addresses the user's request for virtual currencies. It is also from the Finance domain, matching the user's request domain. However, the user also asked about interesting products in the store, but no candidate explicitly covers store products. Given the candidates, the best fit is the first API for currencies."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1708,
+    "total_tokens": 1801,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 1060,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 1207,
+      "total_duration_ms": 1121,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

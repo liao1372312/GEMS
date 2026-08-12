@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1125",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs directly provide healthcare facility data, but the first API offers location data which might be used to identify retreat locations; however, it does not fulfill the subtask of compiling healthcare facilities near those locations. Since no suitable healthcare or medical facility API is present, none can fully satisfy the subtask. The first API is the closest relevant option but not ideal.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs directly provide healthcare facility data, but the first API offers location data which might be used to identify retreat locations; however, it does not fulfill the subtask of compiling healthcare facilities near those locations. Since no suitable healthcare or medical facility API is present, none can fully satisfy the subtask. The first API is the closest relevant option but not ideal."
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 1650,
+    "total_tokens": 1747,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1580,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 161,
+      "service_ttlt_ms": 1679,
+      "total_duration_ms": 1607,
+      "user_visible_ttft_ms": 83
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_999",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The taboo-api provides random words and related content, which could include trivia or facts about numbers, and it requires no parameters, making it suitable for fetching a random fact about the number 42. Other APIs are unrelated to trivia or numbers or are specific to sports or finance domains.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The taboo-api provides random words and related content, which could include trivia or facts about numbers, and it requires no parameters, making it suitable for fetching a random fact about the number 42. Other APIs are unrelated to trivia or numbers or are specific to sports or finance domains."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 2015,
+    "total_tokens": 2093,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 1103,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 255,
+      "service_ttlt_ms": 1287,
+      "total_duration_ms": 1151,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

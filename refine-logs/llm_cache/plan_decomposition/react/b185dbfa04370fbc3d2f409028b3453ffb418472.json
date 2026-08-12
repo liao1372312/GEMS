@@ -1,0 +1,68 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the list of foods to include in the dinner party menu\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"user's preferred foods or menu items\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve nutritional information for each identified food item\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"list of food items\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the list of foods to include in the dinner party menu",
+        "domain": "Medical",
+        "required_inputs": [
+          "user's preferred foods or menu items"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve nutritional information for each identified food item",
+        "domain": "Medical",
+        "required_inputs": [
+          "list of food items"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the list of foods to include in the dinner party menu",
+      "domain": "Medical",
+      "required_inputs": [
+        "user's preferred foods or menu items"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve nutritional information for each identified food item",
+      "domain": "Medical",
+      "required_inputs": [
+        "list of food items"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 174,
+    "total_tokens": 277,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1562,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 171,
+      "service_ttlt_ms": 1681,
+      "total_duration_ms": 1597,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

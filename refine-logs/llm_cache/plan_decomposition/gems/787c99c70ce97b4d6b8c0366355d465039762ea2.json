@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch jokes to entertain the audience during the comedy show.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve sanction data for Canada to ensure compliance with the event.\",\n      \"domain\": \"compliance\",\n      \"required_inputs\": [\"country_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch jokes to entertain the audience during the comedy show.",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve sanction data for Canada to ensure compliance with the event.",
+        "domain": "compliance",
+        "required_inputs": [
+          "country_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch jokes to entertain the audience during the comedy show.",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve sanction data for Canada to ensure compliance with the event.",
+      "domain": "compliance",
+      "required_inputs": [
+        "country_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 2115,
+    "total_tokens": 2212,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 2175,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 289,
+      "service_ttlt_ms": 2365,
+      "total_duration_ms": 2244,
+      "user_visible_ttft_ms": 156
+    }
+  }
+}

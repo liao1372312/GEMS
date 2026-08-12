@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1375",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user needs the daily low of Apple Inc.'s stock price, and the 'Stock Prices - YTD Historical Daily Prices' API provides adjusted daily open, high, low, and close prices for a given symbol, including AAPL by default. No credit report API is available, so this API best fits the stock price subtask.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user needs the daily low of Apple Inc.'s stock price, and the 'Stock Prices - YTD Historical Daily Prices' API provides adjusted daily open, high, low, and close prices for a given symbol, including AAPL by default. No credit report API is available, so this API best fits the stock price subtask."
+  },
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 1503,
+    "total_tokens": 1593,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 802,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 299,
+      "service_ttlt_ms": 1003,
+      "total_duration_ms": 912,
+      "user_visible_ttft_ms": 197
+    }
+  }
+}

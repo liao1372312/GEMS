@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4677",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The Recipe Finder API directly addresses the user's request for creative chicken recipes for a dinner party by providing recipes based on the chicken ingredient.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The Recipe Finder API directly addresses the user's request for creative chicken recipes for a dinner party by providing recipes based on the chicken ingredient."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1511,
+    "total_tokens": 1559,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 286,
+      "user_visible_ttft_ms": 108,
+      "total_duration_ms": 545,
+      "pre_inference_ms": 177,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 715,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 476,
+      "engine_tbt_ms": 9
+    }
+  }
+}

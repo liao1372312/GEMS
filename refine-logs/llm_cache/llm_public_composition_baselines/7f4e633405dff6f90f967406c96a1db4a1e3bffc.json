@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The user wants gas prices for California, a US state. The 'Gas Price - stateUsaPrice' API provides gas prices by US state and requires a state parameter, matching the subtask requirements and domain.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The user wants gas prices for California, a US state. The 'Gas Price - stateUsaPrice' API provides gas prices by US state and requires a state parameter, matching the subtask requirements and domain."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1202,
+    "total_tokens": 1267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 111,
+      "engine_ttlt_ms": 852,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 1033,
+      "total_duration_ms": 924,
+      "user_visible_ttft_ms": 164
+    }
+  }
+}

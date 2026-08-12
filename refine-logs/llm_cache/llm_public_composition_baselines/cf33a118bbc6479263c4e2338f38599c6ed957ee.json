@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Crypto Arbitrage Trading API provides real-time price data for a specific coin, which aligns well with the subtask of identifying a specific stock or coin to monitor its performance.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Crypto Arbitrage Trading API provides real-time price data for a specific coin, which aligns well with the subtask of identifying a specific stock or coin to monitor its performance."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1604,
+    "total_tokens": 1661,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 672,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 879,
+      "total_duration_ms": 785,
+      "user_visible_ttft_ms": 164
+    }
+  }
+}

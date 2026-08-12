@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide love quotes or romantic content; all are unrelated to the subtask of collecting love quotes expressing romance and partnership.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide love quotes or romantic content; all are unrelated to the subtask of collecting love quotes expressing romance and partnership."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1622,
+    "total_tokens": 1671,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 675,
+      "pre_inference_ms": 264,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 384,
+      "service_ttlt_ms": 1203,
+      "total_duration_ms": 943,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Cartify - getProductByName API is the most relevant for nutritional analysis of a specified food item as it allows querying product information by name, which can include nutritional details. It directly satisfies the subtask intent and accepts the required input 'food_item_name' (mapped to product name). Other APIs are unrelated to food or nutrition.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Cartify - getProductByName API is the most relevant for nutritional analysis of a specified food item as it allows querying product information by name, which can include nutritional details. It directly satisfies the subtask intent and accepts the required input 'food_item_name' (mapped to product name). Other APIs are unrelated to food or nutrition."
+  },
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 1906,
+    "total_tokens": 1996,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1913,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 734,
+      "service_ttlt_ms": 2582,
+      "total_duration_ms": 2482,
+      "user_visible_ttft_ms": 628
+    }
+  }
+}

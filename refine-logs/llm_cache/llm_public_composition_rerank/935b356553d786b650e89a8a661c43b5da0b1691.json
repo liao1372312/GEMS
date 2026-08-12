@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4465",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The 'Recipe Finder - salad/ingredient' API is from the Food domain and allows searching recipes by ingredient, which fits the subtask of finding recipes with avocado and quinoa. Salad recipes are more likely to include avocado and quinoa together compared to other specific recipe types like ice cream or cake. Although it only accepts one ingredient parameter, it is the most relevant and specific API available for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The 'Recipe Finder - salad/ingredient' API is from the Food domain and allows searching recipes by ingredient, which fits the subtask of finding recipes with avocado and quinoa. Salad recipes are more likely to include avocado and quinoa together compared to other specific recipe types like ice cream or cake. Although it only accepts one ingredient parameter, it is the most relevant and specific API available for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 2258,
+    "total_tokens": 2360,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 1611,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 252,
+      "service_ttlt_ms": 1779,
+      "total_duration_ms": 1693,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

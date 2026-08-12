@@ -1,0 +1,81 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch wisdom quotes related to anger to help calm the mind\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the list of top-ranked Netflix original series\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get today's general horoscope for the user's zodiac sign in English\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"zodiac_sign\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch wisdom quotes related to anger to help calm the mind",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the list of top-ranked Netflix original series",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Get today's general horoscope for the user's zodiac sign in English",
+        "domain": "entertainment",
+        "required_inputs": [
+          "zodiac_sign"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch wisdom quotes related to anger to help calm the mind",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the list of top-ranked Netflix original series",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Get today's general horoscope for the user's zodiac sign in English",
+      "domain": "entertainment",
+      "required_inputs": [
+        "zodiac_sign"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 2612,
+    "total_tokens": 2753,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 77,
+      "engine_ttft_ms": 2334,
+      "engine_ttlt_ms": 13134,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 77,
+      "service_ttft_ms": 3697,
+      "service_ttlt_ms": 14493,
+      "total_duration_ms": 14387,
+      "user_visible_ttft_ms": 3581
+    }
+  },
+  "goal_hints": [
+    "I'm feeling a bit angry today and could use some wisdom to calm my mind. Can you provide me with some wisdom quotes related to anger",
+    "I'm curious about the top-ranked Netflix original series. Can you fetch the list for me",
+    "I'd like to know my horoscope for today. Please give me the general horoscope for my zodiac sign in English"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1345",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The user wants detailed information about the airport with IATA code DFW. The top-ranked API 'Travel Hacking Tool - Get Airport Details' directly provides complete and up-to-date details for a specified IATA airport, including DFW, making it the most relevant and suitable choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The user wants detailed information about the airport with IATA code DFW. The top-ranked API 'Travel Hacking Tool - Get Airport Details' directly provides complete and up-to-date details for a specified IATA airport, including DFW, making it the most relevant and suitable choice."
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1387,
+    "total_tokens": 1466,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 681,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 161,
+      "service_ttlt_ms": 792,
+      "total_duration_ms": 712,
+      "user_visible_ttft_ms": 75
+    }
+  }
+}

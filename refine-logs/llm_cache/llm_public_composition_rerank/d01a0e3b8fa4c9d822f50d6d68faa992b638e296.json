@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1046",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The subtask is to retrieve lyrics for a specified song requiring song title and artist name. The Shazam - Search Track API directly searches for a song by track name and can return related song information, making it suitable for retrieving lyrics and song data. It accepts the track parameter, which can be bound to the song title. Although artist_name is required, this API is the closest match for song-specific data retrieval compared to other options which are either chart-focused or unrelated.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask is to retrieve lyrics for a specified song requiring song title and artist name. The Shazam - Search Track API directly searches for a song by track name and can return related song information, making it suitable for retrieving lyrics and song data. It accepts the track parameter, which can be bound to the song title. Although artist_name is required, this API is the closest match for song-specific data retrieval compared to other options which are either chart-focused or unrelated."
+  },
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 1836,
+    "total_tokens": 1947,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1183,
+      "pre_inference_ms": 218,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 338,
+      "service_ttlt_ms": 1470,
+      "total_duration_ms": 1266,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

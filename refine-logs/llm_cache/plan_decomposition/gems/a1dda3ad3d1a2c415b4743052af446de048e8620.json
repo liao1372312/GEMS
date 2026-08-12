@@ -1,0 +1,78 @@
+{
+  "record_id": "Finance_response_1466",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical exchange rates for US Dollar in China from 2022-07-01 to 2022-07-31\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"currency_pair\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve VAT rates for all EU member states\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"region\", \"tax_type\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical exchange rates for US Dollar in China from 2022-07-01 to 2022-07-31",
+        "domain": "Finance",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "currency_pair"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve VAT rates for all EU member states",
+        "domain": "Finance",
+        "required_inputs": [
+          "region",
+          "tax_type"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch historical exchange rates for US Dollar in China from 2022-07-01 to 2022-07-31",
+      "domain": "Finance",
+      "required_inputs": [
+        "start_date",
+        "end_date",
+        "currency_pair"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve VAT rates for all EU member states",
+      "domain": "Finance",
+      "required_inputs": [
+        "region",
+        "tax_type"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 2364,
+    "total_tokens": 2484,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 1303,
+      "pre_inference_ms": 240,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 442,
+      "service_ttlt_ms": 1651,
+      "total_duration_ms": 1421,
+      "user_visible_ttft_ms": 202
+    }
+  },
+  "goal_hints": [
+    "I'm planning a family vacation to Asia and I need to know the currency exchange rates for the next month. Can you provide me with the historical exchange rates for the US Dollar in China from 2022-07-01 to 2022-07-31",
+    "I would like to get the VAT rates for all EU member states"
+  ]
+}

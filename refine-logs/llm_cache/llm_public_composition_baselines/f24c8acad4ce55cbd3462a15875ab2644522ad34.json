@@ -1,0 +1,27 @@
+{
+  "record_id": "Tourism_response_5444",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"This API provides tourism locations and categories to explore, matching the request for popular tourist attractions with names, types, and addresses, especially for African countries. Although it requires a country_name parameter, it is the closest match for tourism data among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "This API provides tourism locations and categories to explore, matching the request for popular tourist attractions with names, types, and addresses, especially for African countries. Although it requires a country_name parameter, it is the closest match for tourism data among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1516,
+    "total_tokens": 1588,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 71
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1502
+    }
+  }
+}

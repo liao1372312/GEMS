@@ -1,0 +1,71 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random word containing the substring 'game' to inspire a board game selection\",\n      \"domain\": \"Data\",\n      \"required_inputs\": [\"substring\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather reviews from a gaming website for the selected word or related board games\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": [\"game_name_or_keyword\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random word containing the substring 'game' to inspire a board game selection",
+        "domain": "Data",
+        "required_inputs": [
+          "substring"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Gather reviews from a gaming website for the selected word or related board games",
+        "domain": "recreation",
+        "required_inputs": [
+          "game_name_or_keyword"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random word containing the substring 'game' to inspire a board game selection",
+      "domain": "Data",
+      "required_inputs": [
+        "substring"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather reviews from a gaming website for the selected word or related board games",
+      "domain": "recreation",
+      "required_inputs": [
+        "game_name_or_keyword"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 2257,
+    "total_tokens": 2365,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 2216,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 179,
+      "service_ttlt_ms": 2334,
+      "total_duration_ms": 2249,
+      "user_visible_ttft_ms": 89
+    }
+  },
+  "goal_hints": [
+    "I want to find a random word containing 'game' to inspire a board game selection and gather reviews from a gaming website."
+  ]
+}

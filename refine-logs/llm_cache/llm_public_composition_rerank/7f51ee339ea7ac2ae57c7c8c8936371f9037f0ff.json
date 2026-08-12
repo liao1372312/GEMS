@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_79",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.8, \"rationale\": \"None of the candidate APIs specifically provide vaccination guidelines for adults. The URL Content Extractor API can be used to search for and extract relevant vaccination guideline content from authoritative sources, making it the best available option to fulfill the subtask.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.8,
+    "rationale": "None of the candidate APIs specifically provide vaccination guidelines for adults. The URL Content Extractor API can be used to search for and extract relevant vaccination guideline content from authoritative sources, making it the best available option to fulfill the subtask."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1665,
+    "total_tokens": 1733,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1273,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 199,
+      "service_ttlt_ms": 1417,
+      "total_duration_ms": 1332,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

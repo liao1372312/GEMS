@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_3385",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate for fetching event details by event ID.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate for retrieving historical odds by event ID.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides live and upcoming matches list without parameters, better matching the requirement to get available periods for upcoming soccer matches than semantic top-1 which lists federations.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for fetching event details by event ID."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving historical odds by event ID."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice provides live and upcoming matches list without parameters, better matching the requirement to get available periods for upcoming soccer matches than semantic top-1 which lists federations."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 1199,
+    "total_tokens": 1370,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 2698,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 220,
+      "service_ttlt_ms": 2834,
+      "total_duration_ms": 2741,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

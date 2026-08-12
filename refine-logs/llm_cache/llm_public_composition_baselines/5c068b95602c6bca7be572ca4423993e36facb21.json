@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_373",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs relate to contests or tourism; no suitable API available to fetch latest active contests.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs relate to contests or tourism; no suitable API available to fetch latest active contests."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1335,
+    "total_tokens": 1378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 661,
+      "pre_inference_ms": 136,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 905,
+      "total_duration_ms": 837,
+      "user_visible_ttft_ms": 126
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "record_id": "Technology_response_3462",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for recent news articles related to charity events within the technology domain.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"keywords\", \"date_range\", \"category\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Extract headlines and summaries from the retrieved news articles for quick inspiration.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"articles\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for recent news articles related to charity events within the technology domain.",
+        "domain": "Technology",
+        "required_inputs": [
+          "keywords",
+          "date_range",
+          "category"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Extract headlines and summaries from the retrieved news articles for quick inspiration.",
+        "domain": "Technology",
+        "required_inputs": [
+          "articles"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for recent news articles related to charity events within the technology domain.",
+      "domain": "Technology",
+      "required_inputs": [
+        "keywords",
+        "date_range",
+        "category"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Extract headlines and summaries from the retrieved news articles for quick inspiration.",
+      "domain": "Technology",
+      "required_inputs": [
+        "articles"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 175,
+    "total_tokens": 281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1381,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 184,
+      "service_ttlt_ms": 1543,
+      "total_duration_ms": 1457,
+      "user_visible_ttft_ms": 82
+    }
+  }
+}

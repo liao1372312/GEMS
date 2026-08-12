@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1466",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"This API provides historical exchange rates for a specified date range, which matches the requirement to retrieve historical exchange rates for the US Dollar in China from 2022-07-01 to 2022-07-31.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "This API provides historical exchange rates for a specified date range, which matches the requirement to retrieve historical exchange rates for the US Dollar in China from 2022-07-01 to 2022-07-31."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1344,
+    "total_tokens": 1410,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 236,
+      "user_visible_ttft_ms": 124,
+      "total_duration_ms": 827,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 11,
+      "service_ttlt_ms": 927,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 755,
+      "engine_tbt_ms": 11
+    }
+  }
+}

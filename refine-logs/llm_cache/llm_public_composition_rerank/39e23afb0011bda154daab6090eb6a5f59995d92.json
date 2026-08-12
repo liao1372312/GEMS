@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3998",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Football Prediction - Home Team Last 10 Matches' API directly provides the last 10 matches played by the home team with the given team ID 81930, matching the subtask intent precisely and requiring only the team ID parameter which is available.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Football Prediction - Home Team Last 10 Matches' API directly provides the last 10 matches played by the home team with the given team ID 81930, matching the subtask intent precisely and requiring only the team ID parameter which is available."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 2613,
+    "total_tokens": 2686,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 82,
+      "engine_ttft_ms": 281,
+      "engine_ttlt_ms": 6275,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 82,
+      "service_ttft_ms": 1165,
+      "service_ttlt_ms": 7156,
+      "total_duration_ms": 7074,
+      "user_visible_ttft_ms": 1078
+    }
+  }
+}

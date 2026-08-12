@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5445",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"None of the provided APIs directly support expression calculation, but the user subtask is to calculate the expression '40 * 5 + 100'. Since no API matches this subtask, the best match is the first candidate by rank, but it is unrelated. Therefore, confidence is low but rank 1 is selected as no better match.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "None of the provided APIs directly support expression calculation, but the user subtask is to calculate the expression '40 * 5 + 100'. Since no API matches this subtask, the best match is the first candidate by rank, but it is unrelated. Therefore, confidence is low but rank 1 is selected as no better match."
+  },
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 1506,
+    "total_tokens": 1596,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 843,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 160,
+      "service_ttlt_ms": 977,
+      "total_duration_ms": 913,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

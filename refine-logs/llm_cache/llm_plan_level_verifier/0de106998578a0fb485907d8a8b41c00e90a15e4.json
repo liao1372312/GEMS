@@ -1,0 +1,50 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choices are eCommerce APIs unrelated to wisdom quotes; semantic top-1 is preferred as it is the top-ranked.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Both choices are the same eCommerce APIs; semantic top-1 is preferred as it is the top-ranked.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is a horoscope-related API, clearly more appropriate than the unrelated eCommerce semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choices are eCommerce APIs unrelated to wisdom quotes; semantic top-1 is preferred as it is the top-ranked."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Both choices are the same eCommerce APIs; semantic top-1 is preferred as it is the top-ranked."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice is a horoscope-related API, clearly more appropriate than the unrelated eCommerce semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 1396,
+    "total_tokens": 1568,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 2304,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 326,
+      "service_ttlt_ms": 2507,
+      "total_duration_ms": 2398,
+      "user_visible_ttft_ms": 205
+    }
+  }
+}

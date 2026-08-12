@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Country Location API provides detailed country information and is the closest relevant API to fetch public holidays data for a destination country, as no direct public holiday API is listed. It accepts a country parameter, which can be bound from the required input 'destination_country'.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Country Location API provides detailed country information and is the closest relevant API to fetch public holidays data for a destination country, as no direct public holiday API is listed. It accepts a country parameter, which can be bound from the required input 'destination_country'."
+  },
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 1757,
+    "total_tokens": 1831,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 26,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 1991,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 26,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 2130,
+      "total_duration_ms": 2021,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

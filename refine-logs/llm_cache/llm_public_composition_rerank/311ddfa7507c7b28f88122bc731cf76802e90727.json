@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5308",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"MuscleWiki API directly provides detailed exercise information including categories and associated muscle groups, which is closely related to exercise difficulty levels. It is specific to health and fitness, matching the subtask intent better than generic category or unrelated domain APIs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "MuscleWiki API directly provides detailed exercise information including categories and associated muscle groups, which is closely related to exercise difficulty levels. It is specific to health and fitness, matching the subtask intent better than generic category or unrelated domain APIs."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1882,
+    "total_tokens": 1951,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 26,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 1838,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 26,
+      "service_ttft_ms": 193,
+      "service_ttlt_ms": 1951,
+      "total_duration_ms": 1863,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

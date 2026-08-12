@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4281",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the task of performing geolookup for venues or parks to gather location information based on geocodes.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the task of performing geolookup for venues or parks to gather location information based on geocodes."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1334,
+    "total_tokens": 1384,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 412,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 560,
+      "total_duration_ms": 468,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

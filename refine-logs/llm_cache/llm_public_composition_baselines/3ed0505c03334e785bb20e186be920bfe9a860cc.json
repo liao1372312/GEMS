@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4072",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The user needs current weather conditions for each destination, and the 'Cloud Cast - Get current weather' API provides comprehensive real-time weather data including temperature, humidity, and wind speed for any city, making it the most suitable choice.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The user needs current weather conditions for each destination, and the 'Cloud Cast - Get current weather' API provides comprehensive real-time weather data including temperature, humidity, and wind speed for any city, making it the most suitable choice."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1628,
+    "total_tokens": 1696,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 718,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 274,
+      "service_ttlt_ms": 950,
+      "total_duration_ms": 845,
+      "user_visible_ttft_ms": 163
+    }
+  }
+}

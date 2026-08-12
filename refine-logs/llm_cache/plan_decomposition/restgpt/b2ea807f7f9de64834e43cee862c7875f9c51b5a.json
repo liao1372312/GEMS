@@ -1,0 +1,72 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for easy-to-follow chicken recipes suitable for outdoor dining\",\n      \"domain\": \"Culinary\",\n      \"required_inputs\": [\"dish type\", \"meal setting\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find halal restaurants located in Korea\",\n      \"domain\": \"Food Services\",\n      \"required_inputs\": [\"location\", \"dietary restriction\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for easy-to-follow chicken recipes suitable for outdoor dining",
+        "domain": "Culinary",
+        "required_inputs": [
+          "dish type",
+          "meal setting"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find halal restaurants located in Korea",
+        "domain": "Food Services",
+        "required_inputs": [
+          "location",
+          "dietary restriction"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for easy-to-follow chicken recipes suitable for outdoor dining",
+      "domain": "Culinary",
+      "required_inputs": [
+        "dish type",
+        "meal setting"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find halal restaurants located in Korea",
+      "domain": "Food Services",
+      "required_inputs": [
+        "location",
+        "dietary restriction"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 210,
+    "total_tokens": 314,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1349,
+      "pre_inference_ms": 170,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 282,
+      "service_ttlt_ms": 1574,
+      "total_duration_ms": 1425,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

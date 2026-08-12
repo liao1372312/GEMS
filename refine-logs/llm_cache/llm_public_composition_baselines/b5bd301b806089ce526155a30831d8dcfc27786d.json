@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The World History Timeline API by year is best suited to provide interesting historical facts about the wedding year, which is a key part of the requested structured slideshow content.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The World History Timeline API by year is best suited to provide interesting historical facts about the wedding year, which is a key part of the requested structured slideshow content."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1882,
+    "total_tokens": 1936,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 420,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 572,
+      "total_duration_ms": 492,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

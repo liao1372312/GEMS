@@ -1,0 +1,223 @@
+{
+  "diagnostic_only": true,
+  "reason": "Cross-validation is performed inside the 211-workflow test split because full validation LLM predictions are unavailable.",
+  "feature_names": [
+    "llm_rank",
+    "llm_rank_recip",
+    "llm_confidence",
+    "top1_similarity",
+    "llm_similarity",
+    "similarity_drop",
+    "margin_1_2",
+    "margin_1_3",
+    "llm_param_overlap",
+    "top1_param_overlap",
+    "llm_api_query_overlap",
+    "top1_api_query_overlap",
+    "llm_text_query_overlap",
+    "top1_text_query_overlap",
+    "same_domain_llm",
+    "same_domain_top1",
+    "plan_steps",
+    "step_id_norm"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "workflows": 43,
+      "steps": 131
+    },
+    {
+      "fold": 1,
+      "workflows": 42,
+      "steps": 118
+    },
+    {
+      "fold": 2,
+      "workflows": 42,
+      "steps": 118
+    },
+    {
+      "fold": 3,
+      "workflows": 42,
+      "steps": 125
+    },
+    {
+      "fold": 4,
+      "workflows": 42,
+      "steps": 131
+    }
+  ],
+  "semantic_top1": {
+    "api_acc": 0.6147672552166934,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "llm_accept_rate": 0.42375601926163725,
+    "llm_change_rate": 0.0,
+    "steps": 623,
+    "workflows": 211
+  },
+  "all_llm": {
+    "api_acc": 0.6725521669341894,
+    "workflow_exact": 0.3886255924170616,
+    "para_f1": 0.750187265917603,
+    "llm_accept_rate": 1.0,
+    "llm_change_rate": 0.5762439807383628,
+    "steps": 623,
+    "workflows": 211
+  },
+  "oracle_semantic_or_llm": {
+    "api_acc": 0.9101123595505618,
+    "workflow_exact": 0.7867298578199052,
+    "para_f1": 0.9333333333333333,
+    "llm_accept_rate": 0.7191011235955056,
+    "llm_change_rate": 0.2953451043338684,
+    "steps": 623,
+    "workflows": 211
+  },
+  "best_cv_acceptance": {
+    "threshold": 0.5,
+    "metrics": {
+      "api_acc": 0.7030497592295345,
+      "workflow_exact": 0.41706161137440756,
+      "para_f1": 0.7604601391118245,
+      "llm_accept_rate": 0.9004815409309791,
+      "llm_change_rate": 0.4767255216693419,
+      "steps": 623,
+      "workflows": 211
+    },
+    "balanced": 0.6030070950580562
+  },
+  "top_10": [
+    {
+      "threshold": 0.5,
+      "metrics": {
+        "api_acc": 0.7030497592295345,
+        "workflow_exact": 0.41706161137440756,
+        "para_f1": 0.7604601391118245,
+        "llm_accept_rate": 0.9004815409309791,
+        "llm_change_rate": 0.4767255216693419,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.6030070950580562
+    },
+    {
+      "threshold": 0.475,
+      "metrics": {
+        "api_acc": 0.695024077046549,
+        "workflow_exact": 0.41706161137440756,
+        "para_f1": 0.7588550026752273,
+        "llm_accept_rate": 0.92776886035313,
+        "llm_change_rate": 0.5040128410914928,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.599796822184862
+    },
+    {
+      "threshold": 0.45,
+      "metrics": {
+        "api_acc": 0.6902086677367576,
+        "workflow_exact": 0.4028436018957346,
+        "para_f1": 0.7588550026752273,
+        "llm_accept_rate": 0.9390048154093098,
+        "llm_change_rate": 0.5152487961476726,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.5924242251349658
+    },
+    {
+      "threshold": 0.525,
+      "metrics": {
+        "api_acc": 0.6902086677367576,
+        "workflow_exact": 0.4028436018957346,
+        "para_f1": 0.7492241840556447,
+        "llm_accept_rate": 0.8731942215088283,
+        "llm_change_rate": 0.449438202247191,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.5900165204800701
+    },
+    {
+      "threshold": 0.35,
+      "metrics": {
+        "api_acc": 0.6837881219903692,
+        "workflow_exact": 0.3981042654028436,
+        "para_f1": 0.7569288389513108,
+        "llm_accept_rate": 0.9791332263242376,
+        "llm_change_rate": 0.5553772070626003,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.5877997585955944
+    },
+    {
+      "threshold": 0.375,
+      "metrics": {
+        "api_acc": 0.6837881219903692,
+        "workflow_exact": 0.3981042654028436,
+        "para_f1": 0.7569288389513108,
+        "llm_accept_rate": 0.9759229534510433,
+        "llm_change_rate": 0.5521669341894061,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.5877997585955944
+    },
+    {
+      "threshold": 0.55,
+      "metrics": {
+        "api_acc": 0.6886035313001605,
+        "workflow_exact": 0.3981042654028436,
+        "para_f1": 0.7476190476190476,
+        "llm_accept_rate": 0.8443017656500803,
+        "llm_change_rate": 0.420545746388443,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.5871577040209555
+    },
+    {
+      "threshold": 0.425,
+      "metrics": {
+        "api_acc": 0.6837881219903692,
+        "workflow_exact": 0.3886255924170616,
+        "para_f1": 0.7537185660781166,
+        "llm_accept_rate": 0.9550561797752809,
+        "llm_change_rate": 0.5313001605136437,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.583205721182983
+    },
+    {
+      "threshold": 0.4,
+      "metrics": {
+        "api_acc": 0.6837881219903692,
+        "workflow_exact": 0.38388625592417064,
+        "para_f1": 0.7569288389513108,
+        "llm_accept_rate": 0.9662921348314607,
+        "llm_change_rate": 0.5425361155698234,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.5821125548041252
+    },
+    {
+      "threshold": 0.325,
+      "metrics": {
+        "api_acc": 0.6789727126805778,
+        "workflow_exact": 0.3886255924170616,
+        "para_f1": 0.7537185660781166,
+        "llm_accept_rate": 0.9839486356340289,
+        "llm_change_rate": 0.5601926163723917,
+        "steps": 623,
+        "workflows": 211
+      },
+      "balanced": 0.581520327924556
+    }
+  ]
+}

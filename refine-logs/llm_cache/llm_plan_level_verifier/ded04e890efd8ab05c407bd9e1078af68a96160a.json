@@ -1,0 +1,50 @@
+{
+  "record_id": "Technology_response_4658",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to technology news; LLM choice is relevant but broader than just compiling a list of tech blogs; however, the step is about compiling a list, not retrieving articles, so neither API fits perfectly but LLM choice is not clearly better for this step.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice API directly queries tech news websites for articles, matching the step intent better than the unrelated quotes API semantic top-1.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"Semantic top-1 and LLM choice are the same API; keep semantic top-1 as it matches the step intent well.\"}],\"workflow_confidence\":0.8}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to technology news; LLM choice is relevant but broader than just compiling a list of tech blogs; however, the step is about compiling a list, not retrieving articles, so neither API fits perfectly but LLM choice is not clearly better for this step."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice API directly queries tech news websites for articles, matching the step intent better than the unrelated quotes API semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Semantic top-1 and LLM choice are the same API; keep semantic top-1 as it matches the step intent well."
+      }
+    ],
+    "workflow_confidence": 0.8
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1690,
+    "total_tokens": 1858,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 103,
+      "engine_ttlt_ms": 1928,
+      "pre_inference_ms": 141,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 301,
+      "service_ttlt_ms": 2125,
+      "total_duration_ms": 1994,
+      "user_visible_ttft_ms": 160
+    }
+  }
+}

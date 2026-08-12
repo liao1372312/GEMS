@@ -1,0 +1,45 @@
+{
+  "record_id": "Finance_response_1624",
+  "raw": "{\"decisions\": [{\"step_id\": 1, \"accept_llm\": false, \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"}, {\"step_id\": 2, \"accept_llm\": true, \"reason\": \"LLM choice (BraveNewCoin - MarketById) directly matches the requirement to fetch market details by UUID, better than semantic top-1 which fetches coin supply, not market details.\"}], \"workflow_confidence\": 0.975}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (BraveNewCoin - MarketById) directly matches the requirement to fetch market details by UUID, better than semantic top-1 which fetches coin supply, not market details."
+      }
+    ],
+    "workflow_confidence": 0.975
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 1169,
+    "total_tokens": 1277,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 1488,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 1670,
+      "total_duration_ms": 1563,
+      "user_visible_ttft_ms": 136
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_428",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The subtask is to research and identify reliable money transfer portals for international transfers. Among the candidates, only 'Fund Transfer - GetBankDetailsFT' relates directly to money transfer services by providing bank details, which is relevant to identifying money transfer portals. Other APIs focus on credit card validation, stock prices, or unrelated domains. Although it requires a bank code parameter, it is the most specific and relevant API for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask is to research and identify reliable money transfer portals for international transfers. Among the candidates, only 'Fund Transfer - GetBankDetailsFT' relates directly to money transfer services by providing bank details, which is relevant to identifying money transfer portals. Other APIs focus on credit card validation, stock prices, or unrelated domains. Although it requires a bank code parameter, it is the most specific and relevant API for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1591,
+    "total_tokens": 1694,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 132,
+      "engine_ttlt_ms": 1875,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 269,
+      "service_ttlt_ms": 2010,
+      "total_duration_ms": 1903,
+      "user_visible_ttft_ms": 159
+    }
+  }
+}

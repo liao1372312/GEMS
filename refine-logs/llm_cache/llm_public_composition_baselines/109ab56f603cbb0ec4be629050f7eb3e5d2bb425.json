@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2949",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The SCipherCrypto - Conversion API provides real-time cryptocurrency exchange rates and market capitalization data for cryptocurrencies like Bitcoin and Ethereum, which matches the user's request for current market capitalization and real-time rates of popular cryptocurrencies. However, it does not provide stock market data for Japan. Since the user requested both stock statistics and cryptocurrency data, but no API candidate provides both, selecting the best fit for the cryptocurrency part with highest rank is appropriate. Further steps can be taken to gather stock data separately.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The SCipherCrypto - Conversion API provides real-time cryptocurrency exchange rates and market capitalization data for cryptocurrencies like Bitcoin and Ethereum, which matches the user's request for current market capitalization and real-time rates of popular cryptocurrencies. However, it does not provide stock market data for Japan. Since the user requested both stock statistics and cryptocurrency data, but no API candidate provides both, selecting the best fit for the cryptocurrency part with highest rank is appropriate. Further steps can be taken to gather stock data separately."
+  },
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 2147,
+    "total_tokens": 2265,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1184,
+      "pre_inference_ms": 150,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 347,
+      "service_ttlt_ms": 1434,
+      "total_duration_ms": 1298,
+      "user_visible_ttft_ms": 197
+    }
+  }
+}

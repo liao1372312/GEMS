@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3042",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The top-ranked API (BMI_v2) supports BMI calculation using both Imperial and Metric units, allows input of height in feet and inches and weight in kilograms, and provides weight categorization based on BMI including special categories for Asians. This matches the user's need for a BMI calculator with unit flexibility and weight categorization.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The top-ranked API (BMI_v2) supports BMI calculation using both Imperial and Metric units, allows input of height in feet and inches and weight in kilograms, and provides weight categorization based on BMI including special categories for Asians. This matches the user's need for a BMI calculator with unit flexibility and weight categorization."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 2124,
+    "total_tokens": 2209,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 870,
+      "pre_inference_ms": 169,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 313,
+      "service_ttlt_ms": 1122,
+      "total_duration_ms": 963,
+      "user_visible_ttft_ms": 144
+    }
+  }
+}

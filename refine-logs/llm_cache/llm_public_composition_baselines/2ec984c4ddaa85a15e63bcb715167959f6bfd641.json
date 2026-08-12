@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_761",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The Currency_v2 - Free Convert API is specifically designed for currency conversion, supports USD to EUR conversion, and allows specifying the amount, making it the best fit for calculating the exchange rate for 2000 USD to EUR.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The Currency_v2 - Free Convert API is specifically designed for currency conversion, supports USD to EUR conversion, and allows specifying the amount, making it the best fit for calculating the exchange rate for 2000 USD to EUR."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1414,
+    "total_tokens": 1481,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 556,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 299,
+      "service_ttlt_ms": 831,
+      "total_duration_ms": 746,
+      "user_visible_ttft_ms": 198
+    }
+  }
+}

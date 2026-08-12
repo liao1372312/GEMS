@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1083",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The TrueWay Geocoding - Geocode API is specifically designed for forward geocoding, which matches the subtask requirement to get geocode for a given address.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The TrueWay Geocoding - Geocode API is specifically designed for forward geocoding, which matches the subtask requirement to get geocode for a given address."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1501,
+    "total_tokens": 1557,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 467,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 286,
+      "service_ttlt_ms": 708,
+      "total_duration_ms": 585,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

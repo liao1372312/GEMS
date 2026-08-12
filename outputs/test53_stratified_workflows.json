@@ -1,0 +1,522 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "split": "test",
+    "sample_size": 53,
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "output": "outputs/test53_stratified_workflows.json"
+  },
+  "selection": "deterministic stratified by normalized domain and top-1 difficulty",
+  "workflow_ids": [
+    "Cross_Domain_response_1090",
+    "Cross_Domain_response_7901",
+    "Finance_response_1528",
+    "Technology_response_5475",
+    "Finance_response_2300",
+    "Medical_response_4391",
+    "Finance_response_5268",
+    "Cross_Domain_response_755",
+    "Cross_Domain_response_1089",
+    "Cross_Domain_response_503",
+    "Tourism_response_1492",
+    "Technology_response_5398",
+    "Cross_Domain_response_7311",
+    "Cross_Domain_response_7252",
+    "Tourism_response_5275",
+    "Cross_Domain_response_409",
+    "Tourism_response_616",
+    "Technology_response_1866",
+    "Medical_response_2571",
+    "Finance_response_4774",
+    "Tourism_response_91",
+    "Technology_response_2871",
+    "Tourism_response_5446",
+    "Medical_response_2024",
+    "Finance_response_5265",
+    "Finance_response_4555",
+    "Medical_response_4299",
+    "Finance_response_4210",
+    "Medical_response_4731",
+    "Tourism_response_1345",
+    "Technology_response_4421",
+    "Tourism_response_700",
+    "Technology_response_3462",
+    "Tourism_response_5444",
+    "Finance_response_3009",
+    "Medical_response_3942",
+    "Tourism_response_492",
+    "Cross_Domain_response_9639",
+    "Medical_response_2137",
+    "Finance_response_1677",
+    "Finance_response_1466",
+    "Tourism_response_138",
+    "Cross_Domain_response_1040",
+    "Technology_response_5279",
+    "Cross_Domain_response_7065",
+    "Technology_response_2668",
+    "Tourism_response_4653",
+    "Tourism_response_4345",
+    "Cross_Domain_response_9562",
+    "Cross_Domain_response_6284",
+    "Cross_Domain_response_8358",
+    "Cross_Domain_response_6708",
+    "Cross_Domain_response_7924"
+  ],
+  "summary": {
+    "workflows": 53,
+    "steps": 147,
+    "hard_workflows": 27,
+    "easy_workflows": 26,
+    "non_top1_steps": 54,
+    "domain_counts": {
+      "cross-domain": 6,
+      "education": 2,
+      "entertainment": 3,
+      "finance": 10,
+      "gaming": 2,
+      "medical": 7,
+      "recreation": 1,
+      "shopping": 1,
+      "sports": 1,
+      "technology": 8,
+      "tourism": 12
+    },
+    "strata_counts": {
+      "cross-domain:easy": 1,
+      "cross-domain:hard": 5,
+      "education:easy": 1,
+      "education:hard": 1,
+      "entertainment:easy": 1,
+      "entertainment:hard": 2,
+      "finance:easy": 5,
+      "finance:hard": 5,
+      "gaming:easy": 1,
+      "gaming:hard": 1,
+      "medical:easy": 4,
+      "medical:hard": 3,
+      "recreation:easy": 1,
+      "shopping:easy": 1,
+      "sports:easy": 1,
+      "technology:easy": 4,
+      "technology:hard": 4,
+      "tourism:easy": 6,
+      "tourism:hard": 6
+    }
+  },
+  "full_split_summary": {
+    "workflows": 211,
+    "steps": 623,
+    "hard_workflows": 116,
+    "easy_workflows": 95,
+    "non_top1_steps": 240,
+    "domain_counts": {
+      "cross-domain": 26,
+      "education": 2,
+      "entertainment": 12,
+      "finance": 45,
+      "gaming": 3,
+      "medical": 33,
+      "recreation": 1,
+      "shopping": 1,
+      "sports": 1,
+      "technology": 35,
+      "tourism": 52
+    },
+    "strata_counts": {
+      "cross-domain:easy": 3,
+      "cross-domain:hard": 23,
+      "education:easy": 1,
+      "education:hard": 1,
+      "entertainment:easy": 4,
+      "entertainment:hard": 8,
+      "finance:easy": 22,
+      "finance:hard": 23,
+      "gaming:easy": 2,
+      "gaming:hard": 1,
+      "medical:easy": 18,
+      "medical:hard": 15,
+      "recreation:easy": 1,
+      "shopping:easy": 1,
+      "sports:easy": 1,
+      "technology:easy": 16,
+      "technology:hard": 19,
+      "tourism:easy": 26,
+      "tourism:hard": 26
+    }
+  },
+  "rows": [
+    {
+      "record_id": "Cross_Domain_response_1090",
+      "domain": "cross-domain",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Cross_Domain_response_7901",
+      "domain": "gaming",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Finance_response_1528",
+      "domain": "finance",
+      "difficulty": "hard",
+      "steps": 4,
+      "non_top1_steps": 3
+    },
+    {
+      "record_id": "Technology_response_5475",
+      "domain": "technology",
+      "difficulty": "hard",
+      "steps": 6,
+      "non_top1_steps": 4
+    },
+    {
+      "record_id": "Finance_response_2300",
+      "domain": "finance",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Medical_response_4391",
+      "domain": "medical",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Finance_response_5268",
+      "domain": "finance",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Cross_Domain_response_755",
+      "domain": "cross-domain",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Cross_Domain_response_1089",
+      "domain": "cross-domain",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Cross_Domain_response_503",
+      "domain": "cross-domain",
+      "difficulty": "hard",
+      "steps": 10,
+      "non_top1_steps": 10
+    },
+    {
+      "record_id": "Tourism_response_1492",
+      "domain": "tourism",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Technology_response_5398",
+      "domain": "technology",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 3
+    },
+    {
+      "record_id": "Cross_Domain_response_7311",
+      "domain": "entertainment",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Cross_Domain_response_7252",
+      "domain": "entertainment",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Tourism_response_5275",
+      "domain": "tourism",
+      "difficulty": "hard",
+      "steps": 4,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Cross_Domain_response_409",
+      "domain": "cross-domain",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Tourism_response_616",
+      "domain": "tourism",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Technology_response_1866",
+      "domain": "technology",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Medical_response_2571",
+      "domain": "medical",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Finance_response_4774",
+      "domain": "finance",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Tourism_response_91",
+      "domain": "tourism",
+      "difficulty": "easy",
+      "steps": 4,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Technology_response_2871",
+      "domain": "technology",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Tourism_response_5446",
+      "domain": "tourism",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Medical_response_2024",
+      "domain": "medical",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Finance_response_5265",
+      "domain": "finance",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Finance_response_4555",
+      "domain": "finance",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Medical_response_4299",
+      "domain": "medical",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Finance_response_4210",
+      "domain": "finance",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Medical_response_4731",
+      "domain": "medical",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Tourism_response_1345",
+      "domain": "tourism",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Technology_response_4421",
+      "domain": "technology",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Tourism_response_700",
+      "domain": "tourism",
+      "difficulty": "easy",
+      "steps": 4,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Technology_response_3462",
+      "domain": "technology",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Tourism_response_5444",
+      "domain": "tourism",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Finance_response_3009",
+      "domain": "finance",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Medical_response_3942",
+      "domain": "medical",
+      "difficulty": "hard",
+      "steps": 4,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Tourism_response_492",
+      "domain": "tourism",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Cross_Domain_response_9639",
+      "domain": "entertainment",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Medical_response_2137",
+      "domain": "medical",
+      "difficulty": "hard",
+      "steps": 4,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Finance_response_1677",
+      "domain": "finance",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Finance_response_1466",
+      "domain": "finance",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Tourism_response_138",
+      "domain": "tourism",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Cross_Domain_response_1040",
+      "domain": "cross-domain",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Technology_response_5279",
+      "domain": "technology",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Cross_Domain_response_7065",
+      "domain": "shopping",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Technology_response_2668",
+      "domain": "technology",
+      "difficulty": "easy",
+      "steps": 3,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Tourism_response_4653",
+      "domain": "tourism",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Tourism_response_4345",
+      "domain": "tourism",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 1
+    },
+    {
+      "record_id": "Cross_Domain_response_9562",
+      "domain": "sports",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Cross_Domain_response_6284",
+      "domain": "recreation",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Cross_Domain_response_8358",
+      "domain": "education",
+      "difficulty": "hard",
+      "steps": 2,
+      "non_top1_steps": 2
+    },
+    {
+      "record_id": "Cross_Domain_response_6708",
+      "domain": "education",
+      "difficulty": "easy",
+      "steps": 2,
+      "non_top1_steps": 0
+    },
+    {
+      "record_id": "Cross_Domain_response_7924",
+      "domain": "gaming",
+      "difficulty": "hard",
+      "steps": 3,
+      "non_top1_steps": 3
+    }
+  ]
+}

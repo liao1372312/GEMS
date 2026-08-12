@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_5216",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API provides current weather and wind speed as required; LLM choice is similar but not clearly better.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API provides current weather and wind speed as required; LLM choice is similar but not clearly better."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1032,
+    "total_tokens": 1113,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 35,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 2893,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 35,
+      "service_ttft_ms": 169,
+      "service_ttlt_ms": 3008,
+      "total_duration_ms": 2928,
+      "user_visible_ttft_ms": 83
+    }
+  }
+}

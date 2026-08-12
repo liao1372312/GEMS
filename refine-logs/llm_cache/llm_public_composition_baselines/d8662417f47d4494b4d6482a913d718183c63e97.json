@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.7, \"rationale\": \"The user requests the current tax rate for zip code 94102, and candidate 3 specifically retrieves US tax rates by zip code, matching the tax rate part of the request. However, no candidate directly supports fetching historical stock prices or ESG scores for Apple Inc., so this is the best match for part of the request.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.7,
+    "rationale": "The user requests the current tax rate for zip code 94102, and candidate 3 specifically retrieves US tax rates by zip code, matching the tax rate part of the request. However, no candidate directly supports fetching historical stock prices or ESG scores for Apple Inc., so this is the best match for part of the request."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 1466,
+    "total_tokens": 1553,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 25,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 2272,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 25,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 2390,
+      "total_duration_ms": 2301,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

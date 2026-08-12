@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3473",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The user request is in the Finance domain and requires a fact about the birth year and exchange rate; candidate 6 provides historical exchange rates which aligns with the finance domain and the need for exchange rate data.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The user request is in the Finance domain and requires a fact about the birth year and exchange rate; candidate 6 provides historical exchange rates which aligns with the finance domain and the need for exchange rate data."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1415,
+    "total_tokens": 1478,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 91,
+      "engine_ttlt_ms": 856,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 200,
+      "service_ttlt_ms": 961,
+      "total_duration_ms": 884,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

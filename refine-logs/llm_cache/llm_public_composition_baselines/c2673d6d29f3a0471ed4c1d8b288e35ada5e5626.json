@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides schedules for upcoming matches for teams, which directly matches the subtask requirement to fetch upcoming matches schedule for relevant teams.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides schedules for upcoming matches for teams, which directly matches the subtask requirement to fetch upcoming matches schedule for relevant teams."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1623,
+    "total_tokens": 1673,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 459,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 595,
+      "total_duration_ms": 499,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

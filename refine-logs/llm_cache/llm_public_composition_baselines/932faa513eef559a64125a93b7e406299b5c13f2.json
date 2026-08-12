@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4667",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The user wants odds for upcoming football games and live scores; the Football Betting Odds API provides live and upcoming football betting odds, matching the request closely.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The user wants odds for upcoming football games and live scores; the Football Betting Odds API provides live and upcoming football betting odds, matching the request closely."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2077,
+    "total_tokens": 2129,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 718,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 226,
+      "service_ttlt_ms": 885,
+      "total_duration_ms": 781,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

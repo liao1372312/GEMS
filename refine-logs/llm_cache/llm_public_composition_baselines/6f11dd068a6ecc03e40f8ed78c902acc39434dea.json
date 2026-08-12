@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2593",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.3, \"rationale\": \"The top-ranked API provides travel route data which may help with directions from Sfax to Tunis, but it does not specifically provide facility details like hospitals in Tunis. Other APIs focus on reverse geocoding in African countries unrelated to Tunisia. No API directly matches the subtask of querying hospitals in Tunis.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.3,
+    "rationale": "The top-ranked API provides travel route data which may help with directions from Sfax to Tunis, but it does not specifically provide facility details like hospitals in Tunis. Other APIs focus on reverse geocoding in African countries unrelated to Tunisia. No API directly matches the subtask of querying hospitals in Tunis."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1769,
+    "total_tokens": 1851,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1519,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 247,
+      "service_ttlt_ms": 1704,
+      "total_duration_ms": 1576,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve product details using the provided barcode.\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"barcode\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find stores within a 25-mile radius of the given longitude and latitude that offer the identified product.\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"product details\", \"longitude\", \"latitude\", \"radius\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve product details using the provided barcode.",
+        "domain": "shopping",
+        "required_inputs": [
+          "barcode"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find stores within a 25-mile radius of the given longitude and latitude that offer the identified product.",
+        "domain": "shopping",
+        "required_inputs": [
+          "product details",
+          "longitude",
+          "latitude",
+          "radius"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve product details using the provided barcode.",
+      "domain": "shopping",
+      "required_inputs": [
+        "barcode"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find stores within a 25-mile radius of the given longitude and latitude that offer the identified product.",
+      "domain": "shopping",
+      "required_inputs": [
+        "product details",
+        "longitude",
+        "latitude",
+        "radius"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 410,
+    "total_tokens": 520,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1950,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 174,
+      "service_ttlt_ms": 2082,
+      "total_duration_ms": 1996,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

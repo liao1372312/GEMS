@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3143",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.7, \"rationale\": \"Among the candidates, the 'Active - Search v2' API is the only one related to health, fitness, and activity, which might include information on exemptions for fasting due to health reasons. Although it is somewhat broad, it is the best fit given the lack of more specific medical or religious fasting exemption APIs. Other APIs are unrelated to health or fasting.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.7,
+    "rationale": "Among the candidates, the 'Active - Search v2' API is the only one related to health, fitness, and activity, which might include information on exemptions for fasting due to health reasons. Although it is somewhat broad, it is the best fit given the lack of more specific medical or religious fasting exemption APIs. Other APIs are unrelated to health or fasting."
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 1675,
+    "total_tokens": 1769,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1349,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 1551,
+      "total_duration_ms": 1420,
+      "user_visible_ttft_ms": 142
+    }
+  }
+}

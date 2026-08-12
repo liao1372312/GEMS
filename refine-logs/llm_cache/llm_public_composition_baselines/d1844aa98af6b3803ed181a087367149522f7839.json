@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5496",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"API rank 9 directly provides resistance and support data for tokens 3375 and 3306 with date parameters matching the requested range, fitting the analysis task. API rank 1 provides the current Binance Smart Chain block number, matching the second part of the request. However, since the subtask focuses on fetching historical price data for tokens, the resistance and support API is more aligned with the main analysis intent.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "API rank 9 directly provides resistance and support data for tokens 3375 and 3306 with date parameters matching the requested range, fitting the analysis task. API rank 1 provides the current Binance Smart Chain block number, matching the second part of the request. However, since the subtask focuses on fetching historical price data for tokens, the resistance and support API is more aligned with the main analysis intent."
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 1422,
+    "total_tokens": 1526,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 921,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 164,
+      "service_ttlt_ms": 1043,
+      "total_duration_ms": 973,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

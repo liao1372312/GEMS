@@ -1,0 +1,66 @@
+{
+  "record_id": "Cross_Domain_response_6708",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a random quote related to education\",\n      \"domain\": \"education\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Generate a random date between 2022-01-01 and 2022-12-31\",\n      \"domain\": \"date_generation\",\n      \"required_inputs\": [\"start_date\", \"end_date\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a random quote related to education",
+        "domain": "education",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Generate a random date between 2022-01-01 and 2022-12-31",
+        "domain": "date_generation",
+        "required_inputs": [
+          "start_date",
+          "end_date"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a random quote related to education",
+      "domain": "education",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Generate a random date between 2022-01-01 and 2022-12-31",
+      "domain": "date_generation",
+      "required_inputs": [
+        "start_date",
+        "end_date"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 379,
+    "total_tokens": 484,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 27,
+      "engine_ttlt_ms": 1079,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 179,
+      "service_ttlt_ms": 1227,
+      "total_duration_ms": 1156,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

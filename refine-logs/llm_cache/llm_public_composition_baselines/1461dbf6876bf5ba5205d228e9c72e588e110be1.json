@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_715",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.1, \"rationale\": \"The user wants to identify favorite music genres of family members, but the top-ranked API predicts gender from names, which is unrelated to music preferences. None of the candidates directly identify music genres from names, so the top-ranked API is selected by default despite low relevance.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.1,
+    "rationale": "The user wants to identify favorite music genres of family members, but the top-ranked API predicts gender from names, which is unrelated to music preferences. None of the candidates directly identify music genres from names, so the top-ranked API is selected by default despite low relevance."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1598,
+    "total_tokens": 1673,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 1224,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 279,
+      "service_ttlt_ms": 1427,
+      "total_duration_ms": 1328,
+      "user_visible_ttft_ms": 171
+    }
+  }
+}

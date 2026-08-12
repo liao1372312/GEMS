@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The Shazam - Search Track API is best suited to identify the artist related to the song 'Shape of You' by searching the track name, which is the required input for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The Shazam - Search Track API is best suited to identify the artist related to the song 'Shape of You' by searching the track name, which is the required input for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1636,
+    "total_tokens": 1697,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1007,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 176,
+      "service_ttlt_ms": 1135,
+      "total_duration_ms": 1041,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

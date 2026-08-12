@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_1241",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice downloads hotel chains but does not support searching hotel deals for specific dates and location, semantic top-1 is unrelated but closer to search intent.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides a list of hotel city clusters, which better matches the request for areas in New York City than the semantic top-1 states search API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API available for live traffic; semantic top-1 is unrelated but no better option exists.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice downloads hotel chains but does not support searching hotel deals for specific dates and location, semantic top-1 is unrelated but closer to search intent."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice provides a list of hotel city clusters, which better matches the request for areas in New York City than the semantic top-1 states search API."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "No suitable API available for live traffic; semantic top-1 is unrelated but no better option exists."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1453,
+    "total_tokens": 1633,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 2846,
+      "pre_inference_ms": 132,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 3033,
+      "total_duration_ms": 2923,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

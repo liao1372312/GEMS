@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4345",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"The user needs details about airports near specific coordinates in the US; candidate 10 directly provides airport information by coordinates, matching the task intent and parameters precisely.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.95,
+    "rationale": "The user needs details about airports near specific coordinates in the US; candidate 10 directly provides airport information by coordinates, matching the task intent and parameters precisely."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1442,
+    "total_tokens": 1495,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 936,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 191,
+      "service_ttlt_ms": 1084,
+      "total_duration_ms": 988,
+      "user_visible_ttft_ms": 86
+    }
+  }
+}

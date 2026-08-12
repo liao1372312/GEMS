@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1860",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are related to recipes, cooking, or food. All are from unrelated domains such as finance, sports, gaming, or resume screening. Therefore, no suitable API is available to fulfill the subtask of compiling appetizer recipes for large groups.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are related to recipes, cooking, or food. All are from unrelated domains such as finance, sports, gaming, or resume screening. Therefore, no suitable API is available to fulfill the subtask of compiling appetizer recipes for large groups."
+  },
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 1676,
+    "total_tokens": 1750,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1379,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 196,
+      "service_ttlt_ms": 1534,
+      "total_duration_ms": 1434,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

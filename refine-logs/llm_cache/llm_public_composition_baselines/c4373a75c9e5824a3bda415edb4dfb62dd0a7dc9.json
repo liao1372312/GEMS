@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1897",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requests product search on Kaufland and comments from Trendyol, but no Kaufland or Trendyol specific API is available. The URL Content Extractor with search capability can be used to search for 'electronics' on Kaufland and extract product details. Other APIs are for Target, Etsy, YouTube, or unrelated domains. Hence, the best fit is the URL Content Extractor to fulfill the search and extraction task.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requests product search on Kaufland and comments from Trendyol, but no Kaufland or Trendyol specific API is available. The URL Content Extractor with search capability can be used to search for 'electronics' on Kaufland and extract product details. Other APIs are for Target, Etsy, YouTube, or unrelated domains. Hence, the best fit is the URL Content Extractor to fulfill the search and extraction task."
+  },
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 1798,
+    "total_tokens": 1910,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1858,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 187,
+      "service_ttlt_ms": 1998,
+      "total_duration_ms": 1891,
+      "user_visible_ttft_ms": 74
+    }
+  }
+}

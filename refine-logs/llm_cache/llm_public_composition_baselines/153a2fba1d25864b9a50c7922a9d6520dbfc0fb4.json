@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2871",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the available APIs provide information about the game Jet Set Radio or Jet Set Radio Future, their levels, or artists. No suitable API is available for the user's request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the available APIs provide information about the game Jet Set Radio or Jet Set Radio Future, their levels, or artists. No suitable API is available for the user's request."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1463,
+    "total_tokens": 1520,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 311,
+      "user_visible_ttft_ms": 164,
+      "total_duration_ms": 597,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 8,
+      "service_ttlt_ms": 733,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 516,
+      "engine_tbt_ms": 8
+    }
+  }
+}

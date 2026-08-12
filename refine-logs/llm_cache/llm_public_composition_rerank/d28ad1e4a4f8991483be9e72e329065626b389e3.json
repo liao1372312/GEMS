@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2964",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs directly provide quotes from famous authors about travel and adventure. However, the City and State Search API is unrelated to quotes, and the other APIs focus on music, social media, crime data, or Instagram data. Since no suitable API is available among the candidates, none can fulfill the subtask properly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs directly provide quotes from famous authors about travel and adventure. However, the City and State Search API is unrelated to quotes, and the other APIs focus on music, social media, crime data, or Instagram data. Since no suitable API is available among the candidates, none can fulfill the subtask properly."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 2013,
+    "total_tokens": 2100,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 304,
+      "user_visible_ttft_ms": 161,
+      "total_duration_ms": 1324,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 13,
+      "service_ttlt_ms": 1455,
+      "engine_ttft_ms": 95,
+      "engine_ttlt_ms": 1252,
+      "engine_tbt_ms": 13
+    }
+  }
+}

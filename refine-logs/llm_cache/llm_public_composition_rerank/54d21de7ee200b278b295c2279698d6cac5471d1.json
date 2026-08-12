@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The yiwugo product data - search products API is the most relevant among candidates for estimating the value of giveaways in dollars, as it provides product information that can be used to assess worth. Other APIs are unrelated to product valuation or gaming.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.8,
+    "rationale": "The yiwugo product data - search products API is the most relevant among candidates for estimating the value of giveaways in dollars, as it provides product information that can be used to assess worth. Other APIs are unrelated to product valuation or gaming."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 2021,
+    "total_tokens": 2091,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 891,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 251,
+      "service_ttlt_ms": 1103,
+      "total_duration_ms": 1005,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

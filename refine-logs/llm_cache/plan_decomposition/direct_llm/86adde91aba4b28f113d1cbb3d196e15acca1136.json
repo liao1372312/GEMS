@@ -1,0 +1,90 @@
+{
+  "record_id": "Cross_Domain_response_8358",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for books relevant to the upcoming exams\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"exam subjects\", \"exam date\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select and purchase the identified books\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"book list\", \"payment information\", \"shipping address\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Generate barcodes for the purchased books\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"book details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for books relevant to the upcoming exams",
+        "domain": "education",
+        "required_inputs": [
+          "exam subjects",
+          "exam date"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Select and purchase the identified books",
+        "domain": "education",
+        "required_inputs": [
+          "book list",
+          "payment information",
+          "shipping address"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Generate barcodes for the purchased books",
+        "domain": "education",
+        "required_inputs": [
+          "book details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for books relevant to the upcoming exams",
+      "domain": "education",
+      "required_inputs": [
+        "exam subjects",
+        "exam date"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Select and purchase the identified books",
+      "domain": "education",
+      "required_inputs": [
+        "book list",
+        "payment information",
+        "shipping address"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Generate barcodes for the purchased books",
+      "domain": "education",
+      "required_inputs": [
+        "book details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 163,
+    "total_tokens": 305,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 2103,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 2218,
+      "total_duration_ms": 2134,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

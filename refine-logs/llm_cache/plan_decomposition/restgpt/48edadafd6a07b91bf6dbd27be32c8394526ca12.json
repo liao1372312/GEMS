@@ -1,0 +1,106 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the sports and specific matches relevant to the birthday party theme\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"preferred sports\", \"date of the party\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve accurate and up-to-date match schedules for the identified sports and dates\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"sports list\", \"date range\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain predictions and analysis for the scheduled matches\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"match identifiers\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Format the predictions and match details for inclusion in the party materials\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"match details\", \"predictions\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the sports and specific matches relevant to the birthday party theme",
+        "domain": "Sports",
+        "required_inputs": [
+          "preferred sports",
+          "date of the party"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve accurate and up-to-date match schedules for the identified sports and dates",
+        "domain": "Sports",
+        "required_inputs": [
+          "sports list",
+          "date range"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain predictions and analysis for the scheduled matches",
+        "domain": "Sports",
+        "required_inputs": [
+          "match identifiers"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Format the predictions and match details for inclusion in the party materials",
+        "domain": "Technology",
+        "required_inputs": [
+          "match details",
+          "predictions"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the sports and specific matches relevant to the birthday party theme",
+      "domain": "Sports",
+      "required_inputs": [
+        "preferred sports",
+        "date of the party"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve accurate and up-to-date match schedules for the identified sports and dates",
+      "domain": "Sports",
+      "required_inputs": [
+        "sports list",
+        "date range"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain predictions and analysis for the scheduled matches",
+      "domain": "Sports",
+      "required_inputs": [
+        "match identifiers"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Format the predictions and match details for inclusion in the party materials",
+      "domain": "Technology",
+      "required_inputs": [
+        "match details",
+        "predictions"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 178,
+    "total_tokens": 381,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 2019,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 154,
+      "service_ttlt_ms": 2132,
+      "total_duration_ms": 2061,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

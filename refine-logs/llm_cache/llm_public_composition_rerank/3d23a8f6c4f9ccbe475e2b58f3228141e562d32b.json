@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5435",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The City and State Search API - States Search can accept a country name as input and search for states or regions, which is the closest available API to query vaccination requirements by country. Although it is not explicitly a vaccination API, it is the only API related to geographic and country data, which is relevant to the subtask of querying vaccination requirements for Germany. Other APIs are unrelated to medical or geographic data.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The City and State Search API - States Search can accept a country name as input and search for states or regions, which is the closest available API to query vaccination requirements by country. Although it is not explicitly a vaccination API, it is the only API related to geographic and country data, which is relevant to the subtask of querying vaccination requirements for Germany. Other APIs are unrelated to medical or geographic data."
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 2155,
+    "total_tokens": 2258,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 43,
+      "engine_ttft_ms": 237,
+      "engine_ttlt_ms": 4616,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 43,
+      "service_ttft_ms": 329,
+      "service_ttlt_ms": 4706,
+      "total_duration_ms": 4640,
+      "user_visible_ttft_ms": 258
+    }
+  }
+}

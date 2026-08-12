@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5427",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"This API provides detailed current conditions, hourly forecasts, daily forecasts, and weather alerts in a single call by latitude and longitude, which can cover all requested subtasks including hourly forecast for Whistler Village, 16-day forecast summary for Blackcomb Mountain, and severe weather alerts for Creekside.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "This API provides detailed current conditions, hourly forecasts, daily forecasts, and weather alerts in a single call by latitude and longitude, which can cover all requested subtasks including hourly forecast for Whistler Village, 16-day forecast summary for Blackcomb Mountain, and severe weather alerts for Creekside."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1730,
+    "total_tokens": 1810,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 916,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1105,
+      "total_duration_ms": 1017,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

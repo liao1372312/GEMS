@@ -1,0 +1,50 @@
+{
+  "record_id": "Technology_response_2668",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API found for fetching genre of a Deezer editorial; semantic top-1 and LLM choice are identical and inadequate.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1; Shazam API is the closest available despite mismatch with Soundcloud and song_id parameter.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Shazam - Artist Info' API is clearly more appropriate for extracting artist information from song details than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "No suitable API found for fetching genre of a Deezer editorial; semantic top-1 and LLM choice are identical and inadequate."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1; Shazam API is the closest available despite mismatch with Soundcloud and song_id parameter."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice 'Shazam - Artist Info' API is clearly more appropriate for extracting artist information from song details than semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.6
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1578,
+    "total_tokens": 1755,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 258,
+      "user_visible_ttft_ms": 134,
+      "total_duration_ms": 3307,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 18,
+      "service_ttlt_ms": 3422,
+      "engine_ttft_ms": 82,
+      "engine_ttlt_ms": 3252,
+      "engine_tbt_ms": 18
+    }
+  }
+}

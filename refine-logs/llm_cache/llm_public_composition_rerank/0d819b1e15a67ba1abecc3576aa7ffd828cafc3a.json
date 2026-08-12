@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_715",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.7, \"rationale\": \"None of the candidate APIs directly collect zodiac signs from family member names. The best available is a link finder API that could potentially be used to search for zodiac sign information based on family member names, as no specific zodiac or astrology API for sign determination is present.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.7,
+    "rationale": "None of the candidate APIs directly collect zodiac signs from family member names. The best available is a link finder API that could potentially be used to search for zodiac sign information based on family member names, as no specific zodiac or astrology API for sign determination is present."
+  },
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 1818,
+    "total_tokens": 1892,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1166,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 231,
+      "service_ttlt_ms": 1344,
+      "total_duration_ms": 1254,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_4774",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice uses the correct 'add_working_hours' API which fits the step perfectly, unlike semantic top-1 which is unrelated.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"Neither semantic top-1 nor LLM choice supports expression evaluation; keep semantic top-1 as best available.\"}],\"workflow_confidence\":0.9}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice uses the correct 'add_working_hours' API which fits the step perfectly, unlike semantic top-1 which is unrelated."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Neither semantic top-1 nor LLM choice supports expression evaluation; keep semantic top-1 as best available."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 1933,
+    "total_tokens": 2054,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1089,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 166,
+      "service_ttlt_ms": 1210,
+      "total_duration_ms": 1119,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

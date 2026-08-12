@@ -1,0 +1,50 @@
+{
+  "record_id": "Medical_response_562",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to food ingredients and nutrition, LLM choice is better but requires ingredients input which is not available yet, so neither fully fits. Keep semantic top-1 as no better alternative.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches step intent well by searching recipes by ingredient, directly supporting the subtask.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice is a comprehensive recipe search API suitable for finding recipes featuring the selected ingredient, clearly better than semantic top-1 which is unrelated to recipe creation.\"}],\"workflow_confidence\":0.7}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to food ingredients and nutrition, LLM choice is better but requires ingredients input which is not available yet, so neither fully fits. Keep semantic top-1 as no better alternative."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches step intent well by searching recipes by ingredient, directly supporting the subtask."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice is a comprehensive recipe search API suitable for finding recipes featuring the selected ingredient, clearly better than semantic top-1 which is unrelated to recipe creation."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 1690,
+    "total_tokens": 1841,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 99,
+      "engine_ttlt_ms": 2152,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 319,
+      "service_ttlt_ms": 2386,
+      "total_duration_ms": 2306,
+      "user_visible_ttft_ms": 186
+    }
+  }
+}

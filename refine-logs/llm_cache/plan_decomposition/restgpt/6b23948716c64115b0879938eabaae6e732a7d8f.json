@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_1492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a suitable park location that offers active products or activities for a family picnic.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the 5-day weather forecast for the selected park location to ensure favorable weather conditions.\",\n      \"domain\": \"weather\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a suitable park location that offers active products or activities for a family picnic.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the 5-day weather forecast for the selected park location to ensure favorable weather conditions.",
+        "domain": "weather",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find a suitable park location that offers active products or activities for a family picnic.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the 5-day weather forecast for the selected park location to ensure favorable weather conditions.",
+      "domain": "weather",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 200,
+    "total_tokens": 305,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 31,
+      "engine_ttlt_ms": 872,
+      "pre_inference_ms": 208,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 309,
+      "service_ttlt_ms": 1156,
+      "total_duration_ms": 955,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

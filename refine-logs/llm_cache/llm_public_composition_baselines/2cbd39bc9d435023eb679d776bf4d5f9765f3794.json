@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3986",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"This API provides stock price details including dividend and split information, which matches part of the request. However, it does not explicitly mention asset allocation or press releases, but it is the best fit among the options for detailed stock data including dividends and splits.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "This API provides stock price details including dividend and split information, which matches part of the request. However, it does not explicitly mention asset allocation or press releases, but it is the best fit among the options for detailed stock data including dividends and splits."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1494,
+    "total_tokens": 1566,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 798,
+      "pre_inference_ms": 237,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 394,
+      "service_ttlt_ms": 1124,
+      "total_duration_ms": 895,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

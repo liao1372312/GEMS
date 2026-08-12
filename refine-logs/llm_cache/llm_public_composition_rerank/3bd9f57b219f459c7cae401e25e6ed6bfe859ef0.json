@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_724",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The AI Trip Planner API is in the travel domain and can generate trip plans including accommodations near tourist attractions, which directly satisfies the subtask of finding nearby hotels for popular tourist attractions. It accepts destination input, which can be bound from the attraction information, making it suitable and specific for the task.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The AI Trip Planner API is in the travel domain and can generate trip plans including accommodations near tourist attractions, which directly satisfies the subtask of finding nearby hotels for popular tourist attractions. It accepts destination input, which can be bound from the attraction information, making it suitable and specific for the task."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 2339,
+    "total_tokens": 2420,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 1482,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 317,
+      "service_ttlt_ms": 1645,
+      "total_duration_ms": 1552,
+      "user_visible_ttft_ms": 194
+    }
+  }
+}

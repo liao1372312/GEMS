@@ -1,0 +1,55 @@
+{
+  "record_id": "Medical_response_1487",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is fully appropriate for assessing fitness level and workout goals.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (MuscleWiki - GET Attributes) is appropriate for exercise selection and details needed to design a leg workout plan.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (URL Content Extractor - Search Content) is more suitable than semantic top-1 for providing detailed exercise descriptions and safety tips.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Workout Planner - Get Customized Plan) is more relevant than semantic top-1 (Ticketbud) for compiling a formatted workout plan.\"\n    }\n  ],\n  \"workflow_confidence\": 1\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is fully appropriate for assessing fitness level and workout goals."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (MuscleWiki - GET Attributes) is appropriate for exercise selection and details needed to design a leg workout plan."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice (URL Content Extractor - Search Content) is more suitable than semantic top-1 for providing detailed exercise descriptions and safety tips."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice (Workout Planner - Get Customized Plan) is more relevant than semantic top-1 (Ticketbud) for compiling a formatted workout plan."
+      }
+    ],
+    "workflow_confidence": 1
+  },
+  "usage": {
+    "completion_tokens": 226,
+    "prompt_tokens": 2788,
+    "total_tokens": 3014,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 3668,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 182,
+      "service_ttlt_ms": 3768,
+      "total_duration_ms": 3691,
+      "user_visible_ttft_ms": 99
+    }
+  }
+}

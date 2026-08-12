@@ -1,0 +1,70 @@
+{
+  "record_id": "Cross_Domain_response_9639",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of the latest anime news articles to keep the user updated.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"category='anime news'\", \"sort='latest'\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch different types of media related to anime to enhance the user's anime-watching experience.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"media_type='anime-related'\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of the latest anime news articles to keep the user updated.",
+        "domain": "entertainment",
+        "required_inputs": [
+          "category='anime news'",
+          "sort='latest'"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch different types of media related to anime to enhance the user's anime-watching experience.",
+        "domain": "entertainment",
+        "required_inputs": [
+          "media_type='anime-related'"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of the latest anime news articles to keep the user updated.",
+      "domain": "entertainment",
+      "required_inputs": [
+        "category='anime news'",
+        "sort='latest'"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch different types of media related to anime to enhance the user's anime-watching experience.",
+      "domain": "entertainment",
+      "required_inputs": [
+        "media_type='anime-related'"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 321,
+    "total_tokens": 443,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1345,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 151,
+      "service_ttlt_ms": 1457,
+      "total_duration_ms": 1375,
+      "user_visible_ttft_ms": 61
+    }
+  }
+}

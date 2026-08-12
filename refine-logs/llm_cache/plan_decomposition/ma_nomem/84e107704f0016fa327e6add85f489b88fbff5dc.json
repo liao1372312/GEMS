@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of vegan dishes from the 'List of Foods' API to recommend a suitable dish for the dinner party.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Obtain a detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.\",\n      \"domain\": \"Recipe\",\n      \"required_inputs\": [\"selected dish name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of vegan dishes from the 'List of Foods' API to recommend a suitable dish for the dinner party.",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Obtain a detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.",
+        "domain": "Recipe",
+        "required_inputs": [
+          "selected dish name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of vegan dishes from the 'List of Foods' API to recommend a suitable dish for the dinner party.",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Obtain a detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.",
+      "domain": "Recipe",
+      "required_inputs": [
+        "selected dish name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 206,
+    "total_tokens": 326,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 28,
+      "engine_ttlt_ms": 1218,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 120,
+      "service_ttlt_ms": 1303,
+      "total_duration_ms": 1243,
+      "user_visible_ttft_ms": 49
+    }
+  }
+}

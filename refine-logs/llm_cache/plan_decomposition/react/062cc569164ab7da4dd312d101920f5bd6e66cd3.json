@@ -1,0 +1,102 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Plan the route and stops for the road trip across the country\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"starting location\", \"destination(s)\", \"preferred stops\", \"trip duration\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Estimate travel expenses including fuel, accommodation, food, and activities\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"planned route\", \"vehicle fuel efficiency\", \"fuel prices\", \"accommodation preferences\", \"daily food budget\", \"activity costs\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Create and manage a budget for the road trip expenses\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"estimated expenses\", \"total budget\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Plan the route and stops for the road trip across the country",
+        "domain": "Travel",
+        "required_inputs": [
+          "starting location",
+          "destination(s)",
+          "preferred stops",
+          "trip duration"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Estimate travel expenses including fuel, accommodation, food, and activities",
+        "domain": "Finance",
+        "required_inputs": [
+          "planned route",
+          "vehicle fuel efficiency",
+          "fuel prices",
+          "accommodation preferences",
+          "daily food budget",
+          "activity costs"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Create and manage a budget for the road trip expenses",
+        "domain": "Finance",
+        "required_inputs": [
+          "estimated expenses",
+          "total budget"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Plan the route and stops for the road trip across the country",
+      "domain": "Travel",
+      "required_inputs": [
+        "starting location",
+        "destination(s)",
+        "preferred stops",
+        "trip duration"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Estimate travel expenses including fuel, accommodation, food, and activities",
+      "domain": "Finance",
+      "required_inputs": [
+        "planned route",
+        "vehicle fuel efficiency",
+        "fuel prices",
+        "accommodation preferences",
+        "daily food budget",
+        "activity costs"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Create and manage a budget for the road trip expenses",
+      "domain": "Finance",
+      "required_inputs": [
+        "estimated expenses",
+        "total budget"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 173,
+    "total_tokens": 355,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 2835,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 234,
+      "service_ttlt_ms": 3000,
+      "total_duration_ms": 2886,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

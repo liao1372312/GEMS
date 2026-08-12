@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4973",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide historical information about Miami or significant events and changes over the years. The subtask requires historical and event data about Miami, but the available APIs are related to weather, drug info, events tickets, French word definitions, tides, and KFC locations, none of which match the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide historical information about Miami or significant events and changes over the years. The subtask requires historical and event data about Miami, but the available APIs are related to weather, drug info, events tickets, French word definitions, tides, and KFC locations, none of which match the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 1867,
+    "total_tokens": 1954,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 804,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 1004,
+      "total_duration_ms": 881,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

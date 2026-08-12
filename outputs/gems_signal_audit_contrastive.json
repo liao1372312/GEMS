@@ -1,0 +1,334 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "processed_endpoints": "dataset/processed/endpoints.jsonl",
+    "memory": "outputs/gems_memory_train_only.json",
+    "output": "outputs/gems_signal_audit_contrastive.json",
+    "markdown_output": "outputs/gems_signal_audit_contrastive.md",
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "trace_top_k": 16,
+    "contrastive_memory": true,
+    "positive_eta": 0.03,
+    "negative_eta": 0.008,
+    "negative_fail_credit": 0.2,
+    "max_negatives_per_step": 9
+  },
+  "splits": {
+    "val": {
+      "steps": 604,
+      "candidate_rows": 6040,
+      "gold_rank_counts": {
+        "1": 393,
+        "2": 43,
+        "3": 44,
+        "4": 27,
+        "5": 17,
+        "6": 22,
+        "7": 9,
+        "8": 21,
+        "9": 13,
+        "10": 15
+      },
+      "feature_metrics": {
+        "semantic_similarity": {
+          "roc_auc": 0.6373381832668158,
+          "average_precision": 0.194764305169351,
+          "positive_mean": 0.2993250973177172,
+          "negative_mean": 0.2771118367972092,
+          "positive_median": 0.29505321793712874,
+          "negative_median": 0.275
+        },
+        "semantic_rank_reciprocal": {
+          "roc_auc": 0.8473142016188374,
+          "average_precision": 0.49902197054501235,
+          "positive_mean": 0.7447657153369073,
+          "negative_mean": 0.24268917095903852,
+          "positive_median": 1.0,
+          "negative_median": 0.16666666666666666
+        },
+        "trace_score": {
+          "roc_auc": 0.6333590083768255,
+          "average_precision": 0.24335726043782535,
+          "positive_mean": 0.13096633681713618,
+          "negative_mean": 0.027027811007957446,
+          "positive_median": 0.0,
+          "negative_median": 0.0
+        },
+        "graph_score": {
+          "roc_auc": 0.6480872854017125,
+          "average_precision": 0.19755450761470789,
+          "positive_mean": 0.38428600320445944,
+          "negative_mean": 0.33820492219078396,
+          "positive_median": 0.3625575323270708,
+          "negative_median": 0.33131911622126997
+        },
+        "node_reliability": {
+          "roc_auc": 0.6354934176863587,
+          "average_precision": 0.16329143187609246,
+          "positive_mean": 0.8290919112075591,
+          "negative_mean": 0.7901381932007557,
+          "positive_median": 0.8437051298495755,
+          "negative_median": 0.8151264729294775
+        },
+        "node_risk": {
+          "roc_auc": 0.4828823906358882,
+          "average_precision": 0.10825252985084965,
+          "positive_mean": 0.16515583656279678,
+          "negative_mean": 0.15706691977724305,
+          "positive_median": 0.09368466592339515,
+          "negative_median": 0.10766071035958522
+        }
+      },
+      "top1_by_feature": {
+        "semantic_similarity": {
+          "top1": 0.6506622516556292,
+          "top3": 0.7947019867549668,
+          "mrr": 0.744765715336907,
+          "workflow_exact": 0.45714285714285713
+        },
+        "semantic_rank_reciprocal": {
+          "top1": 0.6506622516556292,
+          "top3": 0.7947019867549668,
+          "mrr": 0.744765715336907,
+          "workflow_exact": 0.45714285714285713
+        },
+        "trace_score": {
+          "top1": 0.48509933774834435,
+          "top3": 0.793046357615894,
+          "mrr": 0.6582498948806893,
+          "workflow_exact": 0.22380952380952382
+        },
+        "graph_score": {
+          "top1": 0.33278145695364236,
+          "top3": 0.5811258278145696,
+          "mrr": 0.5023894933249239,
+          "workflow_exact": 0.11904761904761904
+        },
+        "node_reliability": {
+          "top1": 0.2052980132450331,
+          "top3": 0.48013245033112584,
+          "mrr": 0.41054083885209647,
+          "workflow_exact": 0.05714285714285714
+        },
+        "node_risk": {
+          "top1": 0.15894039735099338,
+          "top3": 0.3360927152317881,
+          "mrr": 0.3371268264480179,
+          "workflow_exact": 0.05238095238095238
+        }
+      },
+      "node_mapping": {
+        "candidate_rows": 6040,
+        "missing_node_rows": 0,
+        "unique_endpoint_keys": 1694,
+        "unique_api_names": 1710,
+        "unique_nodes": 1694,
+        "api_name_collision_count": 0,
+        "max_candidates_per_node": 91,
+        "top_reused_nodes": [
+          [
+            "api:endpoint:eb3b6a2530d12f40",
+            91
+          ],
+          [
+            "api:endpoint:9eec287d66388c78",
+            72
+          ],
+          [
+            "api:endpoint:52ac0ad866a422f9",
+            67
+          ],
+          [
+            "api:endpoint:406a1230673ac10c",
+            56
+          ],
+          [
+            "api:endpoint:b6d12e29b9f7a0ad",
+            50
+          ],
+          [
+            "api:endpoint:c57c75f5c616b30b",
+            47
+          ],
+          [
+            "api:endpoint:8e3ee8ee4514a1dc",
+            45
+          ],
+          [
+            "api:endpoint:9840fbfb6a641467",
+            44
+          ],
+          [
+            "api:endpoint:8a649ca3acec14d9",
+            44
+          ],
+          [
+            "api:endpoint:e0f80ba6b559aa19",
+            41
+          ]
+        ]
+      },
+      "gold_reliability_mean": 0.8290919112075591,
+      "non_gold_reliability_mean": 0.7901381932007557
+    },
+    "test": {
+      "steps": 623,
+      "candidate_rows": 6230,
+      "gold_rank_counts": {
+        "1": 383,
+        "2": 46,
+        "3": 42,
+        "4": 27,
+        "5": 28,
+        "6": 20,
+        "7": 16,
+        "8": 13,
+        "9": 35,
+        "10": 13
+      },
+      "feature_metrics": {
+        "semantic_similarity": {
+          "roc_auc": 0.6297921853587625,
+          "average_precision": 0.17793647984131986,
+          "positive_mean": 0.29445872759842984,
+          "negative_mean": 0.275105959839881,
+          "positive_median": 0.2866297455600074,
+          "negative_median": 0.2722178614686481
+        },
+        "semantic_rank_reciprocal": {
+          "roc_auc": 0.8204030675940789,
+          "average_precision": 0.45520476091916257,
+          "positive_mean": 0.7139372977655482,
+          "negative_mean": 0.24611455068918955,
+          "positive_median": 1.0,
+          "negative_median": 0.16666666666666666
+        },
+        "trace_score": {
+          "roc_auc": 0.6109797114991264,
+          "average_precision": 0.17136946563510325,
+          "positive_mean": 0.09761941192457034,
+          "negative_mean": 0.026760718853767282,
+          "positive_median": 0.0,
+          "negative_median": 0.0
+        },
+        "graph_score": {
+          "roc_auc": 0.6335748624240337,
+          "average_precision": 0.16381099368213126,
+          "positive_mean": 0.38211002949316114,
+          "negative_mean": 0.34642456341898303,
+          "positive_median": 0.3677084440315055,
+          "negative_median": 0.3366614530094708
+        },
+        "node_reliability": {
+          "roc_auc": 0.5980421457814283,
+          "average_precision": 0.15973959576899155,
+          "positive_mean": 0.8177972700505696,
+          "negative_mean": 0.7906773785483918,
+          "positive_median": 0.8435632017452548,
+          "negative_median": 0.8175327013564405
+        },
+        "node_risk": {
+          "roc_auc": 0.4891800005782728,
+          "average_precision": 0.10979151528477463,
+          "positive_mean": 0.1574205715522801,
+          "negative_mean": 0.1473556798554861,
+          "positive_median": 0.09097181230002602,
+          "negative_median": 0.0950037552712319
+        }
+      },
+      "top1_by_feature": {
+        "semantic_similarity": {
+          "top1": 0.6147672552166934,
+          "top3": 0.7560192616372392,
+          "mrr": 0.7139372977655472,
+          "workflow_exact": 0.45023696682464454
+        },
+        "semantic_rank_reciprocal": {
+          "top1": 0.6147672552166934,
+          "top3": 0.7560192616372392,
+          "mrr": 0.7139372977655472,
+          "workflow_exact": 0.45023696682464454
+        },
+        "trace_score": {
+          "top1": 0.39325842696629215,
+          "top3": 0.7495987158908507,
+          "mrr": 0.5982146041937367,
+          "workflow_exact": 0.15165876777251186
+        },
+        "graph_score": {
+          "top1": 0.2808988764044944,
+          "top3": 0.5329052969502408,
+          "mrr": 0.46247547708221864,
+          "workflow_exact": 0.12322274881516587
+        },
+        "node_reliability": {
+          "top1": 0.18619582664526485,
+          "top3": 0.4012841091492777,
+          "mrr": 0.37838925832505244,
+          "workflow_exact": 0.04265402843601896
+        },
+        "node_risk": {
+          "top1": 0.14446227929373998,
+          "top3": 0.3290529695024077,
+          "mrr": 0.3258044790950081,
+          "workflow_exact": 0.052132701421800945
+        }
+      },
+      "node_mapping": {
+        "candidate_rows": 6230,
+        "missing_node_rows": 0,
+        "unique_endpoint_keys": 1797,
+        "unique_api_names": 1811,
+        "unique_nodes": 1797,
+        "api_name_collision_count": 1,
+        "max_candidates_per_node": 74,
+        "top_reused_nodes": [
+          [
+            "api:endpoint:9eec287d66388c78",
+            74
+          ],
+          [
+            "api:endpoint:eb3b6a2530d12f40",
+            65
+          ],
+          [
+            "api:endpoint:52ac0ad866a422f9",
+            64
+          ],
+          [
+            "api:endpoint:406a1230673ac10c",
+            60
+          ],
+          [
+            "api:endpoint:b6d12e29b9f7a0ad",
+            49
+          ],
+          [
+            "api:endpoint:efb27d864b77fd18",
+            47
+          ],
+          [
+            "api:endpoint:031da15b8aba62ab",
+            37
+          ],
+          [
+            "api:endpoint:db3188637a1cf597",
+            37
+          ],
+          [
+            "api:endpoint:11b70a65307faddc",
+            36
+          ],
+          [
+            "api:endpoint:900825e65e444e5b",
+            35
+          ]
+        ]
+      },
+      "gold_reliability_mean": 0.8177972700505696,
+      "non_gold_reliability_mean": 0.7906773785483918
+    }
+  }
+}

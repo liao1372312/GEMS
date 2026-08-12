@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8508",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The subtask is to query a list of companies and related case information for potential clients, which aligns with obtaining industry lists or company data. The 'siteDomain - industry list' API from the Database domain is the most relevant and specific to business/company data, and it can provide industry-related information that can help identify potential clients. Other APIs are unrelated or too generic.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask is to query a list of companies and related case information for potential clients, which aligns with obtaining industry lists or company data. The 'siteDomain - industry list' API from the Database domain is the most relevant and specific to business/company data, and it can provide industry-related information that can help identify potential clients. Other APIs are unrelated or too generic."
+  },
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 1542,
+    "total_tokens": 1633,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 119,
+      "engine_ttlt_ms": 1797,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 802,
+      "service_ttlt_ms": 2475,
+      "total_duration_ms": 2383,
+      "user_visible_ttft_ms": 701
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7282",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs directly provide movie ratings or Rotten Tomatoes scores. However, the first API is unrelated (Japanese kanji), and the social, location, and eCommerce APIs are unrelated to movie ratings. Since no suitable movie rating API is present, no candidate fully meets the subtask. But given the options, none fit, so no valid selection can be made.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs directly provide movie ratings or Rotten Tomatoes scores. However, the first API is unrelated (Japanese kanji), and the social, location, and eCommerce APIs are unrelated to movie ratings. Since no suitable movie rating API is present, no candidate fully meets the subtask. But given the options, none fit, so no valid selection can be made."
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 1920,
+    "total_tokens": 2017,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 175,
+      "engine_ttlt_ms": 1592,
+      "pre_inference_ms": 136,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 371,
+      "service_ttlt_ms": 1813,
+      "total_duration_ms": 1682,
+      "user_visible_ttft_ms": 235
+    }
+  }
+}

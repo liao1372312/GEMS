@@ -1,0 +1,70 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search the 'List of Foods' API for a vegan dish suitable for a dinner party.\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"dietary_restriction: vegan\", \"meal_type: dinner\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"recipe_id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search the 'List of Foods' API for a vegan dish suitable for a dinner party.",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "dietary_restriction: vegan",
+          "meal_type: dinner"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "recipe_id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search the 'List of Foods' API for a vegan dish suitable for a dinner party.",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "dietary_restriction: vegan",
+        "meal_type: dinner"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the detailed recipe for the selected vegan dish, including ingredients, method, and an image of the final dish.",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "recipe_id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 714,
+    "total_tokens": 844,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 1190,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 250,
+      "service_ttlt_ms": 1399,
+      "total_duration_ms": 1302,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6246",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first step is to fetch a list of joke categories, and the top-ranked candidate provides an API specifically for getting all stored categories, which fits the request perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first step is to fetch a list of joke categories, and the top-ranked candidate provides an API specifically for getting all stored categories, which fits the request perfectly."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1243,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 908,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 205,
+      "service_ttlt_ms": 1050,
+      "total_duration_ms": 962,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "record_id": "Cross_Domain_response_1040",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the list of upcoming Formula 1 races for the current season, including race dates, locations, and race names.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"season_year\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the current driver standings for the ongoing Formula 1 season.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"season_year\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the list of upcoming Formula 1 races for the current season, including race dates, locations, and race names.",
+        "domain": "sports",
+        "required_inputs": [
+          "season_year"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Get the current driver standings for the ongoing Formula 1 season.",
+        "domain": "sports",
+        "required_inputs": [
+          "season_year"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the list of upcoming Formula 1 races for the current season, including race dates, locations, and race names.",
+      "domain": "sports",
+      "required_inputs": [
+        "season_year"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Get the current driver standings for the ongoing Formula 1 season.",
+      "domain": "sports",
+      "required_inputs": [
+        "season_year"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 676,
+    "total_tokens": 787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1127,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 261,
+      "service_ttlt_ms": 1333,
+      "total_duration_ms": 1232,
+      "user_visible_ttft_ms": 150
+    }
+  }
+}

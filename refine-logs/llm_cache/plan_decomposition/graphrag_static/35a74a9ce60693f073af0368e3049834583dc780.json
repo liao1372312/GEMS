@@ -1,0 +1,84 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the list of stock tickers to be compared.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the minimum trading values for each stock ticker.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\", \"time frame\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Calculate the price differences for each stock over the specified time frame.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\", \"time frame\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the list of stock tickers to be compared.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the minimum trading values for each stock ticker.",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers",
+          "time frame"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate the price differences for each stock over the specified time frame.",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers",
+          "time frame"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the list of stock tickers to be compared.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the minimum trading values for each stock ticker.",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers",
+        "time frame"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calculate the price differences for each stock over the specified time frame.",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers",
+        "time frame"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 574,
+    "total_tokens": 721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 2126,
+      "pre_inference_ms": 228,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 353,
+      "service_ttlt_ms": 2424,
+      "total_duration_ms": 2203,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5198",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The top-ranked API provides detailed information about the UFC Fight Night: Emmett vs. Topuria event on June 24, 2023, which matches the user's request for event details. Additionally, the second-ranked API offers quotes from F1 driver Max Verstappen, fulfilling the request for motivational quotes from the driver. These two APIs together cover both parts of the user's request accurately.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The top-ranked API provides detailed information about the UFC Fight Night: Emmett vs. Topuria event on June 24, 2023, which matches the user's request for event details. Additionally, the second-ranked API offers quotes from F1 driver Max Verstappen, fulfilling the request for motivational quotes from the driver. These two APIs together cover both parts of the user's request accurately."
+  },
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 1696,
+    "total_tokens": 1795,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 781,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 955,
+      "total_duration_ms": 846,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "output": "outputs/field_aware_plan_reranker.json",
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15
+  },
+  "feature_names": [
+    "rank_recip",
+    "rank_index",
+    "sim",
+    "sim_gap_top",
+    "word_tfidf",
+    "char_tfidf",
+    "bm25",
+    "api_name_overlap",
+    "description_overlap",
+    "endpoint_overlap",
+    "domain_overlap",
+    "param_required_overlap",
+    "param_query_overlap",
+    "param_count",
+    "has_params",
+    "method_get",
+    "method_post",
+    "same_step_domain",
+    "query_api_exact_action",
+    "query_endpoint_action"
+  ],
+  "best": {
+    "name": "logreg",
+    "alpha": 0.8,
+    "threshold": 0.05,
+    "val": {
+      "api_acc": 0.6539735099337748,
+      "api_top3": 0.8923841059602649,
+      "api_mrr": 0.7774860716913686,
+      "workflow_exact": 0.45714285714285713,
+      "para_f1": 0.7580573951434879,
+      "change_rate": 0.0033112582781456954,
+      "steps": 604,
+      "workflows": 210
+    }
+  },
+  "field_aware_reranker_test": {
+    "api_acc": 0.6131621187800963,
+    "api_top3": 0.8202247191011236,
+    "api_mrr": 0.7410691992152657,
+    "workflow_exact": 0.44549763033175355,
+    "para_f1": 0.6993846976993044,
+    "change_rate": 0.008025682182985553,
+    "steps": 623,
+    "workflows": 211
+  },
+  "semantic_top1_test": {
+    "api_acc": 0.6147672552166934,
+    "api_top3": 0.7560192616372392,
+    "api_mrr": 0.7139372977655472,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "change_rate": 0.0,
+    "steps": 623,
+    "workflows": 211
+  },
+  "top_10": [
+    {
+      "name": "logreg",
+      "alpha": 0.8,
+      "threshold": 0.05,
+      "val": {
+        "api_acc": 0.6539735099337748,
+        "api_top3": 0.8923841059602649,
+        "api_mrr": 0.7774860716913686,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7580573951434879,
+        "change_rate": 0.0033112582781456954,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "logreg",
+      "alpha": 0.2,
+      "threshold": 0.005,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8841059602649006,
+        "api_mrr": 0.7751176022285288,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.756401766004415,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "logreg",
+      "alpha": 0.2,
+      "threshold": 0.01,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8841059602649006,
+        "api_mrr": 0.7751176022285288,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.756401766004415,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "logreg",
+      "alpha": 0.2,
+      "threshold": 0.02,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8841059602649006,
+        "api_mrr": 0.7751176022285288,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.756401766004415,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "logreg",
+      "alpha": 0.35,
+      "threshold": 0.02,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8874172185430463,
+        "api_mrr": 0.77573320719016,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.756401766004415,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "logreg",
+      "alpha": 0.35,
+      "threshold": 0.05,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8874172185430463,
+        "api_mrr": 0.77573320719016,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.756401766004415,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "logreg",
+      "alpha": 0.5,
+      "threshold": 0.05,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8890728476821192,
+        "api_mrr": 0.776321875328497,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.756401766004415,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "logreg",
+      "alpha": 0.65,
+      "threshold": 0.05,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8923841059602649,
+        "api_mrr": 0.7777620098812141,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.756401766004415,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "hgb",
+      "alpha": 0.2,
+      "threshold": -0.02,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8576158940397351,
+        "api_mrr": 0.76929859140124,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    },
+    {
+      "name": "hgb",
+      "alpha": 0.2,
+      "threshold": -0.01,
+      "val": {
+        "api_acc": 0.652317880794702,
+        "api_top3": 0.8576158940397351,
+        "api_mrr": 0.76929859140124,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "change_rate": 0.0016556291390728477,
+        "steps": 604,
+        "workflows": 210
+      }
+    }
+  ]
+}

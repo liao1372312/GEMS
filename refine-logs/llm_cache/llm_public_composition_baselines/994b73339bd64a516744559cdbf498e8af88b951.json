@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4440",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requests recipes for a romantic dinner and quotes about love; the Recipe Finder API provides dinner recipes, which matches part of the request and is relevant to the domain of food, unlike the other options.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requests recipes for a romantic dinner and quotes about love; the Recipe Finder API provides dinner recipes, which matches part of the request and is relevant to the domain of food, unlike the other options."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1580,
+    "total_tokens": 1643,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 901,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 266,
+      "service_ttlt_ms": 1104,
+      "total_duration_ms": 1024,
+      "user_visible_ttft_ms": 179
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3679",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"Betway - Matches API is specifically for games and matches, which is more suitable for retrieving live and upcoming American football game scores than the odds-focused APIs.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "Betway - Matches API is specifically for games and matches, which is more suitable for retrieving live and upcoming American football game scores than the odds-focused APIs."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 856,
+    "total_tokens": 909,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 24,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 1329,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 24,
+      "service_ttft_ms": 289,
+      "service_ttlt_ms": 1550,
+      "total_duration_ms": 1445,
+      "user_visible_ttft_ms": 175
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "record_id": "Technology_response_1866",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1 exactly; no improvement.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly validates email addresses, matching the step intent better than semantic top-1 which is unrelated.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1 exactly; no improvement."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice directly validates email addresses, matching the step intent better than semantic top-1 which is unrelated."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 1039,
+    "total_tokens": 1146,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1783,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 152,
+      "service_ttlt_ms": 1891,
+      "total_duration_ms": 1821,
+      "user_visible_ttft_ms": 75
+    }
+  }
+}

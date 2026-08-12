@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_600",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the tourism domain or the subtask of compiling Italian food ordering phrases; none can provide the requested translations or cultural information.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the tourism domain or the subtask of compiling Italian food ordering phrases; none can provide the requested translations or cultural information."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1544,
+    "total_tokens": 1594,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 224,
+      "user_visible_ttft_ms": 114,
+      "total_duration_ms": 554,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 653,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 476,
+      "engine_tbt_ms": 9
+    }
+  }
+}

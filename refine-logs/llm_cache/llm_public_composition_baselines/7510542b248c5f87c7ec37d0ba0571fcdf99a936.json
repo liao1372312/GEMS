@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1369",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs offer webcam information or business details related to famous landmarks or the Statue of Liberty specifically. No suitable API candidate is available for the requested subtask.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs offer webcam information or business details related to famous landmarks or the Statue of Liberty specifically. No suitable API candidate is available for the requested subtask."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1516,
+    "total_tokens": 1572,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 528,
+      "pre_inference_ms": 72,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 153,
+      "service_ttlt_ms": 620,
+      "total_duration_ms": 554,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify cities with excellent air quality suitable for a weekend getaway\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"weekend dates\", \"family preferences\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select accommodation options in the chosen city\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"chosen city\", \"weekend dates\", \"family size\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Plan activities and itinerary for the weekend getaway\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"chosen city\", \"family interests\", \"weekend dates\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Arrange transportation to and from the chosen city\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"chosen city\", \"weekend dates\", \"departure location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+        "domain": "Tourism",
+        "required_inputs": [
+          "weekend dates",
+          "family preferences"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Select accommodation options in the chosen city",
+        "domain": "Tourism",
+        "required_inputs": [
+          "chosen city",
+          "weekend dates",
+          "family size"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Plan activities and itinerary for the weekend getaway",
+        "domain": "Tourism",
+        "required_inputs": [
+          "chosen city",
+          "family interests",
+          "weekend dates"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Arrange transportation to and from the chosen city",
+        "domain": "Tourism",
+        "required_inputs": [
+          "chosen city",
+          "weekend dates",
+          "departure location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+      "domain": "Tourism",
+      "required_inputs": [
+        "weekend dates",
+        "family preferences"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Select accommodation options in the chosen city",
+      "domain": "Tourism",
+      "required_inputs": [
+        "chosen city",
+        "weekend dates",
+        "family size"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Plan activities and itinerary for the weekend getaway",
+      "domain": "Tourism",
+      "required_inputs": [
+        "chosen city",
+        "family interests",
+        "weekend dates"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Arrange transportation to and from the chosen city",
+      "domain": "Tourism",
+      "required_inputs": [
+        "chosen city",
+        "weekend dates",
+        "departure location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 176,
+    "total_tokens": 388,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 29,
+      "engine_ttlt_ms": 2096,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 130,
+      "service_ttlt_ms": 2191,
+      "total_duration_ms": 2123,
+      "user_visible_ttft_ms": 56
+    }
+  }
+}

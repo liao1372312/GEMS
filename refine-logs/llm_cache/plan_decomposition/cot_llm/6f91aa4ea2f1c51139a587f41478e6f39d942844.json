@@ -1,0 +1,84 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve playlist information for the playlist named 'Almost Lover' from a music streaming service.\",\n      \"domain\": \"Music Streaming\",\n      \"required_inputs\": [\"playlist name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Identify the artist related to the song 'Shape of You'.\",\n      \"domain\": \"Music Information\",\n      \"required_inputs\": [\"song title\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the latest release information of the identified artist from a music discovery service.\",\n      \"domain\": \"Music Discovery\",\n      \"required_inputs\": [\"artist name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve playlist information for the playlist named 'Almost Lover' from a music streaming service.",
+        "domain": "Music Streaming",
+        "required_inputs": [
+          "playlist name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Identify the artist related to the song 'Shape of You'.",
+        "domain": "Music Information",
+        "required_inputs": [
+          "song title"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the latest release information of the identified artist from a music discovery service.",
+        "domain": "Music Discovery",
+        "required_inputs": [
+          "artist name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve playlist information for the playlist named 'Almost Lover' from a music streaming service.",
+      "domain": "Music Streaming",
+      "required_inputs": [
+        "playlist name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Identify the artist related to the song 'Shape of You'.",
+      "domain": "Music Information",
+      "required_inputs": [
+        "song title"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the latest release information of the identified artist from a music discovery service.",
+      "domain": "Music Discovery",
+      "required_inputs": [
+        "artist name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 215,
+    "total_tokens": 369,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 24,
+      "engine_ttlt_ms": 1018,
+      "pre_inference_ms": 264,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 480,
+      "service_ttlt_ms": 1488,
+      "total_duration_ms": 1228,
+      "user_visible_ttft_ms": 216
+    }
+  }
+}

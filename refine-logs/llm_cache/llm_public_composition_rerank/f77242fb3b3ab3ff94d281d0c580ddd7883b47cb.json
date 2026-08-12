@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4589",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'TikTok Data - Music feed (Video posts)' API directly provides video posts using a specific TikTok music ID, which matches the user's need to find videos featuring the given music track ID. It requires the music ID parameter, which can be bound from the user request. This API is specific to TikTok music feeds, making it more suitable than generic or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'TikTok Data - Music feed (Video posts)' API directly provides video posts using a specific TikTok music ID, which matches the user's need to find videos featuring the given music track ID. It requires the music ID parameter, which can be bound from the user request. This API is specific to TikTok music feeds, making it more suitable than generic or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1949,
+    "total_tokens": 2047,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 108,
+      "engine_ttlt_ms": 1193,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 1364,
+      "total_duration_ms": 1259,
+      "user_visible_ttft_ms": 174
+    }
+  }
+}

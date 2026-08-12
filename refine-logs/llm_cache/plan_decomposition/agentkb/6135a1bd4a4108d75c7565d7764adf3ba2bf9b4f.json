@@ -1,0 +1,64 @@
+{
+  "record_id": "Medical_response_2137",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Research and compile a list of healthcare professionals suitable for targeted mailing for the conference outreach\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Provide nutritional analysis for the specified food item\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food item name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Research and compile a list of healthcare professionals suitable for targeted mailing for the conference outreach",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Provide nutritional analysis for the specified food item",
+        "domain": "Medical",
+        "required_inputs": [
+          "food item name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Research and compile a list of healthcare professionals suitable for targeted mailing for the conference outreach",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Provide nutritional analysis for the specified food item",
+      "domain": "Medical",
+      "required_inputs": [
+        "food item name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 370,
+    "total_tokens": 468,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1245,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 169,
+      "service_ttlt_ms": 1363,
+      "total_duration_ms": 1280,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

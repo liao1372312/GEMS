@@ -1,0 +1,66 @@
+{
+  "config": {
+    "split": "val",
+    "limit": 1,
+    "case_filter": "all",
+    "model": "gpt-4.1-mini",
+    "temperature": 0.0,
+    "cache_dir": "refine-logs/llm_cache/llm_public_composition_rerank"
+  },
+  "metrics": {
+    "api_acc": 0.0,
+    "single_choice_top3_proxy": 0.0,
+    "single_choice_mrr_proxy": 0.125,
+    "workflow_exact": 0.0,
+    "para_f1": 0.0,
+    "rank_counts": {
+      "7": 1
+    },
+    "steps": 1,
+    "workflows": 1
+  },
+  "usage": {
+    "prompt_tokens": 1983,
+    "completion_tokens": 125,
+    "total_tokens": 2108
+  },
+  "elapsed_seconds": 0.0006353496573865414,
+  "predictions": [
+    {
+      "record_id": "Tourism_response_2295",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 7, \"confidence\": 0.95, \"rationale\": \"The 'Reverse Geocoding and Geolocation Service - GetLargestCities' API directly provides the functionality to find the largest cities within a specified radial range from a given latitude and longitude, which matches the subtask of identifying cities within a 50-mile radius of New York City. It requires latitude, longitude, and range parameters, all of which can be derived from the user request and subtask inputs. This API is specific to geographic city data and radius search, making it more suitable than broader or unrelated APIs.\"}",
+      "parsed": {
+        "selected_rank": 7,
+        "confidence": 0.95,
+        "rationale": "The 'Reverse Geocoding and Geolocation Service - GetLargestCities' API directly provides the functionality to find the largest cities within a specified radial range from a given latitude and longitude, which matches the subtask of identifying cities within a 50-mile radius of New York City. It requires latitude, longitude, and range parameters, all of which can be derived from the user request and subtask inputs. This API is specific to geographic city data and radius search, making it more suitable than broader or unrelated APIs."
+      },
+      "usage": {
+        "completion_tokens": 125,
+        "prompt_tokens": 1983,
+        "total_tokens": 2108,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 71,
+          "engine_ttlt_ms": 1626,
+          "pre_inference_ms": 87,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 195,
+          "service_ttlt_ms": 1745,
+          "total_duration_ms": 1664,
+          "user_visible_ttft_ms": 108
+        }
+      }
+    }
+  ]
+}

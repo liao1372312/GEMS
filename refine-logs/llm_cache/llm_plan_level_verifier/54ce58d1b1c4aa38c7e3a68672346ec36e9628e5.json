@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_5265",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice 'Fidelity Investments - news/list-top' directly matches the step to fetch top news from Fidelity Investments, better than semantic top-1 which is more general.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"LLM choice is the same as semantic top-1 and does not explicitly provide public holiday data; semantic top-1 is kept.\"}],\"workflow_confidence\":0.9}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice 'Fidelity Investments - news/list-top' directly matches the step to fetch top news from Fidelity Investments, better than semantic top-1 which is more general."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice is the same as semantic top-1 and does not explicitly provide public holiday data; semantic top-1 is kept."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 1468,
+    "total_tokens": 1601,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 406,
+      "user_visible_ttft_ms": 268,
+      "total_duration_ms": 3186,
+      "pre_inference_ms": 138,
+      "service_tbt_ms": 22,
+      "service_ttlt_ms": 3314,
+      "engine_ttft_ms": 95,
+      "engine_ttlt_ms": 3017,
+      "engine_tbt_ms": 22
+    }
+  }
+}

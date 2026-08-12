@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1492",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate provides a 5-day daily weather forecast by latitude and longitude, which is exactly what is needed to ensure favorable weather conditions for the picnic location.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate provides a 5-day daily weather forecast by latitude and longitude, which is exactly what is needed to ensure favorable weather conditions for the picnic location."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1701,
+    "total_tokens": 1756,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 630,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 826,
+      "total_duration_ms": 725,
+      "user_visible_ttft_ms": 107
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3973",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Google Search 2 - Google Maps Data ID API (rank 7) is specifically designed to get Google Maps data IDs for places using their names, which is exactly what is needed to get Google Maps URLs for each restaurant.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Google Search 2 - Google Maps Data ID API (rank 7) is specifically designed to get Google Maps data IDs for places using their names, which is exactly what is needed to get Google Maps URLs for each restaurant."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1610,
+    "total_tokens": 1678,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 554,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 341,
+      "service_ttlt_ms": 1058,
+      "total_duration_ms": 926,
+      "user_visible_ttft_ms": 195
+    }
+  }
+}

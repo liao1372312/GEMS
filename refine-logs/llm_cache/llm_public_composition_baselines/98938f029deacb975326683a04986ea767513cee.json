@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"This API provides market data including historical stock prices for a given symbol like AAPL, which matches the requirement to fetch historical stock prices for Apple Inc. for August.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "This API provides market data including historical stock prices for a given symbol like AAPL, which matches the requirement to fetch historical stock prices for Apple Inc. for August."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1460,
+    "total_tokens": 1515,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 449,
+      "pre_inference_ms": 143,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 672,
+      "total_duration_ms": 538,
+      "user_visible_ttft_ms": 133
+    }
+  }
+}

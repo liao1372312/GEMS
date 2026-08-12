@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4281",
+  "step_id": 6,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided candidates match the subtask of performing a geolookup for a Library location based on geocode. The candidates are unrelated to geolocation or venue information.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided candidates match the subtask of performing a geolookup for a Library location based on geocode. The candidates are unrelated to geolocation or venue information."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1338,
+    "total_tokens": 1396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 721,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 150,
+      "service_ttlt_ms": 813,
+      "total_duration_ms": 745,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice provides exchange rates, not central bank interest rates; semantic top-1 is more aligned with currency data needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API provides bank data including central bank flags, directly relevant to identifying top central banks.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API allows querying banks by country including central banks, suitable for retrieving interest rates of top central banks.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API provides bank lists with central/non-central flags, fitting the need to fetch non-central bank interest rates.\"\n    },\n    {\n      \"step_id\": 5,\n      \"accept_llm\": false,\n      \"reason\": \"No API explicitly supports report compilation; semantic top-1 is acceptable as no better alternative.\"\n    }\n  ],\n  \"workflow_confidence\": 0.85\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice provides exchange rates, not central bank interest rates; semantic top-1 is more aligned with currency data needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice API provides bank data including central bank flags, directly relevant to identifying top central banks."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice API allows querying banks by country including central banks, suitable for retrieving interest rates of top central banks."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice API provides bank lists with central/non-central flags, fitting the need to fetch non-central bank interest rates."
+      },
+      {
+        "step_id": 5,
+        "accept_llm": false,
+        "reason": "No API explicitly supports report compilation; semantic top-1 is acceptable as no better alternative."
+      }
+    ],
+    "workflow_confidence": 0.85
+  },
+  "usage": {
+    "completion_tokens": 257,
+    "prompt_tokens": 2971,
+    "total_tokens": 3228,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 3274,
+      "pre_inference_ms": 171,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 357,
+      "service_ttlt_ms": 3568,
+      "total_duration_ms": 3400,
+      "user_visible_ttft_ms": 186
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3385",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"Provides live and upcoming football matches list with available periods, matching the subtask requirement.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "Provides live and upcoming football matches list with available periods, matching the subtask requirement."
+  },
+  "usage": {
+    "completion_tokens": 39,
+    "prompt_tokens": 1263,
+    "total_tokens": 1302,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 109,
+      "engine_ttlt_ms": 631,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 322,
+      "service_ttlt_ms": 860,
+      "total_duration_ms": 726,
+      "user_visible_ttft_ms": 183
+    }
+  }
+}

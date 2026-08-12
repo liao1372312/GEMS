@@ -1,0 +1,45 @@
+{
+  "record_id": "Finance_response_4481",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API directly supports querying trade data by ISIN code, matching the required inputs and subtask intent precisely.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice repeats the same API as semantic top-1 without addressing the filtering step; filtering is a data processing step, not an API call.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice API directly supports querying trade data by ISIN code, matching the required inputs and subtask intent precisely."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice repeats the same API as semantic top-1 without addressing the filtering step; filtering is a data processing step, not an API call."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 889,
+    "total_tokens": 1015,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1341,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 1448,
+      "total_duration_ms": 1378,
+      "user_visible_ttft_ms": 77
+    }
+  }
+}

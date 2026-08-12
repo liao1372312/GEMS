@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\caption{Pilot end-to-end performance on 51 public service composition test workflows. Exec.SR, QoS.Score, and API Lat. are computed from selected-API metadata rather than live online invocation.}
+\label{tab:main-results-test51-enhanced}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccccc}
+\toprule
+Method & Plan.Acc $\uparrow$ & API.Acc $\uparrow$ & Para.F1 $\uparrow$ & Exec.SR $\uparrow$ & QoS.Score $\uparrow$ & API Lat. (ms) $\downarrow$ \\
+\midrule
+\multicolumn{7}{l}{\textit{Prompting and tool-use baselines}} \\
+Direct-LLM & 0.1961 & 0.4863 & 0.6005 & 0.8630 & 0.8543 & 2786.1 \\
+CoT-LLM & 0.2549 & 0.5068 & 0.6210 & 0.8356 & 0.8577 & 2419.3 \\
+ReAct & 0.2549 & 0.4932 & 0.6059 & 0.8356 & 0.8511 & 2701.9 \\
+RestGPT-style & 0.2157 & 0.5137 & 0.6183 & 0.8425 & 0.8482 & 2889.9 \\
+MA-NoMem & 0.2353 & 0.4795 & 0.6128 & 0.8493 & 0.8497 & 2752.6 \\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textit{Memory-augmented baselines}} \\
+Trace-RAG & 0.7843 & 0.8973 & 0.9274 & 0.8493 & 0.8692 & 2064.4 \\
+StructMem-RAG & 0.7647 & 0.8904 & 0.9137 & 0.8767 & 0.8718 & 2079.1 \\
+GraphRAG-static & 0.7843 & 0.8630 & 0.9205 & \textbf{0.9041} & \textbf{0.8809} & 2077.6 \\
+AgentKB-style & 0.7647 & 0.8699 & 0.9274 & 0.8425 & 0.8737 & 1973.4 \\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textit{Ours}} \\
+\textsc{GEMS} & \textbf{0.8627} & \textbf{0.9521} & \textbf{0.9703} & 0.8493 & 0.8661 & \textbf{1781.8} \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

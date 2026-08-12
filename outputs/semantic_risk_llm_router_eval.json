@@ -1,0 +1,136 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "llm_files": [
+      "outputs/llm_public_composition_rerank_val_all.json",
+      "outputs/llm_public_composition_rerank_test_all.json"
+    ],
+    "output": "outputs/semantic_risk_llm_router_eval.json",
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15
+  },
+  "feature_names": [
+    "top1_similarity",
+    "top2_similarity",
+    "top3_similarity",
+    "margin_1_2",
+    "margin_1_3",
+    "score_mean",
+    "score_std",
+    "score_range",
+    "top1_param_count",
+    "top1_has_params",
+    "top1_required_input_overlap",
+    "top1_api_name_overlap",
+    "top1_text_overlap",
+    "top1_domain_overlap",
+    "candidate_count"
+  ],
+  "best_model": {
+    "name": "logreg",
+    "threshold": 0.4016218067976941,
+    "val_risk_f1": 0.5336927223719676,
+    "val_wrong_recall": 0.9383886255924171,
+    "val_route_rate": 0.8791390728476821,
+    "test": {
+      "api_acc": 0.6645264847512039,
+      "workflow_exact": 0.3744075829383886,
+      "para_f1": 0.7508293204922418,
+      "llm_calls": 550,
+      "llm_call_rate": 0.8828250401284109,
+      "llm_changed": 337,
+      "llm_change_rate": 0.5409309791332263,
+      "missing_llm": 0,
+      "steps": 623,
+      "workflows": 211
+    }
+  },
+  "all_models": [
+    {
+      "name": "logreg",
+      "threshold": 0.4016218067976941,
+      "val_risk_f1": 0.5336927223719676,
+      "val_wrong_recall": 0.9383886255924171,
+      "val_route_rate": 0.8791390728476821,
+      "test": {
+        "api_acc": 0.6645264847512039,
+        "workflow_exact": 0.3744075829383886,
+        "para_f1": 0.7508293204922418,
+        "llm_calls": 550,
+        "llm_call_rate": 0.8828250401284109,
+        "llm_changed": 337,
+        "llm_change_rate": 0.5409309791332263,
+        "missing_llm": 0,
+        "steps": 623,
+        "workflows": 211
+      }
+    },
+    {
+      "name": "random_forest",
+      "threshold": 0.40868304416607437,
+      "val_risk_f1": 0.5376044568245125,
+      "val_wrong_recall": 0.9146919431279621,
+      "val_route_rate": 0.8394039735099338,
+      "test": {
+        "api_acc": 0.6613162118780096,
+        "workflow_exact": 0.3791469194312796,
+        "para_f1": 0.7408774745853397,
+        "llm_calls": 544,
+        "llm_call_rate": 0.8731942215088283,
+        "llm_changed": 330,
+        "llm_change_rate": 0.5296950240770465,
+        "missing_llm": 0,
+        "steps": 623,
+        "workflows": 211
+      }
+    },
+    {
+      "name": "hgb",
+      "threshold": 0.2926633488671433,
+      "val_risk_f1": 0.541033434650456,
+      "val_wrong_recall": 0.8436018957345972,
+      "val_route_rate": 0.7400662251655629,
+      "test": {
+        "api_acc": 0.6629213483146067,
+        "workflow_exact": 0.3744075829383886,
+        "para_f1": 0.7356607811663991,
+        "llm_calls": 450,
+        "llm_call_rate": 0.7223113964686998,
+        "llm_changed": 276,
+        "llm_change_rate": 0.44301765650080255,
+        "missing_llm": 0,
+        "steps": 623,
+        "workflows": 211
+      }
+    }
+  ],
+  "semantic_top1_test": {
+    "api_acc": 0.6147672552166934,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "llm_calls": 0,
+    "llm_call_rate": 0.0,
+    "llm_changed": 0,
+    "llm_change_rate": 0.0,
+    "missing_llm": 0,
+    "steps": 623,
+    "workflows": 211
+  },
+  "all_llm_test": {
+    "api_acc": 0.6725521669341894,
+    "workflow_exact": 0.3886255924170616,
+    "para_f1": 0.750187265917603,
+    "llm_calls": 623,
+    "llm_call_rate": 1.0,
+    "llm_changed": 359,
+    "llm_change_rate": 0.5762439807383628,
+    "missing_llm": 0,
+    "steps": 623,
+    "workflows": 211
+  },
+  "notes": [
+    "Risk model is trained on train split and threshold-tuned on validation semantic-error labels.",
+    "Test LLM predictions are used only for evaluating routed high-risk steps."
+  ]
+}

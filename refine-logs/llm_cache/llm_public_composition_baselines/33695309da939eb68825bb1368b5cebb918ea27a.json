@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2571",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the request domain 'Medical' or the subtask of fetching cooking times for recipes with chocolate and fruits. The top-ranked API is for birthday cake name generation, unrelated to recipe cooking times.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the request domain 'Medical' or the subtask of fetching cooking times for recipes with chocolate and fruits. The top-ranked API is for birthday cake name generation, unrelated to recipe cooking times."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1558,
+    "total_tokens": 1622,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 450,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 221,
+      "service_ttlt_ms": 622,
+      "total_duration_ms": 530,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

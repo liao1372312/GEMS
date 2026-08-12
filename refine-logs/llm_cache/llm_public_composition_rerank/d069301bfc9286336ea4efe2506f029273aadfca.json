@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1369",
+  "step_id": 7,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information, which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for tourist attraction details, unlike other APIs which are unrelated or too generic.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Unofficial Trust Pilot API provides detailed business information, which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for tourist attraction details, unlike other APIs which are unrelated or too generic."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1923,
+    "total_tokens": 1993,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 1113,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 286,
+      "service_ttlt_ms": 1334,
+      "total_duration_ms": 1235,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

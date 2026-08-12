@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1563",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.7, \"rationale\": \"The user requests payment gateway recommendations, which relate to finance. Among the candidates, only StockTwits APIs are in the Finance domain, but they are for social communication, not payment gateways. No direct payment gateway API is listed, so selecting the highest-ranked Finance domain API to potentially gather financial insights or related info.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.7,
+    "rationale": "The user requests payment gateway recommendations, which relate to finance. Among the candidates, only StockTwits APIs are in the Finance domain, but they are for social communication, not payment gateways. No direct payment gateway API is listed, so selecting the highest-ranked Finance domain API to potentially gather financial insights or related info."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 983,
+    "total_tokens": 1068,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 784,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 306,
+      "service_ttlt_ms": 1048,
+      "total_duration_ms": 947,
+      "user_visible_ttft_ms": 197
+    }
+  }
+}

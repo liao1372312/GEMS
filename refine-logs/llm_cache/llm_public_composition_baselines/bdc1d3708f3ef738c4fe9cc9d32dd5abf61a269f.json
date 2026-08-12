@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2571",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user requests unique recipes including chocolate and fruits with cooking times. The Recipe Finder - cake/ingredient API (rank 3) is in the Food domain, supports ingredient-based search, and likely includes chocolate and fruit cake recipes with instructions and cooking times, matching the request best.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user requests unique recipes including chocolate and fruits with cooking times. The Recipe Finder - cake/ingredient API (rank 3) is in the Food domain, supports ingredient-based search, and likely includes chocolate and fruit cake recipes with instructions and cooking times, matching the request best."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1842,
+    "total_tokens": 1920,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 879,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 296,
+      "service_ttlt_ms": 1120,
+      "total_duration_ms": 997,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_569",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The Rankiteo Climate Risk Assessment - GetCityExposedByDisasterId API provides climate risk assessment scores for locations, which aligns with fetching a climate score for Paris. It is the most relevant and specific API for climate scoring among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Rankiteo Climate Risk Assessment - GetCityExposedByDisasterId API provides climate risk assessment scores for locations, which aligns with fetching a climate score for Paris. It is the most relevant and specific API for climate scoring among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1870,
+    "total_tokens": 1937,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 753,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 211,
+      "service_ttlt_ms": 899,
+      "total_duration_ms": 802,
+      "user_visible_ttft_ms": 103
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify a list of candidate cities worldwide known for excellent air quality suitable for a weekend getaway.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve current air quality data for each candidate city using the Air Quality API to confirm their air quality status.\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"country\", \"city\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Select and recommend a city with excellent confirmed air quality for the weekend getaway.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"air quality data\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify a list of candidate cities worldwide known for excellent air quality suitable for a weekend getaway.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve current air quality data for each candidate city using the Air Quality API to confirm their air quality status.",
+        "domain": "Weather",
+        "required_inputs": [
+          "country",
+          "city"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Select and recommend a city with excellent confirmed air quality for the weekend getaway.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "air quality data"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify a list of candidate cities worldwide known for excellent air quality suitable for a weekend getaway.",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve current air quality data for each candidate city using the Air Quality API to confirm their air quality status.",
+      "domain": "Weather",
+      "required_inputs": [
+        "country",
+        "city"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Select and recommend a city with excellent confirmed air quality for the weekend getaway.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "air quality data"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 2280,
+    "total_tokens": 2442,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 299,
+      "user_visible_ttft_ms": 182,
+      "total_duration_ms": 2047,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 2154,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 1929,
+      "engine_tbt_ms": 11
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify cities with excellent air quality suitable for a weekend getaway.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve current air quality data for candidate cities to confirm their air quality status.",
+        "domain": "Weather",
+        "required_inputs": [
+          "country",
+          "city"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Select a city with excellent air quality for the weekend getaway.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "air quality data"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4457",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.95, \"rationale\": \"The user wants news articles about a stock with tickerId 913256135 using the Webull API. Among the candidates, the Stock Sentiment API - News Sentiment Data (rank 7) matches the domain (Finance), intent (fetch news articles related to a stock), and requires a ticker parameter, which aligns with the user's tickerId input.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.95,
+    "rationale": "The user wants news articles about a stock with tickerId 913256135 using the Webull API. Among the candidates, the Stock Sentiment API - News Sentiment Data (rank 7) matches the domain (Finance), intent (fetch news articles related to a stock), and requires a ticker parameter, which aligns with the user's tickerId input."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1499,
+    "total_tokens": 1592,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1290,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 1493,
+      "total_duration_ms": 1377,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

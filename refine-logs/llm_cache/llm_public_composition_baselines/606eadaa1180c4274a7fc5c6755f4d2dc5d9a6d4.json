@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3973",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"This API provides Google Maps data ID for a place based on its name, which can be used to get Google Maps URLs for restaurants.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "This API provides Google Maps data ID for a place based on its name, which can be used to get Google Maps URLs for restaurants."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1601,
+    "total_tokens": 1650,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 474,
+      "pre_inference_ms": 415,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 560,
+      "service_ttlt_ms": 972,
+      "total_duration_ms": 569,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

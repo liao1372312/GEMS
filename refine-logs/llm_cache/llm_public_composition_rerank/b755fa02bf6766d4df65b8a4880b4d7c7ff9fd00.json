@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_131",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide hotel information or nearby hotel search functionality for Times Square or any location. The location APIs are specific to African countries and do not cover New York City. The other APIs are unrelated to tourism or hotel data.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide hotel information or nearby hotel search functionality for Times Square or any location. The location APIs are specific to African countries and do not cover New York City. The other APIs are unrelated to tourism or hotel data."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1732,
+    "total_tokens": 1801,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1350,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 316,
+      "service_ttlt_ms": 1614,
+      "total_duration_ms": 1506,
+      "user_visible_ttft_ms": 193
+    }
+  }
+}

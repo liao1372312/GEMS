@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate 1 directly retrieves top coins by followers change in the last 24 hours, matching the first part of the request. Candidate 4 provides sentiment change values for top coins, matching the second part. Both are needed to fulfill the request fully, but candidate 1 is the best starting point for the first subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate 1 directly retrieves top coins by followers change in the last 24 hours, matching the first part of the request. Candidate 4 provides sentiment change values for top coins, matching the second part. Both are needed to fulfill the request fully, but candidate 1 is the best starting point for the first subtask."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 2701,
+    "total_tokens": 2788,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 853,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 252,
+      "service_ttlt_ms": 1053,
+      "total_duration_ms": 956,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

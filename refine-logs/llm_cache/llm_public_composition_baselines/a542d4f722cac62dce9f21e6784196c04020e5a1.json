@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2054",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Yahoo Finance API provides comprehensive asset profiles, finance analytics, earnings trends, and key statistics for companies like Apple Inc. and Tesla, matching the user's request fully.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Yahoo Finance API provides comprehensive asset profiles, finance analytics, earnings trends, and key statistics for companies like Apple Inc. and Tesla, matching the user's request fully."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1566,
+    "total_tokens": 1620,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 600,
+      "pre_inference_ms": 151,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 309,
+      "service_ttlt_ms": 854,
+      "total_duration_ms": 706,
+      "user_visible_ttft_ms": 159
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3151",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.95, \"rationale\": \"The subtask specifically requests the Crypto News API for the latest cryptocurrency articles. Candidate 4 is named 'H Crypto News - Latest News on Crypto' and explicitly states it provides the latest news on cryptocurrency from several newspapers, matching the subtask intent directly and specifically.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.95,
+    "rationale": "The subtask specifically requests the Crypto News API for the latest cryptocurrency articles. Candidate 4 is named 'H Crypto News - Latest News on Crypto' and explicitly states it provides the latest news on cryptocurrency from several newspapers, matching the subtask intent directly and specifically."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1637,
+    "total_tokens": 1712,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 1773,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 1937,
+      "total_duration_ms": 1814,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

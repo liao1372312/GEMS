@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2612",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 1.0, \"rationale\": \"The 'Bybit - Get Funding Rate History' API directly provides funding rate history for a given symbol and date range, matching the subtask requirements exactly.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 1.0,
+    "rationale": "The 'Bybit - Get Funding Rate History' API directly provides funding rate history for a given symbol and date range, matching the subtask requirements exactly."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 2448,
+    "total_tokens": 2501,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 117,
+      "engine_ttlt_ms": 980,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 348,
+      "service_ttlt_ms": 1162,
+      "total_duration_ms": 1041,
+      "user_visible_ttft_ms": 221
+    }
+  }
+}

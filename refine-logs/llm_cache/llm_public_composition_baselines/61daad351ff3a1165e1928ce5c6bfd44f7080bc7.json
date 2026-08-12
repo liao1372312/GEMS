@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_6708",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.7, \"rationale\": \"Candidate 1 is in the education domain and related to Japanese kanji, which is somewhat related to education, but it does not provide random quotes about education. None of the candidates directly provide random education quotes or date generation, but candidate 1 is the closest match for education-related content.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.7,
+    "rationale": "Candidate 1 is in the education domain and related to Japanese kanji, which is somewhat related to education, but it does not provide random quotes about education. None of the candidates directly provide random education quotes or date generation, but candidate 1 is the closest match for education-related content."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1208,
+    "total_tokens": 1288,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 79
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1235
+    }
+  }
+}

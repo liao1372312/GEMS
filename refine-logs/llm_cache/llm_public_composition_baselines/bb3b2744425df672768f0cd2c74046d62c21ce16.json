@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3353",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants football match predictions for betting guidance; the top-ranked API provides daily featured football predictions with higher probabilities and better odds, matching the intent and subtask perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants football match predictions for betting guidance; the top-ranked API provides daily featured football predictions with higher probabilities and better odds, matching the intent and subtask perfectly."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1004,
+    "total_tokens": 1060,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 661,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 324,
+      "service_ttlt_ms": 951,
+      "total_duration_ms": 855,
+      "user_visible_ttft_ms": 202
+    }
+  }
+}

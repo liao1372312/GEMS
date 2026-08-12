@@ -1,0 +1,74 @@
+{
+  "record_id": "Tourism_response_5275",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find venues or services that can organize a wine tasting event with cheese pairings\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"event type\", \"location\", \"preferences for pairings\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for brewery tours available in New York\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\", \"activity type\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find venues or services that can organize a wine tasting event with cheese pairings",
+        "domain": "Tourism",
+        "required_inputs": [
+          "event type",
+          "location",
+          "preferences for pairings"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for brewery tours available in New York",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location",
+          "activity type"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find venues or services that can organize a wine tasting event with cheese pairings",
+      "domain": "Tourism",
+      "required_inputs": [
+        "event type",
+        "location",
+        "preferences for pairings"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for brewery tours available in New York",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location",
+        "activity type"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 270,
+    "total_tokens": 383,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1439,
+      "pre_inference_ms": 157,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 329,
+      "service_ttlt_ms": 1704,
+      "total_duration_ms": 1558,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_761",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The user wants to fetch the fear and greed index for today, and candidate rank 2 is the only API specifically providing the Fear and Greed index data, matching the subtask requirement exactly.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The user wants to fetch the fear and greed index for today, and candidate rank 2 is the only API specifically providing the Fear and Greed index data, matching the subtask requirement exactly."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1309,
+    "total_tokens": 1370,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 400,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 5,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 593,
+      "total_duration_ms": 493,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs a list of healthcare professionals for targeted mailing and nutritional analysis. Among the candidates, only the Cartify - getAllUsers API can potentially provide user data, which might include healthcare professionals. Although it is an e-commerce API, it is the closest match for obtaining user lists. No direct nutritional analysis API is provided, so this API is selected to start with the user list part of the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs a list of healthcare professionals for targeted mailing and nutritional analysis. Among the candidates, only the Cartify - getAllUsers API can potentially provide user data, which might include healthcare professionals. Although it is an e-commerce API, it is the closest match for obtaining user lists. No direct nutritional analysis API is provided, so this API is selected to start with the user list part of the request."
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 1778,
+    "total_tokens": 1882,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 81,
+      "engine_ttlt_ms": 989,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 1171,
+      "total_duration_ms": 1142,
+      "user_visible_ttft_ms": 168
+    }
+  }
+}

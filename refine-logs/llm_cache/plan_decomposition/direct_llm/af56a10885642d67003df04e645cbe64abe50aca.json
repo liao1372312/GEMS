@@ -1,0 +1,70 @@
+{
+  "record_id": "Medical_response_2024",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve news articles related to COVID-19 from the specified source BMJ\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"source\", \"topic\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Obtain keyword trends for 'COVID-19'\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"keyword\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve news articles related to COVID-19 from the specified source BMJ",
+        "domain": "Medical",
+        "required_inputs": [
+          "source",
+          "topic"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Obtain keyword trends for 'COVID-19'",
+        "domain": "Medical",
+        "required_inputs": [
+          "keyword"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve news articles related to COVID-19 from the specified source BMJ",
+      "domain": "Medical",
+      "required_inputs": [
+        "source",
+        "topic"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Obtain keyword trends for 'COVID-19'",
+      "domain": "Medical",
+      "required_inputs": [
+        "keyword"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 205,
+    "total_tokens": 305,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 1410,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 143,
+      "service_ttlt_ms": 1513,
+      "total_duration_ms": 1446,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

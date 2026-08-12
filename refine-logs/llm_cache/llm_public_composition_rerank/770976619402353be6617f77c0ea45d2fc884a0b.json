@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_842",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"None of the candidate APIs provide live traffic data for a route. However, the user request is to fetch live traffic data for a route from San Francisco to Los Angeles, and none of the given APIs match this domain or functionality. Therefore, no suitable API is available among the candidates for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "None of the candidate APIs provide live traffic data for a route. However, the user request is to fetch live traffic data for a route from San Francisco to Los Angeles, and none of the given APIs match this domain or functionality. Therefore, no suitable API is available among the candidates for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1662,
+    "total_tokens": 1745,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 1001,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 306,
+      "service_ttlt_ms": 1210,
+      "total_duration_ms": 1075,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

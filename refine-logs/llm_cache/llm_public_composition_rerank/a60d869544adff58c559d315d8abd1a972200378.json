@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4436",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs explicitly mention expanding relations of a company from the Croatian company register. However, the first API 'aaaa - Get All Teams' is related to organization/team data and might be the closest match to handling company-related information. Other APIs are unrelated to company data or Croatian company registers.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs explicitly mention expanding relations of a company from the Croatian company register. However, the first API 'aaaa - Get All Teams' is related to organization/team data and might be the closest match to handling company-related information. Other APIs are unrelated to company data or Croatian company registers."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 2337,
+    "total_tokens": 2419,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 80,
+      "engine_ttlt_ms": 920,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 197,
+      "service_ttlt_ms": 1034,
+      "total_duration_ms": 954,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

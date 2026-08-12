@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Philosophers API is best suited to provide love quotes that express the essence of romance and partnership, as it offers information on philosophers and their philosophies, which often include romantic and partnership themes.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Philosophers API is best suited to provide love quotes that express the essence of romance and partnership, as it offers information on philosophers and their philosophies, which often include romantic and partnership themes."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1612,
+    "total_tokens": 1672,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 647,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 841,
+      "total_duration_ms": 756,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

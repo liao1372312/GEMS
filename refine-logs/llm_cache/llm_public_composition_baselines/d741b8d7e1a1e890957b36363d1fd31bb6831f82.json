@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Kohls - stores/list API matches the requirement to list stores near a given GEO location, which fits the subtask of finding stores within a 25-mile radius of the provided longitude and latitude.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Kohls - stores/list API matches the requirement to list stores near a given GEO location, which fits the subtask of finding stores within a 25-mile radius of the provided longitude and latitude."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 2050,
+    "total_tokens": 2112,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 118,
+      "engine_ttlt_ms": 1270,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 1361,
+      "total_duration_ms": 1294,
+      "user_visible_ttft_ms": 139
+    }
+  }
+}

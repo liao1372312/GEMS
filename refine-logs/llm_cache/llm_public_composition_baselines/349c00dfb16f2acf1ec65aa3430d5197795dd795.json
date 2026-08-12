@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9562",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the sports domain or player search intent.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the sports domain or player search intent."
+  },
+  "usage": {
+    "completion_tokens": 34,
+    "prompt_tokens": 1714,
+    "total_tokens": 1748,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 106,
+      "engine_ttlt_ms": 629,
+      "pre_inference_ms": 149,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 384,
+      "service_ttlt_ms": 939,
+      "total_duration_ms": 798,
+      "user_visible_ttft_ms": 235
+    }
+  }
+}

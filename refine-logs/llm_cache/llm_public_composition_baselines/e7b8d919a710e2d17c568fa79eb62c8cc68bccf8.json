@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1466",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides a time-series endpoint specifically designed to retrieve historical exchange rates between two specified dates, which matches the request for historical USD to CNY rates from 2022-07-01 to 2022-07-31.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides a time-series endpoint specifically designed to retrieve historical exchange rates between two specified dates, which matches the request for historical USD to CNY rates from 2022-07-01 to 2022-07-31."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1353,
+    "total_tokens": 1424,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 833,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 229,
+      "service_ttlt_ms": 1019,
+      "total_duration_ms": 923,
+      "user_visible_ttft_ms": 124
+    }
+  }
+}

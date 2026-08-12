@@ -1,0 +1,86 @@
+{
+  "record_id": "Tourism_response_492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify major landmarks and attractions along the route from New York City to Los Angeles\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather details about nearby hotels for each identified landmark and attraction\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"landmarks_list\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Collect information about restaurants near each identified landmark and attraction\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"landmarks_list\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify major landmarks and attractions along the route from New York City to Los Angeles",
+        "domain": "Tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Gather details about nearby hotels for each identified landmark and attraction",
+        "domain": "Tourism",
+        "required_inputs": [
+          "landmarks_list"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Collect information about restaurants near each identified landmark and attraction",
+        "domain": "Tourism",
+        "required_inputs": [
+          "landmarks_list"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify major landmarks and attractions along the route from New York City to Los Angeles",
+      "domain": "Tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather details about nearby hotels for each identified landmark and attraction",
+      "domain": "Tourism",
+      "required_inputs": [
+        "landmarks_list"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Collect information about restaurants near each identified landmark and attraction",
+      "domain": "Tourism",
+      "required_inputs": [
+        "landmarks_list"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 303,
+    "total_tokens": 457,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 1944,
+      "pre_inference_ms": 154,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 334,
+      "service_ttlt_ms": 2234,
+      "total_duration_ms": 2089,
+      "user_visible_ttft_ms": 179
+    }
+  }
+}

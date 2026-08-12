@@ -1,0 +1,71 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search location by city name or zip code to get the key for the climate forecast\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"city or zip code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get climate data for the location using latitude/longitude or the key obtained from location search\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"latitude and longitude or location key\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search location by city name or zip code to get the key for the climate forecast",
+        "domain": "Weather",
+        "required_inputs": [
+          "city or zip code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Get climate data for the location using latitude/longitude or the key obtained from location search",
+        "domain": "Weather",
+        "required_inputs": [
+          "latitude and longitude or location key"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search location by city name or zip code to get the key for the climate forecast",
+      "domain": "Weather",
+      "required_inputs": [
+        "city or zip code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Get climate data for the location using latitude/longitude or the key obtained from location search",
+      "domain": "Weather",
+      "required_inputs": [
+        "latitude and longitude or location key"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 2250,
+    "total_tokens": 2365,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1123,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 289,
+      "service_ttlt_ms": 1356,
+      "total_duration_ms": 1239,
+      "user_visible_ttft_ms": 163
+    }
+  },
+  "goal_hints": [
+    "I want to explore the climate data of different cities."
+  ]
+}

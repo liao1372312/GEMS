@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3962",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The user request is for romantic dinner recipes and trending images of anniversary cakes. Among the candidates, only the Image Search API (rank 9) can provide relevant images for anniversary cakes. However, no candidate directly offers recipe recommendations. Still, the Image Search API is the best fit for part of the request.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The user request is for romantic dinner recipes and trending images of anniversary cakes. Among the candidates, only the Image Search API (rank 9) can provide relevant images for anniversary cakes. However, no candidate directly offers recipe recommendations. Still, the Image Search API is the best fit for part of the request."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1415,
+    "total_tokens": 1499,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 344,
+      "user_visible_ttft_ms": 137,
+      "total_duration_ms": 1088,
+      "pre_inference_ms": 207,
+      "service_tbt_ms": 11,
+      "service_ttlt_ms": 1289,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1005,
+      "engine_tbt_ms": 11
+    }
+  }
+}

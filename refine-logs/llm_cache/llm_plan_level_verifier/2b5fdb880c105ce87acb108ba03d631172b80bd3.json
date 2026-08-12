@@ -1,0 +1,45 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "raw": "{\"decisions\": [{\"step_id\": 1, \"accept_llm\": false, \"reason\": \"LLM choice is identical to semantic top-1, no change needed.\"}, {\"step_id\": 2, \"accept_llm\": false, \"reason\": \"LLM choice is identical to semantic top-1, no change needed.\"}], \"workflow_confidence\": 0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1, no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1, no change needed."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1090,
+    "total_tokens": 1173,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1284,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 250,
+      "service_ttlt_ms": 1486,
+      "total_duration_ms": 1388,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

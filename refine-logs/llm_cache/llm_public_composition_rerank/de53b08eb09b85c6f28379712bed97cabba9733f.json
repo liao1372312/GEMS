@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5444",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The Africa-Api provides tourism locations and categories for countries in Africa, which aligns with fetching popular tourist attractions including names, types, and addresses. Although it requires a country_name parameter rather than city_name, it is the most relevant and specific tourism API among the candidates. Other APIs are unrelated to tourism or too generic.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The Africa-Api provides tourism locations and categories for countries in Africa, which aligns with fetching popular tourist attractions including names, types, and addresses. Although it requires a country_name parameter rather than city_name, it is the most relevant and specific tourism API among the candidates. Other APIs are unrelated to tourism or too generic."
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 1745,
+    "total_tokens": 1831,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 1107,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 200,
+      "service_ttlt_ms": 1238,
+      "total_duration_ms": 1156,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

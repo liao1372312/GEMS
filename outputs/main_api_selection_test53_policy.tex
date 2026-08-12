@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{API-selection performance on the stratified 53-workflow pilot subset. Workflow Exact is not Plan.Acc.}
+\label{tab:api-selection-pilot}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccc}
+\toprule
+Method & Workflow Exact $\uparrow$ & API.Acc $\uparrow$ & Para.F1 $\uparrow$ \\
+\midrule
+Direct-LLM & \textbf{0.6038} & \textbf{0.7415} & \textbf{0.7732} \\
+CoT-LLM & 0.4151 & 0.6803 & 0.7211 \\
+ReAct & 0.4717 & 0.6667 & 0.7211 \\
+RestGPT-style & 0.5472 & 0.7211 & 0.7596 \\
+MA-NoMem & 0.4528 & 0.6667 & 0.7324 \\
+Trace-RAG & 0.4717 & 0.6190 & 0.6463 \\
+StructMem-RAG & 0.4528 & 0.6122 & 0.6395 \\
+GraphRAG-static & 0.4717 & 0.6190 & 0.6463 \\
+AgentKB-style & 0.3585 & 0.5646 & 0.6259 \\
+\textsc{GEMS} & 0.5283 & 0.6871 & 0.7211 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

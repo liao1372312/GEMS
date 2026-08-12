@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4731",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The user requests recipes related to food, and candidate 10 provides a comprehensive food recipe API suitable for fetching diverse recipes. Other candidates do not directly address recipe fetching or food trend news relevant to the request.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The user requests recipes related to food, and candidate 10 provides a comprehensive food recipe API suitable for fetching diverse recipes. Other candidates do not directly address recipe fetching or food trend news relevant to the request."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1893,
+    "total_tokens": 1956,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 61,
+      "engine_ttft_ms": 851,
+      "engine_ttlt_ms": 4663,
+      "pre_inference_ms": 164,
+      "service_tbt_ms": 61,
+      "service_ttft_ms": 2348,
+      "service_ttlt_ms": 6154,
+      "total_duration_ms": 5998,
+      "user_visible_ttft_ms": 2185
+    }
+  }
+}

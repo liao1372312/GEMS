@@ -1,0 +1,108 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Gather information about the sports matches relevant to the birthday party date\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"party_date\", \"sports_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Generate accurate predictions for the identified sports matches\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"match_details\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Plan the surprise sports-themed birthday party including decorations, invitations, and schedule\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"party_date\", \"guest_list\", \"theme_details\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Integrate the match predictions into the party plan for presentation during the event\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"predictions\", \"party_plan\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Gather information about the sports matches relevant to the birthday party date",
+        "domain": "Technology",
+        "required_inputs": [
+          "party_date",
+          "sports_type"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Generate accurate predictions for the identified sports matches",
+        "domain": "Technology",
+        "required_inputs": [
+          "match_details"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Plan the surprise sports-themed birthday party including decorations, invitations, and schedule",
+        "domain": "Technology",
+        "required_inputs": [
+          "party_date",
+          "guest_list",
+          "theme_details"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Integrate the match predictions into the party plan for presentation during the event",
+        "domain": "Technology",
+        "required_inputs": [
+          "predictions",
+          "party_plan"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Gather information about the sports matches relevant to the birthday party date",
+      "domain": "Technology",
+      "required_inputs": [
+        "party_date",
+        "sports_type"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Generate accurate predictions for the identified sports matches",
+      "domain": "Technology",
+      "required_inputs": [
+        "match_details"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Plan the surprise sports-themed birthday party including decorations, invitations, and schedule",
+      "domain": "Technology",
+      "required_inputs": [
+        "party_date",
+        "guest_list",
+        "theme_details"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Integrate the match predictions into the party plan for presentation during the event",
+      "domain": "Technology",
+      "required_inputs": [
+        "predictions",
+        "party_plan"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 179,
+    "total_tokens": 385,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 110,
+      "engine_ttft_ms": 6537,
+      "engine_ttlt_ms": 29211,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 110,
+      "service_ttft_ms": 8135,
+      "service_ttlt_ms": 30804,
+      "total_duration_ms": 30722,
+      "user_visible_ttft_ms": 8039
+    }
+  }
+}

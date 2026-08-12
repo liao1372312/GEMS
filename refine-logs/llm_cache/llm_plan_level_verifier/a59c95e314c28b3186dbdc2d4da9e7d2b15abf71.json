@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_3009",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Exchange Rate - Latest' directly provides current exchange rates, better matching the step than semantic top-1 which only lists symbols.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Exchange Rate - Convert' specifically supports converting EUR to USD with required parameters, better matching the step than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 1.0\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice 'Exchange Rate - Latest' directly provides current exchange rates, better matching the step than semantic top-1 which only lists symbols."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice 'Exchange Rate - Convert' specifically supports converting EUR to USD with required parameters, better matching the step than semantic top-1."
+      }
+    ],
+    "workflow_confidence": 1.0
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1083,
+    "total_tokens": 1251,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 113,
+      "engine_ttlt_ms": 3203,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 3316,
+      "total_duration_ms": 3259,
+      "user_visible_ttft_ms": 174
+    }
+  }
+}

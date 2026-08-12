@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4306",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user wants news related to India from India Today Unofficial platform and also news about AR and VR. The India Today Unofficial API provides news from India Today platform including various topics, which aligns with the user's request for India news. The AR VR News API is relevant for AR and VR news but does not cover India-specific news. Since the user specifically requested India Today Unofficial for India news, this API is more suitable for the primary intent.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user wants news related to India from India Today Unofficial platform and also news about AR and VR. The India Today Unofficial API provides news from India Today platform including various topics, which aligns with the user's request for India news. The AR VR News API is relevant for AR and VR news but does not cover India-specific news. Since the user specifically requested India Today Unofficial for India news, this API is more suitable for the primary intent."
+  },
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 1636,
+    "total_tokens": 1748,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 120,
+      "engine_ttft_ms": 2244,
+      "engine_ttlt_ms": 15687,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 120,
+      "service_ttft_ms": 3942,
+      "service_ttlt_ms": 17379,
+      "total_duration_ms": 17291,
+      "user_visible_ttft_ms": 3843
+    }
+  }
+}

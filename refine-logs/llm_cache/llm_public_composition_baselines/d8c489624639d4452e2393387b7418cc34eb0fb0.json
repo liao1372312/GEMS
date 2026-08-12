@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1920",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs images of Christ the Redeemer, a tourist attraction. None of the candidates directly provide image search for tourist attractions, but the Addressr API is unrelated, and the others are about books, superheroes, airports, spelling, movies, or city/state details. No candidate matches well, but the Addressr API is unrelated, so no good match. Confidence is low but highest for candidate 1 as no better option.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs images of Christ the Redeemer, a tourist attraction. None of the candidates directly provide image search for tourist attractions, but the Addressr API is unrelated, and the others are about books, superheroes, airports, spelling, movies, or city/state details. No candidate matches well, but the Addressr API is unrelated, so no good match. Confidence is low but highest for candidate 1 as no better option."
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 1475,
+    "total_tokens": 1583,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 1023,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 157,
+      "service_ttlt_ms": 1137,
+      "total_duration_ms": 1050,
+      "user_visible_ttft_ms": 65
+    }
+  }
+}

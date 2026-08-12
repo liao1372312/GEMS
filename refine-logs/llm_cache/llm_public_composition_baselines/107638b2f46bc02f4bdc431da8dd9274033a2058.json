@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5449",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate 1 directly provides company balance sheet data by stock symbol, matching the required inputs and subtask description.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate 1 directly provides company balance sheet data by stock symbol, matching the required inputs and subtask description."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1291,
+    "total_tokens": 1335,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 59,
+      "engine_ttft_ms": 3116,
+      "engine_ttlt_ms": 5722,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 60,
+      "service_ttft_ms": 4614,
+      "service_ttlt_ms": 7215,
+      "total_duration_ms": 7137,
+      "user_visible_ttft_ms": 4518
+    }
+  }
+}

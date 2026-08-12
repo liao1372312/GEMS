@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4757",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Birthday Cake DB API provides a list of cakes with high-quality images, which directly matches the requirement for creative cake options along with their images.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Birthday Cake DB API provides a list of cakes with high-quality images, which directly matches the requirement for creative cake options along with their images."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1717,
+    "total_tokens": 1768,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 370,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 553,
+      "total_duration_ms": 448,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

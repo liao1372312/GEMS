@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate is a URL Content Extractor that can search content based on a query, which is suitable for identifying nearby restaurants based on the activity locations from task 2 results.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate is a URL Content Extractor that can search content based on a query, which is suitable for identifying nearby restaurants based on the activity locations from task 2 results."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1919,
+    "total_tokens": 1978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 570,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 200,
+      "service_ttlt_ms": 693,
+      "total_duration_ms": 603,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

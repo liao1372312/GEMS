@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API is related to philosophers and historical context, which can help provide meaningful love quotes and historical facts. Although it does not directly provide romantic songs, it is the best fit among the candidates for quotes and historical information relevant to the user's request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API is related to philosophers and historical context, which can help provide meaningful love quotes and historical facts. Although it does not directly provide romantic songs, it is the best fit among the candidates for quotes and historical information relevant to the user's request."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1569,
+    "total_tokens": 1642,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1041,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 176,
+      "service_ttlt_ms": 1167,
+      "total_duration_ms": 1096,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

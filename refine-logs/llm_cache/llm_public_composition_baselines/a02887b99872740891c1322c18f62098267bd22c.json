@@ -1,0 +1,27 @@
+{
+  "record_id": "Finance_response_3328",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The Seeking Alpha API provides historical stock prices with parameters for symbol and date range, matching the requirement to fetch Google's stock values on a specific date from NASDAQ.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The Seeking Alpha API provides historical stock prices with parameters for symbol and date range, matching the requirement to fetch Google's stock values on a specific date from NASDAQ."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 2325,
+    "total_tokens": 2379,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 54
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 2326
+    }
+  }
+}

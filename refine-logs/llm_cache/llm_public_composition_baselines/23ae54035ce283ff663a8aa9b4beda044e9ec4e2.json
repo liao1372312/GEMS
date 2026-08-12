@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4611",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user wants to query the stock market for top losers, which requires market_type and time_period inputs; the BB Finance - stock/get-financials API provides comprehensive stock information and is suitable for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user wants to query the stock market for top losers, which requires market_type and time_period inputs; the BB Finance - stock/get-financials API provides comprehensive stock information and is suitable for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1375,
+    "total_tokens": 1440,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 571,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 184,
+      "service_ttlt_ms": 701,
+      "total_duration_ms": 614,
+      "user_visible_ttft_ms": 90
+    }
+  }
+}

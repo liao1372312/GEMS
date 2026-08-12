@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3318",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Airbnb API in the Travel domain can search accommodations by location and place name, which is relevant for finding webcams near famous landmarks. It is the most suitable among the candidates for the tourism-related subtask.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Airbnb API in the Travel domain can search accommodations by location and place name, which is relevant for finding webcams near famous landmarks. It is the most suitable among the candidates for the tourism-related subtask."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1502,
+    "total_tokens": 1565,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 572,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 698,
+      "service_ttlt_ms": 1254,
+      "total_duration_ms": 1174,
+      "user_visible_ttft_ms": 613
+    }
+  }
+}

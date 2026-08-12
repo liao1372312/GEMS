@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5322",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.7, \"rationale\": \"The Stock Sentiment API provides news articles related to a stock ticker, suitable for fetching ESG news about Apple Inc. However, no candidate API directly supports retrieving a company's credit score, so this is the best fit for the ESG news part of the request.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.7,
+    "rationale": "The Stock Sentiment API provides news articles related to a stock ticker, suitable for fetching ESG news about Apple Inc. However, no candidate API directly supports retrieving a company's credit score, so this is the best fit for the ESG news part of the request."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1455,
+    "total_tokens": 1528,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 634,
+      "pre_inference_ms": 135,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 274,
+      "service_ttlt_ms": 859,
+      "total_duration_ms": 734,
+      "user_visible_ttft_ms": 140
+    }
+  }
+}

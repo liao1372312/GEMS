@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_883",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs are related to music or songs. No suitable API is available to fulfill the request for top songs in the pop genre with artist, duration, and genre details.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs are related to music or songs. No suitable API is available to fulfill the request for top songs in the pop genre with artist, duration, and genre details."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1285,
+    "total_tokens": 1344,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 634,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 188,
+      "service_ttlt_ms": 776,
+      "total_duration_ms": 718,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

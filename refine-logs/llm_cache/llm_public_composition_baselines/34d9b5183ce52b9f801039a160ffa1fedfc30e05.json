@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_492",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Skyscanner_v2 - Search Place API is relevant for finding places (landmarks and hotels) and supports searching by location name, which aligns with the need to find restaurants near landmarks and hotels for dining options.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Skyscanner_v2 - Search Place API is relevant for finding places (landmarks and hotels) and supports searching by location name, which aligns with the need to find restaurants near landmarks and hotels for dining options."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1357,
+    "total_tokens": 1423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 311,
+      "user_visible_ttft_ms": 164,
+      "total_duration_ms": 1192,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 16,
+      "service_ttlt_ms": 1329,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 1086,
+      "engine_tbt_ms": 16
+    }
+  }
+}

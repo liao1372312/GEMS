@@ -1,0 +1,68 @@
+{
+  "record_id": "Medical_response_4731",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for Medium stories related to cooking and food\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"keywords: cooking, food\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch competitor news related to the latest food trends\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"topic: latest food trends\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for Medium stories related to cooking and food",
+        "domain": "Medical",
+        "required_inputs": [
+          "keywords: cooking, food"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch competitor news related to the latest food trends",
+        "domain": "Medical",
+        "required_inputs": [
+          "topic: latest food trends"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for Medium stories related to cooking and food",
+      "domain": "Medical",
+      "required_inputs": [
+        "keywords: cooking, food"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch competitor news related to the latest food trends",
+      "domain": "Medical",
+      "required_inputs": [
+        "topic: latest food trends"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 321,
+    "total_tokens": 421,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 1141,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 145,
+      "service_ttlt_ms": 1247,
+      "total_duration_ms": 1167,
+      "user_visible_ttft_ms": 59
+    }
+  }
+}

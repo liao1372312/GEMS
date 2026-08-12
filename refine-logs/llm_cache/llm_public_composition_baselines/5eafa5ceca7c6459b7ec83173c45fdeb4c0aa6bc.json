@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5265",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Fidelity Investments - news/list-top API provides top news and international market information, which aligns with the user's request for the latest news and market trends from Fidelity. It also does not require parameters, making it suitable for initial data retrieval. For the public holidays in the US for 2022, this step is separate and can be handled after fetching the news.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Fidelity Investments - news/list-top API provides top news and international market information, which aligns with the user's request for the latest news and market trends from Fidelity. It also does not require parameters, making it suitable for initial data retrieval. For the public holidays in the US for 2022, this step is separate and can be handled after fetching the news."
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 1514,
+    "total_tokens": 1608,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1495,
+      "pre_inference_ms": 186,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 343,
+      "service_ttlt_ms": 1746,
+      "total_duration_ms": 1570,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

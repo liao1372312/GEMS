@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_897",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.8, \"rationale\": \"The user wants updated document types and recently modified companies; the Get Companies By SIC Code API can provide company information, which is relevant to the request. However, no direct document management API is available, so this is the closest match for company data. The lyrics request is unrelated and no lyrics API is present.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.8,
+    "rationale": "The user wants updated document types and recently modified companies; the Get Companies By SIC Code API can provide company information, which is relevant to the request. However, no direct document management API is available, so this is the closest match for company data. The lyrics request is unrelated and no lyrics API is present."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1618,
+    "total_tokens": 1702,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1371,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1556,
+      "total_duration_ms": 1439,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

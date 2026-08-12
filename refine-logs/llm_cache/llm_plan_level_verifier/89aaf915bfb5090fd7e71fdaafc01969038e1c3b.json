@@ -1,0 +1,55 @@
+{
+  "record_id": "Medical_response_79",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated but LLM choice (ExerciseDB equipment list) is also unrelated to healthcare professionals; keep semantic top-1 as no better option.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 and is appropriate for collecting nutritional data.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 and is appropriate for analyzing nutritional data and suggesting alternatives.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (URL Content Extractor) is more appropriate than semantic top-1 (Target product details) for obtaining vaccination guidelines.\"\n    }\n  ],\n  \"workflow_confidence\": 0.85\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated but LLM choice (ExerciseDB equipment list) is also unrelated to healthcare professionals; keep semantic top-1 as no better option."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 and is appropriate for collecting nutritional data."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 and is appropriate for analyzing nutritional data and suggesting alternatives."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice (URL Content Extractor) is more appropriate than semantic top-1 (Target product details) for obtaining vaccination guidelines."
+      }
+    ],
+    "workflow_confidence": 0.85
+  },
+  "usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 2432,
+    "total_tokens": 2650,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 2436,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 150,
+      "service_ttlt_ms": 2555,
+      "total_duration_ms": 2473,
+      "user_visible_ttft_ms": 65
+    }
+  }
+}

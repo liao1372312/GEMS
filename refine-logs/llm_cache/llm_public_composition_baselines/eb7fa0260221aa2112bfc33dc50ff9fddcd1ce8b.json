@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2300",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requests VAT number validation for Slovakia, which is best handled by the TIN Check - TIN Lookup API ranked 1. The cashback offers for hotels in Los Angeles are not directly supported by any listed API, so prioritizing the VAT validation first is appropriate.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requests VAT number validation for Slovakia, which is best handled by the TIN Check - TIN Lookup API ranked 1. The cashback offers for hotels in Los Angeles are not directly supported by any listed API, so prioritizing the VAT validation first is appropriate."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1783,
+    "total_tokens": 1859,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1107,
+      "pre_inference_ms": 149,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 316,
+      "service_ttlt_ms": 1366,
+      "total_duration_ms": 1224,
+      "user_visible_ttft_ms": 167
+    }
+  }
+}

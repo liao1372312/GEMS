@@ -1,0 +1,55 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for foods relevant to the dinner party by querying nutritional information databases with broad keywords related to typical dinner foods.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"query\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for foods relevant to the dinner party by querying nutritional information databases with broad keywords related to typical dinner foods.",
+        "domain": "Food",
+        "required_inputs": [
+          "query"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for foods relevant to the dinner party by querying nutritional information databases with broad keywords related to typical dinner foods.",
+      "domain": "Food",
+      "required_inputs": [
+        "query"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 2491,
+    "total_tokens": 2554,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 762,
+      "pre_inference_ms": 176,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 330,
+      "service_ttlt_ms": 1009,
+      "total_duration_ms": 846,
+      "user_visible_ttft_ms": 154
+    }
+  },
+  "goal_hints": [
+    "I want to plan a dinner party by finding nutritional information for various foods."
+  ]
+}

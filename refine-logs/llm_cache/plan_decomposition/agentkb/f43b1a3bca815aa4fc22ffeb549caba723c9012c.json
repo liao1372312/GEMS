@@ -1,0 +1,68 @@
+{
+  "record_id": "Tourism_response_5275",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find venues or services that offer wine tasting events with cheese pairings\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for brewery tours available in New York\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find venues or services that offer wine tasting events with cheese pairings",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for brewery tours available in New York",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find venues or services that offer wine tasting events with cheese pairings",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for brewery tours available in New York",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 295,
+    "total_tokens": 392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 128,
+      "engine_ttlt_ms": 2356,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 236,
+      "service_ttlt_ms": 2459,
+      "total_duration_ms": 2390,
+      "user_visible_ttft_ms": 160
+    }
+  }
+}

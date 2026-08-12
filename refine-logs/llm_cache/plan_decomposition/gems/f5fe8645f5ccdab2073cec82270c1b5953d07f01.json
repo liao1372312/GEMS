@@ -1,0 +1,90 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch playlist information for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"playlist name\", \"Soundcloud API credentials\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for the track 'Shape of You' using the Shazam API to identify the artist\",\n      \"domain\": \"Media\",\n      \"required_inputs\": [\"track\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the latest release of the artist related to the song 'Shape of You' using the Shazam API\",\n      \"domain\": \"Music\",\n      \"required_inputs\": [\"artist id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch playlist information for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API",
+        "domain": "technology",
+        "required_inputs": [
+          "playlist name",
+          "Soundcloud API credentials"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for the track 'Shape of You' using the Shazam API to identify the artist",
+        "domain": "Media",
+        "required_inputs": [
+          "track"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get the latest release of the artist related to the song 'Shape of You' using the Shazam API",
+        "domain": "Music",
+        "required_inputs": [
+          "artist id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch playlist information for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API",
+      "domain": "technology",
+      "required_inputs": [
+        "playlist name",
+        "Soundcloud API credentials"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for the track 'Shape of You' using the Shazam API to identify the artist",
+      "domain": "Media",
+      "required_inputs": [
+        "track"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get the latest release of the artist related to the song 'Shape of You' using the Shazam API",
+      "domain": "Music",
+      "required_inputs": [
+        "artist id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 2182,
+    "total_tokens": 2353,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1736,
+      "pre_inference_ms": 370,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 598,
+      "service_ttlt_ms": 2413,
+      "total_duration_ms": 2080,
+      "user_visible_ttft_ms": 228
+    }
+  },
+  "goal_hints": [
+    "I'm a music enthusiast planning a road trip with my friends. Could you fetch the playlist info for the Soundcloud playlist 'Almost Lover' using the Soundcloud API",
+    "provide me with the latest release of an artist related to the song 'Shape of You' using the Shazam API"
+  ]
+}

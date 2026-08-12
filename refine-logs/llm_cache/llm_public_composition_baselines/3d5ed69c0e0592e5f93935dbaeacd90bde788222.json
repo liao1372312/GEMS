@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1006",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Shazam - Search Track API is suitable for querying singles by the identified artist, which aligns with the user's request to get singles and albums for the playlist.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Shazam - Search Track API is suitable for querying singles by the identified artist, which aligns with the user's request to get singles and albums for the playlist."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1591,
+    "total_tokens": 1645,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 765,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 916,
+      "total_duration_ms": 806,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

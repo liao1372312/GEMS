@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_239",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide nutritional analysis or are related to food or nutrition. The available APIs are mostly related to YouTube classification, crime data, gaming, or professional services, which do not satisfy the subtask of analyzing nutritional information for specific ingredients.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide nutritional analysis or are related to food or nutrition. The available APIs are mostly related to YouTube classification, crime data, gaming, or professional services, which do not satisfy the subtask of analyzing nutritional information for specific ingredients."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1828,
+    "total_tokens": 1901,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 266,
+      "user_visible_ttft_ms": 150,
+      "total_duration_ms": 1198,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 14,
+      "service_ttlt_ms": 1302,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 1115,
+      "engine_tbt_ms": 14
+    }
+  }
+}

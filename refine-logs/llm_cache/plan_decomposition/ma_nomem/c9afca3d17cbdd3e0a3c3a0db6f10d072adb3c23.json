@@ -1,0 +1,80 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Plan the route and itinerary for the road trip across the country\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"starting location\", \"destination locations\", \"trip duration\", \"preferred stops\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Estimate and manage the expenses related to the road trip\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"estimated travel costs\", \"accommodation costs\", \"food and miscellaneous expenses\", \"budget limits\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Plan the route and itinerary for the road trip across the country",
+        "domain": "Travel",
+        "required_inputs": [
+          "starting location",
+          "destination locations",
+          "trip duration",
+          "preferred stops"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Estimate and manage the expenses related to the road trip",
+        "domain": "Finance",
+        "required_inputs": [
+          "estimated travel costs",
+          "accommodation costs",
+          "food and miscellaneous expenses",
+          "budget limits"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Plan the route and itinerary for the road trip across the country",
+      "domain": "Travel",
+      "required_inputs": [
+        "starting location",
+        "destination locations",
+        "trip duration",
+        "preferred stops"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Estimate and manage the expenses related to the road trip",
+      "domain": "Finance",
+      "required_inputs": [
+        "estimated travel costs",
+        "accommodation costs",
+        "food and miscellaneous expenses",
+        "budget limits"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 171,
+    "total_tokens": 297,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 1332,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 1536,
+      "total_duration_ms": 1429,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs a list of healthcare professionals for targeted mailing, which requires specific parameters like geographical area and specialization. Among the candidates, none directly provide healthcare professional contact lists, but B2BHint APIs (rank 1 and 9) offer company and people data that might be leveraged for business contacts. However, the provided B2BHint API requires company name or email, not specialization or geographical area. Since no API matches the exact need, the best fit is B2BHint - Search company by Name (rank 9) as it allows searching companies by parameters and might be used to find healthcare companies or professionals indirectly. The nutritional analysis request is unrelated to the provided APIs, so it cannot be fulfilled here.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs a list of healthcare professionals for targeted mailing, which requires specific parameters like geographical area and specialization. Among the candidates, none directly provide healthcare professional contact lists, but B2BHint APIs (rank 1 and 9) offer company and people data that might be leveraged for business contacts. However, the provided B2BHint API requires company name or email, not specialization or geographical area. Since no API matches the exact need, the best fit is B2BHint - Search company by Name (rank 9) as it allows searching companies by parameters and might be used to find healthcare companies or professionals indirectly. The nutritional analysis request is unrelated to the provided APIs, so it cannot be fulfilled here."
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1660,
+    "total_tokens": 1827,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 2450,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 2644,
+      "total_duration_ms": 2541,
+      "user_visible_ttft_ms": 136
+    }
+  }
+}

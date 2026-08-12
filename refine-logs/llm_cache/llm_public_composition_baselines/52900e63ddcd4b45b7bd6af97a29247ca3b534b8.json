@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3357",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The user needs historical exchange rate data for USD to EUR for the past week, and the 'Currency Conversion and Exchange Rates - Time-Series Endpoint' API specifically supports retrieving historical rates between two specified dates, making it the most suitable choice.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The user needs historical exchange rate data for USD to EUR for the past week, and the 'Currency Conversion and Exchange Rates - Time-Series Endpoint' API specifically supports retrieving historical rates between two specified dates, making it the most suitable choice."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1445,
+    "total_tokens": 1514,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 201,
+      "user_visible_ttft_ms": 93,
+      "total_duration_ms": 603,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 7,
+      "service_ttlt_ms": 688,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 527,
+      "engine_tbt_ms": 7
+    }
+  }
+}

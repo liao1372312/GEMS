@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_3844",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API provides both roster and schedule for the year 2008, matching the step intent; LLM choice requires an extra parameter and is less straightforward.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API returns both roster and schedule for the year 2008, directly matching the step intent; LLM choice requires an extra parameter and is less straightforward.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is a news API suitable for fetching latest Formula 1 news from multiple sources; semantic top-1 is unrelated to news.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API provides both roster and schedule for the year 2008, matching the step intent; LLM choice requires an extra parameter and is less straightforward."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API returns both roster and schedule for the year 2008, directly matching the step intent; LLM choice requires an extra parameter and is less straightforward."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice is a news API suitable for fetching latest Formula 1 news from multiple sources; semantic top-1 is unrelated to news."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 1572,
+    "total_tokens": 1766,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 2314,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 2495,
+      "total_duration_ms": 2391,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

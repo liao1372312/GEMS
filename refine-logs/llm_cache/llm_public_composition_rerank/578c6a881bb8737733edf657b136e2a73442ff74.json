@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2860",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"Wyre Data - Search restaurants by town directly searches for restaurants within a specified town, which fits the subtask of finding nearby restaurants in Los Angeles. It requires a town parameter that can be bound to 'Los Angeles', making it suitable and specific for the task.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "Wyre Data - Search restaurants by town directly searches for restaurants within a specified town, which fits the subtask of finding nearby restaurants in Los Angeles. It requires a town parameter that can be bound to 'Los Angeles', making it suitable and specific for the task."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1719,
+    "total_tokens": 1794,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1207,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 236,
+      "service_ttlt_ms": 1393,
+      "total_duration_ms": 1282,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

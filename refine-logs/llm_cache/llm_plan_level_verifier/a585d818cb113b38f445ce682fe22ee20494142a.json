@@ -1,0 +1,65 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides detailed recent performance stats for specific teams, matching the need for insights into teams' performance more specifically than broad live scores.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is for ice hockey match schedules, which is unrelated to player statistics; LLM choice is for handball player stats but unrelated to today's teams or date; neither fits well, but semantic top-1 is closer to relevant sports data.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice equals semantic top-1; keep semantic top-1 as it is the best available for historical data.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice specifically provides accurate predictions for today's sports events, directly matching the subtask intent better than live scores API.\"\n    },\n    {\n      \"step_id\": 5,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice equals semantic top-1; keep semantic top-1 as it directly provides upcoming match schedules for teams.\"\n    },\n    {\n      \"step_id\": 6,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides specific predictions for upcoming matches using match IDs, aligning well with the subtask intent, better than unrelated content extractor API.\"\n    }\n  ],\n  \"workflow_confidence\": 0.85\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice provides detailed recent performance stats for specific teams, matching the need for insights into teams' performance more specifically than broad live scores."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is for ice hockey match schedules, which is unrelated to player statistics; LLM choice is for handball player stats but unrelated to today's teams or date; neither fits well, but semantic top-1 is closer to relevant sports data."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice equals semantic top-1; keep semantic top-1 as it is the best available for historical data."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice specifically provides accurate predictions for today's sports events, directly matching the subtask intent better than live scores API."
+      },
+      {
+        "step_id": 5,
+        "accept_llm": false,
+        "reason": "LLM choice equals semantic top-1; keep semantic top-1 as it directly provides upcoming match schedules for teams."
+      },
+      {
+        "step_id": 6,
+        "accept_llm": true,
+        "reason": "LLM choice provides specific predictions for upcoming matches using match IDs, aligning well with the subtask intent, better than unrelated content extractor API."
+      }
+    ],
+    "workflow_confidence": 0.85
+  },
+  "usage": {
+    "completion_tokens": 352,
+    "prompt_tokens": 2772,
+    "total_tokens": 3124,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 187,
+      "engine_ttlt_ms": 4999,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 532,
+      "service_ttlt_ms": 5338,
+      "total_duration_ms": 5257,
+      "user_visible_ttft_ms": 440
+    }
+  }
+}

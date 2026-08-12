@@ -1,0 +1,106 @@
+{
+  "record_id": "Medical_response_2571",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for unique recipes on ComfyFood that include chocolate as an ingredient\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"ingredient: chocolate\", \"uniqueness filter\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for unique recipes on ComfyFood that include fruits as an ingredient\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"ingredient: fruits\", \"uniqueness filter\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Combine and filter the recipes from previous steps to find those that include both chocolate and fruits\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"recipes with chocolate\", \"recipes with fruits\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Retrieve cooking times for the filtered unique recipes that include both chocolate and fruits\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"filtered recipes\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for unique recipes on ComfyFood that include chocolate as an ingredient",
+        "domain": "Medical",
+        "required_inputs": [
+          "ingredient: chocolate",
+          "uniqueness filter"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for unique recipes on ComfyFood that include fruits as an ingredient",
+        "domain": "Medical",
+        "required_inputs": [
+          "ingredient: fruits",
+          "uniqueness filter"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Combine and filter the recipes from previous steps to find those that include both chocolate and fruits",
+        "domain": "Medical",
+        "required_inputs": [
+          "recipes with chocolate",
+          "recipes with fruits"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Retrieve cooking times for the filtered unique recipes that include both chocolate and fruits",
+        "domain": "Medical",
+        "required_inputs": [
+          "filtered recipes"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for unique recipes on ComfyFood that include chocolate as an ingredient",
+      "domain": "Medical",
+      "required_inputs": [
+        "ingredient: chocolate",
+        "uniqueness filter"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for unique recipes on ComfyFood that include fruits as an ingredient",
+      "domain": "Medical",
+      "required_inputs": [
+        "ingredient: fruits",
+        "uniqueness filter"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Combine and filter the recipes from previous steps to find those that include both chocolate and fruits",
+      "domain": "Medical",
+      "required_inputs": [
+        "recipes with chocolate",
+        "recipes with fruits"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Retrieve cooking times for the filtered unique recipes that include both chocolate and fruits",
+      "domain": "Medical",
+      "required_inputs": [
+        "filtered recipes"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 190,
+    "total_tokens": 411,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 28,
+      "engine_ttlt_ms": 2177,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 312,
+      "service_ttlt_ms": 2458,
+      "total_duration_ms": 2355,
+      "user_visible_ttft_ms": 200
+    }
+  }
+}

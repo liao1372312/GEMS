@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1094",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"Candidate 2 directly provides the realtime spot price of Bitcoin, matching the subtask requirement precisely.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "Candidate 2 directly provides the realtime spot price of Bitcoin, matching the subtask requirement precisely."
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 1243,
+    "total_tokens": 1284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 853,
+      "pre_inference_ms": 151,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 1083,
+      "total_duration_ms": 940,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

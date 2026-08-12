@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_761",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"This API directly supports currency conversion from USD to EUR with amount input, matching the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "This API directly supports currency conversion from USD to EUR with amount input, matching the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 1401,
+    "total_tokens": 1443,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 730,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 314,
+      "service_ttlt_ms": 961,
+      "total_duration_ms": 829,
+      "user_visible_ttft_ms": 173
+    }
+  }
+}

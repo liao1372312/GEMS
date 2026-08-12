@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2757",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Canadian Gas Prices - City Prediction API is related to transportation and provides city-level data, which is more relevant to checking live traffic or route conditions compared to other sports or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Canadian Gas Prices - City Prediction API is related to transportation and provides city-level data, which is more relevant to checking live traffic or route conditions compared to other sports or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1819,
+    "total_tokens": 1878,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 489,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 205,
+      "service_ttlt_ms": 655,
+      "total_duration_ms": 513,
+      "user_visible_ttft_ms": 58
+    }
+  }
+}

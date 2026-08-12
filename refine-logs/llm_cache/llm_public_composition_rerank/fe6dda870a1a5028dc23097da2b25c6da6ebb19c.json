@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_551",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The Climate News Feed API provides climate change news from trusted sources, which is relevant to the user's request. It is the only API related to climate news and likely to have source information needed for bias ratings. Other APIs are unrelated to news or bias ratings.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Climate News Feed API provides climate change news from trusted sources, which is relevant to the user's request. It is the only API related to climate news and likely to have source information needed for bias ratings. Other APIs are unrelated to news or bias ratings."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 2458,
+    "total_tokens": 2526,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 34,
+      "engine_ttft_ms": 131,
+      "engine_ttlt_ms": 2433,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 2557,
+      "total_duration_ms": 2470,
+      "user_visible_ttft_ms": 163
+    }
+  }
+}

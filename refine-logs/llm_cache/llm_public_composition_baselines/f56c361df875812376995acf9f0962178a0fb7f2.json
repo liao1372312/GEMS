@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5297",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 1.0, \"rationale\": \"The 'manatee jokes - find all' API directly provides all manatee jokes needed for the collection step, matching the request perfectly.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "The 'manatee jokes - find all' API directly provides all manatee jokes needed for the collection step, matching the request perfectly."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1098,
+    "total_tokens": 1147,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 567,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 336,
+      "service_ttlt_ms": 859,
+      "total_duration_ms": 752,
+      "user_visible_ttft_ms": 218
+    }
+  }
+}

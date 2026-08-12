@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5215",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Basic Amazon Scraper API directly supports searching for product offers with details such as price and can be used to check shipping availability to France, matching the subtask intent precisely in the eCommerce domain.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Basic Amazon Scraper API directly supports searching for product offers with details such as price and can be used to check shipping availability to France, matching the subtask intent precisely in the eCommerce domain."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 2122,
+    "total_tokens": 2184,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 736,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 241,
+      "service_ttlt_ms": 925,
+      "total_duration_ms": 822,
+      "user_visible_ttft_ms": 130
+    }
+  }
+}

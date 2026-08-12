@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_3827",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to the task of finding tropical destinations; LLM choice is relevant but requires city names as input, which are not available at this step. No better API provided to compile tropical destinations.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 and is appropriate for retrieving geolocation details by city name, fitting the step requirements.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 and is appropriate for retrieving timezone information by city name, fitting the step requirements.\"}],\"workflow_confidence\":0.8}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to the task of finding tropical destinations; LLM choice is relevant but requires city names as input, which are not available at this step. No better API provided to compile tropical destinations."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 and is appropriate for retrieving geolocation details by city name, fitting the step requirements."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 and is appropriate for retrieving timezone information by city name, fitting the step requirements."
+      }
+    ],
+    "workflow_confidence": 0.8
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1735,
+    "total_tokens": 1885,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 2273,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 2369,
+      "total_duration_ms": 2301,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

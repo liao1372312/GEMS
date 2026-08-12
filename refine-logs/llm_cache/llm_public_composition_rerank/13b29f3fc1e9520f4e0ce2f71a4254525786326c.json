@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4666",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The first API is specifically designed to get detailed information about recipes, including the exact recipe slug provided in the subtask, making it the best fit for retrieving detailed information about the specified recipe.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The first API is specifically designed to get detailed information about recipes, including the exact recipe slug provided in the subtask, making it the best fit for retrieving detailed information about the specified recipe."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1791,
+    "total_tokens": 1851,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 85,
+      "engine_ttlt_ms": 1301,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 1414,
+      "total_duration_ms": 1325,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

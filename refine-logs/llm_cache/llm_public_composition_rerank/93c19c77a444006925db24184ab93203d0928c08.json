@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1860",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are relevant or suitable for combining appetizer recipes and burger descriptions into a comprehensive menu. The available APIs focus on search, video classification, gaming, sports, or content extraction unrelated to menu creation or recipe combination.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are relevant or suitable for combining appetizer recipes and burger descriptions into a comprehensive menu. The available APIs focus on search, video classification, gaming, sports, or content extraction unrelated to menu creation or recipe combination."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1818,
+    "total_tokens": 1886,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 273,
+      "user_visible_ttft_ms": 151,
+      "total_duration_ms": 1155,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 15,
+      "service_ttlt_ms": 1247,
+      "engine_ttft_ms": 90,
+      "engine_ttlt_ms": 1028,
+      "engine_tbt_ms": 14
+    }
+  }
+}

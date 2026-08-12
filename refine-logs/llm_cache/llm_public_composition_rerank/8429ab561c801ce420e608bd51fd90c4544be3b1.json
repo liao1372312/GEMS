@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3807",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask requires retrieving detailed ingredients and preparation instructions for selected recipes by recipe_id. Among the candidates, only the Recipe Finder - dinner/ingredient API is relevant to main course dinner recipes and provides ingredients and instructions. Although it requires an ingredient parameter, it is the closest match to the subtask intent and domain. Other APIs are for different meal types or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask requires retrieving detailed ingredients and preparation instructions for selected recipes by recipe_id. Among the candidates, only the Recipe Finder - dinner/ingredient API is relevant to main course dinner recipes and provides ingredients and instructions. Although it requires an ingredient parameter, it is the closest match to the subtask intent and domain. Other APIs are for different meal types or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 2225,
+    "total_tokens": 2321,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 948,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 197,
+      "service_ttlt_ms": 1065,
+      "total_duration_ms": 981,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

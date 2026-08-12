@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_323",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The subtask is to research and list popular locations in London for team-building exercises. The Google Search 2 - Google Maps Data ID API can provide detailed location data for specific queries, making it suitable to find popular team-building locations in London. It directly satisfies the subtask intent and can be queried with relevant location keywords. Other APIs are unrelated or do not provide location data.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The subtask is to research and list popular locations in London for team-building exercises. The Google Search 2 - Google Maps Data ID API can provide detailed location data for specific queries, making it suitable to find popular team-building locations in London. It directly satisfies the subtask intent and can be queried with relevant location keywords. Other APIs are unrelated or do not provide location data."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 2088,
+    "total_tokens": 2186,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1044,
+      "pre_inference_ms": 182,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 350,
+      "service_ttlt_ms": 1296,
+      "total_duration_ms": 1127,
+      "user_visible_ttft_ms": 169
+    }
+  }
+}

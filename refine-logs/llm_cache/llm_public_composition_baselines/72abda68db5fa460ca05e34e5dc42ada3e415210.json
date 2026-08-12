@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2964",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request's current subtask is to find and compile information about local hotels for accommodation during the trip, which requires location and date inputs. Among the candidates, the City and State Search API - Country Details is the most relevant for obtaining location-related information that can support hotel searches. Other APIs are more focused on social media, music, or crime data, which are not directly related to hotel accommodation information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request's current subtask is to find and compile information about local hotels for accommodation during the trip, which requires location and date inputs. Among the candidates, the City and State Search API - Country Details is the most relevant for obtaining location-related information that can support hotel searches. Other APIs are more focused on social media, music, or crime data, which are not directly related to hotel accommodation information."
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 1755,
+    "total_tokens": 1859,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 988,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 1169,
+      "total_duration_ms": 1068,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

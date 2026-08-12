@@ -1,0 +1,50 @@
+{
+  "record_id": "Medical_response_1546",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice directly fetches exercises by target muscle, matching the need for upper body exercises with minimal equipment, more specific and relevant than semantic top-1 which only lists equipment.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice provides current air quality data for a specified city, directly matching the subtask, whereas semantic top-1 is unrelated entertainment API.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice provides current temperature data along with air quality for the specified city, directly matching the subtask, semantic top-1 is unrelated entertainment API.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice directly fetches exercises by target muscle, matching the need for upper body exercises with minimal equipment, more specific and relevant than semantic top-1 which only lists equipment."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice provides current air quality data for a specified city, directly matching the subtask, whereas semantic top-1 is unrelated entertainment API."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice provides current temperature data along with air quality for the specified city, directly matching the subtask, semantic top-1 is unrelated entertainment API."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 1447,
+    "total_tokens": 1600,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1878,
+      "pre_inference_ms": 329,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 572,
+      "service_ttlt_ms": 2331,
+      "total_duration_ms": 2013,
+      "user_visible_ttft_ms": 244
+    }
+  }
+}

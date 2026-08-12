@@ -1,0 +1,27 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 1.0, \"rationale\": \"The subtask is to fetch influencer posts related to Bitcoin. Candidate rank 4 provides an endpoint to retrieve predictive social media spikes by coin name, including posts related to Bitcoin, which matches the subtask perfectly.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "The subtask is to fetch influencer posts related to Bitcoin. Candidate rank 4 provides an endpoint to retrieve predictive social media spikes by coin name, including posts related to Bitcoin, which matches the subtask perfectly."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 3620,
+    "total_tokens": 3684,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 64
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 3634
+    }
+  }
+}

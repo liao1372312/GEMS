@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_897",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requested lyrics for the song 'Bad' by Michael Jackson, which is best handled by the Shazam API for track search. Other requests about document types and companies require results from a previous subtask, which are not available now, so the best immediate action is to fulfill the music lyrics request.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requested lyrics for the song 'Bad' by Michael Jackson, which is best handled by the Shazam API for track search. Other requests about document types and companies require results from a previous subtask, which are not available now, so the best immediate action is to fulfill the music lyrics request."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1943,
+    "total_tokens": 2026,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 1025,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 386,
+      "service_ttlt_ms": 1348,
+      "total_duration_ms": 1249,
+      "user_visible_ttft_ms": 279
+    }
+  }
+}

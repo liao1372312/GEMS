@@ -1,0 +1,531 @@
+{
+  "paper_ready": true,
+  "selection_split": "val",
+  "best_config": {
+    "name": "ps3_m0.01_dc0.9_rc0.9_robust",
+    "plan_steps_max": 3,
+    "margin_max": 0.01,
+    "direct_conf_min": 0.9,
+    "rest_conf_min": 0.9,
+    "fallback": "robust"
+  },
+  "val": {
+    "api_acc": 0.7466887417218543,
+    "workflow_exact": 0.5142857142857142,
+    "para_f1": 0.825551876379691,
+    "change_rate": 0.31456953642384106,
+    "steps": 604,
+    "workflows": 210
+  },
+  "test": {
+    "api_acc": 0.6645264847512039,
+    "workflow_exact": 0.3886255924170616,
+    "para_f1": 0.7406634563937935,
+    "change_rate": 0.45585874799357945,
+    "steps": 623,
+    "workflows": 211
+  },
+  "top_20": [
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.9_rc0.9_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 0.9,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.9_rc0.95_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 0.95,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.9_rc0.99_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 0.99,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.9_rc1.01_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 1.01,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.95_rc0.9_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.95,
+        "rest_conf_min": 0.9,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.95_rc0.95_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.95,
+        "rest_conf_min": 0.95,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.95_rc0.99_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.95,
+        "rest_conf_min": 0.99,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.95_rc1.01_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.95,
+        "rest_conf_min": 1.01,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.99_rc0.9_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.99,
+        "rest_conf_min": 0.9,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.99_rc0.95_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.99,
+        "rest_conf_min": 0.95,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.99_rc0.99_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.99,
+        "rest_conf_min": 0.99,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc0.99_rc1.01_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 0.99,
+        "rest_conf_min": 1.01,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc1.01_rc0.9_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 1.01,
+        "rest_conf_min": 0.9,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc1.01_rc0.95_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 1.01,
+        "rest_conf_min": 0.95,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc1.01_rc0.99_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 1.01,
+        "rest_conf_min": 0.99,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.01_dc1.01_rc1.01_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.01,
+        "direct_conf_min": 1.01,
+        "rest_conf_min": 1.01,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7466887417218543,
+        "workflow_exact": 0.5142857142857142,
+        "para_f1": 0.825551876379691,
+        "change_rate": 0.31456953642384106,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6936965468306528,
+        0.5142857142857142,
+        0.7466887417218543,
+        0.825551876379691,
+        -0.31456953642384106
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.005_dc0.9_rc0.9_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.005,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 0.9,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7433774834437086,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.8181015452538631,
+        "change_rate": 0.35927152317880795,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6885261747082939,
+        0.5095238095238095,
+        0.7433774834437086,
+        0.8181015452538631,
+        -0.35927152317880795
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.005_dc0.9_rc0.95_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.005,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 0.95,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7433774834437086,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.8181015452538631,
+        "change_rate": 0.35927152317880795,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6885261747082939,
+        0.5095238095238095,
+        0.7433774834437086,
+        0.8181015452538631,
+        -0.35927152317880795
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.005_dc0.9_rc0.99_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.005,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 0.99,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7433774834437086,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.8181015452538631,
+        "change_rate": 0.35927152317880795,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6885261747082939,
+        0.5095238095238095,
+        0.7433774834437086,
+        0.8181015452538631,
+        -0.35927152317880795
+      ]
+    },
+    {
+      "config": {
+        "name": "ps3_m0.005_dc0.9_rc1.01_robust",
+        "plan_steps_max": 3,
+        "margin_max": 0.005,
+        "direct_conf_min": 0.9,
+        "rest_conf_min": 1.01,
+        "fallback": "robust"
+      },
+      "metrics": {
+        "api_acc": 0.7433774834437086,
+        "workflow_exact": 0.5095238095238095,
+        "para_f1": 0.8181015452538631,
+        "change_rate": 0.35927152317880795,
+        "steps": 604,
+        "workflows": 210
+      },
+      "objective": [
+        0.6885261747082939,
+        0.5095238095238095,
+        0.7433774834437086,
+        0.8181015452538631,
+        -0.35927152317880795
+      ]
+    }
+  ],
+  "available_rerank_predictions": 1227
+}

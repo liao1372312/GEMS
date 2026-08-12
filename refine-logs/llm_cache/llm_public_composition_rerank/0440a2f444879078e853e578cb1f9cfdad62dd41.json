@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_131",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Country Location API provides location data and can likely return geocoordinates for the Statue of Liberty by place name, matching the subtask intent and required input.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Country Location API provides location data and can likely return geocoordinates for the Statue of Liberty by place name, matching the subtask intent and required input."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1958,
+    "total_tokens": 2012,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 969,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 174,
+      "service_ttlt_ms": 1063,
+      "total_duration_ms": 993,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

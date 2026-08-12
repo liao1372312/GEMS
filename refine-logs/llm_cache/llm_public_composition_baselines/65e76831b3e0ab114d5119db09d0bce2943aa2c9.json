@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2925",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs to get the content of a specific message for LINE Messaging invitations, which aligns best with the Wavecell SMS API that deals with SMS messages and their statuses, relevant to sending SMS invitations.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs to get the content of a specific message for LINE Messaging invitations, which aligns best with the Wavecell SMS API that deals with SMS messages and their statuses, relevant to sending SMS invitations."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1786,
+    "total_tokens": 1848,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 564,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 341,
+      "service_ttlt_ms": 839,
+      "total_duration_ms": 740,
+      "user_visible_ttft_ms": 233
+    }
+  }
+}

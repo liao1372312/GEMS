@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2173",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Mexican Food DB API provides detailed food information which is relevant for collecting nutritional information for the food served at the conference. It is specific to food data, unlike generic or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The Mexican Food DB API provides detailed food information which is relevant for collecting nutritional information for the food served at the conference. It is specific to food data, unlike generic or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1959,
+    "total_tokens": 2018,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 667,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 843,
+      "total_duration_ms": 748,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

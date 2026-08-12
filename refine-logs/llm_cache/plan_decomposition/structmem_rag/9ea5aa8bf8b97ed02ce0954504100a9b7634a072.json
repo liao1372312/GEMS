@@ -1,0 +1,70 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available on Admiralbet, including the teams participating and match timings.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"platform_name\", \"sport_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"match_ids\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available on Admiralbet, including the teams participating and match timings.",
+        "domain": "Finance",
+        "required_inputs": [
+          "platform_name",
+          "sport_type"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+        "domain": "Finance",
+        "required_inputs": [
+          "match_ids"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest basketball matches available on Admiralbet, including the teams participating and match timings.",
+      "domain": "Finance",
+      "required_inputs": [
+        "platform_name",
+        "sport_type"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+      "domain": "Finance",
+      "required_inputs": [
+        "match_ids"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 699,
+    "total_tokens": 810,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1093,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 238,
+      "service_ttlt_ms": 1283,
+      "total_duration_ms": 1185,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

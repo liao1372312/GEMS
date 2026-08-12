@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3878",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The Edamam Nutrition Analysis API directly supports analyzing nutritional data of cooked brown rice with required inputs and is the best fit for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The Edamam Nutrition Analysis API directly supports analyzing nutritional data of cooked brown rice with required inputs and is the best fit for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1224,
+    "total_tokens": 1274,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 322,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 432,
+      "service_ttlt_ms": 710,
+      "total_duration_ms": 605,
+      "user_visible_ttft_ms": 318
+    }
+  }
+}

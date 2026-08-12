@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1565",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API specifically returns financial data related to Apple Inc. and requires the stock symbol, matching the subtask to fetch latest stock prices for Apple.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API specifically returns financial data related to Apple Inc. and requires the stock symbol, matching the subtask to fetch latest stock prices for Apple."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1311,
+    "total_tokens": 1364,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 699,
+      "pre_inference_ms": 668,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 760,
+      "service_ttlt_ms": 1422,
+      "total_duration_ms": 766,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

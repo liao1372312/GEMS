@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_569",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate rank 1 is the highest-ranked finance-related API, but it lacks required parameters for market_type and date_range needed to retrieve average ETF prices. However, none of the other candidates provide ETF price data or accept the required inputs. Thus, candidate 1 is the best available option despite missing parameters.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate rank 1 is the highest-ranked finance-related API, but it lacks required parameters for market_type and date_range needed to retrieve average ETF prices. However, none of the other candidates provide ETF price data or accept the required inputs. Thus, candidate 1 is the best available option despite missing parameters."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1623,
+    "total_tokens": 1706,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1135,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 152,
+      "service_ttlt_ms": 1242,
+      "total_duration_ms": 1164,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_400",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask is to fetch unpaid wish products showcasing the latest deals and offers. Among the candidates, only the 'Latest Laptop Deals' API directly provides the latest deals on products, which aligns with the subtask intent. Although it is specific to laptops, it is the closest match to fetching latest deals. Other APIs are unrelated to product deals or are generic content or news APIs. No API explicitly mentions unpaid wish products, so this is the best available choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to fetch unpaid wish products showcasing the latest deals and offers. Among the candidates, only the 'Latest Laptop Deals' API directly provides the latest deals on products, which aligns with the subtask intent. Although it is specific to laptops, it is the closest match to fetching latest deals. Other APIs are unrelated to product deals or are generic content or news APIs. No API explicitly mentions unpaid wish products, so this is the best available choice."
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 1488,
+    "total_tokens": 1602,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 1833,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 222,
+      "service_ttlt_ms": 2011,
+      "total_duration_ms": 1920,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

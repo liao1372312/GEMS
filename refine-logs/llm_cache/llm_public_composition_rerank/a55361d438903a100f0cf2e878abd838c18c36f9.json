@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_809",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"The subtask is to fetch a random joke from the Jokes by API-Ninjas. Candidate 10 is Humor-Jokes-and-Memes - random-joke, which provides a random joke and is from the Jokes by API-Ninjas collection, directly satisfying the subtask intent with no required parameters.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.95,
+    "rationale": "The subtask is to fetch a random joke from the Jokes by API-Ninjas. Candidate 10 is Humor-Jokes-and-Memes - random-joke, which provides a random joke and is from the Jokes by API-Ninjas collection, directly satisfying the subtask intent with no required parameters."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1623,
+    "total_tokens": 1708,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1301,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 251,
+      "service_ttlt_ms": 1503,
+      "total_duration_ms": 1382,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

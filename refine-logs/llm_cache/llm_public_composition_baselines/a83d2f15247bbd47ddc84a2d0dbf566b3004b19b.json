@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7311",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Daily Cat Facts API provides random facts, which aligns well with the subtask of retrieving a trivia fact associated with a number. It is in the entertainment domain and returns random facts, suitable for impressing colleagues with trivia.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Daily Cat Facts API provides random facts, which aligns well with the subtask of retrieving a trivia fact associated with a number. It is in the entertainment domain and returns random facts, suitable for impressing colleagues with trivia."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 2185,
+    "total_tokens": 2252,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 868,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 231,
+      "service_ttlt_ms": 1042,
+      "total_duration_ms": 925,
+      "user_visible_ttft_ms": 104
+    }
+  }
+}

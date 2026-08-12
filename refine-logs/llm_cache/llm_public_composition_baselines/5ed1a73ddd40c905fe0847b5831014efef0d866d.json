@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_79",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided candidates match the subtask of gathering a list of healthcare professionals for delivering sessions on healthy eating habits. The candidates mostly relate to exercise data, product details, or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided candidates match the subtask of gathering a list of healthcare professionals for delivering sessions on healthy eating habits. The candidates mostly relate to exercise data, product details, or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1326,
+    "total_tokens": 1387,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 531,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 682,
+      "total_duration_ms": 580,
+      "user_visible_ttft_ms": 86
+    }
+  }
+}

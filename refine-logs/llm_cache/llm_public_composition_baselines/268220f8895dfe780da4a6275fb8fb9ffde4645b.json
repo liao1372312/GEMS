@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_809",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The user requested a random joke from Jokes by API-Ninjas, and the 'World of Jokes - Get Random Joke' API provides a random joke without requiring parameters, matching the user's subtask.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The user requested a random joke from Jokes by API-Ninjas, and the 'World of Jokes - Get Random Joke' API provides a random joke without requiring parameters, matching the user's subtask."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1379,
+    "total_tokens": 1443,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 478,
+      "pre_inference_ms": 145,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 303,
+      "service_ttlt_ms": 740,
+      "total_duration_ms": 605,
+      "user_visible_ttft_ms": 158
+    }
+  }
+}

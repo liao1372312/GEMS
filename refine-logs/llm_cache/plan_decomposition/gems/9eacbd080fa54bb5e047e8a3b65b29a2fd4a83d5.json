@@ -1,0 +1,88 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnic settings.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"cuisine_type\", \"dish_type\", \"serving_size\", \"meal_setting\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve tips for packing and carrying chicken dishes for a picnic.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Find halal restaurants in Korea suitable for dining with friends who require halal food.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"location\", \"food_preference\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnic settings.",
+        "domain": "medical",
+        "required_inputs": [
+          "cuisine_type",
+          "dish_type",
+          "serving_size",
+          "meal_setting"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve tips for packing and carrying chicken dishes for a picnic.",
+        "domain": "medical",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Find halal restaurants in Korea suitable for dining with friends who require halal food.",
+        "domain": "medical",
+        "required_inputs": [
+          "location",
+          "food_preference"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnic settings.",
+      "domain": "medical",
+      "required_inputs": [
+        "cuisine_type",
+        "dish_type",
+        "serving_size",
+        "meal_setting"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve tips for packing and carrying chicken dishes for a picnic.",
+      "domain": "medical",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Find halal restaurants in Korea suitable for dining with friends who require halal food.",
+      "domain": "medical",
+      "required_inputs": [
+        "location",
+        "food_preference"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 561,
+    "total_tokens": 726,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 2272,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 148,
+      "service_ttlt_ms": 2377,
+      "total_duration_ms": 2297,
+      "user_visible_ttft_ms": 63
+    }
+  }
+}

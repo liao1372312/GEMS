@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_178",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The user wants fancy burger recipes for a romantic dinner, which fits best under 'lunch' or 'dinner' meal type. Among the candidate APIs, the 'Recipe Finder - lunch/ingredient' API is the most appropriate to find burger recipes for a meal, as it is specific to lunch recipes and can be used to search by ingredient. The 'dinner' API requires an ingredient parameter but is less specific to burgers. Since the subtask requires cuisine and meal type, and the user request implies a meal (dinner), the lunch API is a better fit than generic or unrelated recipe types. Other APIs are for breakfast, salad, cake, etc., which are less relevant. The required parameter 'ingredient' can be bound to 'burger' or a related term from the user request.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The user wants fancy burger recipes for a romantic dinner, which fits best under 'lunch' or 'dinner' meal type. Among the candidate APIs, the 'Recipe Finder - lunch/ingredient' API is the most appropriate to find burger recipes for a meal, as it is specific to lunch recipes and can be used to search by ingredient. The 'dinner' API requires an ingredient parameter but is less specific to burgers. Since the subtask requires cuisine and meal type, and the user request implies a meal (dinner), the lunch API is a better fit than generic or unrelated recipe types. Other APIs are for breakfast, salad, cake, etc., which are less relevant. The required parameter 'ingredient' can be bound to 'burger' or a related term from the user request."
+  },
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 2259,
+    "total_tokens": 2442,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 2549,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 318,
+      "service_ttlt_ms": 2826,
+      "total_duration_ms": 2737,
+      "user_visible_ttft_ms": 227
+    }
+  }
+}

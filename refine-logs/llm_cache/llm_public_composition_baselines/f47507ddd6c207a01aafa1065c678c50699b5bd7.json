@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3462",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.8, \"rationale\": \"The top-ranked API aggregates news articles from various publications and can provide a broad range of articles, including those related to charity events, suitable for gathering inspiration.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.8,
+    "rationale": "The top-ranked API aggregates news articles from various publications and can provide a broad range of articles, including those related to charity events, suitable for gathering inspiration."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1188,
+    "total_tokens": 1241,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 179,
+      "engine_ttlt_ms": 650,
+      "pre_inference_ms": 222,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 506,
+      "service_ttlt_ms": 950,
+      "total_duration_ms": 745,
+      "user_visible_ttft_ms": 284
+    }
+  }
+}

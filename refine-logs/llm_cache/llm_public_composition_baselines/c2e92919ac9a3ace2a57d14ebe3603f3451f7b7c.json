@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Cartify - getAllUsers API provides a list of users which could include healthcare professionals, matching the need to obtain a list for targeted mailing. It is the best fit among the candidates for compiling a healthcare professionals list.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Cartify - getAllUsers API provides a list of users which could include healthcare professionals, matching the need to obtain a list for targeted mailing. It is the best fit among the candidates for compiling a healthcare professionals list."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1821,
+    "total_tokens": 1888,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 879,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 214,
+      "service_ttlt_ms": 1046,
+      "total_duration_ms": 953,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

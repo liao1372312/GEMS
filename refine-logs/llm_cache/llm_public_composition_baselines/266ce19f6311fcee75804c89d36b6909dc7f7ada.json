@@ -1,0 +1,27 @@
+{
+  "record_id": "Medical_response_4930",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The top-ranked API matches the user's request to calculate body fat percentage with all required parameters provided. The NBA schedule request is a separate subtask and can be handled separately.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The top-ranked API matches the user's request to calculate body fat percentage with all required parameters provided. The NBA schedule request is a separate subtask and can be handled separately."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 2068,
+    "total_tokens": 2124,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 56
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 2061
+    }
+  }
+}

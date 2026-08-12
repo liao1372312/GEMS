@@ -1,0 +1,82 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available from Admiralbet, including match timings and participating teams.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"list of latest basketball matches\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Compile the match details and their corresponding odds into a comprehensive report.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"latest basketball matches with timings and teams\", \"odds for each match\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available from Admiralbet, including match timings and participating teams.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+        "domain": "Finance",
+        "required_inputs": [
+          "list of latest basketball matches"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Compile the match details and their corresponding odds into a comprehensive report.",
+        "domain": "Finance",
+        "required_inputs": [
+          "latest basketball matches with timings and teams",
+          "odds for each match"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest basketball matches available from Admiralbet, including match timings and participating teams.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+      "domain": "Finance",
+      "required_inputs": [
+        "list of latest basketball matches"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Compile the match details and their corresponding odds into a comprehensive report.",
+      "domain": "Finance",
+      "required_inputs": [
+        "latest basketball matches with timings and teams",
+        "odds for each match"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 371,
+    "total_tokens": 534,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 2225,
+      "pre_inference_ms": 138,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 260,
+      "service_ttlt_ms": 2466,
+      "total_duration_ms": 2334,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_706",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to Text Sentiment analysis or provide sentiment detection classes; all are gaming-related COD APIs.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to Text Sentiment analysis or provide sentiment detection classes; all are gaming-related COD APIs."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1393,
+    "total_tokens": 1439,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 1130,
+      "pre_inference_ms": 163,
+      "service_tbt_ms": 25,
+      "service_ttft_ms": 274,
+      "service_ttlt_ms": 1387,
+      "total_duration_ms": 1243,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

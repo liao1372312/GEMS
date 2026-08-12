@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"Provides accurate predictions for today's matches with insights based on team performance and other relevant parameters, matching the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "Provides accurate predictions for today's matches with insights based on team performance and other relevant parameters, matching the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1839,
+    "total_tokens": 1884,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 80,
+      "engine_ttlt_ms": 441,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 427,
+      "service_ttlt_ms": 784,
+      "total_duration_ms": 719,
+      "user_visible_ttft_ms": 353
+    }
+  }
+}

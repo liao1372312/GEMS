@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_492",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"Skyscanner_v2 - Search Place API is in the travel domain and allows searching places, which can be used to find restaurants near landmarks and hotels by location query, matching the subtask intent and required inputs.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "Skyscanner_v2 - Search Place API is in the travel domain and allows searching places, which can be used to find restaurants near landmarks and hotels by location query, matching the subtask intent and required inputs."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1591,
+    "total_tokens": 1656,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 594,
+      "user_visible_ttft_ms": 204,
+      "total_duration_ms": 1298,
+      "pre_inference_ms": 390,
+      "service_tbt_ms": 17,
+      "service_ttlt_ms": 1649,
+      "engine_ttft_ms": 85,
+      "engine_ttlt_ms": 1148,
+      "engine_tbt_ms": 16
+    }
+  }
+}

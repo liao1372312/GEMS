@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5449",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"This API specifically retrieves up-to-date company balance sheet data by stock symbol, matching the subtask requirement to get balance sheet information for identified stocks.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "This API specifically retrieves up-to-date company balance sheet data by stock symbol, matching the subtask requirement to get balance sheet information for identified stocks."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1282,
+    "total_tokens": 1333,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 52,
+      "engine_ttft_ms": 267,
+      "engine_ttlt_ms": 2923,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 52,
+      "service_ttft_ms": 370,
+      "service_ttlt_ms": 3023,
+      "total_duration_ms": 2959,
+      "user_visible_ttft_ms": 293
+    }
+  }
+}

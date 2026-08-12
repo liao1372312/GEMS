@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_9639",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of the latest anime news articles\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch various media related to anime to enhance the anime-watching experience\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of the latest anime news articles",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch various media related to anime to enhance the anime-watching experience",
+        "domain": "entertainment",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of the latest anime news articles",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch various media related to anime to enhance the anime-watching experience",
+      "domain": "entertainment",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 197,
+    "total_tokens": 293,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 31,
+      "engine_ttlt_ms": 1169,
+      "pre_inference_ms": 152,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 376,
+      "service_ttlt_ms": 1510,
+      "total_duration_ms": 1366,
+      "user_visible_ttft_ms": 225
+    }
+  }
+}

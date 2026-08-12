@@ -1,0 +1,98 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Research popular sports-themed birthday party ideas and decorations.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Compile a list of upcoming sports matches relevant to the friend's interests.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"friend's favorite sports or teams\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Generate accurate predictions for the identified upcoming sports matches.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"list of upcoming sports matches\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Suggest ways to incorporate the match predictions into the party theme and activities.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"match predictions\", \"party theme details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Research popular sports-themed birthday party ideas and decorations.",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Compile a list of upcoming sports matches relevant to the friend's interests.",
+        "domain": "Technology",
+        "required_inputs": [
+          "friend's favorite sports or teams"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Generate accurate predictions for the identified upcoming sports matches.",
+        "domain": "Technology",
+        "required_inputs": [
+          "list of upcoming sports matches"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Suggest ways to incorporate the match predictions into the party theme and activities.",
+        "domain": "Technology",
+        "required_inputs": [
+          "match predictions",
+          "party theme details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Research popular sports-themed birthday party ideas and decorations.",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Compile a list of upcoming sports matches relevant to the friend's interests.",
+      "domain": "Technology",
+      "required_inputs": [
+        "friend's favorite sports or teams"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Generate accurate predictions for the identified upcoming sports matches.",
+      "domain": "Technology",
+      "required_inputs": [
+        "list of upcoming sports matches"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Suggest ways to incorporate the match predictions into the party theme and activities.",
+      "domain": "Technology",
+      "required_inputs": [
+        "match predictions",
+        "party theme details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 363,
+    "total_tokens": 557,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 3797,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 160,
+      "service_ttlt_ms": 3897,
+      "total_duration_ms": 3828,
+      "user_visible_ttft_ms": 86
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1860",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are relevant to providing appetizer recipes or burger options; they are mostly finance, sports, or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are relevant to providing appetizer recipes or burger options; they are mostly finance, sports, or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1424,
+    "total_tokens": 1472,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 526,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 265,
+      "service_ttlt_ms": 726,
+      "total_duration_ms": 616,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2965",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search for vegan-friendly restaurants, directly satisfying the subtask of recommending a vegan-friendly restaurant. Other APIs are unrelated to restaurant recommendations or vegan options.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API can be used to search for vegan-friendly restaurants, directly satisfying the subtask of recommending a vegan-friendly restaurant. Other APIs are unrelated to restaurant recommendations or vegan options."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1639,
+    "total_tokens": 1703,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 713,
+      "pre_inference_ms": 155,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 293,
+      "service_ttlt_ms": 951,
+      "total_duration_ms": 809,
+      "user_visible_ttft_ms": 139
+    }
+  }
+}

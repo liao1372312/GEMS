@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3978",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 1.0, \"rationale\": \"The 'Food Ingredient Measurement Conversion - Convert Ingredient' API directly supports converting between volume and weight units for specific ingredients like milk, with required parameters matching the subtask inputs (value, from unit, ingredient, to unit). It is more specific and relevant than generic measurement converters and fits the subtask intent perfectly.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 1.0,
+    "rationale": "The 'Food Ingredient Measurement Conversion - Convert Ingredient' API directly supports converting between volume and weight units for specific ingredients like milk, with required parameters matching the subtask inputs (value, from unit, ingredient, to unit). It is more specific and relevant than generic measurement converters and fits the subtask intent perfectly."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 2217,
+    "total_tokens": 2301,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 39,
+      "engine_ttft_ms": 580,
+      "engine_ttlt_ms": 3868,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 39,
+      "service_ttft_ms": 693,
+      "service_ttlt_ms": 3979,
+      "total_duration_ms": 3896,
+      "user_visible_ttft_ms": 605
+    }
+  }
+}

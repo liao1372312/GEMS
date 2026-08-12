@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2628",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate API allows searching content based on a query, which fits the need to find the nearest bank in Dakar including its address and website. Other APIs do not match the task intent or required parameters.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate API allows searching content based on a query, which fits the need to find the nearest bank in Dakar including its address and website. Other APIs do not match the task intent or required parameters."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1655,
+    "total_tokens": 1718,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1017,
+      "pre_inference_ms": 181,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 367,
+      "service_ttlt_ms": 1321,
+      "total_duration_ms": 1148,
+      "user_visible_ttft_ms": 186
+    }
+  }
+}

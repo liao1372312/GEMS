@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The user wants gas prices for US states (Kentucky), and this API provides gas prices by US state with a required 'state' parameter.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The user wants gas prices for US states (Kentucky), and this API provides gas prices by US state with a required 'state' parameter."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1202,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 535,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 358,
+      "service_ttlt_ms": 858,
+      "total_duration_ms": 765,
+      "user_visible_ttft_ms": 244
+    }
+  }
+}

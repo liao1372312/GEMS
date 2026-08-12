@@ -1,0 +1,60 @@
+{
+  "record_id": "Finance_response_3946",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Cyprus with needed fields.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Hungary with needed fields.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Ireland with needed fields.\"},{\"step_id\":4,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving login form fields for a supported bank.\"},{\"step_id\":5,\"accept_llm\":true,\"reason\":\"LLM choice is clearly more appropriate than semantic top-1 for retrieving categories with descriptions, colors, and icons.\"}],\"workflow_confidence\":1}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Cyprus with needed fields."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Hungary with needed fields."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Ireland with needed fields."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving login form fields for a supported bank."
+      },
+      {
+        "step_id": 5,
+        "accept_llm": true,
+        "reason": "LLM choice is clearly more appropriate than semantic top-1 for retrieving categories with descriptions, colors, and icons."
+      }
+    ],
+    "workflow_confidence": 1
+  },
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 3330,
+    "total_tokens": 3524,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1517,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 158,
+      "service_ttlt_ms": 1619,
+      "total_duration_ms": 1541,
+      "user_visible_ttft_ms": 74
+    }
+  }
+}

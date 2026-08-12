@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4036",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 1.0, \"rationale\": \"The API 'CarbonFootprint - CarbonFootprintFromCarTravel' directly calculates CO2 emissions for car travel, accepts 'vehicle' and 'distance' parameters which match the subtask inputs, and specifically supports 'MediumCNGCar' as a vehicle type.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 1.0,
+    "rationale": "The API 'CarbonFootprint - CarbonFootprintFromCarTravel' directly calculates CO2 emissions for car travel, accepts 'vehicle' and 'distance' parameters which match the subtask inputs, and specifically supports 'MediumCNGCar' as a vehicle type."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 2029,
+    "total_tokens": 2104,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 40,
+      "engine_ttft_ms": 190,
+      "engine_ttlt_ms": 3162,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 40,
+      "service_ttft_ms": 1606,
+      "service_ttlt_ms": 4572,
+      "total_duration_ms": 4477,
+      "user_visible_ttft_ms": 1501
+    }
+  }
+}

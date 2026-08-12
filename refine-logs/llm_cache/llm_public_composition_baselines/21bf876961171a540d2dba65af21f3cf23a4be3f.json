@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4611",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate is a Webull API endpoint related to stock data, but it requires a tickerId and does not directly support querying top gainers by market_type and time_period. However, none of the candidates explicitly support the required parameters market_type and time_period for top gainers. The closest relevant endpoint is the Webull stock/get-short-interest, which is ranked highest and related to stock market data. The cryptocurrency information can be gathered from the Cryptocurrency Markets - Coin List API, but the subtask focuses on stock market top gainers, so the best match is the top-ranked Webull stock API.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate is a Webull API endpoint related to stock data, but it requires a tickerId and does not directly support querying top gainers by market_type and time_period. However, none of the candidates explicitly support the required parameters market_type and time_period for top gainers. The closest relevant endpoint is the Webull stock/get-short-interest, which is ranked highest and related to stock market data. The cryptocurrency information can be gathered from the Cryptocurrency Markets - Coin List API, but the subtask focuses on stock market top gainers, so the best match is the top-ranked Webull stock API."
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1654,
+    "total_tokens": 1798,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 1135,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 209,
+      "service_ttlt_ms": 1293,
+      "total_duration_ms": 1195,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

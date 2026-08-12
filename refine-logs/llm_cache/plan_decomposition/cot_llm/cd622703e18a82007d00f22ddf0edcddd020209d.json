@@ -1,0 +1,116 @@
+{
+  "record_id": "Technology_response_2871",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve general information about the game Jet Set Radio\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"game_name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve general information about the game Jet Set Radio Future\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"game_name\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Collect fun facts about the artists involved in Jet Set Radio and Jet Set Radio Future\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"game_names\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Compile a list of levels for Jet Set Radio with detailed descriptions\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"game_name\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Compile a list of levels for Jet Set Radio Future with detailed descriptions\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"game_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve general information about the game Jet Set Radio",
+        "domain": "Technology",
+        "required_inputs": [
+          "game_name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve general information about the game Jet Set Radio Future",
+        "domain": "Technology",
+        "required_inputs": [
+          "game_name"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Collect fun facts about the artists involved in Jet Set Radio and Jet Set Radio Future",
+        "domain": "Technology",
+        "required_inputs": [
+          "game_names"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Compile a list of levels for Jet Set Radio with detailed descriptions",
+        "domain": "Technology",
+        "required_inputs": [
+          "game_name"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Compile a list of levels for Jet Set Radio Future with detailed descriptions",
+        "domain": "Technology",
+        "required_inputs": [
+          "game_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve general information about the game Jet Set Radio",
+      "domain": "Technology",
+      "required_inputs": [
+        "game_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve general information about the game Jet Set Radio Future",
+      "domain": "Technology",
+      "required_inputs": [
+        "game_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Collect fun facts about the artists involved in Jet Set Radio and Jet Set Radio Future",
+      "domain": "Technology",
+      "required_inputs": [
+        "game_names"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Compile a list of levels for Jet Set Radio with detailed descriptions",
+      "domain": "Technology",
+      "required_inputs": [
+        "game_name"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Compile a list of levels for Jet Set Radio Future with detailed descriptions",
+      "domain": "Technology",
+      "required_inputs": [
+        "game_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 185,
+    "total_tokens": 420,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 285,
+      "user_visible_ttft_ms": 161,
+      "total_duration_ms": 2998,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 3111,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 2887,
+      "engine_tbt_ms": 12
+    }
+  }
+}

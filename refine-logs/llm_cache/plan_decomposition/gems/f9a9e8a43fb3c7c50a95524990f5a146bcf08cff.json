@@ -1,0 +1,101 @@
+{
+  "record_id": "Medical_response_3942",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a list of cake names and images to feature on the blog.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the detailed recipe for the cake with ID 5.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"id\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and get its address.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"restaurant ID\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Send a request to get predictions and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"url\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a list of cake names and images to feature on the blog.",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get the detailed recipe for the cake with ID 5.",
+        "domain": "Food",
+        "required_inputs": [
+          "id"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and get its address.",
+        "domain": "Food",
+        "required_inputs": [
+          "restaurant ID"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Send a request to get predictions and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.",
+        "domain": "Food",
+        "required_inputs": [
+          "url"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a list of cake names and images to feature on the blog.",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Get the detailed recipe for the cake with ID 5.",
+      "domain": "Food",
+      "required_inputs": [
+        "id"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and get its address.",
+      "domain": "Food",
+      "required_inputs": [
+        "restaurant ID"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Send a request to get predictions and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.",
+      "domain": "Food",
+      "required_inputs": [
+        "url"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 230,
+    "prompt_tokens": 2252,
+    "total_tokens": 2482,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 2467,
+      "pre_inference_ms": 131,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 302,
+      "service_ttlt_ms": 2647,
+      "total_duration_ms": 2522,
+      "user_visible_ttft_ms": 171
+    }
+  },
+  "goal_hints": [
+    "I'm a food blogger and I'm looking for cake recipes to feature on my blog. Can you provide me with a list of cake names and images to choose from",
+    "I need the detailed recipe for a cake with ID 5",
+    "fetch the details for a restaurant with ID 56c467cb7b0d464811a42017 and provide me with its address. Lastly, could you send me the prediction and other data for an image with the URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'"
+  ]
+}

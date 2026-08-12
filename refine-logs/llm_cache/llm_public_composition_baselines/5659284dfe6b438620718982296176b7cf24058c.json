@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4391",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The first candidate API is specifically designed to search foods using keywords and retrieve nutritional information, matching the user's intent and subtask requirements closely.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The first candidate API is specifically designed to search foods using keywords and retrieve nutritional information, matching the user's intent and subtask requirements closely."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1861,
+    "total_tokens": 1910,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 812,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 684,
+      "service_ttlt_ms": 1437,
+      "total_duration_ms": 1366,
+      "user_visible_ttft_ms": 606
+    }
+  }
+}

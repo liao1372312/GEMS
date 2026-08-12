@@ -1,0 +1,116 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify cities known for excellent air quality suitable for a weekend getaway.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a city from the identified list based on additional preferences or constraints if any.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"list of cities with excellent air quality\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Find available weekend accommodation options and best hotel deals in the selected city.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"selected city\", \"weekend dates\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Retrieve a list of popular tourist attractions and activities in the selected city.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"selected city\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Fetch the current and forecasted air quality index and weather conditions for the selected city during the weekend.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"selected city\", \"weekend dates\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify cities known for excellent air quality suitable for a weekend getaway.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a city from the identified list based on additional preferences or constraints if any.",
+        "domain": "tourism",
+        "required_inputs": [
+          "list of cities with excellent air quality"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Find available weekend accommodation options and best hotel deals in the selected city.",
+        "domain": "tourism",
+        "required_inputs": [
+          "selected city",
+          "weekend dates"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Retrieve a list of popular tourist attractions and activities in the selected city.",
+        "domain": "tourism",
+        "required_inputs": [
+          "selected city"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Fetch the current and forecasted air quality index and weather conditions for the selected city during the weekend.",
+        "domain": "tourism",
+        "required_inputs": [
+          "selected city",
+          "weekend dates"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify cities known for excellent air quality suitable for a weekend getaway.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a city from the identified list based on additional preferences or constraints if any.",
+      "domain": "tourism",
+      "required_inputs": [
+        "list of cities with excellent air quality"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Find available weekend accommodation options and best hotel deals in the selected city.",
+      "domain": "tourism",
+      "required_inputs": [
+        "selected city",
+        "weekend dates"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Retrieve a list of popular tourist attractions and activities in the selected city.",
+      "domain": "tourism",
+      "required_inputs": [
+        "selected city"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Fetch the current and forecasted air quality index and weather conditions for the selected city during the weekend.",
+      "domain": "tourism",
+      "required_inputs": [
+        "selected city",
+        "weekend dates"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 264,
+    "prompt_tokens": 712,
+    "total_tokens": 976,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 258,
+      "user_visible_ttft_ms": 135,
+      "total_duration_ms": 3208,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 3323,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 3107,
+      "engine_tbt_ms": 12
+    }
+  }
+}

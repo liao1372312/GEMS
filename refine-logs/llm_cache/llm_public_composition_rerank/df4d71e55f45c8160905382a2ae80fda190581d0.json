@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3042",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"This API calculates BMI using both Imperial and Metric units and provides weight categorization based on BMI, directly matching the user's request for a BMI calculator with unit flexibility and weight categories.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "This API calculates BMI using both Imperial and Metric units and provides weight categorization based on BMI, directly matching the user's request for a BMI calculator with unit flexibility and weight categories."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 2049,
+    "total_tokens": 2106,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 1039,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1252,
+      "total_duration_ms": 1133,
+      "user_visible_ttft_ms": 163
+    }
+  }
+}

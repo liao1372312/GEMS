@@ -1,0 +1,45 @@
+{
+  "record_id": "Medical_response_4677",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to food; LLM choice is closer but does not match KFC Chickens API requirement; keep semantic top-1 to preserve workflow intent.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to food; LLM choice is closer but does not match KFC Chickens API requirement; keep semantic top-1 to preserve workflow intent."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 1082,
+    "total_tokens": 1205,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 2006,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 217,
+      "service_ttlt_ms": 2157,
+      "total_duration_ms": 2059,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

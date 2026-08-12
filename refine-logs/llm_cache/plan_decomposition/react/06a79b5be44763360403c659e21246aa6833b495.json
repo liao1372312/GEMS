@@ -1,0 +1,84 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve playlist information for the Soundcloud playlist named 'Almost Lover'.\",\n      \"domain\": \"Soundcloud\",\n      \"required_inputs\": [\"playlist name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Identify the artist related to the song 'Shape of You'.\",\n      \"domain\": \"Music Identification\",\n      \"required_inputs\": [\"song title\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the latest release of the identified artist.\",\n      \"domain\": \"Music Release\",\n      \"required_inputs\": [\"artist name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve playlist information for the Soundcloud playlist named 'Almost Lover'.",
+        "domain": "Soundcloud",
+        "required_inputs": [
+          "playlist name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Identify the artist related to the song 'Shape of You'.",
+        "domain": "Music Identification",
+        "required_inputs": [
+          "song title"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the latest release of the identified artist.",
+        "domain": "Music Release",
+        "required_inputs": [
+          "artist name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve playlist information for the Soundcloud playlist named 'Almost Lover'.",
+      "domain": "Soundcloud",
+      "required_inputs": [
+        "playlist name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Identify the artist related to the song 'Shape of You'.",
+      "domain": "Music Identification",
+      "required_inputs": [
+        "song title"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the latest release of the identified artist.",
+      "domain": "Music Release",
+      "required_inputs": [
+        "artist name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 220,
+    "total_tokens": 365,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1517,
+      "pre_inference_ms": 174,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 313,
+      "service_ttlt_ms": 1802,
+      "total_duration_ms": 1631,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

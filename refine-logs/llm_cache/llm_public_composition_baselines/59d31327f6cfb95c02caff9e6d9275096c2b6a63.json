@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_854",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The top-ranked API provides a 5-day daily forecast for New York City by latitude and longitude, matching the user's request for a 5-day forecast.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The top-ranked API provides a 5-day daily forecast for New York City by latitude and longitude, matching the user's request for a 5-day forecast."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1619,
+    "total_tokens": 1672,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1080,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 392,
+      "service_ttlt_ms": 1424,
+      "total_duration_ms": 1350,
+      "user_visible_ttft_ms": 310
+    }
+  }
+}

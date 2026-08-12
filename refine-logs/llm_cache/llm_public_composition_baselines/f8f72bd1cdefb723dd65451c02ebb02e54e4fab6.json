@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4481",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The API at rank 3 specifically supports querying trades by ISIN code, which matches the request for trades data for ISIN 'ABC123' from the Prague Stock Exchange. It is the most relevant and precise candidate for the task.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The API at rank 3 specifically supports querying trades by ISIN code, which matches the request for trades data for ISIN 'ABC123' from the Prague Stock Exchange. It is the most relevant and precise candidate for the task."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1425,
+    "total_tokens": 1494,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 546,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 194,
+      "service_ttlt_ms": 694,
+      "total_duration_ms": 594,
+      "user_visible_ttft_ms": 87
+    }
+  }
+}

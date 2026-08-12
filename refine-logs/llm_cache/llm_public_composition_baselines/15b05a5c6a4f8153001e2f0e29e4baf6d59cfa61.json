@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the task of analyzing SEO performance or reviewing website heading structure for optimization tips.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the task of analyzing SEO performance or reviewing website heading structure for optimization tips."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1189,
+    "total_tokens": 1232,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 372,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 199,
+      "service_ttlt_ms": 527,
+      "total_duration_ms": 431,
+      "user_visible_ttft_ms": 93
+    }
+  }
+}

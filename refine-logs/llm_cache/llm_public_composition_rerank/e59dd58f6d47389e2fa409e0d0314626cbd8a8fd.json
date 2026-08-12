@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_918",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 1.0, \"rationale\": \"The Skyscanner_v2 - Search Place API is from the Travel domain and allows searching for places to get entityId needed for hotel searches, directly supporting finding nearby hotels based on location. It matches the subtask intent and required inputs (location).\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 1.0,
+    "rationale": "The Skyscanner_v2 - Search Place API is from the Travel domain and allows searching for places to get entityId needed for hotel searches, directly supporting finding nearby hotels based on location. It matches the subtask intent and required inputs (location)."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 2139,
+    "total_tokens": 2211,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 777,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 209,
+      "service_ttlt_ms": 944,
+      "total_duration_ms": 881,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

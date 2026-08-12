@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8706",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The candidate provides a list of categories, which matches the subtask requirement to query all available joke categories.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The candidate provides a list of categories, which matches the subtask requirement to query all available joke categories."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1502,
+    "total_tokens": 1545,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 431,
+      "pre_inference_ms": 168,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 321,
+      "service_ttlt_ms": 673,
+      "total_duration_ms": 515,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

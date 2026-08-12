@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4382",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.95, \"rationale\": \"The 'Cloud Cast - Get current weather' API directly satisfies the subtask of fetching current weather conditions for a specified city, requiring only the city name which is available from the user request. It is more specific than broad forecast APIs and aligns well with the tourism domain.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.95,
+    "rationale": "The 'Cloud Cast - Get current weather' API directly satisfies the subtask of fetching current weather conditions for a specified city, requiring only the city name which is available from the user request. It is more specific than broad forecast APIs and aligns well with the tourism domain."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1946,
+    "total_tokens": 2022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1359,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 472,
+      "service_ttlt_ms": 1713,
+      "total_duration_ms": 1608,
+      "user_visible_ttft_ms": 360
+    }
+  }
+}

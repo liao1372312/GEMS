@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1563",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the subtask of recommending payment gateways; all candidates are for sports odds or social finance messages.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the subtask of recommending payment gateways; all candidates are for sports odds or social finance messages."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 979,
+    "total_tokens": 1024,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 553,
+      "pre_inference_ms": 458,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 757,
+      "service_ttlt_ms": 1372,
+      "total_duration_ms": 923,
+      "user_visible_ttft_ms": 299
+    }
+  }
+}

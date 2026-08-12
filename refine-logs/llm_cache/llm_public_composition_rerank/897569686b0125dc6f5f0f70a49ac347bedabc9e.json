@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2757",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Only the US Hospitals API provides location-based data by name, which could be repurposed to identify locations in specific cities; however, none of the APIs directly provide car rental locations. Since no suitable car rental or city location API is present, the closest available is the US Hospitals API that can search by city name, but it is not ideal.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Only the US Hospitals API provides location-based data by name, which could be repurposed to identify locations in specific cities; however, none of the APIs directly provide car rental locations. Since no suitable car rental or city location API is present, the closest available is the US Hospitals API that can search by city name, but it is not ideal."
+  },
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 2335,
+    "total_tokens": 2427,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 87,
+      "engine_ttlt_ms": 1803,
+      "pre_inference_ms": 174,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 321,
+      "service_ttlt_ms": 2065,
+      "total_duration_ms": 1925,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

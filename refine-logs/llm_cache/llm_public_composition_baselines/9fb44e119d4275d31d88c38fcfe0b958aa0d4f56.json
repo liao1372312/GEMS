@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3946",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The Afterbanks PSD2 payments and bank reader - Listofsupportedbanks API provides a complete list of supported banks in Hungary, Cyprus, and Ireland, along with the necessary fields to create a login form similar to the bank's original, which matches the user's request perfectly. Additionally, the Afterbanks PSD2 payments and bank reader - Categorieslist API can be used to retrieve the list of categories with descriptions, colors, and icons. The first API is the best starting point for the main subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The Afterbanks PSD2 payments and bank reader - Listofsupportedbanks API provides a complete list of supported banks in Hungary, Cyprus, and Ireland, along with the necessary fields to create a login form similar to the bank's original, which matches the user's request perfectly. Additionally, the Afterbanks PSD2 payments and bank reader - Categorieslist API can be used to retrieve the list of categories with descriptions, colors, and icons. The first API is the best starting point for the main subtask."
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 2234,
+    "total_tokens": 2356,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1274,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 149,
+      "service_ttlt_ms": 1393,
+      "total_duration_ms": 1341,
+      "user_visible_ttft_ms": 65
+    }
+  }
+}

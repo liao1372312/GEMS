@@ -1,0 +1,68 @@
+{
+  "record_id": "Medical_response_2137",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of healthcare professionals for targeted mailing for the healthcare conference.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Perform nutritional analysis for the specified food item.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food_item\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of healthcare professionals for targeted mailing for the healthcare conference.",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Perform nutritional analysis for the specified food item.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food_item"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of healthcare professionals for targeted mailing for the healthcare conference.",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Perform nutritional analysis for the specified food item.",
+      "domain": "Medical",
+      "required_inputs": [
+        "food_item"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 2568,
+    "total_tokens": 2662,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1210,
+      "pre_inference_ms": 168,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 341,
+      "service_ttlt_ms": 1495,
+      "total_duration_ms": 1337,
+      "user_visible_ttft_ms": 173
+    }
+  },
+  "goal_hints": [
+    "My company is organizing a conference on healthcare and we need to reach out to potential attendees. Can you provide us with a list of healthcare professionals for targeted mailing",
+    "I would like to know the nutritional analysis for a specific food item"
+  ]
+}

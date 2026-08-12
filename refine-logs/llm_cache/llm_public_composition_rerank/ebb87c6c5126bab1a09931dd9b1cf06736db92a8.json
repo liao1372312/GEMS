@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2300",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The 'TIN Check' API directly validates TIN/VAT numbers worldwide, including Slovakia, matching the subtask intent. It requires the VAT number as input, which is available. It is more specific than generic finance or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The 'TIN Check' API directly validates TIN/VAT numbers worldwide, including Slovakia, matching the subtask intent. It requires the VAT number as input, which is available. It is more specific than generic finance or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1766,
+    "total_tokens": 1830,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 398,
+      "engine_ttlt_ms": 1466,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 537,
+      "service_ttlt_ms": 1598,
+      "total_duration_ms": 1512,
+      "user_visible_ttft_ms": 445
+    }
+  }
+}

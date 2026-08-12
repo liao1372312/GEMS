@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4299",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"The Halal Korean Restaurants API directly addresses the subtask of finding halal restaurants in Korea, matching the user's dietary restriction and location requirements.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "The Halal Korean Restaurants API directly addresses the subtask of finding halal restaurants in Korea, matching the user's dietary restriction and location requirements."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1984,
+    "total_tokens": 2033,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 535,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 285,
+      "service_ttlt_ms": 769,
+      "total_duration_ms": 652,
+      "user_visible_ttft_ms": 158
+    }
+  }
+}

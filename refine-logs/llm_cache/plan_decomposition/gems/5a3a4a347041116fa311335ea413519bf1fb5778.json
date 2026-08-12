@@ -1,0 +1,68 @@
+{
+  "record_id": "Cross_Domain_response_8358",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for books relevant to the user's upcoming exams in the education domain.\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"exam subjects or keywords\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Generate barcodes for the selected books.\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"book details or identifiers\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for books relevant to the user's upcoming exams in the education domain.",
+        "domain": "education",
+        "required_inputs": [
+          "exam subjects or keywords"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Generate barcodes for the selected books.",
+        "domain": "education",
+        "required_inputs": [
+          "book details or identifiers"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for books relevant to the user's upcoming exams in the education domain.",
+      "domain": "education",
+      "required_inputs": [
+        "exam subjects or keywords"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Generate barcodes for the selected books.",
+      "domain": "education",
+      "required_inputs": [
+        "book details or identifiers"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 2202,
+    "total_tokens": 2302,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 84,
+      "engine_ttlt_ms": 1685,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 187,
+      "service_ttlt_ms": 1779,
+      "total_duration_ms": 1709,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

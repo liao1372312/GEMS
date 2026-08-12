@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2882",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate provides dinner recipes with ingredients and preparation instructions, which aligns well with the user's request for romantic and elegant dinner recipes. It is the most relevant and comprehensive option to support suggesting suitable cheese options based on the recipe list.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate provides dinner recipes with ingredients and preparation instructions, which aligns well with the user's request for romantic and elegant dinner recipes. It is the most relevant and comprehensive option to support suggesting suitable cheese options based on the recipe list."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1952,
+    "total_tokens": 2021,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 554,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 228,
+      "service_ttlt_ms": 738,
+      "total_duration_ms": 631,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

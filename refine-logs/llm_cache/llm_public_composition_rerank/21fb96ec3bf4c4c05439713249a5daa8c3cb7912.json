@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3946",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The subtask is to retrieve the list of categories from Afterbanks own categorizer including descriptions, colors, and icons. Candidate rank 2 is the Afterbanks PSD2 payments and bank reader - Categorieslist API, which directly provides the list of categories from Afterbanks own categorizer, matching the subtask intent perfectly. It requires no additional parameters, fitting the required inputs.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The subtask is to retrieve the list of categories from Afterbanks own categorizer including descriptions, colors, and icons. Candidate rank 2 is the Afterbanks PSD2 payments and bank reader - Categorieslist API, which directly provides the list of categories from Afterbanks own categorizer, matching the subtask intent perfectly. It requires no additional parameters, fitting the required inputs."
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 2511,
+    "total_tokens": 2608,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 24,
+      "engine_ttft_ms": 127,
+      "engine_ttlt_ms": 2488,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 25,
+      "service_ttft_ms": 1824,
+      "service_ttlt_ms": 4188,
+      "total_duration_ms": 4128,
+      "user_visible_ttft_ms": 1734
+    }
+  }
+}

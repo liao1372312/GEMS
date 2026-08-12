@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1345",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Travel Hacking Tool - Get Airport Details' API directly provides detailed information about a specified IATA airport code (DFW), matching the subtask to compile and present airport details. It requires the IATA code, which is available from the user request, making it the most specific and relevant choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Travel Hacking Tool - Get Airport Details' API directly provides detailed information about a specified IATA airport code (DFW), matching the subtask to compile and present airport details. It requires the IATA code, which is available from the user request, making it the most specific and relevant choice."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1689,
+    "total_tokens": 1773,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 33,
+      "engine_ttft_ms": 126,
+      "engine_ttlt_ms": 2906,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 33,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 3013,
+      "total_duration_ms": 2937,
+      "user_visible_ttft_ms": 159
+    }
+  }
+}

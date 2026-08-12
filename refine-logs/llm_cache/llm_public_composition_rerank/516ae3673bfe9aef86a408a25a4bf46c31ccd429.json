@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5435",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide vaccination information for countries. No suitable API is available in the given candidates to fulfill the subtask of compiling vaccination information for Germany, France, and Italy.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide vaccination information for countries. No suitable API is available in the given candidates to fulfill the subtask of compiling vaccination information for Germany, France, and Italy."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1810,
+    "total_tokens": 1869,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 306,
+      "user_visible_ttft_ms": 181,
+      "total_duration_ms": 791,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 10,
+      "service_ttlt_ms": 906,
+      "engine_ttft_ms": 94,
+      "engine_ttlt_ms": 704,
+      "engine_tbt_ms": 10
+    }
+  }
+}

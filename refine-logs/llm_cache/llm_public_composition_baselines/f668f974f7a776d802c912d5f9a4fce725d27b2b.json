@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_935",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requested book recommendations in science fiction and fantasy genres with a Lexile range between 600 and 800. The GetBooksInfo API is designed to search for books and provide relevant information, making it the most suitable choice among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requested book recommendations in science fiction and fantasy genres with a Lexile range between 600 and 800. The GetBooksInfo API is designed to search for books and provide relevant information, making it the most suitable choice among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1732,
+    "total_tokens": 1803,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 892,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1122,
+      "total_duration_ms": 1049,
+      "user_visible_ttft_ms": 149
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3991",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The user is a music blogger looking for interesting tracks, and the 'Youtube Music API (Detailed) - Get Song' is a music domain API that provides detailed song information, matching the user's intent and subtask requirements better than other candidates.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The user is a music blogger looking for interesting tracks, and the 'Youtube Music API (Detailed) - Get Song' is a music domain API that provides detailed song information, matching the user's intent and subtask requirements better than other candidates."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1542,
+    "total_tokens": 1612,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 547,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 311,
+      "service_ttlt_ms": 805,
+      "total_duration_ms": 679,
+      "user_visible_ttft_ms": 174
+    }
+  }
+}

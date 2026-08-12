@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3886",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The Cash4Life - Random QuickPick for Play API is in the Entertainment domain and relates to games, making it the best fit among candidates for suggesting unique party games. Other APIs are unrelated to party games or entertainment.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Cash4Life - Random QuickPick for Play API is in the Entertainment domain and relates to games, making it the best fit among candidates for suggesting unique party games. Other APIs are unrelated to party games or entertainment."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1697,
+    "total_tokens": 1758,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 786,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 975,
+      "total_duration_ms": 878,
+      "user_visible_ttft_ms": 180
+    }
+  }
+}

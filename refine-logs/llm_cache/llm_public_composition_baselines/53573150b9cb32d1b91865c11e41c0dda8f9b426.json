@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_551",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"Moka News API provides latest news from multiple sources worldwide, suitable for fetching diverse climate change articles.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "Moka News API provides latest news from multiple sources worldwide, suitable for fetching diverse climate change articles."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 1445,
+    "total_tokens": 1487,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 330,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 528,
+      "total_duration_ms": 410,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

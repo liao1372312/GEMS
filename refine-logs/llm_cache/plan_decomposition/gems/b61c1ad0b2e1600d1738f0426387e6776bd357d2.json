@@ -1,0 +1,128 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API to get the playlist ID or URL.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"search_query\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed playlist information for the 'Almost Lover' playlist from Soundcloud using the playlist ID or URL.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"playlist_url\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Search for the track 'Shape of You' using the Shazam API to identify the track and retrieve the artist ID.\",\n      \"domain\": \"Media\",\n      \"required_inputs\": [\"track\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Fetch the latest release of the artist related to the song 'Shape of You' using the Shazam API with the artist ID.\",\n      \"domain\": \"Music\",\n      \"required_inputs\": [\"id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API to get the playlist ID or URL.",
+        "domain": "technology",
+        "required_inputs": [
+          "search_query"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed playlist information for the 'Almost Lover' playlist from Soundcloud using the playlist ID or URL.",
+        "domain": "technology",
+        "required_inputs": [
+          "playlist_url"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Search for the track 'Shape of You' using the Shazam API to identify the track and retrieve the artist ID.",
+        "domain": "Media",
+        "required_inputs": [
+          "track"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Fetch the latest release of the artist related to the song 'Shape of You' using the Shazam API with the artist ID.",
+        "domain": "Music",
+        "required_inputs": [
+          "id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API to get the playlist ID or URL.",
+      "domain": "technology",
+      "required_inputs": [
+        "search_query"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed playlist information for the 'Almost Lover' playlist from Soundcloud using the playlist ID or URL.",
+      "domain": "technology",
+      "required_inputs": [
+        "playlist_url"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Search for the track 'Shape of You' using the Shazam API to identify the track and retrieve the artist ID.",
+      "domain": "Media",
+      "required_inputs": [
+        "track"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Fetch the latest release of the artist related to the song 'Shape of You' using the Shazam API with the artist ID.",
+      "domain": "Music",
+      "required_inputs": [
+        "id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 231,
+    "prompt_tokens": 2230,
+    "total_tokens": 2461,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 2882,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 338,
+      "service_ttlt_ms": 3154,
+      "total_duration_ms": 3023,
+      "user_visible_ttft_ms": 205
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for the Soundcloud playlist named 'Almost Lover' to fetch its playlist information.",
+        "domain": "technology",
+        "required_inputs": [
+          "playlist name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for the track 'Shape of You' using the Shazam API to identify the artist related to the song.",
+        "domain": "Media",
+        "required_inputs": [
+          "track"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the latest release of the artist related to the song 'Shape of You' using the Shazam API.",
+        "domain": "Music",
+        "required_inputs": [
+          "artist id"
+        ]
+      }
+    ]
+  }
+}

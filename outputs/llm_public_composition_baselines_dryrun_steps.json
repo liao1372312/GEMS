@@ -1,0 +1,88 @@
+{
+  "config": {
+    "split": "test",
+    "limit_workflows": 0,
+    "max_steps": 5,
+    "baselines": [
+      "direct_llm"
+    ],
+    "model": "gpt-4.1-mini",
+    "temperature": 0.0,
+    "cache_dir": "refine-logs/llm_cache/llm_public_composition_baselines",
+    "note": "Prompt-style baselines select from the provided top-10 candidates and do not execute APIs."
+  },
+  "elapsed_seconds": 0.00010949885472655296,
+  "results": {
+    "direct_llm": {
+      "metrics": {
+        "api_acc": 1.0,
+        "single_choice_top3_proxy": 1.0,
+        "single_choice_mrr_proxy": 1.0,
+        "workflow_exact": 1.0,
+        "para_f1": 1.0,
+        "rank_counts": {
+          "1": 5
+        },
+        "steps": 5,
+        "workflows": 2
+      },
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 1,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 2,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 3,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Tourism_response_5216",
+          "step_id": 1,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Tourism_response_5216",
+          "step_id": 2,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        }
+      ]
+    }
+  }
+}

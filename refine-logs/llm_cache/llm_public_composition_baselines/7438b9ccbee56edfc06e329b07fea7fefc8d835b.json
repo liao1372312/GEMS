@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"This API provides gas prices in the United States by state, including California, matching the required input and subtask description.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "This API provides gas prices in the United States by state, including California, matching the required input and subtask description."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1196,
+    "total_tokens": 1242,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 608,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 176,
+      "service_ttlt_ms": 710,
+      "total_duration_ms": 636,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "record_id": "Finance_response_2300",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Validate the VAT number 2121316722 for Slovakia to check if it is valid.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"VAT_number: 2121316722\", \"country: Slovakia\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve information on cashback offers for hotels in Los Angeles.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"location: Los Angeles\", \"offer_type: cashback\", \"category: hotels\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Validate the VAT number 2121316722 for Slovakia to check if it is valid.",
+        "domain": "Finance",
+        "required_inputs": [
+          "VAT_number: 2121316722",
+          "country: Slovakia"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve information on cashback offers for hotels in Los Angeles.",
+        "domain": "Finance",
+        "required_inputs": [
+          "location: Los Angeles",
+          "offer_type: cashback",
+          "category: hotels"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Validate the VAT number 2121316722 for Slovakia to check if it is valid.",
+      "domain": "Finance",
+      "required_inputs": [
+        "VAT_number: 2121316722",
+        "country: Slovakia"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve information on cashback offers for hotels in Los Angeles.",
+      "domain": "Finance",
+      "required_inputs": [
+        "location: Los Angeles",
+        "offer_type: cashback",
+        "category: hotels"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 2628,
+    "total_tokens": 2755,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1068,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 285,
+      "service_ttlt_ms": 1300,
+      "total_duration_ms": 1166,
+      "user_visible_ttft_ms": 142
+    }
+  }
+}

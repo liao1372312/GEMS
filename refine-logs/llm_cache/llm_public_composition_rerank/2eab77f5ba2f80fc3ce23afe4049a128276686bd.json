@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_600",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search and extract content related to the cultural significance of Italian expressions, directly satisfying the subtask intent. It allows querying for relevant information, which fits the need to collect cultural insights. Other APIs are unrelated to language or culture or are too generic or unrelated to the tourism/language domain.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.8,
+    "rationale": "The URL Content Extractor - Search Content API can be used to search and extract content related to the cultural significance of Italian expressions, directly satisfying the subtask intent. It allows querying for relevant information, which fits the need to collect cultural insights. Other APIs are unrelated to language or culture or are too generic or unrelated to the tourism/language domain."
+  },
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 2064,
+    "total_tokens": 2156,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 24,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 2215,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 24,
+      "service_ttft_ms": 161,
+      "service_ttlt_ms": 2329,
+      "total_duration_ms": 2247,
+      "user_visible_ttft_ms": 73
+    }
+  }
+}

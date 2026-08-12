@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_265",
+  "step_id": 2,
+  "raw": "{\n  \"selected_rank\": 10,\n  \"confidence\": 0.95,\n  \"rationale\": \"The YH Finance_v2 API directly provides quarterly income statements for a specified company symbol, matching the subtask to fetch income statements for Microsoft. It requires 'symbol' and 'frequency' parameters which can be bound from the subtask inputs (company_name mapped to symbol as MSFT, quarter implied by frequency). It is more specific to financial statements than other broader or unrelated APIs.\"\n}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.95,
+    "rationale": "The YH Finance_v2 API directly provides quarterly income statements for a specified company symbol, matching the subtask to fetch income statements for Microsoft. It requires 'symbol' and 'frequency' parameters which can be bound from the subtask inputs (company_name mapped to symbol as MSFT, quarter implied by frequency). It is more specific to financial statements than other broader or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1994,
+    "total_tokens": 2097,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 286,
+      "user_visible_ttft_ms": 112,
+      "total_duration_ms": 1465,
+      "pre_inference_ms": 174,
+      "service_tbt_ms": 13,
+      "service_ttlt_ms": 1626,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 1397,
+      "engine_tbt_ms": 13
+    }
+  }
+}

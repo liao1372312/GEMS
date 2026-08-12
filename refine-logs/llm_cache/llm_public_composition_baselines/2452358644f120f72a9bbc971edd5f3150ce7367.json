@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5435",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No available API matches the medical domain request for vaccination requirements or nutritional analysis. The provided candidates are unrelated to medical or nutrition information.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No available API matches the medical domain request for vaccination requirements or nutritional analysis. The provided candidates are unrelated to medical or nutrition information."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1569,
+    "total_tokens": 1617,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 730,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 831,
+      "total_duration_ms": 756,
+      "user_visible_ttft_ms": 79
+    }
+  }
+}

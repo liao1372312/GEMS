@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4586",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask is to find a good venue for the surprise party in town, which requires location and party size inputs. The URL Content Extractor - Search Content API allows searching content based on a query, which can be used to find venues in town. Other candidates are about jokes, facts, or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to find a good venue for the surprise party in town, which requires location and party size inputs. The URL Content Extractor - Search Content API allows searching content based on a query, which can be used to find venues in town. Other candidates are about jokes, facts, or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1838,
+    "total_tokens": 1923,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 756,
+      "pre_inference_ms": 135,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 227,
+      "service_ttlt_ms": 918,
+      "total_duration_ms": 790,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

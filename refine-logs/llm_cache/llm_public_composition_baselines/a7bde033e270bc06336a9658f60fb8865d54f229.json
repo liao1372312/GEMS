@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2720",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request is about organizing and promoting a charity event, which requires gathering event details first. The best next step is to gather information about the event date, location, cause, and key details before proceeding with flyer design and marketing tips. None of the provided APIs directly support event information gathering or flyer design, but the first candidate is the highest ranked and can be used to retrieve relevant news or information if needed. However, since the immediate next step is to gather event details from the user, no API call is strictly necessary now. The rationale is to clarify event details before proceeding.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request is about organizing and promoting a charity event, which requires gathering event details first. The best next step is to gather information about the event date, location, cause, and key details before proceeding with flyer design and marketing tips. None of the provided APIs directly support event information gathering or flyer design, but the first candidate is the highest ranked and can be used to retrieve relevant news or information if needed. However, since the immediate next step is to gather event details from the user, no API call is strictly necessary now. The rationale is to clarify event details before proceeding."
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1665,
+    "total_tokens": 1804,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1138,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 222,
+      "service_ttlt_ms": 1315,
+      "total_duration_ms": 1195,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

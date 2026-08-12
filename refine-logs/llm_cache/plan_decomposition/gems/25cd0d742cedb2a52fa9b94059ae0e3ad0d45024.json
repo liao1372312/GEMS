@@ -1,0 +1,68 @@
+{
+  "record_id": "Tourism_response_1345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve detailed information about the airport with the IATA code DFW.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"IATA_code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather additional relevant details about the airport such as location, facilities, and airlines served.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"airport_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve detailed information about the airport with the IATA code DFW.",
+        "domain": "tourism",
+        "required_inputs": [
+          "IATA_code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Gather additional relevant details about the airport such as location, facilities, and airlines served.",
+        "domain": "tourism",
+        "required_inputs": [
+          "airport_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve detailed information about the airport with the IATA code DFW.",
+      "domain": "tourism",
+      "required_inputs": [
+        "IATA_code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather additional relevant details about the airport such as location, facilities, and airlines served.",
+      "domain": "tourism",
+      "required_inputs": [
+        "airport_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 591,
+    "total_tokens": 699,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 1169,
+      "pre_inference_ms": 141,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 1362,
+      "total_duration_ms": 1232,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

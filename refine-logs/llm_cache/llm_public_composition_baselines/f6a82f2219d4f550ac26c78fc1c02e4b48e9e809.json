@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5268",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The user needs the latest prices of gold and silver, which matches the Gold Price - Live_v2 API that provides current metal prices. The other APIs focus on financial ratios and statements, not historical index prices or metal prices.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The user needs the latest prices of gold and silver, which matches the Gold Price - Live_v2 API that provides current metal prices. The other APIs focus on financial ratios and statements, not historical index prices or metal prices."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1477,
+    "total_tokens": 1544,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 220,
+      "user_visible_ttft_ms": 103,
+      "total_duration_ms": 888,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 995,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 829,
+      "engine_tbt_ms": 12
+    }
+  }
+}

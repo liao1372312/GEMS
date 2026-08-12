@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the medical domain or provide workout plans with exercise descriptions and safety guidelines as required.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the medical domain or provide workout plans with exercise descriptions and safety guidelines as required."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1662,
+    "total_tokens": 1706,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 559,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 270,
+      "service_ttlt_ms": 782,
+      "total_duration_ms": 654,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

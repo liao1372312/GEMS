@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "method": "Direct-LLM",
+      "plan_acc": 0.3018867924528302,
+      "plan_sem_f1": 0.4681940700808625,
+      "api_acc": 0.7414965986394558,
+      "para_f1": 0.7732426303854876,
+      "workflow_exact": 0.6037735849056604
+    },
+    {
+      "method": "CoT-LLM",
+      "plan_acc": 0.24528301886792453,
+      "plan_sem_f1": 0.45152740341419584,
+      "api_acc": 0.6802721088435374,
+      "para_f1": 0.7210884353741497,
+      "workflow_exact": 0.41509433962264153
+    },
+    {
+      "method": "ReAct",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.44073075771188974,
+      "api_acc": 0.6666666666666666,
+      "para_f1": 0.7210884353741497,
+      "workflow_exact": 0.4716981132075472
+    },
+    {
+      "method": "RestGPT-style",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.44011680143755616,
+      "api_acc": 0.7210884353741497,
+      "para_f1": 0.7596371882086168,
+      "workflow_exact": 0.5471698113207547
+    },
+    {
+      "method": "MA-NoMem",
+      "plan_acc": 0.24528301886792453,
+      "plan_sem_f1": 0.44016172506738543,
+      "api_acc": 0.6666666666666666,
+      "para_f1": 0.7324263038548753,
+      "workflow_exact": 0.4528301886792453
+    },
+    {
+      "method": "Trace-RAG",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.4594788858939802,
+      "api_acc": 0.6190476190476191,
+      "para_f1": 0.6462585034013606,
+      "workflow_exact": 0.4716981132075472
+    },
+    {
+      "method": "StructMem-RAG",
+      "plan_acc": 0.20754716981132076,
+      "plan_sem_f1": 0.4687780772686433,
+      "api_acc": 0.6122448979591837,
+      "para_f1": 0.6394557823129252,
+      "workflow_exact": 0.4528301886792453
+    },
+    {
+      "method": "GraphRAG-static",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.45835579514824804,
+      "api_acc": 0.6190476190476191,
+      "para_f1": 0.6462585034013606,
+      "workflow_exact": 0.4716981132075472
+    },
+    {
+      "method": "AgentKB-style",
+      "plan_acc": 0.20754716981132076,
+      "plan_sem_f1": 0.4631176999101527,
+      "api_acc": 0.564625850340136,
+      "para_f1": 0.6258503401360545,
+      "workflow_exact": 0.3584905660377358
+    },
+    {
+      "method": "\\textsc{GEMS} v4",
+      "plan_acc": 0.18867924528301888,
+      "plan_sem_f1": 0.45628930817610064,
+      "api_acc": 0.6870748299319728,
+      "para_f1": 0.7210884353741497,
+      "workflow_exact": 0.5283018867924528
+    }
+  ],
+  "note": "Plan metrics use GEMS-v4 catalog predictions and auto matcher; API metrics use validation-selected GEMS policy."
+}

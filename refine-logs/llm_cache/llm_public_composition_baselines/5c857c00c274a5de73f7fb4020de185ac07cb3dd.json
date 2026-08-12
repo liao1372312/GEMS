@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2343",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"This API provides detailed city information including timezone and local time, which matches the requirement to obtain local time and timezone information for given city names.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "This API provides detailed city information including timezone and local time, which matches the requirement to obtain local time and timezone information for given city names."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1778,
+    "total_tokens": 1828,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 658,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 805,
+      "total_duration_ms": 854,
+      "user_visible_ttft_ms": 103
+    }
+  }
+}

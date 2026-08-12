@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3742",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request involves finding a Mediterranean fish recipe and locating vegetarian restaurants in Stockholm. The subtask is to search for vegetarian restaurants in Stockholm, requiring location and cuisine type. Among the candidates, only the first API relates to Mediterranean recipes with fish, matching part of the request. However, none of the candidates directly support searching vegetarian restaurants in Stockholm. Despite the domain mismatch (user request domain is Medical, but the task is Food/Restaurant), the first candidate best matches the recipe part of the request and is the closest relevant API available.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request involves finding a Mediterranean fish recipe and locating vegetarian restaurants in Stockholm. The subtask is to search for vegetarian restaurants in Stockholm, requiring location and cuisine type. Among the candidates, only the first API relates to Mediterranean recipes with fish, matching part of the request. However, none of the candidates directly support searching vegetarian restaurants in Stockholm. Despite the domain mismatch (user request domain is Medical, but the task is Food/Restaurant), the first candidate best matches the recipe part of the request and is the closest relevant API available."
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 1311,
+    "total_tokens": 1440,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1490,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 260,
+      "service_ttlt_ms": 1686,
+      "total_duration_ms": 1587,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

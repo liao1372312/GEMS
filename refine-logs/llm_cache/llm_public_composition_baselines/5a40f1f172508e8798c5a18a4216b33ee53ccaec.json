@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_715",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask is to collect zodiac signs based on family member names, but none of the candidates directly provide zodiac sign extraction. However, Genderizeio can predict gender from names, which might be a preliminary step before zodiac sign collection if combined with birthdates. Other APIs are unrelated to zodiac signs or family member data.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to collect zodiac signs based on family member names, but none of the candidates directly provide zodiac sign extraction. However, Genderizeio can predict gender from names, which might be a preliminary step before zodiac sign collection if combined with birthdates. Other APIs are unrelated to zodiac signs or family member data."
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 1550,
+    "total_tokens": 1636,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 614,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 222,
+      "service_ttlt_ms": 815,
+      "total_duration_ms": 717,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

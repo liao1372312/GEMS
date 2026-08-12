@@ -1,0 +1,77 @@
+{
+  "record_id": "Medical_response_4731",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for stories on Medium related to cooking and food.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"topic\", \"platform\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch competitor news to keep updated with the latest food trends.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"keywords\", \"sources\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for stories on Medium related to cooking and food.",
+        "domain": "medical",
+        "required_inputs": [
+          "topic",
+          "platform"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch competitor news to keep updated with the latest food trends.",
+        "domain": "medical",
+        "required_inputs": [
+          "keywords",
+          "sources"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for stories on Medium related to cooking and food.",
+      "domain": "medical",
+      "required_inputs": [
+        "topic",
+        "platform"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch competitor news to keep updated with the latest food trends.",
+      "domain": "medical",
+      "required_inputs": [
+        "keywords",
+        "sources"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 2592,
+    "total_tokens": 2693,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 1261,
+      "pre_inference_ms": 143,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 405,
+      "service_ttlt_ms": 1579,
+      "total_duration_ms": 1465,
+      "user_visible_ttft_ms": 262
+    }
+  },
+  "goal_hints": [
+    "I'm a food enthusiast and I'm looking for some delicious recipes to try. Can you recommend some stories on Medium related to cooking and food",
+    "It would be great if you could",
+    "fetch me some competitor news to keep me updated with the latest food trends"
+  ]
+}

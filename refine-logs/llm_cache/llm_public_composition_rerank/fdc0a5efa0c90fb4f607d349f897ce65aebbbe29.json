@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The 'yiwugo product data - search products' API can search products by keyword, which can be used to search for Netflix original series by specifying platform and content type. It is more specific than generic search APIs and matches the entertainment domain.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The 'yiwugo product data - search products' API can search products by keyword, which can be used to search for Netflix original series by specifying platform and content type. It is more specific than generic search APIs and matches the entertainment domain."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 2370,
+    "total_tokens": 2441,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 875,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 265,
+      "service_ttlt_ms": 1069,
+      "total_duration_ms": 961,
+      "user_visible_ttft_ms": 146
+    }
+  }
+}

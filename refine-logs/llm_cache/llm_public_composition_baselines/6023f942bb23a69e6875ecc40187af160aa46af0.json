@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2628",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs to find the nearest pharmacy in Dakar with address and website, and the top-ranked API provides content search capability that can be used to find this information based on a query. It aligns well with the subtask and domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs to find the nearest pharmacy in Dakar with address and website, and the top-ranked API provides content search capability that can be used to find this information based on a query. It aligns well with the subtask and domain."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1655,
+    "total_tokens": 1724,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1377,
+      "pre_inference_ms": 233,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 342,
+      "service_ttlt_ms": 1663,
+      "total_duration_ms": 1438,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

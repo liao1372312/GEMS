@@ -1,0 +1,27 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"This API allows fetching football match scores for a given date, which aligns well with gathering insights into teams' performance for today's matches and requires the date parameter as specified.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "This API allows fetching football match scores for a given date, which aligns well with gathering insights into teams' performance for today's matches and requires the date parameter as specified."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1849,
+    "total_tokens": 1904,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 56
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1851
+    }
+  }
+}

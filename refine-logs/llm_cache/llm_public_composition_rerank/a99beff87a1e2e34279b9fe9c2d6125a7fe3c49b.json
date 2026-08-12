@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6059",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The Programming Memes Images API provides meme images but is specific to programming memes, not manatee jokes. The Anime Jokes APIs provide jokes but only related to anime, not manatees. None of the other APIs provide manatee jokes. Although no API explicitly states manatee jokes, the Programming Memes Images API is the closest entertainment meme-related API, but it is not specific to manatee jokes. Since no API specifically provides manatee jokes, the best available is the Programming Memes Images API, which can provide meme content, though not guaranteed manatee jokes.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Programming Memes Images API provides meme images but is specific to programming memes, not manatee jokes. The Anime Jokes APIs provide jokes but only related to anime, not manatees. None of the other APIs provide manatee jokes. Although no API explicitly states manatee jokes, the Programming Memes Images API is the closest entertainment meme-related API, but it is not specific to manatee jokes. Since no API specifically provides manatee jokes, the best available is the Programming Memes Images API, which can provide meme content, though not guaranteed manatee jokes."
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 1619,
+    "total_tokens": 1751,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 2124,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 306,
+      "service_ttlt_ms": 2358,
+      "total_duration_ms": 2251,
+      "user_visible_ttft_ms": 190
+    }
+  }
+}

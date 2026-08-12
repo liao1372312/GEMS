@@ -1,0 +1,50 @@
+{
+  "record_id": "Medical_response_4757",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'The Birthday Cake DB - List of Cakes' directly provides a list of cakes with names and images without requiring parameters, perfectly matching the step requirement better than the semantic top-1 which requires an ingredient parameter and returns single recipes.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to the task (Google Play apps), while LLM choice repeats the same API as step 1 without the ability to filter by difficulty. Neither clearly satisfies the step requirement to select a medium difficulty cake and get detailed info, so keep semantic top-1 to avoid breaking workflow.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'The Birthday Cake DB' provides detailed recipe info including portion size, preparation time, ingredients, step-by-step method, and images by cake ID, directly matching the step requirements better than semantic top-1 which requires an ingredient parameter and returns random recipes.\"\n    }\n  ],\n  \"workflow_confidence\": 0.8\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice 'The Birthday Cake DB - List of Cakes' directly provides a list of cakes with names and images without requiring parameters, perfectly matching the step requirement better than the semantic top-1 which requires an ingredient parameter and returns single recipes."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to the task (Google Play apps), while LLM choice repeats the same API as step 1 without the ability to filter by difficulty. Neither clearly satisfies the step requirement to select a medium difficulty cake and get detailed info, so keep semantic top-1 to avoid breaking workflow."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice 'The Birthday Cake DB' provides detailed recipe info including portion size, preparation time, ingredients, step-by-step method, and images by cake ID, directly matching the step requirements better than semantic top-1 which requires an ingredient parameter and returns random recipes."
+      }
+    ],
+    "workflow_confidence": 0.8
+  },
+  "usage": {
+    "completion_tokens": 263,
+    "prompt_tokens": 1474,
+    "total_tokens": 1737,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 3125,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 3273,
+      "total_duration_ms": 3176,
+      "user_visible_ttft_ms": 97
+    }
+  }
+}

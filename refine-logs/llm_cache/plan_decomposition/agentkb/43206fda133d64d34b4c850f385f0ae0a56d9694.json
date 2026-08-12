@@ -1,0 +1,84 @@
+{
+  "record_id": "Cross_Domain_response_8358",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for books relevant to the user's upcoming exams\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"exam subjects or topics\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed information for each selected book including title, author, and ISBN\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"list of selected books\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Generate barcodes for the selected books using their ISBN or unique identifiers\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"ISBNs or unique book identifiers\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for books relevant to the user's upcoming exams",
+        "domain": "education",
+        "required_inputs": [
+          "exam subjects or topics"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed information for each selected book including title, author, and ISBN",
+        "domain": "education",
+        "required_inputs": [
+          "list of selected books"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Generate barcodes for the selected books using their ISBN or unique identifiers",
+        "domain": "education",
+        "required_inputs": [
+          "ISBNs or unique book identifiers"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for books relevant to the user's upcoming exams",
+      "domain": "education",
+      "required_inputs": [
+        "exam subjects or topics"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed information for each selected book including title, author, and ISBN",
+      "domain": "education",
+      "required_inputs": [
+        "list of selected books"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Generate barcodes for the selected books using their ISBN or unique identifiers",
+      "domain": "education",
+      "required_inputs": [
+        "ISBNs or unique book identifiers"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 344,
+    "total_tokens": 497,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1806,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 2004,
+      "total_duration_ms": 1907,
+      "user_visible_ttft_ms": 168
+    }
+  }
+}

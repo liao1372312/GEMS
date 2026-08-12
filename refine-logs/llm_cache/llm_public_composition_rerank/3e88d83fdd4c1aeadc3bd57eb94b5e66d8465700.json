@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_396",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The 'Finance Social Sentiment For Twitter and StockTwits - /get-social-list' API directly provides a list of popular cryptocurrencies currently mentioned on social media, which fits the subtask of fetching popular coins for party themes. It requires no parameters and is specific to cryptocurrencies, making it the best choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'Finance Social Sentiment For Twitter and StockTwits - /get-social-list' API directly provides a list of popular cryptocurrencies currently mentioned on social media, which fits the subtask of fetching popular coins for party themes. It requires no parameters and is specific to cryptocurrencies, making it the best choice."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1769,
+    "total_tokens": 1847,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 802,
+      "pre_inference_ms": 138,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 317,
+      "service_ttlt_ms": 1021,
+      "total_duration_ms": 896,
+      "user_visible_ttft_ms": 179
+    }
+  }
+}

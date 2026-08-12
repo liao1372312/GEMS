@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5435",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The City and State Search API - States Search is the most relevant for querying vaccination requirements by country, as it allows searching states or regions within a specified country, which can be adapted to retrieve health-related requirements for France.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The City and State Search API - States Search is the most relevant for querying vaccination requirements by country, as it allows searching states or regions within a specified country, which can be adapted to retrieve health-related requirements for France."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1835,
+    "total_tokens": 1901,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 524,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 249,
+      "service_ttlt_ms": 719,
+      "total_duration_ms": 617,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

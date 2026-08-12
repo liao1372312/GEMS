@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3953",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides a list of all available currencies, which matches the user's request to explore virtual currencies for creating a virtual account. It requires no parameters and is directly relevant to the Finance domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides a list of all available currencies, which matches the user's request to explore virtual currencies for creating a virtual account. It requires no parameters and is directly relevant to the Finance domain."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1709,
+    "total_tokens": 1771,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 926,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 1091,
+      "total_duration_ms": 975,
+      "user_visible_ttft_ms": 87
+    }
+  }
+}

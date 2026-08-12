@@ -1,0 +1,128 @@
+{
+  "record_id": "Technology_response_2668",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the genre of the specific editorial on Deezer using the editorial identifier or name.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"editorial identifier or name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the details of a popular song on Soundcloud using the song identifier or title.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"song identifier or title\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the artist identifier from the popular song details retrieved from Soundcloud.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"song details from step 2\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Retrieve the information about the artist of the popular song using the artist identifier.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"artist identifier from step 3\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the genre of the specific editorial on Deezer using the editorial identifier or name.",
+        "domain": "technology",
+        "required_inputs": [
+          "editorial identifier or name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the details of a popular song on Soundcloud using the song identifier or title.",
+        "domain": "technology",
+        "required_inputs": [
+          "song identifier or title"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get the artist identifier from the popular song details retrieved from Soundcloud.",
+        "domain": "technology",
+        "required_inputs": [
+          "song details from step 2"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Retrieve the information about the artist of the popular song using the artist identifier.",
+        "domain": "technology",
+        "required_inputs": [
+          "artist identifier from step 3"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the genre of the specific editorial on Deezer using the editorial identifier or name.",
+      "domain": "technology",
+      "required_inputs": [
+        "editorial identifier or name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the details of a popular song on Soundcloud using the song identifier or title.",
+      "domain": "technology",
+      "required_inputs": [
+        "song identifier or title"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get the artist identifier from the popular song details retrieved from Soundcloud.",
+      "domain": "technology",
+      "required_inputs": [
+        "song details from step 2"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Retrieve the information about the artist of the popular song using the artist identifier.",
+      "domain": "technology",
+      "required_inputs": [
+        "artist identifier from step 3"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 2264,
+    "total_tokens": 2478,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 2800,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 340,
+      "service_ttlt_ms": 3071,
+      "total_duration_ms": 2973,
+      "user_visible_ttft_ms": 225
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the genre of the specific editorial on Deezer.",
+        "domain": "technology",
+        "required_inputs": [
+          "editorial identifier or name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the details of a popular song on Soundcloud.",
+        "domain": "technology",
+        "required_inputs": [
+          "song identifier or title"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get the information about the artist of the popular song retrieved from Soundcloud.",
+        "domain": "technology",
+        "required_inputs": [
+          "artist identifier from the song details"
+        ]
+      }
+    ]
+  }
+}

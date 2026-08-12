@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_700",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The TimeZoneDB API provides local time, timezone abbreviation, daylight saving info, and timestamp for a location like London, which matches the need to get ISO8601 date/time and timezone details for conversion in step 2.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The TimeZoneDB API provides local time, timezone abbreviation, daylight saving info, and timestamp for a location like London, which matches the need to get ISO8601 date/time and timezone details for conversion in step 2."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1755,
+    "total_tokens": 1822,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 45,
+      "engine_ttft_ms": 938,
+      "engine_ttlt_ms": 3936,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 45,
+      "service_ttft_ms": 1584,
+      "service_ttlt_ms": 4577,
+      "total_duration_ms": 4481,
+      "user_visible_ttft_ms": 1481
+    }
+  }
+}

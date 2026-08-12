@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3353",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 1.0, \"rationale\": \"This API specifically provides detailed football match predictions using the exact match_id required, directly satisfying the subtask intent for fetching prediction details for the given match.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "This API specifically provides detailed football match predictions using the exact match_id required, directly satisfying the subtask intent for fetching prediction details for the given match."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2080,
+    "total_tokens": 2132,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 617,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 789,
+      "total_duration_ms": 690,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

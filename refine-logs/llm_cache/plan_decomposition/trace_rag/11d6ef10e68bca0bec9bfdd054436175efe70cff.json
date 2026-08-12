@@ -1,0 +1,72 @@
+{
+  "record_id": "Cross_Domain_response_7311",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random trivia fact about a number between 10 and 20 to impress colleagues.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"number_range_start\", \"number_range_end\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find an album on Deezer that features various genres and has received positive reviews.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"genre_variety\", \"review_rating_threshold\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random trivia fact about a number between 10 and 20 to impress colleagues.",
+        "domain": "entertainment",
+        "required_inputs": [
+          "number_range_start",
+          "number_range_end"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find an album on Deezer that features various genres and has received positive reviews.",
+        "domain": "entertainment",
+        "required_inputs": [
+          "genre_variety",
+          "review_rating_threshold"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random trivia fact about a number between 10 and 20 to impress colleagues.",
+      "domain": "entertainment",
+      "required_inputs": [
+        "number_range_start",
+        "number_range_end"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find an album on Deezer that features various genres and has received positive reviews.",
+      "domain": "entertainment",
+      "required_inputs": [
+        "genre_variety",
+        "review_rating_threshold"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 336,
+    "total_tokens": 460,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 1269,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 221,
+      "service_ttlt_ms": 1449,
+      "total_duration_ms": 1349,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

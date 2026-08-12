@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice API directly provides current air quality measurements per city, matching the step intent better than generic city detail API.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice API requires city and country inputs and provides current air quality data, but the step requires analyzing data from step 1, not fetching new data. Semantic top-1 API is unrelated but no better alternative given.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"No API candidate provides quotes related to family and togetherness; LLM choice is unrelated proxy API.\"}],\"workflow_confidence\":0.7}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice API directly provides current air quality measurements per city, matching the step intent better than generic city detail API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice API requires city and country inputs and provides current air quality data, but the step requires analyzing data from step 1, not fetching new data. Semantic top-1 API is unrelated but no better alternative given."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "No API candidate provides quotes related to family and togetherness; LLM choice is unrelated proxy API."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 1345,
+    "total_tokens": 1491,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1651,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 234,
+      "service_ttlt_ms": 1832,
+      "total_duration_ms": 1724,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "record_id": "Tourism_response_1492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a suitable park location with active products for a family picnic\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the 5-day weather forecast for the chosen park location to ensure favorable weather conditions\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"latitude\", \"longitude\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a suitable park location with active products for a family picnic",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get the 5-day weather forecast for the chosen park location to ensure favorable weather conditions",
+        "domain": "Weather",
+        "required_inputs": [
+          "latitude",
+          "longitude"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find a suitable park location with active products for a family picnic",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Get the 5-day weather forecast for the chosen park location to ensure favorable weather conditions",
+      "domain": "Weather",
+      "required_inputs": [
+        "latitude",
+        "longitude"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 2429,
+    "total_tokens": 2534,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 953,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 164,
+      "service_ttlt_ms": 1074,
+      "total_duration_ms": 986,
+      "user_visible_ttft_ms": 71
+    }
+  },
+  "goal_hints": [
+    "I want to surprise my family with a picnic in the park. Can you find me a suitable location with active products",
+    "provide me with the 5 day forecast for that location to ensure favorable weather conditions"
+  ]
+}

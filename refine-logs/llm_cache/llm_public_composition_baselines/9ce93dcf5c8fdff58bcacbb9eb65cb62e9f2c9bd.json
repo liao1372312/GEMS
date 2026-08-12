@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3357",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"This API specifically supports retrieving historical exchange rate data between two specified dates, which matches the requirement for past week data.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "This API specifically supports retrieving historical exchange rate data between two specified dates, which matches the requirement for past week data."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1432,
+    "total_tokens": 1477,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 33,
+      "engine_ttft_ms": 86,
+      "engine_ttlt_ms": 1589,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 1712,
+      "total_duration_ms": 1623,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_1711",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"The LLM choice API provides direct access to airport location data including latitude and longitude, matching the step requirement better than the unrelated Beyblade API.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"The LLM choice API returns direct routes for an airport without airline restriction, directly matching the step description and intent better than the semantic top-1 which requires an airline code.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "The LLM choice API provides direct access to airport location data including latitude and longitude, matching the step requirement better than the unrelated Beyblade API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "The LLM choice API returns direct routes for an airport without airline restriction, directly matching the step description and intent better than the semantic top-1 which requires an airline code."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 1008,
+    "total_tokens": 1115,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1251,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 1438,
+      "total_duration_ms": 1342,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

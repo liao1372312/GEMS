@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The user wants real-time stock performance data; the Stock Sentiment API provides real-time social sentiment and news related to a specific stock, matching the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The user wants real-time stock performance data; the Stock Sentiment API provides real-time social sentiment and news related to a specific stock, matching the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1523,
+    "total_tokens": 1578,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 812,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 248,
+      "service_ttlt_ms": 1006,
+      "total_duration_ms": 906,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

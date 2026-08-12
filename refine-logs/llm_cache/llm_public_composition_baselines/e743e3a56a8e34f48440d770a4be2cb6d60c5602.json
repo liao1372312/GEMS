@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5076",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"Google Search 2 - Google News API can provide real-time news results including topics like 'border security' in Mexico, fitting the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "Google Search 2 - Google News API can provide real-time news results including topics like 'border security' in Mexico, fitting the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1896,
+    "total_tokens": 1948,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 640,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 455,
+      "service_ttlt_ms": 1030,
+      "total_duration_ms": 961,
+      "user_visible_ttft_ms": 379
+    }
+  }
+}

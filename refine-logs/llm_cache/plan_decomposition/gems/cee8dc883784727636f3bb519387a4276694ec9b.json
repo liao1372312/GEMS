@@ -1,0 +1,82 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the list of stock tickers to be compared.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the trading data including minimum values for each stock ticker over the desired timeframe.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\", \"timeframe\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Calculate the price differences for each stock based on the fetched trading data.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"trading data\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the list of stock tickers to be compared.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the trading data including minimum values for each stock ticker over the desired timeframe.",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers",
+          "timeframe"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate the price differences for each stock based on the fetched trading data.",
+        "domain": "Finance",
+        "required_inputs": [
+          "trading data"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the list of stock tickers to be compared.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the trading data including minimum values for each stock ticker over the desired timeframe.",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers",
+        "timeframe"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calculate the price differences for each stock based on the fetched trading data.",
+      "domain": "Finance",
+      "required_inputs": [
+        "trading data"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 530,
+    "total_tokens": 680,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1874,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 210,
+      "service_ttlt_ms": 2029,
+      "total_duration_ms": 1923,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

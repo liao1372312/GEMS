@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_700",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the current date and time in London including timezone abbreviation and daylight savings status\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Format the retrieved date and time in ISO8601, 12-hour, and 24-hour formats\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"current_date_time_in_london\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the current date and time in London including timezone abbreviation and daylight savings status",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Format the retrieved date and time in ISO8601, 12-hour, and 24-hour formats",
+        "domain": "tourism",
+        "required_inputs": [
+          "current_date_time_in_london"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the current date and time in London including timezone abbreviation and daylight savings status",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Format the retrieved date and time in ISO8601, 12-hour, and 24-hour formats",
+      "domain": "tourism",
+      "required_inputs": [
+        "current_date_time_in_london"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 485,
+    "total_tokens": 599,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 894,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 163,
+      "service_ttlt_ms": 1012,
+      "total_duration_ms": 939,
+      "user_visible_ttft_ms": 82
+    }
+  }
+}

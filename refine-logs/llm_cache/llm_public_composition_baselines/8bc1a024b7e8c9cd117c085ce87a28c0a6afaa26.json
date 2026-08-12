@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4653",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The Roman Gods By Pizza API - Random Roman God directly provides information about a random Roman god, matching the user's request perfectly.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The Roman Gods By Pizza API - Random Roman God directly provides information about a random Roman god, matching the user's request perfectly."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1542,
+    "total_tokens": 1589,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 132,
+      "engine_ttlt_ms": 1055,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 355,
+      "service_ttlt_ms": 1246,
+      "total_duration_ms": 1145,
+      "user_visible_ttft_ms": 243
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6831",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide an API for music charts or trending songs; however, candidate rank 1 is the closest in domain (product search) but unrelated to music. No suitable API found for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide an API for music charts or trending songs; however, candidate rank 1 is the closest in domain (product search) but unrelated to music. No suitable API found for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1734,
+    "total_tokens": 1799,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 959,
+      "pre_inference_ms": 176,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 345,
+      "service_ttlt_ms": 1204,
+      "total_duration_ms": 1034,
+      "user_visible_ttft_ms": 169
+    }
+  }
+}

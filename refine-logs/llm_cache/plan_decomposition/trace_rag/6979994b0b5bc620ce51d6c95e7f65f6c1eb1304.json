@@ -1,0 +1,68 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for various foods to consider for the dinner party\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food keywords or categories\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve nutritional information for the selected foods\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food identifiers or names\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for various foods to consider for the dinner party",
+        "domain": "Medical",
+        "required_inputs": [
+          "food keywords or categories"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve nutritional information for the selected foods",
+        "domain": "Medical",
+        "required_inputs": [
+          "food identifiers or names"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for various foods to consider for the dinner party",
+      "domain": "Medical",
+      "required_inputs": [
+        "food keywords or categories"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve nutritional information for the selected foods",
+      "domain": "Medical",
+      "required_inputs": [
+        "food identifiers or names"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 320,
+    "total_tokens": 417,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 28,
+      "engine_ttlt_ms": 992,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 163,
+      "service_ttlt_ms": 1122,
+      "total_duration_ms": 1056,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

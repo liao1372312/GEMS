@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_683",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"Among the candidates, only the 'Text to speech - get language' API is remotely related to language learning tools, providing available languages for text-to-speech, which can be useful for language learning apps. However, no candidate directly provides educational websites or apps for language learning. The other APIs are unrelated to education or language learning. Therefore, this API is the best fit given the options.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.8,
+    "rationale": "Among the candidates, only the 'Text to speech - get language' API is remotely related to language learning tools, providing available languages for text-to-speech, which can be useful for language learning apps. However, no candidate directly provides educational websites or apps for language learning. The other APIs are unrelated to education or language learning. Therefore, this API is the best fit given the options."
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 1452,
+    "total_tokens": 1552,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 239,
+      "user_visible_ttft_ms": 119,
+      "total_duration_ms": 1736,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 16,
+      "service_ttlt_ms": 1839,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1673,
+      "engine_tbt_ms": 16
+    }
+  }
+}

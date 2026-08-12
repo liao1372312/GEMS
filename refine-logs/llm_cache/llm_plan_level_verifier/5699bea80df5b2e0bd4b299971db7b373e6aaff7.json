@@ -1,0 +1,55 @@
+{
+  "record_id": "Tourism_response_3349",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1, both unrelated to romantic songs, so keep semantic top-1.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice (URL Content Extractor) better matches collecting love quotes than semantic top-1 (Google Reviews Scraper).\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice (World History Timeline) directly matches the subtask to get historical facts by year, better than semantic top-1 (Philosophers API).\"},{\"step_id\":4,\"accept_llm\":false,\"reason\":\"LLM choice is same as semantic top-1 and does not address combining all inputs; no better option available.\"}],\"workflow_confidence\":0.85}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1, both unrelated to romantic songs, so keep semantic top-1."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (URL Content Extractor) better matches collecting love quotes than semantic top-1 (Google Reviews Scraper)."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice (World History Timeline) directly matches the subtask to get historical facts by year, better than semantic top-1 (Philosophers API)."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "LLM choice is same as semantic top-1 and does not address combining all inputs; no better option available."
+      }
+    ],
+    "workflow_confidence": 0.85
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 2215,
+    "total_tokens": 2391,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 2124,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 251,
+      "service_ttlt_ms": 2332,
+      "total_duration_ms": 2218,
+      "user_visible_ttft_ms": 130
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The 'Cloud Cast - Get current weather' API provides real-time weather information for any city, including Paris, which aligns well with the request to fetch current climate data for Paris.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The 'Cloud Cast - Get current weather' API provides real-time weather information for any city, including Paris, which aligns well with the request to fetch current climate data for Paris."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1629,
+    "total_tokens": 1687,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 684,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 230,
+      "service_ttlt_ms": 869,
+      "total_duration_ms": 800,
+      "user_visible_ttft_ms": 97
+    }
+  }
+}

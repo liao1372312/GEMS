@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1952",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The subtask is to fetch a random salad recipe containing cucumbers. Candidate rank 3 is a Recipe Finder API specifically for salad recipes by ingredient, requiring 'ingredient' parameter which can be set to 'cucumber'. This directly satisfies the subtask intent and required inputs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 1.0,
+    "rationale": "The subtask is to fetch a random salad recipe containing cucumbers. Candidate rank 3 is a Recipe Finder API specifically for salad recipes by ingredient, requiring 'ingredient' parameter which can be set to 'cucumber'. This directly satisfies the subtask intent and required inputs."
+  },
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 2272,
+    "total_tokens": 2349,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 882,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 252,
+      "service_ttlt_ms": 1077,
+      "total_duration_ms": 968,
+      "user_visible_ttft_ms": 135
+    }
+  }
+}

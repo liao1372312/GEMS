@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_2807",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice API is unrelated to Kargom Nerede logistics companies; semantic top-1 is unrelated but less misleading.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice API is for Target.com product details, unrelated to Gearbest shipping options to Colombia; semantic top-1 is unrelated but less misleading.\"\n    }\n  ],\n  \"workflow_confidence\": 0.3\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice API is unrelated to Kargom Nerede logistics companies; semantic top-1 is unrelated but less misleading."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice API is for Target.com product details, unrelated to Gearbest shipping options to Colombia; semantic top-1 is unrelated but less misleading."
+      }
+    ],
+    "workflow_confidence": 0.3
+  },
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 1171,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 83,
+      "engine_ttlt_ms": 1968,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 286,
+      "service_ttlt_ms": 2164,
+      "total_duration_ms": 2065,
+      "user_visible_ttft_ms": 178
+    }
+  }
+}

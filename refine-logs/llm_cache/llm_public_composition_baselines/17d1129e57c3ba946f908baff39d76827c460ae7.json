@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 6,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user needs accurate predictions for upcoming matches based on historical data and player performance. The 'Football Prediction - Prediction Details' API provides predictions for upcoming football matches along with relevant statistics, which aligns well with the user's requirement for match predictions.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user needs accurate predictions for upcoming matches based on historical data and player performance. The 'Football Prediction - Prediction Details' API provides predictions for upcoming football matches along with relevant statistics, which aligns well with the user's requirement for match predictions."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1590,
+    "total_tokens": 1659,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 724,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 948,
+      "total_duration_ms": 835,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

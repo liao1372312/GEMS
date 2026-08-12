@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1369",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs specifically offer webcam data near the Taj Mahal or related tourism webcam information.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs specifically offer webcam data near the Taj Mahal or related tourism webcam information."
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 1501,
+    "total_tokens": 1542,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 93,
+      "engine_ttlt_ms": 576,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 229,
+      "service_ttlt_ms": 682,
+      "total_duration_ms": 608,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

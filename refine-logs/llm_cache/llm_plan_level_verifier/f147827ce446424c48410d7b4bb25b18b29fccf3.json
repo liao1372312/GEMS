@@ -1,0 +1,50 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is a Sports domain API providing upcoming cricket matches with no parameters, directly matching the step intent better than the unrelated Beyblade API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides detailed match info by matchId including special types, start times, competition names, and teams, matching the step requirements better than the semantic top-1 which requires seriesid and does not directly provide match details.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is a Sports API providing live betting odds by match_id, directly matching the step requirement, whereas semantic top-1 is unrelated to sports or odds.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice is a Sports domain API providing upcoming cricket matches with no parameters, directly matching the step intent better than the unrelated Beyblade API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice provides detailed match info by matchId including special types, start times, competition names, and teams, matching the step requirements better than the semantic top-1 which requires seriesid and does not directly provide match details."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice is a Sports API providing live betting odds by match_id, directly matching the step requirement, whereas semantic top-1 is unrelated to sports or odds."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 1524,
+    "total_tokens": 1729,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 242,
+      "user_visible_ttft_ms": 127,
+      "total_duration_ms": 3148,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 15,
+      "service_ttlt_ms": 3254,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 3090,
+      "engine_tbt_ms": 15
+    }
+  }
+}

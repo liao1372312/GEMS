@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4481",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask is to filter the retrieved trade data to include only the last 100 trades. The Prague Stock Exchange - /api/Trades endpoint provides trade data from the Prague Stock Exchange, which is the source of the data to be filtered. Although it has no required parameters, it is the direct source of trade data for the requested stock and ISIN. The filtering by last 100 trades is a data processing step after retrieval, so this API is the best fit for obtaining the raw trade data to then filter.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to filter the retrieved trade data to include only the last 100 trades. The Prague Stock Exchange - /api/Trades endpoint provides trade data from the Prague Stock Exchange, which is the source of the data to be filtered. Although it has no required parameters, it is the direct source of trade data for the requested stock and ISIN. The filtering by last 100 trades is a data processing step after retrieval, so this API is the best fit for obtaining the raw trade data to then filter."
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1709,
+    "total_tokens": 1835,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 157,
+      "engine_ttlt_ms": 2366,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 271,
+      "service_ttlt_ms": 2478,
+      "total_duration_ms": 2394,
+      "user_visible_ttft_ms": 182
+    }
+  }
+}

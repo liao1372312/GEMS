@@ -1,0 +1,94 @@
+{
+  "record_id": "Tourism_response_5275",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve wine options suitable for a wine tasting event\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve cheese pairings that complement the selected wines\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Find brewery tours available in New York\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve wine options suitable for a wine tasting event",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve cheese pairings that complement the selected wines",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Find brewery tours available in New York",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve wine options suitable for a wine tasting event",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve cheese pairings that complement the selected wines",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Find brewery tours available in New York",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 2066,
+    "total_tokens": 2196,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 1890,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 419,
+      "service_ttlt_ms": 2192,
+      "total_duration_ms": 2056,
+      "user_visible_ttft_ms": 272
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Organize a wine tasting event with cheese pairings",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Find a brewery tour in New York",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  }
+}

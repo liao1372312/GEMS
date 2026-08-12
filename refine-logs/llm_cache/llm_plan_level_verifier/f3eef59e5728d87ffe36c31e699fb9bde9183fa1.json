@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_1563",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Admiralbet - Odds' directly matches the subtask to fetch latest odds, more appropriate than 'Admiralbet - Matches'.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Betmaster - Odds' explicitly provides latest odds, better matching the subtask than 'Betmaster - Matches'.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No API provides payment gateway recommendations; semantic top-1 and LLM choice are unrelated to payment gateways.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice 'Admiralbet - Odds' directly matches the subtask to fetch latest odds, more appropriate than 'Admiralbet - Matches'."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice 'Betmaster - Odds' explicitly provides latest odds, better matching the subtask than 'Betmaster - Matches'."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "No API provides payment gateway recommendations; semantic top-1 and LLM choice are unrelated to payment gateways."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 990,
+    "total_tokens": 1168,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1876,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 220,
+      "service_ttlt_ms": 2041,
+      "total_duration_ms": 1932,
+      "user_visible_ttft_ms": 103
+    }
+  }
+}

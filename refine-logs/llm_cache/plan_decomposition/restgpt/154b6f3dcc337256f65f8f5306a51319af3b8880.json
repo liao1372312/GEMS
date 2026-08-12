@@ -1,0 +1,68 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Collect a list of foods intended for the dinner party\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food names or categories\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve nutritional information for each food item in the list\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food names\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Collect a list of foods intended for the dinner party",
+        "domain": "Medical",
+        "required_inputs": [
+          "food names or categories"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve nutritional information for each food item in the list",
+        "domain": "Medical",
+        "required_inputs": [
+          "food names"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Collect a list of foods intended for the dinner party",
+      "domain": "Medical",
+      "required_inputs": [
+        "food names or categories"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve nutritional information for each food item in the list",
+      "domain": "Medical",
+      "required_inputs": [
+        "food names"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 171,
+    "total_tokens": 269,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1612,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 165,
+      "service_ttlt_ms": 1750,
+      "total_duration_ms": 1660,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

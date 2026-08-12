@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3990",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are related to recipes or dietary preferences; most are finance or unrelated domains. No suitable API is available to fulfill the subtask of researching gluten-free recipes for large groups.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are related to recipes or dietary preferences; most are finance or unrelated domains. No suitable API is available to fulfill the subtask of researching gluten-free recipes for large groups."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1510,
+    "total_tokens": 1571,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 852,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1067,
+      "total_duration_ms": 930,
+      "user_visible_ttft_ms": 128
+    }
+  }
+}

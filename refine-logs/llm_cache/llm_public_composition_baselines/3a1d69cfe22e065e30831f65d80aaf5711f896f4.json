@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3827",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'Location and Time - Search City by Name' API provides city details including geolocation and timezone, which matches the requirement to gather timezone information for tropical destinations.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'Location and Time - Search City by Name' API provides city details including geolocation and timezone, which matches the requirement to gather timezone information for tropical destinations."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1813,
+    "total_tokens": 1868,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 519,
+      "pre_inference_ms": 179,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 350,
+      "service_ttlt_ms": 923,
+      "total_duration_ms": 764,
+      "user_visible_ttft_ms": 171
+    }
+  }
+}

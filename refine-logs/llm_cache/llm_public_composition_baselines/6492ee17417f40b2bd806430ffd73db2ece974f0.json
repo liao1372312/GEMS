@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate API is focused on gaming and provides details about specific games, which aligns well with the task of gathering reviews and information about board games from a gaming website.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate API is focused on gaming and provides details about specific games, which aligns well with the task of gathering reviews and information about board games from a gaming website."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1316,
+    "total_tokens": 1372,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 880,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 982,
+      "total_duration_ms": 904,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

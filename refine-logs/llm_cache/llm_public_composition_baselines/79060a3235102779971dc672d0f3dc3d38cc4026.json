@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5322",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Stock Sentiment API - News Sentiment Data provides real-time news articles related to a specific stock ticker, suitable for fetching ESG news about Apple Inc.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The Stock Sentiment API - News Sentiment Data provides real-time news articles related to a specific stock ticker, suitable for fetching ESG news about Apple Inc."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1487,
+    "total_tokens": 1540,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 826,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1026,
+      "total_duration_ms": 915,
+      "user_visible_ttft_ms": 150
+    }
+  }
+}

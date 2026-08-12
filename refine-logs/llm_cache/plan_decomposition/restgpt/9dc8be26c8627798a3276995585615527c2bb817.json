@@ -1,0 +1,92 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch wisdom quotes related to anger to help calm the user's mind\",\n      \"domain\": \"quotes\",\n      \"required_inputs\": [\"topic: anger\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the list of top-ranked Netflix original series\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"platform: Netflix\", \"content_type: original series\", \"ranking_criteria: top-ranked\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get today's general horoscope for the user's zodiac sign in English\",\n      \"domain\": \"horoscope\",\n      \"required_inputs\": [\"zodiac_sign\", \"language: English\", \"date: today\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch wisdom quotes related to anger to help calm the user's mind",
+        "domain": "quotes",
+        "required_inputs": [
+          "topic: anger"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the list of top-ranked Netflix original series",
+        "domain": "entertainment",
+        "required_inputs": [
+          "platform: Netflix",
+          "content_type: original series",
+          "ranking_criteria: top-ranked"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get today's general horoscope for the user's zodiac sign in English",
+        "domain": "horoscope",
+        "required_inputs": [
+          "zodiac_sign",
+          "language: English",
+          "date: today"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch wisdom quotes related to anger to help calm the user's mind",
+      "domain": "quotes",
+      "required_inputs": [
+        "topic: anger"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the list of top-ranked Netflix original series",
+      "domain": "entertainment",
+      "required_inputs": [
+        "platform: Netflix",
+        "content_type: original series",
+        "ranking_criteria: top-ranked"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get today's general horoscope for the user's zodiac sign in English",
+      "domain": "horoscope",
+      "required_inputs": [
+        "zodiac_sign",
+        "language: English",
+        "date: today"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 231,
+    "total_tokens": 403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1879,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 241,
+      "service_ttlt_ms": 2079,
+      "total_duration_ms": 1979,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5275",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The task is to add recommended wines to the cart on Direct Wines, and the Direct Wines - Cart API is the most relevant for managing the cart.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The task is to add recommended wines to the cart on Direct Wines, and the Direct Wines - Cart API is the most relevant for managing the cart."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1232,
+    "total_tokens": 1284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 516,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 274,
+      "service_ttlt_ms": 728,
+      "total_duration_ms": 613,
+      "user_visible_ttft_ms": 152
+    }
+  }
+}

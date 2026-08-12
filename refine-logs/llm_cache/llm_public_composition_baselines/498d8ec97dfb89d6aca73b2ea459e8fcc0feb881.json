@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3234",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The 'List Movies - Genre' API is specifically designed to list and search movies by genre, which aligns well with the requirement to find movies or series available for streaming in the US by genre and type.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'List Movies - Genre' API is specifically designed to list and search movies by genre, which aligns well with the requirement to find movies or series available for streaming in the US by genre and type."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1542,
+    "total_tokens": 1605,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 956,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 162,
+      "service_ttlt_ms": 1070,
+      "total_duration_ms": 984,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

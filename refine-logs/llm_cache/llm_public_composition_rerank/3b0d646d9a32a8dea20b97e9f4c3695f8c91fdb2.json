@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5364",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 1.0, \"rationale\": \"The subtask is to fetch the LDU boundaries for the postal code 'T0L 1K0' using the ca.boundaries.io tool. Candidate rank 5 is specifically designed to query LDU boundaries by LDU postal code, which directly matches the subtask intent and required input 'postal_code'. Other ca.boundaries.io APIs either require latitude/longitude or are for different boundary types, making rank 5 the most specific and appropriate choice.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 1.0,
+    "rationale": "The subtask is to fetch the LDU boundaries for the postal code 'T0L 1K0' using the ca.boundaries.io tool. Candidate rank 5 is specifically designed to query LDU boundaries by LDU postal code, which directly matches the subtask intent and required input 'postal_code'. Other ca.boundaries.io APIs either require latitude/longitude or are for different boundary types, making rank 5 the most specific and appropriate choice."
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 2553,
+    "total_tokens": 2667,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 83,
+      "engine_ttlt_ms": 2382,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 210,
+      "service_ttlt_ms": 2505,
+      "total_duration_ms": 2419,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for foods using relevant keywords to identify potential dinner party ingredients.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"keywords\", \"results_per_page\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the nutritional information for each selected food item identified in the search.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"FDC_ID\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for foods using relevant keywords to identify potential dinner party ingredients.",
+        "domain": "medical",
+        "required_inputs": [
+          "keywords",
+          "results_per_page"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the nutritional information for each selected food item identified in the search.",
+        "domain": "medical",
+        "required_inputs": [
+          "FDC_ID"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for foods using relevant keywords to identify potential dinner party ingredients.",
+      "domain": "medical",
+      "required_inputs": [
+        "keywords",
+        "results_per_page"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the nutritional information for each selected food item identified in the search.",
+      "domain": "medical",
+      "required_inputs": [
+        "FDC_ID"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 563,
+    "total_tokens": 669,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1304,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1494,
+      "total_duration_ms": 1412,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

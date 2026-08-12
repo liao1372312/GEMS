@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_569",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"This API allows querying disasters by address and date range, matching the need to check recent disasters near Paris during a specific time period.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "This API allows querying disasters by address and date range, matching the need to check recent disasters near Paris during a specific time period."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1789,
+    "total_tokens": 1837,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 392,
+      "pre_inference_ms": 208,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 446,
+      "service_ttlt_ms": 828,
+      "total_duration_ms": 624,
+      "user_visible_ttft_ms": 237
+    }
+  }
+}

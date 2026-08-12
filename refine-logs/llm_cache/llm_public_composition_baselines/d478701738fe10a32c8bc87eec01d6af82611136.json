@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_91",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"ScrapeMaster API can be used to research popular beach resorts with family-friendly amenities by scraping relevant travel websites, which matches the user's request in the Tourism domain.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "ScrapeMaster API can be used to research popular beach resorts with family-friendly amenities by scraping relevant travel websites, which matches the user's request in the Tourism domain."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1833,
+    "total_tokens": 1887,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 678,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 242,
+      "service_ttlt_ms": 855,
+      "total_duration_ms": 769,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

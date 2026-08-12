@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a random word that contains the substring 'game' to inspire board game selection\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search a gaming website for reviews related to the identified word or board game\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": [\"word containing 'game'\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a random word that contains the substring 'game' to inspire board game selection",
+        "domain": "recreation",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Search a gaming website for reviews related to the identified word or board game",
+        "domain": "recreation",
+        "required_inputs": [
+          "word containing 'game'"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find a random word that contains the substring 'game' to inspire board game selection",
+      "domain": "recreation",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Search a gaming website for reviews related to the identified word or board game",
+      "domain": "recreation",
+      "required_inputs": [
+        "word containing 'game'"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 301,
+    "total_tokens": 409,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1278,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 1433,
+      "total_duration_ms": 1362,
+      "user_visible_ttft_ms": 133
+    }
+  }
+}

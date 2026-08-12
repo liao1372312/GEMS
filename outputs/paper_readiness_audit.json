@@ -1,0 +1,124 @@
+{
+  "overall_paper_ready": true,
+  "statuses": [
+    {
+      "name": "Validation LLM coverage",
+      "path": "outputs/missing_val_llm_plan.json",
+      "paper_ready": true,
+      "reason": "validation LLM coverage complete",
+      "details": {
+        "val_steps": 604,
+        "available": 604,
+        "missing": 0,
+        "coverage": 1.0
+      }
+    },
+    {
+      "name": "LLM rerank summary",
+      "path": "outputs/llm_rerank_summary.json",
+      "paper_ready": true,
+      "reason": "full validation and test LLM rerank files are ready",
+      "details": {
+        "val_ready": true,
+        "test_ready": true,
+        "runs": 2
+      }
+    },
+    {
+      "name": "Semantic/LLM router",
+      "path": "outputs/llm_router_eval.json",
+      "paper_ready": true,
+      "reason": "paper-ready: validation routed examples have full LLM coverage",
+      "details": {
+        "val_coverage": null,
+        "coverage": null,
+        "selection_split": null
+      }
+    },
+    {
+      "name": "LLM acceptance router",
+      "path": "outputs/llm_acceptance_router_eval.json",
+      "paper_ready": true,
+      "reason": "threshold selected on validation split",
+      "details": {
+        "val_coverage": null,
+        "coverage": {
+          "val_available": 604,
+          "val_steps": 604,
+          "val_coverage": 1.0,
+          "test_available": 623,
+          "test_steps": 623,
+          "test_coverage": 1.0
+        },
+        "selection_split": null
+      }
+    },
+    {
+      "name": "GEMS plan verifier",
+      "path": "outputs/gems_plan_verifier_eval.json",
+      "paper_ready": true,
+      "reason": "paper-ready: policy selected on validation split",
+      "details": {
+        "val_coverage": 1.0,
+        "coverage": null,
+        "selection_split": "val"
+      }
+    },
+    {
+      "name": "GEMS API verifier",
+      "path": "outputs/gems_plan_verifier_robust_api_eval.json",
+      "paper_ready": true,
+      "reason": "paper-ready: policy selected on validation split",
+      "details": {
+        "val_coverage": 1.0,
+        "coverage": null,
+        "selection_split": "val"
+      }
+    },
+    {
+      "name": "GEMS adaptive verifier",
+      "path": "outputs/gems_adaptive_verifier_eval.json",
+      "paper_ready": true,
+      "reason": "paper-ready: policy selected on validation split",
+      "details": {
+        "val_coverage": 1.0,
+        "coverage": null,
+        "selection_split": "val"
+      }
+    },
+    {
+      "name": "Main static composition table",
+      "path": "outputs/main_static_composition_results.json",
+      "paper_ready": true,
+      "reason": "completed local/experience-memory main rows are ready",
+      "details": {
+        "rows": 10,
+        "ready_rows": [
+          "GraphRAG-static",
+          "Reflexion-Memory",
+          "StructMem-RAG",
+          "Trace-RAG",
+          "\\textsc{GEMS}"
+        ],
+        "pending_llm_agent_rows": [
+          "Direct-LLM",
+          "CoT-LLM",
+          "ReAct",
+          "RestGPT-style",
+          "MA-NoMem"
+        ]
+      }
+    },
+    {
+      "name": "Exported tables",
+      "path": "outputs/experiment_tables.tex",
+      "paper_ready": true,
+      "reason": "main router/verifier captions are paper-ready",
+      "details": {
+        "diagnostic_count": 3,
+        "blocking_patterns": []
+      }
+    }
+  ],
+  "required_next_actions": []
+}

@@ -1,0 +1,68 @@
+{
+  "record_id": "Cross_Domain_response_9562",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find players whose weight is 200 pounds and retrieve their names and weights\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"weight\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for a player with the name Michael Johnson and retrieve his details\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"player name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find players whose weight is 200 pounds and retrieve their names and weights",
+        "domain": "sports",
+        "required_inputs": [
+          "weight"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for a player with the name Michael Johnson and retrieve his details",
+        "domain": "sports",
+        "required_inputs": [
+          "player name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find players whose weight is 200 pounds and retrieve their names and weights",
+      "domain": "sports",
+      "required_inputs": [
+        "weight"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for a player with the name Michael Johnson and retrieve his details",
+      "domain": "sports",
+      "required_inputs": [
+        "player name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 193,
+    "total_tokens": 295,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 1580,
+      "pre_inference_ms": 639,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 949,
+      "service_ttlt_ms": 2326,
+      "total_duration_ms": 1701,
+      "user_visible_ttft_ms": 311
+    }
+  }
+}

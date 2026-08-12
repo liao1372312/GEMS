@@ -1,0 +1,63 @@
+{
+  "record_id": "Technology_response_2871",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future to gather fun facts about the artists.\",\n      \"domain\": \"Entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch a list of levels from Jet Set Radio and Jet Set Radio Future with detailed information about each level.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future to gather fun facts about the artists.",
+        "domain": "Entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch a list of levels from Jet Set Radio and Jet Set Radio Future with detailed information about each level.",
+        "domain": "Technology",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future to gather fun facts about the artists.",
+      "domain": "Entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch a list of levels from Jet Set Radio and Jet Set Radio Future with detailed information about each level.",
+      "domain": "Technology",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 2139,
+    "total_tokens": 2254,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 34,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 3968,
+      "pre_inference_ms": 140,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 274,
+      "service_ttlt_ms": 4158,
+      "total_duration_ms": 4029,
+      "user_visible_ttft_ms": 134
+    }
+  },
+  "goal_hints": [
+    "I want to learn more about the game Jet Set Radio and Jet Set Radio Future, including fun facts about the artists and a list of levels with details."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random quote from a villain character to provide inspiration for the comic book.\",\n      \"domain\": \"Quotes\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve interesting facts about numbers to incorporate into the comic book storyline.\",\n      \"domain\": \"Numbers\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random quote from a villain character to provide inspiration for the comic book.",
+        "domain": "Quotes",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve interesting facts about numbers to incorporate into the comic book storyline.",
+        "domain": "Numbers",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random quote from a villain character to provide inspiration for the comic book.",
+      "domain": "Quotes",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve interesting facts about numbers to incorporate into the comic book storyline.",
+      "domain": "Numbers",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 195,
+    "total_tokens": 292,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 29,
+      "engine_ttlt_ms": 1177,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 134,
+      "service_ttlt_ms": 1279,
+      "total_duration_ms": 1205,
+      "user_visible_ttft_ms": 53
+    }
+  }
+}

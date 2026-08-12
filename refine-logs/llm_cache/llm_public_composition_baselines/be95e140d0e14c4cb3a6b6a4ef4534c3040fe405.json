@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5265",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Fidelity Investments - news/list-top API endpoint directly lists the top news from Fidelity Investments without requiring parameters, matching the subtask to fetch the latest top news from Fidelity Investments.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Fidelity Investments - news/list-top API endpoint directly lists the top news from Fidelity Investments without requiring parameters, matching the subtask to fetch the latest top news from Fidelity Investments."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1331,
+    "total_tokens": 1388,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 414,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 210,
+      "service_ttlt_ms": 563,
+      "total_duration_ms": 477,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "record_id": "Tourism_response_700",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice TimeZoneDB API directly provides local time in London with ISO8601 format and timezone details, matching the step intent better than Football Score API.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 is a currency conversion API unrelated to time format conversion; LLM choice TimeZoneDB is more appropriate but is ranked 2, so keep semantic top-1 as LLM choice is not clearly better than semantic top-1.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice TimeZoneDB API directly provides timezone abbreviation for London, matching the step intent better than Football Score API.\"},{\"step_id\":4,\"accept_llm\":true,\"reason\":\"LLM choice World Time API directly provides Daylight Savings status for London, clearly better matching the step intent than Football Score API.\"}],\"workflow_confidence\":0.9}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice TimeZoneDB API directly provides local time in London with ISO8601 format and timezone details, matching the step intent better than Football Score API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 is a currency conversion API unrelated to time format conversion; LLM choice TimeZoneDB is more appropriate but is ranked 2, so keep semantic top-1 as LLM choice is not clearly better than semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice TimeZoneDB API directly provides timezone abbreviation for London, matching the step intent better than Football Score API."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice World Time API directly provides Daylight Savings status for London, clearly better matching the step intent than Football Score API."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 2090,
+    "total_tokens": 2293,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 27,
+      "engine_ttft_ms": 177,
+      "engine_ttlt_ms": 5579,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 27,
+      "service_ttft_ms": 480,
+      "service_ttlt_ms": 5879,
+      "total_duration_ms": 5763,
+      "user_visible_ttft_ms": 353
+    }
+  }
+}

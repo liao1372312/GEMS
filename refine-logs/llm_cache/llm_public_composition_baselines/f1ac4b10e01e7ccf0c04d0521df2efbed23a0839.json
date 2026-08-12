@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5449",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The Mboum Finance aggressive_small_caps API directly matches the subtask of querying small cap stocks with high earnings growth rates, requiring no additional parameters and providing relevant financial data.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The Mboum Finance aggressive_small_caps API directly matches the subtask of querying small cap stocks with high earnings growth rates, requiring no additional parameters and providing relevant financial data."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1285,
+    "total_tokens": 1341,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 634,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 239,
+      "service_ttlt_ms": 836,
+      "total_duration_ms": 773,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

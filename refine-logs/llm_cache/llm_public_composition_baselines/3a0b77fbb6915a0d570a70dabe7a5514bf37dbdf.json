@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Cloud Cast API provides current weather data for a specified city, matching the task to fetch current climate data for Madrid.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Cloud Cast API provides current weather data for a specified city, matching the task to fetch current climate data for Madrid."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1622,
+    "total_tokens": 1668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 594,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 182,
+      "service_ttlt_ms": 724,
+      "total_duration_ms": 643,
+      "user_visible_ttft_ms": 96
+    }
+  }
+}

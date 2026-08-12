@@ -1,0 +1,70 @@
+{
+  "record_id": "Tourism_response_5446",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the vehicle type for the rental car with license plate number 'AFM915' in Finland.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"license_plate_number\", \"country\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Check the availability of the trademark 'amazon' using the USPTO Trademark API.\",\n      \"domain\": \"legal\",\n      \"required_inputs\": [\"trademark_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the vehicle type for the rental car with license plate number 'AFM915' in Finland.",
+        "domain": "tourism",
+        "required_inputs": [
+          "license_plate_number",
+          "country"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Check the availability of the trademark 'amazon' using the USPTO Trademark API.",
+        "domain": "legal",
+        "required_inputs": [
+          "trademark_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the vehicle type for the rental car with license plate number 'AFM915' in Finland.",
+      "domain": "tourism",
+      "required_inputs": [
+        "license_plate_number",
+        "country"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Check the availability of the trademark 'amazon' using the USPTO Trademark API.",
+      "domain": "legal",
+      "required_inputs": [
+        "trademark_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 802,
+    "total_tokens": 918,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 942,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1122,
+      "total_duration_ms": 1020,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

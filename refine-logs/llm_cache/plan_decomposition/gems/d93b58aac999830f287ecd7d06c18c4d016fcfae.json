@@ -1,0 +1,91 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"platform name\", \"sport type (basketball)\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"match IDs or match details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+        "domain": "sports",
+        "required_inputs": [
+          "platform name",
+          "sport type (basketball)"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+        "domain": "sports",
+        "required_inputs": [
+          "match IDs or match details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+      "domain": "sports",
+      "required_inputs": [
+        "platform name",
+        "sport type (basketball)"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+      "domain": "sports",
+      "required_inputs": [
+        "match IDs or match details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 2821,
+    "total_tokens": 2937,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 98,
+      "engine_ttlt_ms": 2725,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 332,
+      "service_ttlt_ms": 2949,
+      "total_duration_ms": 2832,
+      "user_visible_ttft_ms": 205
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+        "domain": "sports",
+        "required_inputs": [
+          "platform name",
+          "sport type (basketball)"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+        "domain": "sports",
+        "required_inputs": [
+          "match IDs or match details"
+        ]
+      }
+    ]
+  }
+}

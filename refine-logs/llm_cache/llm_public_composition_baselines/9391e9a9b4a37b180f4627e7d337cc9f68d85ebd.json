@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Recipe Finder - dinner/ingredient API is the most relevant for recommending a vegan dinner recipe with detailed ingredients and method, matching the user's request for a recipe and details.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Recipe Finder - dinner/ingredient API is the most relevant for recommending a vegan dinner recipe with detailed ingredients and method, matching the user's request for a recipe and details."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1634,
+    "total_tokens": 1690,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 542,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 316,
+      "service_ttlt_ms": 755,
+      "total_duration_ms": 629,
+      "user_visible_ttft_ms": 188
+    }
+  }
+}

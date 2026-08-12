@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3942",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user specifically requests prediction and other data for an image with the URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg', which matches the candidate API 'betaRecipes - Send Image' that predicts recipes based on input pictures and uses the exact image URL.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user specifically requests prediction and other data for an image with the URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg', which matches the candidate API 'betaRecipes - Send Image' that predicts recipes based on input pictures and uses the exact image URL."
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 1635,
+    "total_tokens": 1724,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 230,
+      "user_visible_ttft_ms": 120,
+      "total_duration_ms": 878,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 981,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 795,
+      "engine_tbt_ms": 8
+    }
+  }
+}

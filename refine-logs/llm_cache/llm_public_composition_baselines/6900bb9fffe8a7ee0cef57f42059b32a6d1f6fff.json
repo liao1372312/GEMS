@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_829",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.1, \"rationale\": \"None of the candidates provide currency exchange rates; however, the top-ranked API is in the Finance domain and might be the closest available option.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.1,
+    "rationale": "None of the candidates provide currency exchange rates; however, the top-ranked API is in the Finance domain and might be the closest available option."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1516,
+    "total_tokens": 1566,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 360,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 496,
+      "total_duration_ms": 392,
+      "user_visible_ttft_ms": 62
+    }
+  }
+}

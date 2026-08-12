@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1677",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Skyscanner_v2 - Search Place API is the most relevant for finding budget-friendly hotels along a route, as it provides hotel search capabilities and location data needed for accommodation queries.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Skyscanner_v2 - Search Place API is the most relevant for finding budget-friendly hotels along a route, as it provides hotel search capabilities and location data needed for accommodation queries."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1458,
+    "total_tokens": 1517,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 587,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 164,
+      "service_ttlt_ms": 702,
+      "total_duration_ms": 619,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

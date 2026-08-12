@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4586",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Humor-Jokes-and-Memes API specifically includes Chuck Norris jokes and is designed for entertainment, making it the best fit for fetching Chuck Norris jokes.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Humor-Jokes-and-Memes API specifically includes Chuck Norris jokes and is designed for entertainment, making it the best fit for fetching Chuck Norris jokes."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1747,
+    "total_tokens": 1799,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 596,
+      "pre_inference_ms": 151,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 331,
+      "service_ttlt_ms": 927,
+      "total_duration_ms": 796,
+      "user_visible_ttft_ms": 180
+    }
+  }
+}

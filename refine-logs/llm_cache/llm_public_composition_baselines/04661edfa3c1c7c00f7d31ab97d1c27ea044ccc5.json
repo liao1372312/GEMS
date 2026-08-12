@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3328",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The Seeking Alpha API directly provides historical stock prices for a given symbol and date range, matching the requirement to fetch Google's stock values on February 1st, 2023 from NASDAQ.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The Seeking Alpha API directly provides historical stock prices for a given symbol and date range, matching the requirement to fetch Google's stock values on February 1st, 2023 from NASDAQ."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 2324,
+    "total_tokens": 2384,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 855,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 396,
+      "service_ttlt_ms": 1099,
+      "total_duration_ms": 987,
+      "user_visible_ttft_ms": 277
+    }
+  }
+}

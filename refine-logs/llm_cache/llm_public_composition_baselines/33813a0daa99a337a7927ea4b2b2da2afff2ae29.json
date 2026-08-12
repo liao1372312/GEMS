@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2343",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Flight Data_v2 - City data API provides a list of cities in JSON format, which can be filtered by coordinates and radius to find cities within 50 miles of Orlando.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Flight Data_v2 - City data API provides a list of cities in JSON format, which can be filtered by coordinates and radius to find cities within 50 miles of Orlando."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1257,
+    "total_tokens": 1315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 34,
+      "engine_ttft_ms": 182,
+      "engine_ttlt_ms": 2154,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 286,
+      "service_ttlt_ms": 2248,
+      "total_duration_ms": 2181,
+      "user_visible_ttft_ms": 208
+    }
+  }
+}

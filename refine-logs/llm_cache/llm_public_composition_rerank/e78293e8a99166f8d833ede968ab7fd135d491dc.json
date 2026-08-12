@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2628",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search for the nearest bank in Dakar by querying relevant content, and it accepts a query parameter that can be constructed from the subtask and user request. It directly satisfies the subtask intent to find the nearest bank including address and website.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API can be used to search for the nearest bank in Dakar by querying relevant content, and it accepts a query parameter that can be constructed from the subtask and user request. It directly satisfies the subtask intent to find the nearest bank including address and website."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1952,
+    "total_tokens": 2034,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 1225,
+      "pre_inference_ms": 140,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1465,
+      "total_duration_ms": 1328,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

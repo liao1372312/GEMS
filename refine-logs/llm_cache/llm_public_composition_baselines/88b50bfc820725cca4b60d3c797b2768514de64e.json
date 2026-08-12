@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5445",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the user's request to remove a custom period from calendar, provide working days info for Italy, and calculate an expression.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the user's request to remove a custom period from calendar, provide working days info for Italy, and calculate an expression."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1906,
+    "total_tokens": 1955,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 458,
+      "pre_inference_ms": 197,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 360,
+      "service_ttlt_ms": 761,
+      "total_duration_ms": 571,
+      "user_visible_ttft_ms": 163
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "record_id": "Tourism_response_700",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the current date and time in London with timezone information\",\n      \"domain\": \"time\",\n      \"required_inputs\": [\"city_name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Format the retrieved date and time into ISO8601 format\",\n      \"domain\": \"time\",\n      \"required_inputs\": [\"datetime_object\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Format the retrieved date and time into 12-hour and 24-hour formats\",\n      \"domain\": \"time\",\n      \"required_inputs\": [\"datetime_object\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Determine the timezone abbreviation and whether it is currently in Daylight Savings Time\",\n      \"domain\": \"time\",\n      \"required_inputs\": [\"datetime_object\", \"timezone_info\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the current date and time in London with timezone information",
+        "domain": "time",
+        "required_inputs": [
+          "city_name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Format the retrieved date and time into ISO8601 format",
+        "domain": "time",
+        "required_inputs": [
+          "datetime_object"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Format the retrieved date and time into 12-hour and 24-hour formats",
+        "domain": "time",
+        "required_inputs": [
+          "datetime_object"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Determine the timezone abbreviation and whether it is currently in Daylight Savings Time",
+        "domain": "time",
+        "required_inputs": [
+          "datetime_object",
+          "timezone_info"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the current date and time in London with timezone information",
+      "domain": "time",
+      "required_inputs": [
+        "city_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Format the retrieved date and time into ISO8601 format",
+      "domain": "time",
+      "required_inputs": [
+        "datetime_object"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Format the retrieved date and time into 12-hour and 24-hour formats",
+      "domain": "time",
+      "required_inputs": [
+        "datetime_object"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Determine the timezone abbreviation and whether it is currently in Daylight Savings Time",
+      "domain": "time",
+      "required_inputs": [
+        "datetime_object",
+        "timezone_info"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 229,
+    "total_tokens": 426,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 3289,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 293,
+      "service_ttlt_ms": 3593,
+      "total_duration_ms": 3484,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

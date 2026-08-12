@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4421",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The subtask specifically requests the list of languages supported by the Microsoft Translator Text API. Among the candidates, 'Translef - translator - List of available languages' is a translation-specific API that returns a list of language codes for translation, closely matching the subtask intent. Although it is not explicitly Microsoft Translator, it is a dedicated translation API and more specific than generic language or text analysis APIs. Other candidates are either generic or unrelated to Microsoft Translator specifically, but this candidate is the best fit given the options.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask specifically requests the list of languages supported by the Microsoft Translator Text API. Among the candidates, 'Translef - translator - List of available languages' is a translation-specific API that returns a list of language codes for translation, closely matching the subtask intent. Although it is not explicitly Microsoft Translator, it is a dedicated translation API and more specific than generic language or text analysis APIs. Other candidates are either generic or unrelated to Microsoft Translator specifically, but this candidate is the best fit given the options."
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 1292,
+    "total_tokens": 1411,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 165,
+      "engine_ttlt_ms": 2885,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 3005,
+      "total_duration_ms": 2923,
+      "user_visible_ttft_ms": 198
+    }
+  }
+}

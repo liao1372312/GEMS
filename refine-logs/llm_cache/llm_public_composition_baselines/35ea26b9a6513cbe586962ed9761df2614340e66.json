@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3159",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.8, \"rationale\": \"The user wants a healthy menu with nutritional analysis and portion control, which aligns best with the diet recipe API that focuses on healthy recipes and likely includes nutritional info.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.8,
+    "rationale": "The user wants a healthy menu with nutritional analysis and portion control, which aligns best with the diet recipe API that focuses on healthy recipes and likely includes nutritional info."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1909,
+    "total_tokens": 1963,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 646,
+      "pre_inference_ms": 209,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 482,
+      "service_ttlt_ms": 996,
+      "total_duration_ms": 803,
+      "user_visible_ttft_ms": 274
+    }
+  }
+}

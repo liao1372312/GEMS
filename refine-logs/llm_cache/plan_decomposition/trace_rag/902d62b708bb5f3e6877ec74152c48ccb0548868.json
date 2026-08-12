@@ -1,0 +1,80 @@
+{
+  "record_id": "Tourism_response_4653",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve general information about Roman gods to identify a list of possible candidates.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a random Roman god from the identified list.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"list of Roman gods\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch detailed information about the selected Roman god to provide educational content for the trip planning.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"name of the selected Roman god\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve general information about Roman gods to identify a list of possible candidates.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a random Roman god from the identified list.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "list of Roman gods"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch detailed information about the selected Roman god to provide educational content for the trip planning.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "name of the selected Roman god"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve general information about Roman gods to identify a list of possible candidates.",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a random Roman god from the identified list.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "list of Roman gods"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch detailed information about the selected Roman god to provide educational content for the trip planning.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "name of the selected Roman god"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 356,
+    "total_tokens": 509,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 1440,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 223,
+      "service_ttlt_ms": 1617,
+      "total_duration_ms": 1517,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

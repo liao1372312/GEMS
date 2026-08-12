@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_178",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The subtask is to compile step-by-step instructions for selected burger recipes. Among the candidates, only 'Recipe Finder - dinner/ingredient' matches the food recipe domain and likely includes burger recipes under dinner. It returns recipes with instructions, which fits the subtask. Other recipe APIs focus on ice cream, cake, pastry, salad, breakfast, etc., which are unrelated to burgers. The chosen API requires an ingredient parameter which can be bound from the input 'burger recipes from step 1' or could be set as 'burger' or related ingredient. This makes it the most appropriate and specific API for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The subtask is to compile step-by-step instructions for selected burger recipes. Among the candidates, only 'Recipe Finder - dinner/ingredient' matches the food recipe domain and likely includes burger recipes under dinner. It returns recipes with instructions, which fits the subtask. Other recipe APIs focus on ice cream, cake, pastry, salad, breakfast, etc., which are unrelated to burgers. The chosen API requires an ingredient parameter which can be bound from the input 'burger recipes from step 1' or could be set as 'burger' or related ingredient. This makes it the most appropriate and specific API for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 2256,
+    "total_tokens": 2403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 3080,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 364,
+      "service_ttlt_ms": 3299,
+      "total_duration_ms": 3205,
+      "user_visible_ttft_ms": 253
+    }
+  }
+}

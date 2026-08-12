@@ -1,0 +1,312 @@
+{
+  "input": "dataset/five_domain_1400_gold.jsonl",
+  "metrics": {
+    "step_top1": 0.6316691140479687,
+    "step_top3": 0.7750856583455702,
+    "step_mrr": 0.7317368055069964,
+    "workflow_exact_top1": 0.43785714285714283,
+    "avg_selected_rank": 2.451786588350465,
+    "records": 1400,
+    "steps": 4086
+  },
+  "diagnostics": {
+    "task_length_counts": {
+      "1": 7,
+      "2": 546,
+      "3": 529,
+      "4": 238,
+      "5": 53,
+      "6": 17,
+      "7": 6,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "12": 1
+    },
+    "selected_rank_counts": {
+      "1": 2581,
+      "2": 353,
+      "3": 233,
+      "4": 194,
+      "5": 166,
+      "6": 130,
+      "7": 104,
+      "8": 107,
+      "9": 118,
+      "10": 100
+    },
+    "fallback_steps": 1240,
+    "fallback_step_rate": 0.3034752814488497,
+    "dependency_records": 27,
+    "dependency_record_rate": 0.019285714285714285,
+    "confidence_mean": 0.4993220753793441,
+    "by_domain": {
+      "business": {
+        "steps": 11,
+        "step_top1": 0.8181818181818182,
+        "step_top3": 1.0,
+        "mrr": 0.9090909090909091,
+        "avg_selected_rank": 1.1818181818181819
+      },
+      "business/technology": {
+        "steps": 2,
+        "step_top1": 1.0,
+        "step_top3": 1.0,
+        "mrr": 1.0,
+        "avg_selected_rank": 1.0
+      },
+      "cross-domain": {
+        "steps": 429,
+        "step_top1": 0.4592074592074592,
+        "step_top3": 0.6456876456876457,
+        "mrr": 0.5985930735930736,
+        "avg_selected_rank": 3.2937062937062938
+      },
+      "e-commerce": {
+        "steps": 2,
+        "step_top1": 1.0,
+        "step_top3": 1.0,
+        "mrr": 1.0,
+        "avg_selected_rank": 1.0
+      },
+      "ecommerce": {
+        "steps": 2,
+        "step_top1": 1.0,
+        "step_top3": 1.0,
+        "mrr": 1.0,
+        "avg_selected_rank": 1.0
+      },
+      "education": {
+        "steps": 15,
+        "step_top1": 0.6666666666666666,
+        "step_top3": 0.7333333333333333,
+        "mrr": 0.7305555555555556,
+        "avg_selected_rank": 2.7333333333333334
+      },
+      "entertainment": {
+        "steps": 178,
+        "step_top1": 0.5224719101123596,
+        "step_top3": 0.6853932584269663,
+        "mrr": 0.6533440342429107,
+        "avg_selected_rank": 2.904494382022472
+      },
+      "environment": {
+        "steps": 8,
+        "step_top1": 0.625,
+        "step_top3": 0.875,
+        "mrr": 0.7416666666666667,
+        "avg_selected_rank": 2.5
+      },
+      "finance": {
+        "steps": 818,
+        "step_top1": 0.636919315403423,
+        "step_top3": 0.7726161369193154,
+        "mrr": 0.7336375014553499,
+        "avg_selected_rank": 2.5048899755501224
+      },
+      "finance/technology": {
+        "steps": 2,
+        "step_top1": 0.0,
+        "step_top3": 0.0,
+        "mrr": 0.17142857142857143,
+        "avg_selected_rank": 6.0
+      },
+      "food": {
+        "steps": 10,
+        "step_top1": 0.8,
+        "step_top3": 1.0,
+        "mrr": 0.9,
+        "avg_selected_rank": 1.2
+      },
+      "food & beverage": {
+        "steps": 4,
+        "step_top1": 0.75,
+        "step_top3": 0.75,
+        "mrr": 0.8125,
+        "avg_selected_rank": 1.75
+      },
+      "gaming": {
+        "steps": 15,
+        "step_top1": 0.5333333333333333,
+        "step_top3": 0.8,
+        "mrr": 0.6694444444444444,
+        "avg_selected_rank": 2.466666666666667
+      },
+      "general": {
+        "steps": 3,
+        "step_top1": 0.3333333333333333,
+        "step_top3": 0.3333333333333333,
+        "mrr": 0.5,
+        "avg_selected_rank": 3.0
+      },
+      "health": {
+        "steps": 7,
+        "step_top1": 0.8571428571428571,
+        "step_top3": 1.0,
+        "mrr": 0.9285714285714286,
+        "avg_selected_rank": 1.1428571428571428
+      },
+      "healthcare": {
+        "steps": 10,
+        "step_top1": 0.5,
+        "step_top3": 0.6,
+        "mrr": 0.6208333333333333,
+        "avg_selected_rank": 2.8
+      },
+      "legal/geography": {
+        "steps": 2,
+        "step_top1": 1.0,
+        "step_top3": 1.0,
+        "mrr": 1.0,
+        "avg_selected_rank": 1.0
+      },
+      "literature": {
+        "steps": 2,
+        "step_top1": 0.5,
+        "step_top3": 1.0,
+        "mrr": 0.6666666666666666,
+        "avg_selected_rank": 2.0
+      },
+      "marketing": {
+        "steps": 6,
+        "step_top1": 0.6666666666666666,
+        "step_top3": 0.8333333333333334,
+        "mrr": 0.7916666666666666,
+        "avg_selected_rank": 1.6666666666666667
+      },
+      "medical": {
+        "steps": 755,
+        "step_top1": 0.7033112582781457,
+        "step_top3": 0.8225165562913908,
+        "mrr": 0.7843393251340272,
+        "avg_selected_rank": 2.1695364238410595
+      },
+      "mixed": {
+        "steps": 27,
+        "step_top1": 0.5185185185185185,
+        "step_top3": 0.6666666666666666,
+        "mrr": 0.641872427983539,
+        "avg_selected_rank": 2.888888888888889
+      },
+      "multi-domain": {
+        "steps": 2,
+        "step_top1": 1.0,
+        "step_top3": 1.0,
+        "mrr": 1.0,
+        "avg_selected_rank": 1.0
+      },
+      "multiple": {
+        "steps": 7,
+        "step_top1": 0.14285714285714285,
+        "step_top3": 0.42857142857142855,
+        "mrr": 0.3608843537414966,
+        "avg_selected_rank": 4.571428571428571
+      },
+      "music": {
+        "steps": 4,
+        "step_top1": 0.75,
+        "step_top3": 1.0,
+        "mrr": 0.875,
+        "avg_selected_rank": 1.25
+      },
+      "music/entertainment": {
+        "steps": 3,
+        "step_top1": 0.0,
+        "step_top3": 0.3333333333333333,
+        "mrr": 0.1898148148148148,
+        "avg_selected_rank": 6.666666666666667
+      },
+      "politics": {
+        "steps": 2,
+        "step_top1": 0.0,
+        "step_top3": 0.0,
+        "mrr": 0.1,
+        "avg_selected_rank": 10.0
+      },
+      "real_estate": {
+        "steps": 3,
+        "step_top1": 0.6666666666666666,
+        "step_top3": 0.6666666666666666,
+        "mrr": 0.75,
+        "avg_selected_rank": 2.0
+      },
+      "recreation": {
+        "steps": 2,
+        "step_top1": 1.0,
+        "step_top3": 1.0,
+        "mrr": 1.0,
+        "avg_selected_rank": 1.0
+      },
+      "religion/technology": {
+        "steps": 2,
+        "step_top1": 0.0,
+        "step_top3": 0.0,
+        "mrr": 0.14285714285714285,
+        "avg_selected_rank": 7.0
+      },
+      "science": {
+        "steps": 2,
+        "step_top1": 1.0,
+        "step_top3": 1.0,
+        "mrr": 1.0,
+        "avg_selected_rank": 1.0
+      },
+      "shopping": {
+        "steps": 6,
+        "step_top1": 0.3333333333333333,
+        "step_top3": 0.5,
+        "mrr": 0.49722222222222223,
+        "avg_selected_rank": 3.1666666666666665
+      },
+      "social_service": {
+        "steps": 2,
+        "step_top1": 0.5,
+        "step_top3": 1.0,
+        "mrr": 0.6666666666666666,
+        "avg_selected_rank": 2.0
+      },
+      "sports": {
+        "steps": 46,
+        "step_top1": 0.7608695652173914,
+        "step_top3": 0.782608695652174,
+        "mrr": 0.8063664596273291,
+        "avg_selected_rank": 2.3043478260869565
+      },
+      "technology": {
+        "steps": 810,
+        "step_top1": 0.6654320987654321,
+        "step_top3": 0.808641975308642,
+        "mrr": 0.7616617675876936,
+        "avg_selected_rank": 2.185185185185185
+      },
+      "technology/finance": {
+        "steps": 2,
+        "step_top1": 0.5,
+        "step_top3": 0.5,
+        "mrr": 0.55,
+        "avg_selected_rank": 5.5
+      },
+      "tourism": {
+        "steps": 879,
+        "step_top1": 0.6416382252559727,
+        "step_top3": 0.7940841865756542,
+        "mrr": 0.7408305794824566,
+        "avg_selected_rank": 2.358361774744027
+      },
+      "tourism and finance": {
+        "steps": 2,
+        "step_top1": 0.5,
+        "step_top3": 0.5,
+        "mrr": 0.5714285714285714,
+        "avg_selected_rank": 4.0
+      },
+      "tourism/finance": {
+        "steps": 4,
+        "step_top1": 0.5,
+        "step_top3": 0.5,
+        "mrr": 0.55625,
+        "avg_selected_rank": 5.0
+      }
+    }
+  }
+}

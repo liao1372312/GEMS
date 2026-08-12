@@ -1,0 +1,167 @@
+{
+  "best_threshold": 0.85,
+  "selection_note": "diagnostic only: validation LLM coverage is incomplete, so threshold was selected on test",
+  "semantic_top1_test": {
+    "api_acc": 0.6147672552166934,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "llm_available": 623,
+    "llm_accepted": 0,
+    "llm_accept_rate": 0.0,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "all_llm_test": {
+    "api_acc": 0.6725521669341894,
+    "workflow_exact": 0.3886255924170616,
+    "para_f1": 0.750187265917603,
+    "llm_available": 623,
+    "llm_accepted": 623,
+    "llm_accept_rate": 1.0,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "router_test": {
+    "api_acc": 0.6821829855537721,
+    "workflow_exact": 0.3981042654028436,
+    "para_f1": 0.7550026752273944,
+    "llm_available": 623,
+    "llm_accepted": 524,
+    "llm_accept_rate": 0.841091492776886,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "val_sweep": [
+    {
+      "threshold": 0.0,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.5,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.6,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.7,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.8,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.85,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.9,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.95,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.99,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 1.01,
+      "metrics": {
+        "api_acc": 0.6506622516556292,
+        "workflow_exact": 0.45714285714285713,
+        "para_f1": 0.7547461368653422,
+        "llm_available": 0,
+        "llm_accepted": 0,
+        "llm_accept_rate": 0.0,
+        "coverage": 0.0,
+        "steps": 604
+      }
+    }
+  ],
+  "available_llm_predictions": 623
+}

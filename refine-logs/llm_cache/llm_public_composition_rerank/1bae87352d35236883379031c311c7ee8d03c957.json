@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6458",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask requires fetching random words for vocabulary exercises, and among the candidates, only the 'Learn to read and write Japanese kanji - Single Kanji Details' API is related to language and vocabulary. Although it focuses on Japanese kanji, it is the closest relevant API for language learning and vocabulary. Other APIs are unrelated to language or random word generation.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask requires fetching random words for vocabulary exercises, and among the candidates, only the 'Learn to read and write Japanese kanji - Single Kanji Details' API is related to language and vocabulary. Although it focuses on Japanese kanji, it is the closest relevant API for language learning and vocabulary. Other APIs are unrelated to language or random word generation."
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 2029,
+    "total_tokens": 2123,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 83,
+      "engine_ttlt_ms": 1470,
+      "pre_inference_ms": 159,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1655,
+      "total_duration_ms": 1506,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

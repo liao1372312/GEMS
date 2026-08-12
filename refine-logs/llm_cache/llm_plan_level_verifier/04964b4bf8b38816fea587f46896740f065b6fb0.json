@@ -1,0 +1,55 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API supports required ticker parameter to fetch 24-hour ticker data for specific stocks, matching the step better than semantic top-1 which is unrelated to these stocks.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is the same as LLM choice and is appropriate; no change needed.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API explicitly provides opening and closing prices for specified stock symbols, better matching the step than semantic top-1 which is options data only.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice API provides historical prices but does not perform calculation; semantic top-1 is unrelated to calculation; neither directly matches calculation step, so keep semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice API supports required ticker parameter to fetch 24-hour ticker data for specific stocks, matching the step better than semantic top-1 which is unrelated to these stocks."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is the same as LLM choice and is appropriate; no change needed."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice API explicitly provides opening and closing prices for specified stock symbols, better matching the step than semantic top-1 which is options data only."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "LLM choice API provides historical prices but does not perform calculation; semantic top-1 is unrelated to calculation; neither directly matches calculation step, so keep semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 242,
+    "prompt_tokens": 1868,
+    "total_tokens": 2110,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 3809,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 3915,
+      "total_duration_ms": 3834,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

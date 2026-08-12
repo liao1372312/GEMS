@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4440",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Recipe Finder API specifically allows searching for dinner recipes by ingredient, which aligns well with finding recipes for a romantic dinner. It directly satisfies the subtask intent and requires parameters that can be bound from the subtask inputs (meal_type and cuisine_type can guide ingredient choice). Other food APIs are more generic or require specific IDs, making this one more suitable.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Recipe Finder API specifically allows searching for dinner recipes by ingredient, which aligns well with finding recipes for a romantic dinner. It directly satisfies the subtask intent and requires parameters that can be bound from the subtask inputs (meal_type and cuisine_type can guide ingredient choice). Other food APIs are more generic or require specific IDs, making this one more suitable."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 2131,
+    "total_tokens": 2224,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 1405,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1616,
+      "total_duration_ms": 1509,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

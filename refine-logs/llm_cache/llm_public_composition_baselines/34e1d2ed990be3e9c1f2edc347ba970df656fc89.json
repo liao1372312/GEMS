@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2187",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.1, \"rationale\": \"None of the candidates specifically provide trivia facts about numbers; the highest-ranked API offers AI news which might contain some interesting facts, but not guaranteed.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.1,
+    "rationale": "None of the candidates specifically provide trivia facts about numbers; the highest-ranked API offers AI news which might contain some interesting facts, but not guaranteed."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1403,
+    "total_tokens": 1454,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 436,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 279,
+      "service_ttlt_ms": 672,
+      "total_duration_ms": 563,
+      "user_visible_ttft_ms": 164
+    }
+  }
+}

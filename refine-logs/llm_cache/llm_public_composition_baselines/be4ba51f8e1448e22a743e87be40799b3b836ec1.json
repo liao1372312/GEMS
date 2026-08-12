@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7245",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate is the only one related to obtaining detailed information about a specific entity (a kanji character), which is closest to fetching detailed information about a famous TV personality. Other candidates are unrelated to entertainment or celebrity information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate is the only one related to obtaining detailed information about a specific entity (a kanji character), which is closest to fetching detailed information about a famous TV personality. Other candidates are unrelated to entertainment or celebrity information."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1572,
+    "total_tokens": 1639,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 720,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 327,
+      "service_ttlt_ms": 954,
+      "total_duration_ms": 870,
+      "user_visible_ttft_ms": 234
+    }
+  }
+}

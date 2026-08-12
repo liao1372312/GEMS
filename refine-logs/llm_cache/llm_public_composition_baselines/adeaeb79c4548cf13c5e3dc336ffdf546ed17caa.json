@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_685",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Tomba - Enrichment API is specifically designed to enrich an email address with person and company data including full name, position, company, and social profiles like LinkedIn, which matches the subtask requirements best.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Tomba - Enrichment API is specifically designed to enrich an email address with person and company data including full name, position, company, and social profiles like LinkedIn, which matches the subtask requirements best."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1648,
+    "total_tokens": 1713,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 801,
+      "pre_inference_ms": 136,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 296,
+      "service_ttlt_ms": 1069,
+      "total_duration_ms": 987,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "record_id": "Cross_Domain_response_9562",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for players whose weight is 200 pounds and retrieve their names and weights\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"weight\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for a player with the name Michael Johnson and retrieve his details\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"player_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for players whose weight is 200 pounds and retrieve their names and weights",
+        "domain": "sports",
+        "required_inputs": [
+          "weight"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for a player with the name Michael Johnson and retrieve his details",
+        "domain": "sports",
+        "required_inputs": [
+          "player_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for players whose weight is 200 pounds and retrieve their names and weights",
+      "domain": "sports",
+      "required_inputs": [
+        "weight"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for a player with the name Michael Johnson and retrieve his details",
+      "domain": "sports",
+      "required_inputs": [
+        "player_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 192,
+    "total_tokens": 295,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 2085,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 476,
+      "service_ttlt_ms": 2479,
+      "total_duration_ms": 2387,
+      "user_visible_ttft_ms": 375
+    }
+  }
+}

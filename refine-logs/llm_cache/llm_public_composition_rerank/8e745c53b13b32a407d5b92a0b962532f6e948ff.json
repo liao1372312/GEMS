@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1535",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Airbnb Search Destination API allows searching by location or place name, which can be used to find travel guides or accommodation info for tropical destinations, directly supporting the subtask to find travel-related web pages for a given destination. Other APIs provide flight or city data but do not directly provide travel guides or relevant web content.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Airbnb Search Destination API allows searching by location or place name, which can be used to find travel guides or accommodation info for tropical destinations, directly supporting the subtask to find travel-related web pages for a given destination. Other APIs provide flight or city data but do not directly provide travel guides or relevant web content."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1683,
+    "total_tokens": 1768,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 950,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 207,
+      "service_ttlt_ms": 1106,
+      "total_duration_ms": 1005,
+      "user_visible_ttft_ms": 97
+    }
+  }
+}

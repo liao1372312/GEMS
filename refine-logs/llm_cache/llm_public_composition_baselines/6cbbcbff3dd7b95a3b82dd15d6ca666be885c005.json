@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4757",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Birthday Cake DB provides a list of cakes with names, images, and IDs, which is essential to compile a detailed recipe including portion size, preparation time, ingredients, step-by-step method, and an image as requested.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Birthday Cake DB provides a list of cakes with names, images, and IDs, which is essential to compile a detailed recipe including portion size, preparation time, ingredients, step-by-step method, and an image as requested."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1812,
+    "total_tokens": 1879,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 529,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 327,
+      "service_ttlt_ms": 808,
+      "total_duration_ms": 699,
+      "user_visible_ttft_ms": 209
+    }
+  }
+}

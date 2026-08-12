@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3049",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Palmy Investing API - keyfigures_retrieve endpoint is the best fit among the candidates for tracking financial activities, as it is a finance domain API with no required parameters, suitable for retrieving financial data such as token forwarding transaction webhooks.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Palmy Investing API - keyfigures_retrieve endpoint is the best fit among the candidates for tracking financial activities, as it is a finance domain API with no required parameters, suitable for retrieving financial data such as token forwarding transaction webhooks."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1605,
+    "total_tokens": 1676,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 493,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 610,
+      "total_duration_ms": 522,
+      "user_visible_ttft_ms": 62
+    }
+  }
+}

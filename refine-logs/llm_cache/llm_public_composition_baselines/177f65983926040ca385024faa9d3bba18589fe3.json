@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3234",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search for open finance sector positions in New York City by querying relevant job listings, making it suitable for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API can be used to search for open finance sector positions in New York City by querying relevant job listings, making it suitable for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1390,
+    "total_tokens": 1449,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 720,
+      "pre_inference_ms": 169,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 251,
+      "service_ttlt_ms": 928,
+      "total_duration_ms": 768,
+      "user_visible_ttft_ms": 82
+    }
+  }
+}

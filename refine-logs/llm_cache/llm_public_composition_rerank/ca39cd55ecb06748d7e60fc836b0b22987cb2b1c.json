@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2625",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The UK Real Estate Rightmove API provides detailed property information suitable for finding local hotels or accommodations, matching the subtask intent and required inputs of destination and travel dates.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The UK Real Estate Rightmove API provides detailed property information suitable for finding local hotels or accommodations, matching the subtask intent and required inputs of destination and travel dates."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1898,
+    "total_tokens": 1953,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 277,
+      "user_visible_ttft_ms": 136,
+      "total_duration_ms": 889,
+      "pre_inference_ms": 141,
+      "service_tbt_ms": 14,
+      "service_ttlt_ms": 1014,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 819,
+      "engine_tbt_ms": 14
+    }
+  }
+}

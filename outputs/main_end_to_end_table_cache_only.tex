@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Corrected end-to-end service composition results. Plan.Acc evaluates generated task decomposition against the gold TaskList; Workflow Exact is the former all-step API exact-match metric.}
+\label{tab:main-end-to-end-results}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccc}
+\toprule
+Method & Plan.Acc $\uparrow$ & Plan.SemF1 $\uparrow$ & API.Acc $\uparrow$ & Para.F1 $\uparrow$ & Workflow Exact $\uparrow$ \\
+\midrule
+Direct-LLM & \textbf{0.0000} & \textbf{0.0000} & \textbf{0.6918} & \textbf{0.7597} & 0.4313 \\
+CoT-LLM & \textbf{0.0000} & \textbf{0.0000} & 0.6372 & 0.7134 & 0.3555 \\
+ReAct & \textbf{0.0000} & \textbf{0.0000} & 0.6356 & 0.7115 & 0.3697 \\
+RestGPT-style & \textbf{0.0000} & \textbf{0.0000} & 0.6838 & 0.7492 & 0.4076 \\
+MA-NoMem & \textbf{0.0000} & \textbf{0.0000} & 0.6549 & 0.7286 & 0.3791 \\
+Trace-RAG & \textbf{0.0000} & \textbf{0.0000} & 0.5859 & 0.6856 & 0.3981 \\
+StructMem-RAG & \textbf{0.0000} & \textbf{0.0000} & 0.5875 & 0.6845 & 0.3886 \\
+GraphRAG-static & \textbf{0.0000} & \textbf{0.0000} & 0.5859 & 0.6885 & 0.4028 \\
+AgentKB-style & \textbf{0.0000} & \textbf{0.0000} & 0.5666 & 0.6735 & 0.3555 \\
+\textsc{GEMS} & \textbf{0.0000} & \textbf{0.0000} & 0.6180 & 0.7065 & \textbf{0.4408} \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

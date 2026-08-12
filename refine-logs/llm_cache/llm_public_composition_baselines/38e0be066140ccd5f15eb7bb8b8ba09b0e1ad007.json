@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5401",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Defi Data - Charts chain API is the most relevant for retrieving historical cryptocurrency data, including Ripple's rates on a specific date.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Defi Data - Charts chain API is the most relevant for retrieving historical cryptocurrency data, including Ripple's rates on a specific date."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1601,
+    "total_tokens": 1650,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 477,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 196,
+      "service_ttlt_ms": 613,
+      "total_duration_ms": 532,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4973",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Magical Taske API provides details of multiple records including sceneries and getaways, which aligns well with listing famous landmarks and their details in a location like Miami. It directly satisfies the subtask intent and requires a location-related input.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Magical Taske API provides details of multiple records including sceneries and getaways, which aligns well with listing famous landmarks and their details in a location like Miami. It directly satisfies the subtask intent and requires a location-related input."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 2367,
+    "total_tokens": 2437,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 1541,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 172,
+      "service_ttlt_ms": 1643,
+      "total_duration_ms": 1572,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

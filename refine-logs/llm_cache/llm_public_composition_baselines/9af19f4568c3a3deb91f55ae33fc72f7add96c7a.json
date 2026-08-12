@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requested jokes for a comedy show, but none of the provided APIs directly offer jokes. The highest-ranked API is for anime images, which is unrelated. Since no joke API is available, the best fit is to select the top-ranked API for partial fulfillment or to indicate no suitable API is available. However, since the user also requested sanction data for Canada, which is not covered by any candidate API, the best approach is to select the top-ranked API for jokes and note the limitation.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requested jokes for a comedy show, but none of the provided APIs directly offer jokes. The highest-ranked API is for anime images, which is unrelated. Since no joke API is available, the best fit is to select the top-ranked API for partial fulfillment or to indicate no suitable API is available. However, since the user also requested sanction data for Canada, which is not covered by any candidate API, the best approach is to select the top-ranked API for jokes and note the limitation."
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 1450,
+    "total_tokens": 1571,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 1043,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 1366,
+      "total_duration_ms": 1253,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

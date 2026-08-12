@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2720",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs directly support gathering event details such as date, location, cause, and key details for creating a flyer. The best match would be an API that allows input or retrieval of event information, but none are available. Therefore, no suitable API is found for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs directly support gathering event details such as date, location, cause, and key details for creating a flyer. The best match would be an API that allows input or retrieval of event information, but none are available. Therefore, no suitable API is found for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1662,
+    "total_tokens": 1743,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 821,
+      "pre_inference_ms": 161,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 287,
+      "service_ttlt_ms": 1060,
+      "total_duration_ms": 912,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "record_id": "Finance_response_3009",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the current exchange rates for different currencies.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the current exchange rate from EUR to USD.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"source_currency\", \"target_currency\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the current exchange rates for different currencies.",
+        "domain": "finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the current exchange rate from EUR to USD.",
+        "domain": "finance",
+        "required_inputs": [
+          "source_currency",
+          "target_currency"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the current exchange rates for different currencies.",
+      "domain": "finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the current exchange rate from EUR to USD.",
+      "domain": "finance",
+      "required_inputs": [
+        "source_currency",
+        "target_currency"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 585,
+    "total_tokens": 679,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 761,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 283,
+      "service_ttlt_ms": 973,
+      "total_duration_ms": 836,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

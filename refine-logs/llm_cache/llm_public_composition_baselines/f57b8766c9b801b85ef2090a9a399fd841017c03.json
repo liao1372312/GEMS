@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_562",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Recipe Generator API is designed to generate unique recipes based on provided ingredients, which aligns well with the user's request for unique ingredients and a recipe showcasing one of them.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Recipe Generator API is designed to generate unique recipes based on provided ingredients, which aligns well with the user's request for unique ingredients and a recipe showcasing one of them."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1817,
+    "total_tokens": 1872,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 813,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 254,
+      "service_ttlt_ms": 1004,
+      "total_duration_ms": 900,
+      "user_visible_ttft_ms": 133
+    }
+  }
+}

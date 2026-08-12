@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4757",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"This API provides a list of cakes with images and IDs, which is necessary to compile detailed recipes including portion size, preparation time, ingredients, step-by-step method, and images as requested.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "This API provides a list of cakes with images and IDs, which is necessary to compile detailed recipes including portion size, preparation time, ingredients, step-by-step method, and images as requested."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1803,
+    "total_tokens": 1863,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 643,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 238,
+      "service_ttlt_ms": 828,
+      "total_duration_ms": 720,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

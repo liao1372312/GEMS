@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API is related to querying live giveaways on Steam or Epic Games Store.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API is related to querying live giveaways on Steam or Epic Games Store."
+  },
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 1670,
+    "total_tokens": 1708,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 292,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 190,
+      "service_ttlt_ms": 436,
+      "total_duration_ms": 366,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

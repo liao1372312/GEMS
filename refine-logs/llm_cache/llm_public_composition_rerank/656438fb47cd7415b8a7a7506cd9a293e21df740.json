@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2427",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"This API directly supports currency conversion with required parameters amount, have (from currency), and want (to currency), matching the subtask to convert 200 EUR to USD using a given exchange rate. It is specific to currency conversion and from the Finance domain.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "This API directly supports currency conversion with required parameters amount, have (from currency), and want (to currency), matching the subtask to convert 200 EUR to USD using a given exchange rate. It is specific to currency conversion and from the Finance domain."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1646,
+    "total_tokens": 1719,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 725,
+      "user_visible_ttft_ms": 213,
+      "total_duration_ms": 955,
+      "pre_inference_ms": 512,
+      "service_tbt_ms": 10,
+      "service_ttlt_ms": 1457,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 844,
+      "engine_tbt_ms": 11
+    }
+  }
+}

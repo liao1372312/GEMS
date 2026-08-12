@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3460",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The Finance Social Sentiment API directly provides latest market content for cryptocurrencies including Ripple, matching the subtask intent and domain, with a required 'tickers' parameter that can be set to 'XRP' for Ripple.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Finance Social Sentiment API directly provides latest market content for cryptocurrencies including Ripple, matching the subtask intent and domain, with a required 'tickers' parameter that can be set to 'XRP' for Ripple."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1950,
+    "total_tokens": 2011,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 1039,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 464,
+      "service_ttlt_ms": 1422,
+      "total_duration_ms": 1336,
+      "user_visible_ttft_ms": 370
+    }
+  }
+}

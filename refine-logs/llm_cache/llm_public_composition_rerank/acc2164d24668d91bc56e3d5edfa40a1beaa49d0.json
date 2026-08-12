@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2643",
+  "step_id": 4,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The subtask requires payment card details associated with employees, specifically in HR. Candidate 2 directly provides payment card information linked to a specific employee ID, which aligns with the need to compile payment card details. It is more specific than general pagination or single card queries and is from the relevant Human Resources domain. The required parameter 'id' can be bound to employee IDs from HR employees, making it suitable for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask requires payment card details associated with employees, specifically in HR. Candidate 2 directly provides payment card information linked to a specific employee ID, which aligns with the need to compile payment card details. It is more specific than general pagination or single card queries and is from the relevant Human Resources domain. The required parameter 'id' can be bound to employee IDs from HR employees, making it suitable for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 2267,
+    "total_tokens": 2369,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 1793,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 1949,
+      "total_duration_ms": 1834,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

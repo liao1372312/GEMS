@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2024",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate matches the user's request to retrieve COVID-19 news articles from BMJ using the Covid news_v2 API, which aligns with the domain and source specified.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate matches the user's request to retrieve COVID-19 news articles from BMJ using the Covid news_v2 API, which aligns with the domain and source specified."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1519,
+    "total_tokens": 1575,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 568,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 241,
+      "service_ttlt_ms": 764,
+      "total_duration_ms": 645,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

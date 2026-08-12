@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2054",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The YH Finance_v2 - stock/get_key_statistics_data API directly returns key statistics data for a given company symbol, matching the subtask requirement to compile key statistics for Apple Inc. including market cap, P/E ratio, and dividend yield.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The YH Finance_v2 - stock/get_key_statistics_data API directly returns key statistics data for a given company symbol, matching the subtask requirement to compile key statistics for Apple Inc. including market cap, P/E ratio, and dividend yield."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1563,
+    "total_tokens": 1634,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 265,
+      "engine_ttlt_ms": 1841,
+      "pre_inference_ms": 250,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 647,
+      "service_ttlt_ms": 2147,
+      "total_duration_ms": 1905,
+      "user_visible_ttft_ms": 396
+    }
+  }
+}

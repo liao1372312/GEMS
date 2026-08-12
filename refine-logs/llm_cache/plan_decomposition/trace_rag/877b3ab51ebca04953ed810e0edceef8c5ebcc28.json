@@ -1,0 +1,64 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available on Admiralbet including match timings and participating teams.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"list of latest basketball matches\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available on Admiralbet including match timings and participating teams.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+        "domain": "Finance",
+        "required_inputs": [
+          "list of latest basketball matches"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest basketball matches available on Admiralbet including match timings and participating teams.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+      "domain": "Finance",
+      "required_inputs": [
+        "list of latest basketball matches"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 348,
+    "total_tokens": 453,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 1324,
+      "pre_inference_ms": 193,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 310,
+      "service_ttlt_ms": 1584,
+      "total_duration_ms": 1400,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

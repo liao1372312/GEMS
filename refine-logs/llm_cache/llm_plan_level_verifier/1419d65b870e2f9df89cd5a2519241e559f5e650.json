@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_761",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Currency_v2 - Free Convert directly converts USD to EUR for a specified amount, matching the step intent precisely, unlike the semantic top-1 which only gets balance.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Fear and Greed index - /historical directly provides the fear and greed index data, matching the step intent exactly, while semantic top-1 is unrelated stock gainers data.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Top NFT Sales - Top Collections this Month specifically returns top NFT collections by volume and sales, matching the step intent better than semantic top-1 which returns top NFT sales generally.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice Currency_v2 - Free Convert directly converts USD to EUR for a specified amount, matching the step intent precisely, unlike the semantic top-1 which only gets balance."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice Fear and Greed index - /historical directly provides the fear and greed index data, matching the step intent exactly, while semantic top-1 is unrelated stock gainers data."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice Top NFT Sales - Top Collections this Month specifically returns top NFT collections by volume and sales, matching the step intent better than semantic top-1 which returns top NFT sales generally."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 210,
+    "prompt_tokens": 1182,
+    "total_tokens": 1392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 287,
+      "engine_ttlt_ms": 3340,
+      "pre_inference_ms": 190,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 556,
+      "service_ttlt_ms": 3600,
+      "total_duration_ms": 3419,
+      "user_visible_ttft_ms": 366
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "step_llm_result": "outputs/llm_public_composition_rerank_test_all.json",
+    "split": "test",
+    "output": "outputs/llm_plan_level_verifier_dryrun.json",
+    "limit": 2,
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "cache_dir": "",
+    "dry_run": true
+  },
+  "metrics": {
+    "api_acc": 1.0,
+    "workflow_exact": 1.0,
+    "para_f1": 1.0,
+    "llm_change_rate": 0.0,
+    "steps": 5,
+    "workflows": 2
+  },
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "elapsed_seconds": 0.00041675567626953125,
+  "predictions": [
+    {
+      "record_id": "Tourism_response_616",
+      "raw": "{}",
+      "parsed": {
+        "decisions": [],
+        "workflow_confidence": 0.0
+      },
+      "usage": {}
+    },
+    {
+      "record_id": "Tourism_response_5216",
+      "raw": "{}",
+      "parsed": {
+        "decisions": [],
+        "workflow_confidence": 0.0
+      },
+      "usage": {}
+    }
+  ]
+}

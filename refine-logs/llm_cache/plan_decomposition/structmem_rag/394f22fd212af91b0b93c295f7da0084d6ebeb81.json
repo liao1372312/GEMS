@@ -1,0 +1,72 @@
+{
+  "record_id": "Finance_response_2300",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Check the validity of the VAT number 2121316722 in Slovakia.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"VAT_number\", \"country\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve information on cashback offers for hotels in Los Angeles.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"city_name\", \"offer_type\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Check the validity of the VAT number 2121316722 in Slovakia.",
+        "domain": "finance",
+        "required_inputs": [
+          "VAT_number",
+          "country"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve information on cashback offers for hotels in Los Angeles.",
+        "domain": "finance",
+        "required_inputs": [
+          "city_name",
+          "offer_type"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Check the validity of the VAT number 2121316722 in Slovakia.",
+      "domain": "finance",
+      "required_inputs": [
+        "VAT_number",
+        "country"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve information on cashback offers for hotels in Los Angeles.",
+      "domain": "finance",
+      "required_inputs": [
+        "city_name",
+        "offer_type"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 875,
+    "total_tokens": 982,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1012,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 209,
+      "service_ttlt_ms": 1244,
+      "total_duration_ms": 1129,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a random word containing 'game' to inspire board game selection\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather reviews for board games related to the selected word from a gaming website\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": [\"selected_word\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a random word containing 'game' to inspire board game selection",
+        "domain": "recreation",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Gather reviews for board games related to the selected word from a gaming website",
+        "domain": "recreation",
+        "required_inputs": [
+          "selected_word"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find a random word containing 'game' to inspire board game selection",
+      "domain": "recreation",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Gather reviews for board games related to the selected word from a gaming website",
+      "domain": "recreation",
+      "required_inputs": [
+        "selected_word"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 538,
+    "total_tokens": 640,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1040,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 470,
+      "service_ttlt_ms": 1464,
+      "total_duration_ms": 1390,
+      "user_visible_ttft_ms": 388
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1094",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Apophis - getAssetsList (Pro+) API is specifically designed to retrieve a list of available crypto assets, which aligns well with the requirement to get a comprehensive list of assets in the market.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Apophis - getAssetsList (Pro+) API is specifically designed to retrieve a list of available crypto assets, which aligns well with the requirement to get a comprehensive list of assets in the market."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1126,
+    "total_tokens": 1189,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 879,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 273,
+      "service_ttlt_ms": 1061,
+      "total_duration_ms": 938,
+      "user_visible_ttft_ms": 139
+    }
+  }
+}

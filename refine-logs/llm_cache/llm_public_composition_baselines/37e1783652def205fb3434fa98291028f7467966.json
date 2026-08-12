@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4218",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"Candidate 1 is a dedicated climate change news API that supports querying specific news sources including The Guardian and The Times, matching the request to get latest climate change articles from The Times.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "Candidate 1 is a dedicated climate change news API that supports querying specific news sources including The Guardian and The Times, matching the request to get latest climate change articles from The Times."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1554,
+    "total_tokens": 1612,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 1195,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 157,
+      "service_ttlt_ms": 1292,
+      "total_duration_ms": 1221,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

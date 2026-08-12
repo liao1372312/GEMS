@@ -1,0 +1,80 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of currently live giveaways for popular games on Steam and Epic Games Store.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Estimate the monetary worth in dollars of each live giveaway identified in the previous step.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"list of live giveaways\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the champion abilities of popular League of Legends champions.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"list of popular League of Legends champions\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of currently live giveaways for popular games on Steam and Epic Games Store.",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Estimate the monetary worth in dollars of each live giveaway identified in the previous step.",
+        "domain": "gaming",
+        "required_inputs": [
+          "list of live giveaways"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the champion abilities of popular League of Legends champions.",
+        "domain": "gaming",
+        "required_inputs": [
+          "list of popular League of Legends champions"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of currently live giveaways for popular games on Steam and Epic Games Store.",
+      "domain": "gaming",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Estimate the monetary worth in dollars of each live giveaway identified in the previous step.",
+      "domain": "gaming",
+      "required_inputs": [
+        "list of live giveaways"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the champion abilities of popular League of Legends champions.",
+      "domain": "gaming",
+      "required_inputs": [
+        "list of popular League of Legends champions"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 371,
+    "total_tokens": 525,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 174,
+      "engine_ttlt_ms": 1916,
+      "pre_inference_ms": 243,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 589,
+      "service_ttlt_ms": 2354,
+      "total_duration_ms": 2116,
+      "user_visible_ttft_ms": 346
+    }
+  }
+}

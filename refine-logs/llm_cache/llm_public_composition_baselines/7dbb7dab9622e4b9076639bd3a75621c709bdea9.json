@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_897",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The Shazam - Search Track API is the best match for searching the lyrics or information about the song 'Bad' by Michael Jackson, as it is designed to search for song names and related artist information.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The Shazam - Search Track API is the best match for searching the lyrics or information about the song 'Bad' by Michael Jackson, as it is designed to search for song names and related artist information."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1670,
+    "total_tokens": 1733,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 641,
+      "pre_inference_ms": 145,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 885,
+      "total_duration_ms": 749,
+      "user_visible_ttft_ms": 146
+    }
+  }
+}

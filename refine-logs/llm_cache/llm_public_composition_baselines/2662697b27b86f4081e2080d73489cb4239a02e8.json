@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3009",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The user wants current exchange rates for different currencies and specifically the EUR to USD rate. The 'Exchange Rate - Convert' API supports currency conversion from EUR to USD and can provide specific exchange rates, matching the user's intent closely.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The user wants current exchange rates for different currencies and specifically the EUR to USD rate. The 'Exchange Rate - Convert' API supports currency conversion from EUR to USD and can provide specific exchange rates, matching the user's intent closely."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1054,
+    "total_tokens": 1121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 765,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 284,
+      "service_ttlt_ms": 999,
+      "total_duration_ms": 885,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

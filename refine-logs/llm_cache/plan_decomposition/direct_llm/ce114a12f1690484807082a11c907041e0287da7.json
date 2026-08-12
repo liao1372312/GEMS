@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a random quote from a villain\",\n      \"domain\": \"Quotes\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch interesting facts about numbers\",\n      \"domain\": \"Knowledge\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a random quote from a villain",
+        "domain": "Quotes",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch interesting facts about numbers",
+        "domain": "Knowledge",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a random quote from a villain",
+      "domain": "Quotes",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch interesting facts about numbers",
+      "domain": "Knowledge",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 185,
+    "total_tokens": 267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 27,
+      "engine_ttlt_ms": 718,
+      "pre_inference_ms": 214,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 302,
+      "service_ttlt_ms": 986,
+      "total_duration_ms": 783,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

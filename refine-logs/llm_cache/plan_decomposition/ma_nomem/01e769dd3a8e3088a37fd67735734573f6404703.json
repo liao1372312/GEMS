@@ -1,0 +1,80 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve wisdom quotes related to anger to help calm the mind\",\n      \"domain\": \"quotes\",\n      \"required_inputs\": [\"topic: anger\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the list of top-ranked Netflix original series\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the general horoscope for today for the user's zodiac sign in English\",\n      \"domain\": \"horoscope\",\n      \"required_inputs\": [\"zodiac sign\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve wisdom quotes related to anger to help calm the mind",
+        "domain": "quotes",
+        "required_inputs": [
+          "topic: anger"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the list of top-ranked Netflix original series",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Get the general horoscope for today for the user's zodiac sign in English",
+        "domain": "horoscope",
+        "required_inputs": [
+          "zodiac sign"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve wisdom quotes related to anger to help calm the mind",
+      "domain": "quotes",
+      "required_inputs": [
+        "topic: anger"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the list of top-ranked Netflix original series",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Get the general horoscope for today for the user's zodiac sign in English",
+      "domain": "horoscope",
+      "required_inputs": [
+        "zodiac sign"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 232,
+    "total_tokens": 376,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 1712,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 187,
+      "service_ttlt_ms": 1850,
+      "total_duration_ms": 1763,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

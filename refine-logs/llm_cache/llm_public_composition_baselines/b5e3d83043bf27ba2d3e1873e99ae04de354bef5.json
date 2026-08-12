@@ -1,0 +1,27 @@
+{
+  "record_id": "Technology_response_3128",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The first candidate allows scraping data by researching a specific part of an attribute in the tag selector, which is suitable for fetching articles from a specific publisher like 'AI Today'.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate allows scraping data by researching a specific part of an attribute in the tag selector, which is suitable for fetching articles from a specific publisher like 'AI Today'."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2162,
+    "total_tokens": 2214,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 51
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 2161
+    }
+  }
+}

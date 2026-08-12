@@ -1,0 +1,104 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve trading data for the specified stock tickers\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Extract minimum values from the retrieved trading data for each stock\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"trading data\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Calculate price differences between the stocks based on their trading data\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"trading data\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Compare the stocks using their tickers, minimum values, and price differences\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\", \"minimum values\", \"price differences\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve trading data for the specified stock tickers",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Extract minimum values from the retrieved trading data for each stock",
+        "domain": "Finance",
+        "required_inputs": [
+          "trading data"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate price differences between the stocks based on their trading data",
+        "domain": "Finance",
+        "required_inputs": [
+          "trading data"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Compare the stocks using their tickers, minimum values, and price differences",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers",
+          "minimum values",
+          "price differences"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve trading data for the specified stock tickers",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Extract minimum values from the retrieved trading data for each stock",
+      "domain": "Finance",
+      "required_inputs": [
+        "trading data"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calculate price differences between the stocks based on their trading data",
+      "domain": "Finance",
+      "required_inputs": [
+        "trading data"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Compare the stocks using their tickers, minimum values, and price differences",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers",
+        "minimum values",
+        "price differences"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 179,
+    "total_tokens": 378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 91,
+      "engine_ttlt_ms": 3247,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 255,
+      "service_ttlt_ms": 3403,
+      "total_duration_ms": 3298,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

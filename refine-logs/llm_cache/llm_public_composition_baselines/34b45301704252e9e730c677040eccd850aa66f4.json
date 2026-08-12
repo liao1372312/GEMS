@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2371",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The user requested rugby fixtures for the 2020 season, and the Rugby Live Data - Standings API provides rugby fixtures, results, and standings for the 2020 season, matching the request perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The user requested rugby fixtures for the 2020 season, and the Rugby Live Data - Standings API provides rugby fixtures, results, and standings for the 2020 season, matching the request perfectly."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1469,
+    "total_tokens": 1532,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 891,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 1051,
+      "total_duration_ms": 933,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

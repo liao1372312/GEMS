@@ -1,0 +1,96 @@
+{
+  "record_id": "Technology_response_2871",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve general information about the game Jet Set Radio\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve general information about the game Jet Set Radio Future\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Collect fun facts about the artists involved in Jet Set Radio and Jet Set Radio Future\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Compile a list of levels from Jet Set Radio with detailed information\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Compile a list of levels from Jet Set Radio Future with detailed information\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve general information about the game Jet Set Radio",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve general information about the game Jet Set Radio Future",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Collect fun facts about the artists involved in Jet Set Radio and Jet Set Radio Future",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 4,
+        "description": "Compile a list of levels from Jet Set Radio with detailed information",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 5,
+        "description": "Compile a list of levels from Jet Set Radio Future with detailed information",
+        "domain": "Technology",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve general information about the game Jet Set Radio",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve general information about the game Jet Set Radio Future",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Collect fun facts about the artists involved in Jet Set Radio and Jet Set Radio Future",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 4,
+      "description": "Compile a list of levels from Jet Set Radio with detailed information",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 5,
+      "description": "Compile a list of levels from Jet Set Radio Future with detailed information",
+      "domain": "Technology",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 188,
+    "total_tokens": 408,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 4318,
+      "pre_inference_ms": 295,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 382,
+      "service_ttlt_ms": 4649,
+      "total_duration_ms": 4371,
+      "user_visible_ttft_ms": 87
+    }
+  }
+}

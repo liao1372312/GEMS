@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1412",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide tips or information on puppy care, training, feeding, grooming, or pet supplies. They mostly return pet data by ID or inventory status, which does not match the user's request for comprehensive puppy care tips.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide tips or information on puppy care, training, feeding, grooming, or pet supplies. They mostly return pet data by ID or inventory status, which does not match the user's request for comprehensive puppy care tips."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1099,
+    "total_tokens": 1168,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 623,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 198,
+      "service_ttlt_ms": 770,
+      "total_duration_ms": 678,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

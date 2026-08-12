@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3527",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Messages - getMsgs API provides access to a variety of message categories including 'funny', which is the closest relevant category to fetch a random manatee joke. Although it does not explicitly mention manatee jokes, it is the best fit among the candidates for fetching jokes. Other APIs are unrelated or focused on memes, Instagram data, or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Messages - getMsgs API provides access to a variety of message categories including 'funny', which is the closest relevant category to fetch a random manatee joke. Although it does not explicitly mention manatee jokes, it is the best fit among the candidates for fetching jokes. Other APIs are unrelated or focused on memes, Instagram data, or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1859,
+    "total_tokens": 1952,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1094,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 196,
+      "service_ttlt_ms": 1238,
+      "total_duration_ms": 1136,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

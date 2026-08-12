@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_492",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.1, \"rationale\": \"None of the candidates directly provide landmarks or attractions along a road trip route; the top-ranked API provides city data which might be somewhat useful for identifying cities along the route, but it does not specifically offer landmarks or attractions.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.1,
+    "rationale": "None of the candidates directly provide landmarks or attractions along a road trip route; the top-ranked API provides city data which might be somewhat useful for identifying cities along the route, but it does not specifically offer landmarks or attractions."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1356,
+    "total_tokens": 1422,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 932,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 270,
+      "service_ttlt_ms": 1153,
+      "total_duration_ms": 1044,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

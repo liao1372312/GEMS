@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4406",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"This API provides NBA game box scores including team details for home and away teams, which aligns with the user's request for NBA game details and team information.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "This API provides NBA game box scores including team details for home and away teams, which aligns with the user's request for NBA game details and team information."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2408,
+    "total_tokens": 2460,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1241,
+      "pre_inference_ms": 240,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 543,
+      "service_ttlt_ms": 1708,
+      "total_duration_ms": 1482,
+      "user_visible_ttft_ms": 303
+    }
+  }
+}

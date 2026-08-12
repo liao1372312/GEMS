@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1565",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The 'Trader Wagon - getPortfolioInfo' API specifically provides portfolio info for a given portfolio ID, matching the subtask requirement to fetch portfolio information for portfolio ID 123456.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The 'Trader Wagon - getPortfolioInfo' API specifically provides portfolio info for a given portfolio ID, matching the subtask requirement to fetch portfolio information for portfolio ID 123456."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1330,
+    "total_tokens": 1388,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 923,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 183,
+      "service_ttlt_ms": 1074,
+      "total_duration_ms": 995,
+      "user_visible_ttft_ms": 86
+    }
+  }
+}

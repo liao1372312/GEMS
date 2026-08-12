@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3318",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Tripadvisor Search Restaurants API is the closest match for fetching business details of top tourist attractions near given locations, as it supports querying attractions and related places in the travel domain.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Tripadvisor Search Restaurants API is the closest match for fetching business details of top tourist attractions near given locations, as it supports querying attractions and related places in the travel domain."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1414,
+    "total_tokens": 1470,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 892,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 376,
+      "service_ttlt_ms": 1188,
+      "total_duration_ms": 1080,
+      "user_visible_ttft_ms": 259
+    }
+  }
+}

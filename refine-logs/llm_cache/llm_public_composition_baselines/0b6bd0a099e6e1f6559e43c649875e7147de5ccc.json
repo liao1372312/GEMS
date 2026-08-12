@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4757",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Birthday Cake DB provides a list of cakes with images and IDs, which can be used to select a medium difficulty cake and get detailed recipe information, matching the subtask requirements closely.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Birthday Cake DB provides a list of cakes with images and IDs, which can be used to select a medium difficulty cake and get detailed recipe information, matching the subtask requirements closely."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1660,
+    "total_tokens": 1719,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 696,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 217,
+      "service_ttlt_ms": 849,
+      "total_duration_ms": 736,
+      "user_visible_ttft_ms": 97
+    }
+  }
+}

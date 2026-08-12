@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4584",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide an API to get ranked world cities by homicide rates or format such data into a user-friendly report. The top-ranked candidate is a city and state search API that returns states information, which is unrelated to homicide rates or formatting reports.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide an API to get ranked world cities by homicide rates or format such data into a user-friendly report. The top-ranked candidate is a city and state search API that returns states information, which is unrelated to homicide rates or formatting reports."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1902,
+    "total_tokens": 1975,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 764,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 202,
+      "service_ttlt_ms": 921,
+      "total_duration_ms": 814,
+      "user_visible_ttft_ms": 83
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_562",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants a unique ingredient and a recipe showcasing it; the Recipe Finder - icecream/ingredient API can provide a unique ingredient (e.g., blueberry) and a recipe with nutritional info, fitting the food domain and user intent.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants a unique ingredient and a recipe showcasing it; the Recipe Finder - icecream/ingredient API can provide a unique ingredient (e.g., blueberry) and a recipe with nutritional info, fitting the food domain and user intent."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1940,
+    "total_tokens": 2009,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 714,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 203,
+      "service_ttlt_ms": 872,
+      "total_duration_ms": 767,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

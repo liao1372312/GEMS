@@ -1,0 +1,65 @@
+{
+  "record_id": "Tourism_response_4281",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice are the same irrelevant API for geocoding; keep semantic top-1.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides relevant location/geocode info for airports, better matching geocode intent than semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is the only location-related API available, better matching geocode intent than semantic top-1.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides relevant location details based on country codes, better matching geolookup intent than semantic top-1.\"\n    },\n    {\n      \"step_id\": 5,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice better matches geolookup intent with location details based on country codes than semantic top-1.\"\n    },\n    {\n      \"step_id\": 6,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice better matches geolookup intent with location details based on country codes than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choice are the same irrelevant API for geocoding; keep semantic top-1."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice provides relevant location/geocode info for airports, better matching geocode intent than semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice is the only location-related API available, better matching geocode intent than semantic top-1."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice provides relevant location details based on country codes, better matching geolookup intent than semantic top-1."
+      },
+      {
+        "step_id": 5,
+        "accept_llm": true,
+        "reason": "LLM choice better matches geolookup intent with location details based on country codes than semantic top-1."
+      },
+      {
+        "step_id": 6,
+        "accept_llm": true,
+        "reason": "LLM choice better matches geolookup intent with location details based on country codes than semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.6
+  },
+  "usage": {
+    "completion_tokens": 313,
+    "prompt_tokens": 2510,
+    "total_tokens": 2823,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 5540,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 186,
+      "service_ttlt_ms": 5643,
+      "total_duration_ms": 5570,
+      "user_visible_ttft_ms": 103
+    }
+  }
+}

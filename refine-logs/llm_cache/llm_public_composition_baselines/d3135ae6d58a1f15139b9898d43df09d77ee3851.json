@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2964",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Shazam API is designed to search for songs and related music information, making it the best fit for finding MP3 files or song data for artists like Taylor Swift and Ed Sheeran.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Shazam API is designed to search for songs and related music information, making it the best fit for finding MP3 files or song data for artists like Taylor Swift and Ed Sheeran."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1603,
+    "total_tokens": 1663,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 660,
+      "pre_inference_ms": 73,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 434,
+      "service_ttlt_ms": 1033,
+      "total_duration_ms": 967,
+      "user_visible_ttft_ms": 362
+    }
+  }
+}

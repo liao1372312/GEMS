@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5398",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Fantasy Cricket - Upcoming Matches API is the only candidate in the Sports domain that provides information about ongoing or upcoming matches, matching the user's request for ongoing sports matches.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Fantasy Cricket - Upcoming Matches API is the only candidate in the Sports domain that provides information about ongoing or upcoming matches, matching the user's request for ongoing sports matches."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1465,
+    "total_tokens": 1520,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 550,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 148,
+      "service_ttlt_ms": 657,
+      "total_duration_ms": 576,
+      "user_visible_ttft_ms": 61
+    }
+  }
+}

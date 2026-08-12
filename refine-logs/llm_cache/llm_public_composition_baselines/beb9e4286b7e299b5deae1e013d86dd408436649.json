@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate provides a GET endpoint with no required parameters to fetch random anime images, but it does not provide jokes. None of the candidates provide a jokes API. However, the first candidate is the closest to entertainment content, so it is selected despite low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate provides a GET endpoint with no required parameters to fetch random anime images, but it does not provide jokes. None of the candidates provide a jokes API. However, the first candidate is the closest to entertainment content, so it is selected despite low confidence."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1447,
+    "total_tokens": 1522,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 729,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 151,
+      "service_ttlt_ms": 838,
+      "total_duration_ms": 774,
+      "user_visible_ttft_ms": 75
+    }
+  }
+}

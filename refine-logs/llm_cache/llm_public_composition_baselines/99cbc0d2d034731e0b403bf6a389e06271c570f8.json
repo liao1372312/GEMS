@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2128",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The user needs a QR code generated for a FHIR ID, and candidate rank 8 is specifically an AI-writer QR Code API designed to generate QR codes from text, which fits the requirement perfectly.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The user needs a QR code generated for a FHIR ID, and candidate rank 8 is specifically an AI-writer QR Code API designed to generate QR codes from text, which fits the requirement perfectly."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1720,
+    "total_tokens": 1783,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 1072,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 228,
+      "service_ttlt_ms": 1241,
+      "total_duration_ms": 1134,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "record_id": "Finance_response_5265",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest top news from Fidelity Investments.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve international market information based on the latest news.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"news_data\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the list of public holidays in the United States for the year 2022.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest top news from Fidelity Investments.",
+        "domain": "finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve international market information based on the latest news.",
+        "domain": "finance",
+        "required_inputs": [
+          "news_data"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get the list of public holidays in the United States for the year 2022.",
+        "domain": "finance",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest top news from Fidelity Investments.",
+      "domain": "finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve international market information based on the latest news.",
+      "domain": "finance",
+      "required_inputs": [
+        "news_data"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get the list of public holidays in the United States for the year 2022.",
+      "domain": "finance",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 593,
+    "total_tokens": 729,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 234,
+      "user_visible_ttft_ms": 117,
+      "total_duration_ms": 1033,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 7,
+      "service_ttlt_ms": 1138,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 945,
+      "engine_tbt_ms": 7
+    }
+  }
+}

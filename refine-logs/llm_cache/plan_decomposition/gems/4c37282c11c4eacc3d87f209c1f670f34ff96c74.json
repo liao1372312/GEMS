@@ -1,0 +1,88 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Plan the road trip route across the country by defining start, end, and key waypoints.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve current exchange rates for various currencies along with their symbols to manage expenses during the trip.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Set up an expense tracking system to record and monitor road trip costs.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Plan the road trip route across the country by defining start, end, and key waypoints.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve current exchange rates for various currencies along with their symbols to manage expenses during the trip.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Set up an expense tracking system to record and monitor road trip costs.",
+        "domain": "Finance",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Plan the road trip route across the country by defining start, end, and key waypoints.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve current exchange rates for various currencies along with their symbols to manage expenses during the trip.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Set up an expense tracking system to record and monitor road trip costs.",
+      "domain": "Finance",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 2279,
+    "total_tokens": 2427,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1764,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 246,
+      "service_ttlt_ms": 1953,
+      "total_duration_ms": 1867,
+      "user_visible_ttft_ms": 146
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Plan the road trip route across the country.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Manage and track expenses for the road trip.",
+        "domain": "Finance",
+        "required_inputs": []
+      }
+    ]
+  }
+}

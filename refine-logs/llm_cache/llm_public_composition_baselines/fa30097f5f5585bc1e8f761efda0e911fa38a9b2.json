@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"Kohls - stores/list API is designed to list stores near a provided GEO location and fits the requirement to find stores within 25 miles of the given coordinates offering the identified products.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "Kohls - stores/list API is designed to list stores near a provided GEO location and fits the requirement to find stores within 25 miles of the given coordinates offering the identified products."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 2001,
+    "total_tokens": 2060,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 58
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1995
+    }
+  }
+}

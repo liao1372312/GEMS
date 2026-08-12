@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3150",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate provides an endpoint to generate a valid credit card number dataset, which fits the subtask of fetching credit card data to verify valid credit card details. It requires no mandatory input parameters, matching the subtask's requirement.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate provides an endpoint to generate a valid credit card number dataset, which fits the subtask of fetching credit card data to verify valid credit card details. It requires no mandatory input parameters, matching the subtask's requirement."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1290,
+    "total_tokens": 1358,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 948,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 315,
+      "service_ttlt_ms": 1222,
+      "total_duration_ms": 1108,
+      "user_visible_ttft_ms": 189
+    }
+  }
+}

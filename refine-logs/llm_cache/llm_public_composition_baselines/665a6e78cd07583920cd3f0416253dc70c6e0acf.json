@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_562",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Recipe Generator API can generate a unique recipe based on provided ingredients, which aligns well with the user's request for a recipe showcasing unique ingredients. However, it does not provide a list of ingredients with nutritional information. Since no candidate offers a comprehensive list of unique ingredients with nutritional info, this API is the best fit to fulfill the recipe suggestion part of the request.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Recipe Generator API can generate a unique recipe based on provided ingredients, which aligns well with the user's request for a recipe showcasing unique ingredients. However, it does not provide a list of ingredients with nutritional information. Since no candidate offers a comprehensive list of unique ingredients with nutritional info, this API is the best fit to fulfill the recipe suggestion part of the request."
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 1820,
+    "total_tokens": 1914,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 71,
+      "engine_ttft_ms": 1290,
+      "engine_ttlt_ms": 7972,
+      "pre_inference_ms": 158,
+      "service_tbt_ms": 72,
+      "service_ttft_ms": 1999,
+      "service_ttlt_ms": 8699,
+      "total_duration_ms": 8565,
+      "user_visible_ttft_ms": 1841
+    }
+  }
+}

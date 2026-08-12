@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4611",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The selected API provides cryptocurrency news and information, matching the subtask to query active cryptocurrencies in the crypto market.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The selected API provides cryptocurrency news and information, matching the subtask to query active cryptocurrencies in the crypto market."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1352,
+    "total_tokens": 1396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 539,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 219,
+      "service_ttlt_ms": 705,
+      "total_duration_ms": 600,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5435",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The City and State Search API - States Search endpoint allows searching states by country name, which can be used to query vaccination requirements for France by specifying the country_name parameter. It matches the subtask of querying vaccination requirements for France best among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The City and State Search API - States Search endpoint allows searching states by country name, which can be used to query vaccination requirements for France by specifying the country_name parameter. It matches the subtask of querying vaccination requirements for France best among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1845,
+    "total_tokens": 1917,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 916,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 1132,
+      "total_duration_ms": 1017,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

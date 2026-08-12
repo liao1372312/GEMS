@@ -1,0 +1,64 @@
+{
+  "record_id": "Technology_response_3462",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Gather recent news articles related to charity events for inspiration.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Extract headlines from the gathered news articles about charity events.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"news_articles\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Gather recent news articles related to charity events for inspiration.",
+        "domain": "technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Extract headlines from the gathered news articles about charity events.",
+        "domain": "technology",
+        "required_inputs": [
+          "news_articles"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Gather recent news articles related to charity events for inspiration.",
+      "domain": "technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Extract headlines from the gathered news articles about charity events.",
+      "domain": "technology",
+      "required_inputs": [
+        "news_articles"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 804,
+    "total_tokens": 897,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1660,
+      "pre_inference_ms": 162,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 263,
+      "service_ttlt_ms": 1872,
+      "total_duration_ms": 1719,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of jokes suitable for a comedy show to entertain the audience\",\n      \"domain\": \"Entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch sanction data related to Canada to ensure compliance for the event\",\n      \"domain\": \"Compliance\",\n      \"required_inputs\": [\"country_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of jokes suitable for a comedy show to entertain the audience",
+        "domain": "Entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch sanction data related to Canada to ensure compliance for the event",
+        "domain": "Compliance",
+        "required_inputs": [
+          "country_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of jokes suitable for a comedy show to entertain the audience",
+      "domain": "Entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch sanction data related to Canada to ensure compliance for the event",
+      "domain": "Compliance",
+      "required_inputs": [
+        "country_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 190,
+    "total_tokens": 289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 158,
+      "engine_ttlt_ms": 2068,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 277,
+      "service_ttlt_ms": 2168,
+      "total_duration_ms": 2093,
+      "user_visible_ttft_ms": 197
+    }
+  }
+}

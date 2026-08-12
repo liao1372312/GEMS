@@ -1,0 +1,58 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch live updates on ongoing cricket matches including scores and match details.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch live updates on ongoing cricket matches including scores and match details.",
+        "domain": "Sports",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch live updates on ongoing cricket matches including scores and match details.",
+      "domain": "Sports",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2244,
+    "total_tokens": 2296,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 424,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 266,
+      "service_ttlt_ms": 642,
+      "total_duration_ms": 518,
+      "user_visible_ttft_ms": 133
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch live updates on ongoing sports matches including scores and match details.",
+        "domain": "Sports",
+        "required_inputs": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Research popular sports-themed birthday party ideas and compile a list of themes and decorations.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch images and examples of decorations and party supplies related to the selected sports themes.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"themes_list\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Identify nearby stores or online vendors that sell sports-themed party decorations and supplies.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"location\", \"themes_list\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Gather accurate and up-to-date predictions for upcoming sports matches relevant to the party theme.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"sports_type\", \"match_dates\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Compile the predictions into a presentable format suitable for sharing at the party.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"match_predictions\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Research popular sports-themed birthday party ideas and compile a list of themes and decorations.",
+        "domain": "technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch images and examples of decorations and party supplies related to the selected sports themes.",
+        "domain": "technology",
+        "required_inputs": [
+          "themes_list"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Identify nearby stores or online vendors that sell sports-themed party decorations and supplies.",
+        "domain": "technology",
+        "required_inputs": [
+          "location",
+          "themes_list"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Gather accurate and up-to-date predictions for upcoming sports matches relevant to the party theme.",
+        "domain": "technology",
+        "required_inputs": [
+          "sports_type",
+          "match_dates"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Compile the predictions into a presentable format suitable for sharing at the party.",
+        "domain": "technology",
+        "required_inputs": [
+          "match_predictions"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Research popular sports-themed birthday party ideas and compile a list of themes and decorations.",
+      "domain": "technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch images and examples of decorations and party supplies related to the selected sports themes.",
+      "domain": "technology",
+      "required_inputs": [
+        "themes_list"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Identify nearby stores or online vendors that sell sports-themed party decorations and supplies.",
+      "domain": "technology",
+      "required_inputs": [
+        "location",
+        "themes_list"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Gather accurate and up-to-date predictions for upcoming sports matches relevant to the party theme.",
+      "domain": "technology",
+      "required_inputs": [
+        "sports_type",
+        "match_dates"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Compile the predictions into a presentable format suitable for sharing at the party.",
+      "domain": "technology",
+      "required_inputs": [
+        "match_predictions"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 253,
+    "prompt_tokens": 676,
+    "total_tokens": 929,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 2542,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 297,
+      "service_ttlt_ms": 2781,
+      "total_duration_ms": 2666,
+      "user_visible_ttft_ms": 170
+    }
+  }
+}

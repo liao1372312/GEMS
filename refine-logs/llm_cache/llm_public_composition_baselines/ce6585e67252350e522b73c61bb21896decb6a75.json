@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2187",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the requirement to fetch a trivia question from the geography category.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the requirement to fetch a trivia question from the geography category."
+  },
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 1436,
+    "total_tokens": 1474,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 380,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 380,
+      "service_ttlt_ms": 701,
+      "total_duration_ms": 608,
+      "user_visible_ttft_ms": 281
+    }
+  }
+}

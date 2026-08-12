@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3742",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The top-ranked candidate matches the task intent and domain perfectly by providing a random Mediterranean recipe with fish as an ingredient, which aligns with the user's request for a Mediterranean fish recipe. Other candidates do not match the cuisine or ingredient requirements as closely.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The top-ranked candidate matches the task intent and domain perfectly by providing a random Mediterranean recipe with fish as an ingredient, which aligns with the user's request for a Mediterranean fish recipe. Other candidates do not match the cuisine or ingredient requirements as closely."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1691,
+    "total_tokens": 1761,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 1276,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 1411,
+      "total_duration_ms": 1307,
+      "user_visible_ttft_ms": 103
+    }
+  }
+}

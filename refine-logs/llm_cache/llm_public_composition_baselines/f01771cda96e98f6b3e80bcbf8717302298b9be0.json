@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4281",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the Tourism domain or provides geocode/location information for venues like Community Center.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the Tourism domain or provides geocode/location information for venues like Community Center."
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 1426,
+    "total_tokens": 1467,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 560,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 325,
+      "service_ttlt_ms": 843,
+      "total_duration_ms": 739,
+      "user_visible_ttft_ms": 217
+    }
+  }
+}

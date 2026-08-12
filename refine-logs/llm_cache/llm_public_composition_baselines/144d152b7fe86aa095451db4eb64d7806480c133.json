@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6246",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The candidate ranked 7 provides a list of free Epic Games, which is suitable for recommending a fun online game for a virtual game night.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The candidate ranked 7 provides a list of free Epic Games, which is suitable for recommending a fun online game for a virtual game night."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1225,
+    "total_tokens": 1275,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 847,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 139,
+      "service_ttlt_ms": 941,
+      "total_duration_ms": 876,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

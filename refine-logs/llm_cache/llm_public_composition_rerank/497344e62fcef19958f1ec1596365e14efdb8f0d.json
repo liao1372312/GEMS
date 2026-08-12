@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2088",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.7, \"rationale\": \"None of the candidate APIs explicitly provide commander skills for the game GoTW. The echo-api can be used to pass the game_name parameter and potentially retrieve or echo back relevant information, making it the best available option given the candidates.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.7,
+    "rationale": "None of the candidate APIs explicitly provide commander skills for the game GoTW. The echo-api can be used to pass the game_name parameter and potentially retrieve or echo back relevant information, making it the best available option given the candidates."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1504,
+    "total_tokens": 1572,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 132,
+      "engine_ttlt_ms": 1271,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 311,
+      "service_ttlt_ms": 1425,
+      "total_duration_ms": 1305,
+      "user_visible_ttft_ms": 186
+    }
+  }
+}

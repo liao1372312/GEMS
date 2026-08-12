@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1999",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The user wants to fetch the API status of the email service provider. Among the candidates, only 'Email API - Get Fake Email Address' is related to email services and mentions validation and checking email service providers. It is the most relevant to checking the email service provider's status. Other status-check APIs are unrelated to email services.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The user wants to fetch the API status of the email service provider. Among the candidates, only 'Email API - Get Fake Email Address' is related to email services and mentions validation and checking email service providers. It is the most relevant to checking the email service provider's status. Other status-check APIs are unrelated to email services."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1449,
+    "total_tokens": 1537,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 1355,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 174,
+      "service_ttlt_ms": 1454,
+      "total_duration_ms": 1385,
+      "user_visible_ttft_ms": 98
+    }
+  }
+}

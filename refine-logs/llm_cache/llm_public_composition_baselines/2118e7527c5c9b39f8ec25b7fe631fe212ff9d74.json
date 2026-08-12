@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3999",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The user requested a list of cocktails with their names and IDs from The Cocktail DB, which matches exactly with candidate rank 1.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The user requested a list of cocktails with their names and IDs from The Cocktail DB, which matches exactly with candidate rank 1."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1773,
+    "total_tokens": 1821,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 526,
+      "pre_inference_ms": 238,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 596,
+      "service_ttlt_ms": 983,
+      "total_duration_ms": 754,
+      "user_visible_ttft_ms": 357
+    }
+  }
+}

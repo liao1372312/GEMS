@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6233",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide music chart information or rankings for alternative rock songs. The candidates are mostly social media user info, geocoding, eCommerce, education, or business authentication APIs, none related to music charts. Therefore, no suitable API is available in the given candidates for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide music chart information or rankings for alternative rock songs. The candidates are mostly social media user info, geocoding, eCommerce, education, or business authentication APIs, none related to music charts. Therefore, no suitable API is available in the given candidates for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 2418,
+    "total_tokens": 2501,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 1375,
+      "pre_inference_ms": 210,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 344,
+      "service_ttlt_ms": 1661,
+      "total_duration_ms": 1491,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

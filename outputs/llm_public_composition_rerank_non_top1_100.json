@@ -1,0 +1,3639 @@
+{
+  "config": {
+    "split": "test",
+    "limit": 100,
+    "case_filter": "non_top1",
+    "model": "gpt-4.1-mini",
+    "temperature": 0.0,
+    "cache_dir": "refine-logs/llm_cache/llm_public_composition_rerank"
+  },
+  "metrics": {
+    "api_acc": 0.82,
+    "single_choice_top3_proxy": 0.84,
+    "single_choice_mrr_proxy": 0.8560003607503609,
+    "workflow_exact": 0.7,
+    "para_f1": 0.855,
+    "rank_counts": {
+      "1": 5,
+      "2": 23,
+      "3": 18,
+      "4": 8,
+      "5": 10,
+      "6": 5,
+      "7": 5,
+      "8": 6,
+      "9": 13,
+      "10": 7
+    },
+    "steps": 100,
+    "workflows": 50
+  },
+  "usage": {
+    "prompt_tokens": 192911,
+    "completion_tokens": 7949,
+    "total_tokens": 200860
+  },
+  "elapsed_seconds": 249.77222926774994,
+  "predictions": [
+    {
+      "record_id": "Cross_Domain_response_715",
+      "step_id": 3,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The 'Horoscope Astrology - Get a tarot card' API provides personalized horoscope-related content and fits the subtask of compiling personalized horoscope readings. It directly relates to horoscope data and requires no additional parameters, making it suitable for generating personalized readings for family members.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The 'Horoscope Astrology - Get a tarot card' API provides personalized horoscope-related content and fits the subtask of compiling personalized horoscope readings. It directly relates to horoscope data and requires no additional parameters, making it suitable for generating personalized readings for family members."
+      },
+      "usage": {
+        "completion_tokens": 68,
+        "prompt_tokens": 1975,
+        "total_tokens": 2043,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 758,
+          "pre_inference_ms": 120,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 241,
+          "service_ttlt_ms": 951,
+          "total_duration_ms": 839,
+          "user_visible_ttft_ms": 121
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_715",
+      "step_id": 4,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.8,\"rationale\":\"The subtask is to identify favorite music genres of family members, which requires finding relevant information based on their names. ExplorArc's Link Finder API can find relevant links or information based on a query, which can be used to gather data about family members' music preferences. Other APIs do not directly address identifying music genres or preferences.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.8,
+        "rationale": "The subtask is to identify favorite music genres of family members, which requires finding relevant information based on their names. ExplorArc's Link Finder API can find relevant links or information based on a query, which can be used to gather data about family members' music preferences. Other APIs do not directly address identifying music genres or preferences."
+      },
+      "usage": {
+        "completion_tokens": 83,
+        "prompt_tokens": 1871,
+        "total_tokens": 1954,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 986,
+          "pre_inference_ms": 119,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 233,
+          "service_ttlt_ms": 1169,
+          "total_duration_ms": 1060,
+          "user_visible_ttft_ms": 114
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_809",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.95,\"rationale\":\"The 'World of Jokes - Get Random Joke By Category' API allows fetching a joke by category, which can be set to 'manatee' to get a manatee joke, directly satisfying the subtask. It is more specific than generic random joke APIs and fits the entertainment domain.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.95,
+        "rationale": "The 'World of Jokes - Get Random Joke By Category' API allows fetching a joke by category, which can be set to 'manatee' to get a manatee joke, directly satisfying the subtask. It is more specific than generic random joke APIs and fits the entertainment domain."
+      },
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 1624,
+        "total_tokens": 1699,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 957,
+          "pre_inference_ms": 83,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 168,
+          "service_ttlt_ms": 1070,
+          "total_duration_ms": 1027,
+          "user_visible_ttft_ms": 85
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_809",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"The subtask is to fetch a random joke from the Jokes by API-Ninjas. Candidate 10 is Humor-Jokes-and-Memes - random-joke, which provides a random joke and is from the Jokes by API-Ninjas collection, directly satisfying the subtask intent with no required parameters.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 0.95,
+        "rationale": "The subtask is to fetch a random joke from the Jokes by API-Ninjas. Candidate 10 is Humor-Jokes-and-Memes - random-joke, which provides a random joke and is from the Jokes by API-Ninjas collection, directly satisfying the subtask intent with no required parameters."
+      },
+      "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 1623,
+        "total_tokens": 1708,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 1301,
+          "pre_inference_ms": 129,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 251,
+          "service_ttlt_ms": 1503,
+          "total_duration_ms": 1382,
+          "user_visible_ttft_ms": 121
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_1006",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":3,\"confidence\":0.9,\"rationale\":\"The 'Halsey Lyric Snippets - all albums from {artist}' API directly provides albums by a specified artist, matching the subtask to query albums by the identified artist. It requires an 'artist' parameter which can be bound to 'parent_favorite_artist'. This API is specific to music albums, unlike broader search or unrelated domain APIs.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The 'Halsey Lyric Snippets - all albums from {artist}' API directly provides albums by a specified artist, matching the subtask to query albums by the identified artist. It requires an 'artist' parameter which can be bound to 'parent_favorite_artist'. This API is specific to music albums, unlike broader search or unrelated domain APIs."
+      },
+      "usage": {
+        "completion_tokens": 88,
+        "prompt_tokens": 1915,
+        "total_tokens": 2003,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 1104,
+          "pre_inference_ms": 126,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 262,
+          "service_ttlt_ms": 1305,
+          "total_duration_ms": 1196,
+          "user_visible_ttft_ms": 136
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_1006",
+      "step_id": 4,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"This API specifically retrieves all albums by a specified artist, directly supporting the task of compiling albums and singles into a playlist. It requires an artist parameter, which aligns with the user's request for the favorite artist's music. Other APIs are unrelated or too generic.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "This API specifically retrieves all albums by a specified artist, directly supporting the task of compiling albums and singles into a playlist. It requires an artist parameter, which aligns with the user's request for the favorite artist's music. Other APIs are unrelated or too generic."
+      },
+      "usage": {
+        "completion_tokens": 73,
+        "prompt_tokens": 2064,
+        "total_tokens": 2137,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 74,
+          "engine_ttlt_ms": 1412,
+          "pre_inference_ms": 123,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 281,
+          "service_ttlt_ms": 1605,
+          "total_duration_ms": 1492,
+          "user_visible_ttft_ms": 158
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_1006",
+      "step_id": 5,
+      "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The subtask is to suggest additional songs based on the compiled playlist for variety. The Shazam - Search Track API directly supports searching for songs and returning similar songs, which fits the intent perfectly. It requires a track name, which can be derived from the playlist input. Other APIs are unrelated to music recommendations or too generic.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.9,
+        "rationale": "The subtask is to suggest additional songs based on the compiled playlist for variety. The Shazam - Search Track API directly supports searching for songs and returning similar songs, which fits the intent perfectly. It requires a track name, which can be derived from the playlist input. Other APIs are unrelated to music recommendations or too generic."
+      },
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 2093,
+        "total_tokens": 2175,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 305,
+          "user_visible_ttft_ms": 153,
+          "total_duration_ms": 1287,
+          "pre_inference_ms": 152,
+          "service_tbt_ms": 14,
+          "service_ttlt_ms": 1428,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 1186,
+          "engine_tbt_ms": 14
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_897",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Shazam - Search Track API directly supports searching for song information by track name, which aligns well with the subtask of searching for the lyrics of the song 'Bad' by Michael Jackson. It requires the track name as input, which can be bound from the subtask inputs. Other APIs are unrelated to music or lyrics search.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The Shazam - Search Track API directly supports searching for song information by track name, which aligns well with the subtask of searching for the lyrics of the song 'Bad' by Michael Jackson. It requires the track name as input, which can be bound from the subtask inputs. Other APIs are unrelated to music or lyrics search."
+      },
+      "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 1949,
+        "total_tokens": 2038,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 67,
+          "engine_ttlt_ms": 1072,
+          "pre_inference_ms": 176,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 401,
+          "service_ttlt_ms": 1387,
+          "total_duration_ms": 1221,
+          "user_visible_ttft_ms": 226
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_995",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs explicitly support retrieving jobs for a translation project by project ID. The provided APIs are unrelated to translation projects or job listings, so no suitable API is available in the candidates.\"}",
+      "parsed": {
+        "selected_rank": 1,
+        "confidence": 0.0,
+        "rationale": "None of the candidate APIs explicitly support retrieving jobs for a translation project by project ID. The provided APIs are unrelated to translation projects or job listings, so no suitable API is available in the candidates."
+      },
+      "usage": {
+        "completion_tokens": 61,
+        "prompt_tokens": 1974,
+        "total_tokens": 2035,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 74,
+          "engine_ttlt_ms": 1123,
+          "pre_inference_ms": 153,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 266,
+          "service_ttlt_ms": 1311,
+          "total_duration_ms": 1168,
+          "user_visible_ttft_ms": 113
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_995",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The 'League Of Legends Esports - Get Standings' API is the only candidate related to events and provides event details using an event or tournament ID, which matches the subtask to retrieve event details by event ID 12345.\"}",
+      "parsed": {
+        "selected_rank": 8,
+        "confidence": 0.9,
+        "rationale": "The 'League Of Legends Esports - Get Standings' API is the only candidate related to events and provides event details using an event or tournament ID, which matches the subtask to retrieve event details by event ID 12345."
+      },
+      "usage": {
+        "completion_tokens": 69,
+        "prompt_tokens": 1954,
+        "total_tokens": 2023,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 27,
+          "engine_ttft_ms": 50,
+          "engine_ttlt_ms": 1885,
+          "pre_inference_ms": 80,
+          "service_tbt_ms": 27,
+          "service_ttft_ms": 154,
+          "service_ttlt_ms": 1986,
+          "total_duration_ms": 1914,
+          "user_visible_ttft_ms": 74
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_551",
+      "step_id": 1,
+      "raw": "{\"selected_rank\":7,\"confidence\":0.9,\"rationale\":\"Moka News API provides recent news articles from multiple sources worldwide, suitable for fetching climate change news from diverse sources as required.\"}",
+      "parsed": {
+        "selected_rank": 7,
+        "confidence": 0.9,
+        "rationale": "Moka News API provides recent news articles from multiple sources worldwide, suitable for fetching climate change news from diverse sources as required."
+      },
+      "usage": {
+        "completion_tokens": 42,
+        "prompt_tokens": 1724,
+        "total_tokens": 1766,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 565,
+          "pre_inference_ms": 150,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 257,
+          "service_ttlt_ms": 756,
+          "total_duration_ms": 615,
+          "user_visible_ttft_ms": 107
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_551",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The Climate News Feed API provides climate change news from trusted sources, which is relevant to the user's request. It is the only API related to climate news and likely to have source information needed for bias ratings. Other APIs are unrelated to news or bias ratings.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The Climate News Feed API provides climate change news from trusted sources, which is relevant to the user's request. It is the only API related to climate news and likely to have source information needed for bias ratings. Other APIs are unrelated to news or bias ratings."
+      },
+      "usage": {
+        "completion_tokens": 68,
+        "prompt_tokens": 2458,
+        "total_tokens": 2526,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 34,
+          "engine_ttft_ms": 131,
+          "engine_ttlt_ms": 2433,
+          "pre_inference_ms": 95,
+          "service_tbt_ms": 34,
+          "service_ttft_ms": 258,
+          "service_ttlt_ms": 2557,
+          "total_duration_ms": 2470,
+          "user_visible_ttft_ms": 163
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_551",
+      "step_id": 3,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The Climate News Feed API is the only candidate related to climate change news and likely includes source information. It is the best fit to acquire credibility scores for news sources used in step 1, as required by the subtask. Other APIs are unrelated to news credibility or climate change.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The Climate News Feed API is the only candidate related to climate change news and likely includes source information. It is the best fit to acquire credibility scores for news sources used in step 1, as required by the subtask. Other APIs are unrelated to news credibility or climate change."
+      },
+      "usage": {
+        "completion_tokens": 73,
+        "prompt_tokens": 2240,
+        "total_tokens": 2313,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 14,
+          "engine_ttft_ms": 129,
+          "engine_ttlt_ms": 1155,
+          "pre_inference_ms": 125,
+          "service_tbt_ms": 14,
+          "service_ttft_ms": 304,
+          "service_ttlt_ms": 1324,
+          "total_duration_ms": 1208,
+          "user_visible_ttft_ms": 179
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_8576",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"MusiclinkssApi - Search by query directly supports searching music content by song title and artist, which fits the subtask of fetching facts about 'Hotel California' by Eagles. It accepts query parameters that can be bound from the subtask inputs. Other APIs do not focus on song facts or comments from SongMeanings specifically, but this is the closest relevant music-specific API.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "MusiclinkssApi - Search by query directly supports searching music content by song title and artist, which fits the subtask of fetching facts about 'Hotel California' by Eagles. It accepts query parameters that can be bound from the subtask inputs. Other APIs do not focus on song facts or comments from SongMeanings specifically, but this is the closest relevant music-specific API."
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 1948,
+        "total_tokens": 2045,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 65,
+          "engine_ttlt_ms": 1583,
+          "pre_inference_ms": 148,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 263,
+          "service_ttlt_ms": 1772,
+          "total_duration_ms": 1633,
+          "user_visible_ttft_ms": 115
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_8576",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The 'URL Content Extractor - Search Content' API allows searching content based on a query, which fits the subtask of searching for jazz tracks on Soundcloud using the query 'jazz music'. It directly supports a 'query' parameter that can be bound to the required 'search_query' input. Other APIs are unrelated or do not specifically target music track search on Soundcloud.\"}",
+      "parsed": {
+        "selected_rank": 1,
+        "confidence": 0.9,
+        "rationale": "The 'URL Content Extractor - Search Content' API allows searching content based on a query, which fits the subtask of searching for jazz tracks on Soundcloud using the query 'jazz music'. It directly supports a 'query' parameter that can be bound to the required 'search_query' input. Other APIs are unrelated or do not specifically target music track search on Soundcloud."
+      },
+      "usage": {
+        "completion_tokens": 99,
+        "prompt_tokens": 1868,
+        "total_tokens": 1967,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 14,
+          "engine_ttft_ms": 48,
+          "engine_ttlt_ms": 1447,
+          "pre_inference_ms": 172,
+          "service_tbt_ms": 14,
+          "service_ttft_ms": 322,
+          "service_ttlt_ms": 1706,
+          "total_duration_ms": 1545,
+          "user_visible_ttft_ms": 150
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_905",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"Google News - Suggest API can provide relevant news article suggestions about gardening, which aligns with the user's request for recent news articles about gardening. It requires a keyword parameter that can be set to 'houseplant' or 'gardening' to find related news. This API directly supports the news aspect of the request, which is part of the subtask to research unique houseplants and related news.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "Google News - Suggest API can provide relevant news article suggestions about gardening, which aligns with the user's request for recent news articles about gardening. It requires a keyword parameter that can be set to 'houseplant' or 'gardening' to find related news. This API directly supports the news aspect of the request, which is part of the subtask to research unique houseplants and related news."
+      },
+      "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 2008,
+        "total_tokens": 2108,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 45,
+          "engine_ttlt_ms": 1304,
+          "pre_inference_ms": 105,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 325,
+          "service_ttlt_ms": 1600,
+          "total_duration_ms": 1504,
+          "user_visible_ttft_ms": 221
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_905",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The Google News - Suggest API directly provides real-time news and articles and supports keyword-based search, which can be used to gather recent news articles related to gardening as required by the subtask.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 1.0,
+        "rationale": "The Google News - Suggest API directly provides real-time news and articles and supports keyword-based search, which can be used to gather recent news articles related to gardening as required by the subtask."
+      },
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 2086,
+        "total_tokens": 2146,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 487,
+          "engine_ttlt_ms": 1266,
+          "pre_inference_ms": 73,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 661,
+          "service_ttlt_ms": 1423,
+          "total_duration_ms": 1356,
+          "user_visible_ttft_ms": 588
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_484",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The subtask is to determine the destination country for the vacation. The Country Location API provides detailed location data for any country, which directly supports identifying and confirming the destination country. It requires no parameters, fitting the subtask's required inputs. Other APIs are unrelated to country identification or location data.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.9,
+        "rationale": "The subtask is to determine the destination country for the vacation. The Country Location API provides detailed location data for any country, which directly supports identifying and confirming the destination country. It requires no parameters, fitting the subtask's required inputs. Other APIs are unrelated to country identification or location data."
+      },
+      "usage": {
+        "completion_tokens": 81,
+        "prompt_tokens": 1734,
+        "total_tokens": 1815,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 300,
+          "user_visible_ttft_ms": 140,
+          "total_duration_ms": 1467,
+          "pre_inference_ms": 160,
+          "service_tbt_ms": 16,
+          "service_ttlt_ms": 1619,
+          "engine_ttft_ms": 68,
+          "engine_ttlt_ms": 1399,
+          "engine_tbt_ms": 16
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_484",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Country Location API provides detailed country information and is the closest relevant API to fetch public holidays data for a destination country, as no direct public holiday API is listed. It accepts a country parameter, which can be bound from the required input 'destination_country'.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The Country Location API provides detailed country information and is the closest relevant API to fetch public holidays data for a destination country, as no direct public holiday API is listed. It accepts a country parameter, which can be bound from the required input 'destination_country'."
+      },
+      "usage": {
+        "completion_tokens": 74,
+        "prompt_tokens": 1757,
+        "total_tokens": 1831,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 26,
+          "engine_ttft_ms": 88,
+          "engine_ttlt_ms": 1991,
+          "pre_inference_ms": 116,
+          "service_tbt_ms": 26,
+          "service_ttft_ms": 232,
+          "service_ttlt_ms": 2130,
+          "total_duration_ms": 2021,
+          "user_visible_ttft_ms": 116
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_484",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The subtask is to identify the specific stock to monitor its performance. The 'Crypto Arbitrage Trading - Get coin price difference' API provides real-time price data for a specific coin, which directly relates to monitoring stock/coin performance. It requires a 'name' parameter that can be bound to the specific stock/coin to monitor. Other finance APIs are either credit card prediction or social sentiment APIs that do not directly provide real-time stock performance data. Thus, this API best satisfies the subtask intent.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.9,
+        "rationale": "The subtask is to identify the specific stock to monitor its performance. The 'Crypto Arbitrage Trading - Get coin price difference' API provides real-time price data for a specific coin, which directly relates to monitoring stock/coin performance. It requires a 'name' parameter that can be bound to the specific stock/coin to monitor. Other finance APIs are either credit card prediction or social sentiment APIs that do not directly provide real-time stock performance data. Thus, this API best satisfies the subtask intent."
+      },
+      "usage": {
+        "completion_tokens": 123,
+        "prompt_tokens": 1867,
+        "total_tokens": 1990,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 22,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 2799,
+          "pre_inference_ms": 144,
+          "service_tbt_ms": 22,
+          "service_ttft_ms": 279,
+          "service_ttlt_ms": 3031,
+          "total_duration_ms": 2897,
+          "user_visible_ttft_ms": 135
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_484",
+      "step_id": 4,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The 'Crypto Arbitrage Trading - Get coin price difference' API provides real-time price data for a specific coin, which aligns with the subtask of gathering real-time performance data for a stock symbol. It requires a 'name' parameter that can be bound to the 'stock_symbol' input. This API is specific to financial real-time data, making it more suitable than generic or unrelated APIs.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.9,
+        "rationale": "The 'Crypto Arbitrage Trading - Get coin price difference' API provides real-time price data for a specific coin, which aligns with the subtask of gathering real-time performance data for a stock symbol. It requires a 'name' parameter that can be bound to the 'stock_symbol' input. This API is specific to financial real-time data, making it more suitable than generic or unrelated APIs."
+      },
+      "usage": {
+        "completion_tokens": 101,
+        "prompt_tokens": 1777,
+        "total_tokens": 1878,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 167,
+          "engine_ttlt_ms": 1858,
+          "pre_inference_ms": 122,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 347,
+          "service_ttlt_ms": 2032,
+          "total_duration_ms": 1920,
+          "user_visible_ttft_ms": 225
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_9639",
+      "step_id": 1,
+      "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The subtask is to query the latest anime news articles, requiring news source, keywords, and time range. Among the candidates, only the first API relates to Japanese language content (kanji), but it does not provide news articles. None of the other APIs relate to news or anime content. However, since no direct anime news API is available, the first API is the closest related to anime domain (Japanese kanji), which might indirectly help with anime-related content. The other APIs are unrelated to entertainment or news. Therefore, the first API is selected with moderate confidence.\"}",
+      "parsed": {
+        "selected_rank": 1,
+        "confidence": 0.9,
+        "rationale": "The subtask is to query the latest anime news articles, requiring news source, keywords, and time range. Among the candidates, only the first API relates to Japanese language content (kanji), but it does not provide news articles. None of the other APIs relate to news or anime content. However, since no direct anime news API is available, the first API is the closest related to anime domain (Japanese kanji), which might indirectly help with anime-related content. The other APIs are unrelated to entertainment or news. Therefore, the first API is selected with moderate confidence."
+      },
+      "usage": {
+        "completion_tokens": 132,
+        "prompt_tokens": 2022,
+        "total_tokens": 2154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 14,
+          "engine_ttft_ms": 49,
+          "engine_ttlt_ms": 1906,
+          "pre_inference_ms": 138,
+          "service_tbt_ms": 14,
+          "service_ttft_ms": 280,
+          "service_ttlt_ms": 2129,
+          "total_duration_ms": 2003,
+          "user_visible_ttft_ms": 142
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_9639",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The subtask requires exploring multimedia content related to anime by keyword and media type. Among the candidates, the 'yiwugo product data - search products' API allows searching products by keyword, which can be adapted to search for anime-related media content. Although it is an eCommerce API, it is the closest to fulfilling the requirement of searching media by keyword. Other APIs are unrelated to media content or anime.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.9,
+        "rationale": "The subtask requires exploring multimedia content related to anime by keyword and media type. Among the candidates, the 'yiwugo product data - search products' API allows searching products by keyword, which can be adapted to search for anime-related media content. Although it is an eCommerce API, it is the closest to fulfilling the requirement of searching media by keyword. Other APIs are unrelated to media content or anime."
+      },
+      "usage": {
+        "completion_tokens": 99,
+        "prompt_tokens": 2028,
+        "total_tokens": 2127,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 74,
+          "engine_ttlt_ms": 1721,
+          "pre_inference_ms": 115,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 276,
+          "service_ttlt_ms": 1910,
+          "total_duration_ms": 1809,
+          "user_visible_ttft_ms": 161
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3349",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor API can be used to search and extract love quotes from relevant web content, directly satisfying the subtask of collecting romantic love quotes. It requires a query parameter that can be set to 'love quotes' or similar, which is bindable from the subtask description. Other APIs are unrelated or do not provide quote content.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The URL Content Extractor API can be used to search and extract love quotes from relevant web content, directly satisfying the subtask of collecting romantic love quotes. It requires a query parameter that can be set to 'love quotes' or similar, which is bindable from the subtask description. Other APIs are unrelated or do not provide quote content."
+      },
+      "usage": {
+        "completion_tokens": 91,
+        "prompt_tokens": 1907,
+        "total_tokens": 1998,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 521,
+          "engine_ttlt_ms": 1964,
+          "pre_inference_ms": 118,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 730,
+          "service_ttlt_ms": 2162,
+          "total_duration_ms": 2079,
+          "user_visible_ttft_ms": 612
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3349",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.95, \"rationale\": \"The World History Timeline - Historic Event By year API directly provides historical events by year, matching the subtask to compile interesting historical facts about the wedding year. It requires the 'year' parameter, which can be bound to the 'wedding_year' input. Other APIs are unrelated or do not provide historical facts by year.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.95,
+        "rationale": "The World History Timeline - Historic Event By year API directly provides historical events by year, matching the subtask to compile interesting historical facts about the wedding year. It requires the 'year' parameter, which can be bound to the 'wedding_year' input. Other APIs are unrelated or do not provide historical facts by year."
+      },
+      "usage": {
+        "completion_tokens": 87,
+        "prompt_tokens": 2225,
+        "total_tokens": 2312,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 71,
+          "engine_ttlt_ms": 1660,
+          "pre_inference_ms": 141,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 291,
+          "service_ttlt_ms": 1870,
+          "total_duration_ms": 1735,
+          "user_visible_ttft_ms": 150
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_848",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.95, \"rationale\": \"The 'Gas Price - stateUsaPrice' API directly provides gas prices by US state, including California, and requires the 'state' parameter which matches the subtask input.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.95,
+        "rationale": "The 'Gas Price - stateUsaPrice' API directly provides gas prices by US state, including California, and requires the 'state' parameter which matches the subtask input."
+      },
+      "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 1465,
+        "total_tokens": 1523,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 21,
+          "engine_ttft_ms": 178,
+          "engine_ttlt_ms": 1411,
+          "pre_inference_ms": 99,
+          "service_tbt_ms": 21,
+          "service_ttft_ms": 311,
+          "service_ttlt_ms": 1541,
+          "total_duration_ms": 1448,
+          "user_visible_ttft_ms": 212
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_848",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.95, \"rationale\": \"The subtask is to fetch current gas price data for Kentucky, a US state. The 'Gas Price - stateUsaPrice' API specifically provides gas prices in US states and requires a 'state' parameter, which matches the subtask requirements directly and is bindable from the required inputs.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.95,
+        "rationale": "The subtask is to fetch current gas price data for Kentucky, a US state. The 'Gas Price - stateUsaPrice' API specifically provides gas prices in US states and requires a 'state' parameter, which matches the subtask requirements directly and is bindable from the required inputs."
+      },
+      "usage": {
+        "completion_tokens": 81,
+        "prompt_tokens": 1465,
+        "total_tokens": 1546,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 50,
+          "engine_ttft_ms": 159,
+          "engine_ttlt_ms": 4235,
+          "pre_inference_ms": 106,
+          "service_tbt_ms": 50,
+          "service_ttft_ms": 1671,
+          "service_ttlt_ms": 5740,
+          "total_duration_ms": 5645,
+          "user_visible_ttft_ms": 1565
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5445",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"Aspose.Tasks Cloud - GetCalendar API is related to calendar management and can be used to manipulate calendar data, making it the most relevant for removing a custom period in the user's calendar.\"}",
+      "parsed": {
+        "selected_rank": 8,
+        "confidence": 0.9,
+        "rationale": "Aspose.Tasks Cloud - GetCalendar API is related to calendar management and can be used to manipulate calendar data, making it the most relevant for removing a custom period in the user's calendar."
+      },
+      "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 2258,
+        "total_tokens": 2317,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 96,
+          "engine_ttlt_ms": 884,
+          "pre_inference_ms": 129,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 289,
+          "service_ttlt_ms": 1064,
+          "total_duration_ms": 945,
+          "user_visible_ttft_ms": 160
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5445",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":8,\"confidence\":0.9,\"rationale\":\"The City and State Search API provides detailed information about countries, which is relevant to obtaining detailed information about working days in Italy on a specific date. It accepts a country parameter, allowing specificity for Italy, and can be used with the date input to get relevant details. Other APIs are unrelated or do not provide country-specific working day information.\"}",
+      "parsed": {
+        "selected_rank": 8,
+        "confidence": 0.9,
+        "rationale": "The City and State Search API provides detailed information about countries, which is relevant to obtaining detailed information about working days in Italy on a specific date. It accepts a country parameter, allowing specificity for Italy, and can be used with the date input to get relevant details. Other APIs are unrelated or do not provide country-specific working day information."
+      },
+      "usage": {
+        "completion_tokens": 84,
+        "prompt_tokens": 2102,
+        "total_tokens": 2186,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 20,
+          "engine_ttft_ms": 79,
+          "engine_ttlt_ms": 1761,
+          "pre_inference_ms": 290,
+          "service_tbt_ms": 21,
+          "service_ttft_ms": 543,
+          "service_ttlt_ms": 2218,
+          "total_duration_ms": 2010,
+          "user_visible_ttft_ms": 253
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5445",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor API can be used to evaluate or retrieve content related to the expression '40 * 5 + 100', which aligns with the subtask of calculating the expression. Other APIs are unrelated to calculation or expression evaluation.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The URL Content Extractor API can be used to evaluate or retrieve content related to the expression '40 * 5 + 100', which aligns with the subtask of calculating the expression. Other APIs are unrelated to calculation or expression evaluation."
+      },
+      "usage": {
+        "completion_tokens": 70,
+        "prompt_tokens": 1785,
+        "total_tokens": 1855,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 45,
+          "engine_ttlt_ms": 1191,
+          "pre_inference_ms": 104,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 195,
+          "service_ttlt_ms": 1342,
+          "total_duration_ms": 1245,
+          "user_visible_ttft_ms": 92
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4281",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The 'Travel Hacking Tool - Get Airport Details' API provides detailed location information, including geocodes, for specified locations. Although it focuses on airports, it is the closest relevant API for geocode information in the travel domain. Other APIs are unrelated to location or geocoding.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.9,
+        "rationale": "The 'Travel Hacking Tool - Get Airport Details' API provides detailed location information, including geocodes, for specified locations. Although it focuses on airports, it is the closest relevant API for geocode information in the travel domain. Other APIs are unrelated to location or geocoding."
+      },
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 1745,
+        "total_tokens": 1825,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 25,
+          "engine_ttft_ms": 42,
+          "engine_ttlt_ms": 2011,
+          "pre_inference_ms": 110,
+          "service_tbt_ms": 25,
+          "service_ttft_ms": 188,
+          "service_ttlt_ms": 2150,
+          "total_duration_ms": 2050,
+          "user_visible_ttft_ms": 78
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4281",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 0.8, \"rationale\": \"The subtask requires querying geocode information for a location (Library). Among the candidates, only the 'Locations - Languages, Countries & German Cities - All German Cities' API is related to location data and can provide geocode or location information. Other APIs are unrelated to location or geocoding. Although it focuses on German cities, it is the closest relevant API available.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 0.8,
+        "rationale": "The subtask requires querying geocode information for a location (Library). Among the candidates, only the 'Locations - Languages, Countries & German Cities - All German Cities' API is related to location data and can provide geocode or location information. Other APIs are unrelated to location or geocoding. Although it focuses on German cities, it is the closest relevant API available."
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 1745,
+        "total_tokens": 1842,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 72,
+          "engine_ttlt_ms": 1823,
+          "pre_inference_ms": 105,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 221,
+          "service_ttlt_ms": 1965,
+          "total_duration_ms": 1870,
+          "user_visible_ttft_ms": 116
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1083",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The 'Places Nearby a Coordinates - Nearby' API directly fetches nearby places given latitude and longitude, which matches the subtask to find nearby hotels at specified coordinates. It accepts lat and lon parameters that can be bound from the subtask inputs. It is more specific to places than generic location or weather APIs.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.95,
+        "rationale": "The 'Places Nearby a Coordinates - Nearby' API directly fetches nearby places given latitude and longitude, which matches the subtask to find nearby hotels at specified coordinates. It accepts lat and lon parameters that can be bound from the subtask inputs. It is more specific to places than generic location or weather APIs."
+      },
+      "usage": {
+        "completion_tokens": 84,
+        "prompt_tokens": 2030,
+        "total_tokens": 2114,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 19,
+          "engine_ttft_ms": 57,
+          "engine_ttlt_ms": 1634,
+          "pre_inference_ms": 96,
+          "service_tbt_ms": 19,
+          "service_ttft_ms": 186,
+          "service_ttlt_ms": 1765,
+          "total_duration_ms": 1682,
+          "user_visible_ttft_ms": 91
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_854",
+      "step_id": 1,
+      "raw": "{\"selected_rank\":9,\"confidence\":0.9,\"rationale\":\"The subtask requires current weather conditions at JFK airport. The 'Easy Weather - Current conditions (detailed)' API provides detailed current conditions by latitude and longitude, which fits the subtask intent precisely. It is more specific than general forecast APIs and directly addresses current conditions, making it the best choice.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The subtask requires current weather conditions at JFK airport. The 'Easy Weather - Current conditions (detailed)' API provides detailed current conditions by latitude and longitude, which fits the subtask intent precisely. It is more specific than general forecast APIs and directly addresses current conditions, making it the best choice."
+      },
+      "usage": {
+        "completion_tokens": 77,
+        "prompt_tokens": 2061,
+        "total_tokens": 2138,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 65,
+          "engine_ttlt_ms": 1309,
+          "pre_inference_ms": 103,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 448,
+          "service_ttlt_ms": 1711,
+          "total_duration_ms": 1613,
+          "user_visible_ttft_ms": 345
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3973",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The 'Google Reviews Scraper - SearchBusiness' API directly supports searching businesses (such as restaurants) by keyword and returns reviews and ratings, which aligns well with the subtask of finding top-ranked restaurants in San Francisco. It accepts a 'keyword' parameter that can be bound to 'San Francisco restaurants' or similar, fulfilling the required inputs. Other APIs are unrelated or do not provide restaurant-specific data.\"}",
+      "parsed": {
+        "selected_rank": 6,
+        "confidence": 0.9,
+        "rationale": "The 'Google Reviews Scraper - SearchBusiness' API directly supports searching businesses (such as restaurants) by keyword and returns reviews and ratings, which aligns well with the subtask of finding top-ranked restaurants in San Francisco. It accepts a 'keyword' parameter that can be bound to 'San Francisco restaurants' or similar, fulfilling the required inputs. Other APIs are unrelated or do not provide restaurant-specific data."
+      },
+      "usage": {
+        "completion_tokens": 103,
+        "prompt_tokens": 1948,
+        "total_tokens": 2051,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 102,
+          "engine_ttlt_ms": 1905,
+          "pre_inference_ms": 96,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 278,
+          "service_ttlt_ms": 2074,
+          "total_duration_ms": 1986,
+          "user_visible_ttft_ms": 182
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3973",
+      "step_id": 3,
+      "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The Google Reviews Scraper - SearchBusiness API can search businesses by name and retrieve reviews and ratings, which likely includes photos. It accepts a keyword parameter that can be bound to restaurant names, directly satisfying the subtask to fetch photos of each restaurant by name. Other APIs are unrelated to restaurants or photos.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.9,
+        "rationale": "The Google Reviews Scraper - SearchBusiness API can search businesses by name and retrieve reviews and ratings, which likely includes photos. It accepts a keyword parameter that can be bound to restaurant names, directly satisfying the subtask to fetch photos of each restaurant by name. Other APIs are unrelated to restaurants or photos."
+      },
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 1882,
+        "total_tokens": 1960,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 207,
+          "engine_ttlt_ms": 1425,
+          "pre_inference_ms": 206,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 507,
+          "service_ttlt_ms": 1715,
+          "total_duration_ms": 1525,
+          "user_visible_ttft_ms": 301
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4653",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The subtask is to recommend a popular class for learning about Roman mythology based on available datasets. Among the candidates, the 'Roman Gods By Pizza API - Random Roman God' directly provides information about Roman gods, which is highly relevant to learning about Roman mythology. It requires no parameters and is specific to Roman mythology, making it the best fit. Other APIs are either unrelated or too broad.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The subtask is to recommend a popular class for learning about Roman mythology based on available datasets. Among the candidates, the 'Roman Gods By Pizza API - Random Roman God' directly provides information about Roman gods, which is highly relevant to learning about Roman mythology. It requires no parameters and is specific to Roman mythology, making it the best fit. Other APIs are either unrelated or too broad."
+      },
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 1815,
+        "total_tokens": 1910,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 338,
+          "user_visible_ttft_ms": 204,
+          "total_duration_ms": 1239,
+          "pre_inference_ms": 135,
+          "service_tbt_ms": 11,
+          "service_ttlt_ms": 1362,
+          "engine_ttft_ms": 52,
+          "engine_ttlt_ms": 1082,
+          "engine_tbt_ms": 11
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2982",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search for unique team-building activities in London by providing a relevant query, directly satisfying the subtask intent. It is more specific and relevant than generic entertainment or unrelated finance/social media APIs.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The URL Content Extractor - Search Content API can be used to search for unique team-building activities in London by providing a relevant query, directly satisfying the subtask intent. It is more specific and relevant than generic entertainment or unrelated finance/social media APIs."
+      },
+      "usage": {
+        "completion_tokens": 72,
+        "prompt_tokens": 1749,
+        "total_tokens": 1821,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 22,
+          "engine_ttft_ms": 114,
+          "engine_ttlt_ms": 1722,
+          "pre_inference_ms": 90,
+          "service_tbt_ms": 22,
+          "service_ttft_ms": 236,
+          "service_ttlt_ms": 1837,
+          "total_duration_ms": 1754,
+          "user_visible_ttft_ms": 146
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2982",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The subtask is to list top-rated unique team-building activities. Among the candidates, only the taboo-api provides categories and game-related content that could be adapted for team-building activities. All other APIs are sports-related and unrelated to team-building activities. Although taboo-api is a gaming API, it is the closest relevant option for unique team-building activity ideas.\"}",
+      "parsed": {
+        "selected_rank": 6,
+        "confidence": 0.9,
+        "rationale": "The subtask is to list top-rated unique team-building activities. Among the candidates, only the taboo-api provides categories and game-related content that could be adapted for team-building activities. All other APIs are sports-related and unrelated to team-building activities. Although taboo-api is a gaming API, it is the closest relevant option for unique team-building activity ideas."
+      },
+      "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 2586,
+        "total_tokens": 2678,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 59,
+          "engine_ttlt_ms": 1411,
+          "pre_inference_ms": 108,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 311,
+          "service_ttlt_ms": 1656,
+          "total_duration_ms": 1557,
+          "user_visible_ttft_ms": 203
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1492",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The subtask is to find a suitable picnic location in the park with active products available, which requires searching for content or locations matching criteria. The 'URL Content Extractor - Search Content' API allows searching content based on a query, which can be used to find suitable picnic locations with active products. Other APIs are weather-related and do not directly satisfy the subtask intent.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The subtask is to find a suitable picnic location in the park with active products available, which requires searching for content or locations matching criteria. The 'URL Content Extractor - Search Content' API allows searching content based on a query, which can be used to find suitable picnic locations with active products. Other APIs are weather-related and do not directly satisfy the subtask intent."
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 1959,
+        "total_tokens": 2056,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 19,
+          "engine_ttft_ms": 56,
+          "engine_ttlt_ms": 1884,
+          "pre_inference_ms": 100,
+          "service_tbt_ms": 19,
+          "service_ttft_ms": 200,
+          "service_ttlt_ms": 2012,
+          "total_duration_ms": 1919,
+          "user_visible_ttft_ms": 100
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2964",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Shazam - Search Track API directly supports searching for songs by artist or track name, which aligns with the subtask to gather MP3 files for songs by Taylor Swift and Ed Sheeran. It requires track name input, which can be derived from artist names and song titles. Other APIs are unrelated to music search or do not provide direct access to song files.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The Shazam - Search Track API directly supports searching for songs by artist or track name, which aligns with the subtask to gather MP3 files for songs by Taylor Swift and Ed Sheeran. It requires track name input, which can be derived from artist names and song titles. Other APIs are unrelated to music search or do not provide direct access to song files."
+      },
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 1927,
+        "total_tokens": 2022,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 101,
+          "engine_ttlt_ms": 1530,
+          "pre_inference_ms": 252,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 450,
+          "service_ttlt_ms": 2012,
+          "total_duration_ms": 1809,
+          "user_visible_ttft_ms": 198
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2964",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The City and State Search API provides detailed location information which is relevant for finding local hotels. Although it does not explicitly mention hotels, it is the most relevant among the candidates for location-based accommodation information. Other APIs focus on social media, music, or unrelated data.\"}",
+      "parsed": {
+        "selected_rank": 1,
+        "confidence": 0.9,
+        "rationale": "The City and State Search API provides detailed location information which is relevant for finding local hotels. Although it does not explicitly mention hotels, it is the most relevant among the candidates for location-based accommodation information. Other APIs focus on social media, music, or unrelated data."
+      },
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 2079,
+        "total_tokens": 2154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 14,
+          "engine_ttft_ms": 45,
+          "engine_ttlt_ms": 1131,
+          "pre_inference_ms": 90,
+          "service_tbt_ms": 14,
+          "service_ttft_ms": 474,
+          "service_ttlt_ms": 1468,
+          "total_duration_ms": 1428,
+          "user_visible_ttft_ms": 384
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2625",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The subtask requires downloading MP3 files for songs by famous artists. The 'Latest Spotify Downloader - Fetch Track Details' API specifically supports downloading track mp3 files by track ID, which directly satisfies the intent. It requires track_id, which can be derived from artist_names and song_titles. Other music APIs provide info or search but do not explicitly support downloading MP3 files.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.9,
+        "rationale": "The subtask requires downloading MP3 files for songs by famous artists. The 'Latest Spotify Downloader - Fetch Track Details' API specifically supports downloading track mp3 files by track ID, which directly satisfies the intent. It requires track_id, which can be derived from artist_names and song_titles. Other music APIs provide info or search but do not explicitly support downloading MP3 files."
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 2064,
+        "total_tokens": 2161,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 57,
+          "engine_ttlt_ms": 1357,
+          "pre_inference_ms": 132,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 476,
+          "service_ttlt_ms": 1766,
+          "total_duration_ms": 1650,
+          "user_visible_ttft_ms": 344
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2625",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The UK Real Estate Rightmove API provides detailed property information suitable for finding local hotels or accommodations, matching the subtask intent and required inputs of destination and travel dates.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The UK Real Estate Rightmove API provides detailed property information suitable for finding local hotels or accommodations, matching the subtask intent and required inputs of destination and travel dates."
+      },
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 1898,
+        "total_tokens": 1953,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 277,
+          "user_visible_ttft_ms": 136,
+          "total_duration_ms": 889,
+          "pre_inference_ms": 141,
+          "service_tbt_ms": 14,
+          "service_ttlt_ms": 1014,
+          "engine_ttft_ms": 64,
+          "engine_ttlt_ms": 819,
+          "engine_tbt_ms": 14
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3229",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The TrueWay Geocoding API directly supports forward geocoding by address and can provide the ZIP code for the specified address 'Bahnhofstrasse 25, Zurich', fulfilling the subtask intent precisely with the required 'address' parameter.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.95,
+        "rationale": "The TrueWay Geocoding API directly supports forward geocoding by address and can provide the ZIP code for the specified address 'Bahnhofstrasse 25, Zurich', fulfilling the subtask intent precisely with the required 'address' parameter."
+      },
+      "usage": {
+        "completion_tokens": 71,
+        "prompt_tokens": 1988,
+        "total_tokens": 2059,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 49,
+          "engine_ttlt_ms": 1177,
+          "pre_inference_ms": 131,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 279,
+          "service_ttlt_ms": 1399,
+          "total_duration_ms": 1323,
+          "user_visible_ttft_ms": 148
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5076",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Google Search 2 - Google News API can fetch recent news related to narco activities in Mexico, matching the subtask intent. It requires no parameters and can be used to search news content specifically, making it more suitable than unrelated or domain-inappropriate APIs.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.9,
+        "rationale": "The Google Search 2 - Google News API can fetch recent news related to narco activities in Mexico, matching the subtask intent. It requires no parameters and can be used to search news content specifically, making it more suitable than unrelated or domain-inappropriate APIs."
+      },
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 2482,
+        "total_tokens": 2557,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 25,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 1899,
+          "pre_inference_ms": 89,
+          "service_tbt_ms": 25,
+          "service_ttft_ms": 698,
+          "service_ttlt_ms": 2537,
+          "total_duration_ms": 2457,
+          "user_visible_ttft_ms": 609
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5076",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":9,\"confidence\":0.9,\"rationale\":\"The subtask is to search for news articles related to 'drug cartels' in Mexico. The Google Search 2 - Google News API can perform real-time news searches and is suitable for retrieving news articles on specific topics like 'drug cartels' in Mexico. It requires no mandatory parameters and can be used flexibly for this purpose. Other APIs are either unrelated to news or focused on specific domains like sports, finance, or crypto, and thus not suitable.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The subtask is to search for news articles related to 'drug cartels' in Mexico. The Google Search 2 - Google News API can perform real-time news searches and is suitable for retrieving news articles on specific topics like 'drug cartels' in Mexico. It requires no mandatory parameters and can be used flexibly for this purpose. Other APIs are either unrelated to news or focused on specific domains like sports, finance, or crypto, and thus not suitable."
+      },
+      "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 2226,
+        "total_tokens": 2336,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 86,
+          "engine_ttlt_ms": 1915,
+          "pre_inference_ms": 120,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 267,
+          "service_ttlt_ms": 2081,
+          "total_duration_ms": 1970,
+          "user_visible_ttft_ms": 146
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5076",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Google Search 2 - Google News API can search for news articles related to 'border security' in Mexico, directly satisfying the subtask intent. It requires no mandatory parameters and is suitable for news search, unlike other unrelated or domain-specific APIs.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The Google Search 2 - Google News API can search for news articles related to 'border security' in Mexico, directly satisfying the subtask intent. It requires no mandatory parameters and is suitable for news search, unlike other unrelated or domain-specific APIs."
+      },
+      "usage": {
+        "completion_tokens": 72,
+        "prompt_tokens": 2225,
+        "total_tokens": 2297,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 10,
+          "engine_ttft_ms": 72,
+          "engine_ttlt_ms": 803,
+          "pre_inference_ms": 481,
+          "service_tbt_ms": 10,
+          "service_ttft_ms": 845,
+          "service_ttlt_ms": 1571,
+          "total_duration_ms": 1099,
+          "user_visible_ttft_ms": 364
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_600",
+      "step_id": 1,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"Among the candidates, only the iRail - Stations list API is related to travel, which is the closest domain to tourism. However, it does not provide Italian greetings or translations. None of the other APIs are relevant to language translation or cultural phrases. Since no API directly provides Italian greetings and translations, the best available choice is the travel-related API, which might indirectly support the tourism context. But overall, no candidate fully satisfies the subtask.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "Among the candidates, only the iRail - Stations list API is related to travel, which is the closest domain to tourism. However, it does not provide Italian greetings or translations. None of the other APIs are relevant to language translation or cultural phrases. Since no API directly provides Italian greetings and translations, the best available choice is the travel-related API, which might indirectly support the tourism context. But overall, no candidate fully satisfies the subtask."
+      },
+      "usage": {
+        "completion_tokens": 106,
+        "prompt_tokens": 1791,
+        "total_tokens": 1897,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 21,
+          "engine_ttft_ms": 64,
+          "engine_ttlt_ms": 2338,
+          "pre_inference_ms": 123,
+          "service_tbt_ms": 22,
+          "service_ttft_ms": 336,
+          "service_ttlt_ms": 2634,
+          "total_duration_ms": 2551,
+          "user_visible_ttft_ms": 213
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_600",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 4, \"confidence\": 0.8, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search for and extract content related to common Italian phrases for ordering food, which directly satisfies the subtask. Other APIs are unrelated to language or translation tasks.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.8,
+        "rationale": "The URL Content Extractor - Search Content API can be used to search for and extract content related to common Italian phrases for ordering food, which directly satisfies the subtask. Other APIs are unrelated to language or translation tasks."
+      },
+      "usage": {
+        "completion_tokens": 66,
+        "prompt_tokens": 1865,
+        "total_tokens": 1931,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 67,
+          "engine_ttlt_ms": 1056,
+          "pre_inference_ms": 106,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 223,
+          "service_ttlt_ms": 1204,
+          "total_duration_ms": 1108,
+          "user_visible_ttft_ms": 117
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_600",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search for essential Italian phrases for asking directions, directly satisfying the subtask intent. Other APIs are unrelated to language or translation.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.9,
+        "rationale": "The URL Content Extractor - Search Content API can be used to search for essential Italian phrases for asking directions, directly satisfying the subtask intent. Other APIs are unrelated to language or translation."
+      },
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 1841,
+        "total_tokens": 1901,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 29,
+          "engine_ttft_ms": 40,
+          "engine_ttlt_ms": 1773,
+          "pre_inference_ms": 73,
+          "service_tbt_ms": 29,
+          "service_ttft_ms": 144,
+          "service_ttlt_ms": 1874,
+          "total_duration_ms": 1807,
+          "user_visible_ttft_ms": 71
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_600",
+      "step_id": 4,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The URL Content Extractor - Search Content API can be used to search and extract content related to the cultural significance of Italian expressions, directly satisfying the subtask intent. It allows querying for relevant information, which fits the need to collect cultural insights. Other APIs are unrelated to language or culture or are too generic or unrelated to the tourism/language domain.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.8,
+        "rationale": "The URL Content Extractor - Search Content API can be used to search and extract content related to the cultural significance of Italian expressions, directly satisfying the subtask intent. It allows querying for relevant information, which fits the need to collect cultural insights. Other APIs are unrelated to language or culture or are too generic or unrelated to the tourism/language domain."
+      },
+      "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 2064,
+        "total_tokens": 2156,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 24,
+          "engine_ttft_ms": 42,
+          "engine_ttlt_ms": 2215,
+          "pre_inference_ms": 88,
+          "service_tbt_ms": 24,
+          "service_ttft_ms": 161,
+          "service_ttlt_ms": 2329,
+          "total_duration_ms": 2247,
+          "user_visible_ttft_ms": 73
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3318",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Airbnb API in the Travel domain can search accommodations by location and place name, which is relevant for finding webcams near famous landmarks. It is the most suitable among the candidates for the tourism-related subtask.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The Airbnb API in the Travel domain can search accommodations by location and place name, which is relevant for finding webcams near famous landmarks. It is the most suitable among the candidates for the tourism-related subtask."
+      },
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 1502,
+        "total_tokens": 1565,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 8,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 572,
+          "pre_inference_ms": 84,
+          "service_tbt_ms": 9,
+          "service_ttft_ms": 698,
+          "service_ttlt_ms": 1254,
+          "total_duration_ms": 1174,
+          "user_visible_ttft_ms": 613
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3318",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The Tripadvisor Search Restaurants API is from the Travel domain and can provide details about tourist attractions (restaurants and likely other attractions) near a location, matching the subtask to fetch business details of top tourist attractions near given locations. It requires a locationId which can be derived from the locations/webcams from step 1, making it suitable and specific for tourism-related business details.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The Tripadvisor Search Restaurants API is from the Travel domain and can provide details about tourist attractions (restaurants and likely other attractions) near a location, matching the subtask to fetch business details of top tourist attractions near given locations. It requires a locationId which can be derived from the locations/webcams from step 1, making it suitable and specific for tourism-related business details."
+      },
+      "usage": {
+        "completion_tokens": 91,
+        "prompt_tokens": 1736,
+        "total_tokens": 1827,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 28,
+          "engine_ttft_ms": 566,
+          "engine_ttlt_ms": 3153,
+          "pre_inference_ms": 117,
+          "service_tbt_ms": 28,
+          "service_ttft_ms": 1301,
+          "service_ttlt_ms": 3869,
+          "total_duration_ms": 3763,
+          "user_visible_ttft_ms": 1185
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3827",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Location and Time - Search City by Name' API provides detailed city information including geolocation and timezone, which aligns well with the subtask of compiling tropical destinations with beach and warm weather attributes. Although it requires a city name input, it is the most relevant and specific API available for location and time data, unlike other unrelated or generic APIs.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The 'Location and Time - Search City by Name' API provides detailed city information including geolocation and timezone, which aligns well with the subtask of compiling tropical destinations with beach and warm weather attributes. Although it requires a city name input, it is the most relevant and specific API available for location and time data, unlike other unrelated or generic APIs."
+      },
+      "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 1881,
+        "total_tokens": 1973,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 10,
+          "engine_ttft_ms": 104,
+          "engine_ttlt_ms": 982,
+          "pre_inference_ms": 116,
+          "service_tbt_ms": 10,
+          "service_ttft_ms": 296,
+          "service_ttlt_ms": 1166,
+          "total_duration_ms": 1059,
+          "user_visible_ttft_ms": 180
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_492",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"Skyscanner_v2 - Search Place API is in the travel domain and allows searching places, which can be used to find restaurants near landmarks and hotels by location query, matching the subtask intent and required inputs.\"}",
+      "parsed": {
+        "selected_rank": 7,
+        "confidence": 0.9,
+        "rationale": "Skyscanner_v2 - Search Place API is in the travel domain and allows searching places, which can be used to find restaurants near landmarks and hotels by location query, matching the subtask intent and required inputs."
+      },
+      "usage": {
+        "completion_tokens": 65,
+        "prompt_tokens": 1591,
+        "total_tokens": 1656,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 594,
+          "user_visible_ttft_ms": 204,
+          "total_duration_ms": 1298,
+          "pre_inference_ms": 390,
+          "service_tbt_ms": 17,
+          "service_ttlt_ms": 1649,
+          "engine_ttft_ms": 85,
+          "engine_ttlt_ms": 1148,
+          "engine_tbt_ms": 16
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1369",
+      "step_id": 5,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information which can include reviews and photos, suitable for fetching business details of tourist attractions near Eiffel Tower. It is more relevant and specific to business details than other generic or unrelated APIs.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.8,
+        "rationale": "The Unofficial Trust Pilot API provides detailed business information which can include reviews and photos, suitable for fetching business details of tourist attractions near Eiffel Tower. It is more relevant and specific to business details than other generic or unrelated APIs."
+      },
+      "usage": {
+        "completion_tokens": 67,
+        "prompt_tokens": 1923,
+        "total_tokens": 1990,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 19,
+          "engine_ttft_ms": 72,
+          "engine_ttlt_ms": 1373,
+          "pre_inference_ms": 148,
+          "service_tbt_ms": 19,
+          "service_ttft_ms": 275,
+          "service_ttlt_ms": 1570,
+          "total_duration_ms": 1432,
+          "user_visible_ttft_ms": 126
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1369",
+      "step_id": 6,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information, which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for tourist attraction details, unlike other APIs that are unrelated or too generic.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The Unofficial Trust Pilot API provides detailed business information, which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for tourist attraction details, unlike other APIs that are unrelated or too generic."
+      },
+      "usage": {
+        "completion_tokens": 70,
+        "prompt_tokens": 1925,
+        "total_tokens": 1995,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 37,
+          "engine_ttft_ms": 99,
+          "engine_ttlt_ms": 2668,
+          "pre_inference_ms": 92,
+          "service_tbt_ms": 37,
+          "service_ttft_ms": 228,
+          "service_ttlt_ms": 2817,
+          "total_duration_ms": 2736,
+          "user_visible_ttft_ms": 136
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1369",
+      "step_id": 7,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information, which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for tourist attraction details, unlike other APIs which are unrelated or too generic.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The Unofficial Trust Pilot API provides detailed business information, which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for tourist attraction details, unlike other APIs which are unrelated or too generic."
+      },
+      "usage": {
+        "completion_tokens": 70,
+        "prompt_tokens": 1923,
+        "total_tokens": 1993,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 68,
+          "engine_ttlt_ms": 1113,
+          "pre_inference_ms": 133,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 286,
+          "service_ttlt_ms": 1334,
+          "total_duration_ms": 1235,
+          "user_visible_ttft_ms": 154
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1369",
+      "step_id": 8,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for the tourism domain, and can be used to get details about businesses near the Great Wall of China.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The Unofficial Trust Pilot API provides detailed business information which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for the tourism domain, and can be used to get details about businesses near the Great Wall of China."
+      },
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 1874,
+        "total_tokens": 1949,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 46,
+          "engine_ttlt_ms": 839,
+          "pre_inference_ms": 160,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 266,
+          "service_ttlt_ms": 1051,
+          "total_duration_ms": 906,
+          "user_visible_ttft_ms": 105
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3612",
+      "step_id": 1,
+      "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The 'Geography - Get Continents' API provides information about continents and likely includes countries within them, which is relevant to retrieving countries in Europe. It requires no parameters and is domain-appropriate for geographic data, making it suitable for listing European countries with their capitals and populations. Other APIs are either unrelated, focused on Africa, or require country-specific input, so this is the best fit.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.9,
+        "rationale": "The 'Geography - Get Continents' API provides information about continents and likely includes countries within them, which is relevant to retrieving countries in Europe. It requires no parameters and is domain-appropriate for geographic data, making it suitable for listing European countries with their capitals and populations. Other APIs are either unrelated, focused on Africa, or require country-specific input, so this is the best fit."
+      },
+      "usage": {
+        "completion_tokens": 96,
+        "prompt_tokens": 2022,
+        "total_tokens": 2118,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 23,
+          "engine_ttft_ms": 75,
+          "engine_ttlt_ms": 2244,
+          "pre_inference_ms": 86,
+          "service_tbt_ms": 23,
+          "service_ttft_ms": 303,
+          "service_ttlt_ms": 2461,
+          "total_duration_ms": 2383,
+          "user_visible_ttft_ms": 217
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3612",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The 'City and State Search API - Country Details' directly provides detailed information about a specific country, including area, official language, and currency, which matches the subtask requirements. It accepts a country parameter that can be bound from the result of step 1, making it suitable and specific for the subtask.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The 'City and State Search API - Country Details' directly provides detailed information about a specific country, including area, official language, and currency, which matches the subtask requirements. It accepts a country parameter that can be bound from the result of step 1, making it suitable and specific for the subtask."
+      },
+      "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 2157,
+        "total_tokens": 2242,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 56,
+          "engine_ttlt_ms": 1323,
+          "pre_inference_ms": 91,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 214,
+          "service_ttlt_ms": 1476,
+          "total_duration_ms": 1394,
+          "user_visible_ttft_ms": 123
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3612",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The subtask is to determine if given geographical coordinates are water or land. The 'IsItWater.com - Is a coordinate water?' API directly satisfies this intent and requires latitude and longitude parameters, which align perfectly with the subtask.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 1.0,
+        "rationale": "The subtask is to determine if given geographical coordinates are water or land. The 'IsItWater.com - Is a coordinate water?' API directly satisfies this intent and requires latitude and longitude parameters, which align perfectly with the subtask."
+      },
+      "usage": {
+        "completion_tokens": 69,
+        "prompt_tokens": 2081,
+        "total_tokens": 2150,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 76,
+          "engine_ttlt_ms": 855,
+          "pre_inference_ms": 130,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 258,
+          "service_ttlt_ms": 1025,
+          "total_duration_ms": 907,
+          "user_visible_ttft_ms": 127
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5275",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"Skyscanner_v2 - Search Place API is in the travel domain and allows searching places by location name, which can be used to find breweries in New York offering tours, matching the subtask intent directly and using the location 'New York' from the user request.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "Skyscanner_v2 - Search Place API is in the travel domain and allows searching places by location name, which can be used to find breweries in New York offering tours, matching the subtask intent directly and using the location 'New York' from the user request."
+      },
+      "usage": {
+        "completion_tokens": 76,
+        "prompt_tokens": 1484,
+        "total_tokens": 1560,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 71,
+          "engine_ttlt_ms": 1319,
+          "pre_inference_ms": 96,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 197,
+          "service_ttlt_ms": 1441,
+          "total_duration_ms": 1351,
+          "user_visible_ttft_ms": 100
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4306",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The India Today Unofficial - Get News API directly provides news from the India Today platform, matching the subtask to fetch the latest news related to India from that source. It requires no additional parameters and is specific to the requested source, making it the best fit.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 1.0,
+        "rationale": "The India Today Unofficial - Get News API directly provides news from the India Today platform, matching the subtask to fetch the latest news related to India from that source. It requires no additional parameters and is specific to the requested source, making it the best fit."
+      },
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 1698,
+        "total_tokens": 1773,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 29,
+          "engine_ttft_ms": 59,
+          "engine_ttlt_ms": 2229,
+          "pre_inference_ms": 152,
+          "service_tbt_ms": 29,
+          "service_ttft_ms": 341,
+          "service_ttlt_ms": 2484,
+          "total_duration_ms": 2342,
+          "user_visible_ttft_ms": 189
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4345",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 1.0, \"rationale\": \"The subtask requires details about airports near specific coordinates. The 'Airports Finder - Get Airports By Coordinates' API directly provides airport information based on latitude and longitude, matching the subtask intent and required inputs precisely.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 1.0,
+        "rationale": "The subtask requires details about airports near specific coordinates. The 'Airports Finder - Get Airports By Coordinates' API directly provides airport information based on latitude and longitude, matching the subtask intent and required inputs precisely."
+      },
+      "usage": {
+        "completion_tokens": 65,
+        "prompt_tokens": 1727,
+        "total_tokens": 1792,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 76,
+          "engine_ttlt_ms": 1077,
+          "pre_inference_ms": 219,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 353,
+          "service_ttlt_ms": 1347,
+          "total_duration_ms": 1143,
+          "user_visible_ttft_ms": 134
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4072",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The subtask is to identify destinations along the planned road trip route, which requires a list of cities. The 'Art openings Italy - Get all cities' API provides a list of cities and requires no parameters, making it the best fit among the candidates for identifying destinations. Other APIs focus on weather or unrelated domains and do not provide city lists.\"}",
+      "parsed": {
+        "selected_rank": 4,
+        "confidence": 0.9,
+        "rationale": "The subtask is to identify destinations along the planned road trip route, which requires a list of cities. The 'Art openings Italy - Get all cities' API provides a list of cities and requires no parameters, making it the best fit among the candidates for identifying destinations. Other APIs focus on weather or unrelated domains and do not provide city lists."
+      },
+      "usage": {
+        "completion_tokens": 91,
+        "prompt_tokens": 1825,
+        "total_tokens": 1916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 43,
+          "engine_ttft_ms": 194,
+          "engine_ttlt_ms": 4069,
+          "pre_inference_ms": 140,
+          "service_tbt_ms": 43,
+          "service_ttft_ms": 1960,
+          "service_ttlt_ms": 5825,
+          "total_duration_ms": 5693,
+          "user_visible_ttft_ms": 1820
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4072",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"The 'Cloud Cast - Get current weather' API directly provides current weather conditions for any city, matching the subtask to fetch current weather for each destination. It requires the city parameter, which can be bound from the destination list, and is more comprehensive and specific than other weather APIs listed.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 1.0,
+        "rationale": "The 'Cloud Cast - Get current weather' API directly provides current weather conditions for any city, matching the subtask to fetch current weather for each destination. It requires the city parameter, which can be bound from the destination list, and is more comprehensive and specific than other weather APIs listed."
+      },
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 1882,
+        "total_tokens": 1962,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 23,
+          "engine_ttft_ms": 76,
+          "engine_ttlt_ms": 1878,
+          "pre_inference_ms": 127,
+          "service_tbt_ms": 22,
+          "service_ttft_ms": 259,
+          "service_ttlt_ms": 2050,
+          "total_duration_ms": 1932,
+          "user_visible_ttft_ms": 133
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4072",
+      "step_id": 4,
+      "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Skyscanner_v2 - Search Place API is in the travel domain and allows searching for places to get entityId needed for hotel searches, which aligns well with the subtask of finding good hotels in each city from the destination list.\"}",
+      "parsed": {
+        "selected_rank": 6,
+        "confidence": 0.9,
+        "rationale": "The Skyscanner_v2 - Search Place API is in the travel domain and allows searching for places to get entityId needed for hotel searches, which aligns well with the subtask of finding good hotels in each city from the destination list."
+      },
+      "usage": {
+        "completion_tokens": 70,
+        "prompt_tokens": 1986,
+        "total_tokens": 2056,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 107,
+          "engine_ttlt_ms": 945,
+          "pre_inference_ms": 291,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 500,
+          "service_ttlt_ms": 1331,
+          "total_duration_ms": 1052,
+          "user_visible_ttft_ms": 209
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2757",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The subtask is to query car rental locations in identified major cities. The Tripadvisor - Search Rental Cars Location API directly supports searching rental car locations by city name, matching the subtask intent and required input 'locations'. It is specific to travel and car rentals, making it the best fit.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.95,
+        "rationale": "The subtask is to query car rental locations in identified major cities. The Tripadvisor - Search Rental Cars Location API directly supports searching rental car locations by city name, matching the subtask intent and required input 'locations'. It is specific to travel and car rentals, making it the best fit."
+      },
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 2095,
+        "total_tokens": 2175,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 110,
+          "engine_ttlt_ms": 1176,
+          "pre_inference_ms": 121,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 345,
+          "service_ttlt_ms": 1393,
+          "total_duration_ms": 1280,
+          "user_visible_ttft_ms": 224
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2757",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Canadian Gas Prices - City Prediction API is in the transportation domain and provides location-based data relevant to travel, which is more aligned with checking live traffic conditions than unrelated sports or generic content APIs. Although it focuses on gas prices, it is the closest relevant API available for transportation-related live data and accepts city input, which can be derived from the route.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The Canadian Gas Prices - City Prediction API is in the transportation domain and provides location-based data relevant to travel, which is more aligned with checking live traffic conditions than unrelated sports or generic content APIs. Although it focuses on gas prices, it is the closest relevant API available for transportation-related live data and accepts city input, which can be derived from the route."
+      },
+      "usage": {
+        "completion_tokens": 93,
+        "prompt_tokens": 2144,
+        "total_tokens": 2237,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 71,
+          "engine_ttlt_ms": 1447,
+          "pre_inference_ms": 112,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 216,
+          "service_ttlt_ms": 1588,
+          "total_duration_ms": 1482,
+          "user_visible_ttft_ms": 104
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5444",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The Africa-Api provides tourism locations and categories for countries in Africa, which aligns with fetching popular tourist attractions including names, types, and addresses. Although it requires a country_name parameter rather than city_name, it is the most relevant and specific tourism API among the candidates. Other APIs are unrelated to tourism or too generic.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 0.9,
+        "rationale": "The Africa-Api provides tourism locations and categories for countries in Africa, which aligns with fetching popular tourist attractions including names, types, and addresses. Although it requires a country_name parameter rather than city_name, it is the most relevant and specific tourism API among the candidates. Other APIs are unrelated to tourism or too generic."
+      },
+      "usage": {
+        "completion_tokens": 86,
+        "prompt_tokens": 1745,
+        "total_tokens": 1831,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 63,
+          "engine_ttlt_ms": 1107,
+          "pre_inference_ms": 92,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 200,
+          "service_ttlt_ms": 1238,
+          "total_duration_ms": 1156,
+          "user_visible_ttft_ms": 108
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5444",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The WonderboyAPI is related to racing information and provides data about updates in racing, which aligns with the subtask to retrieve recent horse racing statistics for the horse named 'ZANAHIYR'. Other APIs are unrelated to horse racing or do not provide horse-specific statistics.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The WonderboyAPI is related to racing information and provides data about updates in racing, which aligns with the subtask to retrieve recent horse racing statistics for the horse named 'ZANAHIYR'. Other APIs are unrelated to horse racing or do not provide horse-specific statistics."
+      },
+      "usage": {
+        "completion_tokens": 77,
+        "prompt_tokens": 1815,
+        "total_tokens": 1892,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 36,
+          "engine_ttft_ms": 119,
+          "engine_ttlt_ms": 2875,
+          "pre_inference_ms": 85,
+          "service_tbt_ms": 36,
+          "service_ttft_ms": 238,
+          "service_ttlt_ms": 2997,
+          "total_duration_ms": 2915,
+          "user_visible_ttft_ms": 152
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_5322",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The 'Credit card prediction - Attrition_Flag' API is the only finance-related API that might provide credit-related data. Although it does not explicitly mention company credit scores, it is the closest relevant API available. Other APIs are unrelated or do not provide company credit score information.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The 'Credit card prediction - Attrition_Flag' API is the only finance-related API that might provide credit-related data. Although it does not explicitly mention company credit scores, it is the closest relevant API available. Other APIs are unrelated or do not provide company credit score information."
+      },
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 1731,
+        "total_tokens": 1809,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 53,
+          "engine_ttlt_ms": 1274,
+          "pre_inference_ms": 107,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 197,
+          "service_ttlt_ms": 1416,
+          "total_duration_ms": 1314,
+          "user_visible_ttft_ms": 90
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_5322",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Stock Sentiment API - News Sentiment Data directly provides news articles related to a specific stock ticker, which fits the subtask of fetching ESG news articles related to Apple Inc. The required parameter 'ticker' can be bound to 'Apple Inc.' (AAPL). This API is specific to stock-related news, making it more suitable than generic news APIs.\"}",
+      "parsed": {
+        "selected_rank": 6,
+        "confidence": 0.9,
+        "rationale": "The Stock Sentiment API - News Sentiment Data directly provides news articles related to a specific stock ticker, which fits the subtask of fetching ESG news articles related to Apple Inc. The required parameter 'ticker' can be bound to 'Apple Inc.' (AAPL). This API is specific to stock-related news, making it more suitable than generic news APIs."
+      },
+      "usage": {
+        "completion_tokens": 94,
+        "prompt_tokens": 1760,
+        "total_tokens": 1854,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 52,
+          "engine_ttlt_ms": 1422,
+          "pre_inference_ms": 129,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 247,
+          "service_ttlt_ms": 1615,
+          "total_duration_ms": 1492,
+          "user_visible_ttft_ms": 118
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1528",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"This API provides stock trading data with a required ticker parameter, allowing fetching 24-hour ticker data for specific stocks like Apple, Microsoft, and Amazon, directly satisfying the subtask.\"}",
+      "parsed": {
+        "selected_rank": 6,
+        "confidence": 0.9,
+        "rationale": "This API provides stock trading data with a required ticker parameter, allowing fetching 24-hour ticker data for specific stocks like Apple, Microsoft, and Amazon, directly satisfying the subtask."
+      },
+      "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 1427,
+        "total_tokens": 1485,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 37,
+          "engine_ttlt_ms": 994,
+          "pre_inference_ms": 545,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 827,
+          "service_ttlt_ms": 1722,
+          "total_duration_ms": 1239,
+          "user_visible_ttft_ms": 282
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1528",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The Quotient - /equity/live API directly provides current market price data including opening and closing prices for specified stock symbols such as AAPL, MSFT, and AMZN, matching the subtask to fetch opening and closing prices for Apple, Microsoft, and Amazon stocks. It requires the symbol parameter which can be bound from the subtask inputs. It is more specific to stock price data than generic or options-only APIs.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 0.9,
+        "rationale": "The Quotient - /equity/live API directly provides current market price data including opening and closing prices for specified stock symbols such as AAPL, MSFT, and AMZN, matching the subtask to fetch opening and closing prices for Apple, Microsoft, and Amazon stocks. It requires the symbol parameter which can be bound from the subtask inputs. It is more specific to stock price data than generic or options-only APIs."
+      },
+      "usage": {
+        "completion_tokens": 107,
+        "prompt_tokens": 1840,
+        "total_tokens": 1947,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 10,
+          "engine_ttft_ms": 72,
+          "engine_ttlt_ms": 1162,
+          "pre_inference_ms": 122,
+          "service_tbt_ms": 10,
+          "service_ttft_ms": 282,
+          "service_ttlt_ms": 1364,
+          "total_duration_ms": 1252,
+          "user_visible_ttft_ms": 160
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1528",
+      "step_id": 4,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The MacroTrends Finance - History Prices API provides detailed historical stock price data including opening and closing prices, which are required inputs to calculate the differences between opening and closing prices for each stock.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 0.9,
+        "rationale": "The MacroTrends Finance - History Prices API provides detailed historical stock price data including opening and closing prices, which are required inputs to calculate the differences between opening and closing prices for each stock."
+      },
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 1604,
+        "total_tokens": 1664,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 37,
+          "engine_ttlt_ms": 841,
+          "pre_inference_ms": 79,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 217,
+          "service_ttlt_ms": 1016,
+          "total_duration_ms": 945,
+          "user_visible_ttft_ms": 138
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3570",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The subtask is to analyze sentiment change values for the top coins retrieved in step 1 (followers_change_data). The API 'Crowdsense - Get Top Coins By Sentiment Change' directly provides real-time top coins by sentiment change in the last 24 hours, matching the subtask intent perfectly. It requires no additional parameters and is specific to sentiment change, making it the best fit.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 1.0,
+        "rationale": "The subtask is to analyze sentiment change values for the top coins retrieved in step 1 (followers_change_data). The API 'Crowdsense - Get Top Coins By Sentiment Change' directly provides real-time top coins by sentiment change in the last 24 hours, matching the subtask intent perfectly. It requires no additional parameters and is specific to sentiment change, making it the best fit."
+      },
+      "usage": {
+        "completion_tokens": 101,
+        "prompt_tokens": 3883,
+        "total_tokens": 3984,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 26,
+          "engine_ttft_ms": 140,
+          "engine_ttlt_ms": 2735,
+          "pre_inference_ms": 128,
+          "service_tbt_ms": 26,
+          "service_ttft_ms": 1525,
+          "service_ttlt_ms": 4110,
+          "total_duration_ms": 3996,
+          "user_visible_ttft_ms": 1397
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3570",
+      "step_id": 3,
+      "raw": "{\"selected_rank\":9,\"confidence\":1.0,\"rationale\":\"The subtask is to fetch influencer posts related to Bitcoin. The API 'Crowdsense - Get All Social Spikes by Coin Name' (rank 9) directly provides social media spikes including influencer posts related to a specified coin name, here Bitcoin, with no additional required inputs beyond the coin name which can be bound from the subtask. This API is specific to the finance domain and matches the intent precisely, unlike other APIs that focus on top coins or sentiment changes without providing influencer posts.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 1.0,
+        "rationale": "The subtask is to fetch influencer posts related to Bitcoin. The API 'Crowdsense - Get All Social Spikes by Coin Name' (rank 9) directly provides social media spikes including influencer posts related to a specified coin name, here Bitcoin, with no additional required inputs beyond the coin name which can be bound from the subtask. This API is specific to the finance domain and matches the intent precisely, unlike other APIs that focus on top coins or sentiment changes without providing influencer posts."
+      },
+      "usage": {
+        "completion_tokens": 116,
+        "prompt_tokens": 3867,
+        "total_tokens": 3983,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 128,
+          "engine_ttlt_ms": 2174,
+          "pre_inference_ms": 206,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 677,
+          "service_ttlt_ms": 2759,
+          "total_duration_ms": 2575,
+          "user_visible_ttft_ms": 470
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_4555",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Currency Conversion and Exchange Rates - Time-Series Endpoint API supports retrieving historical data between specified dates, which fits the requirement to fetch historical stock prices for Apple Inc. during August. Although it is primarily for forex rates, it is the only candidate with time-series historical data and date parameters. Other APIs do not provide historical stock prices or require parameters not related to stock prices.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The Currency Conversion and Exchange Rates - Time-Series Endpoint API supports retrieving historical data between specified dates, which fits the requirement to fetch historical stock prices for Apple Inc. during August. Although it is primarily for forex rates, it is the only candidate with time-series historical data and date parameters. Other APIs do not provide historical stock prices or require parameters not related to stock prices."
+      },
+      "usage": {
+        "completion_tokens": 96,
+        "prompt_tokens": 1761,
+        "total_tokens": 1857,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 322,
+          "user_visible_ttft_ms": 186,
+          "total_duration_ms": 1321,
+          "pre_inference_ms": 137,
+          "service_tbt_ms": 12,
+          "service_ttlt_ms": 1450,
+          "engine_ttft_ms": 57,
+          "engine_ttlt_ms": 1200,
+          "engine_tbt_ms": 12
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_4555",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":9,\"confidence\":0.9,\"rationale\":\"The 'Stoxx - Get Company Information' API provides detailed company information and accepts a ticker symbol as input, which aligns with the subtask to retrieve ESG scores for Apple Inc. Although it does not explicitly mention ESG scores, it is the most relevant and specific API for company data among the candidates.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 0.9,
+        "rationale": "The 'Stoxx - Get Company Information' API provides detailed company information and accepts a ticker symbol as input, which aligns with the subtask to retrieve ESG scores for Apple Inc. Although it does not explicitly mention ESG scores, it is the most relevant and specific API for company data among the candidates."
+      },
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 1538,
+        "total_tokens": 1616,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 1461,
+          "pre_inference_ms": 84,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 202,
+          "service_ttlt_ms": 1609,
+          "total_duration_ms": 1541,
+          "user_visible_ttft_ms": 119
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1686",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 7, \"confidence\": 0.95, \"rationale\": \"This API provides real-time latest rates for gold, silver, and platinum with the ability to specify symbols and base currency as USD, directly matching the subtask requirements.\"}",
+      "parsed": {
+        "selected_rank": 7,
+        "confidence": 0.95,
+        "rationale": "This API provides real-time latest rates for gold, silver, and platinum with the ability to specify symbols and base currency as USD, directly matching the subtask requirements."
+      },
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 2054,
+        "total_tokens": 2109,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 20,
+          "engine_ttft_ms": 88,
+          "engine_ttlt_ms": 1205,
+          "pre_inference_ms": 124,
+          "service_tbt_ms": 20,
+          "service_ttft_ms": 260,
+          "service_ttlt_ms": 1371,
+          "total_duration_ms": 1257,
+          "user_visible_ttft_ms": 136
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1686",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Metals Prices Rates API - Carat provides real-time and historical metal prices including silver, directly matching the subtask to fetch historical silver rates. It is specific to metals and finance, unlike generic currency exchange APIs.\"}",
+      "parsed": {
+        "selected_rank": 7,
+        "confidence": 0.9,
+        "rationale": "The Metals Prices Rates API - Carat provides real-time and historical metal prices including silver, directly matching the subtask to fetch historical silver rates. It is specific to metals and finance, unlike generic currency exchange APIs."
+      },
+      "usage": {
+        "completion_tokens": 65,
+        "prompt_tokens": 1953,
+        "total_tokens": 2018,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 21,
+          "engine_ttft_ms": 69,
+          "engine_ttlt_ms": 1443,
+          "pre_inference_ms": 91,
+          "service_tbt_ms": 21,
+          "service_ttft_ms": 186,
+          "service_ttlt_ms": 1555,
+          "total_duration_ms": 1470,
+          "user_visible_ttft_ms": 95
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1686",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"This API specifically provides historical metal prices including platinum with time series data and supports querying by date range, matching the subtask to fetch historical rates for platinum between specified dates. It is more specific to metals than generic currency exchange APIs and accepts required parameters for date and metal symbol.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 0.95,
+        "rationale": "This API specifically provides historical metal prices including platinum with time series data and supports querying by date range, matching the subtask to fetch historical rates for platinum between specified dates. It is more specific to metals than generic currency exchange APIs and accepts required parameters for date and metal symbol."
+      },
+      "usage": {
+        "completion_tokens": 77,
+        "prompt_tokens": 2132,
+        "total_tokens": 2209,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 14,
+          "engine_ttft_ms": 50,
+          "engine_ttlt_ms": 1117,
+          "pre_inference_ms": 235,
+          "service_tbt_ms": 14,
+          "service_ttft_ms": 367,
+          "service_ttlt_ms": 1425,
+          "total_duration_ms": 1202,
+          "user_visible_ttft_ms": 132
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1686",
+      "step_id": 4,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.95,\"rationale\":\"The Metals Prices Rates API - Carat provides real-time and historical metal prices including silver and platinum, directly supporting the subtask of comparing historical rates. It is specific to metals and fits the finance domain, making it the best choice over more generic or unrelated APIs.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.95,
+        "rationale": "The Metals Prices Rates API - Carat provides real-time and historical metal prices including silver and platinum, directly supporting the subtask of comparing historical rates. It is specific to metals and fits the finance domain, making it the best choice over more generic or unrelated APIs."
+      },
+      "usage": {
+        "completion_tokens": 70,
+        "prompt_tokens": 1940,
+        "total_tokens": 2010,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 104,
+          "engine_ttlt_ms": 912,
+          "pre_inference_ms": 214,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 463,
+          "service_ttlt_ms": 1261,
+          "total_duration_ms": 1063,
+          "user_visible_ttft_ms": 250
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3328",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"This API provides historical asset data for Bitcoin with a daily interval, fitting the requirement to fetch candlestick data for Bitcoin on an exchange (implicitly Binance from the domain context). It is more specific to historical candlestick-like data than live price or supply APIs.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 0.9,
+        "rationale": "This API provides historical asset data for Bitcoin with a daily interval, fitting the requirement to fetch candlestick data for Bitcoin on an exchange (implicitly Binance from the domain context). It is more specific to historical candlestick-like data than live price or supply APIs."
+      },
+      "usage": {
+        "completion_tokens": 73,
+        "prompt_tokens": 2026,
+        "total_tokens": 2099,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 77,
+          "engine_ttlt_ms": 1307,
+          "pre_inference_ms": 301,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 450,
+          "service_ttlt_ms": 1658,
+          "total_duration_ms": 1382,
+          "user_visible_ttft_ms": 148
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3328",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 8, \"confidence\": 0.95, \"rationale\": \"This API explicitly supports fetching real-time stock prices by symbol and exchange, matching the subtask to get Google's stock price on NASDAQ, and requires parameters symbol and exchange which are provided.\"}",
+      "parsed": {
+        "selected_rank": 8,
+        "confidence": 0.95,
+        "rationale": "This API explicitly supports fetching real-time stock prices by symbol and exchange, matching the subtask to get Google's stock price on NASDAQ, and requires parameters symbol and exchange which are provided."
+      },
+      "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 1915,
+        "total_tokens": 1974,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 24,
+          "engine_ttft_ms": 78,
+          "engine_ttlt_ms": 1500,
+          "pre_inference_ms": 105,
+          "service_tbt_ms": 24,
+          "service_ttft_ms": 225,
+          "service_ttlt_ms": 1643,
+          "total_duration_ms": 1553,
+          "user_visible_ttft_ms": 120
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_2949",
+      "step_id": 1,
+      "raw": "{\"selected_rank\":7,\"confidence\":0.9,\"rationale\":\"The 'Real-Time Quotes - Stock symbols' API directly provides real-time and historical stock data, including symbols, which aligns with the subtask of gathering statistics and current prices for Japanese stocks. It supports the required inputs (stock symbols, date range) and is specific to stocks, unlike cryptocurrency or commodity APIs.\"}",
+      "parsed": {
+        "selected_rank": 7,
+        "confidence": 0.9,
+        "rationale": "The 'Real-Time Quotes - Stock symbols' API directly provides real-time and historical stock data, including symbols, which aligns with the subtask of gathering statistics and current prices for Japanese stocks. It supports the required inputs (stock symbols, date range) and is specific to stocks, unlike cryptocurrency or commodity APIs."
+      },
+      "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 2515,
+        "total_tokens": 2594,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 80,
+          "engine_ttlt_ms": 1420,
+          "pre_inference_ms": 98,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 209,
+          "service_ttlt_ms": 1546,
+          "total_duration_ms": 1454,
+          "user_visible_ttft_ms": 111
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_2949",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 0.8, \"rationale\": \"Among the candidate APIs, none explicitly mention providing Japanese stock market capitalization data. However, the 'Credit card prediction - Attrition_Flag' API is in the Finance domain and requires no parameters, making it the most plausible choice to retrieve financial data without additional inputs. Other APIs focus on cryptocurrency or unrelated domains, so this is the best available option.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.8,
+        "rationale": "Among the candidate APIs, none explicitly mention providing Japanese stock market capitalization data. However, the 'Credit card prediction - Attrition_Flag' API is in the Finance domain and requires no parameters, making it the most plausible choice to retrieve financial data without additional inputs. Other APIs focus on cryptocurrency or unrelated domains, so this is the best available option."
+      },
+      "usage": {
+        "completion_tokens": 92,
+        "prompt_tokens": 1832,
+        "total_tokens": 1924,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 22,
+          "engine_ttft_ms": 56,
+          "engine_ttlt_ms": 2124,
+          "pre_inference_ms": 86,
+          "service_tbt_ms": 22,
+          "service_ttft_ms": 167,
+          "service_ttlt_ms": 2233,
+          "total_duration_ms": 2150,
+          "user_visible_ttft_ms": 81
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1793",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The 'CO2 Offset - Retrieve Compensation' API directly addresses retrieving CO2 offset compensation details linked to an account, matching the subtask intent and requiring an 'id' parameter that can be bound to the friend's account identifier.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.95,
+        "rationale": "The 'CO2 Offset - Retrieve Compensation' API directly addresses retrieving CO2 offset compensation details linked to an account, matching the subtask intent and requiring an 'id' parameter that can be bound to the friend's account identifier."
+      },
+      "usage": {
+        "completion_tokens": 67,
+        "prompt_tokens": 1618,
+        "total_tokens": 1685,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 45,
+          "engine_ttlt_ms": 859,
+          "pre_inference_ms": 107,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 327,
+          "service_ttlt_ms": 1036,
+          "total_duration_ms": 940,
+          "user_visible_ttft_ms": 220
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1793",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The 'CO2 Offset - Retrieve Compensation' API directly provides full compensation details including compensation ID, organization, CO2 equivalent, gold standard credits, and planted trees, which exactly matches the subtask requirements and domain.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 1.0,
+        "rationale": "The 'CO2 Offset - Retrieve Compensation' API directly provides full compensation details including compensation ID, organization, CO2 equivalent, gold standard credits, and planted trees, which exactly matches the subtask requirements and domain."
+      },
+      "usage": {
+        "completion_tokens": 65,
+        "prompt_tokens": 2014,
+        "total_tokens": 2079,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 283,
+          "user_visible_ttft_ms": 127,
+          "total_duration_ms": 1504,
+          "pre_inference_ms": 156,
+          "service_tbt_ms": 21,
+          "service_ttlt_ms": 1655,
+          "engine_ttft_ms": 52,
+          "engine_ttlt_ms": 1423,
+          "engine_tbt_ms": 21
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1563",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The subtask specifically requests fetching the latest odds from Admiralbet; 'Admiralbet - Odds' API directly provides the latest odds from Admiralbet, perfectly matching the subtask intent and requiring no additional parameters.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 1.0,
+        "rationale": "The subtask specifically requests fetching the latest odds from Admiralbet; 'Admiralbet - Odds' API directly provides the latest odds from Admiralbet, perfectly matching the subtask intent and requiring no additional parameters."
+      },
+      "usage": {
+        "completion_tokens": 65,
+        "prompt_tokens": 1080,
+        "total_tokens": 1145,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 26,
+          "engine_ttft_ms": 118,
+          "engine_ttlt_ms": 1818,
+          "pre_inference_ms": 87,
+          "service_tbt_ms": 26,
+          "service_ttft_ms": 231,
+          "service_ttlt_ms": 1927,
+          "total_duration_ms": 1848,
+          "user_visible_ttft_ms": 144
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1563",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide payment gateway recommendations; all sports odds APIs are unrelated to payment gateways, and finance APIs are for social messaging, not payment gateways.\"}",
+      "parsed": {
+        "selected_rank": 0,
+        "confidence": 0.0,
+        "rationale": "None of the candidate APIs provide payment gateway recommendations; all sports odds APIs are unrelated to payment gateways, and finance APIs are for social messaging, not payment gateways."
+      },
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 1208,
+        "total_tokens": 1262,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 14,
+          "engine_ttft_ms": 84,
+          "engine_ttlt_ms": 853,
+          "pre_inference_ms": 85,
+          "service_tbt_ms": 14,
+          "service_ttft_ms": 211,
+          "service_ttlt_ms": 973,
+          "total_duration_ms": 905,
+          "user_visible_ttft_ms": 126
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_396",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The 'Finance Social Sentiment For Twitter and StockTwits - /get-social-list' API directly provides a list of trending tickers and profiles in the crypto market, matching the subtask intent perfectly and requires no additional parameters.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 1.0,
+        "rationale": "The 'Finance Social Sentiment For Twitter and StockTwits - /get-social-list' API directly provides a list of trending tickers and profiles in the crypto market, matching the subtask intent perfectly and requires no additional parameters."
+      },
+      "usage": {
+        "completion_tokens": 68,
+        "prompt_tokens": 1775,
+        "total_tokens": 1843,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 1133,
+          "pre_inference_ms": 133,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 249,
+          "service_ttlt_ms": 1336,
+          "total_duration_ms": 1211,
+          "user_visible_ttft_ms": 116
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1624",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 8, \"confidence\": 1.0, \"rationale\": \"The BraveNewCoin - MarketById API directly fetches details of an individual market using the market's UUID, exactly matching the subtask requirements and domain.\"}",
+      "parsed": {
+        "selected_rank": 8,
+        "confidence": 1.0,
+        "rationale": "The BraveNewCoin - MarketById API directly fetches details of an individual market using the market's UUID, exactly matching the subtask requirements and domain."
+      },
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 2121,
+        "total_tokens": 2175,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 45,
+          "engine_ttlt_ms": 872,
+          "pre_inference_ms": 145,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 232,
+          "service_ttlt_ms": 1089,
+          "total_duration_ms": 951,
+          "user_visible_ttft_ms": 87
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_5268",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"This API directly provides the current latest prices of gold and silver, matching the subtask intent perfectly and requires no additional parameters.\"}",
+      "parsed": {
+        "selected_rank": 9,
+        "confidence": 1.0,
+        "rationale": "This API directly provides the current latest prices of gold and silver, matching the subtask intent perfectly and requires no additional parameters."
+      },
+      "usage": {
+        "completion_tokens": 47,
+        "prompt_tokens": 1678,
+        "total_tokens": 1725,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 78,
+          "engine_ttlt_ms": 772,
+          "pre_inference_ms": 91,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 203,
+          "service_ttlt_ms": 900,
+          "total_duration_ms": 828,
+          "user_visible_ttft_ms": 112
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_2684",
+      "step_id": 1,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The 'Trading View - exchanges/list' API is in the Finance domain and provides a list of all available and supported exchanges, which is the closest to fetching supported assets for futures trading. It directly relates to financial trading assets and requires no parameters, fitting the subtask perfectly.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The 'Trading View - exchanges/list' API is in the Finance domain and provides a list of all available and supported exchanges, which is the closest to fetching supported assets for futures trading. It directly relates to financial trading assets and requires no parameters, fitting the subtask perfectly."
+      },
+      "usage": {
+        "completion_tokens": 72,
+        "prompt_tokens": 1214,
+        "total_tokens": 1286,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 44,
+          "engine_ttlt_ms": 1121,
+          "pre_inference_ms": 186,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 361,
+          "service_ttlt_ms": 1421,
+          "total_duration_ms": 1267,
+          "user_visible_ttft_ms": 175
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_2684",
+      "step_id": 2,
+      "raw": "{\"selected_rank\": 8, \"confidence\": 0.95, \"rationale\": \"The 'Futures - Latest Contracts for Symbol' API directly returns the latest futures contracts for a given symbol and optionally supports filtering by month, fulfilling the subtask's requirement to retrieve the latest contracts for a specific symbol and month specified by the user. It is specific to futures contracts in the finance domain, making it the best fit compared to other more general or unrelated APIs.\"}",
+      "parsed": {
+        "selected_rank": 8,
+        "confidence": 0.95,
+        "rationale": "The 'Futures - Latest Contracts for Symbol' API directly returns the latest futures contracts for a given symbol and optionally supports filtering by month, fulfilling the subtask's requirement to retrieve the latest contracts for a specific symbol and month specified by the user. It is specific to futures contracts in the finance domain, making it the best fit compared to other more general or unrelated APIs."
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 2026,
+        "total_tokens": 2123,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 63,
+          "engine_ttlt_ms": 1572,
+          "pre_inference_ms": 137,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 255,
+          "service_ttlt_ms": 1758,
+          "total_duration_ms": 1633,
+          "user_visible_ttft_ms": 118
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1565",
+      "step_id": 1,
+      "raw": "{\"selected_rank\": 5, \"confidence\": 1.0, \"rationale\": \"The subtask is to fetch portfolio information for a given portfolio ID. The 'Trader Wagon - getPortfolioInfo' API directly provides portfolio info given a portfolio ID, matching the subtask intent and required input exactly.\"}",
+      "parsed": {
+        "selected_rank": 5,
+        "confidence": 1.0,
+        "rationale": "The subtask is to fetch portfolio information for a given portfolio ID. The 'Trader Wagon - getPortfolioInfo' API directly provides portfolio info given a portfolio ID, matching the subtask intent and required input exactly."
+      },
+      "usage": {
+        "completion_tokens": 65,
+        "prompt_tokens": 1647,
+        "total_tokens": 1712,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 253,
+          "user_visible_ttft_ms": 114,
+          "total_duration_ms": 1224,
+          "pre_inference_ms": 139,
+          "service_tbt_ms": 17,
+          "service_ttlt_ms": 1320,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 1097,
+          "engine_tbt_ms": 16
+        }
+      }
+    }
+  ]
+}

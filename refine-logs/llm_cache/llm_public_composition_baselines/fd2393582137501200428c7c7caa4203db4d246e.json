@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The subtask requires retrieving the latest release of an artist using the Shazam API, and the 'Shazam - artists/get-latest-release' endpoint is specifically designed to get the latest release of an artist by their ID, matching the subtask description closely.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The subtask requires retrieving the latest release of an artist using the Shazam API, and the 'Shazam - artists/get-latest-release' endpoint is specifically designed to get the latest release of an artist by their ID, matching the subtask description closely."
+  },
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 1590,
+    "total_tokens": 1664,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 646,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 231,
+      "service_ttlt_ms": 831,
+      "total_duration_ms": 711,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

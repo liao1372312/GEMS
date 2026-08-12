@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The user wants the current price of Bitcoin, and the top-ranked API 'Coinbase - Get spot price' directly provides the spot price of Bitcoin without requiring parameters, making it the most straightforward and relevant choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The user wants the current price of Bitcoin, and the top-ranked API 'Coinbase - Get spot price' directly provides the spot price of Bitcoin without requiring parameters, making it the most straightforward and relevant choice."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1323,
+    "total_tokens": 1387,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 550,
+      "pre_inference_ms": 178,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 300,
+      "service_ttlt_ms": 795,
+      "total_duration_ms": 628,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

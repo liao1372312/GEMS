@@ -1,0 +1,50 @@
+{
+  "record_id": "Technology_response_5213",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Flightera Flight Data - flightStatistics' directly matches the step to query flight arrival time and terminal info, while semantic top-1 is unrelated to flights.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Flightera Flight Data - flightInfo' directly provides current flight status, matching the step, whereas semantic top-1 is unrelated.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice 'TripVair AI Flight Cancel Predictor' predicts cancellations, not baggage claim details; semantic top-1 is unrelated but LLM choice breaks workflow intent.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice 'Flightera Flight Data - flightStatistics' directly matches the step to query flight arrival time and terminal info, while semantic top-1 is unrelated to flights."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice 'Flightera Flight Data - flightInfo' directly provides current flight status, matching the step, whereas semantic top-1 is unrelated."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice 'TripVair AI Flight Cancel Predictor' predicts cancellations, not baggage claim details; semantic top-1 is unrelated but LLM choice breaks workflow intent."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 1398,
+    "total_tokens": 1596,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 130,
+      "engine_ttlt_ms": 3119,
+      "pre_inference_ms": 172,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 405,
+      "service_ttlt_ms": 3386,
+      "total_duration_ms": 3261,
+      "user_visible_ttft_ms": 233
+    }
+  }
+}

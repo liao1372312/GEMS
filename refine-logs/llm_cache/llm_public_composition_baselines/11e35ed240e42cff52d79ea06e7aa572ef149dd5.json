@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2882",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate provides detailed ingredients and preparation instructions for dinner recipes, which matches the subtask requirement to provide detailed recipe information for romantic and elegant dinner ideas.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate provides detailed ingredients and preparation instructions for dinner recipes, which matches the subtask requirement to provide detailed recipe information for romantic and elegant dinner ideas."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1955,
+    "total_tokens": 2009,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 572,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 788,
+      "total_duration_ms": 647,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

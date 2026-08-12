@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4683",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The XXXtremeLightningRouletteAPI - History API directly provides the last 30 spin histories from the specified roulette game, matching the subtask intent exactly and requiring no additional parameters.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The XXXtremeLightningRouletteAPI - History API directly provides the last 30 spin histories from the specified roulette game, matching the subtask intent exactly and requiring no additional parameters."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1570,
+    "total_tokens": 1628,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 747,
+      "pre_inference_ms": 196,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 352,
+      "service_ttlt_ms": 1068,
+      "total_duration_ms": 883,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

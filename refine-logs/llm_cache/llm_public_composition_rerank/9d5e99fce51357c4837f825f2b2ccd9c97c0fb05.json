@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4622",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The SHIMONETA API directly checks if a word is vulgar and provides its meaning if it is, matching the subtask perfectly and requiring only the 'word' parameter which is available.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The SHIMONETA API directly checks if a word is vulgar and provides its meaning if it is, matching the subtask perfectly and requiring only the 'word' parameter which is available."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1675,
+    "total_tokens": 1735,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 656,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 284,
+      "service_ttlt_ms": 889,
+      "total_duration_ms": 819,
+      "user_visible_ttft_ms": 182
+    }
+  }
+}

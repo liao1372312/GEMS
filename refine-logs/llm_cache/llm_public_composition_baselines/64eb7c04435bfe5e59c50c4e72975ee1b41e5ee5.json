@@ -1,0 +1,27 @@
+{
+  "record_id": "Medical_response_2371",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"Candidate 2 matches the request for rugby fixtures for the 2020 season, which is part of the user request. No candidate matches the 2PEAK.com training plan API for activities, but candidate 2 partially fulfills the request.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "Candidate 2 matches the request for rugby fixtures for the 2020 season, which is part of the user request. No candidate matches the 2PEAK.com training plan API for activities, but candidate 2 partially fulfills the request."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1418,
+    "total_tokens": 1488,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 70
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1410
+    }
+  }
+}

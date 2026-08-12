@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_492",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.8, \"rationale\": \"Among the candidates, the Flight Data_v2 - City data API provides city data which can be used to identify landmarks and attractions along the route between New York City and Los Angeles. Although it is not explicitly a landmarks API, it is the closest relevant API available that can help find interesting locations along the route. Other APIs are unrelated or focused on flights, finance, or real estate records, which do not directly satisfy the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.8,
+    "rationale": "Among the candidates, the Flight Data_v2 - City data API provides city data which can be used to identify landmarks and attractions along the route between New York City and Los Angeles. Although it is not explicitly a landmarks API, it is the closest relevant API available that can help find interesting locations along the route. Other APIs are unrelated or focused on flights, finance, or real estate records, which do not directly satisfy the subtask."
+  },
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 1585,
+    "total_tokens": 1694,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 1722,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 202,
+      "service_ttlt_ms": 1864,
+      "total_duration_ms": 1765,
+      "user_visible_ttft_ms": 96
+    }
+  }
+}

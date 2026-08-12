@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2949",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"SCipherCrypto API provides real-time conversion rates and market capitalization data for cryptocurrencies including Bitcoin and Ethereum, matching the subtask requirements perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "SCipherCrypto API provides real-time conversion rates and market capitalization data for cryptocurrencies including Bitcoin and Ethereum, matching the subtask requirements perfectly."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1719,
+    "total_tokens": 1768,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 464,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 261,
+      "service_ttlt_ms": 680,
+      "total_duration_ms": 575,
+      "user_visible_ttft_ms": 146
+    }
+  }
+}

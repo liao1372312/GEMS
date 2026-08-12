@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7342",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 1.0, \"rationale\": \"The 'Numbers - Get year fact' API directly provides interesting facts about a specific year, including 1492, and accepts the required 'year' parameter, making it the best fit for retrieving a historical fact about the year 1492.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "The 'Numbers - Get year fact' API directly provides interesting facts about a specific year, including 1492, and accepts the required 'year' parameter, making it the best fit for retrieving a historical fact about the year 1492."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1842,
+    "total_tokens": 1913,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 1621,
+      "pre_inference_ms": 180,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 420,
+      "service_ttlt_ms": 1941,
+      "total_duration_ms": 1814,
+      "user_visible_ttft_ms": 240
+    }
+  }
+}

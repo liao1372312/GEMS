@@ -1,0 +1,55 @@
+{
+  "record_id": "Tourism_response_566",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice AI Trip Planner API directly provides trip plans including routes and attractions, better matching the step requirement than Country Location API which only provides country data.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice RaastaAPI provides road-related points which can include landmarks and attractions along routes, clearly more relevant than Crypto News API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 and LLM choice are the same API; no change needed.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice India Today Unofficial API provides general news suitable for road trip articles, more appropriate than Crypto News API focused on cryptocurrency.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice AI Trip Planner API directly provides trip plans including routes and attractions, better matching the step requirement than Country Location API which only provides country data."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice RaastaAPI provides road-related points which can include landmarks and attractions along routes, clearly more relevant than Crypto News API."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Semantic top-1 and LLM choice are the same API; no change needed."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice India Today Unofficial API provides general news suitable for road trip articles, more appropriate than Crypto News API focused on cryptocurrency."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 224,
+    "prompt_tokens": 1796,
+    "total_tokens": 2020,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 294,
+      "user_visible_ttft_ms": 159,
+      "total_duration_ms": 3641,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 16,
+      "service_ttlt_ms": 3764,
+      "engine_ttft_ms": 89,
+      "engine_ttlt_ms": 3565,
+      "engine_tbt_ms": 16
+    }
+  }
+}

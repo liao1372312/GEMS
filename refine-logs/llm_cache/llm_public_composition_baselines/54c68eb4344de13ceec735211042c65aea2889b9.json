@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_138",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the request for recent arrest records in Clark County or news articles about Las Vegas; none are suitable for the user's tourism safety and itinerary planning needs.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the request for recent arrest records in Clark County or news articles about Las Vegas; none are suitable for the user's tourism safety and itinerary planning needs."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1927,
+    "total_tokens": 1982,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 857,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 154,
+      "service_ttlt_ms": 965,
+      "total_duration_ms": 886,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

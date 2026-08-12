@@ -1,0 +1,64 @@
+{
+  "record_id": "Technology_response_1866",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Provide access to the dashboard with all features for email marketing\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Validate the email address 'donor1@example.com' to check if it is correct\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"email_address\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Provide access to the dashboard with all features for email marketing",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Validate the email address 'donor1@example.com' to check if it is correct",
+        "domain": "Technology",
+        "required_inputs": [
+          "email_address"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Provide access to the dashboard with all features for email marketing",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Validate the email address 'donor1@example.com' to check if it is correct",
+      "domain": "Technology",
+      "required_inputs": [
+        "email_address"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 221,
+    "total_tokens": 322,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1040,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 170,
+      "service_ttlt_ms": 1169,
+      "total_duration_ms": 1087,
+      "user_visible_ttft_ms": 79
+    }
+  }
+}

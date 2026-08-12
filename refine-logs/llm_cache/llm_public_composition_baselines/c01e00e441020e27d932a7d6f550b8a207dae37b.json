@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7282",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs relate to searching independent films or fetching AI news; no suitable API available in candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs relate to searching independent films or fetching AI news; no suitable API available in candidates."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1596,
+    "total_tokens": 1640,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 393,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 527,
+      "total_duration_ms": 437,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

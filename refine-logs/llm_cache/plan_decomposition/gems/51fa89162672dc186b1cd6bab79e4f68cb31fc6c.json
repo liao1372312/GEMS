@@ -1,0 +1,98 @@
+{
+  "record_id": "Tourism_response_91",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of popular beach destinations suitable for family vacations.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find family-friendly beach resorts available in the identified beach destinations.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"destination_list\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Gather information on water sports activities available at the identified beach resorts or destinations.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"destination_list\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Create a list of recommended family-friendly beach resorts including their amenities and available water sports activities.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"list_of_resorts\", \"water_sports_info\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of popular beach destinations suitable for family vacations.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Find family-friendly beach resorts available in the identified beach destinations.",
+        "domain": "tourism",
+        "required_inputs": [
+          "destination_list"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Gather information on water sports activities available at the identified beach resorts or destinations.",
+        "domain": "tourism",
+        "required_inputs": [
+          "destination_list"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Create a list of recommended family-friendly beach resorts including their amenities and available water sports activities.",
+        "domain": "tourism",
+        "required_inputs": [
+          "list_of_resorts",
+          "water_sports_info"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of popular beach destinations suitable for family vacations.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Find family-friendly beach resorts available in the identified beach destinations.",
+      "domain": "tourism",
+      "required_inputs": [
+        "destination_list"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Gather information on water sports activities available at the identified beach resorts or destinations.",
+      "domain": "tourism",
+      "required_inputs": [
+        "destination_list"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Create a list of recommended family-friendly beach resorts including their amenities and available water sports activities.",
+      "domain": "tourism",
+      "required_inputs": [
+        "list_of_resorts",
+        "water_sports_info"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 673,
+    "total_tokens": 877,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1943,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 210,
+      "service_ttlt_ms": 2103,
+      "total_duration_ms": 1994,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5147",
+  "step_id": 6,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to Minecraft blocklists or fetching blocklist files in the requested formats.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to Minecraft blocklists or fetching blocklist files in the requested formats."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 1724,
+    "total_tokens": 1766,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 575,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 167,
+      "service_ttlt_ms": 675,
+      "total_duration_ms": 605,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

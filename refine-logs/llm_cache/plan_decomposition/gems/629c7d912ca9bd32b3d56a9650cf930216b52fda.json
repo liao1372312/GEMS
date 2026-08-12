@@ -1,0 +1,60 @@
+{
+  "record_id": "Technology_response_3462",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Gather news articles related to charity events for inspiration.\",\n      \"domain\": \"News_Media\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather headlines related to charity events for inspiration.\",\n      \"domain\": \"News_Media\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Gather news articles related to charity events for inspiration.",
+        "domain": "News_Media",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Gather headlines related to charity events for inspiration.",
+        "domain": "News_Media",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Gather news articles related to charity events for inspiration.",
+      "domain": "News_Media",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Gather headlines related to charity events for inspiration.",
+      "domain": "News_Media",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 2215,
+    "total_tokens": 2306,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1034,
+      "pre_inference_ms": 188,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 368,
+      "service_ttlt_ms": 1284,
+      "total_duration_ms": 1110,
+      "user_visible_ttft_ms": 180
+    }
+  }
+}

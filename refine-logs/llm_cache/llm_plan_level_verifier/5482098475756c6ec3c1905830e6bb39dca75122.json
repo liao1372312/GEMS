@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Google Search 2 - Google Maps Data ID) is clearly more appropriate for finding local dining options than the semantic top-1 finance currency conversion API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Skyscanner_v2 - Search Place) is clearly more appropriate for finding hotels than the semantic top-1 finance currency conversion API.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (Google Search 2 - Google Maps Data ID) is clearly more appropriate for finding local dining options than the semantic top-1 finance currency conversion API."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice (Skyscanner_v2 - Search Place) is clearly more appropriate for finding hotels than the semantic top-1 finance currency conversion API."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1272,
+    "total_tokens": 1449,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 125,
+      "engine_ttlt_ms": 3324,
+      "pre_inference_ms": 176,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 348,
+      "service_ttlt_ms": 3544,
+      "total_duration_ms": 3372,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

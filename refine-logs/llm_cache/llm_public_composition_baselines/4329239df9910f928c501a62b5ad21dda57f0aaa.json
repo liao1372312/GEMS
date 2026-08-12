@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7901",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants to know the current free games on Epic Games Store and Rocket League tournaments in Europe. Among the candidates, none directly provide gaming or tournament data. However, the highest-ranked API is a geocoding API unrelated to gaming. Since no gaming-related API is available, the best approach is to select the top-ranked API for potential location-based info if needed, but confidence is low. Overall, no suitable API is present to fulfill the gaming request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants to know the current free games on Epic Games Store and Rocket League tournaments in Europe. Among the candidates, none directly provide gaming or tournament data. However, the highest-ranked API is a geocoding API unrelated to gaming. Since no gaming-related API is available, the best approach is to select the top-ranked API for potential location-based info if needed, but confidence is low. Overall, no suitable API is present to fulfill the gaming request."
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 1703,
+    "total_tokens": 1817,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1113,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 372,
+      "service_ttlt_ms": 1346,
+      "total_duration_ms": 1238,
+      "user_visible_ttft_ms": 254
+    }
+  }
+}

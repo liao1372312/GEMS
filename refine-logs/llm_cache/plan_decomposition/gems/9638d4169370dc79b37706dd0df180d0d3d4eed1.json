@@ -1,0 +1,73 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get a list of cities with their details to identify potential cities with excellent air quality.\",\n      \"domain\": \"Data\",\n      \"required_inputs\": [\"name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve current air quality data for candidate cities to find one with excellent air quality.\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"country\", \"city\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Get a list of cities with their details to identify potential cities with excellent air quality.",
+        "domain": "Data",
+        "required_inputs": [
+          "name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve current air quality data for candidate cities to find one with excellent air quality.",
+        "domain": "Weather",
+        "required_inputs": [
+          "country",
+          "city"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Get a list of cities with their details to identify potential cities with excellent air quality.",
+      "domain": "Data",
+      "required_inputs": [
+        "name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve current air quality data for candidate cities to find one with excellent air quality.",
+      "domain": "Weather",
+      "required_inputs": [
+        "country",
+        "city"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 2213,
+    "total_tokens": 2321,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 1260,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1459,
+      "total_duration_ms": 1388,
+      "user_visible_ttft_ms": 198
+    }
+  },
+  "goal_hints": [
+    "I want to surprise my family with a weekend getaway to a city with excellent air quality."
+  ]
+}

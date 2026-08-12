@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_918",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Basketball Data - Match Boxscore API directly provides detailed team and player statistics for basketball matches, which aligns perfectly with the subtask of gathering team details and player information including roster and statistics. It is specific to basketball and supports match date relevance, making it the best fit among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Basketball Data - Match Boxscore API directly provides detailed team and player statistics for basketball matches, which aligns perfectly with the subtask of gathering team details and player information including roster and statistics. It is specific to basketball and supports match date relevance, making it the best fit among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 2240,
+    "total_tokens": 2320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1221,
+      "pre_inference_ms": 132,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 223,
+      "service_ttlt_ms": 1388,
+      "total_duration_ms": 1265,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

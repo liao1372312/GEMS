@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_492",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs are relevant to retrieving information about nearby hotels at landmarks between New York City and Los Angeles. The user needs a tourism or travel-related API that can provide hotel information based on landmark locations, which is not available among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs are relevant to retrieving information about nearby hotels at landmarks between New York City and Los Angeles. The user needs a tourism or travel-related API that can provide hotel information based on landmark locations, which is not available among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1340,
+    "total_tokens": 1412,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 695,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 318,
+      "service_ttlt_ms": 902,
+      "total_duration_ms": 782,
+      "user_visible_ttft_ms": 188
+    }
+  }
+}

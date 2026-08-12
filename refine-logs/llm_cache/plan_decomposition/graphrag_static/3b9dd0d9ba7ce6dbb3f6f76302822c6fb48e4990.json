@@ -1,0 +1,80 @@
+{
+  "record_id": "Tourism_response_4345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of major airports in the United States including their names and locations.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed information about each airport such as airport codes, city served, and available facilities.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"list of major airports\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain geographic coordinates (latitude and longitude) for each airport to assist with trip planning.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"list of major airports\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of major airports in the United States including their names and locations.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed information about each airport such as airport codes, city served, and available facilities.",
+        "domain": "tourism",
+        "required_inputs": [
+          "list of major airports"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain geographic coordinates (latitude and longitude) for each airport to assist with trip planning.",
+        "domain": "tourism",
+        "required_inputs": [
+          "list of major airports"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of major airports in the United States including their names and locations.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed information about each airport such as airport codes, city served, and available facilities.",
+      "domain": "tourism",
+      "required_inputs": [
+        "list of major airports"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain geographic coordinates (latitude and longitude) for each airport to assist with trip planning.",
+      "domain": "tourism",
+      "required_inputs": [
+        "list of major airports"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 833,
+    "total_tokens": 995,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1930,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 261,
+      "service_ttlt_ms": 2145,
+      "total_duration_ms": 2028,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_761",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request is about finance and the subtask is to fetch the fear and greed index for today. Among the candidates, none directly provide the current fear and greed index, but the top-ranked API is a finance-related API with no required parameters and is relevant to the finance domain. The second candidate is about fear and greed index but requires a date parameter and is ranked lower. Given the subtask and domain, the first candidate is the best fit for a finance-related market data API.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request is about finance and the subtask is to fetch the fear and greed index for today. Among the candidates, none directly provide the current fear and greed index, but the top-ranked API is a finance-related API with no required parameters and is relevant to the finance domain. The second candidate is about fear and greed index but requires a date parameter and is ranked lower. Given the subtask and domain, the first candidate is the best fit for a finance-related market data API."
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 1302,
+    "total_tokens": 1422,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1559,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 1739,
+      "total_duration_ms": 1674,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

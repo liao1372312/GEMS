@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4642",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate API allows searching content by query, which can be used to gather lifetime disease risk statistics from reliable health databases by querying relevant terms such as age group and disease type. It matches the subtask requirements best among the options.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate API allows searching content by query, which can be used to gather lifetime disease risk statistics from reliable health databases by querying relevant terms such as age group and disease type. It matches the subtask requirements best among the options."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1751,
+    "total_tokens": 1820,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 679,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 229,
+      "service_ttlt_ms": 853,
+      "total_duration_ms": 736,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

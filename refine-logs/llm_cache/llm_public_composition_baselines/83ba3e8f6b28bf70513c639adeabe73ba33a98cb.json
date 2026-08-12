@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate provides real-time data on top coins by followers change, which is required for analyzing sentiment change values in the next step. It directly addresses the first part of the user request and provides the necessary input for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate provides real-time data on top coins by followers change, which is required for analyzing sentiment change values in the next step. It directly addresses the first part of the user request and provides the necessary input for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 3631,
+    "total_tokens": 3701,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 690,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 864,
+      "total_duration_ms": 777,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides motivational quotes, which can include villain quotes, and is relevant for the quote part of the request. However, it does not directly provide interesting facts about numbers. Still, it is the best fit among candidates for the current subtask of retrieving interesting facts about numbers, as no candidate explicitly offers number facts.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides motivational quotes, which can include villain quotes, and is relevant for the quote part of the request. However, it does not directly provide interesting facts about numbers. Still, it is the best fit among candidates for the current subtask of retrieving interesting facts about numbers, as no candidate explicitly offers number facts."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1599,
+    "total_tokens": 1687,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 857,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 154,
+      "service_ttlt_ms": 967,
+      "total_duration_ms": 885,
+      "user_visible_ttft_ms": 66
+    }
+  }
+}

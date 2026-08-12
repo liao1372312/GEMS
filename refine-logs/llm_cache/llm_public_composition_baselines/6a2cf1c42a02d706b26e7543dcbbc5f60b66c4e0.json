@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4281",
+  "step_id": 6,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.1, \"rationale\": \"No candidate API explicitly supports geolookup or venue/location information in the Tourism domain. The task requires geocode-based location data retrieval, which none of the provided APIs cover. Hence, no suitable API from the list directly matches the request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.1,
+    "rationale": "No candidate API explicitly supports geolookup or venue/location information in the Tourism domain. The task requires geocode-based location data retrieval, which none of the provided APIs cover. Hence, no suitable API from the list directly matches the request."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1341,
+    "total_tokens": 1412,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 31,
+      "engine_ttlt_ms": 935,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 1099,
+      "total_duration_ms": 995,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

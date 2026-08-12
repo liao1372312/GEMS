@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2668",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.3, \"rationale\": \"The user requests genre info from Deezer editorial and popular song details from Soundcloud, but no candidate API supports Deezer editorial genre or Soundcloud data. The closest match is Shazam - Search Track for music info, but it doesn't cover Deezer or Soundcloud editorial or artist details. Hence low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.3,
+    "rationale": "The user requests genre info from Deezer editorial and popular song details from Soundcloud, but no candidate API supports Deezer editorial genre or Soundcloud data. The closest match is Shazam - Search Track for music info, but it doesn't cover Deezer or Soundcloud editorial or artist details. Hence low confidence."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1706,
+    "total_tokens": 1790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 735,
+      "pre_inference_ms": 171,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 340,
+      "service_ttlt_ms": 1023,
+      "total_duration_ms": 861,
+      "user_visible_ttft_ms": 170
+    }
+  }
+}

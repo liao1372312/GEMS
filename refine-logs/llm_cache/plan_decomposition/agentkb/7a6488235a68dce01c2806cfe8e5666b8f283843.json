@@ -1,0 +1,82 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of cities for which climate data is available\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"For each selected city, fetch historical climate data including temperature, precipitation, and humidity\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"city name\", \"date range\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Aggregate and summarize the climate data for comparison across different cities\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"climate data for each city\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of cities for which climate data is available",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "For each selected city, fetch historical climate data including temperature, precipitation, and humidity",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "city name",
+          "date range"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Aggregate and summarize the climate data for comparison across different cities",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "climate data for each city"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of cities for which climate data is available",
+      "domain": "Cross-Domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "For each selected city, fetch historical climate data including temperature, precipitation, and humidity",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "city name",
+        "date range"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Aggregate and summarize the climate data for comparison across different cities",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "climate data for each city"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 324,
+    "total_tokens": 482,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 2230,
+      "pre_inference_ms": 68,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 2385,
+      "total_duration_ms": 2325,
+      "user_visible_ttft_ms": 204
+    }
+  }
+}

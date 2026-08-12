@@ -1,0 +1,108 @@
+{
+  "record_id": "Cross_Domain_response_8358",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for books relevant to the upcoming exams\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"exam subjects or topics\", \"preferred book format\", \"budget\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select and add desired books to the shopping cart\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"book IDs or titles\", \"quantity\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Place an order to purchase the selected books\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"payment information\", \"shipping address\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Generate barcodes for the purchased books\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"book details such as ISBN or unique identifiers\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for books relevant to the upcoming exams",
+        "domain": "education",
+        "required_inputs": [
+          "exam subjects or topics",
+          "preferred book format",
+          "budget"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Select and add desired books to the shopping cart",
+        "domain": "education",
+        "required_inputs": [
+          "book IDs or titles",
+          "quantity"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Place an order to purchase the selected books",
+        "domain": "education",
+        "required_inputs": [
+          "payment information",
+          "shipping address"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Generate barcodes for the purchased books",
+        "domain": "education",
+        "required_inputs": [
+          "book details such as ISBN or unique identifiers"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for books relevant to the upcoming exams",
+      "domain": "education",
+      "required_inputs": [
+        "exam subjects or topics",
+        "preferred book format",
+        "budget"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Select and add desired books to the shopping cart",
+      "domain": "education",
+      "required_inputs": [
+        "book IDs or titles",
+        "quantity"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Place an order to purchase the selected books",
+      "domain": "education",
+      "required_inputs": [
+        "payment information",
+        "shipping address"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Generate barcodes for the purchased books",
+      "domain": "education",
+      "required_inputs": [
+        "book details such as ISBN or unique identifiers"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 173,
+    "total_tokens": 372,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 2720,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 177,
+      "service_ttlt_ms": 2836,
+      "total_duration_ms": 2751,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

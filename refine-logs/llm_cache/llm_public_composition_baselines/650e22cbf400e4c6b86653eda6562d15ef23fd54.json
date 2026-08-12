@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The taboo-api provides categories and word-based games which can be adapted for unique and engaging team-building activities. None of the other APIs relate to team-building or restaurant recommendations in London.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The taboo-api provides categories and word-based games which can be adapted for unique and engaging team-building activities. None of the other APIs relate to team-building or restaurant recommendations in London."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 2171,
+    "total_tokens": 2229,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 527,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 191,
+      "service_ttlt_ms": 666,
+      "total_duration_ms": 577,
+      "user_visible_ttft_ms": 98
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"API rank 9 provides company information including ticker symbol input, suitable for retrieving ESG scores for Apple Inc.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "API rank 9 provides company information including ticker symbol input, suitable for retrieving ESG scores for Apple Inc."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1267,
+    "total_tokens": 1310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 939,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 175,
+      "service_ttlt_ms": 1048,
+      "total_duration_ms": 964,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

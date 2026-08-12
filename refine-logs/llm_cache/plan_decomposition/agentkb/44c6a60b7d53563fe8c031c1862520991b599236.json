@@ -1,0 +1,84 @@
+{
+  "record_id": "Tourism_response_700",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the current date and time in London with timezone information\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"city_name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Format the retrieved date and time into ISO8601, 12-hour, and 24-hour formats\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"datetime_object\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Determine the timezone abbreviation and whether London is currently observing Daylight Savings Time\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"timezone_info\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the current date and time in London with timezone information",
+        "domain": "tourism",
+        "required_inputs": [
+          "city_name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Format the retrieved date and time into ISO8601, 12-hour, and 24-hour formats",
+        "domain": "tourism",
+        "required_inputs": [
+          "datetime_object"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Determine the timezone abbreviation and whether London is currently observing Daylight Savings Time",
+        "domain": "tourism",
+        "required_inputs": [
+          "timezone_info"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the current date and time in London with timezone information",
+      "domain": "tourism",
+      "required_inputs": [
+        "city_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Format the retrieved date and time into ISO8601, 12-hour, and 24-hour formats",
+      "domain": "tourism",
+      "required_inputs": [
+        "datetime_object"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Determine the timezone abbreviation and whether London is currently observing Daylight Savings Time",
+      "domain": "tourism",
+      "required_inputs": [
+        "timezone_info"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 341,
+    "total_tokens": 498,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 2217,
+      "pre_inference_ms": 157,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 312,
+      "service_ttlt_ms": 2481,
+      "total_duration_ms": 2342,
+      "user_visible_ttft_ms": 155
+    }
+  }
+}

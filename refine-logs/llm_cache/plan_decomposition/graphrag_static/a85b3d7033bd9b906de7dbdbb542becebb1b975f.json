@@ -1,0 +1,72 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch live information about ongoing sports matches including current scores, teams playing, and match status.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"sport_type\", \"current_date_time\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve details about upcoming sports matches such as scheduled time, participating teams, and venue information.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"sport_type\", \"date_range\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch live information about ongoing sports matches including current scores, teams playing, and match status.",
+        "domain": "technology",
+        "required_inputs": [
+          "sport_type",
+          "current_date_time"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve details about upcoming sports matches such as scheduled time, participating teams, and venue information.",
+        "domain": "technology",
+        "required_inputs": [
+          "sport_type",
+          "date_range"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch live information about ongoing sports matches including current scores, teams playing, and match status.",
+      "domain": "technology",
+      "required_inputs": [
+        "sport_type",
+        "current_date_time"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve details about upcoming sports matches such as scheduled time, participating teams, and venue information.",
+      "domain": "technology",
+      "required_inputs": [
+        "sport_type",
+        "date_range"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 533,
+    "total_tokens": 652,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1334,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 1440,
+      "total_duration_ms": 1363,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

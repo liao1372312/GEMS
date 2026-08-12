@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a random word containing the substring 'game' to inspire board game selection\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search a gaming website for reviews related to the identified word\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": [\"word containing 'game'\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a random word containing the substring 'game' to inspire board game selection",
+        "domain": "recreation",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Search a gaming website for reviews related to the identified word",
+        "domain": "recreation",
+        "required_inputs": [
+          "word containing 'game'"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find a random word containing the substring 'game' to inspire board game selection",
+      "domain": "recreation",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Search a gaming website for reviews related to the identified word",
+      "domain": "recreation",
+      "required_inputs": [
+        "word containing 'game'"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 180,
+    "total_tokens": 284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 27,
+      "engine_ttlt_ms": 1761,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 134,
+      "service_ttlt_ms": 1865,
+      "total_duration_ms": 1787,
+      "user_visible_ttft_ms": 49
+    }
+  }
+}

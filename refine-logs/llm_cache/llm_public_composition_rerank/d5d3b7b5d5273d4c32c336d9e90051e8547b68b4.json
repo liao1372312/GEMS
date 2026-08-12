@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1920",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.8, \"rationale\": \"The 'Geography - Get Continents' API is the closest relevant API in the tourism domain that provides geographic information, which is more relevant than unrelated APIs. Although it does not specifically list tourist attractions, it is the best available option among the candidates for geographic data related to locations like Rio de Janeiro.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.8,
+    "rationale": "The 'Geography - Get Continents' API is the closest relevant API in the tourism domain that provides geographic information, which is more relevant than unrelated APIs. Although it does not specifically list tourist attractions, it is the best available option among the candidates for geographic data related to locations like Rio de Janeiro."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1532,
+    "total_tokens": 1615,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 36,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 3104,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 37,
+      "service_ttft_ms": 192,
+      "service_ttlt_ms": 3213,
+      "total_duration_ms": 3131,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Overall performance on the full public service composition test split with semantic-safe strengthened baselines.}
+\label{tab:main-results-enhanced}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccc}
+\toprule
+Method & Workflow Exact $\uparrow$ & API.Acc $\uparrow$ & Para.F1 $\uparrow$ \\
+\midrule
+Direct-LLM & 0.4313 & \textbf{0.6918} & \textbf{0.7597} \\
+CoT-LLM & 0.3555 & 0.6372 & 0.7134 \\
+ReAct & 0.3697 & 0.6356 & 0.7115 \\
+RestGPT-style & 0.4076 & 0.6838 & 0.7492 \\
+MA-NoMem & 0.3791 & 0.6549 & 0.7286 \\
+Trace-RAG & 0.3981 & 0.5859 & 0.6856 \\
+StructMem-RAG & 0.3886 & 0.5875 & 0.6845 \\
+GraphRAG-static & 0.4028 & 0.5859 & 0.6885 \\
+AgentKB-style & 0.3555 & 0.5666 & 0.6735 \\
+\textsc{GEMS} & \textbf{0.4408} & 0.6180 & 0.7065 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

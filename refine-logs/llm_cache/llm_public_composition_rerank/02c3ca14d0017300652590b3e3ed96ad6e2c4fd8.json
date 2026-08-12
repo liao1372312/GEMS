@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2090",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The 'Indian Names - Get Status' API is the only candidate explicitly designed to check the status of a localization-related service, making it the best fit to check the health of the localization services API as required by the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'Indian Names - Get Status' API is the only candidate explicitly designed to check the status of a localization-related service, making it the best fit to check the health of the localization services API as required by the subtask."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1476,
+    "total_tokens": 1539,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 244,
+      "user_visible_ttft_ms": 112,
+      "total_duration_ms": 856,
+      "pre_inference_ms": 132,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 979,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 803,
+      "engine_tbt_ms": 12
+    }
+  }
+}

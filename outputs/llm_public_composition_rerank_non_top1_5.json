@@ -1,0 +1,212 @@
+{
+  "config": {
+    "split": "test",
+    "limit": 5,
+    "case_filter": "non_top1",
+    "model": "gpt-4.1-mini",
+    "temperature": 0.0,
+    "cache_dir": "refine-logs/llm_cache/llm_public_composition_rerank"
+  },
+  "metrics": {
+    "api_acc": 0.8,
+    "single_choice_top3_proxy": 0.8,
+    "single_choice_mrr_proxy": 0.8400000000000001,
+    "workflow_exact": 0.6666666666666666,
+    "para_f1": 1.0,
+    "rank_counts": {
+      "2": 3,
+      "3": 1,
+      "10": 1
+    },
+    "steps": 5,
+    "workflows": 3
+  },
+  "usage": {
+    "prompt_tokens": 9008,
+    "completion_tokens": 399,
+    "total_tokens": 9407
+  },
+  "elapsed_seconds": 15.284972802735865,
+  "predictions": [
+    {
+      "record_id": "Cross_Domain_response_715",
+      "step_id": 3,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The 'Horoscope Astrology - Get a tarot card' API provides personalized horoscope-related content and fits the subtask of compiling personalized horoscope readings. It directly relates to horoscope data and requires no additional parameters, making it suitable for generating personalized readings for family members.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.9,
+        "rationale": "The 'Horoscope Astrology - Get a tarot card' API provides personalized horoscope-related content and fits the subtask of compiling personalized horoscope readings. It directly relates to horoscope data and requires no additional parameters, making it suitable for generating personalized readings for family members."
+      },
+      "usage": {
+        "completion_tokens": 68,
+        "prompt_tokens": 1975,
+        "total_tokens": 2043,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 758,
+          "pre_inference_ms": 120,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 241,
+          "service_ttlt_ms": 951,
+          "total_duration_ms": 839,
+          "user_visible_ttft_ms": 121
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_715",
+      "step_id": 4,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.8,\"rationale\":\"The subtask is to identify favorite music genres of family members, which requires finding relevant information based on their names. ExplorArc's Link Finder API can find relevant links or information based on a query, which can be used to gather data about family members' music preferences. Other APIs do not directly address identifying music genres or preferences.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.8,
+        "rationale": "The subtask is to identify favorite music genres of family members, which requires finding relevant information based on their names. ExplorArc's Link Finder API can find relevant links or information based on a query, which can be used to gather data about family members' music preferences. Other APIs do not directly address identifying music genres or preferences."
+      },
+      "usage": {
+        "completion_tokens": 83,
+        "prompt_tokens": 1871,
+        "total_tokens": 1954,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 986,
+          "pre_inference_ms": 119,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 233,
+          "service_ttlt_ms": 1169,
+          "total_duration_ms": 1060,
+          "user_visible_ttft_ms": 114
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_809",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":2,\"confidence\":0.95,\"rationale\":\"The 'World of Jokes - Get Random Joke By Category' API allows fetching a joke by category, which can be set to 'manatee' to get a manatee joke, directly satisfying the subtask. It is more specific than generic random joke APIs and fits the entertainment domain.\"}",
+      "parsed": {
+        "selected_rank": 2,
+        "confidence": 0.95,
+        "rationale": "The 'World of Jokes - Get Random Joke By Category' API allows fetching a joke by category, which can be set to 'manatee' to get a manatee joke, directly satisfying the subtask. It is more specific than generic random joke APIs and fits the entertainment domain."
+      },
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 1624,
+        "total_tokens": 1699,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 957,
+          "pre_inference_ms": 83,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 168,
+          "service_ttlt_ms": 1070,
+          "total_duration_ms": 1027,
+          "user_visible_ttft_ms": 85
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_809",
+      "step_id": 3,
+      "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"The subtask is to fetch a random joke from the Jokes by API-Ninjas. Candidate 10 is Humor-Jokes-and-Memes - random-joke, which provides a random joke and is from the Jokes by API-Ninjas collection, directly satisfying the subtask intent with no required parameters.\"}",
+      "parsed": {
+        "selected_rank": 10,
+        "confidence": 0.95,
+        "rationale": "The subtask is to fetch a random joke from the Jokes by API-Ninjas. Candidate 10 is Humor-Jokes-and-Memes - random-joke, which provides a random joke and is from the Jokes by API-Ninjas collection, directly satisfying the subtask intent with no required parameters."
+      },
+      "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 1623,
+        "total_tokens": 1708,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 1301,
+          "pre_inference_ms": 129,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 251,
+          "service_ttlt_ms": 1503,
+          "total_duration_ms": 1382,
+          "user_visible_ttft_ms": 121
+        }
+      }
+    },
+    {
+      "record_id": "Cross_Domain_response_1006",
+      "step_id": 2,
+      "raw": "{\"selected_rank\":3,\"confidence\":0.9,\"rationale\":\"The 'Halsey Lyric Snippets - all albums from {artist}' API directly provides albums by a specified artist, matching the subtask to query albums by the identified artist. It requires an 'artist' parameter which can be bound to 'parent_favorite_artist'. This API is specific to music albums, unlike broader search or unrelated domain APIs.\"}",
+      "parsed": {
+        "selected_rank": 3,
+        "confidence": 0.9,
+        "rationale": "The 'Halsey Lyric Snippets - all albums from {artist}' API directly provides albums by a specified artist, matching the subtask to query albums by the identified artist. It requires an 'artist' parameter which can be bound to 'parent_favorite_artist'. This API is specific to music albums, unlike broader search or unrelated domain APIs."
+      },
+      "usage": {
+        "completion_tokens": 88,
+        "prompt_tokens": 1915,
+        "total_tokens": 2003,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 1104,
+          "pre_inference_ms": 126,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 262,
+          "service_ttlt_ms": 1305,
+          "total_duration_ms": 1196,
+          "user_visible_ttft_ms": 136
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_79",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided candidate APIs match the medical domain or the specific task of obtaining vaccination guidelines for adults.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided candidate APIs match the medical domain or the specific task of obtaining vaccination guidelines for adults."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1418,
+    "total_tokens": 1461,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 385,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 189,
+      "service_ttlt_ms": 532,
+      "total_duration_ms": 461,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

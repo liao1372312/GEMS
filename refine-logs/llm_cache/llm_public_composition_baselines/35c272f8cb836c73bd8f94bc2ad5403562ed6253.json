@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1375",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"This API provides detailed daily adjusted open, high, low, and close prices for a given stock symbol, including Apple Inc. It is well-suited for fetching the daily low price with historical context and supports the required input of the stock symbol.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "This API provides detailed daily adjusted open, high, low, and close prices for a given stock symbol, including Apple Inc. It is well-suited for fetching the daily low price with historical context and supports the required input of the stock symbol."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1566,
+    "total_tokens": 1637,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 508,
+      "pre_inference_ms": 172,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 312,
+      "service_ttlt_ms": 777,
+      "total_duration_ms": 615,
+      "user_visible_ttft_ms": 140
+    }
+  }
+}

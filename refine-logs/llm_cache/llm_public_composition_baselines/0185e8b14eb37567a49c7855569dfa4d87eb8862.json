@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_999",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs relate to NBA history, trivia, number facts, or currency exchange rates. They all focus on American football (NFL) data, which is unrelated to the user's request about NBA trivia, number 42 facts, and USD to JPY exchange rate. Therefore, no suitable API is available among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs relate to NBA history, trivia, number facts, or currency exchange rates. They all focus on American football (NFL) data, which is unrelated to the user's request about NBA trivia, number 42 facts, and USD to JPY exchange rate. Therefore, no suitable API is available among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 2440,
+    "total_tokens": 2528,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 935,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 214,
+      "service_ttlt_ms": 1099,
+      "total_duration_ms": 1029,
+      "user_visible_ttft_ms": 104
+    }
+  }
+}

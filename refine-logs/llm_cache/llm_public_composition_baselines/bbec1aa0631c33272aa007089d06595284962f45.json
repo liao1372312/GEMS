@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"This API specifically returns companies' balance sheet statements and supports the required input 'company_ticker' for Apple Inc. (AAPL).\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "This API specifically returns companies' balance sheet statements and supports the required input 'company_ticker' for Apple Inc. (AAPL)."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1343,
+    "total_tokens": 1392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 413,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 165,
+      "service_ttlt_ms": 538,
+      "total_duration_ms": 452,
+      "user_visible_ttft_ms": 72
+    }
+  }
+}

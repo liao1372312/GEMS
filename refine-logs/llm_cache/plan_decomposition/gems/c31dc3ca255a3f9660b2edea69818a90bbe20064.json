@@ -1,0 +1,76 @@
+{
+  "record_id": "Finance_response_5265",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the details of the top news from Fidelity Investments.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Provide international market information based on the latest news.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the list of public holidays in the United States for the year 2022.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the details of the top news from Fidelity Investments.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Provide international market information based on the latest news.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Get the list of public holidays in the United States for the year 2022.",
+        "domain": "Finance",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the details of the top news from Fidelity Investments.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Provide international market information based on the latest news.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Get the list of public holidays in the United States for the year 2022.",
+      "domain": "Finance",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2115,
+    "total_tokens": 2250,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1247,
+      "pre_inference_ms": 155,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 251,
+      "service_ttlt_ms": 1453,
+      "total_duration_ms": 1305,
+      "user_visible_ttft_ms": 96
+    }
+  },
+  "goal_hints": [
+    "I'm a stock trader and I need to stay updated on the latest news and market trends. Can you fetch the details of the top news from Fidelity Investments and provide me with the international market information",
+    "I would like to know the public holidays in the United States for the year 2022"
+  ]
+}

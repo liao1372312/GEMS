@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_5449",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1, no change needed.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice API directly retrieves financial data and balance sheets for specified stock symbols, matching the step intent better than semantic top-1 which is unrelated.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1, no change needed.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1, no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice API directly retrieves financial data and balance sheets for specified stock symbols, matching the step intent better than semantic top-1 which is unrelated."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1, no change needed."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 1139,
+    "total_tokens": 1256,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 2062,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 287,
+      "service_ttlt_ms": 2249,
+      "total_duration_ms": 2136,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

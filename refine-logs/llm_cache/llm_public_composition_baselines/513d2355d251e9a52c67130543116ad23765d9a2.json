@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"Candidate 1 provides top coins by followers change, matching the request for top coins by followers change and includes sentiment change values; candidate 4 or 5 can fetch influencer posts related to Bitcoin, but the current subtask is to fetch influencer posts, so candidate 4 (by coin name) is suitable for that. Candidate 1 is ranked highest and covers the first part of the request, so it is selected.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "Candidate 1 provides top coins by followers change, matching the request for top coins by followers change and includes sentiment change values; candidate 4 or 5 can fetch influencer posts related to Bitcoin, but the current subtask is to fetch influencer posts, so candidate 4 (by coin name) is suitable for that. Candidate 1 is ranked highest and covers the first part of the request, so it is selected."
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 3619,
+    "total_tokens": 3725,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 935,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 294,
+      "service_ttlt_ms": 1167,
+      "total_duration_ms": 1035,
+      "user_visible_ttft_ms": 152
+    }
+  }
+}

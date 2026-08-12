@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_416",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The 'Maytapi WhatsApp - getListPhones' API directly retrieves the list of phones registered to the given Maytapi product ID, matching the subtask intent perfectly and is from the relevant communication domain.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The 'Maytapi WhatsApp - getListPhones' API directly retrieves the list of phones registered to the given Maytapi product ID, matching the subtask intent perfectly and is from the relevant communication domain."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1546,
+    "total_tokens": 1611,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 100,
+      "engine_ttlt_ms": 1143,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 308,
+      "service_ttlt_ms": 1395,
+      "total_duration_ms": 1321,
+      "user_visible_ttft_ms": 217
+    }
+  }
+}

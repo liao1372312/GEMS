@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4586",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Humor-Jokes-and-Memes API can provide Chuck Norris jokes for entertainment, which directly matches the user's request for jokes. Additionally, it is in the Entertainment domain, suitable for party content. Other APIs do not cover jokes or Chuck Norris specifically.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Humor-Jokes-and-Memes API can provide Chuck Norris jokes for entertainment, which directly matches the user's request for jokes. Additionally, it is in the Entertainment domain, suitable for party content. Other APIs do not cover jokes or Chuck Norris specifically."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1760,
+    "total_tokens": 1832,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 506,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 679,
+      "total_duration_ms": 578,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

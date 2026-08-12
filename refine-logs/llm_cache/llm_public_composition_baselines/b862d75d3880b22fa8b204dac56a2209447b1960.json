@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_715",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.8, \"rationale\": \"ExplorArc's Link Finder API can help find relevant links or information about favorite music genres for given family member names, matching the requirement to identify favorite music genres based on family member names.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.8,
+    "rationale": "ExplorArc's Link Finder API can help find relevant links or information about favorite music genres for given family member names, matching the requirement to identify favorite music genres based on family member names."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1602,
+    "total_tokens": 1662,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 250,
+      "user_visible_ttft_ms": 113,
+      "total_duration_ms": 1335,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 20,
+      "service_ttlt_ms": 1412,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1186,
+      "engine_tbt_ms": 19
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1711",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"This API endpoint returns a list of nonstop and direct routes for an airport and requires only the airport IATA code (Heathrow Airport), matching the subtask to retrieve direct flight routes from Heathrow Airport to other airports.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "This API endpoint returns a list of nonstop and direct routes for an airport and requires only the airport IATA code (Heathrow Airport), matching the subtask to retrieve direct flight routes from Heathrow Airport to other airports."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1359,
+    "total_tokens": 1425,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 573,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 179,
+      "service_ttlt_ms": 702,
+      "total_duration_ms": 631,
+      "user_visible_ttft_ms": 99
+    }
+  }
+}

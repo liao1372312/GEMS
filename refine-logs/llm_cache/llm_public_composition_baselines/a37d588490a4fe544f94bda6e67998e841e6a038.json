@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_715",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.8, \"rationale\": \"The Link Finder API can help identify favorite music genres of family members by searching relevant links based on their names, which aligns with the subtask of identifying music preferences.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.8,
+    "rationale": "The Link Finder API can help identify favorite music genres of family members by searching relevant links based on their names, which aligns with the subtask of identifying music preferences."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1601,
+    "total_tokens": 1656,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 61,
+      "engine_ttft_ms": 2048,
+      "engine_ttlt_ms": 5388,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 61,
+      "service_ttft_ms": 3395,
+      "service_ttlt_ms": 6728,
+      "total_duration_ms": 6621,
+      "user_visible_ttft_ms": 3279
+    }
+  }
+}

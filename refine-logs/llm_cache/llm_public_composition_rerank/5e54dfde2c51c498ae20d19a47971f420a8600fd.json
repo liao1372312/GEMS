@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1694",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor API allows searching content based on a query, which can be used to find portable and picnic-friendly recipes. It directly satisfies the subtask of searching for recipes and can provide relevant content including tips and reviews. Other APIs are either unrelated to recipes or focus only on reviews for businesses or products, not recipes.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor API allows searching content based on a query, which can be used to find portable and picnic-friendly recipes. It directly satisfies the subtask of searching for recipes and can provide relevant content including tips and reviews. Other APIs are either unrelated to recipes or focus only on reviews for businesses or products, not recipes."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 2010,
+    "total_tokens": 2098,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 1220,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 176,
+      "service_ttlt_ms": 1342,
+      "total_duration_ms": 1270,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

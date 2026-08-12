@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3942",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The current subtask specifically requests prediction and other data for the image with the given URL, which matches the candidate ranked 1 (betaRecipes - Send Image). This candidate directly addresses the subtask with the correct image URL and appropriate endpoint.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The current subtask specifically requests prediction and other data for the image with the given URL, which matches the candidate ranked 1 (betaRecipes - Send Image). This candidate directly addresses the subtask with the correct image URL and appropriate endpoint."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1638,
+    "total_tokens": 1708,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 243,
+      "user_visible_ttft_ms": 147,
+      "total_duration_ms": 959,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 1047,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 868,
+      "engine_tbt_ms": 12
+    }
+  }
+}

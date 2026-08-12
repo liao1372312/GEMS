@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3159",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The Recipe Finder - dinner/ingredient API is best suited to gather recipes including salmon, quinoa, and asparagus for a dinner party menu.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The Recipe Finder - dinner/ingredient API is best suited to gather recipes including salmon, quinoa, and asparagus for a dinner party menu."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1869,
+    "total_tokens": 1918,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1055,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 335,
+      "service_ttlt_ms": 1330,
+      "total_duration_ms": 1199,
+      "user_visible_ttft_ms": 189
+    }
+  }
+}

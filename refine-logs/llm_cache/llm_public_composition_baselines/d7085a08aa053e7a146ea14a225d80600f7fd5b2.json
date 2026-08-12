@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3942",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API is related to fetching restaurant details or address for the given restaurant ID.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API is related to fetching restaurant details or address for the given restaurant ID."
+  },
+  "usage": {
+    "completion_tokens": 39,
+    "prompt_tokens": 1627,
+    "total_tokens": 1666,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 71,
+      "engine_ttft_ms": 6776,
+      "engine_ttlt_ms": 9547,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 72,
+      "service_ttft_ms": 7386,
+      "service_ttlt_ms": 10155,
+      "total_duration_ms": 10107,
+      "user_visible_ttft_ms": 7296
+    }
+  }
+}

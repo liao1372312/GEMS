@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1528",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"This API provides historical stock prices including open and close prices, which are required to calculate the differences.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "This API provides historical stock prices including open and close prices, which are required to calculate the differences."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 1330,
+    "total_tokens": 1372,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 510,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 216,
+      "service_ttlt_ms": 736,
+      "total_duration_ms": 627,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

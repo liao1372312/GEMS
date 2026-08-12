@@ -1,0 +1,100 @@
+{
+  "record_id": "Tourism_response_700",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the current date and time in London with timezone information including UTC offset and daylight savings status\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"city name: London\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Format the retrieved date and time into ISO8601 format\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"current date and time in London\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Format the retrieved date and time into 12-hour and 24-hour time formats\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"current date and time in London\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Extract the timezone abbreviation and determine if it is currently observing Daylight Savings Time\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"timezone information for London\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the current date and time in London with timezone information including UTC offset and daylight savings status",
+        "domain": "tourism",
+        "required_inputs": [
+          "city name: London"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Format the retrieved date and time into ISO8601 format",
+        "domain": "tourism",
+        "required_inputs": [
+          "current date and time in London"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Format the retrieved date and time into 12-hour and 24-hour time formats",
+        "domain": "tourism",
+        "required_inputs": [
+          "current date and time in London"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Extract the timezone abbreviation and determine if it is currently observing Daylight Savings Time",
+        "domain": "tourism",
+        "required_inputs": [
+          "timezone information for London"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the current date and time in London with timezone information including UTC offset and daylight savings status",
+      "domain": "tourism",
+      "required_inputs": [
+        "city name: London"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Format the retrieved date and time into ISO8601 format",
+      "domain": "tourism",
+      "required_inputs": [
+        "current date and time in London"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Format the retrieved date and time into 12-hour and 24-hour time formats",
+      "domain": "tourism",
+      "required_inputs": [
+        "current date and time in London"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Extract the timezone abbreviation and determine if it is currently observing Daylight Savings Time",
+      "domain": "tourism",
+      "required_inputs": [
+        "timezone information for London"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 317,
+    "total_tokens": 535,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 2796,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 214,
+      "service_ttlt_ms": 2970,
+      "total_duration_ms": 2884,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

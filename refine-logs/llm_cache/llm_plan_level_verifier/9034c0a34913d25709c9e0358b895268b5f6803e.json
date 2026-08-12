@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_138",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"No candidate API provides recent arrest records; semantic top-1 and LLM choice are identical and unrelated to the task.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1; although the API is not ideal, it is the best available and fits the step intent.\"}],\"workflow_confidence\":0.5}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "No candidate API provides recent arrest records; semantic top-1 and LLM choice are identical and unrelated to the task."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; although the API is not ideal, it is the best available and fits the step intent."
+      }
+    ],
+    "workflow_confidence": 0.5
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 1019,
+    "total_tokens": 1115,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 1325,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 216,
+      "service_ttlt_ms": 1522,
+      "total_duration_ms": 1437,
+      "user_visible_ttft_ms": 128
+    }
+  }
+}

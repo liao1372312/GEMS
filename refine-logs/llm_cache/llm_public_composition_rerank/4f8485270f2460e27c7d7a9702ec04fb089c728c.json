@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"The 'SEO Checker - Analyze V2' API directly performs on-page SEO analysis with detailed results, requires only the website URL which is available, and is more specific and comprehensive than the basic 'SEO Checker - Analyze' API.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.95,
+    "rationale": "The 'SEO Checker - Analyze V2' API directly performs on-page SEO analysis with detailed results, requires only the website URL which is available, and is more specific and comprehensive than the basic 'SEO Checker - Analyze' API."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1678,
+    "total_tokens": 1746,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 660,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 190,
+      "service_ttlt_ms": 787,
+      "total_duration_ms": 696,
+      "user_visible_ttft_ms": 90
+    }
+  }
+}

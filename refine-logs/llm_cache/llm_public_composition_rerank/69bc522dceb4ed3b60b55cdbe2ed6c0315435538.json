@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5147",
+  "step_id": 6,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to fetching blocklists or Minecraft mod reposting blocklists in JSON format. No suitable API is available in the given candidates.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to fetching blocklists or Minecraft mod reposting blocklists in JSON format. No suitable API is available in the given candidates."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 2006,
+    "total_tokens": 2059,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 521,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 641,
+      "total_duration_ms": 586,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

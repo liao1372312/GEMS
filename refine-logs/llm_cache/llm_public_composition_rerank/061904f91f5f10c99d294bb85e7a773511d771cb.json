@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_578",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Reverse Geocoding and Geolocation Service API directly supports geolocation and geolookup for given coordinates, which aligns with the subtask to find geolocation info for an address. Although it requires latitude and longitude, this API is the most relevant for geolocation tasks compared to others that do not handle address geolocation.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Reverse Geocoding and Geolocation Service API directly supports geolocation and geolookup for given coordinates, which aligns with the subtask to find geolocation info for an address. Although it requires latitude and longitude, this API is the most relevant for geolocation tasks compared to others that do not handle address geolocation."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1844,
+    "total_tokens": 1932,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 33,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 2971,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 33,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 3146,
+      "total_duration_ms": 3061,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

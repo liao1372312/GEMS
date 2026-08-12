@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2397",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to fetching previous trip details using invoice, trip ID, or LR number. All candidates are from the Communication domain and deal with calls, contacts, and campaigns, which is unrelated to the Tourism domain subtask.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to fetching previous trip details using invoice, trip ID, or LR number. All candidates are from the Communication domain and deal with calls, contacts, and campaigns, which is unrelated to the Tourism domain subtask."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1878,
+    "total_tokens": 1948,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 944,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 209,
+      "service_ttlt_ms": 1075,
+      "total_duration_ms": 993,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

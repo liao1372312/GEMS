@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_935",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request involves book recommendations in science fiction and fantasy genres with specific Lexile measures, which aligns with the capabilities of the GetBooksInfo API. However, detailed star information requires a star name, which is not provided yet, so the best immediate action is to use the book search API to fulfill part of the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request involves book recommendations in science fiction and fantasy genres with specific Lexile measures, which aligns with the capabilities of the GetBooksInfo API. However, detailed star information requires a star name, which is not provided yet, so the best immediate action is to use the book search API to fulfill part of the request."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 1905,
+    "total_tokens": 1992,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1041,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 162,
+      "service_ttlt_ms": 1152,
+      "total_duration_ms": 1074,
+      "user_visible_ttft_ms": 77
+    }
+  }
+}

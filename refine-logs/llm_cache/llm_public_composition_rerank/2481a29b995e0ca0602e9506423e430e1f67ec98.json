@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_687",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Hapihub - Get Fixtures is the only API in the medical domain that could potentially provide healthcare-related data, making it the best fit to research and compile a verified mailing list of healthcare professionals based on specific criteria.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Hapihub - Get Fixtures is the only API in the medical domain that could potentially provide healthcare-related data, making it the best fit to research and compile a verified mailing list of healthcare professionals based on specific criteria."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1515,
+    "total_tokens": 1581,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 961,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 1149,
+      "total_duration_ms": 1026,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

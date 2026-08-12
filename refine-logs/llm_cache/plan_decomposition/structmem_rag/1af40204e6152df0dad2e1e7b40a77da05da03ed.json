@@ -1,0 +1,84 @@
+{
+  "record_id": "Tourism_response_1345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for the airport with the IATA code DFW.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"IATA_code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve detailed information about the airport including its location, facilities, and services.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"airport_id\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Gather additional relevant information such as airport history, airlines operating, and passenger statistics.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"airport_id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for the airport with the IATA code DFW.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "IATA_code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve detailed information about the airport including its location, facilities, and services.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "airport_id"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Gather additional relevant information such as airport history, airlines operating, and passenger statistics.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "airport_id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for the airport with the IATA code DFW.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "IATA_code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve detailed information about the airport including its location, facilities, and services.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "airport_id"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Gather additional relevant information such as airport history, airlines operating, and passenger statistics.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "airport_id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 681,
+    "total_tokens": 834,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 1704,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 171,
+      "service_ttlt_ms": 1834,
+      "total_duration_ms": 1741,
+      "user_visible_ttft_ms": 71
+    }
+  }
+}

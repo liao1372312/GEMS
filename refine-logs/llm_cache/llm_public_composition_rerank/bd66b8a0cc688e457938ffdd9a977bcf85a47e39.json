@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4259",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide functionality to check if a business name is listed on the OFAC scan. The available APIs are either for PetStore user management or username/domain availability checks, which do not satisfy the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide functionality to check if a business name is listed on the OFAC scan. The available APIs are either for PetStore user management or username/domain availability checks, which do not satisfy the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1806,
+    "total_tokens": 1874,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 762,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 877,
+      "total_duration_ms": 790,
+      "user_visible_ttft_ms": 61
+    }
+  }
+}

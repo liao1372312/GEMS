@@ -1,0 +1,97 @@
+{
+  "record_id": "Finance_response_1466",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical exchange rates for the US Dollar (USD) to Chinese Yuan (CNY) from 2022-07-01 to 2022-07-31.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"currency_pair\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the current VAT rates for all European Union (EU) member states.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"region\", \"tax_type\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical exchange rates for the US Dollar (USD) to Chinese Yuan (CNY) from 2022-07-01 to 2022-07-31.",
+        "domain": "Finance",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "currency_pair"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the current VAT rates for all European Union (EU) member states.",
+        "domain": "Finance",
+        "required_inputs": [
+          "region",
+          "tax_type"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch historical exchange rates for the US Dollar (USD) to Chinese Yuan (CNY) from 2022-07-01 to 2022-07-31.",
+      "domain": "Finance",
+      "required_inputs": [
+        "start_date",
+        "end_date",
+        "currency_pair"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the current VAT rates for all European Union (EU) member states.",
+      "domain": "Finance",
+      "required_inputs": [
+        "region",
+        "tax_type"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2365,
+    "total_tokens": 2500,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 1829,
+      "pre_inference_ms": 180,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 434,
+      "service_ttlt_ms": 2168,
+      "total_duration_ms": 1996,
+      "user_visible_ttft_ms": 254
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical exchange rates for the US Dollar to Chinese Yuan from 2022-07-01 to 2022-07-31.",
+        "domain": "Finance",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "currency_pair"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the VAT rates for all EU member states.",
+        "domain": "Finance",
+        "required_inputs": [
+          "region",
+          "tax_type"
+        ]
+      }
+    ]
+  }
+}

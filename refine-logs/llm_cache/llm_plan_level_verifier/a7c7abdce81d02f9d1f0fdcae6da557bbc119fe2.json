@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_4667",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice provides the correct API for upcoming football games with betting odds, matching the step intent better than the cricket news API.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to betting odds and requires a player ID; LLM choice repeats the API from step 1, which is appropriate for odds retrieval.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice provides the correct API for upcoming football games with betting odds, matching the step intent better than the cricket news API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to betting odds and requires a player ID; LLM choice repeats the API from step 1, which is appropriate for odds retrieval."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 1306,
+    "total_tokens": 1437,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 2228,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 2375,
+      "total_duration_ms": 2281,
+      "user_visible_ttft_ms": 130
+    }
+  }
+}

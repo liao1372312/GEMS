@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5216",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'Cloud Cast - Get hourly forecast' API provides real-time weather information including current weather and hourly forecast, which matches the user's request for current weather, wind speed, and three-hourly forecast for the hiking location.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'Cloud Cast - Get hourly forecast' API provides real-time weather information including current weather and hourly forecast, which matches the user's request for current weather, wind speed, and three-hourly forecast for the hiking location."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1600,
+    "total_tokens": 1666,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 518,
+      "pre_inference_ms": 156,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 350,
+      "service_ttlt_ms": 775,
+      "total_duration_ms": 628,
+      "user_visible_ttft_ms": 194
+    }
+  }
+}

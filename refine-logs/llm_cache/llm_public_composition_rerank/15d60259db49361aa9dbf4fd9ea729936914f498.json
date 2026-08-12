@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3155",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The API 'Is This Coin A Scam - Get a list of highest community rated profiles' directly satisfies the subtask of fetching the highest community-rated cryptocurrency profiles and requires no additional parameters, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The API 'Is This Coin A Scam - Get a list of highest community rated profiles' directly satisfies the subtask of fetching the highest community-rated cryptocurrency profiles and requires no additional parameters, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1877,
+    "total_tokens": 1942,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 897,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 227,
+      "service_ttlt_ms": 1052,
+      "total_duration_ms": 961,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

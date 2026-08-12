@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3328",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate API provides live and end-of-day market data for cryptocurrencies including Ethereum on Binance, which aligns well with the requirement to fetch candlestick data for Ethereum on Binance for the last 90 days with a 1-day interval.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate API provides live and end-of-day market data for cryptocurrencies including Ethereum on Binance, which aligns well with the requirement to fetch candlestick data for Ethereum on Binance for the last 90 days with a 1-day interval."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1790,
+    "total_tokens": 1859,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 771,
+      "pre_inference_ms": 159,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 285,
+      "service_ttlt_ms": 1001,
+      "total_duration_ms": 849,
+      "user_visible_ttft_ms": 126
+    }
+  }
+}

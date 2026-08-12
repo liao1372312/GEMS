@@ -1,0 +1,1807 @@
+{
+  "split": "val",
+  "role": "provider",
+  "num_tasks": 1648,
+  "variants": {
+    "gems_selective": {
+      "metrics": {
+        "top1": 0.9775485436893204,
+        "top3": 0.9921116504854369,
+        "mrr": 0.9858963245492369,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 1,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 1,
+          "top_endpoint_id": "2997593f6a9eb272"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 1,
+          "top_endpoint_id": "4875314bcaa56412"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 2,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 1,
+          "top_endpoint_id": "4c3d5c37e119f334"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "gems_full": {
+      "metrics": {
+        "top1": 0.9581310679611651,
+        "top3": 0.9775485436893204,
+        "mrr": 0.970831888580675,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 1,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 1,
+          "top_endpoint_id": "2997593f6a9eb272"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 1,
+          "top_endpoint_id": "4875314bcaa56412"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 2,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 1,
+          "top_endpoint_id": "4c3d5c37e119f334"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "reliability_intent": {
+      "metrics": {
+        "top1": 0.10922330097087378,
+        "top3": 0.3756067961165049,
+        "mrr": 0.3400918862690702,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 7,
+          "top_endpoint_id": "4aad692a5b863d17"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 7,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 3,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 4,
+          "top_endpoint_id": "3f8483286ad73fd0"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 6,
+          "top_endpoint_id": "755df92d16d47c1c"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 6,
+          "top_endpoint_id": "f8e7be8b1be5117e"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 4,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 5,
+          "top_endpoint_id": "67edcb652b1b08f8"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 4,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 2,
+          "top_endpoint_id": "1cec6d10c69ba419"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 5,
+          "top_endpoint_id": "640239d09cd61a4d"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 5,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 4,
+          "top_endpoint_id": "cc2b2f8956789511"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 5,
+          "top_endpoint_id": "0809d2d0e82462cb"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 2,
+          "top_endpoint_id": "228371ecab48e4e3"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 7,
+          "top_endpoint_id": "2f6fe939406e13e9"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 6,
+          "top_endpoint_id": "db94340634c2bd68"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 2,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 7,
+          "top_endpoint_id": "9f359536051ffe3f"
+        }
+      ]
+    },
+    "text_only": {
+      "metrics": {
+        "top1": 0.9787621359223301,
+        "top3": 0.9933252427184466,
+        "mrr": 0.9870275658807212,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 1,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 1,
+          "top_endpoint_id": "2997593f6a9eb272"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 1,
+          "top_endpoint_id": "4875314bcaa56412"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 2,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 1,
+          "top_endpoint_id": "4c3d5c37e119f334"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "reliability_only": {
+      "metrics": {
+        "top1": 0.10922330097087378,
+        "top3": 0.3756067961165049,
+        "mrr": 0.3401063337956537,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 7,
+          "top_endpoint_id": "4aad692a5b863d17"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 7,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 3,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 4,
+          "top_endpoint_id": "3f8483286ad73fd0"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 6,
+          "top_endpoint_id": "755df92d16d47c1c"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 6,
+          "top_endpoint_id": "f8e7be8b1be5117e"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 4,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 5,
+          "top_endpoint_id": "67edcb652b1b08f8"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 4,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 2,
+          "top_endpoint_id": "1cec6d10c69ba419"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 5,
+          "top_endpoint_id": "640239d09cd61a4d"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 5,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 4,
+          "top_endpoint_id": "cc2b2f8956789511"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 5,
+          "top_endpoint_id": "0809d2d0e82462cb"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 2,
+          "top_endpoint_id": "228371ecab48e4e3"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 7,
+          "top_endpoint_id": "2f6fe939406e13e9"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 6,
+          "top_endpoint_id": "db94340634c2bd68"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 2,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 7,
+          "top_endpoint_id": "9f359536051ffe3f"
+        }
+      ]
+    },
+    "initial_confidence_only": {
+      "metrics": {
+        "top1": 0.10679611650485436,
+        "top3": 0.3616504854368932,
+        "mrr": 0.3328161118816462,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 7,
+          "top_endpoint_id": "4aad692a5b863d17"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 7,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 5,
+          "top_endpoint_id": "26229b3768f59074"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 4,
+          "top_endpoint_id": "3f8483286ad73fd0"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 5,
+          "top_endpoint_id": "755df92d16d47c1c"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 4,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 4,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 5,
+          "top_endpoint_id": "67edcb652b1b08f8"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 4,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 2,
+          "top_endpoint_id": "ed024915d64e28ae"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 2,
+          "top_endpoint_id": "1cec6d10c69ba419"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 5,
+          "top_endpoint_id": "640239d09cd61a4d"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 5,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 5,
+          "top_endpoint_id": "cc2b2f8956789511"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 5,
+          "top_endpoint_id": "0809d2d0e82462cb"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 2,
+          "top_endpoint_id": "228371ecab48e4e3"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 7,
+          "top_endpoint_id": "955a4e705ec7514a"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 6,
+          "top_endpoint_id": "db94340634c2bd68"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 2,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 7,
+          "top_endpoint_id": "9f359536051ffe3f"
+        }
+      ]
+    },
+    "text_plus_initial_confidence": {
+      "metrics": {
+        "top1": 0.875,
+        "top3": 0.9065533980582524,
+        "mrr": 0.906210991678226,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 5,
+          "top_endpoint_id": "4aad692a5b863d17"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 3,
+          "top_endpoint_id": "26229b3768f59074"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 2,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 6,
+          "top_endpoint_id": "640239d09cd61a4d"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 5,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 2,
+          "top_endpoint_id": "955a4e705ec7514a"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "text_plus_reliability": {
+      "metrics": {
+        "top1": 0.9648058252427184,
+        "top3": 0.9842233009708737,
+        "mrr": 0.9762944983818772,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 1,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 1,
+          "top_endpoint_id": "2997593f6a9eb272"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 1,
+          "top_endpoint_id": "4875314bcaa56412"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 2,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 1,
+          "top_endpoint_id": "4c3d5c37e119f334"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "no_reliability": {
+      "metrics": {
+        "top1": 0.9775485436893204,
+        "top3": 0.9921116504854369,
+        "mrr": 0.9858963245492369,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 1,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 1,
+          "top_endpoint_id": "2997593f6a9eb272"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 1,
+          "top_endpoint_id": "4875314bcaa56412"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 2,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 1,
+          "top_endpoint_id": "4c3d5c37e119f334"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "no_type_prior": {
+      "metrics": {
+        "top1": 0.9581310679611651,
+        "top3": 0.9775485436893204,
+        "mrr": 0.970831888580675,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 1,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 1,
+          "top_endpoint_id": "2997593f6a9eb272"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 1,
+          "top_endpoint_id": "4875314bcaa56412"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 2,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 1,
+          "top_endpoint_id": "4c3d5c37e119f334"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "no_risk_conflict": {
+      "metrics": {
+        "top1": 0.9648058252427184,
+        "top3": 0.9842233009708737,
+        "mrr": 0.9762944983818772,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 1,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 1,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 1,
+          "top_endpoint_id": "2997593f6a9eb272"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 1,
+          "top_endpoint_id": "50a88f7461b08e74"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 1,
+          "top_endpoint_id": "aa78216cef3789b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 1,
+          "top_endpoint_id": "913bdf5269e7735f"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 1,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 1,
+          "top_endpoint_id": "4875314bcaa56412"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 1,
+          "top_endpoint_id": "2802f22f24982e88"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 2,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 1,
+          "top_endpoint_id": "4c3d5c37e119f334"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 1,
+          "top_endpoint_id": "f762b37c6d7c084e"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 1,
+          "top_endpoint_id": "f38c9054bcfcda06"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 1,
+          "top_endpoint_id": "8e8f01e504ef793d"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 1,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 1,
+          "top_endpoint_id": "7f1b62da0f554093"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 1,
+          "top_endpoint_id": "4f426dc638bf17ed"
+        }
+      ]
+    },
+    "deterministic_random": {
+      "metrics": {
+        "top1": 0.13349514563106796,
+        "top3": 0.40048543689320387,
+        "mrr": 0.3578291146555717,
+        "count": 1648
+      },
+      "examples": [
+        {
+          "task_id": "c544a1bd899c25d9f9",
+          "query": "Find a web API endpoint that can testing endpoint",
+          "positive_endpoint_id": "4fa2825fdad0abab",
+          "rank": 3,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "aac096af20d7e6c562",
+          "query": "Find a web API endpoint that can apply for this API to access the steps for indoor air quality information about IoT device - v2",
+          "positive_endpoint_id": "250b5b26289707b2",
+          "rank": 3,
+          "top_endpoint_id": "5bd698621a97e2ba"
+        },
+        {
+          "task_id": "beb680c83aac48bf79",
+          "query": "Find a web API endpoint that can forward to httpbin GET /anything endpoint",
+          "positive_endpoint_id": "2997593f6a9eb272",
+          "rank": 3,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "f96f8ad08e82de89f6",
+          "query": "Find a web API endpoint that can logs user into the system",
+          "positive_endpoint_id": "50a88f7461b08e74",
+          "rank": 6,
+          "top_endpoint_id": "3f8483286ad73fd0"
+        },
+        {
+          "task_id": "1817579070ecc8e872",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "aa78216cef3789b2",
+          "rank": 7,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "71239374aacaf0c2ef",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "913bdf5269e7735f",
+          "rank": 7,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "0bdd4be8f7a233ec1f",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "5bd698621a97e2ba",
+          "rank": 7,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "8925d65f36aedb5f4e",
+          "query": "Find a web API endpoint that can get user by user name",
+          "positive_endpoint_id": "4875314bcaa56412",
+          "rank": 5,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "ce94ec03816fe88d5d",
+          "query": "Find a web API endpoint that can logs out current logged in user session",
+          "positive_endpoint_id": "2802f22f24982e88",
+          "rank": 3,
+          "top_endpoint_id": "7cc7c8f08cdecbbb"
+        },
+        {
+          "task_id": "5f07d18145f92213a7",
+          "query": "Find a web API endpoint that can users",
+          "positive_endpoint_id": "72b58081e68a86e8",
+          "rank": 7,
+          "top_endpoint_id": "00805ed5583d4326"
+        },
+        {
+          "task_id": "fefcb4a4b80f60098a",
+          "query": "Find a web API endpoint that can user by id",
+          "positive_endpoint_id": "7cc7c8f08cdecbbb",
+          "rank": 4,
+          "top_endpoint_id": "64de5660f170a055"
+        },
+        {
+          "task_id": "3e39cb7b3c8cd0db03",
+          "query": "Find a web API endpoint that can for testing",
+          "positive_endpoint_id": "566065e5e637926e",
+          "rank": 5,
+          "top_endpoint_id": "4fa2825fdad0abab"
+        },
+        {
+          "task_id": "170f4aa72c96ecd632",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "4c3d5c37e119f334",
+          "rank": 3,
+          "top_endpoint_id": "250b5b26289707b2"
+        },
+        {
+          "task_id": "59ace056719c9cadb5",
+          "query": "Find a web API endpoint that can this end point will return back all the artificial intelligence news from all over the world.",
+          "positive_endpoint_id": "f762b37c6d7c084e",
+          "rank": 7,
+          "top_endpoint_id": "f869d7927339ffd9"
+        },
+        {
+          "task_id": "557058dea39889daf4",
+          "query": "Find a web API endpoint that can this will return all the artificial intelligence news from a single news source.",
+          "positive_endpoint_id": "f38c9054bcfcda06",
+          "rank": 2,
+          "top_endpoint_id": "be13e4cc8f31315d"
+        },
+        {
+          "task_id": "4eeff2fb9ece0973e6",
+          "query": "Find a web API endpoint that can used to fetch api result using the request id received in responses.",
+          "positive_endpoint_id": "8e8f01e504ef793d",
+          "rank": 5,
+          "top_endpoint_id": "16ced9549301c823"
+        },
+        {
+          "task_id": "54cdbc82cb45a5f5d1",
+          "query": "Find a web API endpoint that can get list of locales",
+          "positive_endpoint_id": "cbc4994eb1cf40ac",
+          "rank": 1,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "c3583d6d894c784207",
+          "query": "Find a web API endpoint that can get list of Languages",
+          "positive_endpoint_id": "f869d7927339ffd9",
+          "rank": 4,
+          "top_endpoint_id": "39a57866b0069fab"
+        },
+        {
+          "task_id": "63907b8d4218f12502",
+          "query": "Find a web API endpoint that can generate an image with stable diffusion",
+          "positive_endpoint_id": "7f1b62da0f554093",
+          "rank": 2,
+          "top_endpoint_id": "cbc4994eb1cf40ac"
+        },
+        {
+          "task_id": "cf9996cfa553f151e8",
+          "query": "Find a web API endpoint that can this endpoint lists the possible endpoints to connect to. Alias: /api/sentiment",
+          "positive_endpoint_id": "4f426dc638bf17ed",
+          "rank": 5,
+          "top_endpoint_id": "f0f48302e93301d1"
+        }
+      ]
+    }
+  }
+}

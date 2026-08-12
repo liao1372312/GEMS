@@ -1,0 +1,64 @@
+{
+  "record_id": "Medical_response_2137",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of healthcare professionals for targeted mailing.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Obtain the nutritional analysis for a specific food item.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food item name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of healthcare professionals for targeted mailing.",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Obtain the nutritional analysis for a specific food item.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food item name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of healthcare professionals for targeted mailing.",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Obtain the nutritional analysis for a specific food item.",
+      "domain": "Medical",
+      "required_inputs": [
+        "food item name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 205,
+    "total_tokens": 298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 314,
+      "user_visible_ttft_ms": 175,
+      "total_duration_ms": 1063,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 10,
+      "service_ttlt_ms": 1193,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 962,
+      "engine_tbt_ms": 10
+    }
+  }
+}

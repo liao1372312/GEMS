@@ -1,0 +1,106 @@
+{
+  "record_id": "Finance_response_5268",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"S&P 500\", \"start_date: 2010-01-01\", \"end_date: 2020-12-31\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the current price of gold in US dollars per ounce.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve the current price of silver in US dollars per ounce.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020.",
+        "domain": "Finance",
+        "required_inputs": [
+          "S&P 500",
+          "start_date: 2010-01-01",
+          "end_date: 2020-12-31"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the current price of gold in US dollars per ounce.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Retrieve the current price of silver in US dollars per ounce.",
+        "domain": "Finance",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020.",
+      "domain": "Finance",
+      "required_inputs": [
+        "S&P 500",
+        "start_date: 2010-01-01",
+        "end_date: 2020-12-31"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the current price of gold in US dollars per ounce.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Retrieve the current price of silver in US dollars per ounce.",
+      "domain": "Finance",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 181,
+    "prompt_tokens": 2202,
+    "total_tokens": 2383,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1772,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 266,
+      "service_ttlt_ms": 2084,
+      "total_duration_ms": 1989,
+      "user_visible_ttft_ms": 151
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020.",
+        "domain": "Finance",
+        "required_inputs": [
+          "S&P 500",
+          "start_date: 2010-01-01",
+          "end_date: 2020-12-31"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the current price of gold in US dollars per ounce.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Retrieve the current price of silver in US dollars per ounce.",
+        "domain": "Finance",
+        "required_inputs": []
+      }
+    ]
+  }
+}

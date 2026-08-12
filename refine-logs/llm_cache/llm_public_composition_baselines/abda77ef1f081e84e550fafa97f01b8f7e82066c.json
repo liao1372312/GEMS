@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_685",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The Tomba - EmailVerifier API is specifically designed to verify the deliverability of an email address and can check if it is a webmail account, making it the best fit for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The Tomba - EmailVerifier API is specifically designed to verify the deliverability of an email address and can check if it is a webmail account, making it the best fit for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1621,
+    "total_tokens": 1683,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 680,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 196,
+      "service_ttlt_ms": 814,
+      "total_duration_ms": 751,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

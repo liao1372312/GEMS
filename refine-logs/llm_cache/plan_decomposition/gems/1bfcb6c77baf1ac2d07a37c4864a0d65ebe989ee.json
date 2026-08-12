@@ -1,0 +1,113 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for product details using the barcode '194574942221'.\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"barcode\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find stores within a 25-mile radius of the location at longitude '-118.2487' and latitude '33.9733'.\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"longitude\", \"latitude\", \"radius\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Check availability of the identified product in the stores found within the 25-mile radius.\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"product details\", \"store locations\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for product details using the barcode '194574942221'.",
+        "domain": "shopping",
+        "required_inputs": [
+          "barcode"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find stores within a 25-mile radius of the location at longitude '-118.2487' and latitude '33.9733'.",
+        "domain": "shopping",
+        "required_inputs": [
+          "longitude",
+          "latitude",
+          "radius"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Check availability of the identified product in the stores found within the 25-mile radius.",
+        "domain": "shopping",
+        "required_inputs": [
+          "product details",
+          "store locations"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for product details using the barcode '194574942221'.",
+      "domain": "shopping",
+      "required_inputs": [
+        "barcode"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find stores within a 25-mile radius of the location at longitude '-118.2487' and latitude '33.9733'.",
+      "domain": "shopping",
+      "required_inputs": [
+        "longitude",
+        "latitude",
+        "radius"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Check availability of the identified product in the stores found within the 25-mile radius.",
+      "domain": "shopping",
+      "required_inputs": [
+        "product details",
+        "store locations"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 2647,
+    "total_tokens": 2820,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 2046,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 168,
+      "service_ttlt_ms": 2723,
+      "total_duration_ms": 2639,
+      "user_visible_ttft_ms": 73
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for product details using the barcode '194574942221'.",
+        "domain": "shopping",
+        "required_inputs": [
+          "barcode"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find stores within a 25-mile radius of the location at longitude '-118.2487' and latitude '33.9733' that offer the identified product.",
+        "domain": "shopping",
+        "required_inputs": [
+          "product details",
+          "longitude",
+          "latitude",
+          "radius"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5279",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The subtask is to check if a specific key is available in the BIM project, which implies accessing the project document or data. Aspose.Tasks Cloud - GetTaskDocument API provides access to the project document, which is the most relevant among the candidates for checking key existence. The required parameter 'name' can be bound to the specific_key or project file name related to the key.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.8,
+    "rationale": "The subtask is to check if a specific key is available in the BIM project, which implies accessing the project document or data. Aspose.Tasks Cloud - GetTaskDocument API provides access to the project document, which is the most relevant among the candidates for checking key existence. The required parameter 'name' can be bound to the specific_key or project file name related to the key."
+  },
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 1871,
+    "total_tokens": 1970,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 85,
+      "engine_ttlt_ms": 2198,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 302,
+      "service_ttlt_ms": 2359,
+      "total_duration_ms": 2256,
+      "user_visible_ttft_ms": 189
+    }
+  }
+}

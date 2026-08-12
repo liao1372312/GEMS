@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1920",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide information about tourist attractions in Brazil; however, the Stars API - Planet list is unrelated to tourism and attractions, so no suitable API is available in the given candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide information about tourist attractions in Brazil; however, the Stars API - Planet list is unrelated to tourism and attractions, so no suitable API is available in the given candidates."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1090,
+    "total_tokens": 1151,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 538,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 169,
+      "service_ttlt_ms": 648,
+      "total_duration_ms": 567,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

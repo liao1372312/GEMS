@@ -1,0 +1,2278 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "processed_endpoints": "dataset/processed/endpoints.jsonl",
+    "memory": "outputs/gems_memory_train_only.json",
+    "output_json": "outputs/gems_stress_benchmark_strict.json",
+    "output_tex": "outputs/gems_stress_benchmark_strict.tex",
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "trace_top_k": 16,
+    "max_examples": 0,
+    "mode": "strict"
+  },
+  "dataset": {
+    "examples": 263,
+    "workflows": 131,
+    "tag_counts": {
+      "deprecated_or_failed_top1": 74,
+      "semantic_conflict": 215
+    },
+    "selection_rule": "test split steps where semantic or memory hazard is present and at least one candidate has observed_success=True",
+    "primary_metric": "reliable_at_1"
+  },
+  "rows": {
+    "semantic_top1": {
+      "count": 263,
+      "reliable_at_1": 0.6692015209125475,
+      "failed_at_1": 0.2813688212927757,
+      "success_mrr": 0.8193916349809885,
+      "workflow_reliable": 0.6259541984732825,
+      "gold_api_acc": 0.1634980988593156,
+      "para_f1": 0.3525348542458809,
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "GeoAPI - Get City Detail",
+          "gold_api": "GeoAPI - Get City Detail",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Tourism_response_373",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Wordpress Checker - /check-wordpress",
+          "gold_api": "Wordpress Checker - /check-wordpress",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Tourism_response_91",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Giphy - Get GIF by ID",
+          "gold_api": "Giphy - Get GIF by ID",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Tourism_response_1711",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "beyblade-api - /api/v1/beyblades/{id}",
+          "gold_api": "beyblade-api - /api/v1/beyblades/{id}",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Tourism_response_1920",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Addressr - /addresses/{addressId}",
+          "gold_api": "Addressr - /addresses/{addressId}",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3009",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Hryvna Today - /v1/rates/landing",
+          "gold_api": "Hryvna Today - /v1/rates/landing",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_761",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Kalshi Trading API - GetBalance",
+          "gold_api": "Kalshi Trading API - GetBalance",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_4774",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Working days - /1.3/analyse",
+          "gold_api": "Working days - /1.3/analyse",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_1677",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Currency_v3 - Latest Rates",
+          "gold_api": "Currency_v3 - Latest Rates",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Technology_response_3991",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Open Brewery DB - Search",
+          "gold_api": "Open Brewery DB - Search",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Technology_response_1859",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Films - searchInventory",
+          "gold_api": "Films - searchInventory",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_3878",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "gold_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "My API 12345 - getPetById",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "My API 12345 - getPetById",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "My API 12345 - getPetById",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "My API 12345 - getPetById",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 3,
+          "tags": [
+            "semantic_conflict"
+          ],
+          "pred_index": 0,
+          "gold_index": 1,
+          "pred_api": "URL Content Extractor - Search Content",
+          "gold_api": "Horoscope Astrology - Get a tarot card",
+          "pred_observed_success": true
+        }
+      ],
+      "tag_reliable_at_1": {
+        "deprecated_or_failed_top1": 0.0,
+        "semantic_conflict": 0.8186046511627907
+      }
+    },
+    "trace_rag": {
+      "count": 263,
+      "reliable_at_1": 0.7718631178707225,
+      "failed_at_1": 0.19391634980988592,
+      "success_mrr": 0.873257287705957,
+      "workflow_reliable": 0.7251908396946565,
+      "gold_api_acc": 0.2509505703422053,
+      "para_f1": 0.4403041825095057,
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Air Quality API - Air Quality Forecasts",
+          "gold_api": "GeoAPI - Get City Detail",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_373",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "contests - /health",
+          "gold_api": "Wordpress Checker - /check-wordpress",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_91",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Giphy - Get GIF by ID",
+          "gold_api": "Giphy - Get GIF by ID",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Tourism_response_1711",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "Database Of Airports API - Airports",
+          "gold_api": "beyblade-api - /api/v1/beyblades/{id}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1920",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Addressr - /addresses/{addressId}",
+          "gold_api": "Addressr - /addresses/{addressId}",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3009",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Hryvna Today - /v1/rates/landing",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_761",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Kalshi Trading API - GetBalance",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_4774",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Working days - /1.3/analyse",
+          "gold_api": "Working days - /1.3/analyse",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_1677",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Symbols",
+          "gold_api": "Currency_v3 - Latest Rates",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Technology_response_3991",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Open Brewery DB - Search",
+          "gold_api": "Open Brewery DB - Search",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Technology_response_1859",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Films - searchInventory",
+          "gold_api": "Films - searchInventory",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_3878",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "Domain Analysis",
+          "gold_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "siteDomain - theme detail",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 3,
+          "tags": [
+            "semantic_conflict"
+          ],
+          "pred_index": 0,
+          "gold_index": 1,
+          "pred_api": "URL Content Extractor - Search Content",
+          "gold_api": "Horoscope Astrology - Get a tarot card",
+          "pred_observed_success": true
+        }
+      ],
+      "tag_reliable_at_1": {
+        "deprecated_or_failed_top1": 0.3783783783783784,
+        "semantic_conflict": 0.8651162790697674
+      }
+    },
+    "structmem_rag": {
+      "count": 263,
+      "reliable_at_1": 0.844106463878327,
+      "failed_at_1": 0.12547528517110265,
+      "success_mrr": 0.9123574144486691,
+      "workflow_reliable": 0.8091603053435115,
+      "gold_api_acc": 0.2509505703422053,
+      "para_f1": 0.4041825095057034,
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Air Quality API - Air Quality Forecasts",
+          "gold_api": "GeoAPI - Get City Detail",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_373",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "contests - /health",
+          "gold_api": "Wordpress Checker - /check-wordpress",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_91",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Giphy - Get GIF by ID",
+          "gold_api": "Giphy - Get GIF by ID",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Tourism_response_1711",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "Database Of Airports API - Airports",
+          "gold_api": "beyblade-api - /api/v1/beyblades/{id}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1920",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "HAPI Books - List of Nominated Books for a Genre in a Year",
+          "gold_api": "Addressr - /addresses/{addressId}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3009",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Hryvna Today - /v1/rates/landing",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_761",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Kalshi Trading API - GetBalance",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_4774",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Working days - /1.3/analyse",
+          "gold_api": "Working days - /1.3/analyse",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_1677",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Symbols",
+          "gold_api": "Currency_v3 - Latest Rates",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 6,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get total buy price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Technology_response_3991",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "Wordpress Checker - /check-wordpress",
+          "gold_api": "Open Brewery DB - Search",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Technology_response_1859",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Shazam - Search Track",
+          "gold_api": "Films - searchInventory",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_3878",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "Domain Analysis",
+          "gold_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "siteDomain - theme detail",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "NAVITIME Geocoding - datum_conversion",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "NAVITIME Geocoding - datum_conversion",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "NAVITIME Geocoding - datum_conversion",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 3,
+          "tags": [
+            "semantic_conflict"
+          ],
+          "pred_index": 0,
+          "gold_index": 1,
+          "pred_api": "URL Content Extractor - Search Content",
+          "gold_api": "Horoscope Astrology - Get a tarot card",
+          "pred_observed_success": true
+        }
+      ],
+      "tag_reliable_at_1": {
+        "deprecated_or_failed_top1": 0.6621621621621622,
+        "semantic_conflict": 0.9023255813953488
+      }
+    },
+    "graphrag_static": {
+      "count": 263,
+      "reliable_at_1": 0.8479087452471483,
+      "failed_at_1": 0.09885931558935361,
+      "success_mrr": 0.9179340937896072,
+      "workflow_reliable": 0.8396946564885496,
+      "gold_api_acc": 0.2889733840304182,
+      "para_f1": 0.46026615969581747,
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Air Quality API - Air Quality Forecasts",
+          "gold_api": "GeoAPI - Get City Detail",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_373",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "contests - /health",
+          "gold_api": "Wordpress Checker - /check-wordpress",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_91",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Credit card prediction - Attrition_Flag",
+          "gold_api": "Giphy - Get GIF by ID",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1711",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "Database Of Airports API - Airports",
+          "gold_api": "beyblade-api - /api/v1/beyblades/{id}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1920",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "HAPI Books - Get the Most Popular Authors",
+          "gold_api": "Addressr - /addresses/{addressId}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3009",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Hryvna Today - /v1/rates/landing",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_761",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Kalshi Trading API - GetBalance",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_4774",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Working days - /1.3/list_non_working_days",
+          "gold_api": "Working days - /1.3/analyse",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_1677",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Symbols",
+          "gold_api": "Currency_v3 - Latest Rates",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Technology_response_3991",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "Redfin Base - Get ZipCode by City",
+          "gold_api": "Open Brewery DB - Search",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Technology_response_1859",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "Dad Jokes_v2 - /dad-jokes/search",
+          "gold_api": "Films - searchInventory",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_3878",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "gold_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "siteDomain - theme detail",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "NAVITIME Geocoding - datum_conversion",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 3,
+          "tags": [
+            "semantic_conflict"
+          ],
+          "pred_index": 0,
+          "gold_index": 1,
+          "pred_api": "URL Content Extractor - Search Content",
+          "gold_api": "Horoscope Astrology - Get a tarot card",
+          "pred_observed_success": true
+        }
+      ],
+      "tag_reliable_at_1": {
+        "deprecated_or_failed_top1": 0.7027027027027027,
+        "semantic_conflict": 0.8930232558139535
+      }
+    },
+    "gems_no_reliability": {
+      "count": 263,
+      "reliable_at_1": 0.8555133079847909,
+      "failed_at_1": 0.11026615969581749,
+      "success_mrr": 0.9223700887198988,
+      "workflow_reliable": 0.8320610687022901,
+      "gold_api_acc": 0.2509505703422053,
+      "para_f1": 0.43460076045627377,
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Air Quality API - Air Quality Forecasts",
+          "gold_api": "GeoAPI - Get City Detail",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_373",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "contests - /health",
+          "gold_api": "Wordpress Checker - /check-wordpress",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_91",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Credit card prediction - Attrition_Flag",
+          "gold_api": "Giphy - Get GIF by ID",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1711",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "Database Of Airports API - Airports",
+          "gold_api": "beyblade-api - /api/v1/beyblades/{id}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1920",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "HAPI Books - Get the Most Popular Authors",
+          "gold_api": "Addressr - /addresses/{addressId}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3009",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Hryvna Today - /v1/rates/landing",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_761",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Kalshi Trading API - GetBalance",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_4774",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Working days - /1.3/list_non_working_days",
+          "gold_api": "Working days - /1.3/analyse",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_1677",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Symbols",
+          "gold_api": "Currency_v3 - Latest Rates",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Technology_response_3991",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "Redfin Base - Get ZipCode by City",
+          "gold_api": "Open Brewery DB - Search",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Technology_response_1859",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "Dad Jokes_v2 - /dad-jokes/search",
+          "gold_api": "Films - searchInventory",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_3878",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "Domain Analysis",
+          "gold_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "siteDomain - theme detail",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "NAVITIME Geocoding - datum_conversion",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 3,
+          "tags": [
+            "semantic_conflict"
+          ],
+          "pred_index": 0,
+          "gold_index": 1,
+          "pred_api": "URL Content Extractor - Search Content",
+          "gold_api": "Horoscope Astrology - Get a tarot card",
+          "pred_observed_success": true
+        }
+      ],
+      "tag_reliable_at_1": {
+        "deprecated_or_failed_top1": 0.6891891891891891,
+        "semantic_conflict": 0.8976744186046511
+      }
+    },
+    "gems": {
+      "count": 263,
+      "reliable_at_1": 0.9011406844106464,
+      "failed_at_1": 0.045627376425855515,
+      "success_mrr": 0.9458174904942968,
+      "workflow_reliable": 0.9083969465648855,
+      "gold_api_acc": 0.24334600760456274,
+      "para_f1": 0.4079847908745247,
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Air Quality API - Air Quality Forecasts",
+          "gold_api": "GeoAPI - Get City Detail",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_373",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 1,
+          "gold_index": 0,
+          "pred_api": "contests - /health",
+          "gold_api": "Wordpress Checker - /check-wordpress",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_91",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Credit card prediction - Attrition_Flag",
+          "gold_api": "Giphy - Get GIF by ID",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1711",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "Database Of Airports API - Airports",
+          "gold_api": "beyblade-api - /api/v1/beyblades/{id}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Tourism_response_1920",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Database Of Airports API - Airports",
+          "gold_api": "Addressr - /addresses/{addressId}",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3009",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Hryvna Today - /v1/rates/landing",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_761",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Exchange Rate - Convert",
+          "gold_api": "Kalshi Trading API - GetBalance",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_4774",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Working days - /1.3/list_non_working_days",
+          "gold_api": "Working days - /1.3/analyse",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_1677",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Symbols",
+          "gold_api": "Currency_v3 - Latest Rates",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3795",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 0,
+          "gold_index": 0,
+          "pred_api": "Coinbase - Get spot price",
+          "gold_api": "Coinbase - Get spot price",
+          "pred_observed_success": false
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 5,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 4,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Currency Conversion and Exchange Rates - Historical Exchange Rates",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Finance_response_3946",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 9,
+          "gold_index": 0,
+          "pred_api": "Ultimate Tennis - Player Ranking History by ID",
+          "gold_api": "Afterbanks PSD2 payments and bank reader - Listofsupportedbanks",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Technology_response_3991",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "URL Content Extractor - Search Content",
+          "gold_api": "Open Brewery DB - Search",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Technology_response_1859",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "Social Media Data TT - Real-time user search",
+          "gold_api": "Films - searchInventory",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_3878",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "Car Data - Types",
+          "gold_api": "Edamam Nutrition Analysis - /api/nutrition-data",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 3,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Medical_response_1412",
+          "step_id": 5,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "Pet Store - getInventory",
+          "gold_api": "My API 12345 - getPetById",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "yiwugo product data - search products",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 3,
+          "gold_index": 0,
+          "pred_api": "yiwugo product data - search products",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 7,
+          "gold_index": 0,
+          "pred_api": "siteDomain - theme detail",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_7570",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 4,
+          "gold_index": 0,
+          "pred_api": "yiwugo product data - search products",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 1,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "NAVITIME Geocoding - address_reverse_geocoding",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_5679",
+          "step_id": 2,
+          "tags": [
+            "deprecated_or_failed_top1"
+          ],
+          "pred_index": 2,
+          "gold_index": 0,
+          "pred_api": "NAVITIME Geocoding - address_reverse_geocoding",
+          "gold_api": "Learn to read and write Japanese kanji - Single Kanji Details",
+          "pred_observed_success": true
+        },
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 3,
+          "tags": [
+            "semantic_conflict"
+          ],
+          "pred_index": 0,
+          "gold_index": 1,
+          "pred_api": "URL Content Extractor - Search Content",
+          "gold_api": "Horoscope Astrology - Get a tarot card",
+          "pred_observed_success": true
+        }
+      ],
+      "tag_reliable_at_1": {
+        "deprecated_or_failed_top1": 0.8783783783783784,
+        "semantic_conflict": 0.9116279069767442
+      }
+    }
+  },
+  "note": "Deployable table excludes reliability-only diagnostic upper bound; full results keep it."
+}

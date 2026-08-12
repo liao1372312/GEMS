@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The 'Domain Analysis' API provides SEO analysis and evaluation relevant to meta descriptions and optimization recommendations, fitting the subtask requirements better than others.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The 'Domain Analysis' API provides SEO analysis and evaluation relevant to meta descriptions and optimization recommendations, fitting the subtask requirements better than others."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1129,
+    "total_tokens": 1179,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 535,
+      "pre_inference_ms": 132,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 708,
+      "total_duration_ms": 585,
+      "user_visible_ttft_ms": 83
+    }
+  }
+}

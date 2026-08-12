@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5479",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"Provides random self-help quotes suitable for motivation and likely to have short quotes.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "Provides random self-help quotes suitable for motivation and likely to have short quotes."
+  },
+  "usage": {
+    "completion_tokens": 37,
+    "prompt_tokens": 1411,
+    "total_tokens": 1448,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 346,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 459,
+      "total_duration_ms": 388,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

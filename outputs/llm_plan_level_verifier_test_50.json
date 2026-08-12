@@ -1,0 +1,2495 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "step_llm_result": "outputs/llm_public_composition_rerank_test_all.json",
+    "split": "test",
+    "output": "outputs/llm_plan_level_verifier_test_50.json",
+    "limit": 50,
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "cache_dir": "",
+    "dry_run": false
+  },
+  "metrics": {
+    "api_acc": 0.5454545454545454,
+    "workflow_exact": 0.2,
+    "para_f1": 0.655011655011655,
+    "llm_change_rate": 0.45454545454545453,
+    "steps": 143,
+    "workflows": 50
+  },
+  "usage": {
+    "prompt_tokens": 68143,
+    "completion_tokens": 7773,
+    "total_tokens": 75916
+  },
+  "elapsed_seconds": 419.23374605178833,
+  "predictions": [
+    {
+      "record_id": "Tourism_response_616",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice API directly provides current air quality measurements per city, matching the step intent better than generic city detail API.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice API requires city and country inputs and provides current air quality data, but the step requires analyzing data from step 1, not fetching new data. Semantic top-1 API is unrelated but no better alternative given.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"No API candidate provides quotes related to family and togetherness; LLM choice is unrelated proxy API.\"}],\"workflow_confidence\":0.7}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice API directly provides current air quality measurements per city, matching the step intent better than generic city detail API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice API requires city and country inputs and provides current air quality data, but the step requires analyzing data from step 1, not fetching new data. Semantic top-1 API is unrelated but no better alternative given."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "No API candidate provides quotes related to family and togetherness; LLM choice is unrelated proxy API."
+          }
+        ],
+        "workflow_confidence": 0.7
+      },
+      "usage": {
+        "completion_tokens": 146,
+        "prompt_tokens": 1345,
+        "total_tokens": 1491,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 42,
+          "engine_ttlt_ms": 1651,
+          "pre_inference_ms": 118,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 234,
+          "service_ttlt_ms": 1832,
+          "total_duration_ms": 1724,
+          "user_visible_ttft_ms": 116
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5216",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API provides current weather and wind speed as required; LLM choice is similar but not clearly better.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"}],\"workflow_confidence\":0.95}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API provides current weather and wind speed as required; LLM choice is similar but not clearly better."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 81,
+        "prompt_tokens": 1032,
+        "total_tokens": 1113,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 35,
+          "engine_ttft_ms": 50,
+          "engine_ttlt_ms": 2893,
+          "pre_inference_ms": 86,
+          "service_tbt_ms": 35,
+          "service_ttft_ms": 169,
+          "service_ttlt_ms": 3008,
+          "total_duration_ms": 2928,
+          "user_visible_ttft_ms": 83
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_566",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice AI Trip Planner API directly provides trip plans including routes and attractions, better matching the step requirement than Country Location API which only provides country data.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice RaastaAPI provides road-related points which can include landmarks and attractions along routes, clearly more relevant than Crypto News API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 and LLM choice are the same API; no change needed.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice India Today Unofficial API provides general news suitable for road trip articles, more appropriate than Crypto News API focused on cryptocurrency.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice AI Trip Planner API directly provides trip plans including routes and attractions, better matching the step requirement than Country Location API which only provides country data."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice RaastaAPI provides road-related points which can include landmarks and attractions along routes, clearly more relevant than Crypto News API."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "Semantic top-1 and LLM choice are the same API; no change needed."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": true,
+            "reason": "LLM choice India Today Unofficial API provides general news suitable for road trip articles, more appropriate than Crypto News API focused on cryptocurrency."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 224,
+        "prompt_tokens": 1796,
+        "total_tokens": 2020,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 294,
+          "user_visible_ttft_ms": 159,
+          "total_duration_ms": 3641,
+          "pre_inference_ms": 134,
+          "service_tbt_ms": 16,
+          "service_ttlt_ms": 3764,
+          "engine_ttft_ms": 89,
+          "engine_ttlt_ms": 3565,
+          "engine_tbt_ms": 16
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3049",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API available for recommending holiday destinations; semantic top-1 and LLM choice are both unrelated.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is a finance API suitable for fetching financial data, better matching the step than the unrelated semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "No suitable API available for recommending holiday destinations; semantic top-1 and LLM choice are both unrelated."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice is a finance API suitable for fetching financial data, better matching the step than the unrelated semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.6
+      },
+      "usage": {
+        "completion_tokens": 118,
+        "prompt_tokens": 1109,
+        "total_tokens": 1227,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 10,
+          "engine_ttft_ms": 54,
+          "engine_ttlt_ms": 1273,
+          "pre_inference_ms": 97,
+          "service_tbt_ms": 10,
+          "service_ttft_ms": 201,
+          "service_ttlt_ms": 1416,
+          "total_duration_ms": 1325,
+          "user_visible_ttft_ms": 104
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2807",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice API is unrelated to Kargom Nerede logistics companies; semantic top-1 is unrelated but less misleading.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice API is for Target.com product details, unrelated to Gearbest shipping options to Colombia; semantic top-1 is unrelated but less misleading.\"\n    }\n  ],\n  \"workflow_confidence\": 0.3\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice API is unrelated to Kargom Nerede logistics companies; semantic top-1 is unrelated but less misleading."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice API is for Target.com product details, unrelated to Gearbest shipping options to Colombia; semantic top-1 is unrelated but less misleading."
+          }
+        ],
+        "workflow_confidence": 0.3
+      },
+      "usage": {
+        "completion_tokens": 127,
+        "prompt_tokens": 1171,
+        "total_tokens": 1298,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 83,
+          "engine_ttlt_ms": 1968,
+          "pre_inference_ms": 108,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 286,
+          "service_ttlt_ms": 2164,
+          "total_duration_ms": 2065,
+          "user_visible_ttft_ms": 178
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1241",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice downloads hotel chains but does not support searching hotel deals for specific dates and location, semantic top-1 is unrelated but closer to search intent.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides a list of hotel city clusters, which better matches the request for areas in New York City than the semantic top-1 states search API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API available for live traffic; semantic top-1 is unrelated but no better option exists.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice downloads hotel chains but does not support searching hotel deals for specific dates and location, semantic top-1 is unrelated but closer to search intent."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice provides a list of hotel city clusters, which better matches the request for areas in New York City than the semantic top-1 states search API."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "No suitable API available for live traffic; semantic top-1 is unrelated but no better option exists."
+          }
+        ],
+        "workflow_confidence": 0.7
+      },
+      "usage": {
+        "completion_tokens": 180,
+        "prompt_tokens": 1453,
+        "total_tokens": 1633,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 56,
+          "engine_ttlt_ms": 2846,
+          "pre_inference_ms": 132,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 245,
+          "service_ttlt_ms": 3033,
+          "total_duration_ms": 2923,
+          "user_visible_ttft_ms": 113
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_4054",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to golf course details; no suitable API available for this step.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 and correctly fulfills the step requirement.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 and correctly fulfills the step requirement.\"}],\"workflow_confidence\":0.5}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to golf course details; no suitable API available for this step."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 and correctly fulfills the step requirement."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 and correctly fulfills the step requirement."
+          }
+        ],
+        "workflow_confidence": 0.5
+      },
+      "usage": {
+        "completion_tokens": 107,
+        "prompt_tokens": 1196,
+        "total_tokens": 1303,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 61,
+          "engine_ttlt_ms": 1380,
+          "pre_inference_ms": 169,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 322,
+          "service_ttlt_ms": 1618,
+          "total_duration_ms": 1461,
+          "user_visible_ttft_ms": 154
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5446",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to vehicle info; LLM choice is related but requires make, model, year, not license plate; no better API available, keep semantic top-1 to avoid breaking workflow.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to trademark checks; LLM choice is social media user data, not trademark availability; no USPTO Trademark API available; keep semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.3\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to vehicle info; LLM choice is related but requires make, model, year, not license plate; no better API available, keep semantic top-1 to avoid breaking workflow."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to trademark checks; LLM choice is social media user data, not trademark availability; no USPTO Trademark API available; keep semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.3
+      },
+      "usage": {
+        "completion_tokens": 152,
+        "prompt_tokens": 1251,
+        "total_tokens": 1403,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 34,
+          "engine_ttft_ms": 66,
+          "engine_ttlt_ms": 5302,
+          "pre_inference_ms": 117,
+          "service_tbt_ms": 34,
+          "service_ttft_ms": 218,
+          "service_ttlt_ms": 5448,
+          "total_duration_ms": 5339,
+          "user_visible_ttft_ms": 100
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_872",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"No API provides trivia facts about numbers; semantic top-1 is as good as LLM choice.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API matches the requirement for landmark recommendations; semantic top-1 is unrelated but no better option.\"\n    }\n  ],\n  \"workflow_confidence\": 0.2\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice is identical to semantic top-1; no change needed."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "No API provides trivia facts about numbers; semantic top-1 is as good as LLM choice."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "No candidate API matches the requirement for landmark recommendations; semantic top-1 is unrelated but no better option."
+          }
+        ],
+        "workflow_confidence": 0.2
+      },
+      "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 1587,
+        "total_tokens": 1740,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 40,
+          "engine_ttlt_ms": 2008,
+          "pre_inference_ms": 100,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 245,
+          "service_ttlt_ms": 2187,
+          "total_duration_ms": 2100,
+          "user_visible_ttft_ms": 145
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2628",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to date/time; LLM choice returns current UTC time but no timezone support; neither clearly matches the step intent to get current date/time in Dakar.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1 exactly; no change needed.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1 exactly; no change needed.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to date/time; LLM choice returns current UTC time but no timezone support; neither clearly matches the step intent to get current date/time in Dakar."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          }
+        ],
+        "workflow_confidence": 0.6
+      },
+      "usage": {
+        "completion_tokens": 162,
+        "prompt_tokens": 1216,
+        "total_tokens": 1378,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 1803,
+          "pre_inference_ms": 153,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 267,
+          "service_ttlt_ms": 2011,
+          "total_duration_ms": 1864,
+          "user_visible_ttft_ms": 114
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_373",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'contests - /health' directly matches the step to check contests API health and requires no parameters, unlike semantic top-1 which is unrelated.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API matches fetching active contests; semantic top-1 and LLM choice are unrelated to contests, so keep semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice 'contests - /health' directly matches the step to check contests API health and requires no parameters, unlike semantic top-1 which is unrelated."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "No candidate API matches fetching active contests; semantic top-1 and LLM choice are unrelated to contests, so keep semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.6
+      },
+      "usage": {
+        "completion_tokens": 133,
+        "prompt_tokens": 926,
+        "total_tokens": 1059,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 53,
+          "engine_ttlt_ms": 2100,
+          "pre_inference_ms": 117,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 210,
+          "service_ttlt_ms": 2279,
+          "total_duration_ms": 2172,
+          "user_visible_ttft_ms": 92
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_700",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice TimeZoneDB API directly provides local time in London with ISO8601 format and timezone details, matching the step intent better than Football Score API.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 is a currency conversion API unrelated to time format conversion; LLM choice TimeZoneDB is more appropriate but is ranked 2, so keep semantic top-1 as LLM choice is not clearly better than semantic top-1.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice TimeZoneDB API directly provides timezone abbreviation for London, matching the step intent better than Football Score API.\"},{\"step_id\":4,\"accept_llm\":true,\"reason\":\"LLM choice World Time API directly provides Daylight Savings status for London, clearly better matching the step intent than Football Score API.\"}],\"workflow_confidence\":0.9}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice TimeZoneDB API directly provides local time in London with ISO8601 format and timezone details, matching the step intent better than Football Score API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 is a currency conversion API unrelated to time format conversion; LLM choice TimeZoneDB is more appropriate but is ranked 2, so keep semantic top-1 as LLM choice is not clearly better than semantic top-1."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice TimeZoneDB API directly provides timezone abbreviation for London, matching the step intent better than Football Score API."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": true,
+            "reason": "LLM choice World Time API directly provides Daylight Savings status for London, clearly better matching the step intent than Football Score API."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 203,
+        "prompt_tokens": 2090,
+        "total_tokens": 2293,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 27,
+          "engine_ttft_ms": 177,
+          "engine_ttlt_ms": 5579,
+          "pre_inference_ms": 128,
+          "service_tbt_ms": 27,
+          "service_ttft_ms": 480,
+          "service_ttlt_ms": 5879,
+          "total_duration_ms": 5763,
+          "user_visible_ttft_ms": 353
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_91",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice ScrapeMaster API is clearly more relevant and specific for researching popular beach resorts with family-friendly amenities than the unrelated finance API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Skyscanner_v2 - Get Hotel Details API directly provides detailed hotel amenities, matching the subtask of compiling family-friendly amenities.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Skyscanner_v2 - Get Hotel Details API is more relevant for investigating water sports activities in the destination area than the unrelated Giphy API.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice Large text to speech API is unrelated to summarizing water sports activities; semantic top-1 is also unrelated, so no suitable API is available.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice ScrapeMaster API is clearly more relevant and specific for researching popular beach resorts with family-friendly amenities than the unrelated finance API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice Skyscanner_v2 - Get Hotel Details API directly provides detailed hotel amenities, matching the subtask of compiling family-friendly amenities."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice Skyscanner_v2 - Get Hotel Details API is more relevant for investigating water sports activities in the destination area than the unrelated Giphy API."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": false,
+            "reason": "LLM choice Large text to speech API is unrelated to summarizing water sports activities; semantic top-1 is also unrelated, so no suitable API is available."
+          }
+        ],
+        "workflow_confidence": 0.7
+      },
+      "usage": {
+        "completion_tokens": 243,
+        "prompt_tokens": 1948,
+        "total_tokens": 2191,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 48,
+          "engine_ttlt_ms": 3862,
+          "pre_inference_ms": 121,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 235,
+          "service_ttlt_ms": 4043,
+          "total_duration_ms": 3931,
+          "user_visible_ttft_ms": 114
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3385",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate for fetching event details by event ID.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate for retrieving historical odds by event ID.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides live and upcoming matches list without parameters, better matching the requirement to get available periods for upcoming soccer matches than semantic top-1 which lists federations.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate for fetching event details by event ID."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving historical odds by event ID."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice provides live and upcoming matches list without parameters, better matching the requirement to get available periods for upcoming soccer matches than semantic top-1 which lists federations."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 171,
+        "prompt_tokens": 1199,
+        "total_tokens": 1370,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 57,
+          "engine_ttlt_ms": 2698,
+          "pre_inference_ms": 105,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 220,
+          "service_ttlt_ms": 2834,
+          "total_duration_ms": 2741,
+          "user_visible_ttft_ms": 114
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_808",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Skyscanner_v2 is more appropriate for searching hotels in Sydney with required inputs, unlike semantic top-1 which is a generic location search.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1 exactly; no change needed.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is same as semantic top-1; no improvement or change.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice Skyscanner_v2 is more appropriate for searching hotels in Sydney with required inputs, unlike semantic top-1 which is a generic location search."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "LLM choice is same as semantic top-1; no improvement or change."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 159,
+        "prompt_tokens": 1451,
+        "total_tokens": 1610,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 10,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 1577,
+          "pre_inference_ms": 123,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 219,
+          "service_ttlt_ms": 1820,
+          "total_duration_ms": 1782,
+          "user_visible_ttft_ms": 96
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2343",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides a city list suitable for radius calculation and is more relevant than a Canadian gas price API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API better fits querying largest cities from a city list; LLM choice is for nearest cities by coordinates, not population ranking.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly provides detailed city info by name, matching the step requirements better than a countries list API.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice specifically provides local time by timezone, which is more appropriate than a Canadian gas price API.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice provides a city list suitable for radius calculation and is more relevant than a Canadian gas price API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API better fits querying largest cities from a city list; LLM choice is for nearest cities by coordinates, not population ranking."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice directly provides detailed city info by name, matching the step requirements better than a countries list API."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": true,
+            "reason": "LLM choice specifically provides local time by timezone, which is more appropriate than a Canadian gas price API."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 216,
+        "prompt_tokens": 1938,
+        "total_tokens": 2154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 30,
+          "engine_ttft_ms": 151,
+          "engine_ttlt_ms": 6672,
+          "pre_inference_ms": 103,
+          "service_tbt_ms": 30,
+          "service_ttft_ms": 279,
+          "service_ttlt_ms": 6795,
+          "total_duration_ms": 6699,
+          "user_visible_ttft_ms": 176
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3844",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API provides both roster and schedule for the year 2008, matching the step intent; LLM choice requires an extra parameter and is less straightforward.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API returns both roster and schedule for the year 2008, directly matching the step intent; LLM choice requires an extra parameter and is less straightforward.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is a news API suitable for fetching latest Formula 1 news from multiple sources; semantic top-1 is unrelated to news.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API provides both roster and schedule for the year 2008, matching the step intent; LLM choice requires an extra parameter and is less straightforward."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API returns both roster and schedule for the year 2008, directly matching the step intent; LLM choice requires an extra parameter and is less straightforward."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice is a news API suitable for fetching latest Formula 1 news from multiple sources; semantic top-1 is unrelated to news."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 194,
+        "prompt_tokens": 1572,
+        "total_tokens": 1766,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 57,
+          "engine_ttlt_ms": 2314,
+          "pre_inference_ms": 114,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 245,
+          "service_ttlt_ms": 2495,
+          "total_duration_ms": 2391,
+          "user_visible_ttft_ms": 131
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_2593",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice use the same Flight Data_v2 API, so no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Tunisia API provides direct directions between Sfax and Tunis, clearly more appropriate than semantic top-1 geocoding API.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Both semantic top-1 and LLM choice use the same Flight Data_v2 API, so no change needed."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice Tunisia API provides direct directions between Sfax and Tunis, clearly more appropriate than semantic top-1 geocoding API."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 122,
+        "prompt_tokens": 1039,
+        "total_tokens": 1161,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 39,
+          "engine_ttlt_ms": 1421,
+          "pre_inference_ms": 252,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 442,
+          "service_ttlt_ms": 1778,
+          "total_duration_ms": 1561,
+          "user_visible_ttft_ms": 190
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_3150",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to money transfer portals; LLM choice is relevant and better matches the step intent.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly validates credit card details, better matching the step intent than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to money transfer portals; LLM choice is relevant and better matches the step intent."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice directly validates credit card details, better matching the step intent than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 116,
+        "prompt_tokens": 946,
+        "total_tokens": 1062,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 25,
+          "engine_ttft_ms": 64,
+          "engine_ttlt_ms": 2946,
+          "pre_inference_ms": 84,
+          "service_tbt_ms": 25,
+          "service_ttft_ms": 1448,
+          "service_ttlt_ms": 4325,
+          "total_duration_ms": 4248,
+          "user_visible_ttft_ms": 1364
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1711",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"The LLM choice API provides direct access to airport location data including latitude and longitude, matching the step requirement better than the unrelated Beyblade API.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"The LLM choice API returns direct routes for an airport without airline restriction, directly matching the step description and intent better than the semantic top-1 which requires an airline code.\"}],\"workflow_confidence\":0.95}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "The LLM choice API provides direct access to airport location data including latitude and longitude, matching the step requirement better than the unrelated Beyblade API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "The LLM choice API returns direct routes for an airport without airline restriction, directly matching the step description and intent better than the semantic top-1 which requires an airline code."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 107,
+        "prompt_tokens": 1008,
+        "total_tokens": 1115,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 1251,
+          "pre_inference_ms": 105,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 258,
+          "service_ttlt_ms": 1438,
+          "total_duration_ms": 1342,
+          "user_visible_ttft_ms": 154
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1345",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly, no improvement.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice duplicates step 1 API; step 2 requires compiling data, not re-calling API.\"}],\"workflow_confidence\":0.9}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly, no improvement."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice duplicates step 1 API; step 2 requires compiling data, not re-calling API."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 978,
+        "total_tokens": 1056,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 9,
+          "engine_ttft_ms": 52,
+          "engine_ttlt_ms": 740,
+          "pre_inference_ms": 114,
+          "service_tbt_ms": 9,
+          "service_ttft_ms": 209,
+          "service_ttlt_ms": 892,
+          "total_duration_ms": 785,
+          "user_visible_ttft_ms": 96
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5364",
+      "raw": "{\"decisions\": [{\"step_id\": 1, \"accept_llm\": true, \"reason\": \"LLM choice matches the step intent exactly by querying LDU boundaries for the postal code using ca.boundaries.io, which is the required tool.\"}, {\"step_id\": 2, \"accept_llm\": false, \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"}], \"workflow_confidence\": 1.0}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice matches the step intent exactly by querying LDU boundaries for the postal code using ca.boundaries.io, which is the required tool."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice is identical to semantic top-1; no change needed."
+          }
+        ],
+        "workflow_confidence": 1.0
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 1244,
+        "total_tokens": 1341,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 19,
+          "engine_ttft_ms": 57,
+          "engine_ttlt_ms": 1947,
+          "pre_inference_ms": 258,
+          "service_tbt_ms": 21,
+          "service_ttft_ms": 408,
+          "service_ttlt_ms": 2306,
+          "total_duration_ms": 2159,
+          "user_visible_ttft_ms": 150
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_1920",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Geography - Get Continents' is more relevant to geographic and tourism information than unrelated 'Stars API'.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 'Stars API - Planet list' is unrelated but LLM choice 'Addressr' is specific to Australian addresses, not tourist attractions in Brazil, so it does not clearly improve relevance.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 'Addressr' API is unrelated to image search; LLM choice 'Web Search - spellCheck' is for spell checking, not image search, so neither fits well; keep semantic top-1 by default.\"\n    }\n  ],\n  \"workflow_confidence\": 0.4\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice 'Geography - Get Continents' is more relevant to geographic and tourism information than unrelated 'Stars API'."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 'Stars API - Planet list' is unrelated but LLM choice 'Addressr' is specific to Australian addresses, not tourist attractions in Brazil, so it does not clearly improve relevance."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "Semantic top-1 'Addressr' API is unrelated to image search; LLM choice 'Web Search - spellCheck' is for spell checking, not image search, so neither fits well; keep semantic top-1 by default."
+          }
+        ],
+        "workflow_confidence": 0.4
+      },
+      "usage": {
+        "completion_tokens": 211,
+        "prompt_tokens": 1151,
+        "total_tokens": 1362,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 9,
+          "engine_ttft_ms": 48,
+          "engine_ttlt_ms": 1851,
+          "pre_inference_ms": 156,
+          "service_tbt_ms": 9,
+          "service_ttft_ms": 232,
+          "service_ttlt_ms": 2030,
+          "total_duration_ms": 1880,
+          "user_visible_ttft_ms": 76
+        }
+      }
+    },
+    {
+      "record_id": "Tourism_response_5427",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice is more specific and directly provides hourly forecasts for ski resorts like Whistler Village, matching the step intent better.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 API only provides 5-day forecast, but LLM choice provides up to 14 days, still less than required 16 days; semantic top-1 is more reliable and matches required parameters.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice provides detailed weather alerts including severe weather alerts by location, fitting the step requirement better than semantic top-1.\"}],\"workflow_confidence\":0.9}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice is more specific and directly provides hourly forecasts for ski resorts like Whistler Village, matching the step intent better."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API only provides 5-day forecast, but LLM choice provides up to 14 days, still less than required 16 days; semantic top-1 is more reliable and matches required parameters."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice provides detailed weather alerts including severe weather alerts by location, fitting the step requirement better than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 150,
+        "prompt_tokens": 1628,
+        "total_tokens": 1778,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 14,
+          "engine_ttft_ms": 91,
+          "engine_ttlt_ms": 2247,
+          "pre_inference_ms": 113,
+          "service_tbt_ms": 14,
+          "service_ttft_ms": 320,
+          "service_ttlt_ms": 2464,
+          "total_duration_ms": 2363,
+          "user_visible_ttft_ms": 207
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3009",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Exchange Rate - Latest' directly provides current exchange rates, better matching the step than semantic top-1 which only lists symbols.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Exchange Rate - Convert' specifically supports converting EUR to USD with required parameters, better matching the step than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 1.0\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice 'Exchange Rate - Latest' directly provides current exchange rates, better matching the step than semantic top-1 which only lists symbols."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice 'Exchange Rate - Convert' specifically supports converting EUR to USD with required parameters, better matching the step than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 1.0
+      },
+      "usage": {
+        "completion_tokens": 168,
+        "prompt_tokens": 1083,
+        "total_tokens": 1251,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 113,
+          "engine_ttlt_ms": 3203,
+          "pre_inference_ms": 83,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 257,
+          "service_ttlt_ms": 3316,
+          "total_duration_ms": 3259,
+          "user_visible_ttft_ms": 174
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_4611",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to top gainers; LLM choice is the same API, so no improvement.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is for cryptocurrencies, not stock market top losers; LLM choice is more relevant to stock market losers.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice directly matches querying active cryptocurrencies; semantic top-1 is unrelated to crypto market.\"}],\"workflow_confidence\":0.7}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to top gainers; LLM choice is the same API, so no improvement."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is for cryptocurrencies, not stock market top losers; LLM choice is more relevant to stock market losers."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice directly matches querying active cryptocurrencies; semantic top-1 is unrelated to crypto market."
+          }
+        ],
+        "workflow_confidence": 0.7
+      },
+      "usage": {
+        "completion_tokens": 126,
+        "prompt_tokens": 1440,
+        "total_tokens": 1566,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 12,
+          "engine_ttft_ms": 65,
+          "engine_ttlt_ms": 1557,
+          "pre_inference_ms": 149,
+          "service_tbt_ms": 12,
+          "service_ttft_ms": 315,
+          "service_ttlt_ms": 1780,
+          "total_duration_ms": 1640,
+          "user_visible_ttft_ms": 166
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_4481",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API directly supports querying trade data by ISIN code, matching the required inputs and subtask intent precisely.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice repeats the same API as semantic top-1 without addressing the filtering step; filtering is a data processing step, not an API call.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice API directly supports querying trade data by ISIN code, matching the required inputs and subtask intent precisely."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice repeats the same API as semantic top-1 without addressing the filtering step; filtering is a data processing step, not an API call."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 126,
+        "prompt_tokens": 889,
+        "total_tokens": 1015,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 10,
+          "engine_ttft_ms": 48,
+          "engine_ttlt_ms": 1341,
+          "pre_inference_ms": 82,
+          "service_tbt_ms": 10,
+          "service_ttft_ms": 159,
+          "service_ttlt_ms": 1448,
+          "total_duration_ms": 1378,
+          "user_visible_ttft_ms": 77
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_761",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Currency_v2 - Free Convert directly converts USD to EUR for a specified amount, matching the step intent precisely, unlike the semantic top-1 which only gets balance.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Fear and Greed index - /historical directly provides the fear and greed index data, matching the step intent exactly, while semantic top-1 is unrelated stock gainers data.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Top NFT Sales - Top Collections this Month specifically returns top NFT collections by volume and sales, matching the step intent better than semantic top-1 which returns top NFT sales generally.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice Currency_v2 - Free Convert directly converts USD to EUR for a specified amount, matching the step intent precisely, unlike the semantic top-1 which only gets balance."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice Fear and Greed index - /historical directly provides the fear and greed index data, matching the step intent exactly, while semantic top-1 is unrelated stock gainers data."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice Top NFT Sales - Top Collections this Month specifically returns top NFT collections by volume and sales, matching the step intent better than semantic top-1 which returns top NFT sales generally."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 210,
+        "prompt_tokens": 1182,
+        "total_tokens": 1392,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 287,
+          "engine_ttlt_ms": 3340,
+          "pre_inference_ms": 190,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 556,
+          "service_ttlt_ms": 3600,
+          "total_duration_ms": 3419,
+          "user_visible_ttft_ms": 366
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_5449",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1, no change needed.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice API directly retrieves financial data and balance sheets for specified stock symbols, matching the step intent better than semantic top-1 which is unrelated.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1, no change needed.\"}],\"workflow_confidence\":0.95}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice is identical to semantic top-1, no change needed."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice API directly retrieves financial data and balance sheets for specified stock symbols, matching the step intent better than semantic top-1 which is unrelated."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "LLM choice is identical to semantic top-1, no change needed."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 117,
+        "prompt_tokens": 1139,
+        "total_tokens": 1256,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 43,
+          "engine_ttlt_ms": 2062,
+          "pre_inference_ms": 125,
+          "service_tbt_ms": 17,
+          "service_ttft_ms": 287,
+          "service_ttlt_ms": 2249,
+          "total_duration_ms": 2136,
+          "user_visible_ttft_ms": 162
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3357",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API directly matches the step requirement with minimal parameters; LLM choice adds unnecessary 'amount' parameter and is less minimal.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice provides a dedicated time-series endpoint for historical data with required date parameters, clearly better matching the step requirement than semantic top-1.\"}],\"workflow_confidence\":0.95}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API directly matches the step requirement with minimal parameters; LLM choice adds unnecessary 'amount' parameter and is less minimal."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice provides a dedicated time-series endpoint for historical data with required date parameters, clearly better matching the step requirement than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 1053,
+        "total_tokens": 1153,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 47,
+          "engine_ttlt_ms": 1125,
+          "pre_inference_ms": 89,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 169,
+          "service_ttlt_ms": 1242,
+          "total_duration_ms": 1169,
+          "user_visible_ttft_ms": 81
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_4667",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice provides the correct API for upcoming football games with betting odds, matching the step intent better than the cricket news API.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to betting odds and requires a player ID; LLM choice repeats the API from step 1, which is appropriate for odds retrieval.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"}],\"workflow_confidence\":0.95}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice provides the correct API for upcoming football games with betting odds, matching the step intent better than the cricket news API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to betting odds and requires a player ID; LLM choice repeats the API from step 1, which is appropriate for odds retrieval."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 131,
+        "prompt_tokens": 1306,
+        "total_tokens": 1437,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 17,
+          "engine_ttft_ms": 53,
+          "engine_ttlt_ms": 2228,
+          "pre_inference_ms": 103,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 232,
+          "service_ttlt_ms": 2375,
+          "total_duration_ms": 2281,
+          "user_visible_ttft_ms": 130
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3679",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Betway - Matches' is more specific to retrieving live and upcoming American football game scores than the semantic top-1 'Betway - Odds'.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Investors Exchange (IEX) Trading - OHLC' directly returns official open and close prices, matching the subtask precisely, unlike the broader semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice 'Betway - Matches' is more specific to retrieving live and upcoming American football game scores than the semantic top-1 'Betway - Odds'."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice 'Investors Exchange (IEX) Trading - OHLC' directly returns official open and close prices, matching the subtask precisely, unlike the broader semantic top-1."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "LLM choice is identical to semantic top-1; no change needed."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 184,
+        "prompt_tokens": 1243,
+        "total_tokens": 1427,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 44,
+          "engine_ttft_ms": 111,
+          "engine_ttlt_ms": 8147,
+          "pre_inference_ms": 96,
+          "service_tbt_ms": 44,
+          "service_ttft_ms": 242,
+          "service_ttlt_ms": 8274,
+          "total_duration_ms": 8188,
+          "user_visible_ttft_ms": 146
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_4774",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice uses the correct 'add_working_hours' API which fits the step perfectly, unlike semantic top-1 which is unrelated.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"Neither semantic top-1 nor LLM choice supports expression evaluation; keep semantic top-1 as best available.\"}],\"workflow_confidence\":0.9}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice uses the correct 'add_working_hours' API which fits the step perfectly, unlike semantic top-1 which is unrelated."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "Neither semantic top-1 nor LLM choice supports expression evaluation; keep semantic top-1 as best available."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 121,
+        "prompt_tokens": 1933,
+        "total_tokens": 2054,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 9,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 1089,
+          "pre_inference_ms": 96,
+          "service_tbt_ms": 9,
+          "service_ttft_ms": 166,
+          "service_ttlt_ms": 1210,
+          "total_duration_ms": 1119,
+          "user_visible_ttft_ms": 70
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3234",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and supports required inputs for job search.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Alpaca Trading - Get the clock) directly provides the current market clock with no parameters, better matching the subtask than semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (StreamlineWatch - Streaming Guide) specifically supports searching streaming sources by region (US), better matching the subtask than semantic top-1.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (OTT details - Additional Title Details) directly supports retrieving detailed movie info by movie_id, better matching the subtask than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 1.0\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and supports required inputs for job search."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice (Alpaca Trading - Get the clock) directly provides the current market clock with no parameters, better matching the subtask than semantic top-1."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice (StreamlineWatch - Streaming Guide) specifically supports searching streaming sources by region (US), better matching the subtask than semantic top-1."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": true,
+            "reason": "LLM choice (OTT details - Additional Title Details) directly supports retrieving detailed movie info by movie_id, better matching the subtask than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 1.0
+      },
+      "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 1666,
+        "total_tokens": 1903,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 22,
+          "engine_ttft_ms": 84,
+          "engine_ttlt_ms": 5245,
+          "pre_inference_ms": 105,
+          "service_tbt_ms": 22,
+          "service_ttft_ms": 776,
+          "service_ttlt_ms": 5931,
+          "total_duration_ms": 5836,
+          "user_visible_ttft_ms": 671
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_5324",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly provides current prices of Bitcoin, Ethereum, and Litecoin without parameters, better matching the step than semantic top-1 which focuses on TVL data.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly provides current prices of world currencies without parameters, better matching the step than semantic top-1 which focuses on TVL data.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1; no alternative provided and it fits the comparison step well.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice directly provides current prices of Bitcoin, Ethereum, and Litecoin without parameters, better matching the step than semantic top-1 which focuses on TVL data."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice directly provides current prices of world currencies without parameters, better matching the step than semantic top-1 which focuses on TVL data."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1; no alternative provided and it fits the comparison step well."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 179,
+        "prompt_tokens": 1159,
+        "total_tokens": 1338,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 21,
+          "engine_ttft_ms": 77,
+          "engine_ttlt_ms": 3793,
+          "pre_inference_ms": 96,
+          "service_tbt_ms": 21,
+          "service_ttft_ms": 205,
+          "service_ttlt_ms": 3917,
+          "total_duration_ms": 3829,
+          "user_visible_ttft_ms": 109
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3953",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1 exactly; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice repeats the currency list API which does not fulfill the step to check store products; no better API provided.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice repeats the currency list API which does not fulfill the step to check store products; no better API provided."
+          }
+        ],
+        "workflow_confidence": 0.6
+      },
+      "usage": {
+        "completion_tokens": 110,
+        "prompt_tokens": 928,
+        "total_tokens": 1038,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 59,
+          "engine_ttlt_ms": 1242,
+          "pre_inference_ms": 92,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 187,
+          "service_ttlt_ms": 1358,
+          "total_duration_ms": 1276,
+          "user_visible_ttft_ms": 95
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_5401",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate for fetching current prices of top 10 cryptocurrencies.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is more relevant for historical rates of Ripple; LLM choice is an exchange info API not suitable for historical coin rates.\"\n    }\n  ],\n  \"workflow_confidence\": 0.925\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate for fetching current prices of top 10 cryptocurrencies."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is more relevant for historical rates of Ripple; LLM choice is an exchange info API not suitable for historical coin rates."
+          }
+        ],
+        "workflow_confidence": 0.925
+      },
+      "usage": {
+        "completion_tokens": 123,
+        "prompt_tokens": 960,
+        "total_tokens": 1083,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 41,
+          "engine_ttlt_ms": 1961,
+          "pre_inference_ms": 119,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 296,
+          "service_ttlt_ms": 2213,
+          "total_duration_ms": 2111,
+          "user_visible_ttft_ms": 177
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1677",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Google Search 2 - Google Maps Data ID) is clearly more appropriate for finding local dining options than the semantic top-1 finance currency conversion API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Skyscanner_v2 - Search Place) is clearly more appropriate for finding hotels than the semantic top-1 finance currency conversion API.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "LLM choice is identical to semantic top-1; no change needed."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice (Google Search 2 - Google Maps Data ID) is clearly more appropriate for finding local dining options than the semantic top-1 finance currency conversion API."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice (Skyscanner_v2 - Search Place) is clearly more appropriate for finding hotels than the semantic top-1 finance currency conversion API."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 177,
+        "prompt_tokens": 1272,
+        "total_tokens": 1449,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 125,
+          "engine_ttlt_ms": 3324,
+          "pre_inference_ms": 176,
+          "service_tbt_ms": 18,
+          "service_ttft_ms": 348,
+          "service_ttlt_ms": 3544,
+          "total_duration_ms": 3372,
+          "user_visible_ttft_ms": 172
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3826",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"The LLM choice Quotient - /crypto/live directly provides detailed live cryptocurrency data for Binance USD, matching the step intent better than the semantic top-1 which is a forex OHLC API unrelated to crypto.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"The LLM choice Quotient - /forex/live specifically provides current forex market data for USD-EUR, better matching the step intent than the semantic top-1 which is a broader asset info API.\"}],\"workflow_confidence\":0.95}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "The LLM choice Quotient - /crypto/live directly provides detailed live cryptocurrency data for Binance USD, matching the step intent better than the semantic top-1 which is a forex OHLC API unrelated to crypto."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "The LLM choice Quotient - /forex/live specifically provides current forex market data for USD-EUR, better matching the step intent than the semantic top-1 which is a broader asset info API."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 126,
+        "prompt_tokens": 1144,
+        "total_tokens": 1270,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 13,
+          "engine_ttft_ms": 113,
+          "engine_ttlt_ms": 1720,
+          "pre_inference_ms": 116,
+          "service_tbt_ms": 13,
+          "service_ttft_ms": 302,
+          "service_ttlt_ms": 1911,
+          "total_duration_ms": 1815,
+          "user_visible_ttft_ms": 186
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_1375",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API available for credit report generation; both semantic top-1 and LLM choices are identical and inappropriate.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly matches the subtask intent by returning daily low stock price for a given symbol, more specific and appropriate than semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API for gift recommendations; both semantic top-1 and LLM choices are identical and unrelated to the subtask.\"\n    }\n  ],\n  \"workflow_confidence\": 0.4\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "No suitable API available for credit report generation; both semantic top-1 and LLM choices are identical and inappropriate."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice directly matches the subtask intent by returning daily low stock price for a given symbol, more specific and appropriate than semantic top-1."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "No suitable API for gift recommendations; both semantic top-1 and LLM choices are identical and unrelated to the subtask."
+          }
+        ],
+        "workflow_confidence": 0.4
+      },
+      "usage": {
+        "completion_tokens": 175,
+        "prompt_tokens": 1316,
+        "total_tokens": 1491,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 58,
+          "engine_ttlt_ms": 2758,
+          "pre_inference_ms": 124,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 276,
+          "service_ttlt_ms": 2970,
+          "total_duration_ms": 2855,
+          "user_visible_ttft_ms": 152
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3795",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly returns Apple balance sheet with required symbol parameter, clearly better than unrelated semantic top-1.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches step perfectly with correct API and required symbol parameter.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice correctly returns Apple cash flow statement with required symbol parameter, matching step.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 and correctly provides Bitcoin spot price.\"\n    },\n    {\n      \"step_id\": 5,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice specifically supports symbol parameter to get Ethereum price, better matching step than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice directly returns Apple balance sheet with required symbol parameter, clearly better than unrelated semantic top-1."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice matches step perfectly with correct API and required symbol parameter."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice correctly returns Apple cash flow statement with required symbol parameter, matching step."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 and correctly provides Bitcoin spot price."
+          },
+          {
+            "step_id": 5,
+            "accept_llm": true,
+            "reason": "LLM choice specifically supports symbol parameter to get Ethereum price, better matching step than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 1821,
+        "total_tokens": 2057,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 20,
+          "engine_ttft_ms": 139,
+          "engine_ttlt_ms": 4842,
+          "pre_inference_ms": 99,
+          "service_tbt_ms": 20,
+          "service_ttft_ms": 266,
+          "service_ttlt_ms": 4965,
+          "total_duration_ms": 4874,
+          "user_visible_ttft_ms": 168
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3986",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Palmy Investing API) directly matches the need for detailed asset allocation data and supports ticker ID input, better than semantic top-1 which is a news API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (YH Finance Complete - Stock Price) specifically retrieves detailed stock statistics for a given ticker, better matching the step than semantic top-1 which is broader Palmy Investing API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Stock Prices - YTD Historical Daily Prices) explicitly provides dividend and split info for a ticker, directly satisfying the step better than semantic top-1 which is a news API.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 (Global Stock Market API Data - Get Latest News) is more appropriate for fetching latest press releases than LLM choice which is social sentiment content, less directly matching the step.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice (Palmy Investing API) directly matches the need for detailed asset allocation data and supports ticker ID input, better than semantic top-1 which is a news API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice (YH Finance Complete - Stock Price) specifically retrieves detailed stock statistics for a given ticker, better matching the step than semantic top-1 which is broader Palmy Investing API."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice (Stock Prices - YTD Historical Daily Prices) explicitly provides dividend and split info for a ticker, directly satisfying the step better than semantic top-1 which is a news API."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": false,
+            "reason": "Semantic top-1 (Global Stock Market API Data - Get Latest News) is more appropriate for fetching latest press releases than LLM choice which is social sentiment content, less directly matching the step."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 275,
+        "prompt_tokens": 1825,
+        "total_tokens": 2100,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 47,
+          "engine_ttlt_ms": 3155,
+          "pre_inference_ms": 168,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 359,
+          "service_ttlt_ms": 3393,
+          "total_duration_ms": 3235,
+          "user_visible_ttft_ms": 191
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_3946",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Cyprus with needed fields.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Hungary with needed fields.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Ireland with needed fields.\"},{\"step_id\":4,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for retrieving login form fields for a supported bank.\"},{\"step_id\":5,\"accept_llm\":true,\"reason\":\"LLM choice is clearly more appropriate than semantic top-1 for retrieving categories with descriptions, colors, and icons.\"}],\"workflow_confidence\":1}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Cyprus with needed fields."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Hungary with needed fields."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving supported banks in Ireland with needed fields."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": true,
+            "reason": "LLM choice matches semantic top-1 exactly and is appropriate for retrieving login form fields for a supported bank."
+          },
+          {
+            "step_id": 5,
+            "accept_llm": true,
+            "reason": "LLM choice is clearly more appropriate than semantic top-1 for retrieving categories with descriptions, colors, and icons."
+          }
+        ],
+        "workflow_confidence": 1
+      },
+      "usage": {
+        "completion_tokens": 194,
+        "prompt_tokens": 3330,
+        "total_tokens": 3524,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 8,
+          "engine_ttft_ms": 52,
+          "engine_ttlt_ms": 1517,
+          "pre_inference_ms": 84,
+          "service_tbt_ms": 8,
+          "service_ttft_ms": 158,
+          "service_ttlt_ms": 1619,
+          "total_duration_ms": 1541,
+          "user_visible_ttft_ms": 74
+        }
+      }
+    },
+    {
+      "record_id": "Finance_response_5265",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice 'Fidelity Investments - news/list-top' directly matches the step to fetch top news from Fidelity Investments, better than semantic top-1 which is more general.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice matches semantic top-1 exactly; no change needed.\"},{\"step_id\":3,\"accept_llm\":false,\"reason\":\"LLM choice is the same as semantic top-1 and does not explicitly provide public holiday data; semantic top-1 is kept.\"}],\"workflow_confidence\":0.9}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice 'Fidelity Investments - news/list-top' directly matches the step to fetch top news from Fidelity Investments, better than semantic top-1 which is more general."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "LLM choice is the same as semantic top-1 and does not explicitly provide public holiday data; semantic top-1 is kept."
+          }
+        ],
+        "workflow_confidence": 0.9
+      },
+      "usage": {
+        "completion_tokens": 133,
+        "prompt_tokens": 1468,
+        "total_tokens": 1601,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 406,
+          "user_visible_ttft_ms": 268,
+          "total_duration_ms": 3186,
+          "pre_inference_ms": 138,
+          "service_tbt_ms": 22,
+          "service_ttlt_ms": 3314,
+          "engine_ttft_ms": 95,
+          "engine_ttlt_ms": 3017,
+          "engine_tbt_ms": 22
+        }
+      }
+    },
+    {
+      "record_id": "Technology_response_3991",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice is a music-specific API that directly retrieves detailed song information using a song ID, matching the step requirement better than the unrelated city search API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is a generic content search API, less relevant than the semantic top-1 brewery search API, but neither is ideal; however, LLM choice does not clearly improve or match the step intent to search Soundcloud tracks.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice is a music-specific API that directly retrieves detailed song information using a song ID, matching the step requirement better than the unrelated city search API."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice is a generic content search API, less relevant than the semantic top-1 brewery search API, but neither is ideal; however, LLM choice does not clearly improve or match the step intent to search Soundcloud tracks."
+          }
+        ],
+        "workflow_confidence": 0.7
+      },
+      "usage": {
+        "completion_tokens": 150,
+        "prompt_tokens": 926,
+        "total_tokens": 1076,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 157,
+          "engine_ttlt_ms": 2573,
+          "pre_inference_ms": 195,
+          "service_tbt_ms": 16,
+          "service_ttft_ms": 602,
+          "service_ttlt_ms": 2940,
+          "total_duration_ms": 2764,
+          "user_visible_ttft_ms": 407
+        }
+      }
+    },
+    {
+      "record_id": "Technology_response_2668",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API found for fetching genre of a Deezer editorial; semantic top-1 and LLM choice are identical and inadequate.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1; Shazam API is the closest available despite mismatch with Soundcloud and song_id parameter.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Shazam - Artist Info' API is clearly more appropriate for extracting artist information from song details than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "No suitable API found for fetching genre of a Deezer editorial; semantic top-1 and LLM choice are identical and inadequate."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1; Shazam API is the closest available despite mismatch with Soundcloud and song_id parameter."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice 'Shazam - Artist Info' API is clearly more appropriate for extracting artist information from song details than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.6
+      },
+      "usage": {
+        "completion_tokens": 177,
+        "prompt_tokens": 1578,
+        "total_tokens": 1755,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "service_ttft_ms": 258,
+          "user_visible_ttft_ms": 134,
+          "total_duration_ms": 3307,
+          "pre_inference_ms": 124,
+          "service_tbt_ms": 18,
+          "service_ttlt_ms": 3422,
+          "engine_ttft_ms": 82,
+          "engine_ttlt_ms": 3252,
+          "engine_tbt_ms": 18
+        }
+      }
+    },
+    {
+      "record_id": "Technology_response_5479",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Neither semantic top-1 nor LLM choice explicitly fetch Bhagavad Gita chapters; keep semantic top-1 as closest match.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly provides random motivational quotes, better matching the step than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Neither semantic top-1 nor LLM choice explicitly fetch Bhagavad Gita chapters; keep semantic top-1 as closest match."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice directly provides random motivational quotes, better matching the step than semantic top-1."
+          }
+        ],
+        "workflow_confidence": 0.7
+      },
+      "usage": {
+        "completion_tokens": 117,
+        "prompt_tokens": 970,
+        "total_tokens": 1087,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 11,
+          "engine_ttft_ms": 37,
+          "engine_ttlt_ms": 1335,
+          "pre_inference_ms": 106,
+          "service_tbt_ms": 11,
+          "service_ttft_ms": 238,
+          "service_ttlt_ms": 1543,
+          "total_duration_ms": 1452,
+          "user_visible_ttft_ms": 132
+        }
+      }
+    },
+    {
+      "record_id": "Technology_response_1859",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice is the specific joke-of-the-day endpoint, directly matching the step intent better than semantic top-1 which is a search endpoint.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches the step intent exactly by searching jokes with keyword and limiting results, while semantic top-1 is unrelated to jokes.\"}],\"workflow_confidence\":1}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice is the specific joke-of-the-day endpoint, directly matching the step intent better than semantic top-1 which is a search endpoint."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice matches the step intent exactly by searching jokes with keyword and limiting results, while semantic top-1 is unrelated to jokes."
+          }
+        ],
+        "workflow_confidence": 1
+      },
+      "usage": {
+        "completion_tokens": 97,
+        "prompt_tokens": 1032,
+        "total_tokens": 1129,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 38,
+          "engine_ttft_ms": 133,
+          "engine_ttlt_ms": 3833,
+          "pre_inference_ms": 94,
+          "service_tbt_ms": 38,
+          "service_ttft_ms": 264,
+          "service_ttlt_ms": 3955,
+          "total_duration_ms": 3869,
+          "user_visible_ttft_ms": 170
+        }
+      }
+    },
+    {
+      "record_id": "Technology_response_5279",
+      "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API (GetTasks) is more appropriate for checking key existence in project tasks than LLM choice (GetTaskDocument).\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1 exactly; no change needed.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to PDF merging; LLM choice is unrelated as well. Neither matches the step intent.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API (GetTasks) is more appropriate for checking key existence in project tasks than LLM choice (GetTaskDocument)."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": false,
+            "reason": "LLM choice matches semantic top-1 exactly; no change needed."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": false,
+            "reason": "Semantic top-1 API is unrelated to PDF merging; LLM choice is unrelated as well. Neither matches the step intent."
+          }
+        ],
+        "workflow_confidence": 0.6
+      },
+      "usage": {
+        "completion_tokens": 165,
+        "prompt_tokens": 1460,
+        "total_tokens": 1625,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 29,
+          "engine_ttft_ms": 127,
+          "engine_ttlt_ms": 4894,
+          "pre_inference_ms": 110,
+          "service_tbt_ms": 29,
+          "service_ttft_ms": 336,
+          "service_ttlt_ms": 5094,
+          "total_duration_ms": 4994,
+          "user_visible_ttft_ms": 227
+        }
+      }
+    },
+    {
+      "record_id": "Technology_response_4586",
+      "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice directly supports searching Chuck Norris jokes, matching the subtask better than the semantic top-1 which is about books.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice provides direct math facts about numbers, clearly better matching the subtask than the semantic top-1 which is a generic content search.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice provides direct trivia facts about a specified year, exactly matching the subtask better than the semantic top-1 generic content search.\"},{\"step_id\":4,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1; no change needed.\"}],\"workflow_confidence\":0.95}",
+      "parsed": {
+        "decisions": [
+          {
+            "step_id": 1,
+            "accept_llm": true,
+            "reason": "LLM choice directly supports searching Chuck Norris jokes, matching the subtask better than the semantic top-1 which is about books."
+          },
+          {
+            "step_id": 2,
+            "accept_llm": true,
+            "reason": "LLM choice provides direct math facts about numbers, clearly better matching the subtask than the semantic top-1 which is a generic content search."
+          },
+          {
+            "step_id": 3,
+            "accept_llm": true,
+            "reason": "LLM choice provides direct trivia facts about a specified year, exactly matching the subtask better than the semantic top-1 generic content search."
+          },
+          {
+            "step_id": 4,
+            "accept_llm": false,
+            "reason": "LLM choice is identical to semantic top-1; no change needed."
+          }
+        ],
+        "workflow_confidence": 0.95
+      },
+      "usage": {
+        "completion_tokens": 169,
+        "prompt_tokens": 1746,
+        "total_tokens": 1915,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 15,
+          "engine_ttft_ms": 46,
+          "engine_ttlt_ms": 2599,
+          "pre_inference_ms": 113,
+          "service_tbt_ms": 15,
+          "service_ttft_ms": 259,
+          "service_ttlt_ms": 2782,
+          "total_duration_ms": 2677,
+          "user_visible_ttft_ms": 147
+        }
+      }
+    }
+  ]
+}

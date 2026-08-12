@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4683",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 1.0, \"rationale\": \"The subtask is to retrieve the joke of the day from the World of Jokes API. Candidate rank 6 is specifically the 'World of Jokes - Get Joke of the Day' API, which directly satisfies the subtask intent and requires no parameters, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 1.0,
+    "rationale": "The subtask is to retrieve the joke of the day from the World of Jokes API. Candidate rank 6 is specifically the 'World of Jokes - Get Joke of the Day' API, which directly satisfies the subtask intent and requires no parameters, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1678,
+    "total_tokens": 1758,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1179,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 261,
+      "service_ttlt_ms": 1396,
+      "total_duration_ms": 1269,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

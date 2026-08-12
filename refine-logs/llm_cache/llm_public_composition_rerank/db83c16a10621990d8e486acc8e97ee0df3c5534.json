@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2309",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Public Holiday - Public Holidays' API directly provides public holidays for a given year and country, matching the subtask perfectly with required parameters year and country code bindable from the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Public Holiday - Public Holidays' API directly provides public holidays for a given year and country, matching the subtask perfectly with required parameters year and country code bindable from the request."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 2400,
+    "total_tokens": 2460,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 140,
+      "engine_ttlt_ms": 732,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 312,
+      "service_ttlt_ms": 900,
+      "total_duration_ms": 792,
+      "user_visible_ttft_ms": 197
+    }
+  }
+}

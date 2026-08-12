@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4388",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"This API specifically fetches the prices of top cryptocurrencies, directly satisfying the subtask to fetch current prices and market trends of cryptocurrencies. It requires no additional parameters, making it easy to bind from the subtask inputs. It is more specific than broad market or stock APIs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "This API specifically fetches the prices of top cryptocurrencies, directly satisfying the subtask to fetch current prices and market trends of cryptocurrencies. It requires no additional parameters, making it easy to bind from the subtask inputs. It is more specific than broad market or stock APIs."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1597,
+    "total_tokens": 1673,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 249,
+      "user_visible_ttft_ms": 128,
+      "total_duration_ms": 2214,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 27,
+      "service_ttlt_ms": 2328,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 1692,
+      "engine_tbt_ms": 22
+    }
+  }
+}

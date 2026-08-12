@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3159",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide portion control guidelines or nutritional analysis relevant to healthy meal planning; all are unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide portion control guidelines or nutritional analysis relevant to healthy meal planning; all are unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1386,
+    "total_tokens": 1430,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 501,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 709,
+      "total_duration_ms": 654,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

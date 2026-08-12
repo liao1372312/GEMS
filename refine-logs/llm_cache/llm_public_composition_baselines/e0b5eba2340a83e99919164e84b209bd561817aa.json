@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5446",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the provided APIs directly support vehicle information retrieval by license plate or USPTO trademark availability check. However, the user request involves two distinct subtasks: vehicle info by license plate and trademark availability. The candidate APIs do not include a vehicle info API or USPTO trademark API. The best match is the highest-ranked API, but it is unrelated to the request. Therefore, no suitable API is available from the candidates to fulfill the user's request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the provided APIs directly support vehicle information retrieval by license plate or USPTO trademark availability check. However, the user request involves two distinct subtasks: vehicle info by license plate and trademark availability. The candidate APIs do not include a vehicle info API or USPTO trademark API. The best match is the highest-ranked API, but it is unrelated to the request. Therefore, no suitable API is available from the candidates to fulfill the user's request."
+  },
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 1750,
+    "total_tokens": 1861,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1193,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 273,
+      "service_ttlt_ms": 1441,
+      "total_duration_ms": 1318,
+      "user_visible_ttft_ms": 139
+    }
+  }
+}

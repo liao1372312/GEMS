@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3150",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":7,\"confidence\":0.9,\"rationale\":\"The subtask is to research reliable money transfer portals suitable for family vacations. Among the candidates, the 'Fund Transfer - GetBankDetailsFT' API directly relates to money transfers by providing bank details, which is relevant for researching money transfer portals. Other APIs focus on credit card validation, stock prices, or unrelated domains. This API requires a bank code, which can be part of researching money transfer options.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The subtask is to research reliable money transfer portals suitable for family vacations. Among the candidates, the 'Fund Transfer - GetBankDetailsFT' API directly relates to money transfers by providing bank details, which is relevant for researching money transfer portals. Other APIs focus on credit card validation, stock prices, or unrelated domains. This API requires a bank code, which can be part of researching money transfer options."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1618,
+    "total_tokens": 1716,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1500,
+      "pre_inference_ms": 271,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 423,
+      "service_ttlt_ms": 1852,
+      "total_duration_ms": 1601,
+      "user_visible_ttft_ms": 152
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "record_id": "Technology_response_5213",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The user wants to check flight details for picking up a friend, and the Flightera Flight Data API provides flight status and statistics by flight number, matching the task intent and required input (flight code).\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The user wants to check flight details for picking up a friend, and the Flightera Flight Data API provides flight status and statistics by flight number, matching the task intent and required input (flight code)."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1591,
+    "total_tokens": 1654,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 61
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1584
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1546",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user needs current air quality index and temperature for their city to decide on exercising indoors or outdoors. The Air Quality API - Current Air Quality (rank 3) provides current air quality data for any city, which matches the subtask requirement to retrieve air quality index for the user's city.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user needs current air quality index and temperature for their city to decide on exercising indoors or outdoors. The Air Quality API - Current Air Quality (rank 3) provides current air quality data for any city, which matches the subtask requirement to retrieve air quality index for the user's city."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1756,
+    "total_tokens": 1836,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 628,
+      "pre_inference_ms": 194,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 414,
+      "service_ttlt_ms": 960,
+      "total_duration_ms": 776,
+      "user_visible_ttft_ms": 219
+    }
+  }
+}

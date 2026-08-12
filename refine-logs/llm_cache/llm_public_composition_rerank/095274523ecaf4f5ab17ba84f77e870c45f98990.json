@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5203",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 1.0, \"rationale\": \"The subtask is to check for the availability of a report for the specified VIN on VinHub. The 'VinHub - Check' API directly satisfies this intent and requires the VIN as input, which is provided. It is specific to vehicle reports and matches the subtask domain and requirements.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 1.0,
+    "rationale": "The subtask is to check for the availability of a report for the specified VIN on VinHub. The 'VinHub - Check' API directly satisfies this intent and requires the VIN as input, which is provided. It is specific to vehicle reports and matches the subtask domain and requirements."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1980,
+    "total_tokens": 2060,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 305,
+      "engine_ttlt_ms": 1629,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 525,
+      "service_ttlt_ms": 1879,
+      "total_duration_ms": 1760,
+      "user_visible_ttft_ms": 399
+    }
+  }
+}

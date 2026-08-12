@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 10,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The RapidWeather API provides historical weather data and accepts city name as a parameter, matching the requirement to fetch historical weather records for Madrid.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The RapidWeather API provides historical weather data and accepts city name as a parameter, matching the requirement to fetch historical weather records for Madrid."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1511,
+    "total_tokens": 1560,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 443,
+      "pre_inference_ms": 180,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 331,
+      "service_ttlt_ms": 826,
+      "total_duration_ms": 677,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_808",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate is a location search API that can help identify the location 'downtown Sydney' which is required as input for hotel search. However, it does not directly provide hotel search with number_of_guests and dates, but none of the other candidates provide hotel search functionality with the required parameters. This candidate is the closest match to start the process.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate is a location search API that can help identify the location 'downtown Sydney' which is required as input for hotel search. However, it does not directly provide hotel search with number_of_guests and dates, but none of the other candidates provide hotel search functionality with the required parameters. This candidate is the closest match to start the process."
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 1581,
+    "total_tokens": 1675,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 876,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 222,
+      "service_ttlt_ms": 1049,
+      "total_duration_ms": 957,
+      "user_visible_ttft_ms": 124
+    }
+  }
+}

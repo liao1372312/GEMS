@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_144",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Active - Search v2 API is focused on discovering and registering for activities, including recreational and sports activities, which aligns well with researching and recommending popular beach activities and water sports suitable for families. It is more specific to activities than other options and requires no additional inputs beyond defaults, making it suitable for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Active - Search v2 API is focused on discovering and registering for activities, including recreational and sports activities, which aligns well with researching and recommending popular beach activities and water sports suitable for families. It is more specific to activities than other options and requires no additional inputs beyond defaults, making it suitable for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 1701,
+    "total_tokens": 1787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1628,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 174,
+      "service_ttlt_ms": 1735,
+      "total_duration_ms": 1659,
+      "user_visible_ttft_ms": 90
+    }
+  }
+}

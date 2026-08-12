@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request involves two subtasks: fetching Soundcloud playlist info and getting the latest release of an artist related to 'Shape of You' using Shazam API. Among the candidates, only Shazam APIs are available, none for Soundcloud. The highest-ranked Shazam API is 'Shazam - Search Track' which can search for a song and return related artist info, useful to find the artist related to 'Shape of You'. This can help with the second subtask. However, no Soundcloud API candidate is present to fulfill the first subtask. Therefore, selecting rank 1 for partial fulfillment with high confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request involves two subtasks: fetching Soundcloud playlist info and getting the latest release of an artist related to 'Shape of You' using Shazam API. Among the candidates, only Shazam APIs are available, none for Soundcloud. The highest-ranked Shazam API is 'Shazam - Search Track' which can search for a song and return related artist info, useful to find the artist related to 'Shape of You'. This can help with the second subtask. However, no Soundcloud API candidate is present to fulfill the first subtask. Therefore, selecting rank 1 for partial fulfillment with high confidence."
+  },
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 1694,
+    "total_tokens": 1841,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1595,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1815,
+      "total_duration_ms": 1718,
+      "user_visible_ttft_ms": 168
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4453",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 1.0, \"rationale\": \"The Videogames NEWS API directly provides the most recent video game news from top sources, matching the subtask intent perfectly and requiring no additional parameters.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 1.0,
+    "rationale": "The Videogames NEWS API directly provides the most recent video game news from top sources, matching the subtask intent perfectly and requiring no additional parameters."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1972,
+    "total_tokens": 2024,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 86,
+      "engine_ttlt_ms": 868,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 333,
+      "service_ttlt_ms": 1030,
+      "total_duration_ms": 915,
+      "user_visible_ttft_ms": 208
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find easy-to-follow chicken recipes suitable for outdoor dining.\",\n      \"domain\": \"Cooking\",\n      \"required_inputs\": [\"cuisine type\", \"meal type\", \"dietary preferences\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for halal restaurants in Korea.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"location\", \"dietary restriction\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find easy-to-follow chicken recipes suitable for outdoor dining.",
+        "domain": "Cooking",
+        "required_inputs": [
+          "cuisine type",
+          "meal type",
+          "dietary preferences"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for halal restaurants in Korea.",
+        "domain": "Food",
+        "required_inputs": [
+          "location",
+          "dietary restriction"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find easy-to-follow chicken recipes suitable for outdoor dining.",
+      "domain": "Cooking",
+      "required_inputs": [
+        "cuisine type",
+        "meal type",
+        "dietary preferences"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for halal restaurants in Korea.",
+      "domain": "Food",
+      "required_inputs": [
+        "location",
+        "dietary restriction"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 211,
+    "total_tokens": 317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 26,
+      "engine_ttlt_ms": 2344,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 122,
+      "service_ttlt_ms": 2437,
+      "total_duration_ms": 2371,
+      "user_visible_ttft_ms": 49
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_3150",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to money transfer portals; LLM choice is relevant and better matches the step intent.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly validates credit card details, better matching the step intent than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to money transfer portals; LLM choice is relevant and better matches the step intent."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice directly validates credit card details, better matching the step intent than semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 946,
+    "total_tokens": 1062,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 25,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 2946,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 25,
+      "service_ttft_ms": 1448,
+      "service_ttlt_ms": 4325,
+      "total_duration_ms": 4248,
+      "user_visible_ttft_ms": 1364
+    }
+  }
+}

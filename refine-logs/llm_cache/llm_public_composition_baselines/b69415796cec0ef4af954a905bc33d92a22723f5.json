@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs offer interest rate data for central or non-central banks; they focus on currency conversion and exchange rates. Therefore, no suitable API is available in the given candidates to fulfill the request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs offer interest rate data for central or non-central banks; they focus on currency conversion and exchange rates. Therefore, no suitable API is available in the given candidates to fulfill the request."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1646,
+    "total_tokens": 1709,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 752,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 353,
+      "service_ttlt_ms": 1040,
+      "total_duration_ms": 939,
+      "user_visible_ttft_ms": 243
+    }
+  }
+}

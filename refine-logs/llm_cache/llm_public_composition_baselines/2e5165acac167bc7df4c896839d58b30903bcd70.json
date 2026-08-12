@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2757",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"This API matches the task to query car rental locations in specific cities and belongs to the travel domain relevant to tourism.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "This API matches the task to query car rental locations in specific cities and belongs to the travel domain relevant to tourism."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1775,
+    "total_tokens": 1820,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 421,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 274,
+      "service_ttlt_ms": 618,
+      "total_duration_ms": 522,
+      "user_visible_ttft_ms": 165
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random joke to entertain the audience during the comedy show.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve sanction data for Canada to ensure compliance with the event.\",\n      \"domain\": \"compliance\",\n      \"required_inputs\": [\"country_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random joke to entertain the audience during the comedy show.",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve sanction data for Canada to ensure compliance with the event.",
+        "domain": "compliance",
+        "required_inputs": [
+          "country_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random joke to entertain the audience during the comedy show.",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve sanction data for Canada to ensure compliance with the event.",
+      "domain": "compliance",
+      "required_inputs": [
+        "country_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 2142,
+    "total_tokens": 2241,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 38,
+      "engine_ttft_ms": 143,
+      "engine_ttlt_ms": 3921,
+      "pre_inference_ms": 131,
+      "service_tbt_ms": 38,
+      "service_ttft_ms": 329,
+      "service_ttlt_ms": 4100,
+      "total_duration_ms": 3979,
+      "user_visible_ttft_ms": 199
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch jokes to entertain the audience during the comedy show.",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve sanction data for Canada to ensure compliance with the event.",
+        "domain": "compliance",
+        "required_inputs": [
+          "country_name"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Kohls stores/list API is the most relevant for finding stores near the given location that offer products, matching the user's request for stores within a 25-mile radius of specified coordinates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Kohls stores/list API is the most relevant for finding stores near the given location that offer products, matching the user's request for stores within a 25-mile radius of specified coordinates."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 2007,
+    "total_tokens": 2066,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 588,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 271,
+      "service_ttlt_ms": 781,
+      "total_duration_ms": 680,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify cities with excellent air quality suitable for a weekend getaway\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a city from the identified list based on travel feasibility and family preferences\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"list of cities with excellent air quality\", \"family preferences\", \"travel dates\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Find accommodation options in the selected city for the weekend\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"travel dates\", \"number of family members\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Book transportation to and from the selected city for the weekend\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"travel dates\", \"number of travelers\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Plan activities or attractions in the selected city suitable for the family\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"family preferences\", \"travel dates\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a city from the identified list based on travel feasibility and family preferences",
+        "domain": "Tourism",
+        "required_inputs": [
+          "list of cities with excellent air quality",
+          "family preferences",
+          "travel dates"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Find accommodation options in the selected city for the weekend",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "travel dates",
+          "number of family members"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Book transportation to and from the selected city for the weekend",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "travel dates",
+          "number of travelers"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Plan activities or attractions in the selected city suitable for the family",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "family preferences",
+          "travel dates"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify cities with excellent air quality suitable for a weekend getaway",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a city from the identified list based on travel feasibility and family preferences",
+      "domain": "Tourism",
+      "required_inputs": [
+        "list of cities with excellent air quality",
+        "family preferences",
+        "travel dates"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Find accommodation options in the selected city for the weekend",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "travel dates",
+        "number of family members"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Book transportation to and from the selected city for the weekend",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "travel dates",
+        "number of travelers"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Plan activities or attractions in the selected city suitable for the family",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "family preferences",
+        "travel dates"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 275,
+    "prompt_tokens": 165,
+    "total_tokens": 440,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 3408,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 271,
+      "service_ttlt_ms": 3632,
+      "total_duration_ms": 3500,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

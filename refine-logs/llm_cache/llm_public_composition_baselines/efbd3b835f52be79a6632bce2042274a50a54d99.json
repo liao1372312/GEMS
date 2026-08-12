@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_600",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs relate to combining translations and cultural notes into a document; the top-ranked API is unrelated but is the best available option.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs relate to combining translations and cultural notes into a document; the top-ranked API is unrelated but is the best available option."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1603,
+    "total_tokens": 1654,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 355,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 254,
+      "service_ttlt_ms": 562,
+      "total_duration_ms": 437,
+      "user_visible_ttft_ms": 119
+    }
+  }
+}

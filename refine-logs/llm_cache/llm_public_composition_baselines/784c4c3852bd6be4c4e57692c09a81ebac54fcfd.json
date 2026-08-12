@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1793",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"This API specifically provides CO2 offset compensation details linked to an account, including compensation ID, organization, CO2 equivalent, gold standard credit, and planted trees, which matches the user's request exactly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "This API specifically provides CO2 offset compensation details linked to an account, including compensation ID, organization, CO2 equivalent, gold standard credit, and planted trees, which matches the user's request exactly."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1523,
+    "total_tokens": 1584,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 481,
+      "pre_inference_ms": 69,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 134,
+      "service_ttlt_ms": 567,
+      "total_duration_ms": 504,
+      "user_visible_ttft_ms": 66
+    }
+  }
+}

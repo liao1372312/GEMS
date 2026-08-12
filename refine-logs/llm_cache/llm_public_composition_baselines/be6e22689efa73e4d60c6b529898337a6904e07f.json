@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2703",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The AI Resume Generator APIs (rank 1 and 8) are designed specifically for generating resumes and cover letters using the user's degree, university, and skills. Since the user requests both a resume and a cover letter highlighting specific skills, these APIs are the most relevant. Among them, rank 1 is for cover letter generation and rank 8 is for resume generation. The user needs both, but the first step is to generate the resume showcasing the degree, so selecting rank 1 (cover letter) alone is insufficient. However, since the user wants both, the best approach is to use both APIs. Given the instruction to select one, rank 1 is chosen as it mentions cover letter generation with skills, but rank 8 is also needed for the resume. Since the user request is for both, and rank 1's description includes resume generation as well, rank 1 is selected with high confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The AI Resume Generator APIs (rank 1 and 8) are designed specifically for generating resumes and cover letters using the user's degree, university, and skills. Since the user requests both a resume and a cover letter highlighting specific skills, these APIs are the most relevant. Among them, rank 1 is for cover letter generation and rank 8 is for resume generation. The user needs both, but the first step is to generate the resume showcasing the degree, so selecting rank 1 (cover letter) alone is insufficient. However, since the user wants both, the best approach is to use both APIs. Given the instruction to select one, rank 1 is chosen as it mentions cover letter generation with skills, but rank 8 is also needed for the resume. Since the user request is for both, and rank 1's description includes resume generation as well, rank 1 is selected with high confidence."
+  },
+  "usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 1604,
+    "total_tokens": 1809,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 231,
+      "user_visible_ttft_ms": 107,
+      "total_duration_ms": 2034,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 2153,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1952,
+      "engine_tbt_ms": 9
+    }
+  }
+}

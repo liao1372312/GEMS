@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate is a Finance API specifically for getting company income statements and requires the company ticker symbol, which matches the subtask to retrieve Apple Inc.'s income statement.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate is a Finance API specifically for getting company income statements and requires the company ticker symbol, which matches the subtask to retrieve Apple Inc.'s income statement."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1273,
+    "total_tokens": 1329,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 595,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 318,
+      "service_ttlt_ms": 871,
+      "total_duration_ms": 757,
+      "user_visible_ttft_ms": 193
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5216",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate 1 provides current weather including wind speed and hourly forecast, matching the request for current and three-hourly weather data.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate 1 provides current weather including wind speed and hourly forecast, matching the request for current and three-hourly weather data."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1596,
+    "total_tokens": 1643,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 469,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 575,
+      "total_duration_ms": 498,
+      "user_visible_ttft_ms": 71
+    }
+  }
+}

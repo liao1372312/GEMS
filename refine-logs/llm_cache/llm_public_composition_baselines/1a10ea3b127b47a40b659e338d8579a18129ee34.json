@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4299",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"This API specifically provides lists of halal restaurants in Korea, directly matching the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "This API specifically provides lists of halal restaurants in Korea, directly matching the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 40,
+    "prompt_tokens": 1975,
+    "total_tokens": 2015,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 443,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 172,
+      "service_ttlt_ms": 549,
+      "total_duration_ms": 470,
+      "user_visible_ttft_ms": 86
+    }
+  }
+}

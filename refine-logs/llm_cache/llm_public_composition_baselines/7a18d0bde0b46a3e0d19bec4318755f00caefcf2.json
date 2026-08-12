@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3473",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The user needs a quote about friendship, and the top-ranked API provides random self-help quotes, which likely include friendship quotes. It requires no parameters and fits the subtask perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The user needs a quote about friendship, and the top-ranked API provides random self-help quotes, which likely include friendship quotes. It requires no parameters and fits the subtask perfectly."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1400,
+    "total_tokens": 1458,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 576,
+      "pre_inference_ms": 72,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 656,
+      "service_ttlt_ms": 1189,
+      "total_duration_ms": 1123,
+      "user_visible_ttft_ms": 585
+    }
+  }
+}

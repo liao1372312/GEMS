@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_1040",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get the race dates, locations, and names for the current Formula 1 season\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the current driver standings for the current Formula 1 season\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Get the race dates, locations, and names for the current Formula 1 season",
+        "domain": "Sports",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get the current driver standings for the current Formula 1 season",
+        "domain": "Sports",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Get the race dates, locations, and names for the current Formula 1 season",
+      "domain": "Sports",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Get the current driver standings for the current Formula 1 season",
+      "domain": "Sports",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 2053,
+    "total_tokens": 2151,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 891,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 304,
+      "service_ttlt_ms": 1126,
+      "total_duration_ms": 1003,
+      "user_visible_ttft_ms": 168
+    }
+  },
+  "goal_hints": [
+    "I'm planning to attend a Formula 1 race and I need information about the upcoming races. Can you give me the race dates, locations, and names for the current season",
+    "I would like to know the current driver standings for the season"
+  ]
+}

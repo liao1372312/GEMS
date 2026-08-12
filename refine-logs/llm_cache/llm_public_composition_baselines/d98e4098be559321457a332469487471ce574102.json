@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7311",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"Candidate 6 provides random facts in the entertainment domain, which aligns with the request for a random trivia fact; no APIs directly for Deezer album search are listed, so this best fits the trivia part of the request.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "Candidate 6 provides random facts in the entertainment domain, which aligns with the request for a random trivia fact; no APIs directly for Deezer album search are listed, so this best fits the trivia part of the request."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 2178,
+    "total_tokens": 2244,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 660,
+      "pre_inference_ms": 196,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 318,
+      "service_ttlt_ms": 913,
+      "total_duration_ms": 725,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

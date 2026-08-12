@@ -1,0 +1,84 @@
+{
+  "record_id": "Tourism_response_1345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve general information about the airport with the IATA code DFW\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"IATA code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch details about the facilities and services available at the airport DFW\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"IATA code\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain information about airlines and destinations served by the airport DFW\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"IATA code\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve general information about the airport with the IATA code DFW",
+        "domain": "Tourism",
+        "required_inputs": [
+          "IATA code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch details about the facilities and services available at the airport DFW",
+        "domain": "Tourism",
+        "required_inputs": [
+          "IATA code"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain information about airlines and destinations served by the airport DFW",
+        "domain": "Tourism",
+        "required_inputs": [
+          "IATA code"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve general information about the airport with the IATA code DFW",
+      "domain": "Tourism",
+      "required_inputs": [
+        "IATA code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch details about the facilities and services available at the airport DFW",
+      "domain": "Tourism",
+      "required_inputs": [
+        "IATA code"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain information about airlines and destinations served by the airport DFW",
+      "domain": "Tourism",
+      "required_inputs": [
+        "IATA code"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 172,
+    "total_tokens": 326,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 132,
+      "engine_ttft_ms": 2330,
+      "engine_ttlt_ms": 22588,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 132,
+      "service_ttft_ms": 4092,
+      "service_ttlt_ms": 24344,
+      "total_duration_ms": 24271,
+      "user_visible_ttft_ms": 4008
+    }
+  }
+}

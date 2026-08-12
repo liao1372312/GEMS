@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1920",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide an API for retrieving detailed information about tourist attractions; no suitable match found.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide an API for retrieving detailed information about tourist attractions; no suitable match found."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 1100,
+    "total_tokens": 1142,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 447,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 189,
+      "service_ttlt_ms": 591,
+      "total_duration_ms": 502,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

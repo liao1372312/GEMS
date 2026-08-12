@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_569",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide climate score, disaster info, or ETF prices needed to compile the report for the user.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide climate score, disaster info, or ETF prices needed to compile the report for the user."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1529,
+    "total_tokens": 1575,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 56,
+      "engine_ttft_ms": 558,
+      "engine_ttlt_ms": 3152,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 56,
+      "service_ttft_ms": 1290,
+      "service_ttlt_ms": 3878,
+      "total_duration_ms": 3788,
+      "user_visible_ttft_ms": 1192
+    }
+  }
+}

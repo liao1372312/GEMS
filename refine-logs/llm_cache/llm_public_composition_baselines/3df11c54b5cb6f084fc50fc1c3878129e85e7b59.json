@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2187",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs a trivia question from the geography category, but none of the candidates directly provide trivia questions. However, the highest-ranked API is a general information API which might be adaptable or contain relevant data. Other APIs are unrelated to trivia or geography.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs a trivia question from the geography category, but none of the candidates directly provide trivia questions. However, the highest-ranked API is a general information API which might be adaptable or contain relevant data. Other APIs are unrelated to trivia or geography."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1439,
+    "total_tokens": 1511,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 652,
+      "pre_inference_ms": 200,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 315,
+      "service_ttlt_ms": 910,
+      "total_duration_ms": 723,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

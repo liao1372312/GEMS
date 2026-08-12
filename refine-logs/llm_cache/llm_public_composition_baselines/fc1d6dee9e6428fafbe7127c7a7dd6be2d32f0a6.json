@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Currency_v3 - Latest Rates API provides current and historical currency exchange rates from the European Central Bank, updated every 15 minutes, which is most relevant for fetching current interest rates for central banks worldwide.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Currency_v3 - Latest Rates API provides current and historical currency exchange rates from the European Central Bank, updated every 15 minutes, which is most relevant for fetching current interest rates for central banks worldwide."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1475,
+    "total_tokens": 1538,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 715,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 157,
+      "service_ttlt_ms": 823,
+      "total_duration_ms": 747,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

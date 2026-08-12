@@ -1,0 +1,64 @@
+{
+  "record_id": "Medical_response_2137",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Gather a list of healthcare professionals for targeted mailing for the healthcare conference outreach.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Obtain the nutritional analysis for the specified food item.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food_item\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Gather a list of healthcare professionals for targeted mailing for the healthcare conference outreach.",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Obtain the nutritional analysis for the specified food item.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food_item"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Gather a list of healthcare professionals for targeted mailing for the healthcare conference outreach.",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Obtain the nutritional analysis for the specified food item.",
+      "domain": "Medical",
+      "required_inputs": [
+        "food_item"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 2537,
+    "total_tokens": 2634,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 712,
+      "pre_inference_ms": 211,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 372,
+      "service_ttlt_ms": 1021,
+      "total_duration_ms": 822,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

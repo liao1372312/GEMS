@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_705",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"This API converts Japanese text to voice and supports getting voice output, matching the requirement to get a Japanese speaker's voice saying 'Happy birthday' in English.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "This API converts Japanese text to voice and supports getting voice output, matching the requirement to get a Japanese speaker's voice saying 'Happy birthday' in English."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1340,
+    "total_tokens": 1393,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 484,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 208,
+      "service_ttlt_ms": 642,
+      "total_duration_ms": 538,
+      "user_visible_ttft_ms": 93
+    }
+  }
+}

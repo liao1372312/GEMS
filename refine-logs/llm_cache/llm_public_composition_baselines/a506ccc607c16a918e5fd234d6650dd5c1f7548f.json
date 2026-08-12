@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4677",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The user requests chicken recipes and details of chicken dishes from KFC Chickens API. Among the candidates, only the 'favoriteFoodApi - Get All Favorite Food' is related to food and can provide dish details, which is closest to the user's request. Other APIs are unrelated to food or chicken dishes.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The user requests chicken recipes and details of chicken dishes from KFC Chickens API. Among the candidates, only the 'favoriteFoodApi - Get All Favorite Food' is related to food and can provide dish details, which is closest to the user's request. Other APIs are unrelated to food or chicken dishes."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1429,
+    "total_tokens": 1512,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 1094,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 127,
+      "service_ttlt_ms": 1183,
+      "total_duration_ms": 1118,
+      "user_visible_ttft_ms": 56
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve live giveaways for popular games on the Steam platform\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve live giveaways for popular games on the Epic Games Store platform\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Estimate the worth in dollars of the live giveaways found on Steam\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"live giveaways data from step 1\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Estimate the worth in dollars of the live giveaways found on Epic Games Store\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"live giveaways data from step 2\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Fetch champion abilities of popular League of Legends champions\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve live giveaways for popular games on the Steam platform",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve live giveaways for popular games on the Epic Games Store platform",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Estimate the worth in dollars of the live giveaways found on Steam",
+        "domain": "gaming",
+        "required_inputs": [
+          "live giveaways data from step 1"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Estimate the worth in dollars of the live giveaways found on Epic Games Store",
+        "domain": "gaming",
+        "required_inputs": [
+          "live giveaways data from step 2"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Fetch champion abilities of popular League of Legends champions",
+        "domain": "gaming",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve live giveaways for popular games on the Steam platform",
+      "domain": "gaming",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve live giveaways for popular games on the Epic Games Store platform",
+      "domain": "gaming",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Estimate the worth in dollars of the live giveaways found on Steam",
+      "domain": "gaming",
+      "required_inputs": [
+        "live giveaways data from step 1"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Estimate the worth in dollars of the live giveaways found on Epic Games Store",
+      "domain": "gaming",
+      "required_inputs": [
+        "live giveaways data from step 2"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Fetch champion abilities of popular League of Legends champions",
+      "domain": "gaming",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 233,
+    "prompt_tokens": 2242,
+    "total_tokens": 2475,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1973,
+      "pre_inference_ms": 145,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 316,
+      "service_ttlt_ms": 2213,
+      "total_duration_ms": 2078,
+      "user_visible_ttft_ms": 171
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve live giveaways for popular games on Steam platform",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve live giveaways for popular games on Epic Games Store platform",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Estimate the worth in dollars of the live giveaways found",
+        "domain": "gaming",
+        "required_inputs": [
+          "live giveaways data from steps 1 and 2"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Fetch champion abilities of popular League of Legends champions",
+        "domain": "gaming",
+        "required_inputs": []
+      }
+    ]
+  }
+}

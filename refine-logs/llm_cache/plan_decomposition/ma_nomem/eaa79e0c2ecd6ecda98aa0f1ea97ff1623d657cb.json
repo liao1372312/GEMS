@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_1492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for suitable park locations that offer active products and facilities.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the 5-day weather forecast for the selected park location to check for favorable conditions.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"selected park location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for suitable park locations that offer active products and facilities.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the 5-day weather forecast for the selected park location to check for favorable conditions.",
+        "domain": "tourism",
+        "required_inputs": [
+          "selected park location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for suitable park locations that offer active products and facilities.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the 5-day weather forecast for the selected park location to check for favorable conditions.",
+      "domain": "tourism",
+      "required_inputs": [
+        "selected park location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 201,
+    "total_tokens": 305,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1131,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 277,
+      "service_ttlt_ms": 1356,
+      "total_duration_ms": 1246,
+      "user_visible_ttft_ms": 156
+    }
+  }
+}

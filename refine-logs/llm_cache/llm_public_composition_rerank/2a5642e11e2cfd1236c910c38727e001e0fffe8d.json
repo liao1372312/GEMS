@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_685",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"Tomba - EmailVerifier API directly verifies the email address and can check if it is a webmail account, matching the subtask intent and required input perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "Tomba - EmailVerifier API directly verifies the email address and can check if it is a webmail account, matching the subtask intent and required input perfectly."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1943,
+    "total_tokens": 1997,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 87,
+      "engine_ttlt_ms": 1302,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 558,
+      "service_ttlt_ms": 1767,
+      "total_duration_ms": 1732,
+      "user_visible_ttft_ms": 464
+    }
+  }
+}

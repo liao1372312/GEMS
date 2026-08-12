@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5445",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the subtask of removing a custom period from the user's calendar with required parameters start_date and end_date.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the subtask of removing a custom period from the user's calendar with required parameters start_date and end_date."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1910,
+    "total_tokens": 1957,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 664,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 167,
+      "service_ttlt_ms": 781,
+      "total_duration_ms": 700,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

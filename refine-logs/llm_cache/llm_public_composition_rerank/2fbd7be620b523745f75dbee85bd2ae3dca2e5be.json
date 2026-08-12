@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3234",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.95, \"rationale\": \"The StreamlineWatch - Streaming Guide API directly supports searching streaming sources by region (US), which matches the subtask to find movies or series available for streaming in the US. It requires the 'region' parameter, which is provided, and is more specific to streaming availability than generic movie listing or content extraction APIs.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.95,
+    "rationale": "The StreamlineWatch - Streaming Guide API directly supports searching streaming sources by region (US), which matches the subtask to find movies or series available for streaming in the US. It requires the 'region' parameter, which is provided, and is more specific to streaming availability than generic movie listing or content extraction APIs."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1888,
+    "total_tokens": 1973,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 1870,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 514,
+      "service_ttlt_ms": 2307,
+      "total_duration_ms": 2231,
+      "user_visible_ttft_ms": 431
+    }
+  }
+}

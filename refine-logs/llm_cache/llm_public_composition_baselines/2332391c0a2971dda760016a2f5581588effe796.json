@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.8, \"rationale\": \"Candidate 7 provides real-time social sentiment data for a specific stock, matching the user's request to monitor stock performance; no candidate addresses public holidays, but this is the best fit for the stock monitoring subtask.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.8,
+    "rationale": "Candidate 7 provides real-time social sentiment data for a specific stock, matching the user's request to monitor stock performance; no candidate addresses public holidays, but this is the best fit for the stock monitoring subtask."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1600,
+    "total_tokens": 1664,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 887,
+      "pre_inference_ms": 171,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 312,
+      "service_ttlt_ms": 1147,
+      "total_duration_ms": 1038,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

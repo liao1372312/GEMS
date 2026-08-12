@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_685",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The subtask is to retrieve fuel economy specifications of a Bugatti Chiron, but none of the candidates provide vehicle fuel economy data. The best matching candidates are those related to the email enrichment and verification tasks, which are part of the user request but not the current subtask. Since the subtask specifically requires vehicle make and model to get fuel economy, and no candidate matches that, the best candidate for this subtask is none. However, since the user request includes email enrichment and verification, the top-ranked candidate is Tomba - EmailVerifier, which matches part of the user request but not the subtask. Therefore, selected candidate rank 1 with low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The subtask is to retrieve fuel economy specifications of a Bugatti Chiron, but none of the candidates provide vehicle fuel economy data. The best matching candidates are those related to the email enrichment and verification tasks, which are part of the user request but not the current subtask. Since the subtask specifically requires vehicle make and model to get fuel economy, and no candidate matches that, the best candidate for this subtask is none. However, since the user request includes email enrichment and verification, the top-ranked candidate is Tomba - EmailVerifier, which matches part of the user request but not the subtask. Therefore, selected candidate rank 1 with low confidence."
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1807,
+    "total_tokens": 1963,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1880,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 169,
+      "service_ttlt_ms": 2016,
+      "total_duration_ms": 1916,
+      "user_visible_ttft_ms": 66
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9639",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The yiwugo product data search products API can be used to find anime-related media products by keyword, which aligns with the user's request to explore different media related to anime.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The yiwugo product data search products API can be used to find anime-related media products by keyword, which aligns with the user's request to explore different media related to anime."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1700,
+    "total_tokens": 1757,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 638,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 837,
+      "total_duration_ms": 741,
+      "user_visible_ttft_ms": 166
+    }
+  }
+}

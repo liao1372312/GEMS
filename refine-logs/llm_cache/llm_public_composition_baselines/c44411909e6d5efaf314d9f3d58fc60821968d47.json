@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_829",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Stock Prices - YTD Historical Daily Prices' API provides daily open, high, low, and close prices for a given symbol, which matches the requirement to retrieve daily OHLC prices for Ethereum over the past week. It requires the cryptocurrency name (ticker) and can be used with date parameters to specify the past week.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'Stock Prices - YTD Historical Daily Prices' API provides daily open, high, low, and close prices for a given symbol, which matches the requirement to retrieve daily OHLC prices for Ethereum over the past week. It requires the cryptocurrency name (ticker) and can be used with date parameters to specify the past week."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1644,
+    "total_tokens": 1732,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1236,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 167,
+      "service_ttlt_ms": 1351,
+      "total_duration_ms": 1271,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

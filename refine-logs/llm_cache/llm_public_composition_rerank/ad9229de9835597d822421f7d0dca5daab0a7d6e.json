@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8605",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are related to music or entertainment. However, the user needs to query popular artists and tracks in specific music genres, which requires a music-related API. Since no suitable music API is provided, the best possible choice is none. But as per instructions, must select one. The first API is unrelated but at least is a valid API. Therefore, select rank 1 with low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are related to music or entertainment. However, the user needs to query popular artists and tracks in specific music genres, which requires a music-related API. Since no suitable music API is provided, the best possible choice is none. But as per instructions, must select one. The first API is unrelated but at least is a valid API. Therefore, select rank 1 with low confidence."
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 2027,
+    "total_tokens": 2131,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1693,
+      "pre_inference_ms": 149,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 421,
+      "service_ttlt_ms": 1962,
+      "total_duration_ms": 1822,
+      "user_visible_ttft_ms": 272
+    }
+  }
+}

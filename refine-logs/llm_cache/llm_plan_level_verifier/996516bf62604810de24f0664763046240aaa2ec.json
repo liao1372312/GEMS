@@ -1,0 +1,45 @@
+{
+  "record_id": "Finance_response_3826",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"The LLM choice Quotient - /crypto/live directly provides detailed live cryptocurrency data for Binance USD, matching the step intent better than the semantic top-1 which is a forex OHLC API unrelated to crypto.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"The LLM choice Quotient - /forex/live specifically provides current forex market data for USD-EUR, better matching the step intent than the semantic top-1 which is a broader asset info API.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "The LLM choice Quotient - /crypto/live directly provides detailed live cryptocurrency data for Binance USD, matching the step intent better than the semantic top-1 which is a forex OHLC API unrelated to crypto."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "The LLM choice Quotient - /forex/live specifically provides current forex market data for USD-EUR, better matching the step intent than the semantic top-1 which is a broader asset info API."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1144,
+    "total_tokens": 1270,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 113,
+      "engine_ttlt_ms": 1720,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 302,
+      "service_ttlt_ms": 1911,
+      "total_duration_ms": 1815,
+      "user_visible_ttft_ms": 186
+    }
+  }
+}

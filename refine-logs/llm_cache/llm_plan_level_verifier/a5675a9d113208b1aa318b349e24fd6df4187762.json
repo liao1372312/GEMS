@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_4611",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to top gainers; LLM choice is the same API, so no improvement.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is for cryptocurrencies, not stock market top losers; LLM choice is more relevant to stock market losers.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice directly matches querying active cryptocurrencies; semantic top-1 is unrelated to crypto market.\"}],\"workflow_confidence\":0.7}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to top gainers; LLM choice is the same API, so no improvement."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is for cryptocurrencies, not stock market top losers; LLM choice is more relevant to stock market losers."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice directly matches querying active cryptocurrencies; semantic top-1 is unrelated to crypto market."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1440,
+    "total_tokens": 1566,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 1557,
+      "pre_inference_ms": 149,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 315,
+      "service_ttlt_ms": 1780,
+      "total_duration_ms": 1640,
+      "user_visible_ttft_ms": 166
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "record_id": "Technology_response_5279",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Check the existence of a specific key\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"key_to_check_existence\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the ILOD check result for another key\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"key_for_ilod_check\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Merge multiple PDF files into a single document\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"list_of_pdf_files\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Check the existence of a specific key",
+        "domain": "Technology",
+        "required_inputs": [
+          "key_to_check_existence"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Get the ILOD check result for another key",
+        "domain": "Technology",
+        "required_inputs": [
+          "key_for_ilod_check"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Merge multiple PDF files into a single document",
+        "domain": "Technology",
+        "required_inputs": [
+          "list_of_pdf_files"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Check the existence of a specific key",
+      "domain": "Technology",
+      "required_inputs": [
+        "key_to_check_existence"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Get the ILOD check result for another key",
+      "domain": "Technology",
+      "required_inputs": [
+        "key_for_ilod_check"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Merge multiple PDF files into a single document",
+      "domain": "Technology",
+      "required_inputs": [
+        "list_of_pdf_files"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 188,
+    "total_tokens": 329,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 2950,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 171,
+      "service_ttlt_ms": 3056,
+      "total_duration_ms": 2976,
+      "user_visible_ttft_ms": 86
+    }
+  }
+}

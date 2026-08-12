@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_808",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor API can search and extract relevant content about hotels and attractions in Sydney, which is essential to compile the required presentation for the team-building retreat.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor API can search and extract relevant content about hotels and attractions in Sydney, which is essential to compile the required presentation for the team-building retreat."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1552,
+    "total_tokens": 1607,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 648,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 282,
+      "service_ttlt_ms": 875,
+      "total_duration_ms": 753,
+      "user_visible_ttft_ms": 149
+    }
+  }
+}

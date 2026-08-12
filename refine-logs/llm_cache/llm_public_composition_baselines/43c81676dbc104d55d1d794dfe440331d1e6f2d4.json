@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2684",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The 'Trading View - exchanges/list' API in the Finance domain lists all available and supported exchanges, which is relevant for exploring futures contracts available for trading.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The 'Trading View - exchanges/list' API in the Finance domain lists all available and supported exchanges, which is relevant for exploring futures contracts available for trading."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1011,
+    "total_tokens": 1064,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 617,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 181,
+      "service_ttlt_ms": 723,
+      "total_duration_ms": 651,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

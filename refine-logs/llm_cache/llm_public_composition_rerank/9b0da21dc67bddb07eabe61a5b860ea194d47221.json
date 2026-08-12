@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The subtask is to list top-rated unique team-building activities. Among the candidates, only the taboo-api provides categories and game-related content that could be adapted for team-building activities. All other APIs are sports-related and unrelated to team-building activities. Although taboo-api is a gaming API, it is the closest relevant option for unique team-building activity ideas.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The subtask is to list top-rated unique team-building activities. Among the candidates, only the taboo-api provides categories and game-related content that could be adapted for team-building activities. All other APIs are sports-related and unrelated to team-building activities. Although taboo-api is a gaming API, it is the closest relevant option for unique team-building activity ideas."
+  },
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 2586,
+    "total_tokens": 2678,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1411,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 311,
+      "service_ttlt_ms": 1656,
+      "total_duration_ms": 1557,
+      "user_visible_ttft_ms": 203
+    }
+  }
+}

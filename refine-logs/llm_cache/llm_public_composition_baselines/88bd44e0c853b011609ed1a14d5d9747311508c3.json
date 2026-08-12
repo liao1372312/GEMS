@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2628",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API allows searching for content based on a query, which can be used to find the nearest pharmacy in Dakar including its address and website. It matches the subtask requirements best.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API allows searching for content based on a query, which can be used to find the nearest pharmacy in Dakar including its address and website. It matches the subtask requirements best."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1659,
+    "total_tokens": 1724,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 28,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1894,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 28,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 1986,
+      "total_duration_ms": 1916,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

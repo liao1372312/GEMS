@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4667",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The user wants odds and scores for upcoming and live football games in the US. The Football Betting Odds API with endpoint /provider1/live/upcoming provides live and upcoming football betting odds and matches list, which matches the request intent best.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The user wants odds and scores for upcoming and live football games in the US. The Football Betting Odds API with endpoint /provider1/live/upcoming provides live and upcoming football betting odds and matches list, which matches the request intent best."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1276,
+    "total_tokens": 1345,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 560,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 211,
+      "service_ttlt_ms": 718,
+      "total_duration_ms": 624,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

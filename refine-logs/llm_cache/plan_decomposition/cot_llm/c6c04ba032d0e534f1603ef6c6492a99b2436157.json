@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a random quote from a villain for comic book inspiration\",\n      \"domain\": \"Quotes\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch interesting facts about numbers to incorporate into the storyline\",\n      \"domain\": \"Knowledge\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a random quote from a villain for comic book inspiration",
+        "domain": "Quotes",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch interesting facts about numbers to incorporate into the storyline",
+        "domain": "Knowledge",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a random quote from a villain for comic book inspiration",
+      "domain": "Quotes",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch interesting facts about numbers to incorporate into the storyline",
+      "domain": "Knowledge",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 193,
+    "total_tokens": 284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 26,
+      "engine_ttft_ms": 29,
+      "engine_ttlt_ms": 2422,
+      "pre_inference_ms": 167,
+      "service_tbt_ms": 26,
+      "service_ttft_ms": 296,
+      "service_ttlt_ms": 2671,
+      "total_duration_ms": 2513,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

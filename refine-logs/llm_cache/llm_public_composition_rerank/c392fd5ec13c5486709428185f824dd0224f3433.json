@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3807",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants romantic and easy-to-make main course recipes. The Recipe Finder - dinner/ingredient API directly provides dinner recipes with ingredients and instructions, fitting the main course requirement. Although it requires an ingredient parameter, it has a default value and can be used to retrieve suitable recipes. Other APIs focus on specific meal types like ice cream, cake, or breakfast, which are less relevant for main courses.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants romantic and easy-to-make main course recipes. The Recipe Finder - dinner/ingredient API directly provides dinner recipes with ingredients and instructions, fitting the main course requirement. Although it requires an ingredient parameter, it has a default value and can be used to retrieve suitable recipes. Other APIs focus on specific meal types like ice cream, cake, or breakfast, which are less relevant for main courses."
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 2260,
+    "total_tokens": 2363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 1651,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 189,
+      "service_ttlt_ms": 1758,
+      "total_duration_ms": 1676,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

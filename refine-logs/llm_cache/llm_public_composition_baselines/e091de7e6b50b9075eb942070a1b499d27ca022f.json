@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4406",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.1, \"rationale\": \"None of the candidates specifically provide NBA games held during charity events or team details for those games. The top-ranked candidate is a football score API, which is unrelated to NBA or charity events. No suitable NBA charity event game API is available in the candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.1,
+    "rationale": "None of the candidates specifically provide NBA games held during charity events or team details for those games. The top-ranked candidate is a football score API, which is unrelated to NBA or charity events. No suitable NBA charity event game API is available in the candidates."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 2154,
+    "total_tokens": 2227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 764,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 219,
+      "service_ttlt_ms": 947,
+      "total_duration_ms": 848,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

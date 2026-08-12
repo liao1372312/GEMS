@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_715",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidates directly provide a radio station recommendation based on favorite music genres, but the highest-ranked candidate is unrelated to the task. Since the request is to recommend a radio station based on favorite music genres, and no candidate matches this, the best choice is to select the top-ranked candidate as a fallback, indicating low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidates directly provide a radio station recommendation based on favorite music genres, but the highest-ranked candidate is unrelated to the task. Since the request is to recommend a radio station based on favorite music genres, and no candidate matches this, the best choice is to select the top-ranked candidate as a fallback, indicating low confidence."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1441,
+    "total_tokens": 1529,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 1241,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 211,
+      "service_ttlt_ms": 1463,
+      "total_duration_ms": 1363,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

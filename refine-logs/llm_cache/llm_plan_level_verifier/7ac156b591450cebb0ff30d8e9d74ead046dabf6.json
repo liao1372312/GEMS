@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_1565",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API directly matches the step description better by fetching trader positions (portfolio) rather than general portfolio info.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API directly provides latest stock prices for Apple Inc. with appropriate symbol parameter, better matching the step intent.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API provides live stock price data for Tesla Inc., directly matching the step requirement.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API directly matches the step description better by fetching trader positions (portfolio) rather than general portfolio info."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice API directly provides latest stock prices for Apple Inc. with appropriate symbol parameter, better matching the step intent."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice API provides live stock price data for Tesla Inc., directly matching the step requirement."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 1285,
+    "total_tokens": 1449,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 2072,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 2226,
+      "total_duration_ms": 2146,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

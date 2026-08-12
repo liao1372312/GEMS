@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2343",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Flight Data_v2 API provides a comprehensive list of cities with data including names and populations, which is essential for identifying the five largest cities near Orlando. It is the best starting point to gather city names within the required radius before fetching detailed information.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Flight Data_v2 API provides a comprehensive list of cities with data including names and populations, which is essential for identifying the five largest cities near Orlando. It is the best starting point to gather city names within the required radius before fetching detailed information."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1305,
+    "total_tokens": 1377,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 678,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 209,
+      "service_ttlt_ms": 833,
+      "total_duration_ms": 723,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

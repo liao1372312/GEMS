@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GEMS provider subgraph</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #F8FAFC;
+      color: #111827;
+    }
+    body { margin: 0; }
+    header {
+      padding: 18px 24px 12px;
+      border-bottom: 1px solid #D1D5DB;
+      background: #FFFFFF;
+    }
+    h1 { margin: 0 0 8px; font-size: 22px; font-weight: 700; }
+    .legend { display: flex; flex-wrap: wrap; gap: 10px 16px; font-size: 13px; color: #374151; }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .legend i { width: 12px; height: 12px; border-radius: 50%; border: 1px solid #374151; }
+    main { display: grid; grid-template-columns: minmax(0, 1fr) 330px; min-height: calc(100vh - 86px); }
+    .canvas { overflow: auto; padding: 16px; }
+    aside {
+      border-left: 1px solid #D1D5DB;
+      background: #FFFFFF;
+      padding: 16px;
+      overflow: auto;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 7px 8px; border-bottom: 1px solid #E5E7EB; text-align: left; vertical-align: top; }
+    th { width: 110px; color: #374151; }
+    svg {
+      width: 1200px;
+      height: 780px;
+      background: #FFFFFF;
+      border: 1px solid #D1D5DB;
+      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.08);
+    }
+    .node circle { stroke: #1F2937; stroke-width: 1.1; }
+    .node-label { text-anchor: middle; font-size: 12px; fill: #111827; }
+    .node-type { text-anchor: middle; font-size: 10px; fill: #111827; font-weight: 700; pointer-events: none; }
+    .edge-label {
+      text-anchor: middle;
+      font-size: 10px;
+      fill: #374151;
+      paint-order: stroke;
+      stroke: #FFFFFF;
+      stroke-width: 3px;
+      stroke-linejoin: round;
+    }
+    @media (max-width: 900px) {
+      main { grid-template-columns: 1fr; }
+      aside { border-left: 0; border-top: 1px solid #D1D5DB; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GEMS provider subgraph</h1>
+    <div class="legend"><span><i style="background:#72B7B2"></i>subtask</span>
+<span><i style="background:#F58518"></i>api</span>
+<span><i style="background:#54A24B"></i>parameter</span>
+<span><i style="background:#B279A2"></i>schema</span>
+<span><i style="background:#EECA3B"></i>qos</span>
+<span><i style="background:#9D755D"></i>execution</span></div>
+  </header>
+  <main>
+    <section class="canvas">
+      <svg viewBox="0 0 1200 780" role="img" aria-label="GEMS provider subgraph">
+        <defs>
+          <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="#6B7280" />
+          </marker>
+        </defs>
+        <line x1="796.6" y1="168.1" x2="341.1" y2="192.9" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="568.8" y="180.5" class="edge-label">binds</text><line x1="822.3" y1="190.7" x2="851.0" y2="576.4" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="836.6" y="383.6" class="edge-label">produces</text><line x1="809.2" y1="187.9" x2="572.8" y2="627.8" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="691.0" y="407.9" class="edge-label">produces</text><line x1="991.3" y1="325.9" x2="656.2" y2="632.7" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="823.7" y="479.3" class="edge-label">binds</text><line x1="985.3" y1="313.6" x2="204.5" y2="443.9" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="594.9" y="378.8" class="edge-label">produces</text><line x1="1007.2" y1="333.6" x2="997.2" y2="468.3" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="1002.2" y="400.9" class="edge-label">produces</text><line x1="1002.4" y1="359.0" x2="228.3" y2="488.2" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="615.4" y="423.6" class="edge-label">produces</text><line x1="1017.6" y1="377.6" x2="967.3" y2="510.8" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="992.5" y="444.2" class="edge-label">produces</text><line x1="1007.0" y1="340.6" x2="770.2" y2="161.1" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="888.6" y="250.8" class="edge-label">depends_on</text><line x1="996.6" y1="456.0" x2="508.2" y2="632.5" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="752.4" y="544.2" class="edge-label">requires</text><line x1="1024.5" y1="424.4" x2="1024.3" y2="425.1" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="1024.4" y="424.8" class="edge-label">produces</text><line x1="995.3" y1="446.6" x2="194.4" y2="403.0" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="594.8" y="424.8" class="edge-label">produces</text><line x1="995.5" y1="443.9" x2="214.7" y2="313.6" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="605.1" y="378.8" class="edge-label">depends_on</text><line x1="797.9" y1="603.1" x2="967.3" y2="287.9" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="882.6" y="445.5" class="edge-label">produces</text><line x1="700.5" y1="621.0" x2="393.3" y2="186.4" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="546.9" y="403.7" class="edge-label">requires</text><line x1="703.0" y1="619.5" x2="460.3" y2="167.7" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="581.7" y="393.6" class="edge-label">produces</text><line x1="709.1" y1="617.2" x2="605.2" y2="153.4" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="657.2" y="385.3" class="edge-label">produces</text><line x1="712.6" y1="616.7" x2="678.6" y2="158.1" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="695.6" y="387.4" class="edge-label">depends_on</text><line x1="277.8" y1="548.5" x2="185.3" y2="376.2" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="231.5" y="462.4" class="edge-label">requires</text><line x1="313.2" y1="569.7" x2="886.8" y2="569.7" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="600.0" y="569.7" class="edge-label">produces</text><line x1="284.0" y1="546.3" x2="226.6" y2="290.2" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="255.3" y="418.2" class="edge-label">produces</text><line x1="310.4" y1="580.9" x2="326.0" y2="589.1" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="318.2" y="585.0" class="edge-label">depends_on</text><line x1="263.1" y1="523.6" x2="914.2" y2="237.5" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="588.7" y="380.6" class="edge-label">requires</text><line x1="262.4" y1="522.0" x2="861.7" y2="205.4" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="562.0" y="363.7" class="edge-label">produces</text><line x1="255.0" y1="513.6" x2="509.4" y2="153.8" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="382.2" y="333.7" class="edge-label">produces</text><line x1="262.4" y1="544.4" x2="392.2" y2="613.0" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="327.3" y="578.7" class="edge-label">depends_on</text><line x1="287.5" y1="231.8" x2="1002.4" y2="351.1" stroke="#6B7280" stroke-width="1.4" marker-end="url(#arrow)" /><text x="645.0" y="291.5" class="edge-label">selects</text>
+        <g class="node" data-type="qos"><title>qos:87ad864fe0b51457
+type=qos
+score=0.0
+reliability=0.8295
+risk=0.0
+QoS for /geoip/v1/lite/GetIpInfoLite: latency 1006, service level 100, success rate 92, popularity 8.1.</title><circle cx="600.0" cy="130.0" r="26.8" fill="#EECA3B" /><text x="600.0" y="170.8" class="node-label">87ad864fe0b51457</text><text x="600.0" y="134.0" class="node-type">qos</text></g><g class="node" data-type="execution"><title>execution:ced84c6c922d319550
+type=execution
+score=0.0
+reliability=0.8444
+risk=0.0
+Execution feedback for endpoint 87ad864fe0b51457. Success: True. Status: 200. Latency: 1006 ms. Response: {&#x27;available&#x27;: True, &#x27;preview&#x27;: &#x27;{&quot;ipAddress&quot;: &quot;52.30.208.221&quot;, &quot;asn&quot;: {&quot;asNumber&quot;: 16509, &quot;organization&quot;: &quot;Amazon.com, Inc.&quot;}, &quot;city&quot;: {&quot;cityName&quot;: &quot;Dublin&quot;, &quot;cityNames&quot;: {&quot;en&quot;: &quot;Dublin&quot;}, &quot;location&quot;: {&quot;latitude&quot;: 53.3498, &quot;longitude&quot;: -6.2603100000000005}, &quot;mostSpecificSubdivision&quot;: {&quot;name&quot;: &quot;Leinster&quot;, &quot;names&quot;: {&quot;en&quot;: &quot;Leinster&quot;}}, &quot;subdivisions&quot;: [{&quot;name&quot;: &quot;Leinster&quot;, &quot;names&quot;: {&quot;en&quot;: &quot;Leinster&quot;}}], &quot;stateOrProvinceName&quot;: null, &quot;continentCode&quot;: &quot;EU&quot;, &quot;continentName&quot;: &quot;Europe&quot;, &quot;continent</title><circle cx="676.8" cy="134.2" r="27.0" fill="#9D755D" /><text x="676.8" y="175.2" class="node-label">Location</text><text x="676.8" y="138.2" class="node-type">execution</text></g><g class="node" data-type="execution"><title>execution:edb9b2ef3c155b8083
+type=execution
+score=0.0
+reliability=0.8485
+risk=0.0
+Execution feedback for endpoint 9a50c965e5567f38. Success: True. Status: 200. Latency: 1293 ms. Response: {&#x27;available&#x27;: True, &#x27;preview&#x27;: &#x27;{&quot;ip&quot;: &quot;103.242.175.228&quot;}&#x27;, &#x27;shape&#x27;: {&#x27;ip&#x27;: &#x27;str&#x27;}, &#x27;top_keys&#x27;: [&#x27;ip&#x27;], &#x27;type&#x27;: &#x27;dict&#x27;}.</title><circle cx="751.1" cy="146.6" r="27.0" fill="#9D755D" /><text x="751.1" y="187.6" class="node-label">Location</text><text x="751.1" y="150.6" class="node-type">execution</text></g><g class="node" data-type="api"><title>api:endpoint:af65582c62f7315c
+type=api
+score=0.5142
+reliability=0.8195
+risk=0.0
+GET https://ip-geolocation-find-ip-location-and-ip-info.p.rapidapi.com/backend/ipinfo/. Endpoint: Get IP Geolocation. Description: This endpoint returns geolocation and other useful points from an IP Address. If IP address is provided as query parameter, geolocation is performed on that IP address. If IP address is left empty, geolocation data of client IP is returned.. Required parameters: . Optional parameters: ip (STRING).. This endpoint returns geolocation and other useful points from an IP Address. If IP address is provided as query parameter, geolocation is performed on that IP address. </title><circle cx="820.5" cy="166.8" r="26.7" fill="#F58518" /><text x="820.5" y="207.5" class="node-label">Get IP Geolocation</text><text x="820.5" y="170.8" class="node-type">api</text></g><g class="node" data-type="schema"><title>schema:2c88c998bee1ff53:d3f181f89467b186
+type=schema
+score=0.0
+reliability=0.684
+risk=0.0
+{&#x27;available&#x27;: True, &#x27;sha1&#x27;: &#x27;d1547e65d970&#x27;, &#x27;text&#x27;: &#x27;{&quot;properties&quot;: {&quot;accuracyRadius&quot;: {&quot;type&quot;: &quot;integer&quot;}, &quot;asn&quot;: {&quot;type&quot;: &quot;string&quot;}, &quot;asnId&quot;: {&quot;type&quot;: &quot;integer&quot;}, &quot;city&quot;: {&quot;type&quot;: &quot;string&quot;}, &quot;cityId&quot;: {&quot;type&quot;: &quot;integer&quot;}, &quot;continent&quot;: {&quot;type&quot;: &quot;string&quot;}, &quot;continentId&quot;: {&quot;type&quot;: &quot;integer&quot;}, &quot;country&quot;: {&quot;type&quot;: &quot;string&quot;}, &quot;countryId&quot;: {&quot;type&quot;: &quot;integer&quot;}, &quot;countryIsoCode&quot;: {&quot;type&quot;: &quot;string&quot;}, &quot;latitude&quot;: {&quot;type&quot;: &quot;number&quot;}, &quot;longitude&quot;: {&quot;type&quot;: &quot;number&quot;}, &quot;postalCode&quot;: {&quot;type&quot;: &quot;string&quot;}, &quot;subdivisions&quot;: {&quot;items&quot;: {&quot;properties&quot;: {&quot;id&quot;: {&quot;type&quot;: &quot;integer&quot;}, &quot;name&quot;: {&quot;type&quot;: &quot;string&quot;}}, &quot;type&quot;:</title><circle cx="882.9" cy="194.2" r="24.9" fill="#B279A2" /><text x="882.9" y="233.1" class="node-label">2c88c998bee1ff53:d3f181f89467b186</text><text x="882.9" y="198.2" class="node-type">schema</text></g><g class="node" data-type="parameter"><title>parameter:2c88c998bee1ff53:ip
+type=parameter
+score=0.0
+reliability=0.7112
+risk=0.0
+Required parameter ip. Type: string. Default: 72.30.2.43. Description: `IP address` to retrieve.</title><circle cx="936.2" cy="227.9" r="25.2" fill="#54A24B" /><text x="936.2" y="267.1" class="node-label">ip</text><text x="936.2" y="231.9" class="node-type">parameter</text></g><g class="node" data-type="qos"><title>qos:10c9bb6374f20b54
+type=qos
+score=0.4291
+reliability=0.6216
+risk=0.0619
+QoS for Geolocation from an IP Address: latency 598, service level 100, success rate 0, popularity 0.</title><circle cx="978.7" cy="266.8" r="24.1" fill="#EECA3B" /><text x="978.7" y="304.9" class="node-label">10c9bb6374f20b54</text><text x="978.7" y="270.8" class="node-type">qos</text></g><g class="node" data-type="api"><title>api:endpoint:a6dcfb4f0452ba9c
+type=api
+score=0.5038
+reliability=0.8142
+risk=0.0
+GET https://ip-geolocation21.p.rapidapi.com/backend/ipinfo/. Endpoint: Get IP Geolocation. Description: This endpoint returns geolocation and other useful points from an IP Address. If IP address is provided as query parameter, geolocation is performed on that IP address. If IP address is left empty, geolocation data of client IP is returned.. Required parameters: . Optional parameters: ip (STRING).. This endpoint returns geolocation and other useful points from an IP Address. If IP address is provided as query parameter, geolocation is performed on that IP address. If IP address is left empty</title><circle cx="1009.0" cy="309.7" r="26.6" fill="#F58518" /><text x="1009.0" y="350.2" class="node-label">Get IP Geolocation</text><text x="1009.0" y="313.7" class="node-type">api</text></g><g class="node" data-type="api"><title>api:endpoint:9a50c965e5567f38
+type=api
+score=0.4593
+reliability=0.8689
+risk=0.0
+GET https://ip-address3.p.rapidapi.com/. Endpoint: Get User IP. Description: Get user IP address.. Required parameters: . Optional parameters: .. Get user IP address.. Low latency API to retrieve User IP Address. Use to integrate on web based client apps to determine IP address of user.. Category: Location. Method: GET</title><circle cx="1026.1" cy="355.1" r="27.3" fill="#F58518" /><text x="1026.1" y="396.4" class="node-label">Get User IP</text><text x="1026.1" y="359.1" class="node-type">api</text></g><g class="node" data-type="schema"><title>schema:534eaadd761da452:3af3e4c3f9aa8187
+type=schema
+score=0.0
+reliability=0.718
+risk=0.0
+{&#x27;available&#x27;: False}</title><circle cx="1029.6" cy="401.7" r="25.3" fill="#B279A2" /><text x="1029.6" y="441.0" class="node-label">534eaadd761da452:3af3e4c3f9aa8187</text><text x="1029.6" y="405.7" class="node-type">schema</text></g><g class="node" data-type="api"><title>api:endpoint:534eaadd761da452
+type=api
+score=0.4972
+reliability=0.8156
+risk=0.0
+GET https://ip-address-geolocation1.p.rapidapi.com/{ip}/?token=free. Endpoint: IP Geolocation. Description: Returns the geolocation of the given IP address. Required parameters: ip (string). Optional parameters: .. Returns the geolocation of the given IP address. Complete free IP address geolocation API. Category: Location. Method: GET</title><circle cx="1019.2" cy="447.9" r="26.6" fill="#F58518" /><text x="1019.2" y="488.5" class="node-label">IP Geolocation</text><text x="1019.2" y="451.9" class="node-type">api</text></g><g class="node" data-type="qos"><title>qos:a6dcfb4f0452ba9c
+type=qos
+score=0.0
+reliability=0.8355
+risk=0.0
+QoS for Get IP Geolocation: latency 1226, service level 100, success rate 100, popularity 7.3.</title><circle cx="995.4" cy="492.2" r="26.9" fill="#EECA3B" /><text x="995.4" y="533.0" class="node-label">a6dcfb4f0452ba9c</text><text x="995.4" y="496.2" class="node-type">qos</text></g><g class="node" data-type="qos"><title>qos:9a50c965e5567f38
+type=qos
+score=0.0
+reliability=0.8248
+risk=0.0
+QoS for Get User IP: latency 1293, service level 100, success rate 100, popularity 5.6.</title><circle cx="958.9" cy="533.2" r="26.7" fill="#EECA3B" /><text x="958.9" y="574.0" class="node-label">9a50c965e5567f38</text><text x="958.9" y="537.2" class="node-type">qos</text></g><g class="node" data-type="schema"><title>schema:2c03abb39eb4b50e:3af3e4c3f9aa8187
+type=schema
+score=0.0
+reliability=0.7619
+risk=0.0
+{&#x27;available&#x27;: False}</title><circle cx="910.8" cy="569.7" r="25.9" fill="#B279A2" /><text x="910.8" y="609.6" class="node-label">2c03abb39eb4b50e:3af3e4c3f9aa8187</text><text x="910.8" y="573.7" class="node-type">schema</text></g><g class="node" data-type="schema"><title>schema:af65582c62f7315c:3af3e4c3f9aa8187
+type=schema
+score=0.0
+reliability=0.7726
+risk=0.0
+{&#x27;available&#x27;: False}</title><circle cx="852.7" cy="600.3" r="26.0" fill="#B279A2" /><text x="852.7" y="640.4" class="node-label">af65582c62f7315c:3af3e4c3f9aa8187</text><text x="852.7" y="604.3" class="node-type">schema</text></g><g class="node" data-type="api"><title>api:endpoint:10c9bb6374f20b54
+type=api
+score=0.0
+reliability=0.4679
+risk=0.2973
+GET https://abstract-ip-geolocation.p.rapidapi.com/. Endpoint: Geolocation from an IP Address. Description: Get Geolocation from an IP Address. Required parameters: . Optional parameters: q (STRING).. Get Geolocation from an IP Address. Get the location of any IP along with city, region, country, lat/long data, and more here https://www.abstractapi.com/ip-geolocation-api. Documentation available here: https://www.abstractapi.com/ip-geolocation-api#docs. Category: Advertising. Method: GET</title><circle cx="786.6" cy="624.3" r="22.1" fill="#F58518" /><text x="786.6" y="660.3" class="node-label">Geolocation from an IP Address</text><text x="786.6" y="628.3" class="node-type">api</text></g><g class="node" data-type="api"><title>api:endpoint:87ad864fe0b51457
+type=api
+score=0.4601
+reliability=0.8683
+risk=0.0
+GET https://itcooking-eu-ip-geolocation1.p.rapidapi.com/geoip/v1/lite/GetIpInfoLite. Endpoint: /geoip/v1/lite/GetIpInfoLite. Description: Identifying location for 1 IP address.. Required parameters: ip (STRING). Optional parameters: .. Identifying location for 1 IP address.. IP Geolocation REST API by Itcooking.eu. Fast and easy way to get (lookup) geolocation data to IPv4 and IPv6 address.. Category: Location. Method: GET</title><circle cx="714.4" cy="640.6" r="27.3" fill="#F58518" /><text x="714.4" y="681.9" class="node-label">/geoip/v1/lite/GetIpInfoLite</text><text x="714.4" y="644.6" class="node-type">api</text></g><g class="node" data-type="parameter"><title>parameter:a6dcfb4f0452ba9c:ip
+type=parameter
+score=0.0
+reliability=0.7166
+risk=0.0
+Optional parameter ip. Type: STRING. Default: 206.71.50.230. Description: .</title><circle cx="638.5" cy="649.0" r="25.3" fill="#54A24B" /><text x="638.5" y="688.3" class="node-label">ip</text><text x="638.5" y="653.0" class="node-type">parameter</text></g><g class="node" data-type="qos"><title>qos:af65582c62f7315c
+type=qos
+score=0.0
+reliability=0.8418
+risk=0.0
+QoS for Get IP Geolocation: latency 952, service level 100, success rate 100, popularity 8.2.</title><circle cx="561.5" cy="649.0" r="26.9" fill="#EECA3B" /><text x="561.5" y="689.9" class="node-label">af65582c62f7315c</text><text x="561.5" y="653.0" class="node-type">qos</text></g><g class="node" data-type="parameter"><title>parameter:534eaadd761da452:ip
+type=parameter
+score=0.0
+reliability=0.7118
+risk=0.0
+Required parameter ip. Type: string. Default: . Description: .</title><circle cx="485.6" cy="640.6" r="25.3" fill="#54A24B" /><text x="485.6" y="679.9" class="node-label">ip</text><text x="485.6" y="644.6" class="node-type">parameter</text></g><g class="node" data-type="execution"><title>execution:0727f933f1c4e3e1fa
+type=execution
+score=0.0
+reliability=0.8429
+risk=0.0
+Execution feedback for endpoint 2c88c998bee1ff53. Success: True. Status: 200. Latency: 166 ms. Response: {&#x27;available&#x27;: True, &#x27;preview&#x27;: &#x27;{&quot;message&quot;: &quot;You have exceeded the rate limit per second for your plan, BASIC, by the API provider&quot;}&#x27;, &#x27;shape&#x27;: {&#x27;message&#x27;: &#x27;str&#x27;}, &#x27;top_keys&#x27;: [&#x27;message&#x27;], &#x27;type&#x27;: &#x27;dict&#x27;}.</title><circle cx="413.4" cy="624.3" r="27.0" fill="#9D755D" /><text x="413.4" y="665.2" class="node-label">Location</text><text x="413.4" y="628.3" class="node-type">execution</text></g><g class="node" data-type="execution"><title>execution:79699dcd47d0e481c7
+type=execution
+score=0.0
+reliability=0.8444
+risk=0.0
+Execution feedback for endpoint 2c03abb39eb4b50e. Success: True. Status: None. Latency: 386 ms. Response: {&#x27;available&#x27;: True, &#x27;preview&#x27;: &#x27;1633&#x27;, &#x27;shape&#x27;: &#x27;int&#x27;, &#x27;type&#x27;: &#x27;int&#x27;}.</title><circle cx="347.3" cy="600.3" r="27.0" fill="#9D755D" /><text x="347.3" y="641.3" class="node-label">Data</text><text x="347.3" y="604.3" class="node-type">execution</text></g><g class="node" data-type="api"><title>api:endpoint:2c03abb39eb4b50e
+type=api
+score=0.4832
+reliability=0.8685
+risk=0.0
+GET https://ip-to-income.p.rapidapi.com/. Endpoint: IP address. Description: IP address. Required parameters: ip (STRING). Optional parameters: .. IP address. Get the per capita income USD/yr with the IP address in the US. Useful in LTV &amp; user valuation modeling. Category: Data. Method: GET</title><circle cx="289.2" cy="569.7" r="27.3" fill="#F58518" /><text x="289.2" y="611.0" class="node-label">IP address</text><text x="289.2" y="573.7" class="node-type">api</text></g><g class="node" data-type="api"><title>api:endpoint:2c88c998bee1ff53
+type=api
+score=0.4472
+reliability=0.7796
+risk=0.0
+GET https://ip-geolocator1.p.rapidapi.com/v1/lookup/72.30.2.43. Endpoint: IP lookup. Description: ## Retrieve an IP address geolocation and ASN informations.. Required parameters: ip (string): `IP address` to retrieve. Optional parameters: .. ## Retrieve an IP address geolocation and ASN informations.. JSON API for geolocating IP addresses Free monthly requests: 100k. IP info provided: coordinates, city, timezone, country, continent, ASN &amp; others.. Category: Location. Method: GET</title><circle cx="241.1" cy="533.2" r="26.1" fill="#F58518" /><text x="241.1" y="573.4" class="node-label">IP lookup</text><text x="241.1" y="537.2" class="node-type">api</text></g><g class="node" data-type="schema"><title>schema:9a50c965e5567f38:e9efa5f75db261e5
+type=schema
+score=0.0
+reliability=0.7642
+risk=0.0
+{&#x27;available&#x27;: True, &#x27;sha1&#x27;: &#x27;81b5c5c18d04&#x27;, &#x27;text&#x27;: &#x27;{&quot;properties&quot;: {&quot;ip&quot;: {&quot;type&quot;: &quot;string&quot;}}, &quot;type&quot;: &quot;object&quot;}&#x27;, &#x27;type&#x27;: &#x27;dict&#x27;}</title><circle cx="204.6" cy="492.2" r="25.9" fill="#B279A2" /><text x="204.6" y="532.1" class="node-label">9a50c965e5567f38:e9efa5f75db261e5</text><text x="204.6" y="496.2" class="node-type">schema</text></g><g class="node" data-type="schema"><title>schema:a6dcfb4f0452ba9c:3af3e4c3f9aa8187
+type=schema
+score=0.0
+reliability=0.7699
+risk=0.0
+{&#x27;available&#x27;: False}</title><circle cx="180.8" cy="447.9" r="26.0" fill="#B279A2" /><text x="180.8" y="487.9" class="node-label">a6dcfb4f0452ba9c:3af3e4c3f9aa8187</text><text x="180.8" y="451.9" class="node-type">schema</text></g><g class="node" data-type="qos"><title>qos:534eaadd761da452
+type=qos
+score=0.0
+reliability=0.7282
+risk=0.0
+QoS for IP Geolocation: latency None, service level None, success rate None, popularity None.</title><circle cx="170.4" cy="401.7" r="25.5" fill="#EECA3B" /><text x="170.4" y="441.1" class="node-label">534eaadd761da452</text><text x="170.4" y="405.7" class="node-type">qos</text></g><g class="node" data-type="parameter"><title>parameter:2c03abb39eb4b50e:ip
+type=parameter
+score=0.0
+reliability=0.7129
+risk=0.0
+Required parameter ip. Type: STRING. Default: 0. Description: .</title><circle cx="173.9" cy="355.1" r="25.3" fill="#54A24B" /><text x="173.9" y="394.4" class="node-label">ip</text><text x="173.9" y="359.1" class="node-type">parameter</text></g><g class="node" data-type="execution"><title>execution:cdf3eff815c1a84902
+type=execution
+score=0.0
+reliability=0.8434
+risk=0.0
+Execution feedback for endpoint 534eaadd761da452. Success: True. Status: None. Latency: None ms. Response: {&#x27;available&#x27;: True, &#x27;preview&#x27;: &#x27;{&quot;message&quot;: &quot;Endpoint \&#x27;/{ip}/\&#x27; does not exist&quot;}&#x27;, &#x27;shape&#x27;: {&#x27;message&#x27;: &#x27;str&#x27;}, &#x27;top_keys&#x27;: [&#x27;message&#x27;], &#x27;type&#x27;: &#x27;dict&#x27;}.</title><circle cx="191.0" cy="309.7" r="27.0" fill="#9D755D" /><text x="191.0" y="350.6" class="node-label">Location</text><text x="191.0" y="313.7" class="node-type">execution</text></g><g class="node" data-type="qos"><title>qos:2c03abb39eb4b50e
+type=qos
+score=0.0
+reliability=0.8307
+risk=0.0
+QoS for IP address: latency 386, service level 100, success rate 100, popularity 6.9.</title><circle cx="221.3" cy="266.8" r="26.8" fill="#EECA3B" /><text x="221.3" y="307.6" class="node-label">2c03abb39eb4b50e</text><text x="221.3" y="270.8" class="node-type">qos</text></g><g class="node" data-type="subtask"><title>subtask:292f7c8ec1a6e3e742
+type=subtask
+score=0.0
+reliability=0.7854
+risk=0.0
+Find a web API endpoint that can get user IP address.</title><circle cx="263.8" cy="227.9" r="26.2" fill="#72B7B2" /><text x="263.8" y="268.1" class="node-label">Location</text><text x="263.8" y="231.9" class="node-type">subtask</text></g><g class="node" data-type="parameter"><title>parameter:af65582c62f7315c:ip
+type=parameter
+score=0.0
+reliability=0.7168
+risk=0.0
+Optional parameter ip. Type: STRING. Default: 206.71.50.230. Description: .</title><circle cx="317.1" cy="194.2" r="25.3" fill="#54A24B" /><text x="317.1" y="233.5" class="node-label">ip</text><text x="317.1" y="198.2" class="node-type">parameter</text></g><g class="node" data-type="parameter"><title>parameter:87ad864fe0b51457:ip
+type=parameter
+score=0.0
+reliability=0.7129
+risk=0.0
+Required parameter ip. Type: STRING. Default: 52.30.208.221. Description: .</title><circle cx="379.5" cy="166.8" r="25.3" fill="#54A24B" /><text x="379.5" y="206.1" class="node-label">ip</text><text x="379.5" y="170.8" class="node-type">parameter</text></g><g class="node" data-type="schema"><title>schema:87ad864fe0b51457:16a43d15f784159e
+type=schema
+score=0.0
+reliability=0.7614
+risk=0.0
+{&#x27;available&#x27;: True, &#x27;sha1&#x27;: &#x27;876383313bb7&#x27;, &#x27;text&#x27;: &#x27;{&quot;additionalProperties&quot;: false, &quot;properties&quot;: {&quot;asn&quot;: {&quot;additionalProperties&quot;: false, &quot;properties&quot;: {&quot;asNumber&quot;: {&quot;format&quot;: &quot;int64&quot;, &quot;maximum&quot;: 9223372036854776000, &quot;minimum&quot;: -9223372036854776000, &quot;type&quot;: [&quot;integer&quot;, &quot;null&quot;]}, &quot;organization&quot;: {&quot;type&quot;: [&quot;string&quot;, &quot;null&quot;]}}, &quot;type&quot;: &quot;object&quot;}, &quot;city&quot;: {&quot;additionalProperties&quot;: false, &quot;properties&quot;: {&quot;cityName&quot;: {&quot;type&quot;: [&quot;string&quot;, &quot;null&quot;]}, &quot;cityNames&quot;: {&quot;additionalProperties&quot;: {&quot;type&quot;: &quot;string&quot;}, &quot;type&quot;: [&quot;object&quot;, &quot;null&quot;]}, &quot;continentCode&quot;: {&quot;type&quot;: [&quot;string&quot;, &quot;null&quot;]}, &quot;continentName&quot;: {&quot;typ</title><circle cx="448.9" cy="146.6" r="25.9" fill="#B279A2" /><text x="448.9" y="186.5" class="node-label">87ad864fe0b51457:16a43d15f784159e</text><text x="448.9" y="150.6" class="node-type">schema</text></g><g class="node" data-type="qos"><title>qos:2c88c998bee1ff53
+type=qos
+score=0.0
+reliability=0.6489
+risk=0.0
+QoS for IP lookup: latency 166, service level 0, success rate 0, popularity 0.2.</title><circle cx="523.2" cy="134.2" r="24.4" fill="#EECA3B" /><text x="523.2" y="172.6" class="node-label">2c88c998bee1ff53</text><text x="523.2" y="138.2" class="node-type">qos</text></g>
+      </svg>
+    </section>
+    <aside>
+      <table><tr><th>query</th><td>Find a web API endpoint that can get Geolocation from an IP Address</td></tr>
+<tr><th>role</th><td>provider</td></tr>
+<tr><th>top_k</th><td>8</td></tr>
+<tr><th>seed_top_k</th><td>24</td></tr>
+<tr><th>hops</th><td>1</td></tr>
+<tr><th>nodes</th><td>35</td></tr>
+<tr><th>edges</th><td>27</td></tr>
+<tr><th>memory</th><td>outputs/gems_memory.json</td></tr></table>
+    </aside>
+  </main>
+</body>
+</html>

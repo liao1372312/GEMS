@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask is to retrieve ESG scores for Apple Inc., requiring a ticker symbol input. None of the candidates explicitly mention ESG scores or accept a ticker symbol parameter for ESG data. However, the top-ranked candidate is for retrieving US tax rates by zip code, which matches part of the user's request but not the subtask. Since no candidate matches the subtask directly, the best match for the subtask is none; the selected candidate is rank 1 by default but with low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to retrieve ESG scores for Apple Inc., requiring a ticker symbol input. None of the candidates explicitly mention ESG scores or accept a ticker symbol parameter for ESG data. However, the top-ranked candidate is for retrieving US tax rates by zip code, which matches part of the user's request but not the subtask. Since no candidate matches the subtask directly, the best match for the subtask is none; the selected candidate is rank 1 by default but with low confidence."
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 1264,
+    "total_tokens": 1384,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1250,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 194,
+      "service_ttlt_ms": 1394,
+      "total_duration_ms": 1302,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

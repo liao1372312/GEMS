@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1369",
+  "step_id": 8,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for the tourism domain, and can be used to get details about businesses near the Great Wall of China.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Unofficial Trust Pilot API provides detailed business information which aligns with fetching business details and photos of tourist attractions. It is specific to business data and reviews, suitable for the tourism domain, and can be used to get details about businesses near the Great Wall of China."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1874,
+    "total_tokens": 1949,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 839,
+      "pre_inference_ms": 160,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 266,
+      "service_ttlt_ms": 1051,
+      "total_duration_ms": 906,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

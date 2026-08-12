@@ -1,0 +1,102 @@
+{
+  "record_id": "Tourism_response_616",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify cities known for excellent air quality suitable for a weekend getaway.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Check the current and forecasted air quality data for the shortlisted cities for the upcoming weekend.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"list of shortlisted cities\", \"weekend dates\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Select the best city based on air quality and suitability for a family weekend getaway.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"air quality data\", \"city information\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Find accommodation options and family-friendly activities in the selected city for the weekend.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected city\", \"weekend dates\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify cities known for excellent air quality suitable for a weekend getaway.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Check the current and forecasted air quality data for the shortlisted cities for the upcoming weekend.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "list of shortlisted cities",
+          "weekend dates"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Select the best city based on air quality and suitability for a family weekend getaway.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "air quality data",
+          "city information"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Find accommodation options and family-friendly activities in the selected city for the weekend.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected city",
+          "weekend dates"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify cities known for excellent air quality suitable for a weekend getaway.",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Check the current and forecasted air quality data for the shortlisted cities for the upcoming weekend.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "list of shortlisted cities",
+        "weekend dates"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Select the best city based on air quality and suitability for a family weekend getaway.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "air quality data",
+        "city information"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Find accommodation options and family-friendly activities in the selected city for the weekend.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected city",
+        "weekend dates"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 335,
+    "total_tokens": 553,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 2278,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 220,
+      "service_ttlt_ms": 2476,
+      "total_duration_ms": 2437,
+      "user_visible_ttft_ms": 96
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2925",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.7, \"rationale\": \"The user wants to get the content of a specific message for LINE Messaging to use for invitations, which aligns best with the Wavecell SMS API that deals with SMS messages and their statuses. Although it retrieves delivery status, it is the closest relevant API for SMS message content compared to others.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.7,
+    "rationale": "The user wants to get the content of a specific message for LINE Messaging to use for invitations, which aligns best with the Wavecell SMS API that deals with SMS messages and their statuses. Although it retrieves delivery status, it is the closest relevant API for SMS message content compared to others."
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1779,
+    "total_tokens": 1858,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 678,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 224,
+      "service_ttlt_ms": 836,
+      "total_duration_ms": 744,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

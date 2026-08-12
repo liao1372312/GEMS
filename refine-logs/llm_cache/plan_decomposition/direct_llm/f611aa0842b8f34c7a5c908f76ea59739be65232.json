@@ -1,0 +1,72 @@
+{
+  "record_id": "Medical_response_4731",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for popular and recent Medium stories related to cooking and food\",\n      \"domain\": \"Content Discovery\",\n      \"required_inputs\": [\"topic: cooking and food\", \"platform: Medium\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch latest competitor news related to food trends\",\n      \"domain\": \"News Aggregation\",\n      \"required_inputs\": [\"industry: food\", \"news type: competitor news\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for popular and recent Medium stories related to cooking and food",
+        "domain": "Content Discovery",
+        "required_inputs": [
+          "topic: cooking and food",
+          "platform: Medium"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch latest competitor news related to food trends",
+        "domain": "News Aggregation",
+        "required_inputs": [
+          "industry: food",
+          "news type: competitor news"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for popular and recent Medium stories related to cooking and food",
+      "domain": "Content Discovery",
+      "required_inputs": [
+        "topic: cooking and food",
+        "platform: Medium"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch latest competitor news related to food trends",
+      "domain": "News Aggregation",
+      "required_inputs": [
+        "industry: food",
+        "news type: competitor news"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 196,
+    "total_tokens": 311,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 29,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 3361,
+      "pre_inference_ms": 274,
+      "service_tbt_ms": 28,
+      "service_ttft_ms": 466,
+      "service_ttlt_ms": 3714,
+      "total_duration_ms": 3451,
+      "user_visible_ttft_ms": 192
+    }
+  }
+}

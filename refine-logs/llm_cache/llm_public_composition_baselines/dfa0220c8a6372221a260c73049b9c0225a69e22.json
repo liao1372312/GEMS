@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1920",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the tourism domain or provide detailed information about tourist attractions in Brazil as required by the subtask.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the tourism domain or provide detailed information about tourist attractions in Brazil as required by the subtask."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1096,
+    "total_tokens": 1143,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 556,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 194,
+      "service_ttlt_ms": 706,
+      "total_duration_ms": 593,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

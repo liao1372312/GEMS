@@ -1,0 +1,68 @@
+{
+  "record_id": "Cross_Domain_response_1040",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the list of upcoming Formula 1 races for the current season including race dates, locations, and race names\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"season_year\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the current driver standings for the Formula 1 season\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"season_year\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the list of upcoming Formula 1 races for the current season including race dates, locations, and race names",
+        "domain": "sports",
+        "required_inputs": [
+          "season_year"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Get the current driver standings for the Formula 1 season",
+        "domain": "sports",
+        "required_inputs": [
+          "season_year"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the list of upcoming Formula 1 races for the current season including race dates, locations, and race names",
+      "domain": "sports",
+      "required_inputs": [
+        "season_year"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Get the current driver standings for the Formula 1 season",
+      "domain": "sports",
+      "required_inputs": [
+        "season_year"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 730,
+    "total_tokens": 839,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 2235,
+      "pre_inference_ms": 73,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 158,
+      "service_ttlt_ms": 2328,
+      "total_duration_ms": 2261,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 1.0, \"rationale\": \"The Workout Planner - Get Customized Plan API directly supports generating personalized workout plans based on time duration, target muscle, fitness level, and equipment, which perfectly matches the user's request for a 45-minute beginner leg workout plan with gym access.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 1.0,
+    "rationale": "The Workout Planner - Get Customized Plan API directly supports generating personalized workout plans based on time duration, target muscle, fitness level, and equipment, which perfectly matches the user's request for a 45-minute beginner leg workout plan with gym access."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 2083,
+    "total_tokens": 2152,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 772,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 181,
+      "service_ttlt_ms": 895,
+      "total_duration_ms": 802,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

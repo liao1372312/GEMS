@@ -1,0 +1,116 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the list of stock tickers to be compared\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch trading data for each stock ticker including price history\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Calculate the minimum trading value for each stock from the fetched data\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"trading data for each stock\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Compute price differences between the stocks based on their trading data\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"trading data for each stock\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Compile and compare the tickers, minimum values, and price differences into a summary report\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\", \"minimum values\", \"price differences\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the list of stock tickers to be compared",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch trading data for each stock ticker including price history",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate the minimum trading value for each stock from the fetched data",
+        "domain": "Finance",
+        "required_inputs": [
+          "trading data for each stock"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Compute price differences between the stocks based on their trading data",
+        "domain": "Finance",
+        "required_inputs": [
+          "trading data for each stock"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Compile and compare the tickers, minimum values, and price differences into a summary report",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers",
+          "minimum values",
+          "price differences"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the list of stock tickers to be compared",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch trading data for each stock ticker including price history",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calculate the minimum trading value for each stock from the fetched data",
+      "domain": "Finance",
+      "required_inputs": [
+        "trading data for each stock"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Compute price differences between the stocks based on their trading data",
+      "domain": "Finance",
+      "required_inputs": [
+        "trading data for each stock"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Compile and compare the tickers, minimum values, and price differences into a summary report",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers",
+        "minimum values",
+        "price differences"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 250,
+    "prompt_tokens": 176,
+    "total_tokens": 426,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 4578,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 241,
+      "service_ttlt_ms": 4735,
+      "total_duration_ms": 4629,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

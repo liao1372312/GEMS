@@ -1,0 +1,44 @@
+{
+  "semantic_top1_test_baseline": {
+    "api_acc": 0.6147672552166934,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "api_mrr": 0.7139372977655472
+  },
+  "llm_runs": [
+    {
+      "file": "outputs/llm_public_composition_rerank_val_all.json",
+      "split": "val",
+      "case_filter": "all",
+      "limit": 0,
+      "model": "gpt-4.1-mini",
+      "steps": 604,
+      "api_acc": 0.6754966887417219,
+      "workflow_exact": 0.4238095238095238,
+      "para_f1": 0.7733995584988962,
+      "mrr_proxy": 0.740816155882381,
+      "tokens": 1201401,
+      "elapsed_seconds": 1299.1505160569213,
+      "paper_ready": true,
+      "coverage": 1.0,
+      "requested_steps": 604
+    },
+    {
+      "file": "outputs/llm_public_composition_rerank_test_all.json",
+      "split": "test",
+      "case_filter": "all",
+      "limit": 0,
+      "model": "gpt-4.1-mini",
+      "steps": 623,
+      "api_acc": 0.6725521669341894,
+      "workflow_exact": 0.3886255924170616,
+      "para_f1": 0.750187265917603,
+      "mrr_proxy": 0.7383896868246782,
+      "tokens": 1224920,
+      "elapsed_seconds": 1428.388840707019,
+      "paper_ready": true,
+      "coverage": 1.0,
+      "requested_steps": 623
+    }
+  ]
+}

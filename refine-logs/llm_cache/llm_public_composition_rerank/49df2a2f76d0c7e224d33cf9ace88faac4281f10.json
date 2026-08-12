@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2757",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The subtask is to query car rental locations in identified major cities. The Tripadvisor - Search Rental Cars Location API directly supports searching rental car locations by city name, matching the subtask intent and required input 'locations'. It is specific to travel and car rentals, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The subtask is to query car rental locations in identified major cities. The Tripadvisor - Search Rental Cars Location API directly supports searching rental car locations by city name, matching the subtask intent and required input 'locations'. It is specific to travel and car rentals, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 2095,
+    "total_tokens": 2175,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 110,
+      "engine_ttlt_ms": 1176,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 345,
+      "service_ttlt_ms": 1393,
+      "total_duration_ms": 1280,
+      "user_visible_ttft_ms": 224
+    }
+  }
+}

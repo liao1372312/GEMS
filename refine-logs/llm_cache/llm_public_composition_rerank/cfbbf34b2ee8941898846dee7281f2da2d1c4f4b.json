@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1565",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":7,\"confidence\":0.9,\"rationale\":\"The subtask is to fetch the latest stock prices for Apple Inc. The 'Stock Info - Get Stock Price' API directly provides stock prices and accepts a symbol parameter, which matches the required input. It is specific to stock prices, unlike other APIs that provide financial ratios or historical data. Although the default symbol is TCS.NS, the symbol parameter can be set to AAPL for Apple Inc.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The subtask is to fetch the latest stock prices for Apple Inc. The 'Stock Info - Get Stock Price' API directly provides stock prices and accepts a symbol parameter, which matches the required input. It is specific to stock prices, unlike other APIs that provide financial ratios or historical data. Although the default symbol is TCS.NS, the symbol parameter can be set to AAPL for Apple Inc."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1622,
+    "total_tokens": 1720,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 1666,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 449,
+      "service_ttlt_ms": 2046,
+      "total_duration_ms": 1968,
+      "user_visible_ttft_ms": 358
+    }
+  }
+}

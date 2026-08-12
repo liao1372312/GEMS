@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5279",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The 'Aspose.Tasks Cloud - GetTasks' API is the most relevant for performing an ILOD check on a specified key in a BIM project, as it allows retrieval of task-related data which likely includes the ILOD check results.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'Aspose.Tasks Cloud - GetTasks' API is the most relevant for performing an ILOD check on a specified key in a BIM project, as it allows retrieval of task-related data which likely includes the ILOD check results."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1555,
+    "total_tokens": 1624,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 580,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 226,
+      "service_ttlt_ms": 756,
+      "total_duration_ms": 663,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1492",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The subtask requires finding a suitable picnic location with active products, which involves searching content based on criteria. The URL Content Extractor - Search Content API is best suited for searching relevant locations and product information.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask requires finding a suitable picnic location with active products, which involves searching content based on criteria. The URL Content Extractor - Search Content API is best suited for searching relevant locations and product information."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1624,
+    "total_tokens": 1687,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 736,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 424,
+      "service_ttlt_ms": 1117,
+      "total_duration_ms": 1050,
+      "user_visible_ttft_ms": 349
+    }
+  }
+}

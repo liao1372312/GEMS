@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4622",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The first candidate API specifically checks if the word 'chimpo' is vulgar and provides its meaning if it is, which directly matches the user's request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The first candidate API specifically checks if the word 'chimpo' is vulgar and provides its meaning if it is, which directly matches the user's request."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1380,
+    "total_tokens": 1432,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 594,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 299,
+      "service_ttlt_ms": 827,
+      "total_duration_ms": 708,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

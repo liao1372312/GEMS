@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4750",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The user specifically requested a random Chuck Norris joke, and candidate rank 3 provides a dedicated Chuck Norris joke API.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The user specifically requested a random Chuck Norris joke, and candidate rank 3 provides a dedicated Chuck Norris joke API."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1062,
+    "total_tokens": 1107,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 151,
+      "engine_ttlt_ms": 636,
+      "pre_inference_ms": 150,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 441,
+      "service_ttlt_ms": 879,
+      "total_duration_ms": 736,
+      "user_visible_ttft_ms": 292
+    }
+  }
+}

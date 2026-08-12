@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_144",
+  "step_id": 3,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The Airbnb_v2 Get Amenities Filters API is travel-related and provides information on accommodations and their amenities, which aligns well with finding beachfront resorts and hotels with family-friendly features. It is more specific to accommodations than other travel APIs listed.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Airbnb_v2 Get Amenities Filters API is travel-related and provides information on accommodations and their amenities, which aligns well with finding beachfront resorts and hotels with family-friendly features. It is more specific to accommodations than other travel APIs listed."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1409,
+    "total_tokens": 1472,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1026,
+      "pre_inference_ms": 319,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 868,
+      "service_ttlt_ms": 1864,
+      "total_duration_ms": 1556,
+      "user_visible_ttft_ms": 549
+    }
+  }
+}

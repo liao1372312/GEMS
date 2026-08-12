@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request's current subtask is to fetch the list of available airplane types, but none of the candidates provide airplane type data. However, the highest-ranked candidate relates to gas prices in cities, which aligns partially with the user's interest in exploring gas prices in different cities. Since the subtask requires airplane types and no candidate matches that, the best available candidate is rank 1 for partial relevance.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request's current subtask is to fetch the list of available airplane types, but none of the candidates provide airplane type data. However, the highest-ranked candidate relates to gas prices in cities, which aligns partially with the user's interest in exploring gas prices in different cities. Since the subtask requires airplane types and no candidate matches that, the best available candidate is rank 1 for partial relevance."
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 1169,
+    "total_tokens": 1271,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 997,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 1199,
+      "total_duration_ms": 1101,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

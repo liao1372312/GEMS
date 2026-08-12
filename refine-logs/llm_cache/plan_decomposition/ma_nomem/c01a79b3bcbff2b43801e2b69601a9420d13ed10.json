@@ -1,0 +1,84 @@
+{
+  "record_id": "Technology_response_2668",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the genre of a specific editorial on Deezer\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"editorial identifier or name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the details of a popular song on Soundcloud\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"criteria for popular song or song identifier\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain information about the artist of the popular song fetched from Soundcloud\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"artist identifier from the popular song details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the genre of a specific editorial on Deezer",
+        "domain": "Technology",
+        "required_inputs": [
+          "editorial identifier or name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the details of a popular song on Soundcloud",
+        "domain": "Technology",
+        "required_inputs": [
+          "criteria for popular song or song identifier"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain information about the artist of the popular song fetched from Soundcloud",
+        "domain": "Technology",
+        "required_inputs": [
+          "artist identifier from the popular song details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the genre of a specific editorial on Deezer",
+      "domain": "Technology",
+      "required_inputs": [
+        "editorial identifier or name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the details of a popular song on Soundcloud",
+      "domain": "Technology",
+      "required_inputs": [
+        "criteria for popular song or song identifier"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain information about the artist of the popular song fetched from Soundcloud",
+      "domain": "Technology",
+      "required_inputs": [
+        "artist identifier from the popular song details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 207,
+    "total_tokens": 363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 3443,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 145,
+      "service_ttlt_ms": 3539,
+      "total_duration_ms": 3467,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

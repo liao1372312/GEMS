@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1241",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Priceline com Provider - Download cities clusters API provides a list of hotel cities clusters, which is the closest match to downloading a list of areas in New York City for reference.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Priceline com Provider - Download cities clusters API provides a list of hotel cities clusters, which is the closest match to downloading a list of areas in New York City for reference."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1497,
+    "total_tokens": 1554,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 605,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 209,
+      "service_ttlt_ms": 767,
+      "total_duration_ms": 678,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

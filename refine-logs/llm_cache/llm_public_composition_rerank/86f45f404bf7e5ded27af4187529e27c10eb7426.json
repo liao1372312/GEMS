@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3942",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'betaRecipes - Send Image' API directly satisfies the subtask of sending a request for prediction and other data for the specified image URL, and the required parameter 'url' matches the provided image URL.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'betaRecipes - Send Image' API directly satisfies the subtask of sending a request for prediction and other data for the specified image URL, and the required parameter 'url' matches the provided image URL."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1887,
+    "total_tokens": 1951,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 276,
+      "user_visible_ttft_ms": 143,
+      "total_duration_ms": 1307,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 18,
+      "service_ttlt_ms": 1430,
+      "engine_ttft_ms": 87,
+      "engine_ttlt_ms": 1250,
+      "engine_tbt_ms": 18
+    }
+  }
+}

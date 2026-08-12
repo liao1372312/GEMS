@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4421",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate provides a list of supported translation languages, which aligns with the user's request for Microsoft Translator Text API supported languages. However, none of the candidates directly address online language learning platforms, but the first candidate is the best fit for the translation languages part.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate provides a list of supported translation languages, which aligns with the user's request for Microsoft Translator Text API supported languages. However, none of the candidates directly address online language learning platforms, but the first candidate is the best fit for the translation languages part."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1128,
+    "total_tokens": 1203,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 754,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 929,
+      "total_duration_ms": 853,
+      "user_visible_ttft_ms": 133
+    }
+  }
+}

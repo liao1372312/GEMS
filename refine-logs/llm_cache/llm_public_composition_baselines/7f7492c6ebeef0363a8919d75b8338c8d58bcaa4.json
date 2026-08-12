@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6708",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first API is related to education and provides data on Japanese kanji, which is closest to the education domain and may provide educational quotes or content.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first API is related to education and provides data on Japanese kanji, which is closest to the education domain and may provide educational quotes or content."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1202,
+    "total_tokens": 1254,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 204,
+      "user_visible_ttft_ms": 103,
+      "total_duration_ms": 659,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 11,
+      "service_ttlt_ms": 752,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 588,
+      "engine_tbt_ms": 11
+    }
+  }
+}

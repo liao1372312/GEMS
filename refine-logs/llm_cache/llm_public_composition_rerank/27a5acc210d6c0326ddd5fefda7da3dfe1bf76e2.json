@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Any Anime API can provide random anime images but does not provide jokes. None of the other APIs are related to jokes. However, since no joke-specific API is present, the best available option is to select the Any Anime API as it can provide some entertainment content, though not jokes specifically.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Any Anime API can provide random anime images but does not provide jokes. None of the other APIs are related to jokes. However, since no joke-specific API is present, the best available option is to select the Any Anime API as it can provide some entertainment content, though not jokes specifically."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1680,
+    "total_tokens": 1761,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 929,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 1094,
+      "total_duration_ms": 1006,
+      "user_visible_ttft_ms": 146
+    }
+  }
+}

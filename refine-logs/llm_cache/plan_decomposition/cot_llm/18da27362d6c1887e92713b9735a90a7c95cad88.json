@@ -1,0 +1,96 @@
+{
+  "record_id": "Medical_response_3942",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of cake names and their images for selection\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the detailed recipe for the cake with ID 5\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"cake ID\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get details and address of the restaurant with ID 56c467cb7b0d464811a42017\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"restaurant ID\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Obtain prediction and other data for the image with the given URL\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"image URL\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of cake names and their images for selection",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the detailed recipe for the cake with ID 5",
+        "domain": "Food",
+        "required_inputs": [
+          "cake ID"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get details and address of the restaurant with ID 56c467cb7b0d464811a42017",
+        "domain": "Food",
+        "required_inputs": [
+          "restaurant ID"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Obtain prediction and other data for the image with the given URL",
+        "domain": "Medical",
+        "required_inputs": [
+          "image URL"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of cake names and their images for selection",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the detailed recipe for the cake with ID 5",
+      "domain": "Food",
+      "required_inputs": [
+        "cake ID"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get details and address of the restaurant with ID 56c467cb7b0d464811a42017",
+      "domain": "Food",
+      "required_inputs": [
+        "restaurant ID"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Obtain prediction and other data for the image with the given URL",
+      "domain": "Medical",
+      "required_inputs": [
+        "image URL"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 277,
+    "total_tokens": 474,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1866,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 2053,
+      "total_duration_ms": 1940,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

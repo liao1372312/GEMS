@@ -1,0 +1,70 @@
+{
+  "record_id": "Technology_response_3462",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search and gather recent news articles related to charity events for inspiration.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"keywords related to charity events\", \"time range for recent news\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Extract headlines from the gathered news articles to provide a quick overview.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"news articles from step 1\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search and gather recent news articles related to charity events for inspiration.",
+        "domain": "Technology",
+        "required_inputs": [
+          "keywords related to charity events",
+          "time range for recent news"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Extract headlines from the gathered news articles to provide a quick overview.",
+        "domain": "Technology",
+        "required_inputs": [
+          "news articles from step 1"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search and gather recent news articles related to charity events for inspiration.",
+      "domain": "Technology",
+      "required_inputs": [
+        "keywords related to charity events",
+        "time range for recent news"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Extract headlines from the gathered news articles to provide a quick overview.",
+      "domain": "Technology",
+      "required_inputs": [
+        "news articles from step 1"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 373,
+    "total_tokens": 487,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1256,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 1465,
+      "total_duration_ms": 1372,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

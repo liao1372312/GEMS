@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1096",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 1.0, \"rationale\": \"The 'Horoscope Astrology - Sign' API directly provides detailed traits and characteristics for a specified zodiac sign, including Aquarius, and requires the 's' parameter which can be bound to 'aquarius' from the subtask input.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 1.0,
+    "rationale": "The 'Horoscope Astrology - Sign' API directly provides detailed traits and characteristics for a specified zodiac sign, including Aquarius, and requires the 's' parameter which can be bound to 'aquarius' from the subtask input."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 2103,
+    "total_tokens": 2171,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 711,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 160,
+      "service_ttlt_ms": 814,
+      "total_duration_ms": 742,
+      "user_visible_ttft_ms": 79
+    }
+  }
+}

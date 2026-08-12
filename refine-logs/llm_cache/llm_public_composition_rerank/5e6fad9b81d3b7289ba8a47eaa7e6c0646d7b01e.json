@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_854",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"API #1 provides a 5-day daily forecast by latitude and longitude, directly matching the subtask to obtain a 5-day weather forecast for New York City. Required parameters (latitude and longitude) can be derived for New York City, making it suitable and specific for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "API #1 provides a 5-day daily forecast by latitude and longitude, directly matching the subtask to obtain a 5-day weather forecast for New York City. Required parameters (latitude and longitude) can be derived for New York City, making it suitable and specific for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 2009,
+    "total_tokens": 2089,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 47,
+      "engine_ttft_ms": 156,
+      "engine_ttlt_ms": 3888,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 47,
+      "service_ttft_ms": 1867,
+      "service_ttlt_ms": 5593,
+      "total_duration_ms": 5511,
+      "user_visible_ttft_ms": 1777
+    }
+  }
+}

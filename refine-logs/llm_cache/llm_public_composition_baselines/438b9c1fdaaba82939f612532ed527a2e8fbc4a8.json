@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4642",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs directly provide lifetime disease risks or nutritional content analysis; the top-ranked API is a general URL content extractor which might be used to search for relevant information, but it does not specifically fulfill the medical and nutritional analysis tasks requested.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs directly provide lifetime disease risks or nutritional content analysis; the top-ranked API is a general URL content extractor which might be used to search for relevant information, but it does not specifically fulfill the medical and nutritional analysis tasks requested."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1790,
+    "total_tokens": 1861,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 714,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 153,
+      "service_ttlt_ms": 824,
+      "total_duration_ms": 743,
+      "user_visible_ttft_ms": 65
+    }
+  }
+}

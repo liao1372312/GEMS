@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4054",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requested a list of NCAA Final Four teams sorted alphabetically, and candidate rank 1 provides exactly that data with a matching domain and description.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requested a list of NCAA Final Four teams sorted alphabetically, and candidate rank 1 provides exactly that data with a matching domain and description."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1233,
+    "total_tokens": 1285,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 710,
+      "pre_inference_ms": 156,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 317,
+      "service_ttlt_ms": 977,
+      "total_duration_ms": 830,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

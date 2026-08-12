@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3836",
+  "step_id": 3,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The subtask is to find scenic routes from Los Angeles to Las Vegas, which is a travel-related query. The 'Flight Data_v2 - Data on the routes in json format' API from the Travel domain provides route data, making it the most relevant and specific API for finding routes between cities. Other APIs are unrelated or focus on weather, social media, or unrelated content.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The subtask is to find scenic routes from Los Angeles to Las Vegas, which is a travel-related query. The 'Flight Data_v2 - Data on the routes in json format' API from the Travel domain provides route data, making it the most relevant and specific API for finding routes between cities. Other APIs are unrelated or focus on weather, social media, or unrelated content."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1701,
+    "total_tokens": 1794,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1037,
+      "pre_inference_ms": 196,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 349,
+      "service_ttlt_ms": 1348,
+      "total_duration_ms": 1169,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

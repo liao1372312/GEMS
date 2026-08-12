@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5076",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Google Search 2 - Google News API is suitable for retrieving news articles related to 'drug cartels' in Mexico, as it provides real-time news search results and can cover a wide range of topics including narco activities and border security.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Google Search 2 - Google News API is suitable for retrieving news articles related to 'drug cartels' in Mexico, as it provides real-time news search results and can cover a wide range of topics including narco activities and border security."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1897,
+    "total_tokens": 1968,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 911,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 171,
+      "service_ttlt_ms": 1017,
+      "total_duration_ms": 944,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8706",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants to fetch joke categories and jokes about manatees (animal category). The first API provides categories related to signs but does not relate to jokes or animals. None of the other APIs relate to jokes or entertainment. However, since no direct joke API is provided, the first API is the closest to fetching categories, which might help in further steps.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants to fetch joke categories and jokes about manatees (animal category). The first API provides categories related to signs but does not relate to jokes or animals. None of the other APIs relate to jokes or entertainment. However, since no direct joke API is provided, the first API is the closest to fetching categories, which might help in further steps."
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 1667,
+    "total_tokens": 1761,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 81,
+      "engine_ttlt_ms": 1292,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 179,
+      "service_ttlt_ms": 1387,
+      "total_duration_ms": 1316,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

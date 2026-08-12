@@ -1,0 +1,64 @@
+{
+  "record_id": "Technology_response_3462",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search and gather recent news articles related to charity events for inspiration.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Extract headlines from the gathered news articles related to charity events.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"news_articles\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search and gather recent news articles related to charity events for inspiration.",
+        "domain": "technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Extract headlines from the gathered news articles related to charity events.",
+        "domain": "technology",
+        "required_inputs": [
+          "news_articles"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search and gather recent news articles related to charity events for inspiration.",
+      "domain": "technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Extract headlines from the gathered news articles related to charity events.",
+      "domain": "technology",
+      "required_inputs": [
+        "news_articles"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 887,
+    "total_tokens": 983,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 991,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 260,
+      "service_ttlt_ms": 1208,
+      "total_duration_ms": 1113,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

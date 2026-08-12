@@ -1,0 +1,90 @@
+{
+  "config": {
+    "split": "test",
+    "limit_workflows": 0,
+    "max_steps": 5,
+    "baselines": [
+      "direct_llm"
+    ],
+    "case_filter": "non_top1",
+    "shuffle": false,
+    "model": "gpt-4.1-mini",
+    "temperature": 0.0,
+    "cache_dir": "refine-logs/llm_cache/llm_public_composition_baselines",
+    "note": "Prompt-style baselines select from the provided top-10 candidates and do not execute APIs."
+  },
+  "elapsed_seconds": 0.00010911980643868446,
+  "results": {
+    "direct_llm": {
+      "metrics": {
+        "api_acc": 0.0,
+        "single_choice_top3_proxy": 0.8,
+        "single_choice_mrr_proxy": 0.275,
+        "workflow_exact": 0.0,
+        "para_f1": 0.2,
+        "rank_counts": {
+          "1": 5
+        },
+        "steps": 5,
+        "workflows": 3
+      },
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "predictions": [
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 3,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Cross_Domain_response_715",
+          "step_id": 4,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Cross_Domain_response_809",
+          "step_id": 2,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Cross_Domain_response_809",
+          "step_id": 3,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        },
+        {
+          "record_id": "Cross_Domain_response_1006",
+          "step_id": 2,
+          "parsed": {
+            "selected_rank": 1,
+            "confidence": 0.0,
+            "rationale": "dry_run"
+          },
+          "usage": {}
+        }
+      ]
+    }
+  }
+}

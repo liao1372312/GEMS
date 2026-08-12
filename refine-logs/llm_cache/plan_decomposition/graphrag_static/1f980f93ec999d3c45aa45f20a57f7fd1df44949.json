@@ -1,0 +1,84 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the playlist information for the Soundcloud playlist named 'Almost Lover'.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"playlist name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Identify the artist related to the song 'Shape of You'.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"song title\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the latest release of the identified artist using the Shazam API.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"artist name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the playlist information for the Soundcloud playlist named 'Almost Lover'.",
+        "domain": "technology",
+        "required_inputs": [
+          "playlist name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Identify the artist related to the song 'Shape of You'.",
+        "domain": "technology",
+        "required_inputs": [
+          "song title"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the latest release of the identified artist using the Shazam API.",
+        "domain": "technology",
+        "required_inputs": [
+          "artist name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the playlist information for the Soundcloud playlist named 'Almost Lover'.",
+      "domain": "technology",
+      "required_inputs": [
+        "playlist name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Identify the artist related to the song 'Shape of You'.",
+      "domain": "technology",
+      "required_inputs": [
+        "song title"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the latest release of the identified artist using the Shazam API.",
+      "domain": "technology",
+      "required_inputs": [
+        "artist name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 596,
+    "total_tokens": 744,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 2016,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 322,
+      "service_ttlt_ms": 2250,
+      "total_duration_ms": 2129,
+      "user_visible_ttft_ms": 193
+    }
+  }
+}

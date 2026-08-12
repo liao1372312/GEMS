@@ -1,0 +1,68 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the upcoming sports matches relevant to the surprise sports-themed birthday party date.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"event_date\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve accurate predictions for the identified upcoming sports matches.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"match_id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the upcoming sports matches relevant to the surprise sports-themed birthday party date.",
+        "domain": "Sports",
+        "required_inputs": [
+          "event_date"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve accurate predictions for the identified upcoming sports matches.",
+        "domain": "Sports",
+        "required_inputs": [
+          "match_id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the upcoming sports matches relevant to the surprise sports-themed birthday party date.",
+      "domain": "Sports",
+      "required_inputs": [
+        "event_date"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve accurate predictions for the identified upcoming sports matches.",
+      "domain": "Sports",
+      "required_inputs": [
+        "match_id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 2842,
+    "total_tokens": 2941,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 1164,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1354,
+      "total_duration_ms": 1258,
+      "user_visible_ttft_ms": 149
+    }
+  }
+}

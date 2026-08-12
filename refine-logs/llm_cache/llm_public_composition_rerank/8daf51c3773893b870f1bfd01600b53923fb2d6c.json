@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3658",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The Unofficial Trust Pilot - categories/search API can be used to search for categories related to contests or competitions, which aligns with the subtask of searching for public health contests or competitions. It accepts a query parameter that can be set to 'public health contests' or similar, fulfilling the required inputs indirectly. Other APIs are unrelated or too generic, making this the best fit.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Unofficial Trust Pilot - categories/search API can be used to search for categories related to contests or competitions, which aligns with the subtask of searching for public health contests or competitions. It accepts a query parameter that can be set to 'public health contests' or similar, fulfilling the required inputs indirectly. Other APIs are unrelated or too generic, making this the best fit."
+  },
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 2154,
+    "total_tokens": 2246,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 31,
+      "engine_ttft_ms": 203,
+      "engine_ttlt_ms": 3081,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 31,
+      "service_ttft_ms": 1546,
+      "service_ttlt_ms": 4416,
+      "total_duration_ms": 4341,
+      "user_visible_ttft_ms": 1458
+    }
+  }
+}

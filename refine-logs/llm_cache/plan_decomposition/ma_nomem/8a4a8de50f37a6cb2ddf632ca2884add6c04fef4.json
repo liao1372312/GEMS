@@ -1,0 +1,88 @@
+{
+  "record_id": "Technology_response_3462",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for recent news articles related to charity events\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"keywords\", \"date_range\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Extract headlines from the gathered news articles\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"news_articles\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Filter and organize the news articles and headlines for inspiration\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"headlines\", \"news_articles\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for recent news articles related to charity events",
+        "domain": "Technology",
+        "required_inputs": [
+          "keywords",
+          "date_range"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Extract headlines from the gathered news articles",
+        "domain": "Technology",
+        "required_inputs": [
+          "news_articles"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Filter and organize the news articles and headlines for inspiration",
+        "domain": "Technology",
+        "required_inputs": [
+          "headlines",
+          "news_articles"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for recent news articles related to charity events",
+      "domain": "Technology",
+      "required_inputs": [
+        "keywords",
+        "date_range"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Extract headlines from the gathered news articles",
+      "domain": "Technology",
+      "required_inputs": [
+        "news_articles"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Filter and organize the news articles and headlines for inspiration",
+      "domain": "Technology",
+      "required_inputs": [
+        "headlines",
+        "news_articles"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 176,
+    "total_tokens": 318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 2136,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 2331,
+      "total_duration_ms": 2198,
+      "user_visible_ttft_ms": 118
+    }
+  }
+}

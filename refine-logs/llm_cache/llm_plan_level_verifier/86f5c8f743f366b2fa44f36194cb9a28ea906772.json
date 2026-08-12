@@ -1,0 +1,50 @@
+{
+  "record_id": "Technology_response_2925",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 API is unrelated to SMS webhooks; LLM choice is relevant but does not retrieve webhooks, only delivery status, so no clear better match.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1; both use Wavecell SMS delivery status API which does not provide LINE message content, so no better match.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice provides categories potentially useful for birthday message suggestions, better matching the step than unrelated finance API.\"\n    }\n  ],\n  \"workflow_confidence\": 0.5\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to SMS webhooks; LLM choice is relevant but does not retrieve webhooks, only delivery status, so no clear better match."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1; both use Wavecell SMS delivery status API which does not provide LINE message content, so no better match."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice provides categories potentially useful for birthday message suggestions, better matching the step than unrelated finance API."
+      }
+    ],
+    "workflow_confidence": 0.5
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1567,
+    "total_tokens": 1749,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 2455,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 150,
+      "service_ttlt_ms": 2560,
+      "total_duration_ms": 2480,
+      "user_visible_ttft_ms": 64
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2684",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.95, \"rationale\": \"The 'Futures - Latest Contracts for Symbol' API directly provides the latest futures contracts for a given symbol and supports the optional month parameter, matching the user's request to explore different futures contracts available for trading.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.95,
+    "rationale": "The 'Futures - Latest Contracts for Symbol' API directly provides the latest futures contracts for a given symbol and supports the optional month parameter, matching the user's request to explore different futures contracts available for trading."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1690,
+    "total_tokens": 1753,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 534,
+      "pre_inference_ms": 180,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 309,
+      "service_ttlt_ms": 796,
+      "total_duration_ms": 624,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

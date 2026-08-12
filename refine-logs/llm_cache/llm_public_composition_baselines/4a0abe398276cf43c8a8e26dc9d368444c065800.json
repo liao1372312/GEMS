@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3229",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The TrueWay Geocoding API (rank 9) is suitable for fetching the ZIP code for a specific address, which matches the first part of the user request. For the country name of the IP address, the IP to Country Name API (rank 1) is appropriate. Since the user request involves two distinct subtasks, these two APIs together cover both requirements well.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The TrueWay Geocoding API (rank 9) is suitable for fetching the ZIP code for a specific address, which matches the first part of the user request. For the country name of the IP address, the IP to Country Name API (rank 1) is appropriate. Since the user request involves two distinct subtasks, these two APIs together cover both requirements well."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1679,
+    "total_tokens": 1777,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 93,
+      "engine_ttlt_ms": 1161,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 264,
+      "service_ttlt_ms": 1331,
+      "total_duration_ms": 1217,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

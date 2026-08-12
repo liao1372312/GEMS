@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4930",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"This API specifically provides NBA game schedules for a given date, matching the subtask requirement to fetch NBA games on October 15th.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "This API specifically provides NBA game schedules for a given date, matching the subtask requirement to fetch NBA games on October 15th."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 2062,
+    "total_tokens": 2111,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 261,
+      "user_visible_ttft_ms": 143,
+      "total_duration_ms": 462,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 7,
+      "service_ttlt_ms": 569,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 383,
+      "engine_tbt_ms": 6
+    }
+  }
+}

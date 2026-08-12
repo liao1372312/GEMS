@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_905",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The Google News - Suggest API directly provides real-time news and articles and supports keyword-based search, which can be used to gather recent news articles related to gardening as required by the subtask.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 1.0,
+    "rationale": "The Google News - Suggest API directly provides real-time news and articles and supports keyword-based search, which can be used to gather recent news articles related to gardening as required by the subtask."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 2086,
+    "total_tokens": 2146,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 487,
+      "engine_ttlt_ms": 1266,
+      "pre_inference_ms": 73,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 661,
+      "service_ttlt_ms": 1423,
+      "total_duration_ms": 1356,
+      "user_visible_ttft_ms": 588
+    }
+  }
+}

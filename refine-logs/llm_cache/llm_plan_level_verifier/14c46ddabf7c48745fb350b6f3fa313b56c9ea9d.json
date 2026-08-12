@@ -1,0 +1,50 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and is appropriate for recommending a vegan dinner dish by ingredient.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice uses the same API as step 1 which requires an ingredient parameter, not dish_name; semantic top-1 is unrelated and no better, so keep semantic top-1 which is unrelated but no better alternative.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice repeats the same API as step 1 which does not support fetching an image by dish_name; semantic top-1 is unrelated but no better alternative, so keep semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.4\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for recommending a vegan dinner dish by ingredient."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice uses the same API as step 1 which requires an ingredient parameter, not dish_name; semantic top-1 is unrelated and no better, so keep semantic top-1 which is unrelated but no better alternative."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice repeats the same API as step 1 which does not support fetching an image by dish_name; semantic top-1 is unrelated but no better alternative, so keep semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.4
+  },
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 1701,
+    "total_tokens": 1904,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 4205,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 176,
+      "service_ttlt_ms": 4327,
+      "total_duration_ms": 4238,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

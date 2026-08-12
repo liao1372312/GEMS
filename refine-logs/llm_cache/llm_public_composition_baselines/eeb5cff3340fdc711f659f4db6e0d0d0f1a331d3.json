@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4072",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The user requests hotel recommendations for each city on their route. The Skyscanner_v2 - Search Place API is designed for travel-related queries and can provide place information needed to find hotels, making it the most relevant for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The user requests hotel recommendations for each city on their route. The Skyscanner_v2 - Search Place API is designed for travel-related queries and can provide place information needed to find hotels, making it the most relevant for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1717,
+    "total_tokens": 1787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 884,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 1072,
+      "total_duration_ms": 972,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

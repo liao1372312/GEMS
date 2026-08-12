@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_763",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'runs.tech - getDomainTech' API accepts a domain parameter and provides domain-related information, which is the closest match to finding the IP address associated with a domain name among the candidates. Other APIs are unrelated or do not provide IP address information.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'runs.tech - getDomainTech' API accepts a domain parameter and provides domain-related information, which is the closest match to finding the IP address associated with a domain name among the candidates. Other APIs are unrelated or do not provide IP address information."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 2010,
+    "total_tokens": 2083,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 967,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 273,
+      "service_ttlt_ms": 1155,
+      "total_duration_ms": 1035,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

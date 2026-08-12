@@ -1,0 +1,45 @@
+{
+  "record_id": "Finance_response_3624",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is appropriate for fetching all available currencies.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 exactly and is the most relevant API for retrieving historical exchange rates starting from a specific date.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is appropriate for fetching all available currencies."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and is the most relevant API for retrieving historical exchange rates starting from a specific date."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 972,
+    "total_tokens": 1059,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 28,
+      "engine_ttlt_ms": 712,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 145,
+      "service_ttlt_ms": 825,
+      "total_duration_ms": 738,
+      "user_visible_ttft_ms": 53
+    }
+  }
+}

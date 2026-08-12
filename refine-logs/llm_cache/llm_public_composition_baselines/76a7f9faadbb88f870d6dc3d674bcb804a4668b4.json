@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requests a detailed workout plan with exercise descriptions and safety tips, which aligns best with the Medical domain and the subtask. However, none of the provided APIs directly offer workout plans or exercise descriptions. The highest-ranked APIs are Udemy course scrappers, which are unrelated to the user's specific request. Since no suitable API is available, the best choice is the top-ranked candidate by default, but confidence is moderate due to lack of direct relevance.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requests a detailed workout plan with exercise descriptions and safety tips, which aligns best with the Medical domain and the subtask. However, none of the provided APIs directly offer workout plans or exercise descriptions. The highest-ranked APIs are Udemy course scrappers, which are unrelated to the user's specific request. Since no suitable API is available, the best choice is the top-ranked candidate by default, but confidence is moderate due to lack of direct relevance."
+  },
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 1669,
+    "total_tokens": 1781,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1339,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 332,
+      "service_ttlt_ms": 1604,
+      "total_duration_ms": 1473,
+      "user_visible_ttft_ms": 190
+    }
+  }
+}

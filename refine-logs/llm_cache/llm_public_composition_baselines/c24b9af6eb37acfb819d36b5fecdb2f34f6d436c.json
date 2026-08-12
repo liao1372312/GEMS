@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6708",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API is related to education and kanji details, which is closest to the domain of education and may provide educational content such as quotes. However, it does not directly generate random dates. Since the user request includes two subtasks (quote and random date generation), and no candidate API explicitly supports random date generation, selecting the top-ranked education-related API is the best choice for the quote part. The random date generation may need to be handled separately or by another method.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API is related to education and kanji details, which is closest to the domain of education and may provide educational content such as quotes. However, it does not directly generate random dates. Since the user request includes two subtasks (quote and random date generation), and no candidate API explicitly supports random date generation, selecting the top-ranked education-related API is the best choice for the quote part. The random date generation may need to be handled separately or by another method."
+  },
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 1227,
+    "total_tokens": 1345,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 68,
+      "engine_ttft_ms": 6011,
+      "engine_ttlt_ms": 13976,
+      "pre_inference_ms": 72,
+      "service_tbt_ms": 68,
+      "service_ttft_ms": 6616,
+      "service_ttlt_ms": 14569,
+      "total_duration_ms": 14515,
+      "user_visible_ttft_ms": 6544
+    }
+  }
+}

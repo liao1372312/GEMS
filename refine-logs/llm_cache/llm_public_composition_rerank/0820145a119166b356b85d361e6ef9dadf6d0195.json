@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1209",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The 'aaaa - Get API Current Version' API is designed to get the current version of a specified API, which directly satisfies the subtask of retrieving the current version of the brand recognition service. Although it requires an apiId parameter, this is the only candidate that matches the intent of getting an API version, unlike other unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The 'aaaa - Get API Current Version' API is designed to get the current version of a specified API, which directly satisfies the subtask of retrieving the current version of the brand recognition service. Although it requires an apiId parameter, this is the only candidate that matches the intent of getting an API version, unlike other unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 2285,
+    "total_tokens": 2374,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 1593,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 390,
+      "service_ttlt_ms": 1909,
+      "total_duration_ms": 1810,
+      "user_visible_ttft_ms": 281
+    }
+  }
+}

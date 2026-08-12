@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3328",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"This API provides historical asset data with daily intervals, suitable for fetching 90 days of Bitcoin candlestick data on Binance.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "This API provides historical asset data with daily intervals, suitable for fetching 90 days of Bitcoin candlestick data on Binance."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1707,
+    "total_tokens": 1753,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 25,
+      "engine_ttft_ms": 493,
+      "engine_ttlt_ms": 1649,
+      "pre_inference_ms": 138,
+      "service_tbt_ms": 25,
+      "service_ttft_ms": 734,
+      "service_ttlt_ms": 1884,
+      "total_duration_ms": 1755,
+      "user_visible_ttft_ms": 595
+    }
+  }
+}

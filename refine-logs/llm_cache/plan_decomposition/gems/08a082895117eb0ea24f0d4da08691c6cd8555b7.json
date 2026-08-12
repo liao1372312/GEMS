@@ -1,0 +1,51 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch live updates on ongoing sports matches including scores, participating teams, and match status\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch live updates on ongoing sports matches including scores, participating teams, and match status",
+        "domain": "Technology",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch live updates on ongoing sports matches including scores, participating teams, and match status",
+      "domain": "Technology",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 2256,
+    "total_tokens": 2312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 571,
+      "pre_inference_ms": 135,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 792,
+      "total_duration_ms": 668,
+      "user_visible_ttft_ms": 153
+    }
+  },
+  "goal_hints": [
+    "I am developing a sports application and I need to retrieve information about ongoing matches."
+  ]
+}

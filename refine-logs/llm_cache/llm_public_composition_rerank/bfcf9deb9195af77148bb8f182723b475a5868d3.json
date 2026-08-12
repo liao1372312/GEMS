@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5364",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The API 'Geolocation Simulation For Mobile Apps - View Application' directly matches the subtask of viewing details of a specific application in the Geolocation Simulation For Mobile Apps tool and requires the application_id as input, which is provided in the subtask's required inputs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The API 'Geolocation Simulation For Mobile Apps - View Application' directly matches the subtask of viewing details of a specific application in the Geolocation Simulation For Mobile Apps tool and requires the application_id as input, which is provided in the subtask's required inputs."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 2082,
+    "total_tokens": 2157,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 354,
+      "user_visible_ttft_ms": 174,
+      "total_duration_ms": 821,
+      "pre_inference_ms": 180,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 988,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 697,
+      "engine_tbt_ms": 9
+    }
+  }
+}

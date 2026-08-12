@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6127",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs are gaming-specific or video-specific, but the first three are location-related and unrelated. The rest are unrelated domains. No API directly supports searching for Diablo 4 gameplay videos. However, since the subtask requires searching and getting latest Diablo 4 gameplay videos, none of the candidates fit well. Given the options, none are suitable, but the first ranked API is unrelated. Therefore, no suitable API is available from the candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs are gaming-specific or video-specific, but the first three are location-related and unrelated. The rest are unrelated domains. No API directly supports searching for Diablo 4 gameplay videos. However, since the subtask requires searching and getting latest Diablo 4 gameplay videos, none of the candidates fit well. Given the options, none are suitable, but the first ranked API is unrelated. Therefore, no suitable API is available from the candidates."
+  },
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 2504,
+    "total_tokens": 2617,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 103,
+      "engine_ttlt_ms": 1926,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 2080,
+      "total_duration_ms": 1986,
+      "user_visible_ttft_ms": 158
+    }
+  }
+}

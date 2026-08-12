@@ -1,0 +1,48 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch live updates on ongoing sports matches including scores and match statistics.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch live updates on ongoing sports matches including scores and match statistics.",
+        "domain": "Technology",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch live updates on ongoing sports matches including scores and match statistics.",
+      "domain": "Technology",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2255,
+    "total_tokens": 2307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 29,
+      "engine_ttft_ms": 85,
+      "engine_ttlt_ms": 1600,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 29,
+      "service_ttft_ms": 204,
+      "service_ttlt_ms": 1714,
+      "total_duration_ms": 1633,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

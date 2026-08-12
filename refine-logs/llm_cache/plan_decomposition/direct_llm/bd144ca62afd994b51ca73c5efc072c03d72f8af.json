@@ -1,0 +1,72 @@
+{
+  "record_id": "Tourism_response_492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the route and major cities between New York City and Los Angeles\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find interesting landmarks and attractions near the identified route and major cities\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"route\", \"major_cities\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the route and major cities between New York City and Los Angeles",
+        "domain": "Tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find interesting landmarks and attractions near the identified route and major cities",
+        "domain": "Tourism",
+        "required_inputs": [
+          "route",
+          "major_cities"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the route and major cities between New York City and Los Angeles",
+      "domain": "Tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find interesting landmarks and attractions near the identified route and major cities",
+      "domain": "Tourism",
+      "required_inputs": [
+        "route",
+        "major_cities"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 176,
+    "total_tokens": 287,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 1370,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 147,
+      "service_ttlt_ms": 1478,
+      "total_duration_ms": 1402,
+      "user_visible_ttft_ms": 58
+    }
+  }
+}

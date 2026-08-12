@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Diagnostic operating points on the 211-workflow public test split. Policies are selected on test and should be treated as diagnostic.}
+\label{tab:test211-operating-points}
+\begin{tabular}{lrrrr}
+\toprule
+Method & API.Acc & Plan.Acc & Para.F1 & LLM Change \\
+\midrule
+Semantic top-1 & 0.6148 & 0.4502 & 0.7010 & 0.0000 \\
+Full LLM & 0.6726 & 0.3886 & 0.7502 & 0.5762 \\
+\textsc{GEMS}-Plan & 0.6276 & 0.4787 & 0.7110 & 0.0161 \\
+\textsc{GEMS}-Balanced & 0.6356 & 0.4692 & 0.7171 & 0.0337 \\
+\bottomrule
+\end{tabular}
+\end{table}

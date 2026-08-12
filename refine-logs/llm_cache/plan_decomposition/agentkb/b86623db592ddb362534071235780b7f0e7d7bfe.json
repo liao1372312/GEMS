@@ -1,0 +1,88 @@
+{
+  "record_id": "Finance_response_4555",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve historical daily prices for Apple Inc. during August, including price, volume, dividends, and splits information\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"ticker symbol (AAPL)\", \"start date (August 1)\", \"end date (August 31)\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the ESG scores for Apple Inc.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company name (Apple Inc.)\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain the current tax rate for the zip code 94102\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"zip code (94102)\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve historical daily prices for Apple Inc. during August, including price, volume, dividends, and splits information",
+        "domain": "Finance",
+        "required_inputs": [
+          "ticker symbol (AAPL)",
+          "start date (August 1)",
+          "end date (August 31)"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the ESG scores for Apple Inc.",
+        "domain": "Finance",
+        "required_inputs": [
+          "company name (Apple Inc.)"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain the current tax rate for the zip code 94102",
+        "domain": "Finance",
+        "required_inputs": [
+          "zip code (94102)"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve historical daily prices for Apple Inc. during August, including price, volume, dividends, and splits information",
+      "domain": "Finance",
+      "required_inputs": [
+        "ticker symbol (AAPL)",
+        "start date (August 1)",
+        "end date (August 31)"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the ESG scores for Apple Inc.",
+      "domain": "Finance",
+      "required_inputs": [
+        "company name (Apple Inc.)"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain the current tax rate for the zip code 94102",
+      "domain": "Finance",
+      "required_inputs": [
+        "zip code (94102)"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 321,
+    "total_tokens": 499,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 2777,
+      "pre_inference_ms": 166,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 282,
+      "service_ttlt_ms": 3003,
+      "total_duration_ms": 2849,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

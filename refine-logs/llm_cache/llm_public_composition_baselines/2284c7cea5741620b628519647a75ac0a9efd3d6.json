@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1369",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.7, \"rationale\": \"The Company Enrichment API provides business details including location and industry, which aligns with fetching business details of tourist attractions near Eiffel Tower. Although it requires a domain, it is the closest match for business details among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.7,
+    "rationale": "The Company Enrichment API provides business details including location and industry, which aligns with fetching business details of tourist attractions near Eiffel Tower. Although it requires a domain, it is the closest match for business details among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1617,
+    "total_tokens": 1683,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 590,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 149,
+      "service_ttlt_ms": 693,
+      "total_duration_ms": 622,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

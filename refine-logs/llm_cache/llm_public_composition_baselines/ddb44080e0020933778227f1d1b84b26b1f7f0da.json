@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The top-ranked API provides real-time top coins by followers change, which matches the request for top coins by followers change and their sentiment change values. It is the best starting point for step 1 data, which is required for step 2 sentiment analysis. Additionally, for influencer posts related to Bitcoin, the predictive spikes or social spikes endpoints (rank 4 or 6) can be used after retrieving the top coins. Hence, selecting rank 1 first is appropriate.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The top-ranked API provides real-time top coins by followers change, which matches the request for top coins by followers change and their sentiment change values. It is the best starting point for step 1 data, which is required for step 2 sentiment analysis. Additionally, for influencer posts related to Bitcoin, the predictive spikes or social spikes endpoints (rank 4 or 6) can be used after retrieving the top coins. Hence, selecting rank 1 first is appropriate."
+  },
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 3628,
+    "total_tokens": 3744,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 759,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 1010,
+      "total_duration_ms": 885,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

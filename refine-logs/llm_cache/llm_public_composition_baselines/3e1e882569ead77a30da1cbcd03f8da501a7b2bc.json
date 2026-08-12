@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2964",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Shazam API is the most relevant for searching songs by famous artists like Taylor Swift and Ed Sheeran, which aligns with the user's request for music files for the road trip.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Shazam API is the most relevant for searching songs by famous artists like Taylor Swift and Ed Sheeran, which aligns with the user's request for music files for the road trip."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1616,
+    "total_tokens": 1674,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 641,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 246,
+      "service_ttlt_ms": 844,
+      "total_duration_ms": 775,
+      "user_visible_ttft_ms": 169
+    }
+  }
+}

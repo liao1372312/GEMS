@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Realtime Crypto Prices - Get Realtime Rates' API provides realtime price of a coin and supports specifying the crypto symbol, which fits the subtask to get the current price of Ethereum.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'Realtime Crypto Prices - Get Realtime Rates' API provides realtime price of a coin and supports specifying the crypto symbol, which fits the subtask to get the current price of Ethereum."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1320,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 248,
+      "user_visible_ttft_ms": 108,
+      "total_duration_ms": 627,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 756,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 550,
+      "engine_tbt_ms": 9
+    }
+  }
+}

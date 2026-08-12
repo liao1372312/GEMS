@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5213",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The 'Flightera Flight Data - flightInfo' API directly provides current flight status information using the flight number, which matches the subtask to check the current flight status for flight code 'DL123'.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The 'Flightera Flight Data - flightInfo' API directly provides current flight status information using the flight number, which matches the subtask to check the current flight status for flight code 'DL123'."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1860,
+    "total_tokens": 1924,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 942,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 1141,
+      "total_duration_ms": 1025,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

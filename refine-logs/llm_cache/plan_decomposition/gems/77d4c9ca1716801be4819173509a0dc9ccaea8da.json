@@ -1,0 +1,119 @@
+{
+  "record_id": "Finance_response_4555",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical daily prices for Apple Inc. stock for the period from August 1 to August 31, including price and volume data.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock_symbol: 'AAPL'\", \"start_date: '2023-08-01'\", \"end_date: '2023-08-31'\", \"data_type: 'price, volume'\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve ESG scores for Apple Inc.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company_name: 'Apple Inc.'\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve the current tax rate for the zip code 94102.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"zip: '94102'\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical daily prices for Apple Inc. stock for the period from August 1 to August 31, including price and volume data.",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock_symbol: 'AAPL'",
+          "start_date: '2023-08-01'",
+          "end_date: '2023-08-31'",
+          "data_type: 'price, volume'"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve ESG scores for Apple Inc.",
+        "domain": "Finance",
+        "required_inputs": [
+          "company_name: 'Apple Inc.'"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Retrieve the current tax rate for the zip code 94102.",
+        "domain": "Finance",
+        "required_inputs": [
+          "zip: '94102'"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch historical daily prices for Apple Inc. stock for the period from August 1 to August 31, including price and volume data.",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock_symbol: 'AAPL'",
+        "start_date: '2023-08-01'",
+        "end_date: '2023-08-31'",
+        "data_type: 'price, volume'"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve ESG scores for Apple Inc.",
+      "domain": "Finance",
+      "required_inputs": [
+        "company_name: 'Apple Inc.'"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Retrieve the current tax rate for the zip code 94102.",
+      "domain": "Finance",
+      "required_inputs": [
+        "zip: '94102'"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 2248,
+    "total_tokens": 2448,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 3176,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 165,
+      "service_ttlt_ms": 3306,
+      "total_duration_ms": 3222,
+      "user_visible_ttft_ms": 79
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical daily prices for Apple Inc. stock during August, including price and volume data.",
+        "domain": "Finance",
+        "required_inputs": [
+          "company_name: 'Apple Inc.'",
+          "time_period: 'August'"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve ESG scores for Apple Inc.",
+        "domain": "Finance",
+        "required_inputs": [
+          "company_name: 'Apple Inc.'"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Retrieve the current tax rate for the zip code 94102.",
+        "domain": "Finance",
+        "required_inputs": [
+          "zip: '94102'"
+        ]
+      }
+    ]
+  }
+}

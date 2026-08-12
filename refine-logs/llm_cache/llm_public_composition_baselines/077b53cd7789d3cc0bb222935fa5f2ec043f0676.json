@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_623",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide an API to check for famous love stories or romantic novels associated with a city, so no suitable API is available for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide an API to check for famous love stories or romantic novels associated with a city, so no suitable API is available for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1777,
+    "total_tokens": 1831,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 529,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 642,
+      "total_duration_ms": 554,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

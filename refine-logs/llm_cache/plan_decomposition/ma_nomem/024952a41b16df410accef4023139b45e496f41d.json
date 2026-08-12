@@ -1,0 +1,68 @@
+{
+  "record_id": "Tourism_response_5444",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve popular tourist attractions in the specified city with their names, types, and addresses\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"city name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch recent horse racing statistics for the horse named 'ZANAHIYR'\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"horse name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve popular tourist attractions in the specified city with their names, types, and addresses",
+        "domain": "Tourism",
+        "required_inputs": [
+          "city name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch recent horse racing statistics for the horse named 'ZANAHIYR'",
+        "domain": "Sports",
+        "required_inputs": [
+          "horse name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve popular tourist attractions in the specified city with their names, types, and addresses",
+      "domain": "Tourism",
+      "required_inputs": [
+        "city name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch recent horse racing statistics for the horse named 'ZANAHIYR'",
+      "domain": "Sports",
+      "required_inputs": [
+        "horse name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 220,
+    "total_tokens": 328,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 30,
+      "engine_ttlt_ms": 1356,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 147,
+      "service_ttlt_ms": 1469,
+      "total_duration_ms": 1391,
+      "user_visible_ttft_ms": 58
+    }
+  }
+}

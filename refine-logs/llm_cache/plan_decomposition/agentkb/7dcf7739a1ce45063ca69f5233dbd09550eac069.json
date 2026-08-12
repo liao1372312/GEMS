@@ -1,0 +1,90 @@
+{
+  "record_id": "Finance_response_4774",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Calculate the number of working days in October from October 1st to October 31st for the friend's company\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"company_working_days_policy\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Add 2 hours of working time to the start date October 1st at 9:00 AM\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"start_datetime\", \"hours_to_add\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Evaluate the arithmetic expression '($1500 - $100)'\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"expression\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Calculate the number of working days in October from October 1st to October 31st for the friend's company",
+        "domain": "Finance",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "company_working_days_policy"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Add 2 hours of working time to the start date October 1st at 9:00 AM",
+        "domain": "Finance",
+        "required_inputs": [
+          "start_datetime",
+          "hours_to_add"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Evaluate the arithmetic expression '($1500 - $100)'",
+        "domain": "Finance",
+        "required_inputs": [
+          "expression"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Calculate the number of working days in October from October 1st to October 31st for the friend's company",
+      "domain": "Finance",
+      "required_inputs": [
+        "start_date",
+        "end_date",
+        "company_working_days_policy"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Add 2 hours of working time to the start date October 1st at 9:00 AM",
+      "domain": "Finance",
+      "required_inputs": [
+        "start_datetime",
+        "hours_to_add"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Evaluate the arithmetic expression '($1500 - $100)'",
+      "domain": "Finance",
+      "required_inputs": [
+        "expression"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 438,
+    "total_tokens": 617,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 66,
+      "engine_ttft_ms": 4134,
+      "engine_ttlt_ms": 16001,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 66,
+      "service_ttft_ms": 5479,
+      "service_ttlt_ms": 17341,
+      "total_duration_ms": 17249,
+      "user_visible_ttft_ms": 5372
+    }
+  }
+}

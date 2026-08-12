@@ -1,0 +1,181 @@
+{
+  "paper_ready": true,
+  "best_threshold": 0.02,
+  "val": {
+    "api_acc": 0.6920529801324503,
+    "workflow_exact": 0.43333333333333335,
+    "para_f1": 0.7805739514348785,
+    "llm_call_rate": 0.7649006622516556,
+    "llm_calls": 462,
+    "llm_cache_hits": 462,
+    "missing_llm": 0,
+    "coverage": 1.0,
+    "steps": 604
+  },
+  "test": {
+    "api_acc": 0.6613162118780096,
+    "workflow_exact": 0.3791469194312796,
+    "para_f1": 0.7424826110219369,
+    "llm_call_rate": 0.7865168539325843,
+    "llm_calls": 490,
+    "llm_cache_hits": 490,
+    "missing_llm": 0,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "semantic_top1_test": {
+    "api_acc": 0.6147672552166934,
+    "workflow_exact": 0.45023696682464454,
+    "para_f1": 0.7009898341359015,
+    "llm_call_rate": 0.0,
+    "llm_calls": 0,
+    "llm_cache_hits": 0,
+    "missing_llm": 0,
+    "coverage": 1.0,
+    "steps": 623
+  },
+  "available_llm_predictions": 1227,
+  "threshold_sweep": [
+    {
+      "threshold": 0.0,
+      "metrics": {
+        "api_acc": 0.6572847682119205,
+        "workflow_exact": 0.4380952380952381,
+        "para_f1": 0.7671633554083885,
+        "llm_call_rate": 0.08609271523178808,
+        "llm_calls": 52,
+        "llm_cache_hits": 52,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.002,
+      "metrics": {
+        "api_acc": 0.6440397350993378,
+        "workflow_exact": 0.3904761904761905,
+        "para_f1": 0.7572295805739514,
+        "llm_call_rate": 0.1605960264900662,
+        "llm_calls": 97,
+        "llm_cache_hits": 97,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.005,
+      "metrics": {
+        "api_acc": 0.6672185430463576,
+        "workflow_exact": 0.35714285714285715,
+        "para_f1": 0.7590507726269315,
+        "llm_call_rate": 0.3973509933774834,
+        "llm_calls": 240,
+        "llm_cache_hits": 240,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.01,
+      "metrics": {
+        "api_acc": 0.6738410596026491,
+        "workflow_exact": 0.3761904761904762,
+        "para_f1": 0.7583885209713024,
+        "llm_call_rate": 0.5811258278145696,
+        "llm_calls": 351,
+        "llm_cache_hits": 351,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.02,
+      "metrics": {
+        "api_acc": 0.6920529801324503,
+        "workflow_exact": 0.43333333333333335,
+        "para_f1": 0.7805739514348785,
+        "llm_call_rate": 0.7649006622516556,
+        "llm_calls": 462,
+        "llm_cache_hits": 462,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.04,
+      "metrics": {
+        "api_acc": 0.6837748344370861,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.780849889624724,
+        "llm_call_rate": 0.9254966887417219,
+        "llm_calls": 559,
+        "llm_cache_hits": 559,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.08,
+      "metrics": {
+        "api_acc": 0.6771523178807947,
+        "workflow_exact": 0.42857142857142855,
+        "para_f1": 0.7750551876379691,
+        "llm_call_rate": 0.9867549668874173,
+        "llm_calls": 596,
+        "llm_cache_hits": 596,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.12,
+      "metrics": {
+        "api_acc": 0.6754966887417219,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.7733995584988962,
+        "llm_call_rate": 0.9983443708609272,
+        "llm_calls": 603,
+        "llm_cache_hits": 603,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.16,
+      "metrics": {
+        "api_acc": 0.6754966887417219,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.7733995584988962,
+        "llm_call_rate": 1.0,
+        "llm_calls": 604,
+        "llm_cache_hits": 604,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    },
+    {
+      "threshold": 0.2,
+      "metrics": {
+        "api_acc": 0.6754966887417219,
+        "workflow_exact": 0.4238095238095238,
+        "para_f1": 0.7733995584988962,
+        "llm_call_rate": 1.0,
+        "llm_calls": 604,
+        "llm_cache_hits": 604,
+        "missing_llm": 0,
+        "coverage": 1.0,
+        "steps": 604
+      }
+    }
+  ],
+  "note": "paper-ready: validation routed examples have full LLM coverage"
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3973",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The user wants photos of restaurants by name, which aligns with the Google Reviews Scraper API that can search businesses and retrieve reviews, ratings, and likely photos. Other candidates are unrelated to tourism or restaurant data.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The user wants photos of restaurants by name, which aligns with the Google Reviews Scraper API that can search businesses and retrieve reviews, ratings, and likely photos. Other candidates are unrelated to tourism or restaurant data."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1596,
+    "total_tokens": 1660,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 96,
+      "engine_ttlt_ms": 1182,
+      "pre_inference_ms": 140,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 345,
+      "service_ttlt_ms": 1422,
+      "total_duration_ms": 1292,
+      "user_visible_ttft_ms": 205
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3990",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The '13 - getCategoryById' API from Spont Horeca is the most relevant for retrieving categorized food items or recipes, which can be used to compile vegetarian recipes suitable for large groups. It aligns with the subtask of researching recipes and can potentially handle dietary restrictions and servings through category filtering.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The '13 - getCategoryById' API from Spont Horeca is the most relevant for retrieving categorized food items or recipes, which can be used to compile vegetarian recipes suitable for large groups. It aligns with the subtask of researching recipes and can potentially handle dietary restrictions and servings through category filtering."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1644,
+    "total_tokens": 1727,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 97,
+      "engine_ttlt_ms": 1648,
+      "pre_inference_ms": 252,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 515,
+      "service_ttlt_ms": 2096,
+      "total_duration_ms": 1850,
+      "user_visible_ttft_ms": 263
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5479",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"This API provides access to books including the Bhagavad Gita chapters, suitable for fetching all chapters as requested.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "This API provides access to books including the Bhagavad Gita chapters, suitable for fetching all chapters as requested."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1409,
+    "total_tokens": 1453,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 418,
+      "pre_inference_ms": 67,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 151,
+      "service_ttlt_ms": 520,
+      "total_duration_ms": 457,
+      "user_visible_ttft_ms": 83
+    }
+  }
+}

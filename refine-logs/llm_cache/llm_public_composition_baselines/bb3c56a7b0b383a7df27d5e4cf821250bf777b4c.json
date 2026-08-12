@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_854",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.95, \"rationale\": \"The 'Easy Weather - Complete weather (single call)' API provides current conditions, hourly forecast, daily forecast, and weather alerts including severe weather alerts in a single response, which matches the user's need to check current conditions, 5-day forecast, and severe weather alerts for New York City.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.95,
+    "rationale": "The 'Easy Weather - Complete weather (single call)' API provides current conditions, hourly forecast, daily forecast, and weather alerts including severe weather alerts in a single response, which matches the user's need to check current conditions, 5-day forecast, and severe weather alerts for New York City."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1646,
+    "total_tokens": 1726,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 712,
+      "pre_inference_ms": 166,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 354,
+      "service_ttlt_ms": 973,
+      "total_duration_ms": 818,
+      "user_visible_ttft_ms": 189
+    }
+  }
+}

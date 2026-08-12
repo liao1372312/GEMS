@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide airplane types; all are unrelated to the subtask of fetching airplane types.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide airplane types; all are unrelated to the subtask of fetching airplane types."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 1166,
+    "total_tokens": 1208,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 420,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 146,
+      "service_ttlt_ms": 520,
+      "total_duration_ms": 447,
+      "user_visible_ttft_ms": 67
+    }
+  }
+}

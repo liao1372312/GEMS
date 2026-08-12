@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1793",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The first candidate API directly matches the task intent and domain by providing CO2 offset compensation details linked to an account, including compensation ID, organization, CO2 equivalent, and associated credits and trees.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The first candidate API directly matches the task intent and domain by providing CO2 offset compensation details linked to an account, including compensation ID, organization, CO2 equivalent, and associated credits and trees."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1529,
+    "total_tokens": 1590,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 500,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 130,
+      "service_ttlt_ms": 596,
+      "total_duration_ms": 526,
+      "user_visible_ttft_ms": 55
+    }
+  }
+}

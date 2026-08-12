@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5275",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the task of organizing a wine tasting event with cheese pairings or finding a brewery tour in New York; the top-ranked API is unrelated to the tourism domain or the specific subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the task of organizing a wine tasting event with cheese pairings or finding a brewery tour in New York; the top-ranked API is unrelated to the tourism domain or the specific subtask."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1331,
+    "total_tokens": 1396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 102,
+      "engine_ttft_ms": 1150,
+      "engine_ttlt_ms": 7807,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 102,
+      "service_ttft_ms": 1949,
+      "service_ttlt_ms": 8595,
+      "total_duration_ms": 8517,
+      "user_visible_ttft_ms": 1856
+    }
+  }
+}

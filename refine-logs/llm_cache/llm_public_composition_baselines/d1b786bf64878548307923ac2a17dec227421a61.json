@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4481",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The API Prague Stock Exchange - /api/Trades/isin/{isin} directly supports querying trade data by ISIN code, which matches the user's request for trades data for a specific stock with ISIN 'ABC123' from the Prague Stock Exchange.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 1.0,
+    "rationale": "The API Prague Stock Exchange - /api/Trades/isin/{isin} directly supports querying trade data by ISIN code, which matches the user's request for trades data for a specific stock with ISIN 'ABC123' from the Prague Stock Exchange."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1529,
+    "total_tokens": 1601,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1194,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 1387,
+      "total_duration_ms": 1281,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

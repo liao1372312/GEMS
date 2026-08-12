@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1653",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"Candidate 1 directly provides a 72-hour air quality forecast for the specified latitude and longitude, matching the subtask requirements exactly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "Candidate 1 directly provides a 72-hour air quality forecast for the specified latitude and longitude, matching the subtask requirements exactly."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1703,
+    "total_tokens": 1751,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 526,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 694,
+      "total_duration_ms": 611,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

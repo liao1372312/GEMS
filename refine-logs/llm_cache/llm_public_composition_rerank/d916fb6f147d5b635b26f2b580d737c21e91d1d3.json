@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1248",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The API 'Oil Thai Price - Get latest price' directly provides the latest price of Thai oil, matching the subtask intent perfectly and requires no additional parameters.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The API 'Oil Thai Price - Get latest price' directly provides the latest price of Thai oil, matching the subtask intent perfectly and requires no additional parameters."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1262,
+    "total_tokens": 1316,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 704,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 189,
+      "service_ttlt_ms": 855,
+      "total_duration_ms": 769,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

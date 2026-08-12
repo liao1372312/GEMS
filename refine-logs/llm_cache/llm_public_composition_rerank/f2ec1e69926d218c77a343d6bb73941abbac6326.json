@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8358",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The GroupDocs.Signature Cloud API supports barcode operations and is suitable for generating barcode images, matching the subtask intent directly. It requires no additional parameters beyond the provided book identifiers, making it the best fit among candidates.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The GroupDocs.Signature Cloud API supports barcode operations and is suitable for generating barcode images, matching the subtask intent directly. It requires no additional parameters beyond the provided book identifiers, making it the best fit among candidates."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1508,
+    "total_tokens": 1574,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 1067,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 1243,
+      "total_duration_ms": 1146,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

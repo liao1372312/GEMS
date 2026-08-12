@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4388",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs explicitly provide shipping quotes from logistics companies. However, the user subtask requires searching for calls made to logistics companies to gather shipping quotes, which implies a need for logistics or shipping-specific APIs. The provided candidates are mostly finance, business validation, or unrelated domains. The closest relevant API by domain and description is 'JoJ Finance - Search' which allows searching queries but is finance-focused and not logistics. Since no logistics-specific API is present, no candidate fully satisfies the subtask. Therefore, no suitable API can be selected from the given candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs explicitly provide shipping quotes from logistics companies. However, the user subtask requires searching for calls made to logistics companies to gather shipping quotes, which implies a need for logistics or shipping-specific APIs. The provided candidates are mostly finance, business validation, or unrelated domains. The closest relevant API by domain and description is 'JoJ Finance - Search' which allows searching queries but is finance-focused and not logistics. Since no logistics-specific API is present, no candidate fully satisfies the subtask. Therefore, no suitable API can be selected from the given candidates."
+  },
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 1988,
+    "total_tokens": 2124,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 2543,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 338,
+      "service_ttlt_ms": 2764,
+      "total_duration_ms": 2650,
+      "user_visible_ttft_ms": 215
+    }
+  }
+}

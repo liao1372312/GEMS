@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1353",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.8, \"rationale\": \"The Skyscanner API - Locations provides geographical location data with hierarchy, which can be used to calculate distances between the user's current location and landmarks. It directly supports location-based queries and can bind the user's location and landmarks for distance calculation, making it the most relevant among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.8,
+    "rationale": "The Skyscanner API - Locations provides geographical location data with hierarchy, which can be used to calculate distances between the user's current location and landmarks. It directly supports location-based queries and can bind the user's location and landmarks for distance calculation, making it the most relevant among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1782,
+    "total_tokens": 1860,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 266,
+      "user_visible_ttft_ms": 113,
+      "total_duration_ms": 1026,
+      "pre_inference_ms": 153,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 1133,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 921,
+      "engine_tbt_ms": 11
+    }
+  }
+}

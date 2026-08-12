@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5275",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"Skyscanner_v2 - Search Place API is in the travel domain and allows searching places by location name, which can be used to find breweries in New York offering tours, matching the subtask intent directly and using the location 'New York' from the user request.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "Skyscanner_v2 - Search Place API is in the travel domain and allows searching places by location name, which can be used to find breweries in New York offering tours, matching the subtask intent directly and using the location 'New York' from the user request."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1484,
+    "total_tokens": 1560,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 1319,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 197,
+      "service_ttlt_ms": 1441,
+      "total_duration_ms": 1351,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

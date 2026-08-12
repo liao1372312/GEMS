@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2684",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The 'Trading View - exchanges/list' API is the most relevant for fetching a list of supported assets for futures trading as it provides data on stock quotes, futures, and other financial instruments.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The 'Trading View - exchanges/list' API is the most relevant for fetching a list of supported assets for futures trading as it provides data on stock quotes, futures, and other financial instruments."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1014,
+    "total_tokens": 1074,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 465,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 249,
+      "service_ttlt_ms": 675,
+      "total_duration_ms": 535,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

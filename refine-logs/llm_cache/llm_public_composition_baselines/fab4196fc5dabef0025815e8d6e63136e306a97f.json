@@ -1,0 +1,27 @@
+{
+  "record_id": "Finance_response_2054",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The YH Finance Complete - Simple Summary of the Stocks API provides asset profiles and key financial metrics for companies like Apple Inc. and Tesla, matching the subtask requirement to fetch asset profiles including key financial metrics.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The YH Finance Complete - Simple Summary of the Stocks API provides asset profiles and key financial metrics for companies like Apple Inc. and Tesla, matching the subtask requirement to fetch asset profiles including key financial metrics."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1451,
+    "total_tokens": 1515,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 63
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1441
+    }
+  }
+}

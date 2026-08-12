@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2128",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs directly provide calorie burn estimation for hiking. The first API is for QR code generation, which is unrelated to calorie calculation. No suitable API for the calorie calculation subtask is present among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs directly provide calorie burn estimation for hiking. The first API is for QR code generation, which is unrelated to calorie calculation. No suitable API for the calorie calculation subtask is present among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 2112,
+    "total_tokens": 2178,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 916,
+      "pre_inference_ms": 197,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 381,
+      "service_ttlt_ms": 1248,
+      "total_duration_ms": 1090,
+      "user_visible_ttft_ms": 184
+    }
+  }
+}

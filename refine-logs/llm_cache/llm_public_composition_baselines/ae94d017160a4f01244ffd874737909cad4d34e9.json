@@ -1,0 +1,27 @@
+{
+  "record_id": "Medical_response_4757",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requests a list of different cake options with images and detailed recipes including portion size, preparation time, ingredients, step-by-step method, and an image. The Birthday Cake DB API provides a list of cakes with names, images, and IDs, which can be used to get detailed recipes by ID, matching the user's need for both variety and detailed recipe information.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requests a list of different cake options with images and detailed recipes including portion size, preparation time, ingredients, step-by-step method, and an image. The Birthday Cake DB API provides a list of cakes with names, images, and IDs, which can be used to get detailed recipes by ID, matching the user's need for both variety and detailed recipe information."
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 1809,
+    "total_tokens": 1904,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 95
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1805
+    }
+  }
+}

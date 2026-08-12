@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_9639",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of the latest anime news articles.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Explore and provide different types of media related to anime to enhance the anime-watching experience.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of the latest anime news articles.",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Explore and provide different types of media related to anime to enhance the anime-watching experience.",
+        "domain": "entertainment",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of the latest anime news articles.",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Explore and provide different types of media related to anime to enhance the anime-watching experience.",
+      "domain": "entertainment",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 669,
+    "total_tokens": 769,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 810,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 200,
+      "service_ttlt_ms": 953,
+      "total_duration_ms": 843,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

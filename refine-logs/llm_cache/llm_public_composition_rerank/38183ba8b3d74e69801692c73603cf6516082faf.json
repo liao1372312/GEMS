@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1783",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The subtask is to fetch popular tourist attractions in the selected tropical destination. Among the candidates, only the 'URL Content Extractor - Search Content' API can perform a content search based on a query, which can be used to find popular tourist attractions for the given destination. Other APIs are related to weather or unrelated domains, so they do not directly satisfy the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The subtask is to fetch popular tourist attractions in the selected tropical destination. Among the candidates, only the 'URL Content Extractor - Search Content' API can perform a content search based on a query, which can be used to find popular tourist attractions for the given destination. Other APIs are related to weather or unrelated domains, so they do not directly satisfy the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1859,
+    "total_tokens": 1957,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1998,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 220,
+      "service_ttlt_ms": 2150,
+      "total_duration_ms": 2049,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5198",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The MMA Stats API specifically provides detailed information about the UFC Fight Night: Emmett vs. Topuria event on June 24, 2023, directly matching the subtask intent and requiring no additional parameters.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The MMA Stats API specifically provides detailed information about the UFC Fight Night: Emmett vs. Topuria event on June 24, 2023, directly matching the subtask intent and requiring no additional parameters."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1963,
+    "total_tokens": 2027,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 1170,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 175,
+      "service_ttlt_ms": 1279,
+      "total_duration_ms": 1201,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

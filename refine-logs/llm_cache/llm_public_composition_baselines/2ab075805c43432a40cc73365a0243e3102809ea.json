@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2882",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requests romantic and elegant dinner recipes with ingredients and instructions, and also cheese recommendations. The top-ranked candidate is a dinner recipe API that provides recipes with ingredients and instructions, matching the dinner recipe request. Other candidates focus on ice cream, cake, pastry, salad, breakfast, Mediterranean, appetizer, lunch, or diet recipes, which are less aligned with the main dinner recipe intent. The domain of the user request is incorrectly marked as Medical, but the content is clearly Food-related, matching the top candidate's domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requests romantic and elegant dinner recipes with ingredients and instructions, and also cheese recommendations. The top-ranked candidate is a dinner recipe API that provides recipes with ingredients and instructions, matching the dinner recipe request. Other candidates focus on ice cream, cake, pastry, salad, breakfast, Mediterranean, appetizer, lunch, or diet recipes, which are less aligned with the main dinner recipe intent. The domain of the user request is incorrectly marked as Medical, but the content is clearly Food-related, matching the top candidate's domain."
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1945,
+    "total_tokens": 2071,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1189,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 153,
+      "service_ttlt_ms": 1292,
+      "total_duration_ms": 1218,
+      "user_visible_ttft_ms": 72
+    }
+  }
+}

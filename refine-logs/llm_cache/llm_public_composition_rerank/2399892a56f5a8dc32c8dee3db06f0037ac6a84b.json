@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6246",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.95, \"rationale\": \"The subtask is to recommend a fun online game to play during the night. The 'Free Epic Games - Free Games' API directly provides a list of free online games, which fits the subtask intent perfectly. It requires no parameters and is specific to gaming, making it more suitable than joke or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.95,
+    "rationale": "The subtask is to recommend a fun online game to play during the night. The 'Free Epic Games - Free Games' API directly provides a list of free online games, which fits the subtask intent perfectly. It requires no parameters and is specific to gaming, making it more suitable than joke or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1461,
+    "total_tokens": 1546,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1316,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 1483,
+      "total_duration_ms": 1373,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

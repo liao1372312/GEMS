@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"Google Search 2 - Google Maps Data ID API can provide relevant and unique team-building activities in London by searching for related places and events.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "Google Search 2 - Google Maps Data ID API can provide relevant and unique team-building activities in London by searching for related places and events."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1473,
+    "total_tokens": 1523,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 440,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 177,
+      "service_ttlt_ms": 569,
+      "total_duration_ms": 472,
+      "user_visible_ttft_ms": 73
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_4345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of major airports in the United States\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get detailed information about each airport including location, facilities, and transportation options\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"airport list from step 1\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of major airports in the United States",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get detailed information about each airport including location, facilities, and transportation options",
+        "domain": "Tourism",
+        "required_inputs": [
+          "airport list from step 1"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of major airports in the United States",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Get detailed information about each airport including location, facilities, and transportation options",
+      "domain": "Tourism",
+      "required_inputs": [
+        "airport list from step 1"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 181,
+    "total_tokens": 284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1063,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 142,
+      "service_ttlt_ms": 1157,
+      "total_duration_ms": 1088,
+      "user_visible_ttft_ms": 67
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2054",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Yahoo Finance - Trend API (rank 3) is the most relevant for retrieving the earnings trend of Apple Inc. over past quarters, matching the subtask requirement and domain.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Yahoo Finance - Trend API (rank 3) is the most relevant for retrieving the earnings trend of Apple Inc. over past quarters, matching the subtask requirement and domain."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1610,
+    "total_tokens": 1668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 538,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 185,
+      "service_ttlt_ms": 638,
+      "total_duration_ms": 567,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

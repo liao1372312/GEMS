@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3986",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Palmy Investing API offers a comprehensive data query endpoint that can retrieve multiple data points including asset allocation details for a specified stock ticker, matching the subtask requirement best.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Palmy Investing API offers a comprehensive data query endpoint that can retrieve multiple data points including asset allocation details for a specified stock ticker, matching the subtask requirement best."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1498,
+    "total_tokens": 1554,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 440,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 264,
+      "service_ttlt_ms": 639,
+      "total_duration_ms": 540,
+      "user_visible_ttft_ms": 159
+    }
+  }
+}

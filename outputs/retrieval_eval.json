@@ -1,0 +1,333 @@
+{
+  "split": "test",
+  "role": "provider",
+  "metrics": {
+    "top1": 0.9720930232558139,
+    "top3": 0.9802325581395349,
+    "mrr": 0.979403377630122,
+    "count": 1720
+  },
+  "num_rows": 1720,
+  "examples": [
+    {
+      "task_id": "8a20cb7ab9c7ec5fa3",
+      "query": "Find a web API endpoint that can testing auto subscription",
+      "positive_endpoint_id": "8b26994c3aee036d",
+      "rank": 1,
+      "top_endpoint_id": "8b26994c3aee036d",
+      "scores": {
+        "8b26994c3aee036d": 0.442514,
+        "f6d51b22f999c514": 0.34157,
+        "55a6960bcd1d5bc1": 0.335271,
+        "3680ca72b7f2cbd7": 0.319302,
+        "3c037bd2f5efa5ea": 0.316859,
+        "46509400b06271df": 0.316682,
+        "6e8a08fc4fd36fd7": 0.25151
+      }
+    },
+    {
+      "task_id": "bad9ba9e1ae2f6020e",
+      "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+      "positive_endpoint_id": "7551b2ab5f9402e7",
+      "rank": 1,
+      "top_endpoint_id": "7551b2ab5f9402e7",
+      "scores": {
+        "7551b2ab5f9402e7": 0.413564,
+        "7e10e889f2a033e9": 0.348255,
+        "379e22c823c8c22e": 0.344166,
+        "b03263610802a700": 0.329022,
+        "3c037bd2f5efa5ea": 0.327876,
+        "8b26994c3aee036d": 0.323134,
+        "6e8a08fc4fd36fd7": 0.248394
+      }
+    },
+    {
+      "task_id": "e3306b79e6d0c32023",
+      "query": "Find a web API endpoint that can returns a single pet",
+      "positive_endpoint_id": "3c037bd2f5efa5ea",
+      "rank": 1,
+      "top_endpoint_id": "3c037bd2f5efa5ea",
+      "scores": {
+        "3c037bd2f5efa5ea": 0.487206,
+        "7d3651bd798e295d": 0.330518,
+        "77d338a43858ccc3": 0.328261,
+        "db750644bb63961c": 0.327393,
+        "8b26994c3aee036d": 0.305705,
+        "7551b2ab5f9402e7": 0.304483,
+        "2506d9ecbe7c9e0c": 0.304037
+      }
+    },
+    {
+      "task_id": "28bedeb2f5c4bf49d0",
+      "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+      "positive_endpoint_id": "33df2fdcaab987f9",
+      "rank": 1,
+      "top_endpoint_id": "33df2fdcaab987f9",
+      "scores": {
+        "33df2fdcaab987f9": 0.566171,
+        "462a067042514f75": 0.330072,
+        "db750644bb63961c": 0.327315,
+        "102080ecae253170": 0.320559,
+        "8eea769ea81e1067": 0.308012,
+        "8b26994c3aee036d": 0.305552,
+        "7551b2ab5f9402e7": 0.303755
+      }
+    },
+    {
+      "task_id": "a861b4755086ad4f0a",
+      "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+      "positive_endpoint_id": "46509400b06271df",
+      "rank": 1,
+      "top_endpoint_id": "46509400b06271df",
+      "scores": {
+        "46509400b06271df": 0.614554,
+        "29a90e86527359da": 0.334065,
+        "0fc8dce09c118c23": 0.330216,
+        "db750644bb63961c": 0.327211,
+        "8b26994c3aee036d": 0.305347,
+        "fe6ab9c1b416380f": 0.304747,
+        "7551b2ab5f9402e7": 0.302779
+      }
+    },
+    {
+      "task_id": "f74fe6a6692cb77a7f",
+      "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+      "positive_endpoint_id": "f561061fd96fa5f8",
+      "rank": 1,
+      "top_endpoint_id": "f561061fd96fa5f8",
+      "scores": {
+        "f561061fd96fa5f8": 0.43852,
+        "aec58192a95a1c11": 0.333507,
+        "db750644bb63961c": 0.327397,
+        "8b26994c3aee036d": 0.305711,
+        "7551b2ab5f9402e7": 0.304512,
+        "7947a43d6dd50b53": 0.302659,
+        "ea92821b5f8949a0": 0.246667
+      }
+    },
+    {
+      "task_id": "32e06bee2afb9f6958",
+      "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+      "positive_endpoint_id": "6e8a08fc4fd36fd7",
+      "rank": 1,
+      "top_endpoint_id": "6e8a08fc4fd36fd7",
+      "scores": {
+        "6e8a08fc4fd36fd7": 0.375032,
+        "a8201760992146e9": 0.332133,
+        "fa66ae8951869692": 0.329107,
+        "db750644bb63961c": 0.327397,
+        "8b26994c3aee036d": 0.305711,
+        "7551b2ab5f9402e7": 0.304512,
+        "3b1a446e9411f8c8": 0.218682
+      }
+    },
+    {
+      "task_id": "ba10923d6cf402bc08",
+      "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+      "positive_endpoint_id": "af1b5a38f4106579",
+      "rank": 1,
+      "top_endpoint_id": "af1b5a38f4106579",
+      "scores": {
+        "af1b5a38f4106579": 0.494906,
+        "63b14430fb977b80": 0.334711,
+        "df862e9d3cdd600e": 0.330031,
+        "db750644bb63961c": 0.327397,
+        "8b26994c3aee036d": 0.305713,
+        "7551b2ab5f9402e7": 0.30452,
+        "1881214b99d674a8": 0.242701
+      }
+    },
+    {
+      "task_id": "8ef801a50446d8af59",
+      "query": "Find a web API endpoint that can generate catchy captions for social media",
+      "positive_endpoint_id": "db750644bb63961c",
+      "rank": 1,
+      "top_endpoint_id": "db750644bb63961c",
+      "scores": {
+        "db750644bb63961c": 0.545472,
+        "0da576e233cf1963": 0.400336,
+        "c3ca4b47417e10e9": 0.329824,
+        "3c037bd2f5efa5ea": 0.316824,
+        "8b26994c3aee036d": 0.305689,
+        "668febe907bb8d07": 0.247572,
+        "6e8a08fc4fd36fd7": 0.233737
+      }
+    },
+    {
+      "task_id": "62fcb80b9ca5eaa72b",
+      "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+      "positive_endpoint_id": "df95dff1380e02fb",
+      "rank": 1,
+      "top_endpoint_id": "df95dff1380e02fb",
+      "scores": {
+        "df95dff1380e02fb": 0.644603,
+        "963354e07e2c4234": 0.319754,
+        "508426fa59fbb369": 0.316333,
+        "8e18953d5755d884": 0.316091,
+        "d6b831956558ceb3": 0.305827,
+        "fe6f5287ddffaf86": 0.302455,
+        "7751bb4daa322988": 0.215367
+      }
+    },
+    {
+      "task_id": "71be364a37764bc6a7",
+      "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+      "positive_endpoint_id": "99ec66e7394506d6",
+      "rank": 1,
+      "top_endpoint_id": "99ec66e7394506d6",
+      "scores": {
+        "99ec66e7394506d6": 0.592512,
+        "bd738ef55dac012a": 0.333614,
+        "34404060580db434": 0.332045,
+        "b7d0f88944d9c7b3": 0.328828,
+        "c27e46919daa0936": 0.308515,
+        "3a30f104efa2a8e2": 0.30847,
+        "6fb0a7113e1ee6d3": 0.305365
+      }
+    },
+    {
+      "task_id": "52a22445700178f319",
+      "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+      "positive_endpoint_id": "77b8ad037bafacab",
+      "rank": 1,
+      "top_endpoint_id": "77b8ad037bafacab",
+      "scores": {
+        "77b8ad037bafacab": 0.615561,
+        "97dc1cc7a457b2fa": 0.338691,
+        "556de134f590b52f": 0.330245,
+        "a7afcbc049977e13": 0.328862,
+        "15a0b91f22743c15": 0.328508,
+        "2ad41da01192bd73": 0.3205,
+        "1463c2cd4e11cac5": 0.305988
+      }
+    },
+    {
+      "task_id": "5bcc3f5ca6731c0435",
+      "query": "Find a web API endpoint that can business Name Generator",
+      "positive_endpoint_id": "de91c2f8791301ca",
+      "rank": 1,
+      "top_endpoint_id": "de91c2f8791301ca",
+      "scores": {
+        "de91c2f8791301ca": 0.519978,
+        "d0bc1898e46a6e1f": 0.3376,
+        "6ab7f85b5b296390": 0.33371,
+        "a25bd8a580880b60": 0.331858,
+        "6c308446a5ba14e4": 0.331126,
+        "199e6ed158c9a75f": 0.330478,
+        "276dbec3dd5c17a5": 0.242704
+      }
+    },
+    {
+      "task_id": "e448a552d6c8110b6e",
+      "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+      "positive_endpoint_id": "42a9c7ef5923f92e",
+      "rank": 1,
+      "top_endpoint_id": "42a9c7ef5923f92e",
+      "scores": {
+        "42a9c7ef5923f92e": 0.508449,
+        "d81fa8bf56d3660d": 0.339422,
+        "d0bc1898e46a6e1f": 0.335636,
+        "a25bd8a580880b60": 0.322724,
+        "ecdd01b2fc386a04": 0.322148,
+        "6c308446a5ba14e4": 0.314779,
+        "2b1dc1768c509264": 0.248808
+      }
+    },
+    {
+      "task_id": "bd3501bab78b6a78b9",
+      "query": "Find a web API endpoint that can gets team",
+      "positive_endpoint_id": "216f5468283e9578",
+      "rank": 1,
+      "top_endpoint_id": "216f5468283e9578",
+      "scores": {
+        "216f5468283e9578": 0.402361,
+        "224fd5c75416641a": 0.335972,
+        "d0bc1898e46a6e1f": 0.333709,
+        "016250abeb249fbf": 0.320995,
+        "a25bd8a580880b60": 0.320935,
+        "ad009792de2c34df": 0.320529,
+        "6c308446a5ba14e4": 0.31348
+      }
+    },
+    {
+      "task_id": "4505798cdf23f31ce0",
+      "query": "Find a web API endpoint that can 0o",
+      "positive_endpoint_id": "275f35200557cd54",
+      "rank": 6,
+      "top_endpoint_id": "d0bc1898e46a6e1f",
+      "scores": {
+        "d0bc1898e46a6e1f": 0.334793,
+        "719b0cb9f70da515": 0.33263,
+        "a25bd8a580880b60": 0.32112,
+        "6c308446a5ba14e4": 0.314895,
+        "5c7e3e08d84bf064": 0.310231,
+        "275f35200557cd54": 0.303181,
+        "c4b9e9fc0cc83d3f": 0.251547
+      }
+    },
+    {
+      "task_id": "21abbfe5d15de5cf0b",
+      "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+      "positive_endpoint_id": "a25bd8a580880b60",
+      "rank": 1,
+      "top_endpoint_id": "a25bd8a580880b60",
+      "scores": {
+        "a25bd8a580880b60": 0.582563,
+        "dddc841650135d87": 0.333986,
+        "d0bc1898e46a6e1f": 0.332584,
+        "e54a9fd3859e9f69": 0.330606,
+        "944a4beb8e626633": 0.326729,
+        "dc53c8ba04eb3cbc": 0.317637,
+        "6c308446a5ba14e4": 0.312011
+      }
+    },
+    {
+      "task_id": "12e05dac89db7d74d9",
+      "query": "Find a web API endpoint that can test",
+      "positive_endpoint_id": "a45d36d1f9f4d66f",
+      "rank": 1,
+      "top_endpoint_id": "a45d36d1f9f4d66f",
+      "scores": {
+        "a45d36d1f9f4d66f": 0.430786,
+        "a25bd8a580880b60": 0.334998,
+        "d0bc1898e46a6e1f": 0.333862,
+        "ff5a110f85caeef3": 0.330443,
+        "6c308446a5ba14e4": 0.313679,
+        "e71ec65d13694372": 0.30833,
+        "150367d5c621f30c": 0.306533
+      }
+    },
+    {
+      "task_id": "2f3039b04cb726e205",
+      "query": "Find a web API endpoint that can list of products",
+      "positive_endpoint_id": "a48fd928c4526085",
+      "rank": 1,
+      "top_endpoint_id": "a48fd928c4526085",
+      "scores": {
+        "a48fd928c4526085": 0.43536,
+        "b127880908571f49": 0.346353,
+        "d0bc1898e46a6e1f": 0.334001,
+        "7b3af9ef41545131": 0.332847,
+        "a25bd8a580880b60": 0.330449,
+        "6c308446a5ba14e4": 0.313861,
+        "645fd626e5d21af3": 0.226787
+      }
+    },
+    {
+      "task_id": "c3ec406a7785667c64",
+      "query": "Find a web API endpoint that can quotation service",
+      "positive_endpoint_id": "436be4a6987cd67f",
+      "rank": 4,
+      "top_endpoint_id": "d0bc1898e46a6e1f",
+      "scores": {
+        "d0bc1898e46a6e1f": 0.334165,
+        "08a243a6fc688d34": 0.329854,
+        "721bec70d8a6595f": 0.328073,
+        "436be4a6987cd67f": 0.321105,
+        "a25bd8a580880b60": 0.321013,
+        "6c308446a5ba14e4": 0.314075,
+        "18f786867c9180de": 0.229124
+      }
+    }
+  ]
+}

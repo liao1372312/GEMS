@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3150",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.8, \"rationale\": \"The Fund Transfer - GetBankDetailsFT API is most relevant for researching reliable money transfer portals, as it provides bank details needed for money transfers, aligning with the subtask.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.8,
+    "rationale": "The Fund Transfer - GetBankDetailsFT API is most relevant for researching reliable money transfer portals, as it provides bank details needed for money transfers, aligning with the subtask."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1328,
+    "total_tokens": 1385,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 509,
+      "pre_inference_ms": 159,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 353,
+      "service_ttlt_ms": 799,
+      "total_duration_ms": 644,
+      "user_visible_ttft_ms": 194
+    }
+  }
+}

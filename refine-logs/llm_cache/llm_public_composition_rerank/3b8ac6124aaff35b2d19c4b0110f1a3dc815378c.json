@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2703",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 1.0, \"rationale\": \"The subtask is to generate a resume showcasing the user's degree and university, and this API specifically generates a resume document using University Name and Degree, directly matching the subtask intent and required inputs.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 1.0,
+    "rationale": "The subtask is to generate a resume showcasing the user's degree and university, and this API specifically generates a resume document using University Name and Degree, directly matching the subtask intent and required inputs."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1876,
+    "total_tokens": 1937,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 830,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 250,
+      "service_ttlt_ms": 1024,
+      "total_duration_ms": 923,
+      "user_visible_ttft_ms": 132
+    }
+  }
+}

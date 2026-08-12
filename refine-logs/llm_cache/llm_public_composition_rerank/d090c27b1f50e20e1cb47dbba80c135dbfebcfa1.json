@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1375",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide credit report generation or access to personal credit data. All finance APIs focus on stock prices or financial metrics, not credit reports. Therefore, no suitable API is available in the given candidates to fulfill the subtask of generating a credit report.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide credit report generation or access to personal credit data. All finance APIs focus on stock prices or financial metrics, not credit reports. Therefore, no suitable API is available in the given candidates to fulfill the subtask of generating a credit report."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1783,
+    "total_tokens": 1858,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 30,
+      "engine_ttft_ms": 115,
+      "engine_ttlt_ms": 2397,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 30,
+      "service_ttft_ms": 229,
+      "service_ttlt_ms": 2507,
+      "total_duration_ms": 2429,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

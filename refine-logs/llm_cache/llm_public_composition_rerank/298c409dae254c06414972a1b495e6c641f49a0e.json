@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4973",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The OpenWeather - getForecastWeather API directly provides weather forecast by city name, which matches the subtask to check the weather forecast for Miami for the next week. It requires the city name parameter 'q', which can be bound from the user request location 'Miami'. This API is specific to weather forecasting, unlike other broader or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The OpenWeather - getForecastWeather API directly provides weather forecast by city name, which matches the subtask to check the weather forecast for Miami for the next week. It requires the city name parameter 'q', which can be bound from the user request location 'Miami'. This API is specific to weather forecasting, unlike other broader or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 2323,
+    "total_tokens": 2414,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1994,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 2148,
+      "total_duration_ms": 2051,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

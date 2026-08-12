@@ -1,0 +1,52 @@
+{
+  "record_id": "Tourism_response_4345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of airports in the United States including their names, IATA codes, locations, and additional information.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"country\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of airports in the United States including their names, IATA codes, locations, and additional information.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "country"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of airports in the United States including their names, IATA codes, locations, and additional information.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "country"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 2679,
+    "total_tokens": 2744,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 24,
+      "engine_ttft_ms": 81,
+      "engine_ttlt_ms": 1668,
+      "pre_inference_ms": 194,
+      "service_tbt_ms": 24,
+      "service_ttft_ms": 345,
+      "service_ttlt_ms": 1924,
+      "total_duration_ms": 1742,
+      "user_visible_ttft_ms": 152
+    }
+  }
+}

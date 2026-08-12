@@ -1,0 +1,85 @@
+{
+  "record_id": "Cross_Domain_response_6708",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random quote about education from a suitable quote API or database\",\n      \"domain\": \"education\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Generate a random date between 2022-01-01 and 2022-12-31\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"start_date\", \"end_date\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random quote about education from a suitable quote API or database",
+        "domain": "education",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Generate a random date between 2022-01-01 and 2022-12-31",
+        "domain": "education",
+        "required_inputs": [
+          "start_date",
+          "end_date"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random quote about education from a suitable quote API or database",
+      "domain": "education",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Generate a random date between 2022-01-01 and 2022-12-31",
+      "domain": "education",
+      "required_inputs": [
+        "start_date",
+        "end_date"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 2015,
+    "total_tokens": 2125,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 1405,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 308,
+      "service_ttlt_ms": 1680,
+      "total_duration_ms": 1597,
+      "user_visible_ttft_ms": 179
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Get a random quote about education",
+        "domain": "education",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Generate a random date between 2022-01-01 and 2022-12-31",
+        "domain": "education",
+        "required_inputs": [
+          "start_date",
+          "end_date"
+        ]
+      }
+    ]
+  }
+}

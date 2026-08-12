@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_995",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the provided APIs directly support retrieving translation project jobs or event tickets/details. However, the user specifically requested tickets for event ID 12345, and the subtask is to retrieve tickets for that event. Since no suitable API is available, the best option is to acknowledge the lack of a matching API.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the provided APIs directly support retrieving translation project jobs or event tickets/details. However, the user specifically requested tickets for event ID 12345, and the subtask is to retrieve tickets for that event. Since no suitable API is available, the best option is to acknowledge the lack of a matching API."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1660,
+    "total_tokens": 1744,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 100,
+      "engine_ttlt_ms": 974,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 1127,
+      "total_duration_ms": 1035,
+      "user_visible_ttft_ms": 175
+    }
+  }
+}

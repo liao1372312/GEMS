@@ -1,0 +1,72 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"dish_type\", \"meal_setting\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find halal restaurants located in Korea to accommodate dietary restrictions.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"location\", \"dietary_preference\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.",
+        "domain": "medical",
+        "required_inputs": [
+          "dish_type",
+          "meal_setting"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find halal restaurants located in Korea to accommodate dietary restrictions.",
+        "domain": "medical",
+        "required_inputs": [
+          "location",
+          "dietary_preference"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.",
+      "domain": "medical",
+      "required_inputs": [
+        "dish_type",
+        "meal_setting"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find halal restaurants located in Korea to accommodate dietary restrictions.",
+      "domain": "medical",
+      "required_inputs": [
+        "location",
+        "dietary_preference"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 695,
+    "total_tokens": 807,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 2525,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 2626,
+      "total_duration_ms": 2560,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

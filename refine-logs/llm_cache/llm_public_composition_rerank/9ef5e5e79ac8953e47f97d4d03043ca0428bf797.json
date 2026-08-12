@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3356",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Football Prediction - Home Team Last 10 Matches' API directly satisfies the subtask of fetching the last 10 matches played by the home team for ID 81930, with the required parameter 'id' bindable from the subtask input.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Football Prediction - Home Team Last 10 Matches' API directly satisfies the subtask of fetching the last 10 matches played by the home team for ID 81930, with the required parameter 'id' bindable from the subtask input."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 2134,
+    "total_tokens": 2207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 97,
+      "engine_ttlt_ms": 948,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 269,
+      "service_ttlt_ms": 1113,
+      "total_duration_ms": 1004,
+      "user_visible_ttft_ms": 150
+    }
+  }
+}

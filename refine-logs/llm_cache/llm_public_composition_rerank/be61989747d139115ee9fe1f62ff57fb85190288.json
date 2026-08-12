@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5215",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The subtask is to fetch details of shipping companies available on Kargom Nerede, which implies searching for companies. The B2BHint - Search company by Name API directly supports searching companies by parameters, which fits the subtask intent. It requires a query parameter 'q' which can be bound from the subtask context (shipping companies). Other APIs are either product or category focused or unrelated to company search.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The subtask is to fetch details of shipping companies available on Kargom Nerede, which implies searching for companies. The B2BHint - Search company by Name API directly supports searching companies by parameters, which fits the subtask intent. It requires a query parameter 'q' which can be bound from the subtask context (shipping companies). Other APIs are either product or category focused or unrelated to company search."
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 2139,
+    "total_tokens": 2245,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 319,
+      "user_visible_ttft_ms": 190,
+      "total_duration_ms": 1458,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 1536,
+      "engine_ttft_ms": 86,
+      "engine_ttlt_ms": 1295,
+      "engine_tbt_ms": 11
+    }
+  }
+}

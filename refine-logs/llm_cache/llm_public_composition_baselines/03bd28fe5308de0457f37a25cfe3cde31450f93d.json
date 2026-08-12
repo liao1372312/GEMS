@@ -1,0 +1,27 @@
+{
+  "record_id": "Finance_response_3328",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The 'Crypto Exchanges - Asset History by ID' endpoint provides historical candlestick data for Bitcoin with daily intervals, matching the requirement for 1-day interval data over the last 90 days on Binance.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The 'Crypto Exchanges - Asset History by ID' endpoint provides historical candlestick data for Bitcoin with daily intervals, matching the requirement for 1-day interval data over the last 90 days on Binance."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1717,
+    "total_tokens": 1779,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 63
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1724
+    }
+  }
+}

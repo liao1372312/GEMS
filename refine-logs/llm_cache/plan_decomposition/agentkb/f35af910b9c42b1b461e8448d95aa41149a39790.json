@@ -1,0 +1,68 @@
+{
+  "record_id": "Tourism_response_5446",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the type of rental car based on the license plate number 'AFM915'.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"license_plate_number\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Check the availability status of the trademark 'amazon' using the USPTO Trademark API.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"trademark_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the type of rental car based on the license plate number 'AFM915'.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "license_plate_number"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Check the availability status of the trademark 'amazon' using the USPTO Trademark API.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "trademark_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the type of rental car based on the license plate number 'AFM915'.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "license_plate_number"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Check the availability status of the trademark 'amazon' using the USPTO Trademark API.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "trademark_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 388,
+    "total_tokens": 501,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1444,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 247,
+      "service_ttlt_ms": 1640,
+      "total_duration_ms": 1596,
+      "user_visible_ttft_ms": 162
+    }
+  }
+}

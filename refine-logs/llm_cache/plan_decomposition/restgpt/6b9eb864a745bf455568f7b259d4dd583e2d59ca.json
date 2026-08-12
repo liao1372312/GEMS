@@ -1,0 +1,100 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for the playlist named 'Almost Lover' on the music streaming platform to retrieve its playlist ID or details.\",\n      \"domain\": \"Music Streaming\",\n      \"required_inputs\": [\"playlist name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed information about the playlist 'Almost Lover' using the playlist ID obtained from the previous step.\",\n      \"domain\": \"Music Streaming\",\n      \"required_inputs\": [\"playlist ID\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Search for the song 'Shape of You' to identify the related artist's information.\",\n      \"domain\": \"Music Recognition\",\n      \"required_inputs\": [\"song title\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Retrieve the latest release information of the artist related to the song 'Shape of You'.\",\n      \"domain\": \"Music Recognition\",\n      \"required_inputs\": [\"artist ID or name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for the playlist named 'Almost Lover' on the music streaming platform to retrieve its playlist ID or details.",
+        "domain": "Music Streaming",
+        "required_inputs": [
+          "playlist name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed information about the playlist 'Almost Lover' using the playlist ID obtained from the previous step.",
+        "domain": "Music Streaming",
+        "required_inputs": [
+          "playlist ID"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Search for the song 'Shape of You' to identify the related artist's information.",
+        "domain": "Music Recognition",
+        "required_inputs": [
+          "song title"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Retrieve the latest release information of the artist related to the song 'Shape of You'.",
+        "domain": "Music Recognition",
+        "required_inputs": [
+          "artist ID or name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for the playlist named 'Almost Lover' on the music streaming platform to retrieve its playlist ID or details.",
+      "domain": "Music Streaming",
+      "required_inputs": [
+        "playlist name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed information about the playlist 'Almost Lover' using the playlist ID obtained from the previous step.",
+      "domain": "Music Streaming",
+      "required_inputs": [
+        "playlist ID"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Search for the song 'Shape of You' to identify the related artist's information.",
+      "domain": "Music Recognition",
+      "required_inputs": [
+        "song title"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Retrieve the latest release information of the artist related to the song 'Shape of You'.",
+      "domain": "Music Recognition",
+      "required_inputs": [
+        "artist ID or name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 217,
+    "total_tokens": 438,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 2803,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 163,
+      "service_ttlt_ms": 2931,
+      "total_duration_ms": 2834,
+      "user_visible_ttft_ms": 60
+    }
+  }
+}

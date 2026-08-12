@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5449",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate directly matches the request for small cap stocks with high earnings growth rates and provides relevant financial data, making it the best fit for the initial query.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate directly matches the request for small cap stocks with high earnings growth rates and provides relevant financial data, making it the best fit for the initial query."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1284,
+    "total_tokens": 1339,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 97,
+      "engine_ttft_ms": 749,
+      "engine_ttlt_ms": 6080,
+      "pre_inference_ms": 72,
+      "service_tbt_ms": 98,
+      "service_ttft_ms": 1560,
+      "service_ttlt_ms": 6919,
+      "total_duration_ms": 6856,
+      "user_visible_ttft_ms": 1488
+    }
+  }
+}

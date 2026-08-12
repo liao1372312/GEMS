@@ -1,0 +1,27 @@
+{
+  "record_id": "Finance_response_1793",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'CO2 Offset - Retrieve Compensation' API directly matches the subtask of querying CO2 offset compensation details linked to an account, providing full compensation details including compensation ID, organization, CO2 equivalent, gold standard credit, and planted trees.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'CO2 Offset - Retrieve Compensation' API directly matches the subtask of querying CO2 offset compensation details linked to an account, providing full compensation details including compensation ID, organization, CO2 equivalent, gold standard credit, and planted trees."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1533,
+    "total_tokens": 1604,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 70
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1524
+    }
+  }
+}

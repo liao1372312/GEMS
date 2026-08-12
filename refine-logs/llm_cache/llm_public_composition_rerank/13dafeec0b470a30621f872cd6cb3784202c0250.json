@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3438",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Skyscanner_v2 - Search Place API is in the travel domain and allows searching for a place by location name, which directly supports gathering the user's specific location for finding webcams nearby.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Skyscanner_v2 - Search Place API is in the travel domain and allows searching for a place by location name, which directly supports gathering the user's specific location for finding webcams nearby."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 2445,
+    "total_tokens": 2505,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 96,
+      "engine_ttlt_ms": 879,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 994,
+      "total_duration_ms": 908,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

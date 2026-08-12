@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1412",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Pet Store - getInventory' API provides inventory data, which is suitable for researching and recommending fun and interactive toys for a new puppy.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'Pet Store - getInventory' API provides inventory data, which is suitable for researching and recommending fun and interactive toys for a new puppy."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1098,
+    "total_tokens": 1149,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 1092,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 1182,
+      "total_duration_ms": 1113,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4611",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user request is to query the stock market for top losers, which requires market_type and time_period inputs. Candidate rank 2 (BB Finance - stock/get-financials) is the most relevant for stock market financial data, while others focus on cryptocurrencies or lack required parameters.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user request is to query the stock market for top losers, which requires market_type and time_period inputs. Candidate rank 2 (BB Finance - stock/get-financials) is the most relevant for stock market financial data, while others focus on cryptocurrencies or lack required parameters."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1371,
+    "total_tokens": 1449,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 60,
+      "engine_ttft_ms": 3850,
+      "engine_ttlt_ms": 8540,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 60,
+      "service_ttft_ms": 5252,
+      "service_ttlt_ms": 9928,
+      "total_duration_ms": 9868,
+      "user_visible_ttft_ms": 5169
+    }
+  }
+}

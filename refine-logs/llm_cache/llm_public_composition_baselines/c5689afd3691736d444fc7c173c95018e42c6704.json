@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2593",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Flight Data API provides travel routes data which can help in getting directions from Sfax to Tunis and potentially explore facilities in Tunis.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Flight Data API provides travel routes data which can help in getting directions from Sfax to Tunis and potentially explore facilities in Tunis."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1776,
+    "total_tokens": 1824,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 551,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 170,
+      "service_ttlt_ms": 673,
+      "total_duration_ms": 601,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

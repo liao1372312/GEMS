@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4299",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide recipe search or food-related services, so no suitable API is available to fulfill the subtask of searching for easy-to-follow chicken recipes for outdoor dining.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide recipe search or food-related services, so no suitable API is available to fulfill the subtask of searching for easy-to-follow chicken recipes for outdoor dining."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 2308,
+    "total_tokens": 2366,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 95,
+      "engine_ttlt_ms": 1096,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 216,
+      "service_ttlt_ms": 1214,
+      "total_duration_ms": 1127,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

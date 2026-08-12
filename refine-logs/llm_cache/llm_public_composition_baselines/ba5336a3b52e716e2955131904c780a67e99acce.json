@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_566",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the tourism domain or the subtask of identifying landmarks and attractions along routes. The candidates are mostly related to crypto news, AI news, road data for Karachi, QR codes, stars, or finance, which are unrelated to the user's request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the tourism domain or the subtask of identifying landmarks and attractions along routes. The candidates are mostly related to crypto news, AI news, road data for Karachi, QR codes, stars, or finance, which are unrelated to the user's request."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1325,
+    "total_tokens": 1401,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 1086,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 287,
+      "service_ttlt_ms": 1345,
+      "total_duration_ms": 1244,
+      "user_visible_ttft_ms": 165
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "config": {
+    "composition_data": "dataset/five_domain_1400_gold.jsonl",
+    "output": "outputs/reflexion_memory_baseline_semantic_safe.json",
+    "seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "top_k_reflections": 8,
+    "sim_weight": 1.0,
+    "reflection_weight": 0.05,
+    "support_weight": 0.0,
+    "preset": "semantic_safe",
+    "max_val_workflows": 0,
+    "max_test_workflows": 0
+  },
+  "paper_ready": true,
+  "selection_split": "fixed",
+  "note": "Reflexion-Memory uses training-trace textual reflections only; no graph reliability or test-time update.",
+  "memory": {
+    "reflections": 1069,
+    "train_steps": 2859
+  },
+  "results": {
+    "val": {
+      "api_acc": 0.6390728476821192,
+      "api_top3": 0.8178807947019867,
+      "api_mrr": 0.7455245453589819,
+      "workflow_exact": 0.4238095238095238,
+      "para_f1": 0.7533664459161148,
+      "hallu_rate": 0.0,
+      "steps": 604,
+      "workflows": 210,
+      "avg_latency_ms_per_step": 6.579609634046325
+    },
+    "test": {
+      "api_acc": 0.5666131621187801,
+      "api_top3": 0.7656500802568218,
+      "api_mrr": 0.6946024102524898,
+      "workflow_exact": 0.35545023696682465,
+      "para_f1": 0.673542001070091,
+      "hallu_rate": 0.0,
+      "steps": 623,
+      "workflows": 211,
+      "avg_latency_ms_per_step": 4.573212574754825
+    }
+  }
+}

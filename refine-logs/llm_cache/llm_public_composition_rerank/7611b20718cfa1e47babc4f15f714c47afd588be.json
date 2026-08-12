@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2371",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The subtask is to fetch training activities from 2PEAK.com Dynamic TRAINING PLANS API, but no candidate API matches that domain or functionality. The only relevant API available is the Rugby Live Data API which can provide rugby fixtures for the 2020 season as requested in the user request. Since the subtask specifically asks for training activities from 2PEAK.com and no such API is present, the best available candidate that partially satisfies the overall user request is the Rugby Live Data API.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask is to fetch training activities from 2PEAK.com Dynamic TRAINING PLANS API, but no candidate API matches that domain or functionality. The only relevant API available is the Rugby Live Data API which can provide rugby fixtures for the 2020 season as requested in the user request. Since the subtask specifically asks for training activities from 2PEAK.com and no such API is present, the best available candidate that partially satisfies the overall user request is the Rugby Live Data API."
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 1696,
+    "total_tokens": 1818,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1571,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 203,
+      "service_ttlt_ms": 1721,
+      "total_duration_ms": 1609,
+      "user_visible_ttft_ms": 83
+    }
+  }
+}

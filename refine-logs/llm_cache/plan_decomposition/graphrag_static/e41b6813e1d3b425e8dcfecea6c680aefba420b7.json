@@ -1,0 +1,74 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"cuisine_type\", \"dish_type\", \"meal_setting\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find halal restaurants in Korea to accommodate dietary restrictions for halal food.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"location\", \"food_preference\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.",
+        "domain": "medical",
+        "required_inputs": [
+          "cuisine_type",
+          "dish_type",
+          "meal_setting"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find halal restaurants in Korea to accommodate dietary restrictions for halal food.",
+        "domain": "medical",
+        "required_inputs": [
+          "location",
+          "food_preference"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for easy-to-follow chicken recipes that are suitable for outdoor dining and picnics.",
+      "domain": "medical",
+      "required_inputs": [
+        "cuisine_type",
+        "dish_type",
+        "meal_setting"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find halal restaurants in Korea to accommodate dietary restrictions for halal food.",
+      "domain": "medical",
+      "required_inputs": [
+        "location",
+        "food_preference"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 644,
+    "total_tokens": 762,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1214,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 190,
+      "service_ttlt_ms": 1346,
+      "total_duration_ms": 1253,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

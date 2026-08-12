@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2612",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Bybit - Announcement' API directly provides the latest announcements made by Bybit in the last 30 days, matching the subtask intent perfectly and requiring no additional parameters.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Bybit - Announcement' API directly provides the latest announcements made by Bybit in the last 30 days, matching the subtask intent perfectly and requiring no additional parameters."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1907,
+    "total_tokens": 1965,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 4293,
+      "engine_ttlt_ms": 5404,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 4427,
+      "service_ttlt_ms": 5532,
+      "total_duration_ms": 5445,
+      "user_visible_ttft_ms": 4332
+    }
+  }
+}

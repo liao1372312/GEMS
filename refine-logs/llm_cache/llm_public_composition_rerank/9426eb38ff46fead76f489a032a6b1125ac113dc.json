@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7488",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The Morning Star - market/get-articles API directly provides the latest market-related articles without requiring any parameters, perfectly matching the subtask intent for leisure reading.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The Morning Star - market/get-articles API directly provides the latest market-related articles without requiring any parameters, perfectly matching the subtask intent for leisure reading."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 2427,
+    "total_tokens": 2480,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 37,
+      "engine_ttft_ms": 852,
+      "engine_ttlt_ms": 2821,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 37,
+      "service_ttft_ms": 1519,
+      "service_ttlt_ms": 3480,
+      "total_duration_ms": 3413,
+      "user_visible_ttft_ms": 1438
+    }
+  }
+}

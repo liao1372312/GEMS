@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1241",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Priceline com Provider - Download cities clusters API is relevant for downloading a list of areas (city clusters) in New York City, matching the user's request for area reference. It aligns with the tourism domain and the user's need for location data.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The Priceline com Provider - Download cities clusters API is relevant for downloading a list of areas (city clusters) in New York City, matching the user's request for area reference. It aligns with the tourism domain and the user's need for location data."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1488,
+    "total_tokens": 1558,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 383,
+      "user_visible_ttft_ms": 238,
+      "total_duration_ms": 1049,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 1184,
+      "engine_ttft_ms": 161,
+      "engine_ttlt_ms": 968,
+      "engine_tbt_ms": 12
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants to estimate the worth of giveaways in dollars, which requires information about the giveaways. Among the candidates, none directly relate to gaming giveaways or their valuation, but the highest-ranked candidate is unrelated to the request. However, since no suitable API is provided for gaming giveaways or their valuation, the best available candidate is rank 1, though it is not a perfect match.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants to estimate the worth of giveaways in dollars, which requires information about the giveaways. Among the candidates, none directly relate to gaming giveaways or their valuation, but the highest-ranked candidate is unrelated to the request. However, since no suitable API is provided for gaming giveaways or their valuation, the best available candidate is rank 1, though it is not a perfect match."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1693,
+    "total_tokens": 1791,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 855,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 164,
+      "service_ttlt_ms": 981,
+      "total_duration_ms": 881,
+      "user_visible_ttft_ms": 60
+    }
+  }
+}

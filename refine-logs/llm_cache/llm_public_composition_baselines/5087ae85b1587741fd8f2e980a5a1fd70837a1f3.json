@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2807",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Get Companies By SIC Code API can be used to search for logistics companies by name or industry classification, which fits the request to retrieve a list of logistics companies from Kargom Nerede.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Get Companies By SIC Code API can be used to search for logistics companies by name or industry classification, which fits the request to retrieve a list of logistics companies from Kargom Nerede."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1803,
+    "total_tokens": 1864,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 741,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 209,
+      "service_ttlt_ms": 908,
+      "total_duration_ms": 831,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

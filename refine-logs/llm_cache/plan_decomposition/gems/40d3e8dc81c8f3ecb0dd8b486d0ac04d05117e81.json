@@ -1,0 +1,112 @@
+{
+  "record_id": "Technology_response_2871",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future.\",\n      \"domain\": \"Entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather fun facts and interesting information about each artist who contributed to Jet Set Radio and Jet Set Radio Future.\",\n      \"domain\": \"Entertainment\",\n      \"required_inputs\": [\"list_of_artists\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Compile a list of levels from Jet Set Radio with detailed descriptions for each level.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Compile a list of levels from Jet Set Radio Future with detailed descriptions for each level.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future.",
+        "domain": "Entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Gather fun facts and interesting information about each artist who contributed to Jet Set Radio and Jet Set Radio Future.",
+        "domain": "Entertainment",
+        "required_inputs": [
+          "list_of_artists"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Compile a list of levels from Jet Set Radio with detailed descriptions for each level.",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 4,
+        "description": "Compile a list of levels from Jet Set Radio Future with detailed descriptions for each level.",
+        "domain": "Technology",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future.",
+      "domain": "Entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Gather fun facts and interesting information about each artist who contributed to Jet Set Radio and Jet Set Radio Future.",
+      "domain": "Entertainment",
+      "required_inputs": [
+        "list_of_artists"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Compile a list of levels from Jet Set Radio with detailed descriptions for each level.",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 4,
+      "description": "Compile a list of levels from Jet Set Radio Future with detailed descriptions for each level.",
+      "domain": "Technology",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 2209,
+    "total_tokens": 2413,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 2776,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 205,
+      "service_ttlt_ms": 2887,
+      "total_duration_ms": 2808,
+      "user_visible_ttft_ms": 118
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future.",
+        "domain": "Entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Gather fun facts and interesting information about the artists who contributed to Jet Set Radio and Jet Set Radio Future.",
+        "domain": "Entertainment",
+        "required_inputs": [
+          "list_of_artists"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Compile a list of levels from Jet Set Radio and Jet Set Radio Future with detailed descriptions for each level.",
+        "domain": "Technology",
+        "required_inputs": []
+      }
+    ]
+  }
+}

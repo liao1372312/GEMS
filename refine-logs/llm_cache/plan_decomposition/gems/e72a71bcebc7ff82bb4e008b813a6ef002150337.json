@@ -1,0 +1,98 @@
+{
+  "record_id": "Medical_response_2137",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Gather a list of healthcare professionals including their contact details for targeted mailing for the conference outreach.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Obtain the specific food item name for which nutritional analysis is requested.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food_item\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Conduct nutritional analysis for the specified food item to provide detailed dietary information.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food_item\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Gather a list of healthcare professionals including their contact details for targeted mailing for the conference outreach.",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Obtain the specific food item name for which nutritional analysis is requested.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food_item"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Conduct nutritional analysis for the specified food item to provide detailed dietary information.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food_item"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Gather a list of healthcare professionals including their contact details for targeted mailing for the conference outreach.",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Obtain the specific food item name for which nutritional analysis is requested.",
+      "domain": "Medical",
+      "required_inputs": [
+        "food_item"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Conduct nutritional analysis for the specified food item to provide detailed dietary information.",
+      "domain": "Medical",
+      "required_inputs": [
+        "food_item"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 2563,
+    "total_tokens": 2712,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 1616,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 280,
+      "service_ttlt_ms": 1834,
+      "total_duration_ms": 1724,
+      "user_visible_ttft_ms": 159
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Gather a list of healthcare professionals for targeted mailing for the conference outreach.",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Obtain the nutritional analysis for the specified food item.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food_item"
+        ]
+      }
+    ]
+  }
+}

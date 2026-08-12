@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4345",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The top-ranked API specifically provides a comprehensive list of airports in the United States with names, IATA codes, and locations, exactly matching the request requirements.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The top-ranked API specifically provides a comprehensive list of airports in the United States with names, IATA codes, and locations, exactly matching the request requirements."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1484,
+    "total_tokens": 1537,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 76,
+      "engine_ttlt_ms": 596,
+      "pre_inference_ms": 172,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 371,
+      "service_ttlt_ms": 887,
+      "total_duration_ms": 725,
+      "user_visible_ttft_ms": 200
+    }
+  }
+}

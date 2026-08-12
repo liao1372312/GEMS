@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2964",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides detailed country information which is a necessary step before finding local hotels; however, it lacks direct hotel data. None of the candidates directly provide hotel accommodation info, but starting with country/location details is the best available option given the inputs required.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides detailed country information which is a necessary step before finding local hotels; however, it lacks direct hotel data. None of the candidates directly provide hotel accommodation info, but starting with country/location details is the best available option given the inputs required."
+  },
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 1751,
+    "total_tokens": 1825,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 897,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 178,
+      "service_ttlt_ms": 1004,
+      "total_duration_ms": 923,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

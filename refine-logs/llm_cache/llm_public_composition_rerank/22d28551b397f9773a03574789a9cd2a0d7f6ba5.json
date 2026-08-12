@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2735",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Moka News - Sources List API directly provides a list of news sources, which can be used to identify popular fitness news sources. It requires no parameters and is from the News_Media domain, making it relevant and specific for the subtask of listing popular fitness news sources.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Moka News - Sources List API directly provides a list of news sources, which can be used to identify popular fitness news sources. It requires no parameters and is from the News_Media domain, making it relevant and specific for the subtask of listing popular fitness news sources."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1640,
+    "total_tokens": 1718,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 123,
+      "engine_ttlt_ms": 1715,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 339,
+      "service_ttlt_ms": 1927,
+      "total_duration_ms": 1793,
+      "user_visible_ttft_ms": 193
+    }
+  }
+}

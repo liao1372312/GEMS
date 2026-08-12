@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2593",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Flight Data_v2 API provides travel-related data including routes and destinations, which is more relevant to the tourism domain and location of Tunis. Although it does not explicitly mention hospitals, none of the other APIs are related to Tunis or hospital facilities. The other location APIs are specific to African countries unrelated to Tunisia, and the rest are unrelated domains. This API is the best available candidate to explore facilities in Tunis.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Flight Data_v2 API provides travel-related data including routes and destinations, which is more relevant to the tourism domain and location of Tunis. Although it does not explicitly mention hospitals, none of the other APIs are related to Tunis or hospital facilities. The other location APIs are specific to African countries unrelated to Tunisia, and the rest are unrelated domains. This API is the best available candidate to explore facilities in Tunis."
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 2141,
+    "total_tokens": 2245,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 2130,
+      "user_visible_ttft_ms": 204,
+      "total_duration_ms": 1872,
+      "pre_inference_ms": 1926,
+      "service_tbt_ms": 16,
+      "service_ttlt_ms": 3787,
+      "engine_ttft_ms": 94,
+      "engine_ttlt_ms": 1759,
+      "engine_tbt_ms": 16
+    }
+  }
+}

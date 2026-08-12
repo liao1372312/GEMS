@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_79",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides product details which can include nutritional data for snacks, enabling analysis and suggestions for healthier alternatives as required in the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides product details which can include nutritional data for snacks, enabling analysis and suggestions for healthier alternatives as required in the subtask."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1362,
+    "total_tokens": 1413,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 536,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 252,
+      "service_ttlt_ms": 733,
+      "total_duration_ms": 634,
+      "user_visible_ttft_ms": 139
+    }
+  }
+}

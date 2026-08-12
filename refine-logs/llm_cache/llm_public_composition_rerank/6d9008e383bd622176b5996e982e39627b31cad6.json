@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9820",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 1.0, \"rationale\": \"This API directly provides the current season constructor standings for Formula 1, matching the subtask intent exactly. It requires no additional parameters and is specific to Formula 1, unlike other candidates which are focused on American football or generic football matches.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 1.0,
+    "rationale": "This API directly provides the current season constructor standings for Formula 1, matching the subtask intent exactly. It requires no additional parameters and is specific to Formula 1, unlike other candidates which are focused on American football or generic football matches."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 2649,
+    "total_tokens": 2719,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 41,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 2886,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 41,
+      "service_ttft_ms": 158,
+      "service_ttlt_ms": 2994,
+      "total_duration_ms": 2914,
+      "user_visible_ttft_ms": 72
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_262",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the required inputs to fetch mythic plus scores for the character Zadorie in the US region on the Stormrage realm.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the required inputs to fetch mythic plus scores for the character Zadorie in the US region on the Stormrage realm."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1311,
+    "total_tokens": 1362,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 561,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 247,
+      "service_ttlt_ms": 770,
+      "total_duration_ms": 649,
+      "user_visible_ttft_ms": 119
+    }
+  }
+}

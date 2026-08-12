@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.95, \"rationale\": \"The World History Timeline - Historic Event By year API directly provides historical events by year, matching the subtask to compile interesting historical facts about the wedding year. It requires the 'year' parameter, which can be bound to the 'wedding_year' input. Other APIs are unrelated or do not provide historical facts by year.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.95,
+    "rationale": "The World History Timeline - Historic Event By year API directly provides historical events by year, matching the subtask to compile interesting historical facts about the wedding year. It requires the 'year' parameter, which can be bound to the 'wedding_year' input. Other APIs are unrelated or do not provide historical facts by year."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 2225,
+    "total_tokens": 2312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 1660,
+      "pre_inference_ms": 141,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1870,
+      "total_duration_ms": 1735,
+      "user_visible_ttft_ms": 150
+    }
+  }
+}

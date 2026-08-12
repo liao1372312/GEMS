@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3357",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'Exchange Rate - Convert' API is highly relevant as it provides both current and historical exchange rates from the European Central Bank, which matches the user's request for current USD to EUR rates and historical data for the past week.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'Exchange Rate - Convert' API is highly relevant as it provides both current and historical exchange rates from the European Central Bank, which matches the user's request for current USD to EUR rates and historical data for the past week."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1432,
+    "total_tokens": 1499,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 518,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 271,
+      "service_ttlt_ms": 746,
+      "total_duration_ms": 631,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

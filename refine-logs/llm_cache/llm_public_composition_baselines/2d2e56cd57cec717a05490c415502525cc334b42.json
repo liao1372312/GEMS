@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2925",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.8, \"rationale\": \"The taboo-api provides categories and words that can be used to generate or suggest messages, which is more relevant for providing suggested birthday messages than other APIs focused on finance, SMS delivery status, or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.8,
+    "rationale": "The taboo-api provides categories and words that can be used to generate or suggest messages, which is more relevant for providing suggested birthday messages than other APIs focused on finance, SMS delivery status, or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1368,
+    "total_tokens": 1431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 99,
+      "engine_ttlt_ms": 990,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 239,
+      "service_ttlt_ms": 1125,
+      "total_duration_ms": 1025,
+      "user_visible_ttft_ms": 132
+    }
+  }
+}

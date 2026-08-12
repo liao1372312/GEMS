@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_91",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for popular beach resorts known for family-friendly amenities at various beach destinations.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Identify and list water sports activities available at the selected beach resorts or their surrounding areas.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"selected beach resorts or destinations\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for popular beach resorts known for family-friendly amenities at various beach destinations.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Identify and list water sports activities available at the selected beach resorts or their surrounding areas.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "selected beach resorts or destinations"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for popular beach resorts known for family-friendly amenities at various beach destinations.",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Identify and list water sports activities available at the selected beach resorts or their surrounding areas.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "selected beach resorts or destinations"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 363,
+    "total_tokens": 471,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 1077,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 222,
+      "service_ttlt_ms": 1259,
+      "total_duration_ms": 1145,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

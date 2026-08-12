@@ -1,0 +1,84 @@
+{
+  "record_id": "Technology_response_2668",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the genre of a specific editorial on Deezer\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"editorial_id\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the details of a popular song on Soundcloud\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"song_id\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get information about the artist of the popular song fetched from Soundcloud\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"artist_id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the genre of a specific editorial on Deezer",
+        "domain": "Technology",
+        "required_inputs": [
+          "editorial_id"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the details of a popular song on Soundcloud",
+        "domain": "Technology",
+        "required_inputs": [
+          "song_id"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get information about the artist of the popular song fetched from Soundcloud",
+        "domain": "Technology",
+        "required_inputs": [
+          "artist_id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the genre of a specific editorial on Deezer",
+      "domain": "Technology",
+      "required_inputs": [
+        "editorial_id"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the details of a popular song on Soundcloud",
+      "domain": "Technology",
+      "required_inputs": [
+        "song_id"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get information about the artist of the popular song fetched from Soundcloud",
+      "domain": "Technology",
+      "required_inputs": [
+        "artist_id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 206,
+    "total_tokens": 349,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 2448,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 202,
+      "service_ttlt_ms": 2599,
+      "total_duration_ms": 2499,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

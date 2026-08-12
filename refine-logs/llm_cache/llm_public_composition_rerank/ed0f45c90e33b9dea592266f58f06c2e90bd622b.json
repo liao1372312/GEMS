@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1209",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The 'aaaa - Get API Current Version' API specifically provides the current version of a specified API. Although it requires an apiId as a parameter, it is the most relevant and direct choice for retrieving the version of the masks detection service compared to other unrelated or generic APIs.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The 'aaaa - Get API Current Version' API specifically provides the current version of a specified API. Although it requires an apiId as a parameter, it is the most relevant and direct choice for retrieving the version of the masks detection service compared to other unrelated or generic APIs."
+  },
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 2285,
+    "total_tokens": 2362,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1121,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 1326,
+      "total_duration_ms": 1217,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

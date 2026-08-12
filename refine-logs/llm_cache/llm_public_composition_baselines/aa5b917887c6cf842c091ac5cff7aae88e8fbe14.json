@@ -1,0 +1,27 @@
+{
+  "record_id": "Medical_response_1860",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the request for appetizer recipes and burger descriptions or menu composition. The user request is about food recipes and menu creation, but all candidate APIs are unrelated to food or recipe domains.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the request for appetizer recipes and burger descriptions or menu composition. The user request is about food recipes and menu creation, but all candidate APIs are unrelated to food or recipe domains."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1574,
+    "total_tokens": 1635,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 61
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1578
+    }
+  }
+}

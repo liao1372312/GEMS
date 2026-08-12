@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2216",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 1.0, \"rationale\": \"The Nigeria API - Measure Distance directly calculates the distance between two locations in Nigeria using latitude and longitude, which matches the subtask of calculating distance between the event venue and nearest hospital in Lagos. It is specific to Nigeria, the correct country, and requires the exact inputs needed.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 1.0,
+    "rationale": "The Nigeria API - Measure Distance directly calculates the distance between two locations in Nigeria using latitude and longitude, which matches the subtask of calculating distance between the event venue and nearest hospital in Lagos. It is specific to Nigeria, the correct country, and requires the exact inputs needed."
+  },
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 2484,
+    "total_tokens": 2561,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 771,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 282,
+      "service_ttlt_ms": 985,
+      "total_duration_ms": 915,
+      "user_visible_ttft_ms": 198
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2965",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The subtask requires finding a grocery store that sells ingredients for selected recipes. The URL Content Extractor - Search Content API can be used to search for grocery stores or ingredient availability based on the selected recipes, making it the best fit among the candidates. Other APIs are either recipe providers or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The subtask requires finding a grocery store that sells ingredients for selected recipes. The URL Content Extractor - Search Content API can be used to search for grocery stores or ingredient availability based on the selected recipes, making it the best fit among the candidates. Other APIs are either recipe providers or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1579,
+    "total_tokens": 1661,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 1226,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 1436,
+      "total_duration_ms": 1356,
+      "user_visible_ttft_ms": 144
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6246",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.9,\"rationale\":\"The user wants a list of joke categories; among the candidates, 'World of Jokes - Get Random Joke' is from the Entertainment domain and provides access to a large collection of jokes and categories. Although it does not explicitly say it returns categories, it is the most relevant and specific to jokes in entertainment. The 'taboo-api' is gaming-focused and about taboo words, less relevant. 'The Dozen' is about insults, less general. Therefore, 'World of Jokes - Get Random Joke' is the best fit to fetch joke categories.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user wants a list of joke categories; among the candidates, 'World of Jokes - Get Random Joke' is from the Entertainment domain and provides access to a large collection of jokes and categories. Although it does not explicitly say it returns categories, it is the most relevant and specific to jokes in entertainment. The 'taboo-api' is gaming-focused and about taboo words, less relevant. 'The Dozen' is about insults, less general. Therefore, 'World of Jokes - Get Random Joke' is the best fit to fetch joke categories."
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 1480,
+    "total_tokens": 1609,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 2614,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 309,
+      "service_ttlt_ms": 2806,
+      "total_duration_ms": 2679,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

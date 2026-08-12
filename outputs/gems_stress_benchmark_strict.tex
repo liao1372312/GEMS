@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{GEMS-targeted reliability stress benchmark derived from existing API candidates. The primary metric is selecting an observed-success endpoint under memory hazards.}
+\label{tab:gems-stress-benchmark}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccc}
+\toprule
+Method & Reliable@1 $\uparrow$ & Failed@1 $\downarrow$ & Success MRR $\uparrow$ & Workflow Reliable $\uparrow$ & Gold API Acc $\uparrow$ \\
+\midrule
+Semantic Top-1 & 0.6692 & 0.2814 & 0.8194 & 0.6260 & 0.1635 \\
+Trace-RAG & 0.7719 & 0.1939 & 0.8733 & 0.7252 & 0.2510 \\
+StructMem-RAG & 0.8441 & 0.1255 & 0.9124 & 0.8092 & 0.2510 \\
+GraphRAG-static & 0.8479 & 0.0989 & 0.9179 & 0.8397 & 0.2890 \\
+GEMS w/o Reliability & 0.8555 & 0.1103 & 0.9224 & 0.8321 & 0.2510 \\
+\textsc{GEMS} & 0.9011 & 0.0456 & 0.9458 & 0.9084 & 0.2433 \\
+Reliability only & \textbf{1.0000} & 0.0000 & 1.0000 & 1.0000 & 0.1179 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

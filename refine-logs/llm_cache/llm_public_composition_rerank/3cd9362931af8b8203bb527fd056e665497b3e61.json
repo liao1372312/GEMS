@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4259",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide functionality to check if a first name is listed on the OFAC scan, which is a finance-related sanction list. The candidates mostly relate to user login, username checks, or unrelated domains. No OFAC or sanction list API is present.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide functionality to check if a first name is listed on the OFAC scan, which is a finance-related sanction list. The candidates mostly relate to user login, username checks, or unrelated domains. No OFAC or sanction list API is present."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1805,
+    "total_tokens": 1881,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 39,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 3068,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 39,
+      "service_ttft_ms": 241,
+      "service_ttlt_ms": 3231,
+      "total_duration_ms": 3118,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

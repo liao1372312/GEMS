@@ -1,0 +1,74 @@
+{
+  "record_id": "Tourism_response_138",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for recent arrest records in Clark County to assess safety for the trip\",\n      \"domain\": \"public safety\",\n      \"required_inputs\": [\"location\", \"time frame\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch recent news articles about Las Vegas to gather interesting information for itinerary planning\",\n      \"domain\": \"news\",\n      \"required_inputs\": [\"location\", \"topics\", \"time frame\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for recent arrest records in Clark County to assess safety for the trip",
+        "domain": "public safety",
+        "required_inputs": [
+          "location",
+          "time frame"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch recent news articles about Las Vegas to gather interesting information for itinerary planning",
+        "domain": "news",
+        "required_inputs": [
+          "location",
+          "topics",
+          "time frame"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for recent arrest records in Clark County to assess safety for the trip",
+      "domain": "public safety",
+      "required_inputs": [
+        "location",
+        "time frame"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch recent news articles about Las Vegas to gather interesting information for itinerary planning",
+      "domain": "news",
+      "required_inputs": [
+        "location",
+        "topics",
+        "time frame"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 206,
+    "total_tokens": 320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 123,
+      "engine_ttft_ms": 8390,
+      "engine_ttlt_ms": 22463,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 123,
+      "service_ttft_ms": 9295,
+      "service_ttlt_ms": 23345,
+      "total_duration_ms": 23260,
+      "user_visible_ttft_ms": 9197
+    }
+  }
+}

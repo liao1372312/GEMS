@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4774",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.95, \"rationale\": \"The subtask is to add 2 hours of working time to a given start date and time. The 'Working days - /1.3/add_working_hours' API directly supports adding working hours to a start date/time and requires parameters that can be bound from the subtask inputs (start_date, start_time, additional_hours). It is specific to working time calculations, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.95,
+    "rationale": "The subtask is to add 2 hours of working time to a given start date and time. The 'Working days - /1.3/add_working_hours' API directly supports adding working hours to a start date/time and requires parameters that can be bound from the subtask inputs (start_date, start_time, additional_hours). It is specific to working time calculations, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 2214,
+    "total_tokens": 2317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 1253,
+      "pre_inference_ms": 156,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 357,
+      "service_ttlt_ms": 1533,
+      "total_duration_ms": 1388,
+      "user_visible_ttft_ms": 201
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide wisdom quotes about anger, Netflix series list, or horoscope information. They are mostly eCommerce or unrelated APIs, so no suitable candidate is available.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide wisdom quotes about anger, Netflix series list, or horoscope information. They are mostly eCommerce or unrelated APIs, so no suitable candidate is available."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 2081,
+    "total_tokens": 2137,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 486,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 711,
+      "total_duration_ms": 588,
+      "user_visible_ttft_ms": 148
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3742",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Skyscanner API allows searching for places, which can be used to find locations and potentially restaurants in Stockholm, matching the requirement to search for vegetarian restaurants by location and cuisine type.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Skyscanner API allows searching for places, which can be used to find locations and potentially restaurants in Stockholm, matching the requirement to search for vegetarian restaurants by location and cuisine type."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1305,
+    "total_tokens": 1364,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 90,
+      "engine_ttlt_ms": 903,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 370,
+      "service_ttlt_ms": 1191,
+      "total_duration_ms": 1079,
+      "user_visible_ttft_ms": 255
+    }
+  }
+}

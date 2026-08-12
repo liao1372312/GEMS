@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1006",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The Halsey Lyric Snippets API directly provides albums by the specified artist, fitting the request to compile albums and singles into a playlist format with necessary enums for API requests.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Halsey Lyric Snippets API directly provides albums by the specified artist, fitting the request to compile albums and singles into a playlist format with necessary enums for API requests."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1743,
+    "total_tokens": 1801,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 656,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 253,
+      "service_ttlt_ms": 898,
+      "total_duration_ms": 792,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

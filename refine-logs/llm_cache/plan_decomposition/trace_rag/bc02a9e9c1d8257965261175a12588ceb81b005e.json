@@ -1,0 +1,80 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of ongoing sports matches currently in progress.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed live information for each ongoing match, including current scores and key events.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"match identifiers\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain additional match statistics and player performance data for ongoing matches.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"match identifiers\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of ongoing sports matches currently in progress.",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed live information for each ongoing match, including current scores and key events.",
+        "domain": "Technology",
+        "required_inputs": [
+          "match identifiers"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain additional match statistics and player performance data for ongoing matches.",
+        "domain": "Technology",
+        "required_inputs": [
+          "match identifiers"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of ongoing sports matches currently in progress.",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed live information for each ongoing match, including current scores and key events.",
+      "domain": "Technology",
+      "required_inputs": [
+        "match identifiers"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain additional match statistics and player performance data for ongoing matches.",
+      "domain": "Technology",
+      "required_inputs": [
+        "match identifiers"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 297,
+    "total_tokens": 440,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1414,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 1594,
+      "total_duration_ms": 1487,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

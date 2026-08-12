@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_817",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The task is to verify phone numbers of volunteers from different countries. The Melrose Labs Voice API - List available numbers for a country provides a list of available telephone numbers for a specified country, which aligns with verifying phone numbers from different countries.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The task is to verify phone numbers of volunteers from different countries. The Melrose Labs Voice API - List available numbers for a country provides a list of available telephone numbers for a specified country, which aligns with verifying phone numbers from different countries."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1376,
+    "total_tokens": 1446,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 219,
+      "user_visible_ttft_ms": 111,
+      "total_duration_ms": 763,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 858,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 657,
+      "engine_tbt_ms": 9
+    }
+  }
+}

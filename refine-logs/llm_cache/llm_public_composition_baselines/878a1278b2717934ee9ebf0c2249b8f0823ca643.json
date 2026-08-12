@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The top-ranked API directly supports generating a customized workout plan based on fitness level, target muscle, equipment, and time, which matches the user's request for a beginner leg workout plan lasting 45 minutes with gym access.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The top-ranked API directly supports generating a customized workout plan based on fitness level, target muscle, equipment, and time, which matches the user's request for a beginner leg workout plan lasting 45 minutes with gym access."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 2083,
+    "total_tokens": 2148,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 727,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 301,
+      "service_ttlt_ms": 960,
+      "total_duration_ms": 841,
+      "user_visible_ttft_ms": 171
+    }
+  }
+}

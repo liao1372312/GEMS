@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The user wants to analyze SEO performance and get optimization tips for headings structure, which requires extracting and analyzing website content. The 'URL Content Extractor - Search Content' API can provide content extraction and search capabilities needed for this task.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The user wants to analyze SEO performance and get optimization tips for headings structure, which requires extracting and analyzing website content. The 'URL Content Extractor - Search Content' API can provide content extraction and search capabilities needed for this task."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1196,
+    "total_tokens": 1264,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 261,
+      "user_visible_ttft_ms": 147,
+      "total_duration_ms": 854,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 10,
+      "service_ttlt_ms": 944,
+      "engine_ttft_ms": 84,
+      "engine_ttlt_ms": 770,
+      "engine_tbt_ms": 10
+    }
+  }
+}

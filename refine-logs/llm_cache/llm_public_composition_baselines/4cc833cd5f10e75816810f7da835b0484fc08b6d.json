@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_569",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.8, \"rationale\": \"API rank 7 provides disaster information by date and status, suitable for recent disasters near Paris; however, no direct climate score API is available among candidates, so this is the closest match for part of the request.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.8,
+    "rationale": "API rank 7 provides disaster information by date and status, suitable for recent disasters near Paris; however, no direct climate score API is available among candidates, so this is the closest match for part of the request."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1598,
+    "total_tokens": 1663,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 682,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 286,
+      "service_ttlt_ms": 914,
+      "total_duration_ms": 801,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

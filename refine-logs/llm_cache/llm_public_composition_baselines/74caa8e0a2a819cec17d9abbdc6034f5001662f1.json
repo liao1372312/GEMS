@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1412",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide tips or information on grooming a new puppy; they mostly return pet data by ID or inventory status, which is not relevant to the request for grooming tips.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide tips or information on grooming a new puppy; they mostly return pet data by ID or inventory status, which is not relevant to the request for grooming tips."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1099,
+    "total_tokens": 1158,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 1020,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 143,
+      "service_ttlt_ms": 1127,
+      "total_duration_ms": 1046,
+      "user_visible_ttft_ms": 57
+    }
+  }
+}

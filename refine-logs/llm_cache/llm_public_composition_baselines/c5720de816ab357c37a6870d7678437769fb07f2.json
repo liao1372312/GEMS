@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4421",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Google Translator - Languages API is a well-known, reliable service that provides a list of supported languages for translation, closely matching the request for Microsoft Translator Text API supported languages.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Google Translator - Languages API is a well-known, reliable service that provides a list of supported languages for translation, closely matching the request for Microsoft Translator Text API supported languages."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1079,
+    "total_tokens": 1136,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 157,
+      "engine_ttlt_ms": 960,
+      "pre_inference_ms": 153,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 454,
+      "service_ttlt_ms": 1417,
+      "total_duration_ms": 1528,
+      "user_visible_ttft_ms": 301
+    }
+  }
+}

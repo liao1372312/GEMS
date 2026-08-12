@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4731",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"The subtask is to search for articles related to cooking and food on Medium. The Medium - /stories/{topic} API directly satisfies this by allowing search for latest stories on Medium by topic, which can be set to cooking or food keywords. It requires a topic parameter that can be bound from the subtask's keywords. Other APIs are unrelated or do not provide article search on Medium.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.95,
+    "rationale": "The subtask is to search for articles related to cooking and food on Medium. The Medium - /stories/{topic} API directly satisfies this by allowing search for latest stories on Medium by topic, which can be set to cooking or food keywords. It requires a topic parameter that can be bound from the subtask's keywords. Other APIs are unrelated or do not provide article search on Medium."
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 2225,
+    "total_tokens": 2325,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 35,
+      "engine_ttft_ms": 107,
+      "engine_ttlt_ms": 3573,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 35,
+      "service_ttft_ms": 205,
+      "service_ttlt_ms": 3665,
+      "total_duration_ms": 3592,
+      "user_visible_ttft_ms": 128
+    }
+  }
+}

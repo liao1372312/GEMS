@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2807",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The Target.Com Product Details API can provide product information for a smartwatch, which is relevant to checking shipping options from Gearbest to Colombia. Although it requires store_id and tcin, it is the most specific product-related API available among the candidates, unlike generic or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Target.Com Product Details API can provide product information for a smartwatch, which is relevant to checking shipping options from Gearbest to Colombia. Although it requires store_id and tcin, it is the most specific product-related API available among the candidates, unlike generic or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 2039,
+    "total_tokens": 2111,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 100,
+      "engine_ttlt_ms": 1445,
+      "pre_inference_ms": 171,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 343,
+      "service_ttlt_ms": 1794,
+      "total_duration_ms": 1636,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

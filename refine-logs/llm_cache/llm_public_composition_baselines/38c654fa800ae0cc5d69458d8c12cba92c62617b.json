@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_705",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"This API provides a list of available speakers with language and accent details, suitable for selecting a Japanese speaker voice for text-to-speech.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "This API provides a list of available speakers with language and accent details, suitable for selecting a Japanese speaker voice for text-to-speech."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1430,
+    "total_tokens": 1479,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 424,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 177,
+      "service_ttlt_ms": 548,
+      "total_duration_ms": 460,
+      "user_visible_ttft_ms": 83
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 6,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"This API provides coordinates by city name, which is a necessary step to fetch historical weather records for London.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "This API provides coordinates by city name, which is a necessary step to fetch historical weather records for London."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1511,
+    "total_tokens": 1554,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 409,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 186,
+      "service_ttlt_ms": 536,
+      "total_duration_ms": 443,
+      "user_visible_ttft_ms": 87
+    }
+  }
+}

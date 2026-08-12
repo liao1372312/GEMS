@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1772",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The MoodRing - Users API provides user data and is the closest match to retrieving usernames on a platform, fitting the request to get usernames from the Fodase platform.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The MoodRing - Users API provides user data and is the closest match to retrieving usernames on a platform, fitting the request to get usernames from the Fodase platform."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1318,
+    "total_tokens": 1374,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 24,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 1378,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 24,
+      "service_ttft_ms": 177,
+      "service_ttlt_ms": 1496,
+      "total_duration_ms": 1411,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "record_id": "Finance_response_1466",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve historical exchange rates for the US Dollar to Chinese Yuan from 2022-07-01 to 2022-07-31\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"base_currency\", \"target_currency\", \"start_date\", \"end_date\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve current VAT rates for all EU member states\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve historical exchange rates for the US Dollar to Chinese Yuan from 2022-07-01 to 2022-07-31",
+        "domain": "Finance",
+        "required_inputs": [
+          "base_currency",
+          "target_currency",
+          "start_date",
+          "end_date"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve current VAT rates for all EU member states",
+        "domain": "Finance",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve historical exchange rates for the US Dollar to Chinese Yuan from 2022-07-01 to 2022-07-31",
+      "domain": "Finance",
+      "required_inputs": [
+        "base_currency",
+        "target_currency",
+        "start_date",
+        "end_date"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve current VAT rates for all EU member states",
+      "domain": "Finance",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 223,
+    "total_tokens": 344,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 1289,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 195,
+      "service_ttlt_ms": 1477,
+      "total_duration_ms": 1375,
+      "user_visible_ttft_ms": 74
+    }
+  }
+}

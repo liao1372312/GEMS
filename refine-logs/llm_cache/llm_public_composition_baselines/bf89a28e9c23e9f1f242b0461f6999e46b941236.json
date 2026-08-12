@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1711",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The user needs direct routes from Heathrow Airport; this API returns direct routes for an airport without airline restriction, matching the task precisely.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The user needs direct routes from Heathrow Airport; this API returns direct routes for an airport without airline restriction, matching the task precisely."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1355,
+    "total_tokens": 1403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 29,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1445,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 29,
+      "service_ttft_ms": 187,
+      "service_ttlt_ms": 1574,
+      "total_duration_ms": 1497,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "record_id": "Finance_response_3234",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 exactly and supports required inputs for job search.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Alpaca Trading - Get the clock) directly provides the current market clock with no parameters, better matching the subtask than semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (StreamlineWatch - Streaming Guide) specifically supports searching streaming sources by region (US), better matching the subtask than semantic top-1.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (OTT details - Additional Title Details) directly supports retrieving detailed movie info by movie_id, better matching the subtask than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 1.0\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 exactly and supports required inputs for job search."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (Alpaca Trading - Get the clock) directly provides the current market clock with no parameters, better matching the subtask than semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice (StreamlineWatch - Streaming Guide) specifically supports searching streaming sources by region (US), better matching the subtask than semantic top-1."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice (OTT details - Additional Title Details) directly supports retrieving detailed movie info by movie_id, better matching the subtask than semantic top-1."
+      }
+    ],
+    "workflow_confidence": 1.0
+  },
+  "usage": {
+    "completion_tokens": 237,
+    "prompt_tokens": 1666,
+    "total_tokens": 1903,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 84,
+      "engine_ttlt_ms": 5245,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 776,
+      "service_ttlt_ms": 5931,
+      "total_duration_ms": 5836,
+      "user_visible_ttft_ms": 671
+    }
+  }
+}

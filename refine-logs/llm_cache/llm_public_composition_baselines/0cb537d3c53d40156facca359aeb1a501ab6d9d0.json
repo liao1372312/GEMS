@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_566",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate is a news API that supports keyword search, which matches the requirement to collect news articles related to road trip experiences using relevant keywords.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate is a news API that supports keyword search, which matches the requirement to collect news articles related to road trip experiences using relevant keywords."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1469,
+    "total_tokens": 1521,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 424,
+      "pre_inference_ms": 133,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 354,
+      "service_ttlt_ms": 725,
+      "total_duration_ms": 601,
+      "user_visible_ttft_ms": 221
+    }
+  }
+}

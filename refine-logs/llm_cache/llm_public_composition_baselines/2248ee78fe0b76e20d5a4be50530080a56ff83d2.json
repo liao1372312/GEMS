@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2187",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate 1 is the only one related to fetching information from a database and can potentially provide trivia questions, while others are unrelated to geography trivia.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate 1 is the only one related to fetching information from a database and can potentially provide trivia questions, while others are unrelated to geography trivia."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1435,
+    "total_tokens": 1486,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 773,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 187,
+      "service_ttlt_ms": 900,
+      "total_duration_ms": 818,
+      "user_visible_ttft_ms": 98
+    }
+  }
+}

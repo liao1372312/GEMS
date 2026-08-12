@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6246",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The user requested a recommendation for a fun online game to play during the virtual game night. The 'Free Epic Games - Free Games' API provides a list of free games available on Epic Games, which is suitable for recommending a fun online game.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The user requested a recommendation for a fun online game to play during the virtual game night. The 'Free Epic Games - Free Games' API provides a list of free games available on Epic Games, which is suitable for recommending a fun online game."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1229,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 793,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 264,
+      "service_ttlt_ms": 1011,
+      "total_duration_ms": 915,
+      "user_visible_ttft_ms": 152
+    }
+  }
+}

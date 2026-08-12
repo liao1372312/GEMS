@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"This API provides current weather data for any city, including Paris, matching the subtask requirement to fetch current climate data for Paris.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "This API provides current weather data for any city, including Paris, matching the subtask requirement to fetch current climate data for Paris."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1626,
+    "total_tokens": 1674,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 684,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 223,
+      "service_ttlt_ms": 864,
+      "total_duration_ms": 797,
+      "user_visible_ttft_ms": 148
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1897",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"The user specifically requested comments for product ID 685539438 from Trendyol Data, and this API directly provides comments based on product ID from Trendyol, matching the request exactly.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "The user specifically requested comments for product ID 685539438 from Trendyol Data, and this API directly provides comments based on product ID from Trendyol, matching the request exactly."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1837,
+    "total_tokens": 1897,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 633,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 368,
+      "service_ttlt_ms": 924,
+      "total_duration_ms": 819,
+      "user_visible_ttft_ms": 254
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3473",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The first API directly provides random self-help quotes, which can include quotes about friendship, and requires no parameters, making it suitable for generating a friendship quote.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The first API directly provides random self-help quotes, which can include quotes about friendship, and requires no parameters, making it suitable for generating a friendship quote."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1682,
+    "total_tokens": 1735,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 1155,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 1284,
+      "total_duration_ms": 1194,
+      "user_visible_ttft_ms": 119
+    }
+  }
+}

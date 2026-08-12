@@ -1,0 +1,45 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"The semantic top-1 API is for football matches, not basketball. The LLM choice is specifically for basketball match statistics, matching the user's request for basketball matches from Admiralbet.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"The semantic top-1 API is for football live scores today, unrelated to basketball. The LLM choice is a basketball-specific scoreboard API providing match timings, teams, and odds, aligning better with the step requirement.\"}],\"workflow_confidence\":0.9}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "The semantic top-1 API is for football matches, not basketball. The LLM choice is specifically for basketball match statistics, matching the user's request for basketball matches from Admiralbet."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "The semantic top-1 API is for football live scores today, unrelated to basketball. The LLM choice is a basketball-specific scoreboard API providing match timings, teams, and odds, aligning better with the step requirement."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 1241,
+    "total_tokens": 1363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1525,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 210,
+      "service_ttlt_ms": 1680,
+      "total_duration_ms": 1585,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

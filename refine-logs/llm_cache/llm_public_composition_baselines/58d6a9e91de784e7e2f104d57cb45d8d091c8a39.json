@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4391",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The first candidate directly matches the subtask of retrieving nutritional information for a food item by its FDC ID 1497465, using a GET method on the appropriate endpoint with the required parameter.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The first candidate directly matches the subtask of retrieving nutritional information for a food item by its FDC ID 1497465, using a GET method on the appropriate endpoint with the required parameter."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1460,
+    "total_tokens": 1521,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 27,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 1705,
+      "pre_inference_ms": 72,
+      "service_tbt_ms": 27,
+      "service_ttft_ms": 153,
+      "service_ttlt_ms": 1792,
+      "total_duration_ms": 1726,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

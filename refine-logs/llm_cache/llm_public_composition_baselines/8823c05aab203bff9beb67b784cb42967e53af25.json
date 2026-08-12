@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5364",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user specifically wants to view details of a specific application in the Geolocation Simulation For Mobile Apps tool, which matches the first candidate API perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user specifically wants to view details of a specific application in the Geolocation Simulation For Mobile Apps tool, which matches the first candidate API perfectly."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1823,
+    "total_tokens": 1874,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 865,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 1073,
+      "total_duration_ms": 978,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

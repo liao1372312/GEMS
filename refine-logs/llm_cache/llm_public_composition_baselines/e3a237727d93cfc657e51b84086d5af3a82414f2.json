@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3150",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.8, \"rationale\": \"The user wants to research reliable money transfer portals for family vacations, and the Fund Transfer - GetBankDetailsFT API provides bank details relevant to money transfers, aligning well with the subtask and domain.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.8,
+    "rationale": "The user wants to research reliable money transfer portals for family vacations, and the Fund Transfer - GetBankDetailsFT API provides bank details relevant to money transfers, aligning well with the subtask and domain."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1325,
+    "total_tokens": 1387,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 764,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 177,
+      "service_ttlt_ms": 881,
+      "total_duration_ms": 795,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

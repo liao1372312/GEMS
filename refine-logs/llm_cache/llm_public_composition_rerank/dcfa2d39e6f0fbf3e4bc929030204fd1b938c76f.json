@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8827",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The 'Trends keywords in different regions - get geo map for regions' API provides geographic region data and is the only candidate that could potentially provide a list of countries by region, which is closest to the subtask of retrieving European countries and their income levels. Although it does not explicitly mention income levels, none of the other APIs relate to country income classification or European countries data. The other APIs are either sports, Africa-specific, business, or unrelated domains. Thus, this API is the best available choice to attempt fulfilling the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'Trends keywords in different regions - get geo map for regions' API provides geographic region data and is the only candidate that could potentially provide a list of countries by region, which is closest to the subtask of retrieving European countries and their income levels. Although it does not explicitly mention income levels, none of the other APIs relate to country income classification or European countries data. The other APIs are either sports, Africa-specific, business, or unrelated domains. Thus, this API is the best available choice to attempt fulfilling the subtask."
+  },
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 2177,
+    "total_tokens": 2307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1607,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 238,
+      "service_ttlt_ms": 1779,
+      "total_duration_ms": 1672,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

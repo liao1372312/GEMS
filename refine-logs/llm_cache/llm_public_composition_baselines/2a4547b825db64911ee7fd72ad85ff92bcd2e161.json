@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_7207",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No suitable API candidate is available for retrieving Billboard 200 chart details for May 11, 2019.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No suitable API candidate is available for retrieving Billboard 200 chart details for May 11, 2019."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1743,
+    "total_tokens": 1787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 43
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1787
+    }
+  }
+}

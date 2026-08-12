@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2314",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The 'Drinking - Get random question' API provides trivia questions and can be used to fetch random questions, which aligns with the need for trivia questions. Although it is drinking-themed, it is the closest trivia-related API available. None of the other APIs provide trivia questions specifically for sports and leisure. The required parameters are not strict, so it can be used to fetch multiple questions. Other APIs are unrelated to trivia or sports questions.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'Drinking - Get random question' API provides trivia questions and can be used to fetch random questions, which aligns with the need for trivia questions. Although it is drinking-themed, it is the closest trivia-related API available. None of the other APIs provide trivia questions specifically for sports and leisure. The required parameters are not strict, so it can be used to fetch multiple questions. Other APIs are unrelated to trivia or sports questions."
+  },
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 1443,
+    "total_tokens": 1552,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 364,
+      "user_visible_ttft_ms": 200,
+      "total_duration_ms": 1509,
+      "pre_inference_ms": 164,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 1661,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1345,
+      "engine_tbt_ms": 12
+    }
+  }
+}

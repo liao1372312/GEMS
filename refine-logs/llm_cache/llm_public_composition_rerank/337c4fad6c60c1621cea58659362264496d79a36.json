@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1096",
+  "step_id": 4,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The 'taboo-api - Get All Stored Categories' API can provide random words or phrases, which can be used to generate a daily inspirational phrase. It requires no parameters and is more suitable than unrelated entertainment or horoscope APIs for generating a general inspirational phrase.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'taboo-api - Get All Stored Categories' API can provide random words or phrases, which can be used to generate a daily inspirational phrase. It requires no parameters and is more suitable than unrelated entertainment or horoscope APIs for generating a general inspirational phrase."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1914,
+    "total_tokens": 1982,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 1049,
+      "pre_inference_ms": 74,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 171,
+      "service_ttlt_ms": 1150,
+      "total_duration_ms": 1082,
+      "user_visible_ttft_ms": 96
+    }
+  }
+}

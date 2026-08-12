@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1272",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.95, \"rationale\": \"The Flaticon - categories API provides a paged list of categories, which aligns well with the subtask of getting a list of tags and categories in which recipes are grouped. It directly satisfies the subtask intent and requires no parameters, making it suitable.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.95,
+    "rationale": "The Flaticon - categories API provides a paged list of categories, which aligns well with the subtask of getting a list of tags and categories in which recipes are grouped. It directly satisfies the subtask intent and requires no parameters, making it suitable."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1799,
+    "total_tokens": 1872,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 1187,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 191,
+      "service_ttlt_ms": 1319,
+      "total_duration_ms": 1241,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

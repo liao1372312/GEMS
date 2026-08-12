@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1345",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The top-ranked candidate directly provides detailed and up-to-date information about the specified IATA airport code DFW, which matches the user's request and the subtask requirements perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The top-ranked candidate directly provides detailed and up-to-date information about the specified IATA airport code DFW, which matches the user's request and the subtask requirements perfectly."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1383,
+    "total_tokens": 1439,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 670,
+      "pre_inference_ms": 160,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 307,
+      "service_ttlt_ms": 920,
+      "total_duration_ms": 769,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

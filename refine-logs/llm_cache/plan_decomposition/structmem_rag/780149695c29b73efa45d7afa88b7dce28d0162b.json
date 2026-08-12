@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_91",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify popular beach resorts known for family-friendly amenities.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather information on water sports activities available at or near the identified beach resorts.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"list_of_resorts\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify popular beach resorts known for family-friendly amenities.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Gather information on water sports activities available at or near the identified beach resorts.",
+        "domain": "tourism",
+        "required_inputs": [
+          "list_of_resorts"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify popular beach resorts known for family-friendly amenities.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Gather information on water sports activities available at or near the identified beach resorts.",
+      "domain": "tourism",
+      "required_inputs": [
+        "list_of_resorts"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 784,
+    "total_tokens": 884,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1120,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 220,
+      "service_ttlt_ms": 1290,
+      "total_duration_ms": 1193,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

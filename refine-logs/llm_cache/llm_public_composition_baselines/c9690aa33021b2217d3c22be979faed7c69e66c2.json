@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1860",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs relate to combining appetizer recipes and burger descriptions into a menu; the best-ranked API is unrelated to the task.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs relate to combining appetizer recipes and burger descriptions into a menu; the best-ranked API is unrelated to the task."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1578,
+    "total_tokens": 1627,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 508,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 227,
+      "service_ttlt_ms": 680,
+      "total_duration_ms": 587,
+      "user_visible_ttft_ms": 125
+    }
+  }
+}

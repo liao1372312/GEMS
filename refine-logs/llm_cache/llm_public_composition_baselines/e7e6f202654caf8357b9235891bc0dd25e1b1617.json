@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Recipe Finder - dinner/ingredient API is the best match for fetching a vegan dinner recipe with ingredients, method, and image, as it returns detailed recipe information including the dish name, ingredients, instructions, and likely an image.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Recipe Finder - dinner/ingredient API is the best match for fetching a vegan dinner recipe with ingredients, method, and image, as it returns detailed recipe information including the dish name, ingredients, instructions, and likely an image."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1638,
+    "total_tokens": 1706,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 621,
+      "pre_inference_ms": 176,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 296,
+      "service_ttlt_ms": 859,
+      "total_duration_ms": 696,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

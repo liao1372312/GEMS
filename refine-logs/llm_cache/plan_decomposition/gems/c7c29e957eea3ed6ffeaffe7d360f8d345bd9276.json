@@ -1,0 +1,54 @@
+{
+  "record_id": "Medical_response_2571",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Research and compile a list of unique dessert recipes from ComfyFood that include chocolate and fruits, along with their cooking times.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"ingredients\", \"recipe source\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Research and compile a list of unique dessert recipes from ComfyFood that include chocolate and fruits, along with their cooking times.",
+        "domain": "Medical",
+        "required_inputs": [
+          "ingredients",
+          "recipe source"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Research and compile a list of unique dessert recipes from ComfyFood that include chocolate and fruits, along with their cooking times.",
+      "domain": "Medical",
+      "required_inputs": [
+        "ingredients",
+        "recipe source"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 688,
+    "total_tokens": 758,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 28,
+      "engine_ttlt_ms": 511,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 339,
+      "service_ttlt_ms": 732,
+      "total_duration_ms": 596,
+      "user_visible_ttft_ms": 192
+    }
+  }
+}

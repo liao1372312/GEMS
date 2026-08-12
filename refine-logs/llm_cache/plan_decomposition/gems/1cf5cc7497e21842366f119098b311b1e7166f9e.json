@@ -1,0 +1,82 @@
+{
+  "record_id": "Cross_Domain_response_7901",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the current list of free games available on the Epic Games Store with their descriptions.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the schedule of upcoming Rocket League tournaments specifically in the Europe region.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"region: Europe\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the current list of free games available on the Epic Games Store with their descriptions.",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the schedule of upcoming Rocket League tournaments specifically in the Europe region.",
+        "domain": "gaming",
+        "required_inputs": [
+          "region: Europe"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the current list of free games available on the Epic Games Store with their descriptions.",
+      "domain": "gaming",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the schedule of upcoming Rocket League tournaments specifically in the Europe region.",
+      "domain": "gaming",
+      "required_inputs": [
+        "region: Europe"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 2164,
+    "total_tokens": 2267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1048,
+      "pre_inference_ms": 210,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 370,
+      "service_ttlt_ms": 1375,
+      "total_duration_ms": 1168,
+      "user_visible_ttft_ms": 160
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the current list of free games available on the Epic Games Store.",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the schedule of upcoming Rocket League tournaments in the Europe region.",
+        "domain": "gaming",
+        "required_inputs": [
+          "region: Europe"
+        ]
+      }
+    ]
+  }
+}

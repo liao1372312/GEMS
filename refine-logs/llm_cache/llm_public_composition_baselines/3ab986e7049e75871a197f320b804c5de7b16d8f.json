@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5435",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No suitable API candidate is available for nutritional analysis of a recipe among the provided options.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No suitable API candidate is available for nutritional analysis of a recipe among the provided options."
+  },
+  "usage": {
+    "completion_tokens": 39,
+    "prompt_tokens": 1476,
+    "total_tokens": 1515,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 647,
+      "pre_inference_ms": 153,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 296,
+      "service_ttlt_ms": 854,
+      "total_duration_ms": 711,
+      "user_visible_ttft_ms": 144
+    }
+  }
+}

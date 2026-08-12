@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4072",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Skyscanner_v2 - Search Place API is most relevant for searching good hotels in each city, as it provides detailed hotel and travel information for destinations.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The Skyscanner_v2 - Search Place API is most relevant for searching good hotels in each city, as it provides detailed hotel and travel information for destinations."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1713,
+    "total_tokens": 1767,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 661,
+      "pre_inference_ms": 143,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 338,
+      "service_ttlt_ms": 1006,
+      "total_duration_ms": 887,
+      "user_visible_ttft_ms": 196
+    }
+  }
+}

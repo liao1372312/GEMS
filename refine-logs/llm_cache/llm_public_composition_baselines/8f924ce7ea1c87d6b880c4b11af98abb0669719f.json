@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The API ranked 2 provides a list of banks in a country including whether they are central banks, which is essential to identify top central banks and their interest rates as requested.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The API ranked 2 provides a list of banks in a country including whether they are central banks, which is essential to identify top central banks and their interest rates as requested."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1462,
+    "total_tokens": 1519,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 791,
+      "pre_inference_ms": 169,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 290,
+      "service_ttlt_ms": 1019,
+      "total_duration_ms": 857,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

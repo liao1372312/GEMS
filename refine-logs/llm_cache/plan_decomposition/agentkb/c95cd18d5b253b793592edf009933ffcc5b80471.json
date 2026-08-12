@@ -1,0 +1,80 @@
+{
+  "record_id": "Technology_response_2668",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the genre of the specified editorial on Deezer\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"editorial identifier or name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch details of a popular song on Soundcloud\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve information about the artist of the popular Soundcloud song\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"artist identifier or name from step 2\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the genre of the specified editorial on Deezer",
+        "domain": "Technology",
+        "required_inputs": [
+          "editorial identifier or name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch details of a popular song on Soundcloud",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Retrieve information about the artist of the popular Soundcloud song",
+        "domain": "Technology",
+        "required_inputs": [
+          "artist identifier or name from step 2"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the genre of the specified editorial on Deezer",
+      "domain": "Technology",
+      "required_inputs": [
+        "editorial identifier or name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch details of a popular song on Soundcloud",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Retrieve information about the artist of the popular Soundcloud song",
+      "domain": "Technology",
+      "required_inputs": [
+        "artist identifier or name from step 2"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 385,
+    "total_tokens": 530,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 2400,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 192,
+      "service_ttlt_ms": 2544,
+      "total_duration_ms": 2426,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

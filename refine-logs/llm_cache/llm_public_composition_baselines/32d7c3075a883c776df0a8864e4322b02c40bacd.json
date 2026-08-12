@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_566",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.7, \"rationale\": \"The Country Location API provides detailed location data for a specified country, which is relevant for gathering route information in the specified countries for a road trip. Although it does not directly provide routes, it is the best match among candidates for the subtask requiring country-based route information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.7,
+    "rationale": "The Country Location API provides detailed location data for a specified country, which is relevant for gathering route information in the specified countries for a road trip. Although it does not directly provide routes, it is the best match among candidates for the subtask requiring country-based route information."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1551,
+    "total_tokens": 1627,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 978,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 178,
+      "service_ttlt_ms": 1094,
+      "total_duration_ms": 1011,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

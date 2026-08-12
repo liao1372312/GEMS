@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5181",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The 'Working days - /1.3/add_working_hours' API directly supports adding working hours to a given start date/time and considers country-specific holidays and working hours, which matches the subtask of determining working hours and holidays in the US for the calculation.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The 'Working days - /1.3/add_working_hours' API directly supports adding working hours to a given start date/time and considers country-specific holidays and working hours, which matches the subtask of determining working hours and holidays in the US for the calculation."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 2568,
+    "total_tokens": 2643,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 47,
+      "engine_ttft_ms": 271,
+      "engine_ttlt_ms": 3807,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 48,
+      "service_ttft_ms": 1824,
+      "service_ttlt_ms": 5353,
+      "total_duration_ms": 5329,
+      "user_visible_ttft_ms": 1738
+    }
+  }
+}

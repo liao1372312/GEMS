@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4874",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"This API specifically generates map tiles with French labels for the given coordinates, matching the subtask requirements exactly.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "This API specifically generates map tiles with French labels for the given coordinates, matching the subtask requirements exactly."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 2218,
+    "total_tokens": 2261,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 519,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 282,
+      "service_ttlt_ms": 735,
+      "total_duration_ms": 625,
+      "user_visible_ttft_ms": 156
+    }
+  }
+}

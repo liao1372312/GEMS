@@ -1,0 +1,86 @@
+{
+  "record_id": "Finance_response_4555",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve historical stock prices for Apple Inc. for the month of August\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company name or ticker symbol\", \"date range for August\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Obtain ESG scores for Apple Inc.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company name or ticker symbol\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the current tax rate for the zip code 94102\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"zip code\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve historical stock prices for Apple Inc. for the month of August",
+        "domain": "Finance",
+        "required_inputs": [
+          "company name or ticker symbol",
+          "date range for August"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Obtain ESG scores for Apple Inc.",
+        "domain": "Finance",
+        "required_inputs": [
+          "company name or ticker symbol"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get the current tax rate for the zip code 94102",
+        "domain": "Finance",
+        "required_inputs": [
+          "zip code"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve historical stock prices for Apple Inc. for the month of August",
+      "domain": "Finance",
+      "required_inputs": [
+        "company name or ticker symbol",
+        "date range for August"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Obtain ESG scores for Apple Inc.",
+      "domain": "Finance",
+      "required_inputs": [
+        "company name or ticker symbol"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get the current tax rate for the zip code 94102",
+      "domain": "Finance",
+      "required_inputs": [
+        "zip code"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 191,
+    "total_tokens": 344,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 2026,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 2138,
+      "total_duration_ms": 2051,
+      "user_visible_ttft_ms": 61
+    }
+  }
+}

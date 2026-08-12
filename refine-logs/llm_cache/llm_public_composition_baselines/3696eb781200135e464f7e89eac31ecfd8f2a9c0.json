@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Messages API provides a wide range of quotes including random ones, which can include villain quotes for inspiration. It directly addresses the need for a random villain quote. However, it does not provide number facts, but it is the best fit among the candidates for the villain quote part of the request.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The Messages API provides a wide range of quotes including random ones, which can include villain quotes for inspiration. It directly addresses the need for a random villain quote. However, it does not provide number facts, but it is the best fit among the candidates for the villain quote part of the request."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1437,
+    "total_tokens": 1518,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 739,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 242,
+      "service_ttlt_ms": 937,
+      "total_duration_ms": 836,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

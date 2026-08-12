@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4667",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The user wants live scores for ongoing football games; candidate 1 directly provides live scores for today's football matches with no required parameters, matching the subtask perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The user wants live scores for ongoing football games; candidate 1 directly provides live scores for today's football matches with no required parameters, matching the subtask perfectly."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1498,
+    "total_tokens": 1552,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 785,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 931,
+      "total_duration_ms": 870,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

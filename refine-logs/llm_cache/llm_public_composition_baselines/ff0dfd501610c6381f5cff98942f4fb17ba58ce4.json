@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4731",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants competitor news related to the food industry; the Social Media Data TT API can provide real-time user search and news related to keywords, which can be used to find competitor news and food trends. Other APIs are unrelated to food or news.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants competitor news related to the food industry; the Social Media Data TT API can provide real-time user search and news related to keywords, which can be used to find competitor news and food trends. Other APIs are unrelated to food or news."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1842,
+    "total_tokens": 1914,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 915,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 246,
+      "service_ttlt_ms": 1086,
+      "total_duration_ms": 973,
+      "user_visible_ttft_ms": 122
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3999",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"The user wants to convert 1 cup of milk to grams, which is a measurement conversion task. The Measurement Units Converter API (rank 9) is designed for converting measurement units, including weight units like grams, making it the most suitable choice for the conversion subtask. The Cocktail DB API (rank 1) is relevant for the second part of the request about cocktails, but since the subtask focuses on conversion, the converter API is more appropriate for this step.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The user wants to convert 1 cup of milk to grams, which is a measurement conversion task. The Measurement Units Converter API (rank 9) is designed for converting measurement units, including weight units like grams, making it the most suitable choice for the conversion subtask. The Cocktail DB API (rank 1) is relevant for the second part of the request about cocktails, but since the subtask focuses on conversion, the converter API is more appropriate for this step."
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 1476,
+    "total_tokens": 1593,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 252,
+      "user_visible_ttft_ms": 124,
+      "total_duration_ms": 1180,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 1300,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 1102,
+      "engine_tbt_ms": 9
+    }
+  }
+}

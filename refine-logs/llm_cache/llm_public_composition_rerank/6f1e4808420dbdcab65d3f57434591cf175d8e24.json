@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2882",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask requires detailed ingredients and preparation instructions for dinner recipes. The 'Recipe Finder - dinner/ingredient' API directly provides recipes with ingredients and instructions for dinner dishes, matching the subtask intent and domain perfectly. It is more specific than generic or unrelated recipe categories and fits the user request for romantic and elegant dinner recipes.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask requires detailed ingredients and preparation instructions for dinner recipes. The 'Recipe Finder - dinner/ingredient' API directly provides recipes with ingredients and instructions for dinner dishes, matching the subtask intent and domain perfectly. It is more specific than generic or unrelated recipe categories and fits the user request for romantic and elegant dinner recipes."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 2272,
+    "total_tokens": 2359,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1355,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 248,
+      "service_ttlt_ms": 1580,
+      "total_duration_ms": 1552,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

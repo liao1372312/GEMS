@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1006",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API specifically retrieves all albums by a specified artist, which directly matches the user's need to get albums and singles from their parents' favorite artist. It also provides the necessary parameter enum for the artist name.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API specifically retrieves all albums by a specified artist, which directly matches the user's need to get albums and singles from their parents' favorite artist. It also provides the necessary parameter enum for the artist name."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1609,
+    "total_tokens": 1674,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 781,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 988,
+      "total_duration_ms": 879,
+      "user_visible_ttft_ms": 141
+    }
+  }
+}

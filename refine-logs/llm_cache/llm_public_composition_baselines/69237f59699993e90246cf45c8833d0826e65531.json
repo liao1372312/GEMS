@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_700",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The World Time API for timezone/location provides current time, DST status, timezone abbreviation, and formatted time for Europe/London, matching the subtask to check if London is currently observing Daylight Savings Time.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The World Time API for timezone/location provides current time, DST status, timezone abbreviation, and formatted time for Europe/London, matching the subtask to check if London is currently observing Daylight Savings Time."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1949,
+    "total_tokens": 2012,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 882,
+      "pre_inference_ms": 165,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 442,
+      "service_ttlt_ms": 1272,
+      "total_duration_ms": 1116,
+      "user_visible_ttft_ms": 277
+    }
+  }
+}

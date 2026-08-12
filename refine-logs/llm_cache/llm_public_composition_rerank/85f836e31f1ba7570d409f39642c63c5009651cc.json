@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9831",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The Morning Star - market/get-articles API is from the finance domain and provides market-related articles, which aligns with retrieving market sector performance data for investment planning. It requires no additional parameters and is specific to market information, making it the best fit among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The Morning Star - market/get-articles API is from the finance domain and provides market-related articles, which aligns with retrieving market sector performance data for investment planning. It requires no additional parameters and is specific to market information, making it the best fit among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1910,
+    "total_tokens": 1985,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 62,
+      "engine_ttft_ms": 180,
+      "engine_ttlt_ms": 4814,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 62,
+      "service_ttft_ms": 852,
+      "service_ttlt_ms": 5482,
+      "total_duration_ms": 5398,
+      "user_visible_ttft_ms": 761
+    }
+  }
+}

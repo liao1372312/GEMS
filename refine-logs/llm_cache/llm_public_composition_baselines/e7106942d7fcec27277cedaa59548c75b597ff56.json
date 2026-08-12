@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4731",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Social Media Data TT API can provide real-time user search and news related to competitors in the food industry by searching relevant keywords, making it suitable for gathering competitor news in the food domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Social Media Data TT API can provide real-time user search and news related to competitors in the food industry by searching relevant keywords, making it suitable for gathering competitor news in the food domain."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1829,
+    "total_tokens": 1889,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1040,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1227,
+      "total_duration_ms": 1107,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

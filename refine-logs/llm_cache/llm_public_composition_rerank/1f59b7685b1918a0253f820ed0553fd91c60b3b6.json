@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5053",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The subtask is to identify the list of cities included in the road trip route, which aligns with the Travel domain. The 'Flight Data_v2 - City data in json format' API provides a list of cities from a travel database without requiring parameters, directly satisfying the subtask intent. Other APIs are either eCommerce-focused or provide unrelated geographic data.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The subtask is to identify the list of cities included in the road trip route, which aligns with the Travel domain. The 'Flight Data_v2 - City data in json format' API provides a list of cities from a travel database without requiring parameters, directly satisfying the subtask intent. Other APIs are either eCommerce-focused or provide unrelated geographic data."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1838,
+    "total_tokens": 1931,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 44,
+      "engine_ttft_ms": 383,
+      "engine_ttlt_ms": 4518,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 44,
+      "service_ttft_ms": 514,
+      "service_ttlt_ms": 4645,
+      "total_duration_ms": 4555,
+      "user_visible_ttft_ms": 418
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1546",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The 'Air Quality API - Current Air Quality' directly provides current air quality index data for a specified city, matching the subtask to retrieve the current air quality index for the user's city. It requires 'city' and 'country' parameters, which can be bound from the user's city input.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 1.0,
+    "rationale": "The 'Air Quality API - Current Air Quality' directly provides current air quality index data for a specified city, matching the subtask to retrieve the current air quality index for the user's city. It requires 'city' and 'country' parameters, which can be bound from the user's city input."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 2066,
+    "total_tokens": 2147,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 675,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 177,
+      "service_ttlt_ms": 795,
+      "total_duration_ms": 705,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

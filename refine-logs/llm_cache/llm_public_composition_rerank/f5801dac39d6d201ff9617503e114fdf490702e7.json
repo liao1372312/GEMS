@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8919",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs are related to movies or entertainment domain. However, the user request and subtask require movie information and ratings, which none of the provided APIs support. The closest candidate is the yiwugo product data API, but it is for eCommerce products, not movies. Since no suitable API is available, no valid selection can be made from the given candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs are related to movies or entertainment domain. However, the user request and subtask require movie information and ratings, which none of the provided APIs support. The closest candidate is the yiwugo product data API, but it is for eCommerce products, not movies. Since no suitable API is available, no valid selection can be made from the given candidates."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 2035,
+    "total_tokens": 2133,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 34,
+      "engine_ttft_ms": 126,
+      "engine_ttlt_ms": 3428,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 34,
+      "service_ttft_ms": 346,
+      "service_ttlt_ms": 3639,
+      "total_duration_ms": 3526,
+      "user_visible_ttft_ms": 224
+    }
+  }
+}

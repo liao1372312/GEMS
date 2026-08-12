@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Recipe Finder - dinner/ingredient API is the best fit for recommending a vegan dinner dish and providing detailed recipe information, including ingredients and method.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Recipe Finder - dinner/ingredient API is the best fit for recommending a vegan dinner dish and providing detailed recipe information, including ingredients and method."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1829,
+    "total_tokens": 1880,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 50
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1830
+    }
+  }
+}

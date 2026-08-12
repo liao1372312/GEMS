@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3049",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate rank 1 is the only one related to recommending destinations, fitting the tourism domain and the subtask of suggesting holiday destinations with beautiful landscapes.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate rank 1 is the only one related to recommending destinations, fitting the tourism domain and the subtask of suggesting holiday destinations with beautiful landscapes."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1500,
+    "total_tokens": 1551,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 385,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 217,
+      "service_ttlt_ms": 578,
+      "total_duration_ms": 482,
+      "user_visible_ttft_ms": 118
+    }
+  }
+}

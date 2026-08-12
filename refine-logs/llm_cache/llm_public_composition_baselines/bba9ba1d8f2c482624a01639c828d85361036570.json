@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user needs a list of healthcare professionals for targeted mailing, which aligns best with the 'Cartify - getAllUsers' API that provides user data. Although it is an e-commerce API, it is the closest available option for obtaining user lists. The nutritional analysis request requires a food item name, but no suitable API for nutritional analysis is present among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user needs a list of healthcare professionals for targeted mailing, which aligns best with the 'Cartify - getAllUsers' API that provides user data. Although it is an e-commerce API, it is the closest available option for obtaining user lists. The nutritional analysis request requires a food item name, but no suitable API for nutritional analysis is present among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 1657,
+    "total_tokens": 1752,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 239,
+      "user_visible_ttft_ms": 114,
+      "total_duration_ms": 1833,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 18,
+      "service_ttlt_ms": 1946,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 1753,
+      "engine_tbt_ms": 18
+    }
+  }
+}

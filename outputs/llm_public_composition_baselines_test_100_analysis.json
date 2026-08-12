@@ -1,0 +1,84 @@
+{
+  "source": "outputs/llm_public_composition_baselines_test_100_direct_cot.json",
+  "same_100_semantic_top1": {
+    "api_acc": 1.0,
+    "api_top3": 1.0,
+    "api_mrr": 1.0,
+    "workflow_exact": 1.0,
+    "para_f1": 1.0,
+    "steps": 100,
+    "workflows": 36,
+    "rank_counts": {
+      "1": 100
+    }
+  },
+  "baseline_results": {
+    "direct_llm": {
+      "metrics": {
+        "api_acc": 0.47,
+        "single_choice_top3_proxy": 0.47,
+        "single_choice_mrr_proxy": 0.5841994949494953,
+        "workflow_exact": 0.16666666666666666,
+        "para_f1": 0.5466666666666666,
+        "rank_counts": {
+          "1": 47,
+          "2": 16,
+          "3": 8,
+          "4": 5,
+          "5": 4,
+          "6": 7,
+          "7": 5,
+          "8": 2,
+          "9": 3,
+          "10": 3
+        },
+        "steps": 100,
+        "workflows": 36
+      },
+      "usage": {
+        "prompt_tokens": 149772,
+        "completion_tokens": 5282,
+        "total_tokens": 155054
+      },
+      "delta_vs_semantic": {
+        "api_acc": -0.53,
+        "workflow_exact": -0.8333333333333334,
+        "para_f1": -0.45333333333333337
+      }
+    },
+    "cot_llm": {
+      "metrics": {
+        "api_acc": 0.51,
+        "single_choice_top3_proxy": 0.51,
+        "single_choice_mrr_proxy": 0.6150321067821072,
+        "workflow_exact": 0.25,
+        "para_f1": 0.5966666666666667,
+        "rank_counts": {
+          "1": 51,
+          "2": 16,
+          "3": 5,
+          "4": 4,
+          "5": 4,
+          "6": 8,
+          "7": 3,
+          "8": 4,
+          "9": 4,
+          "10": 1
+        },
+        "steps": 100,
+        "workflows": 36
+      },
+      "usage": {
+        "prompt_tokens": 150372,
+        "completion_tokens": 5950,
+        "total_tokens": 156322
+      },
+      "delta_vs_semantic": {
+        "api_acc": -0.49,
+        "workflow_exact": -0.75,
+        "para_f1": -0.4033333333333333
+      }
+    }
+  },
+  "recommendation": "Do not expand direct_llm/cot_llm to full test unless needed as weak baselines; both are below semantic top-1 on the same 100-step pilot."
+}

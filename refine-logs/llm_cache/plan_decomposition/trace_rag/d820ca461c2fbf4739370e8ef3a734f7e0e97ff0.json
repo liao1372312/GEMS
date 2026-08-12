@@ -1,0 +1,96 @@
+{
+  "record_id": "Medical_response_3942",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a list of cake names and images to feature on the blog.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the detailed recipe for the cake with ID 5.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"cake_id\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and extract its address.\",\n      \"domain\": \"Restaurant\",\n      \"required_inputs\": [\"restaurant_id\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Send a request to get prediction and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"image_url\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a list of cake names and images to feature on the blog.",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get the detailed recipe for the cake with ID 5.",
+        "domain": "Food",
+        "required_inputs": [
+          "cake_id"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and extract its address.",
+        "domain": "Restaurant",
+        "required_inputs": [
+          "restaurant_id"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Send a request to get prediction and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.",
+        "domain": "Medical",
+        "required_inputs": [
+          "image_url"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a list of cake names and images to feature on the blog.",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Get the detailed recipe for the cake with ID 5.",
+      "domain": "Food",
+      "required_inputs": [
+        "cake_id"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and extract its address.",
+      "domain": "Restaurant",
+      "required_inputs": [
+        "restaurant_id"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Send a request to get prediction and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.",
+      "domain": "Medical",
+      "required_inputs": [
+        "image_url"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 232,
+    "prompt_tokens": 425,
+    "total_tokens": 657,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 3239,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 157,
+      "service_ttlt_ms": 3345,
+      "total_duration_ms": 3268,
+      "user_visible_ttft_ms": 73
+    }
+  }
+}

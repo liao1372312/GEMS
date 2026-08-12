@@ -1,0 +1,116 @@
+{
+  "paper_ready": false,
+  "note": "53-workflow pilot. Plan metrics use auto matcher; GEMS API metrics use validation-selected robust policy. GEMS plan row uses GEMS-v2 existing predictions, not the new refinement pass.",
+  "rows": [
+    {
+      "method": "Direct-LLM",
+      "plan_acc": 0.3018867924528302,
+      "plan_sem_f1": 0.4681940700808625,
+      "step_count_acc": 0.660377358490566,
+      "api_acc": 0.7414965986394558,
+      "para_f1": 0.7732426303854876,
+      "workflow_exact": 0.6037735849056604,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "CoT-LLM",
+      "plan_acc": 0.24528301886792453,
+      "plan_sem_f1": 0.45152740341419584,
+      "step_count_acc": 0.6415094339622641,
+      "api_acc": 0.6802721088435374,
+      "para_f1": 0.7210884353741497,
+      "workflow_exact": 0.41509433962264153,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "ReAct",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.44073075771188974,
+      "step_count_acc": 0.660377358490566,
+      "api_acc": 0.6666666666666666,
+      "para_f1": 0.7210884353741497,
+      "workflow_exact": 0.4716981132075472,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "RestGPT-style",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.44011680143755616,
+      "step_count_acc": 0.6415094339622641,
+      "api_acc": 0.7210884353741497,
+      "para_f1": 0.7596371882086168,
+      "workflow_exact": 0.5471698113207547,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "MA-NoMem",
+      "plan_acc": 0.24528301886792453,
+      "plan_sem_f1": 0.44016172506738543,
+      "step_count_acc": 0.6037735849056604,
+      "api_acc": 0.6666666666666666,
+      "para_f1": 0.7324263038548753,
+      "workflow_exact": 0.4528301886792453,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "Trace-RAG",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.4594788858939802,
+      "step_count_acc": 0.6792452830188679,
+      "api_acc": 0.6190476190476191,
+      "para_f1": 0.6462585034013606,
+      "workflow_exact": 0.4716981132075472,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "semantic-safe tuned feature reranker"
+    },
+    {
+      "method": "StructMem-RAG",
+      "plan_acc": 0.20754716981132076,
+      "plan_sem_f1": 0.4687780772686433,
+      "step_count_acc": 0.6415094339622641,
+      "api_acc": 0.6122448979591837,
+      "para_f1": 0.6394557823129252,
+      "workflow_exact": 0.4528301886792453,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "semantic-safe tuned feature reranker"
+    },
+    {
+      "method": "GraphRAG-static",
+      "plan_acc": 0.22641509433962265,
+      "plan_sem_f1": 0.45835579514824804,
+      "step_count_acc": 0.6037735849056604,
+      "api_acc": 0.6190476190476191,
+      "para_f1": 0.6462585034013606,
+      "workflow_exact": 0.4716981132075472,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "semantic-safe tuned feature reranker"
+    },
+    {
+      "method": "AgentKB-style",
+      "plan_acc": 0.20754716981132076,
+      "plan_sem_f1": 0.4631176999101527,
+      "step_count_acc": 0.5849056603773585,
+      "api_acc": 0.564625850340136,
+      "para_f1": 0.6258503401360545,
+      "workflow_exact": 0.3584905660377358,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "semantic-safe AgentKB-style rerun on subset"
+    },
+    {
+      "method": "\\textsc{GEMS}",
+      "plan_acc": 0.18867924528301888,
+      "plan_sem_f1": 0.45754716981132076,
+      "step_count_acc": 0.6226415094339622,
+      "api_acc": 0.6870748299319728,
+      "para_f1": 0.7210884353741497,
+      "workflow_exact": 0.5283018867924528,
+      "plan_source": "outputs/plan_decomposition_test53_auto_summary.json",
+      "api_source": "GEMS validation-selected policy from outputs/gems_plan_verifier_robust_api_eval.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_536",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided candidate APIs relate to eco-friendly gardening techniques, carbon footprint of fertilizers, or vaccination guidelines for gardening activities.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided candidate APIs relate to eco-friendly gardening techniques, carbon footprint of fertilizers, or vaccination guidelines for gardening activities."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1518,
+    "total_tokens": 1565,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 849,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 184,
+      "service_ttlt_ms": 967,
+      "total_duration_ms": 879,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

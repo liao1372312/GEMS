@@ -1,0 +1,60 @@
+{
+  "record_id": "Medical_response_5435",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API available for compiling vaccination info; LLM choice unrelated and breaks workflow intent.\"\n    },\n    {\n      \"step_id\": 5,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API matches nutritional analysis; LLM choice unrelated and breaks workflow intent.\"\n    }\n  ],\n  \"workflow_confidence\": 0.0\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "No suitable API available for compiling vaccination info; LLM choice unrelated and breaks workflow intent."
+      },
+      {
+        "step_id": 5,
+        "accept_llm": false,
+        "reason": "No candidate API matches nutritional analysis; LLM choice unrelated and breaks workflow intent."
+      }
+    ],
+    "workflow_confidence": 0.0
+  },
+  "usage": {
+    "completion_tokens": 226,
+    "prompt_tokens": 2329,
+    "total_tokens": 2555,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 125,
+      "engine_ttlt_ms": 4705,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 249,
+      "service_ttlt_ms": 4826,
+      "total_duration_ms": 4739,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

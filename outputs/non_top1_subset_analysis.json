@@ -1,0 +1,9 @@
+{
+  "total_steps": 4086,
+  "gold_not_semantic_top1_steps": 1500,
+  "gold_not_semantic_top1_rate": 0.3671071953010279,
+  "semantic_top1_test_api_acc": 0.6147672552166934,
+  "best_hybrid_test_mrr": 0.7590314402914723,
+  "semantic_top1_test_mrr": 0.7139372977655472,
+  "interpretation": "36.7% of all steps have gold outside semantic rank 1. Current hybrid rerankers improve MRR but do not improve top-1 accuracy. A per-example correction table should be added if the paper needs detailed error analysis."
+}

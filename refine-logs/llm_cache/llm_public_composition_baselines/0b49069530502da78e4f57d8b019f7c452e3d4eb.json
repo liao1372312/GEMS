@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8706",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidates directly provide a dad joke, but the user needs a joke in the 'dad' category. The provided candidates do not include a jokes API. However, the best match is none, so confidence is low. The closest candidate is rank 1, but it is unrelated to jokes. No suitable API is available.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidates directly provide a dad joke, but the user needs a joke in the 'dad' category. The provided candidates do not include a jokes API. However, the best match is none, so confidence is low. The closest candidate is rank 1, but it is unrelated to jokes. No suitable API is available."
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 1499,
+    "total_tokens": 1588,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 980,
+      "pre_inference_ms": 76,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 163,
+      "service_ttlt_ms": 1078,
+      "total_duration_ms": 1010,
+      "user_visible_ttft_ms": 87
+    }
+  }
+}

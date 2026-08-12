@@ -1,0 +1,70 @@
+{
+  "record_id": "Medical_response_2024",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve news articles related to COVID-19 from the specified source BMJ using a COVID news API.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"source\", \"topic\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch keyword trends for the keyword 'COVID-19' using a targeted keyword trend API.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"keyword\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve news articles related to COVID-19 from the specified source BMJ using a COVID news API.",
+        "domain": "Medical",
+        "required_inputs": [
+          "source",
+          "topic"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch keyword trends for the keyword 'COVID-19' using a targeted keyword trend API.",
+        "domain": "Medical",
+        "required_inputs": [
+          "keyword"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve news articles related to COVID-19 from the specified source BMJ using a COVID news API.",
+      "domain": "Medical",
+      "required_inputs": [
+        "source",
+        "topic"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch keyword trends for the keyword 'COVID-19' using a targeted keyword trend API.",
+      "domain": "Medical",
+      "required_inputs": [
+        "keyword"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 387,
+    "total_tokens": 500,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1361,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 153,
+      "service_ttlt_ms": 1472,
+      "total_duration_ms": 1393,
+      "user_visible_ttft_ms": 65
+    }
+  }
+}

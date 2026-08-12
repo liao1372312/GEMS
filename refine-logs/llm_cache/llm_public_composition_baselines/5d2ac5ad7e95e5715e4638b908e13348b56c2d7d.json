@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5265",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The user request includes fetching top news from Fidelity Investments and international market info, which can be initiated by listing top news from Fidelity Investments. This API requires no parameters and is the best starting point to get the needed news and market data before retrieving detailed news or other info.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The user request includes fetching top news from Fidelity Investments and international market info, which can be initiated by listing top news from Fidelity Investments. This API requires no parameters and is the best starting point to get the needed news and market data before retrieving detailed news or other info."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1510,
+    "total_tokens": 1586,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 621,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 270,
+      "service_ttlt_ms": 848,
+      "total_duration_ms": 734,
+      "user_visible_ttft_ms": 148
+    }
+  }
+}

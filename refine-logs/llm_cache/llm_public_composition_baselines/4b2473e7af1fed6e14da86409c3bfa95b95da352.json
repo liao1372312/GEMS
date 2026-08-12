@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Motivational Quotes API is the best fit for retrieving interesting facts or quotes that can inspire the comic book storyline, including quotes from villains or thematic content related to numbers.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Motivational Quotes API is the best fit for retrieving interesting facts or quotes that can inspire the comic book storyline, including quotes from villains or thematic content related to numbers."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1590,
+    "total_tokens": 1646,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 56
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1588
+    }
+  }
+}

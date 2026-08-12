@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_872",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"No API provides trivia facts about numbers; semantic top-1 is as good as LLM choice.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API matches the requirement for landmark recommendations; semantic top-1 is unrelated but no better option.\"\n    }\n  ],\n  \"workflow_confidence\": 0.2\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "No API provides trivia facts about numbers; semantic top-1 is as good as LLM choice."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "No candidate API matches the requirement for landmark recommendations; semantic top-1 is unrelated but no better option."
+      }
+    ],
+    "workflow_confidence": 0.2
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 1587,
+    "total_tokens": 1740,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 2008,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 2187,
+      "total_duration_ms": 2100,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

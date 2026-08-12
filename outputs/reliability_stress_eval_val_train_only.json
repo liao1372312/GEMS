@@ -1,0 +1,2992 @@
+{
+  "split": "val",
+  "role": "provider",
+  "num_groups": 164,
+  "group_construction": {
+    "anchor": "failed endpoint",
+    "query": "anchor endpoint text prefixed with reliable endpoint request",
+    "success_candidates": 4,
+    "failed_candidates": 3
+  },
+  "variants": {
+    "gems_full": {
+      "metrics": {
+        "success_at_1": 0.0,
+        "success_at_3": 0.5609756097560976,
+        "mrr_first_success": 0.35670731707317094,
+        "avg_top1_observed_success": 0.0,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "250b5b26289707b2",
+          "top_observed_success": false,
+          "scores": {
+            "250b5b26289707b2": 0.748467,
+            "4fa2825fdad0abab": 0.393157,
+            "72b58081e68a86e8": 0.348913,
+            "7cc7c8f08cdecbbb": 0.34114,
+            "566065e5e637926e": 0.340675,
+            "913bdf5269e7735f": 0.321902,
+            "aa78216cef3789b2": 0.319249
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "913bdf5269e7735f",
+          "top_observed_success": false,
+          "scores": {
+            "913bdf5269e7735f": 0.743277,
+            "5bd698621a97e2ba": 0.400262,
+            "aa78216cef3789b2": 0.394972,
+            "4875314bcaa56412": 0.388919,
+            "2802f22f24982e88": 0.377103,
+            "7cc7c8f08cdecbbb": 0.353159,
+            "250b5b26289707b2": 0.30367
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 3,
+          "top_endpoint_id": "aa78216cef3789b2",
+          "top_observed_success": false,
+          "scores": {
+            "aa78216cef3789b2": 0.761127,
+            "913bdf5269e7735f": 0.397958,
+            "4875314bcaa56412": 0.390936,
+            "5bd698621a97e2ba": 0.379299,
+            "2802f22f24982e88": 0.363343,
+            "7cc7c8f08cdecbbb": 0.347565,
+            "250b5b26289707b2": 0.300436
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "0ebafca5e90dd686",
+          "top_observed_success": false,
+          "scores": {
+            "0ebafca5e90dd686": 0.679452,
+            "3bda4abef8b64043": 0.630032,
+            "dfe3cb50f8020554": 0.628077,
+            "ba1f42573a41ffba": 0.62636,
+            "675acea5a8e54ef1": 0.614513,
+            "febb058560a0cdad": 0.60799,
+            "e429ed3b3eff5772": 0.358479
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "2cdf57e0435bde50",
+          "top_observed_success": false,
+          "scores": {
+            "2cdf57e0435bde50": 0.740535,
+            "38ae8ad27b450762": 0.716045,
+            "772f67dc28707087": 0.710202,
+            "e429ed3b3eff5772": 0.339458,
+            "512dbf6c984f2e50": 0.318675,
+            "675acea5a8e54ef1": 0.313022,
+            "dfe3cb50f8020554": 0.312696
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "38ae8ad27b450762",
+          "top_observed_success": false,
+          "scores": {
+            "38ae8ad27b450762": 0.74134,
+            "772f67dc28707087": 0.718026,
+            "2cdf57e0435bde50": 0.717293,
+            "e429ed3b3eff5772": 0.338747,
+            "512dbf6c984f2e50": 0.318241,
+            "675acea5a8e54ef1": 0.312695,
+            "dfe3cb50f8020554": 0.312374
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.726406,
+            "dfe3cb50f8020554": 0.717866,
+            "675acea5a8e54ef1": 0.675643,
+            "0ebafca5e90dd686": 0.629178,
+            "aca77557e4688418": 0.62379,
+            "ba1f42573a41ffba": 0.600038,
+            "e429ed3b3eff5772": 0.338858
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "73c54f1df3279016",
+          "top_observed_success": false,
+          "scores": {
+            "73c54f1df3279016": 0.704322,
+            "0ebafca5e90dd686": 0.456351,
+            "dfe3cb50f8020554": 0.448895,
+            "675acea5a8e54ef1": 0.436457,
+            "aca77557e4688418": 0.435378,
+            "ba1f42573a41ffba": 0.421013,
+            "2bee13e8ec66ba27": 0.384123
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "772f67dc28707087",
+          "top_observed_success": false,
+          "scores": {
+            "772f67dc28707087": 0.741625,
+            "38ae8ad27b450762": 0.716311,
+            "2cdf57e0435bde50": 0.709745,
+            "e429ed3b3eff5772": 0.337919,
+            "512dbf6c984f2e50": 0.317734,
+            "675acea5a8e54ef1": 0.312315,
+            "dfe3cb50f8020554": 0.311999
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aca77557e4688418",
+          "top_observed_success": false,
+          "scores": {
+            "aca77557e4688418": 0.72384,
+            "dfe3cb50f8020554": 0.624058,
+            "675acea5a8e54ef1": 0.616755,
+            "3bda4abef8b64043": 0.608359,
+            "0ebafca5e90dd686": 0.553661,
+            "ba1f42573a41ffba": 0.524018,
+            "e429ed3b3eff5772": 0.354479
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "febb058560a0cdad",
+          "top_observed_success": false,
+          "scores": {
+            "febb058560a0cdad": 0.714529,
+            "0ebafca5e90dd686": 0.61564,
+            "ba1f42573a41ffba": 0.59753,
+            "dfe3cb50f8020554": 0.577617,
+            "675acea5a8e54ef1": 0.568467,
+            "aca77557e4688418": 0.561365,
+            "e429ed3b3eff5772": 0.339594
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.669671,
+            "6595832ccd8810a9": 0.540901,
+            "2710a14345774fc7": 0.476208,
+            "e7d87d7d096042ab": 0.398695,
+            "aca1de359e052259": 0.38994,
+            "0b5b5542f3455208": 0.382498,
+            "608094c444f01185": 0.348095
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608094c444f01185",
+          "top_observed_success": false,
+          "scores": {
+            "608094c444f01185": 0.781848,
+            "4f88c6ccb8ea4323": 0.583268,
+            "7aecd2187967c2cc": 0.577346,
+            "a625f34076beba19": 0.535774,
+            "8462dc6bc7c66d09": 0.392388,
+            "a38fee83f439ae02": 0.363204,
+            "35e6ecf728f0aea7": 0.345123
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "6595832ccd8810a9",
+          "top_observed_success": false,
+          "scores": {
+            "6595832ccd8810a9": 0.666654,
+            "1d15e29b02e3ad78": 0.53802,
+            "2710a14345774fc7": 0.473691,
+            "e7d87d7d096042ab": 0.399579,
+            "aca1de359e052259": 0.390719,
+            "0b5b5542f3455208": 0.383312,
+            "608094c444f01185": 0.348401
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.780228,
+            "608094c444f01185": 0.567328,
+            "a625f34076beba19": 0.505089,
+            "4f88c6ccb8ea4323": 0.484768,
+            "8462dc6bc7c66d09": 0.353682,
+            "094f049c1b2211a2": 0.352664,
+            "2710a14345774fc7": 0.321461
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.790412,
+            "608094c444f01185": 0.53737,
+            "7aecd2187967c2cc": 0.513832,
+            "4f88c6ccb8ea4323": 0.455338,
+            "8462dc6bc7c66d09": 0.345526,
+            "d4e9710dbc6edc93": 0.340546,
+            "0b5b5542f3455208": 0.333774
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608d85e9ce798548",
+          "top_observed_success": false,
+          "scores": {
+            "608d85e9ce798548": 0.686572,
+            "ff7801eaec5ebaad": 0.407105,
+            "0b55ac767dd42958": 0.366741,
+            "edb85e6c1186f84d": 0.363975,
+            "0da63e637cd1e3cb": 0.361669,
+            "640f9d5f0684f903": 0.358225,
+            "a5fe8ceb0600dfea": 0.314785
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "640f9d5f0684f903",
+          "top_observed_success": false,
+          "scores": {
+            "640f9d5f0684f903": 0.74469,
+            "edb85e6c1186f84d": 0.355794,
+            "608d85e9ce798548": 0.332195,
+            "5cae43d92433967d": 0.315716,
+            "4336eeff1836adff": 0.315664,
+            "3848e142c971ea93": 0.314256,
+            "a5fe8ceb0600dfea": 0.313969
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 3,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.765015,
+            "edb85e6c1186f84d": 0.354573,
+            "a98e88062870a29c": 0.33488,
+            "4336eeff1836adff": 0.32998,
+            "a117dc3a88e99780": 0.329036,
+            "608d85e9ce798548": 0.324797,
+            "a5fe8ceb0600dfea": 0.324769
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.737198,
+            "ff7801eaec5ebaad": 0.641283,
+            "0da63e637cd1e3cb": 0.610614,
+            "0b55ac767dd42958": 0.374651,
+            "a66363dcc397dd5f": 0.347257,
+            "608d85e9ce798548": 0.33197,
+            "a98e88062870a29c": 0.321578
+          }
+        }
+      ]
+    },
+    "text_only": {
+      "metrics": {
+        "success_at_1": 0.0,
+        "success_at_3": 0.5609756097560976,
+        "mrr_first_success": 0.3597560975609758,
+        "avg_top1_observed_success": 0.0,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "250b5b26289707b2",
+          "top_observed_success": false,
+          "scores": {
+            "250b5b26289707b2": 0.959842,
+            "4fa2825fdad0abab": 0.219613,
+            "566065e5e637926e": 0.109654,
+            "72b58081e68a86e8": 0.048617,
+            "7cc7c8f08cdecbbb": 0.03236,
+            "913bdf5269e7735f": 0.024017,
+            "aa78216cef3789b2": 0.018488
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "913bdf5269e7735f",
+          "top_observed_success": false,
+          "scores": {
+            "913bdf5269e7735f": 0.901882,
+            "5bd698621a97e2ba": 0.189449,
+            "aa78216cef3789b2": 0.176245,
+            "4875314bcaa56412": 0.163636,
+            "2802f22f24982e88": 0.141201,
+            "7cc7c8f08cdecbbb": 0.057401,
+            "250b5b26289707b2": 0.033182
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 3,
+          "top_endpoint_id": "aa78216cef3789b2",
+          "top_observed_success": false,
+          "scores": {
+            "aa78216cef3789b2": 0.939068,
+            "913bdf5269e7735f": 0.182467,
+            "4875314bcaa56412": 0.167837,
+            "5bd698621a97e2ba": 0.145776,
+            "2802f22f24982e88": 0.112535,
+            "7cc7c8f08cdecbbb": 0.045748,
+            "250b5b26289707b2": 0.026445
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "0ebafca5e90dd686",
+          "top_observed_success": false,
+          "scores": {
+            "0ebafca5e90dd686": 0.810195,
+            "dfe3cb50f8020554": 0.703165,
+            "3bda4abef8b64043": 0.703011,
+            "ba1f42573a41ffba": 0.695361,
+            "675acea5a8e54ef1": 0.674906,
+            "febb058560a0cdad": 0.661316,
+            "e429ed3b3eff5772": 0.141399
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "2cdf57e0435bde50",
+          "top_observed_success": false,
+          "scores": {
+            "2cdf57e0435bde50": 0.950346,
+            "38ae8ad27b450762": 0.899326,
+            "772f67dc28707087": 0.887153,
+            "e429ed3b3eff5772": 0.101772,
+            "512dbf6c984f2e50": 0.062211,
+            "675acea5a8e54ef1": 0.0468,
+            "dfe3cb50f8020554": 0.046121
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "38ae8ad27b450762",
+          "top_observed_success": false,
+          "scores": {
+            "38ae8ad27b450762": 0.952023,
+            "772f67dc28707087": 0.903452,
+            "2cdf57e0435bde50": 0.901926,
+            "e429ed3b3eff5772": 0.100291,
+            "512dbf6c984f2e50": 0.061305,
+            "675acea5a8e54ef1": 0.046119,
+            "dfe3cb50f8020554": 0.04545
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.90379,
+            "dfe3cb50f8020554": 0.890224,
+            "675acea5a8e54ef1": 0.802261,
+            "0ebafca5e90dd686": 0.705458,
+            "aca77557e4688418": 0.694232,
+            "ba1f42573a41ffba": 0.640524,
+            "e429ed3b3eff5772": 0.100522
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "73c54f1df3279016",
+          "top_observed_success": false,
+          "scores": {
+            "73c54f1df3279016": 0.862009,
+            "0ebafca5e90dd686": 0.345402,
+            "dfe3cb50f8020554": 0.329868,
+            "675acea5a8e54ef1": 0.303956,
+            "aca77557e4688418": 0.301709,
+            "ba1f42573a41ffba": 0.267556,
+            "2bee13e8ec66ba27": 0.125852
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "772f67dc28707087",
+          "top_observed_success": false,
+          "scores": {
+            "772f67dc28707087": 0.952617,
+            "38ae8ad27b450762": 0.89988,
+            "2cdf57e0435bde50": 0.8862,
+            "e429ed3b3eff5772": 0.098565,
+            "512dbf6c984f2e50": 0.06025,
+            "675acea5a8e54ef1": 0.045325,
+            "dfe3cb50f8020554": 0.044667
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aca77557e4688418",
+          "top_observed_success": false,
+          "scores": {
+            "aca77557e4688418": 0.902671,
+            "dfe3cb50f8020554": 0.694792,
+            "675acea5a8e54ef1": 0.679576,
+            "3bda4abef8b64043": 0.657861,
+            "0ebafca5e90dd686": 0.548131,
+            "ba1f42573a41ffba": 0.482149,
+            "e429ed3b3eff5772": 0.133067
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "febb058560a0cdad",
+          "top_observed_success": false,
+          "scores": {
+            "febb058560a0cdad": 0.883272,
+            "0ebafca5e90dd686": 0.677253,
+            "ba1f42573a41ffba": 0.635299,
+            "dfe3cb50f8020554": 0.59804,
+            "675acea5a8e54ef1": 0.578977,
+            "aca77557e4688418": 0.564181,
+            "e429ed3b3eff5772": 0.102057
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.789408,
+            "6595832ccd8810a9": 0.521136,
+            "2710a14345774fc7": 0.386361,
+            "e7d87d7d096042ab": 0.152726,
+            "0b5b5542f3455208": 0.140828,
+            "aca1de359e052259": 0.134656,
+            "608094c444f01185": 0.053016
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608094c444f01185",
+          "top_observed_success": false,
+          "scores": {
+            "608094c444f01185": 0.95667,
+            "4f88c6ccb8ea4323": 0.542961,
+            "7aecd2187967c2cc": 0.530624,
+            "a625f34076beba19": 0.441959,
+            "8462dc6bc7c66d09": 0.159998,
+            "a38fee83f439ae02": 0.15498,
+            "35e6ecf728f0aea7": 0.117309
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "6595832ccd8810a9",
+          "top_observed_success": false,
+          "scores": {
+            "6595832ccd8810a9": 0.783122,
+            "1d15e29b02e3ad78": 0.515135,
+            "2710a14345774fc7": 0.381117,
+            "e7d87d7d096042ab": 0.154566,
+            "0b5b5542f3455208": 0.142525,
+            "aca1de359e052259": 0.136279,
+            "608094c444f01185": 0.053655
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.953295,
+            "608094c444f01185": 0.509752,
+            "a625f34076beba19": 0.378031,
+            "4f88c6ccb8ea4323": 0.337753,
+            "8462dc6bc7c66d09": 0.079361,
+            "094f049c1b2211a2": 0.078674,
+            "2710a14345774fc7": 0.06397
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.972453,
+            "608094c444f01185": 0.44734,
+            "7aecd2187967c2cc": 0.398302,
+            "4f88c6ccb8ea4323": 0.27644,
+            "8462dc6bc7c66d09": 0.06237,
+            "d4e9710dbc6edc93": 0.05343,
+            "0b5b5542f3455208": 0.03932
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608d85e9ce798548",
+          "top_observed_success": false,
+          "scores": {
+            "608d85e9ce798548": 0.813704,
+            "ff7801eaec5ebaad": 0.175522,
+            "0b55ac767dd42958": 0.095509,
+            "edb85e6c1186f84d": 0.084175,
+            "0da63e637cd1e3cb": 0.079372,
+            "640f9d5f0684f903": 0.077136,
+            "a5fe8ceb0600dfea": 0.057511
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "640f9d5f0684f903",
+          "top_observed_success": false,
+          "scores": {
+            "640f9d5f0684f903": 0.882272,
+            "608d85e9ce798548": 0.075419,
+            "edb85e6c1186f84d": 0.067131,
+            "3848e142c971ea93": 0.055823,
+            "a5fe8ceb0600dfea": 0.055811,
+            "5cae43d92433967d": 0.053465,
+            "4336eeff1836adff": 0.053356
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.920673,
+            "a98e88062870a29c": 0.093936,
+            "4336eeff1836adff": 0.083183,
+            "a5fe8ceb0600dfea": 0.078311,
+            "edb85e6c1186f84d": 0.064588,
+            "608d85e9ce798548": 0.060007,
+            "a117dc3a88e99780": 0.052019
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.861722,
+            "ff7801eaec5ebaad": 0.663393,
+            "0da63e637cd1e3cb": 0.598005,
+            "0b55ac767dd42958": 0.111986,
+            "608d85e9ce798548": 0.07495,
+            "a98e88062870a29c": 0.066222,
+            "a66363dcc397dd5f": 0.050344
+          }
+        }
+      ]
+    },
+    "reliability_only": {
+      "metrics": {
+        "success_at_1": 0.5670731707317073,
+        "success_at_3": 0.8597560975609756,
+        "mrr_first_success": 0.7281504065040648,
+        "avg_top1_observed_success": 0.5670731707317073,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb",
+          "top_observed_success": true,
+          "scores": {
+            "7cc7c8f08cdecbbb": 0.817521,
+            "72b58081e68a86e8": 0.817429,
+            "913bdf5269e7735f": 0.76992,
+            "aa78216cef3789b2": 0.76992,
+            "566065e5e637926e": 0.70013,
+            "250b5b26289707b2": 0.699196,
+            "4fa2825fdad0abab": 0.699196
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb",
+          "top_observed_success": true,
+          "scores": {
+            "7cc7c8f08cdecbbb": 0.817521,
+            "913bdf5269e7735f": 0.76992,
+            "4875314bcaa56412": 0.76992,
+            "aa78216cef3789b2": 0.76992,
+            "5bd698621a97e2ba": 0.766645,
+            "2802f22f24982e88": 0.766645,
+            "250b5b26289707b2": 0.699196
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb",
+          "top_observed_success": true,
+          "scores": {
+            "7cc7c8f08cdecbbb": 0.817521,
+            "aa78216cef3789b2": 0.76992,
+            "4875314bcaa56412": 0.76992,
+            "913bdf5269e7735f": 0.76992,
+            "5bd698621a97e2ba": 0.766645,
+            "2802f22f24982e88": 0.766645,
+            "250b5b26289707b2": 0.699196
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "ba1f42573a41ffba",
+          "top_observed_success": true,
+          "scores": {
+            "ba1f42573a41ffba": 0.714332,
+            "3bda4abef8b64043": 0.714332,
+            "e429ed3b3eff5772": 0.708148,
+            "0ebafca5e90dd686": 0.707995,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "febb058560a0cdad": 0.707995
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.708148,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "512dbf6c984f2e50": 0.702544,
+            "2cdf57e0435bde50": 0.688653,
+            "38ae8ad27b450762": 0.688653,
+            "772f67dc28707087": 0.688653
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.708148,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "512dbf6c984f2e50": 0.702544,
+            "38ae8ad27b450762": 0.688653,
+            "772f67dc28707087": 0.688653,
+            "2cdf57e0435bde50": 0.688653
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.714332,
+            "ba1f42573a41ffba": 0.714332,
+            "e429ed3b3eff5772": 0.708148,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "0ebafca5e90dd686": 0.707995,
+            "aca77557e4688418": 0.707995
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "2bee13e8ec66ba27",
+          "top_observed_success": true,
+          "scores": {
+            "2bee13e8ec66ba27": 0.811605,
+            "ba1f42573a41ffba": 0.714332,
+            "73c54f1df3279016": 0.707995,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "0ebafca5e90dd686": 0.707995,
+            "aca77557e4688418": 0.707995
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.708148,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "512dbf6c984f2e50": 0.702544,
+            "772f67dc28707087": 0.688653,
+            "38ae8ad27b450762": 0.688653,
+            "2cdf57e0435bde50": 0.688653
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "ba1f42573a41ffba",
+          "top_observed_success": true,
+          "scores": {
+            "ba1f42573a41ffba": 0.714332,
+            "3bda4abef8b64043": 0.714332,
+            "e429ed3b3eff5772": 0.708148,
+            "aca77557e4688418": 0.707995,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "0ebafca5e90dd686": 0.707995
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "ba1f42573a41ffba",
+          "top_observed_success": true,
+          "scores": {
+            "ba1f42573a41ffba": 0.714332,
+            "e429ed3b3eff5772": 0.708148,
+            "febb058560a0cdad": 0.707995,
+            "dfe3cb50f8020554": 0.707995,
+            "675acea5a8e54ef1": 0.707995,
+            "0ebafca5e90dd686": 0.707995,
+            "aca77557e4688418": 0.707995
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e7d87d7d096042ab",
+          "top_observed_success": true,
+          "scores": {
+            "e7d87d7d096042ab": 0.816834,
+            "aca1de359e052259": 0.816578,
+            "608094c444f01185": 0.808271,
+            "0b5b5542f3455208": 0.784063,
+            "1d15e29b02e3ad78": 0.70861,
+            "2710a14345774fc7": 0.70861,
+            "6595832ccd8810a9": 0.70861
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.811357,
+            "608094c444f01185": 0.808271,
+            "4f88c6ccb8ea4323": 0.808271,
+            "7aecd2187967c2cc": 0.808271,
+            "8462dc6bc7c66d09": 0.786215,
+            "a38fee83f439ae02": 0.702544,
+            "35e6ecf728f0aea7": 0.702544
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e7d87d7d096042ab",
+          "top_observed_success": true,
+          "scores": {
+            "e7d87d7d096042ab": 0.816834,
+            "aca1de359e052259": 0.816578,
+            "608094c444f01185": 0.808271,
+            "0b5b5542f3455208": 0.784063,
+            "6595832ccd8810a9": 0.70861,
+            "2710a14345774fc7": 0.70861,
+            "1d15e29b02e3ad78": 0.70861
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.811357,
+            "7aecd2187967c2cc": 0.808271,
+            "4f88c6ccb8ea4323": 0.808271,
+            "608094c444f01185": 0.808271,
+            "8462dc6bc7c66d09": 0.786215,
+            "094f049c1b2211a2": 0.784063,
+            "2710a14345774fc7": 0.70861
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.811357,
+            "4f88c6ccb8ea4323": 0.808271,
+            "608094c444f01185": 0.808271,
+            "7aecd2187967c2cc": 0.808271,
+            "8462dc6bc7c66d09": 0.786215,
+            "d4e9710dbc6edc93": 0.784063,
+            "0b5b5542f3455208": 0.784063
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 1,
+          "top_endpoint_id": "0da63e637cd1e3cb",
+          "top_observed_success": true,
+          "scores": {
+            "0da63e637cd1e3cb": 0.811159,
+            "edb85e6c1186f84d": 0.811159,
+            "ff7801eaec5ebaad": 0.80892,
+            "640f9d5f0684f903": 0.803749,
+            "0b55ac767dd42958": 0.802803,
+            "608d85e9ce798548": 0.724981,
+            "a5fe8ceb0600dfea": 0.697436
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.811159,
+            "640f9d5f0684f903": 0.803749,
+            "608d85e9ce798548": 0.724981,
+            "4336eeff1836adff": 0.706415,
+            "5cae43d92433967d": 0.706415,
+            "3848e142c971ea93": 0.698316,
+            "a5fe8ceb0600dfea": 0.697436
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 3,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.811159,
+            "a66363dcc397dd5f": 0.809663,
+            "a117dc3a88e99780": 0.75021,
+            "608d85e9ce798548": 0.724981,
+            "4336eeff1836adff": 0.706415,
+            "a98e88062870a29c": 0.705598,
+            "a5fe8ceb0600dfea": 0.697436
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.811159,
+            "0da63e637cd1e3cb": 0.811159,
+            "a66363dcc397dd5f": 0.809663,
+            "ff7801eaec5ebaad": 0.80892,
+            "0b55ac767dd42958": 0.802803,
+            "608d85e9ce798548": 0.724981,
+            "a98e88062870a29c": 0.705598
+          }
+        }
+      ]
+    },
+    "initial_confidence_only": {
+      "metrics": {
+        "success_at_1": 0.4024390243902439,
+        "success_at_3": 0.8536585365853658,
+        "mrr_first_success": 0.654471544715447,
+        "avg_top1_observed_success": 0.4024390243902439,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 1,
+          "top_endpoint_id": "72b58081e68a86e8",
+          "top_observed_success": true,
+          "scores": {
+            "72b58081e68a86e8": 0.9533,
+            "7cc7c8f08cdecbbb": 0.9533,
+            "913bdf5269e7735f": 0.7428,
+            "aa78216cef3789b2": 0.7428,
+            "566065e5e637926e": 0.4912,
+            "250b5b26289707b2": 0.4878,
+            "4fa2825fdad0abab": 0.4878
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb",
+          "top_observed_success": true,
+          "scores": {
+            "7cc7c8f08cdecbbb": 0.9533,
+            "913bdf5269e7735f": 0.7428,
+            "5bd698621a97e2ba": 0.7428,
+            "4875314bcaa56412": 0.7428,
+            "2802f22f24982e88": 0.7428,
+            "aa78216cef3789b2": 0.7428,
+            "250b5b26289707b2": 0.4878
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 1,
+          "top_endpoint_id": "7cc7c8f08cdecbbb",
+          "top_observed_success": true,
+          "scores": {
+            "7cc7c8f08cdecbbb": 0.9533,
+            "aa78216cef3789b2": 0.7428,
+            "4875314bcaa56412": 0.7428,
+            "5bd698621a97e2ba": 0.7428,
+            "2802f22f24982e88": 0.7428,
+            "913bdf5269e7735f": 0.7428,
+            "250b5b26289707b2": 0.4878
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.4914,
+            "0ebafca5e90dd686": 0.4908,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "ba1f42573a41ffba": 0.4908,
+            "febb058560a0cdad": 0.4908,
+            "3bda4abef8b64043": 0.4908
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "512dbf6c984f2e50",
+          "top_observed_success": true,
+          "scores": {
+            "512dbf6c984f2e50": 0.5,
+            "e429ed3b3eff5772": 0.4914,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "2cdf57e0435bde50": 0.4496,
+            "38ae8ad27b450762": 0.4496,
+            "772f67dc28707087": 0.4496
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "512dbf6c984f2e50",
+          "top_observed_success": true,
+          "scores": {
+            "512dbf6c984f2e50": 0.5,
+            "e429ed3b3eff5772": 0.4914,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "38ae8ad27b450762": 0.4496,
+            "772f67dc28707087": 0.4496,
+            "2cdf57e0435bde50": 0.4496
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.4914,
+            "3bda4abef8b64043": 0.4908,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "ba1f42573a41ffba": 0.4908,
+            "0ebafca5e90dd686": 0.4908,
+            "aca77557e4688418": 0.4908
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "2bee13e8ec66ba27",
+          "top_observed_success": true,
+          "scores": {
+            "2bee13e8ec66ba27": 0.9283,
+            "73c54f1df3279016": 0.4908,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "ba1f42573a41ffba": 0.4908,
+            "0ebafca5e90dd686": 0.4908,
+            "aca77557e4688418": 0.4908
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "512dbf6c984f2e50",
+          "top_observed_success": true,
+          "scores": {
+            "512dbf6c984f2e50": 0.5,
+            "e429ed3b3eff5772": 0.4914,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "772f67dc28707087": 0.4496,
+            "38ae8ad27b450762": 0.4496,
+            "2cdf57e0435bde50": 0.4496
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.4914,
+            "aca77557e4688418": 0.4908,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "ba1f42573a41ffba": 0.4908,
+            "0ebafca5e90dd686": 0.4908,
+            "3bda4abef8b64043": 0.4908
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.4914,
+            "febb058560a0cdad": 0.4908,
+            "ba1f42573a41ffba": 0.4908,
+            "dfe3cb50f8020554": 0.4908,
+            "675acea5a8e54ef1": 0.4908,
+            "0ebafca5e90dd686": 0.4908,
+            "aca77557e4688418": 0.4908
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e7d87d7d096042ab",
+          "top_observed_success": true,
+          "scores": {
+            "e7d87d7d096042ab": 0.9496,
+            "aca1de359e052259": 0.9496,
+            "608094c444f01185": 0.9106,
+            "0b5b5542f3455208": 0.8128,
+            "1d15e29b02e3ad78": 0.5222,
+            "2710a14345774fc7": 0.5222,
+            "6595832ccd8810a9": 0.5222
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608094c444f01185",
+          "top_observed_success": false,
+          "scores": {
+            "608094c444f01185": 0.9106,
+            "4f88c6ccb8ea4323": 0.9106,
+            "7aecd2187967c2cc": 0.9106,
+            "a625f34076beba19": 0.9106,
+            "8462dc6bc7c66d09": 0.8128,
+            "a38fee83f439ae02": 0.5,
+            "35e6ecf728f0aea7": 0.5
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e7d87d7d096042ab",
+          "top_observed_success": true,
+          "scores": {
+            "e7d87d7d096042ab": 0.9496,
+            "aca1de359e052259": 0.9496,
+            "608094c444f01185": 0.9106,
+            "0b5b5542f3455208": 0.8128,
+            "6595832ccd8810a9": 0.5222,
+            "2710a14345774fc7": 0.5222,
+            "1d15e29b02e3ad78": 0.5222
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.9106,
+            "4f88c6ccb8ea4323": 0.9106,
+            "608094c444f01185": 0.9106,
+            "a625f34076beba19": 0.9106,
+            "094f049c1b2211a2": 0.8128,
+            "8462dc6bc7c66d09": 0.8128,
+            "2710a14345774fc7": 0.5222
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.9106,
+            "4f88c6ccb8ea4323": 0.9106,
+            "608094c444f01185": 0.9106,
+            "7aecd2187967c2cc": 0.9106,
+            "d4e9710dbc6edc93": 0.8128,
+            "8462dc6bc7c66d09": 0.8128,
+            "0b5b5542f3455208": 0.8128
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 1,
+          "top_endpoint_id": "ff7801eaec5ebaad",
+          "top_observed_success": true,
+          "scores": {
+            "ff7801eaec5ebaad": 0.9166,
+            "0da63e637cd1e3cb": 0.9166,
+            "edb85e6c1186f84d": 0.9166,
+            "640f9d5f0684f903": 0.8946,
+            "0b55ac767dd42958": 0.8906,
+            "608d85e9ce798548": 0.5828,
+            "a5fe8ceb0600dfea": 0.4814
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.9166,
+            "640f9d5f0684f903": 0.8946,
+            "608d85e9ce798548": 0.5828,
+            "4336eeff1836adff": 0.4846,
+            "3848e142c971ea93": 0.4846,
+            "5cae43d92433967d": 0.4846,
+            "a5fe8ceb0600dfea": 0.4814
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.9169,
+            "edb85e6c1186f84d": 0.9166,
+            "608d85e9ce798548": 0.5828,
+            "a117dc3a88e99780": 0.4846,
+            "4336eeff1836adff": 0.4846,
+            "a98e88062870a29c": 0.4814,
+            "a5fe8ceb0600dfea": 0.4814
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 3,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.9169,
+            "edb85e6c1186f84d": 0.9166,
+            "0da63e637cd1e3cb": 0.9166,
+            "ff7801eaec5ebaad": 0.9166,
+            "0b55ac767dd42958": 0.8906,
+            "608d85e9ce798548": 0.5828,
+            "a98e88062870a29c": 0.4814
+          }
+        }
+      ]
+    },
+    "text_plus_initial_confidence": {
+      "metrics": {
+        "success_at_1": 0.0,
+        "success_at_3": 0.5548780487804879,
+        "mrr_first_success": 0.35823170731707343,
+        "avg_top1_observed_success": 0.0,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "250b5b26289707b2",
+          "top_observed_success": false,
+          "scores": {
+            "250b5b26289707b2": 0.771025,
+            "72b58081e68a86e8": 0.41049,
+            "7cc7c8f08cdecbbb": 0.400736,
+            "4fa2825fdad0abab": 0.326888,
+            "913bdf5269e7735f": 0.31153,
+            "aa78216cef3789b2": 0.308213,
+            "566065e5e637926e": 0.262272
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "913bdf5269e7735f",
+          "top_observed_success": false,
+          "scores": {
+            "913bdf5269e7735f": 0.838249,
+            "7cc7c8f08cdecbbb": 0.415761,
+            "5bd698621a97e2ba": 0.41079,
+            "aa78216cef3789b2": 0.402867,
+            "4875314bcaa56412": 0.395302,
+            "2802f22f24982e88": 0.381841,
+            "250b5b26289707b2": 0.215029
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aa78216cef3789b2",
+          "top_observed_success": false,
+          "scores": {
+            "aa78216cef3789b2": 0.860561,
+            "7cc7c8f08cdecbbb": 0.408769,
+            "913bdf5269e7735f": 0.4066,
+            "4875314bcaa56412": 0.397822,
+            "5bd698621a97e2ba": 0.384585,
+            "2802f22f24982e88": 0.364641,
+            "250b5b26289707b2": 0.210987
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "0ebafca5e90dd686",
+          "top_observed_success": false,
+          "scores": {
+            "0ebafca5e90dd686": 0.682437,
+            "dfe3cb50f8020554": 0.618219,
+            "3bda4abef8b64043": 0.618127,
+            "ba1f42573a41ffba": 0.613537,
+            "675acea5a8e54ef1": 0.601263,
+            "febb058560a0cdad": 0.593109,
+            "e429ed3b3eff5772": 0.281399
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "2cdf57e0435bde50",
+          "top_observed_success": false,
+          "scores": {
+            "2cdf57e0435bde50": 0.750048,
+            "38ae8ad27b450762": 0.719435,
+            "772f67dc28707087": 0.712132,
+            "e429ed3b3eff5772": 0.257623,
+            "512dbf6c984f2e50": 0.237326,
+            "675acea5a8e54ef1": 0.2244,
+            "dfe3cb50f8020554": 0.223992
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "38ae8ad27b450762",
+          "top_observed_success": false,
+          "scores": {
+            "38ae8ad27b450762": 0.751054,
+            "772f67dc28707087": 0.721911,
+            "2cdf57e0435bde50": 0.720996,
+            "e429ed3b3eff5772": 0.256735,
+            "512dbf6c984f2e50": 0.236783,
+            "675acea5a8e54ef1": 0.223991,
+            "dfe3cb50f8020554": 0.22359
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.738594,
+            "dfe3cb50f8020554": 0.730454,
+            "675acea5a8e54ef1": 0.677676,
+            "0ebafca5e90dd686": 0.619595,
+            "aca77557e4688418": 0.612859,
+            "ba1f42573a41ffba": 0.580634,
+            "e429ed3b3eff5772": 0.256873
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "73c54f1df3279016",
+          "top_observed_success": false,
+          "scores": {
+            "73c54f1df3279016": 0.713525,
+            "2bee13e8ec66ba27": 0.446831,
+            "0ebafca5e90dd686": 0.403561,
+            "dfe3cb50f8020554": 0.394241,
+            "675acea5a8e54ef1": 0.378693,
+            "aca77557e4688418": 0.377345,
+            "ba1f42573a41ffba": 0.356854
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "772f67dc28707087",
+          "top_observed_success": false,
+          "scores": {
+            "772f67dc28707087": 0.75141,
+            "38ae8ad27b450762": 0.719768,
+            "2cdf57e0435bde50": 0.71156,
+            "e429ed3b3eff5772": 0.255699,
+            "512dbf6c984f2e50": 0.23615,
+            "675acea5a8e54ef1": 0.223515,
+            "dfe3cb50f8020554": 0.22312
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aca77557e4688418",
+          "top_observed_success": false,
+          "scores": {
+            "aca77557e4688418": 0.737923,
+            "dfe3cb50f8020554": 0.613195,
+            "675acea5a8e54ef1": 0.604066,
+            "3bda4abef8b64043": 0.591036,
+            "0ebafca5e90dd686": 0.525198,
+            "ba1f42573a41ffba": 0.485609,
+            "e429ed3b3eff5772": 0.2764
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "febb058560a0cdad",
+          "top_observed_success": false,
+          "scores": {
+            "febb058560a0cdad": 0.726283,
+            "0ebafca5e90dd686": 0.602672,
+            "ba1f42573a41ffba": 0.577499,
+            "dfe3cb50f8020554": 0.555144,
+            "675acea5a8e54ef1": 0.543706,
+            "aca77557e4688418": 0.534829,
+            "e429ed3b3eff5772": 0.257794
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.682525,
+            "6595832ccd8810a9": 0.521562,
+            "e7d87d7d096042ab": 0.471475,
+            "aca1de359e052259": 0.460634,
+            "2710a14345774fc7": 0.440696,
+            "0b5b5542f3455208": 0.409617,
+            "608094c444f01185": 0.39605
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608094c444f01185",
+          "top_observed_success": false,
+          "scores": {
+            "608094c444f01185": 0.938242,
+            "4f88c6ccb8ea4323": 0.690017,
+            "7aecd2187967c2cc": 0.682615,
+            "a625f34076beba19": 0.629415,
+            "8462dc6bc7c66d09": 0.421119,
+            "a38fee83f439ae02": 0.292988,
+            "35e6ecf728f0aea7": 0.270386
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "6595832ccd8810a9",
+          "top_observed_success": false,
+          "scores": {
+            "6595832ccd8810a9": 0.678753,
+            "1d15e29b02e3ad78": 0.517961,
+            "e7d87d7d096042ab": 0.47258,
+            "aca1de359e052259": 0.461607,
+            "2710a14345774fc7": 0.43755,
+            "0b5b5542f3455208": 0.410635,
+            "608094c444f01185": 0.396433
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.936217,
+            "608094c444f01185": 0.670091,
+            "a625f34076beba19": 0.591059,
+            "4f88c6ccb8ea4323": 0.566892,
+            "8462dc6bc7c66d09": 0.372736,
+            "094f049c1b2211a2": 0.372325,
+            "2710a14345774fc7": 0.247262
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.947712,
+            "608094c444f01185": 0.632644,
+            "7aecd2187967c2cc": 0.603221,
+            "4f88c6ccb8ea4323": 0.530104,
+            "8462dc6bc7c66d09": 0.362542,
+            "d4e9710dbc6edc93": 0.357178,
+            "0b5b5542f3455208": 0.348712
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608d85e9ce798548",
+          "top_observed_success": false,
+          "scores": {
+            "608d85e9ce798548": 0.721342,
+            "ff7801eaec5ebaad": 0.471953,
+            "edb85e6c1186f84d": 0.417145,
+            "0da63e637cd1e3cb": 0.414263,
+            "0b55ac767dd42958": 0.413545,
+            "640f9d5f0684f903": 0.404121,
+            "a5fe8ceb0600dfea": 0.227067
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "640f9d5f0684f903",
+          "top_observed_success": false,
+          "scores": {
+            "640f9d5f0684f903": 0.887203,
+            "edb85e6c1186f84d": 0.406918,
+            "608d85e9ce798548": 0.278372,
+            "3848e142c971ea93": 0.227334,
+            "a5fe8ceb0600dfea": 0.226047,
+            "5cae43d92433967d": 0.225919,
+            "4336eeff1836adff": 0.225854
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.919164,
+            "edb85e6c1186f84d": 0.405393,
+            "608d85e9ce798548": 0.269124,
+            "a98e88062870a29c": 0.248921,
+            "4336eeff1836adff": 0.24375,
+            "a5fe8ceb0600dfea": 0.239547,
+            "a117dc3a88e99780": 0.225051
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.883673,
+            "ff7801eaec5ebaad": 0.764676,
+            "0da63e637cd1e3cb": 0.725443,
+            "0b55ac767dd42958": 0.423432,
+            "a66363dcc397dd5f": 0.396966,
+            "608d85e9ce798548": 0.27809,
+            "a98e88062870a29c": 0.232293
+          }
+        }
+      ]
+    },
+    "text_plus_reliability": {
+      "metrics": {
+        "success_at_1": 0.0,
+        "success_at_3": 0.5609756097560976,
+        "mrr_first_success": 0.35670731707317094,
+        "avg_top1_observed_success": 0.0,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "250b5b26289707b2",
+          "top_observed_success": false,
+          "scores": {
+            "250b5b26289707b2": 0.855584,
+            "4fa2825fdad0abab": 0.411446,
+            "72b58081e68a86e8": 0.356142,
+            "7cc7c8f08cdecbbb": 0.346424,
+            "566065e5e637926e": 0.345844,
+            "913bdf5269e7735f": 0.322378,
+            "aa78216cef3789b2": 0.319061
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "913bdf5269e7735f",
+          "top_observed_success": false,
+          "scores": {
+            "913bdf5269e7735f": 0.849097,
+            "5bd698621a97e2ba": 0.420328,
+            "aa78216cef3789b2": 0.413715,
+            "4875314bcaa56412": 0.406149,
+            "2802f22f24982e88": 0.391379,
+            "7cc7c8f08cdecbbb": 0.361449,
+            "250b5b26289707b2": 0.299587
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 3,
+          "top_endpoint_id": "aa78216cef3789b2",
+          "top_observed_success": false,
+          "scores": {
+            "aa78216cef3789b2": 0.871409,
+            "913bdf5269e7735f": 0.417448,
+            "4875314bcaa56412": 0.40867,
+            "5bd698621a97e2ba": 0.394123,
+            "2802f22f24982e88": 0.374179,
+            "7cc7c8f08cdecbbb": 0.354457,
+            "250b5b26289707b2": 0.295546
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "0ebafca5e90dd686",
+          "top_observed_success": false,
+          "scores": {
+            "0ebafca5e90dd686": 0.769315,
+            "3bda4abef8b64043": 0.70754,
+            "dfe3cb50f8020554": 0.705097,
+            "ba1f42573a41ffba": 0.70295,
+            "675acea5a8e54ef1": 0.688141,
+            "febb058560a0cdad": 0.679987,
+            "e429ed3b3eff5772": 0.368098
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "2cdf57e0435bde50",
+          "top_observed_success": false,
+          "scores": {
+            "2cdf57e0435bde50": 0.845669,
+            "38ae8ad27b450762": 0.815056,
+            "772f67dc28707087": 0.807753,
+            "e429ed3b3eff5772": 0.344322,
+            "512dbf6c984f2e50": 0.318344,
+            "675acea5a8e54ef1": 0.311278,
+            "dfe3cb50f8020554": 0.31087
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "38ae8ad27b450762",
+          "top_observed_success": false,
+          "scores": {
+            "38ae8ad27b450762": 0.846675,
+            "772f67dc28707087": 0.817533,
+            "2cdf57e0435bde50": 0.816617,
+            "e429ed3b3eff5772": 0.343434,
+            "512dbf6c984f2e50": 0.317801,
+            "675acea5a8e54ef1": 0.310869,
+            "dfe3cb50f8020554": 0.310468
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.828007,
+            "dfe3cb50f8020554": 0.817332,
+            "675acea5a8e54ef1": 0.764554,
+            "0ebafca5e90dd686": 0.706473,
+            "aca77557e4688418": 0.699737,
+            "ba1f42573a41ffba": 0.670047,
+            "e429ed3b3eff5772": 0.343572
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "73c54f1df3279016",
+          "top_observed_success": false,
+          "scores": {
+            "73c54f1df3279016": 0.800403,
+            "0ebafca5e90dd686": 0.490439,
+            "dfe3cb50f8020554": 0.481119,
+            "675acea5a8e54ef1": 0.465571,
+            "aca77557e4688418": 0.464223,
+            "ba1f42573a41ffba": 0.446267,
+            "2bee13e8ec66ba27": 0.400153
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "772f67dc28707087",
+          "top_observed_success": false,
+          "scores": {
+            "772f67dc28707087": 0.847031,
+            "38ae8ad27b450762": 0.815389,
+            "2cdf57e0435bde50": 0.807181,
+            "e429ed3b3eff5772": 0.342398,
+            "512dbf6c984f2e50": 0.317168,
+            "675acea5a8e54ef1": 0.310393,
+            "dfe3cb50f8020554": 0.309998
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aca77557e4688418",
+          "top_observed_success": false,
+          "scores": {
+            "aca77557e4688418": 0.824801,
+            "dfe3cb50f8020554": 0.700073,
+            "675acea5a8e54ef1": 0.690943,
+            "3bda4abef8b64043": 0.680449,
+            "0ebafca5e90dd686": 0.612076,
+            "ba1f42573a41ffba": 0.575022,
+            "e429ed3b3eff5772": 0.363099
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "febb058560a0cdad",
+          "top_observed_success": false,
+          "scores": {
+            "febb058560a0cdad": 0.813161,
+            "0ebafca5e90dd686": 0.68955,
+            "ba1f42573a41ffba": 0.666912,
+            "dfe3cb50f8020554": 0.642022,
+            "675acea5a8e54ef1": 0.630584,
+            "aca77557e4688418": 0.621706,
+            "e429ed3b3eff5772": 0.344493
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.757089,
+            "6595832ccd8810a9": 0.596126,
+            "2710a14345774fc7": 0.51526,
+            "e7d87d7d096042ab": 0.418369,
+            "aca1de359e052259": 0.407425,
+            "0b5b5542f3455208": 0.398122,
+            "608094c444f01185": 0.355118
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608094c444f01185",
+          "top_observed_success": false,
+          "scores": {
+            "608094c444f01185": 0.89731,
+            "4f88c6ccb8ea4323": 0.649085,
+            "7aecd2187967c2cc": 0.641683,
+            "a625f34076beba19": 0.589718,
+            "8462dc6bc7c66d09": 0.410485,
+            "a38fee83f439ae02": 0.374006,
+            "35e6ecf728f0aea7": 0.351403
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "6595832ccd8810a9",
+          "top_observed_success": false,
+          "scores": {
+            "6595832ccd8810a9": 0.753317,
+            "1d15e29b02e3ad78": 0.592525,
+            "2710a14345774fc7": 0.512114,
+            "e7d87d7d096042ab": 0.419473,
+            "aca1de359e052259": 0.408398,
+            "0b5b5542f3455208": 0.39914,
+            "608094c444f01185": 0.355502
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.895285,
+            "608094c444f01185": 0.629159,
+            "a625f34076beba19": 0.551362,
+            "4f88c6ccb8ea4323": 0.52596,
+            "8462dc6bc7c66d09": 0.362102,
+            "094f049c1b2211a2": 0.36083,
+            "2710a14345774fc7": 0.321826
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.908014,
+            "608094c444f01185": 0.591713,
+            "7aecd2187967c2cc": 0.56229,
+            "4f88c6ccb8ea4323": 0.489172,
+            "8462dc6bc7c66d09": 0.351908,
+            "d4e9710dbc6edc93": 0.345683,
+            "0b5b5542f3455208": 0.337217
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608d85e9ce798548",
+          "top_observed_success": false,
+          "scores": {
+            "608d85e9ce798548": 0.778215,
+            "ff7801eaec5ebaad": 0.428881,
+            "0b55ac767dd42958": 0.378427,
+            "edb85e6c1186f84d": 0.374969,
+            "0da63e637cd1e3cb": 0.372087,
+            "640f9d5f0684f903": 0.367781,
+            "a5fe8ceb0600dfea": 0.313481
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "640f9d5f0684f903",
+          "top_observed_success": false,
+          "scores": {
+            "640f9d5f0684f903": 0.850863,
+            "edb85e6c1186f84d": 0.364742,
+            "608d85e9ce798548": 0.335244,
+            "5cae43d92433967d": 0.314645,
+            "4336eeff1836adff": 0.31458,
+            "3848e142c971ea93": 0.31282,
+            "a5fe8ceb0600dfea": 0.312461
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 3,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.876269,
+            "edb85e6c1186f84d": 0.363216,
+            "a98e88062870a29c": 0.338601,
+            "4336eeff1836adff": 0.332475,
+            "a117dc3a88e99780": 0.331295,
+            "608d85e9ce798548": 0.325997,
+            "a5fe8ceb0600dfea": 0.325961
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.841497,
+            "ff7801eaec5ebaad": 0.721604,
+            "0da63e637cd1e3cb": 0.683267,
+            "0b55ac767dd42958": 0.388313,
+            "a66363dcc397dd5f": 0.354072,
+            "608d85e9ce798548": 0.334963,
+            "a98e88062870a29c": 0.321973
+          }
+        }
+      ]
+    },
+    "no_reliability": {
+      "metrics": {
+        "success_at_1": 0.0,
+        "success_at_3": 0.5609756097560976,
+        "mrr_first_success": 0.3597560975609758,
+        "avg_top1_observed_success": 0.0,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "250b5b26289707b2",
+          "top_observed_success": false,
+          "scores": {
+            "250b5b26289707b2": 0.524724,
+            "4fa2825fdad0abab": 0.169414,
+            "566065e5e637926e": 0.116634,
+            "72b58081e68a86e8": 0.087336,
+            "7cc7c8f08cdecbbb": 0.079533,
+            "913bdf5269e7735f": 0.075528,
+            "aa78216cef3789b2": 0.072874
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "913bdf5269e7735f",
+          "top_observed_success": false,
+          "scores": {
+            "913bdf5269e7735f": 0.496903,
+            "5bd698621a97e2ba": 0.154936,
+            "aa78216cef3789b2": 0.148598,
+            "4875314bcaa56412": 0.142545,
+            "2802f22f24982e88": 0.131776,
+            "7cc7c8f08cdecbbb": 0.091553,
+            "250b5b26289707b2": 0.079927
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 3,
+          "top_endpoint_id": "aa78216cef3789b2",
+          "top_observed_success": false,
+          "scores": {
+            "aa78216cef3789b2": 0.514753,
+            "913bdf5269e7735f": 0.151584,
+            "4875314bcaa56412": 0.144562,
+            "5bd698621a97e2ba": 0.133972,
+            "2802f22f24982e88": 0.118017,
+            "7cc7c8f08cdecbbb": 0.085959,
+            "250b5b26289707b2": 0.076694
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "0ebafca5e90dd686",
+          "top_observed_success": false,
+          "scores": {
+            "0ebafca5e90dd686": 0.452894,
+            "dfe3cb50f8020554": 0.401519,
+            "3bda4abef8b64043": 0.401445,
+            "ba1f42573a41ffba": 0.397773,
+            "675acea5a8e54ef1": 0.387955,
+            "febb058560a0cdad": 0.381432,
+            "e429ed3b3eff5772": 0.131871
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "2cdf57e0435bde50",
+          "top_observed_success": false,
+          "scores": {
+            "2cdf57e0435bde50": 0.520166,
+            "38ae8ad27b450762": 0.495676,
+            "772f67dc28707087": 0.489833,
+            "e429ed3b3eff5772": 0.112851,
+            "512dbf6c984f2e50": 0.093861,
+            "675acea5a8e54ef1": 0.086464,
+            "dfe3cb50f8020554": 0.086138
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "38ae8ad27b450762",
+          "top_observed_success": false,
+          "scores": {
+            "38ae8ad27b450762": 0.520971,
+            "772f67dc28707087": 0.497657,
+            "2cdf57e0435bde50": 0.496925,
+            "e429ed3b3eff5772": 0.11214,
+            "512dbf6c984f2e50": 0.093427,
+            "675acea5a8e54ef1": 0.086137,
+            "dfe3cb50f8020554": 0.085816
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.497819,
+            "dfe3cb50f8020554": 0.491308,
+            "675acea5a8e54ef1": 0.449085,
+            "0ebafca5e90dd686": 0.40262,
+            "aca77557e4688418": 0.397231,
+            "ba1f42573a41ffba": 0.371451,
+            "e429ed3b3eff5772": 0.112251
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "73c54f1df3279016",
+          "top_observed_success": false,
+          "scores": {
+            "73c54f1df3279016": 0.477764,
+            "0ebafca5e90dd686": 0.229793,
+            "dfe3cb50f8020554": 0.222337,
+            "675acea5a8e54ef1": 0.209899,
+            "aca77557e4688418": 0.20882,
+            "ba1f42573a41ffba": 0.192427,
+            "2bee13e8ec66ba27": 0.124409
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "772f67dc28707087",
+          "top_observed_success": false,
+          "scores": {
+            "772f67dc28707087": 0.521256,
+            "38ae8ad27b450762": 0.495942,
+            "2cdf57e0435bde50": 0.489376,
+            "e429ed3b3eff5772": 0.111311,
+            "512dbf6c984f2e50": 0.09292,
+            "675acea5a8e54ef1": 0.085756,
+            "dfe3cb50f8020554": 0.08544
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aca77557e4688418",
+          "top_observed_success": false,
+          "scores": {
+            "aca77557e4688418": 0.497282,
+            "dfe3cb50f8020554": 0.3975,
+            "675acea5a8e54ef1": 0.390196,
+            "3bda4abef8b64043": 0.379773,
+            "0ebafca5e90dd686": 0.327103,
+            "ba1f42573a41ffba": 0.295432,
+            "e429ed3b3eff5772": 0.127872
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "febb058560a0cdad",
+          "top_observed_success": false,
+          "scores": {
+            "febb058560a0cdad": 0.48797,
+            "0ebafca5e90dd686": 0.389081,
+            "ba1f42573a41ffba": 0.368943,
+            "dfe3cb50f8020554": 0.351059,
+            "675acea5a8e54ef1": 0.341909,
+            "aca77557e4688418": 0.334807,
+            "e429ed3b3eff5772": 0.112987
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.442916,
+            "6595832ccd8810a9": 0.314145,
+            "2710a14345774fc7": 0.249453,
+            "e7d87d7d096042ab": 0.137308,
+            "0b5b5542f3455208": 0.131598,
+            "aca1de359e052259": 0.128635,
+            "608094c444f01185": 0.089448
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608094c444f01185",
+          "top_observed_success": false,
+          "scores": {
+            "608094c444f01185": 0.523201,
+            "4f88c6ccb8ea4323": 0.324621,
+            "7aecd2187967c2cc": 0.3187,
+            "a625f34076beba19": 0.27614,
+            "8462dc6bc7c66d09": 0.140799,
+            "a38fee83f439ae02": 0.13839,
+            "35e6ecf728f0aea7": 0.120309
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "6595832ccd8810a9",
+          "top_observed_success": false,
+          "scores": {
+            "6595832ccd8810a9": 0.439899,
+            "1d15e29b02e3ad78": 0.311265,
+            "2710a14345774fc7": 0.246936,
+            "e7d87d7d096042ab": 0.138192,
+            "0b5b5542f3455208": 0.132412,
+            "aca1de359e052259": 0.129414,
+            "608094c444f01185": 0.089755
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.521581,
+            "608094c444f01185": 0.308681,
+            "a625f34076beba19": 0.245455,
+            "4f88c6ccb8ea4323": 0.226121,
+            "8462dc6bc7c66d09": 0.102093,
+            "094f049c1b2211a2": 0.101764,
+            "2710a14345774fc7": 0.094706
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.530777,
+            "608094c444f01185": 0.278723,
+            "7aecd2187967c2cc": 0.255185,
+            "4f88c6ccb8ea4323": 0.196691,
+            "8462dc6bc7c66d09": 0.093937,
+            "d4e9710dbc6edc93": 0.089646,
+            "0b5b5542f3455208": 0.082873
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608d85e9ce798548",
+          "top_observed_success": false,
+          "scores": {
+            "608d85e9ce798548": 0.454578,
+            "ff7801eaec5ebaad": 0.148251,
+            "0b55ac767dd42958": 0.109844,
+            "edb85e6c1186f84d": 0.104404,
+            "0da63e637cd1e3cb": 0.102099,
+            "640f9d5f0684f903": 0.101025,
+            "a5fe8ceb0600dfea": 0.091606
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "640f9d5f0684f903",
+          "top_observed_success": false,
+          "scores": {
+            "640f9d5f0684f903": 0.487491,
+            "608d85e9ce798548": 0.100201,
+            "edb85e6c1186f84d": 0.096223,
+            "3848e142c971ea93": 0.090795,
+            "a5fe8ceb0600dfea": 0.090789,
+            "5cae43d92433967d": 0.089663,
+            "4336eeff1836adff": 0.089611
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.505923,
+            "a98e88062870a29c": 0.109089,
+            "4336eeff1836adff": 0.103928,
+            "a5fe8ceb0600dfea": 0.10159,
+            "edb85e6c1186f84d": 0.095002,
+            "608d85e9ce798548": 0.092803,
+            "a117dc3a88e99780": 0.088969
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.477627,
+            "ff7801eaec5ebaad": 0.382429,
+            "0da63e637cd1e3cb": 0.351043,
+            "0b55ac767dd42958": 0.117753,
+            "608d85e9ce798548": 0.099976,
+            "a98e88062870a29c": 0.095787,
+            "a66363dcc397dd5f": 0.088165
+          }
+        }
+      ]
+    },
+    "no_risk_conflict": {
+      "metrics": {
+        "success_at_1": 0.0,
+        "success_at_3": 0.5609756097560976,
+        "mrr_first_success": 0.35670731707317094,
+        "avg_top1_observed_success": 0.0,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "250b5b26289707b2",
+          "top_observed_success": false,
+          "scores": {
+            "250b5b26289707b2": 0.748467,
+            "4fa2825fdad0abab": 0.393157,
+            "72b58081e68a86e8": 0.348913,
+            "7cc7c8f08cdecbbb": 0.34114,
+            "566065e5e637926e": 0.340675,
+            "913bdf5269e7735f": 0.321902,
+            "aa78216cef3789b2": 0.319249
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "913bdf5269e7735f",
+          "top_observed_success": false,
+          "scores": {
+            "913bdf5269e7735f": 0.743277,
+            "5bd698621a97e2ba": 0.400262,
+            "aa78216cef3789b2": 0.394972,
+            "4875314bcaa56412": 0.388919,
+            "2802f22f24982e88": 0.377103,
+            "7cc7c8f08cdecbbb": 0.353159,
+            "250b5b26289707b2": 0.30367
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 3,
+          "top_endpoint_id": "aa78216cef3789b2",
+          "top_observed_success": false,
+          "scores": {
+            "aa78216cef3789b2": 0.761127,
+            "913bdf5269e7735f": 0.397958,
+            "4875314bcaa56412": 0.390936,
+            "5bd698621a97e2ba": 0.379299,
+            "2802f22f24982e88": 0.363343,
+            "7cc7c8f08cdecbbb": 0.347565,
+            "250b5b26289707b2": 0.300436
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "0ebafca5e90dd686",
+          "top_observed_success": false,
+          "scores": {
+            "0ebafca5e90dd686": 0.679452,
+            "3bda4abef8b64043": 0.630032,
+            "dfe3cb50f8020554": 0.628077,
+            "ba1f42573a41ffba": 0.62636,
+            "675acea5a8e54ef1": 0.614513,
+            "febb058560a0cdad": 0.60799,
+            "e429ed3b3eff5772": 0.358479
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "2cdf57e0435bde50",
+          "top_observed_success": false,
+          "scores": {
+            "2cdf57e0435bde50": 0.740535,
+            "38ae8ad27b450762": 0.716045,
+            "772f67dc28707087": 0.710202,
+            "e429ed3b3eff5772": 0.339458,
+            "512dbf6c984f2e50": 0.318675,
+            "675acea5a8e54ef1": 0.313022,
+            "dfe3cb50f8020554": 0.312696
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "38ae8ad27b450762",
+          "top_observed_success": false,
+          "scores": {
+            "38ae8ad27b450762": 0.74134,
+            "772f67dc28707087": 0.718026,
+            "2cdf57e0435bde50": 0.717293,
+            "e429ed3b3eff5772": 0.338747,
+            "512dbf6c984f2e50": 0.318241,
+            "675acea5a8e54ef1": 0.312695,
+            "dfe3cb50f8020554": 0.312374
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.726406,
+            "dfe3cb50f8020554": 0.717866,
+            "675acea5a8e54ef1": 0.675643,
+            "0ebafca5e90dd686": 0.629178,
+            "aca77557e4688418": 0.62379,
+            "ba1f42573a41ffba": 0.600038,
+            "e429ed3b3eff5772": 0.338858
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "73c54f1df3279016",
+          "top_observed_success": false,
+          "scores": {
+            "73c54f1df3279016": 0.704322,
+            "0ebafca5e90dd686": 0.456351,
+            "dfe3cb50f8020554": 0.448895,
+            "675acea5a8e54ef1": 0.436457,
+            "aca77557e4688418": 0.435378,
+            "ba1f42573a41ffba": 0.421013,
+            "2bee13e8ec66ba27": 0.384123
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 4,
+          "top_endpoint_id": "772f67dc28707087",
+          "top_observed_success": false,
+          "scores": {
+            "772f67dc28707087": 0.741625,
+            "38ae8ad27b450762": 0.716311,
+            "2cdf57e0435bde50": 0.709745,
+            "e429ed3b3eff5772": 0.337919,
+            "512dbf6c984f2e50": 0.317734,
+            "675acea5a8e54ef1": 0.312315,
+            "dfe3cb50f8020554": 0.311999
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aca77557e4688418",
+          "top_observed_success": false,
+          "scores": {
+            "aca77557e4688418": 0.72384,
+            "dfe3cb50f8020554": 0.624058,
+            "675acea5a8e54ef1": 0.616755,
+            "3bda4abef8b64043": 0.608359,
+            "0ebafca5e90dd686": 0.553661,
+            "ba1f42573a41ffba": 0.524018,
+            "e429ed3b3eff5772": 0.354479
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "febb058560a0cdad",
+          "top_observed_success": false,
+          "scores": {
+            "febb058560a0cdad": 0.714529,
+            "0ebafca5e90dd686": 0.61564,
+            "ba1f42573a41ffba": 0.59753,
+            "dfe3cb50f8020554": 0.577617,
+            "675acea5a8e54ef1": 0.568467,
+            "aca77557e4688418": 0.561365,
+            "e429ed3b3eff5772": 0.339594
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.669671,
+            "6595832ccd8810a9": 0.540901,
+            "2710a14345774fc7": 0.476208,
+            "e7d87d7d096042ab": 0.398695,
+            "aca1de359e052259": 0.38994,
+            "0b5b5542f3455208": 0.382498,
+            "608094c444f01185": 0.348095
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608094c444f01185",
+          "top_observed_success": false,
+          "scores": {
+            "608094c444f01185": 0.781848,
+            "4f88c6ccb8ea4323": 0.583268,
+            "7aecd2187967c2cc": 0.577346,
+            "a625f34076beba19": 0.535774,
+            "8462dc6bc7c66d09": 0.392388,
+            "a38fee83f439ae02": 0.363204,
+            "35e6ecf728f0aea7": 0.345123
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 3,
+          "top_endpoint_id": "6595832ccd8810a9",
+          "top_observed_success": false,
+          "scores": {
+            "6595832ccd8810a9": 0.666654,
+            "1d15e29b02e3ad78": 0.53802,
+            "2710a14345774fc7": 0.473691,
+            "e7d87d7d096042ab": 0.399579,
+            "aca1de359e052259": 0.390719,
+            "0b5b5542f3455208": 0.383312,
+            "608094c444f01185": 0.348401
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.780228,
+            "608094c444f01185": 0.567328,
+            "a625f34076beba19": 0.505089,
+            "4f88c6ccb8ea4323": 0.484768,
+            "8462dc6bc7c66d09": 0.353682,
+            "094f049c1b2211a2": 0.352664,
+            "2710a14345774fc7": 0.321461
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 4,
+          "top_endpoint_id": "a625f34076beba19",
+          "top_observed_success": false,
+          "scores": {
+            "a625f34076beba19": 0.790412,
+            "608094c444f01185": 0.53737,
+            "7aecd2187967c2cc": 0.513832,
+            "4f88c6ccb8ea4323": 0.455338,
+            "8462dc6bc7c66d09": 0.345526,
+            "d4e9710dbc6edc93": 0.340546,
+            "0b5b5542f3455208": 0.333774
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608d85e9ce798548",
+          "top_observed_success": false,
+          "scores": {
+            "608d85e9ce798548": 0.686572,
+            "ff7801eaec5ebaad": 0.407105,
+            "0b55ac767dd42958": 0.366741,
+            "edb85e6c1186f84d": 0.363975,
+            "0da63e637cd1e3cb": 0.361669,
+            "640f9d5f0684f903": 0.358225,
+            "a5fe8ceb0600dfea": 0.314785
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 4,
+          "top_endpoint_id": "640f9d5f0684f903",
+          "top_observed_success": false,
+          "scores": {
+            "640f9d5f0684f903": 0.74469,
+            "edb85e6c1186f84d": 0.355794,
+            "608d85e9ce798548": 0.332195,
+            "5cae43d92433967d": 0.315716,
+            "4336eeff1836adff": 0.315664,
+            "3848e142c971ea93": 0.314256,
+            "a5fe8ceb0600dfea": 0.313969
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 3,
+          "top_endpoint_id": "a66363dcc397dd5f",
+          "top_observed_success": false,
+          "scores": {
+            "a66363dcc397dd5f": 0.765015,
+            "edb85e6c1186f84d": 0.354573,
+            "a98e88062870a29c": 0.33488,
+            "4336eeff1836adff": 0.32998,
+            "a117dc3a88e99780": 0.329036,
+            "608d85e9ce798548": 0.324797,
+            "a5fe8ceb0600dfea": 0.324769
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "edb85e6c1186f84d",
+          "top_observed_success": false,
+          "scores": {
+            "edb85e6c1186f84d": 0.737198,
+            "ff7801eaec5ebaad": 0.641283,
+            "0da63e637cd1e3cb": 0.610614,
+            "0b55ac767dd42958": 0.374651,
+            "a66363dcc397dd5f": 0.347257,
+            "608d85e9ce798548": 0.33197,
+            "a98e88062870a29c": 0.321578
+          }
+        }
+      ]
+    },
+    "deterministic_random": {
+      "metrics": {
+        "success_at_1": 0.5975609756097561,
+        "success_at_3": 0.975609756097561,
+        "mrr_first_success": 0.7713414634146339,
+        "avg_top1_observed_success": 0.5975609756097561,
+        "count": 164
+      },
+      "examples": [
+        {
+          "anchor_failed_endpoint_id": "250b5b26289707b2",
+          "category": "Advertising",
+          "first_success_rank": 2,
+          "top_endpoint_id": "aa78216cef3789b2",
+          "top_observed_success": false,
+          "scores": {
+            "aa78216cef3789b2": 0.920935,
+            "566065e5e637926e": 0.665598,
+            "4fa2825fdad0abab": 0.63209,
+            "7cc7c8f08cdecbbb": 0.348253,
+            "250b5b26289707b2": 0.27621,
+            "913bdf5269e7735f": 0.229209,
+            "72b58081e68a86e8": 0.162639
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "913bdf5269e7735f",
+          "category": "Advertising",
+          "first_success_rank": 3,
+          "top_endpoint_id": "250b5b26289707b2",
+          "top_observed_success": false,
+          "scores": {
+            "250b5b26289707b2": 0.949345,
+            "913bdf5269e7735f": 0.831563,
+            "2802f22f24982e88": 0.82929,
+            "5bd698621a97e2ba": 0.787475,
+            "4875314bcaa56412": 0.429585,
+            "aa78216cef3789b2": 0.239892,
+            "7cc7c8f08cdecbbb": 0.015375
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aa78216cef3789b2",
+          "category": "Advertising",
+          "first_success_rank": 3,
+          "top_endpoint_id": "913bdf5269e7735f",
+          "top_observed_success": false,
+          "scores": {
+            "913bdf5269e7735f": 0.938234,
+            "aa78216cef3789b2": 0.752701,
+            "2802f22f24982e88": 0.481413,
+            "4875314bcaa56412": 0.268469,
+            "5bd698621a97e2ba": 0.226584,
+            "250b5b26289707b2": 0.033599,
+            "7cc7c8f08cdecbbb": 0.009958
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "0ebafca5e90dd686",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "dfe3cb50f8020554",
+          "top_observed_success": true,
+          "scores": {
+            "dfe3cb50f8020554": 0.671909,
+            "e429ed3b3eff5772": 0.408723,
+            "3bda4abef8b64043": 0.278063,
+            "ba1f42573a41ffba": 0.26771,
+            "febb058560a0cdad": 0.242218,
+            "0ebafca5e90dd686": 0.12046,
+            "675acea5a8e54ef1": 0.040518
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "2cdf57e0435bde50",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "512dbf6c984f2e50",
+          "top_observed_success": true,
+          "scores": {
+            "512dbf6c984f2e50": 0.979608,
+            "2cdf57e0435bde50": 0.822065,
+            "675acea5a8e54ef1": 0.783081,
+            "772f67dc28707087": 0.759658,
+            "e429ed3b3eff5772": 0.32392,
+            "38ae8ad27b450762": 0.300496,
+            "dfe3cb50f8020554": 0.069603
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "38ae8ad27b450762",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "512dbf6c984f2e50",
+          "top_observed_success": true,
+          "scores": {
+            "512dbf6c984f2e50": 0.937399,
+            "dfe3cb50f8020554": 0.892778,
+            "675acea5a8e54ef1": 0.716458,
+            "38ae8ad27b450762": 0.654333,
+            "e429ed3b3eff5772": 0.627481,
+            "2cdf57e0435bde50": 0.250885,
+            "772f67dc28707087": 0.093372
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "3bda4abef8b64043",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "675acea5a8e54ef1",
+          "top_observed_success": true,
+          "scores": {
+            "675acea5a8e54ef1": 0.952918,
+            "e429ed3b3eff5772": 0.909121,
+            "aca77557e4688418": 0.78248,
+            "3bda4abef8b64043": 0.728807,
+            "dfe3cb50f8020554": 0.478827,
+            "0ebafca5e90dd686": 0.401367,
+            "ba1f42573a41ffba": 0.265101
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "73c54f1df3279016",
+          "category": "Business",
+          "first_success_rank": 3,
+          "top_endpoint_id": "0ebafca5e90dd686",
+          "top_observed_success": false,
+          "scores": {
+            "0ebafca5e90dd686": 0.681319,
+            "73c54f1df3279016": 0.679095,
+            "675acea5a8e54ef1": 0.650148,
+            "2bee13e8ec66ba27": 0.640428,
+            "ba1f42573a41ffba": 0.261028,
+            "dfe3cb50f8020554": 0.102608,
+            "aca77557e4688418": 0.001916
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "772f67dc28707087",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "512dbf6c984f2e50",
+          "top_observed_success": true,
+          "scores": {
+            "512dbf6c984f2e50": 0.503177,
+            "675acea5a8e54ef1": 0.408597,
+            "e429ed3b3eff5772": 0.366424,
+            "38ae8ad27b450762": 0.209844,
+            "772f67dc28707087": 0.206392,
+            "2cdf57e0435bde50": 0.04423,
+            "dfe3cb50f8020554": 0.008438
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "aca77557e4688418",
+          "category": "Business",
+          "first_success_rank": 2,
+          "top_endpoint_id": "3bda4abef8b64043",
+          "top_observed_success": false,
+          "scores": {
+            "3bda4abef8b64043": 0.789275,
+            "e429ed3b3eff5772": 0.692834,
+            "dfe3cb50f8020554": 0.545908,
+            "675acea5a8e54ef1": 0.460458,
+            "ba1f42573a41ffba": 0.39641,
+            "aca77557e4688418": 0.355611,
+            "0ebafca5e90dd686": 0.00523
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "febb058560a0cdad",
+          "category": "Business",
+          "first_success_rank": 1,
+          "top_endpoint_id": "e429ed3b3eff5772",
+          "top_observed_success": true,
+          "scores": {
+            "e429ed3b3eff5772": 0.747781,
+            "ba1f42573a41ffba": 0.638868,
+            "aca77557e4688418": 0.61358,
+            "dfe3cb50f8020554": 0.393519,
+            "675acea5a8e54ef1": 0.346069,
+            "0ebafca5e90dd686": 0.176166,
+            "febb058560a0cdad": 0.110233
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "1d15e29b02e3ad78",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.903934,
+            "e7d87d7d096042ab": 0.892098,
+            "aca1de359e052259": 0.586995,
+            "608094c444f01185": 0.424782,
+            "2710a14345774fc7": 0.283128,
+            "6595832ccd8810a9": 0.259079,
+            "0b5b5542f3455208": 0.176052
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608094c444f01185",
+          "category": "Commerce",
+          "first_success_rank": 1,
+          "top_endpoint_id": "4f88c6ccb8ea4323",
+          "top_observed_success": true,
+          "scores": {
+            "4f88c6ccb8ea4323": 0.989693,
+            "35e6ecf728f0aea7": 0.802071,
+            "8462dc6bc7c66d09": 0.764968,
+            "a38fee83f439ae02": 0.681322,
+            "a625f34076beba19": 0.592625,
+            "608094c444f01185": 0.125255,
+            "7aecd2187967c2cc": 0.101162
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "6595832ccd8810a9",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "1d15e29b02e3ad78",
+          "top_observed_success": false,
+          "scores": {
+            "1d15e29b02e3ad78": 0.974813,
+            "2710a14345774fc7": 0.909252,
+            "0b5b5542f3455208": 0.606422,
+            "608094c444f01185": 0.344469,
+            "e7d87d7d096042ab": 0.317619,
+            "aca1de359e052259": 0.23474,
+            "6595832ccd8810a9": 0.164188
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "7aecd2187967c2cc",
+          "category": "Commerce",
+          "first_success_rank": 2,
+          "top_endpoint_id": "7aecd2187967c2cc",
+          "top_observed_success": false,
+          "scores": {
+            "7aecd2187967c2cc": 0.908094,
+            "094f049c1b2211a2": 0.76259,
+            "4f88c6ccb8ea4323": 0.731396,
+            "608094c444f01185": 0.651447,
+            "a625f34076beba19": 0.258659,
+            "2710a14345774fc7": 0.166766,
+            "8462dc6bc7c66d09": 0.043908
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a625f34076beba19",
+          "category": "Commerce",
+          "first_success_rank": 1,
+          "top_endpoint_id": "0b5b5542f3455208",
+          "top_observed_success": true,
+          "scores": {
+            "0b5b5542f3455208": 0.741356,
+            "a625f34076beba19": 0.727574,
+            "608094c444f01185": 0.386455,
+            "d4e9710dbc6edc93": 0.345619,
+            "7aecd2187967c2cc": 0.312195,
+            "8462dc6bc7c66d09": 0.180995,
+            "4f88c6ccb8ea4323": 0.14422
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "608d85e9ce798548",
+          "category": "Communication",
+          "first_success_rank": 3,
+          "top_endpoint_id": "640f9d5f0684f903",
+          "top_observed_success": false,
+          "scores": {
+            "640f9d5f0684f903": 0.981702,
+            "608d85e9ce798548": 0.910856,
+            "ff7801eaec5ebaad": 0.83713,
+            "a5fe8ceb0600dfea": 0.576454,
+            "0b55ac767dd42958": 0.468154,
+            "0da63e637cd1e3cb": 0.042682,
+            "edb85e6c1186f84d": 0.03613
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "640f9d5f0684f903",
+          "category": "Communication",
+          "first_success_rank": 1,
+          "top_endpoint_id": "5cae43d92433967d",
+          "top_observed_success": true,
+          "scores": {
+            "5cae43d92433967d": 0.902086,
+            "608d85e9ce798548": 0.801999,
+            "4336eeff1836adff": 0.535028,
+            "a5fe8ceb0600dfea": 0.385717,
+            "3848e142c971ea93": 0.3235,
+            "edb85e6c1186f84d": 0.286701,
+            "640f9d5f0684f903": 0.133324
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "a66363dcc397dd5f",
+          "category": "Communication",
+          "first_success_rank": 1,
+          "top_endpoint_id": "a5fe8ceb0600dfea",
+          "top_observed_success": true,
+          "scores": {
+            "a5fe8ceb0600dfea": 0.981313,
+            "a98e88062870a29c": 0.941045,
+            "608d85e9ce798548": 0.851144,
+            "a66363dcc397dd5f": 0.445872,
+            "edb85e6c1186f84d": 0.335448,
+            "a117dc3a88e99780": 0.331553,
+            "4336eeff1836adff": 0.319521
+          }
+        },
+        {
+          "anchor_failed_endpoint_id": "edb85e6c1186f84d",
+          "category": "Communication",
+          "first_success_rank": 2,
+          "top_endpoint_id": "608d85e9ce798548",
+          "top_observed_success": false,
+          "scores": {
+            "608d85e9ce798548": 0.891262,
+            "0b55ac767dd42958": 0.832676,
+            "ff7801eaec5ebaad": 0.669519,
+            "edb85e6c1186f84d": 0.510085,
+            "a66363dcc397dd5f": 0.488862,
+            "a98e88062870a29c": 0.401527,
+            "0da63e637cd1e3cb": 0.064751
+          }
+        }
+      ]
+    }
+  }
+}

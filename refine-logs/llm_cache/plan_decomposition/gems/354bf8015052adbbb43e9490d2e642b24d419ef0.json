@@ -1,0 +1,55 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get today's football match predictions with accurate details for the surprise sports-themed birthday party.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"event_date\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Get today's football match predictions with accurate details for the surprise sports-themed birthday party.",
+        "domain": "Sports",
+        "required_inputs": [
+          "event_date"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Get today's football match predictions with accurate details for the surprise sports-themed birthday party.",
+      "domain": "Sports",
+      "required_inputs": [
+        "event_date"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 2849,
+    "total_tokens": 2907,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 638,
+      "pre_inference_ms": 152,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 273,
+      "service_ttlt_ms": 855,
+      "total_duration_ms": 712,
+      "user_visible_ttft_ms": 121
+    }
+  },
+  "goal_hints": [
+    "I'm planning a surprise sports-themed birthday party for my friend and I want to include accurate predictions for the matches."
+  ]
+}

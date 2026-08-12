@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9824",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs specifically provide gun law documentation links for North Carolina. However, the NAVITIME Geocoding - address_inclusion API is related to location and can accept a state name as input, which might be used to find location-based information. The other APIs are unrelated to legal or gun law information. Therefore, by elimination, the best available choice is the NAVITIME Geocoding - address_inclusion API, though it does not directly provide gun law documents.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs specifically provide gun law documentation links for North Carolina. However, the NAVITIME Geocoding - address_inclusion API is related to location and can accept a state name as input, which might be used to find location-based information. The other APIs are unrelated to legal or gun law information. Therefore, by elimination, the best available choice is the NAVITIME Geocoding - address_inclusion API, though it does not directly provide gun law documents."
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 2066,
+    "total_tokens": 2185,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1428,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 185,
+      "service_ttlt_ms": 1564,
+      "total_duration_ms": 1485,
+      "user_visible_ttft_ms": 98
+    }
+  }
+}

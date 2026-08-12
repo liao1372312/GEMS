@@ -1,0 +1,260 @@
+% Auto-generated from local experiment outputs.
+% Unsupported paper metrics such as Exec.SR and Retry require execution logs and are not filled here.
+
+\begin{table}[t]
+\centering
+\caption{Statistics of the industrial EMP composition benchmark.}
+\label{tab:emp-statistics}
+\begin{tabular}{lrrrr}
+\toprule
+Split & Requests & Steps & Avg. Steps & Dep. Records \\
+\midrule
+Train & 700 & 2176 & 3.11 & -- \\
+Val & 150 & 485 & 3.23 & -- \\
+Test & 150 & 469 & 3.13 & 647 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table*}[t]
+\centering
+\caption{Industrial EMP composition results. Sim.Exec.SR is simulated from EMP interface quality metadata because live execution logs are unavailable.}
+\label{tab:emp-composition}
+\begin{tabular}{lcccccc}
+\toprule
+Method & API.Acc & API.Top-3 & API.MRR & Workflow Exact & Sim.Exec.SR & Para.F1 \\
+\midrule
+Semantic top-1 & 0.6077 & 0.7377 & 0.7012 & 0.3200 & 0.2055 & 0.8630 \\
+Trace-RAG & 0.6418 & 0.7953 & 0.7413 & 0.3467 & 0.2185 & 0.8736 \\
+\textsc{GEMS} w/o quality & 0.6098 & 0.7441 & 0.7102 & 0.2800 & 0.1773 & 0.8280 \\
+\textsc{GEMS} + quality & 0.5458 & 0.6780 & 0.6570 & 0.2267 & 0.1564 & 0.7593 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\caption{Statistics of the local public composition benchmark.}
+\label{tab:local-public-statistics}
+\begin{tabular}{lrrrr}
+\toprule
+Split & Requests & Steps & Avg. Steps & Dependency Records \\
+\midrule
+Train & 979 & 2859 & 2.92 & -- \\
+Val & 210 & 604 & 2.88 & -- \\
+Test & 211 & 623 & 2.95 & 27 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{LLM reranker diagnostic results. Non-top1 means the gold API is not the semantic rank-1 candidate.}
+\label{tab:local-llm-reranker}
+\begin{tabular}{lrrrrr}
+\toprule
+Run & Steps & API.Acc & Workflow Exact & Para.F1 & Tokens \\
+\midrule
+all@0 & 604 & 0.6755 & 0.4238 & 0.7734 & 1201401 \\
+all@0 & 623 & 0.6726 & 0.3886 & 0.7502 & 1224920 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Semantic-to-LLM router result.}
+\label{tab:local-llm-router}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & API.Acc & Workflow Exact & Para.F1 & LLM Calls & Cache Hits & Missing \\
+\midrule
+Semantic top-1 & 0.6148 & 0.4502 & 0.7010 & 0 & 0 & 0 \\
+Router & 0.6613 & 0.3791 & 0.7425 & 490 & 490 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{LLM acceptance router result.}
+\label{tab:local-llm-acceptance-router}
+\begin{tabular}{lrrrr}
+\toprule
+Method & API.Acc & Workflow Exact & Para.F1 & LLM Accept Rate \\
+\midrule
+Semantic top-1 & 0.6148 & 0.4502 & 0.7010 & 0.0000 \\
+All-step LLM & 0.6726 & 0.3886 & 0.7502 & 1.0000 \\
+Confidence router & 0.6822 & 0.3981 & 0.7550 & 0.8411 \\
+Validation-trained acceptance & 0.6613 & 0.3649 & 0.7322 & 0.6886 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Help/hurt decomposition of full-test LLM reranking against semantic top-1.}
+\label{tab:local-llm-help-hurt}
+\begin{tabular}{lr}
+\toprule
+Outcome & Steps \\
+\midrule
+Both correct & 235 \\
+LLM helped & 184 \\
+LLM hurt & 148 \\
+Both wrong & 56 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{GEMS adaptive operating points.}
+\label{tab:local-gems-operating-points}
+\begin{tabular}{lrrrr}
+\toprule
+Method & API.Acc & Plan.Acc & Para.F1 & LLM Change Rate \\
+\midrule
+Semantic top-1 & 0.6148 & 0.4502 & 0.7010 & 0.0000 \\
+LLM reranker & 0.6726 & 0.3886 & 0.7502 & 0.5762 \\
+\textsc{GEMS}-Plan & 0.6244 & 0.4028 & 0.7056 & 0.2360 \\
+\textsc{GEMS}-API & 0.6902 & 0.4218 & 0.7585 & 0.4414 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Single-policy GEMS-Adaptive result under the balanced objective.}
+\label{tab:local-gems-adaptive}
+\begin{tabular}{lrrrr}
+\toprule
+Method & API.Acc & Plan.Acc & Para.F1 & LLM Change Rate \\
+\midrule
+Semantic top-1 & 0.6148 & 0.4502 & 0.7010 & 0.0000 \\
+LLM reranker & 0.6726 & 0.3886 & 0.7502 & 0.5762 \\
+\textsc{GEMS}-Adaptive & 0.6485 & 0.4123 & 0.7256 & 0.3002 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Diagnostic operating points on the 211-workflow public test split. Policies are selected on test and should be treated as diagnostic.}
+\label{tab:test211-operating-points}
+\begin{tabular}{lrrrr}
+\toprule
+Method & API.Acc & Plan.Acc & Para.F1 & LLM Change \\
+\midrule
+Semantic top-1 & 0.6148 & 0.4502 & 0.7010 & 0.0000 \\
+Full LLM & 0.6726 & 0.3886 & 0.7502 & 0.5762 \\
+\textsc{GEMS}-Plan & 0.6276 & 0.4787 & 0.7110 & 0.0161 \\
+\textsc{GEMS}-Balanced & 0.6356 & 0.4692 & 0.7171 & 0.0337 \\
+\textsc{GEMS}-CV-Accept & 0.7030 & 0.4171 & 0.7605 & 0.4767 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table*}[t]
+\centering
+\caption{Local public composition results. Execution-dependent metrics are omitted because live execution traces are unavailable.}
+\label{tab:local-public-composition}
+\begin{tabular}{lccccc}
+\toprule
+Method & API.Acc $\uparrow$ & API.Top-3 $\uparrow$ & API.MRR $\uparrow$ & Workflow Exact $\uparrow$ & Para.F1 $\uparrow$ \\
+\midrule
+Semantic top-1 & 0.6148 & 0.7560 & 0.7139 & 0.4502 & 0.7010 \\
+Trace-RAG & 0.4125 & 0.7528 & 0.6087 & 0.1611 & 0.5665 \\
+StructMem-RAG & 0.3114 & 0.6244 & 0.5092 & 0.0995 & 0.4524 \\
+GraphRAG-static & 0.4045 & 0.7560 & 0.6036 & 0.1706 & 0.5596 \\
+GEMS w/o reliability & 0.3868 & 0.7560 & 0.5961 & 0.1422 & 0.5448 \\
+\textsc{GEMS} heuristic & 0.3403 & 0.6372 & 0.5370 & 0.1422 & 0.5092 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Proxy memory-hazard results on the public composition test split. Values are API.Acc on each hazard slice; $n$ is the number of affected steps.}
+\label{tab:local-hazard-proxy}
+\begin{tabular}{lrrrrrr}
+\toprule
+Hazard Slice & $n$ & Semantic & Trace-RAG & GraphRAG & \textsc{GEMS} & Reliability-only \\
+\midrule
+Deprecated API & 74 & 0.5811 & 0.4189 & 0.3919 & 0.1892 & 0.0946 \\
+Schema drift & 189 & 0.0000 & 0.1746 & 0.2751 & 0.2804 & 0.1905 \\
+QoS drift & 142 & 0.5282 & 0.3662 & 0.3592 & 0.2465 & 0.1972 \\
+Conflicting memory & 215 & 0.0000 & 0.1860 & 0.2884 & 0.2791 & 0.1442 \\
+Noisy failure trace & 1 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+Role-mismatched memory & 30 & 0.6667 & 0.3667 & 0.3667 & 0.3333 & 0.2000 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Safe top-ranked endpoint rate on proxy memory-hazard slices. A safe endpoint has observed successful feedback when feedback is available.}
+\label{tab:local-hazard-safe}
+\begin{tabular}{lrrrrr}
+\toprule
+Hazard Slice & Semantic & Trace-RAG & GraphRAG & \textsc{GEMS} & Reliability-only \\
+\midrule
+Deprecated API & 0.0000 & 0.3784 & 0.6351 & 0.8784 & 1.0000 \\
+Schema drift & 0.8588 & 0.9171 & 0.9716 & 0.9943 & 1.0000 \\
+QoS drift & 0.6444 & 0.7163 & 0.8000 & 0.9185 & 1.0000 \\
+Conflicting memory & 0.8713 & 0.9029 & 0.9552 & 0.9751 & 1.0000 \\
+Noisy failure trace & -- & -- & -- & -- & 1.0000 \\
+Role-mismatched memory & 0.9000 & 0.8333 & 0.8667 & 0.9333 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Sequential test-batch analysis on the public composition benchmark. Values are Workflow Exact; batches are deterministic proxy time slices.}
+\label{tab:local-online-batches}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & $T_1$ & $T_2$ & $T_3$ & $T_4$ & $T_5$ \\
+\midrule
+Semantic & 0.4884 & 0.4524 & 0.4762 & 0.4524 & 0.3810 \\
+Trace-RAG & 0.1628 & 0.0952 & 0.2143 & 0.1667 & 0.1667 \\
+GraphRAG & 0.1628 & 0.0952 & 0.2143 & 0.2143 & 0.1667 \\
+\textsc{GEMS} & 0.0930 & 0.1190 & 0.1667 & 0.2143 & 0.1190 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Automatic error analysis on failed public test steps. Counts are computed over each method's failed steps.}
+\label{tab:local-error-analysis}
+\begin{tabular}{lrrrr}
+\toprule
+Error Type & Semantic & Trace-RAG & GraphRAG & \textsc{GEMS} \\
+\midrule
+Wrong domain/API selection & 137 & 194 & 207 & 241 \\
+Parameter binding mismatch & 51 & 97 & 102 & 109 \\
+Wrong API selection & 21 & 46 & 45 & 49 \\
+Stale or failed endpoint reuse & 31 & 29 & 17 & 12 \\
+Total failures & 240 & 366 & 371 & 411 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\caption{Supervised reranker results on the local public benchmark.}
+\label{tab:local-reranker}
+\begin{tabular}{lcccc}
+\toprule
+Method & API.Acc & Workflow Exact & Para.F1 & MRR \\
+\midrule
+Semantic top-1 & 0.6148 & 0.4502 & 0.7010 & 0.7139 \\
+Hybrid + logistic & 0.6003 & 0.4171 & 0.6891 & 0.7334 \\
+Hybrid + random forest & 0.5827 & 0.4028 & 0.6763 & 0.7449 \\
+Hybrid + HGB & 0.6083 & 0.4313 & 0.6987 & 0.7590 \\
+\bottomrule
+\end{tabular}
+\end{table}
+

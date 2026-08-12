@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9541",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs to query the top-rated drama movies on IMDb, which matches the subtask description. However, none of the candidates directly provide an IMDb chart API for drama movies, so no perfect match is found. The highest-ranked candidate is unrelated, so confidence is low but rank 1 is selected by default.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs to query the top-rated drama movies on IMDb, which matches the subtask description. However, none of the candidates directly provide an IMDb chart API for drama movies, so no perfect match is found. The highest-ranked candidate is unrelated, so confidence is low but rank 1 is selected by default."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 2217,
+    "total_tokens": 2302,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 853,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1025,
+      "total_duration_ms": 915,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

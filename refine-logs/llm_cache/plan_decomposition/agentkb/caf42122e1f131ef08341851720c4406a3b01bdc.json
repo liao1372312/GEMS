@@ -1,0 +1,60 @@
+{
+  "record_id": "Technology_response_4421",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the list of available translation languages supported by the Microsoft Translator Text API\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather suggestions for online language learning platforms\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the list of available translation languages supported by the Microsoft Translator Text API",
+        "domain": "Technology",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Gather suggestions for online language learning platforms",
+        "domain": "Technology",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the list of available translation languages supported by the Microsoft Translator Text API",
+      "domain": "Technology",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Gather suggestions for online language learning platforms",
+      "domain": "Technology",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 356,
+    "total_tokens": 447,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 29,
+      "engine_ttlt_ms": 879,
+      "pre_inference_ms": 69,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 279,
+      "service_ttlt_ms": 968,
+      "total_duration_ms": 904,
+      "user_visible_ttft_ms": 210
+    }
+  }
+}

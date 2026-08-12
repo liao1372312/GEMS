@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_2757",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice use the same US Hospitals API, which is not suitable for finding car rental locations.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Tripadvisor - Search Rental Cars Location) directly matches the task of querying car rental locations, unlike the semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Neither semantic top-1 nor LLM choice provide an API for live traffic conditions; LLM choice is unrelated to traffic.\"\n    }\n  ],\n  \"workflow_confidence\": 0.6\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choice use the same US Hospitals API, which is not suitable for finding car rental locations."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (Tripadvisor - Search Rental Cars Location) directly matches the task of querying car rental locations, unlike the semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Neither semantic top-1 nor LLM choice provide an API for live traffic conditions; LLM choice is unrelated to traffic."
+      }
+    ],
+    "workflow_confidence": 0.6
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1480,
+    "total_tokens": 1657,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 2165,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 2328,
+      "total_duration_ms": 2211,
+      "user_visible_ttft_ms": 93
+    }
+  }
+}

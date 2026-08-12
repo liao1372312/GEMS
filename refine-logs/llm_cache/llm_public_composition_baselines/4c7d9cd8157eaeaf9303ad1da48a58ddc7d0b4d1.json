@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4774",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user request involves analyzing working days in October and adding working hours to a start date/time, which matches the 'Working days - /1.3/analyse' API that provides period analysis including working days and supports date ranges.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user request involves analyzing working days in October and adding working hours to a start date/time, which matches the 'Working days - /1.3/analyse' API that provides period analysis including working days and supports date ranges."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1904,
+    "total_tokens": 1972,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 815,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 302,
+      "service_ttlt_ms": 991,
+      "total_duration_ms": 882,
+      "user_visible_ttft_ms": 184
+    }
+  }
+}

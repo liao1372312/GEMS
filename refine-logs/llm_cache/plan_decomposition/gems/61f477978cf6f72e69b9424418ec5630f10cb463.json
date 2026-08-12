@@ -1,0 +1,88 @@
+{
+  "record_id": "Cross_Domain_response_9562",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for players whose weight is 200 pounds and retrieve their names and weights.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"weight\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for a player with the name Michael Johnson and retrieve his full details.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"player name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for players whose weight is 200 pounds and retrieve their names and weights.",
+        "domain": "sports",
+        "required_inputs": [
+          "weight"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for a player with the name Michael Johnson and retrieve his full details.",
+        "domain": "sports",
+        "required_inputs": [
+          "player name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for players whose weight is 200 pounds and retrieve their names and weights.",
+      "domain": "sports",
+      "required_inputs": [
+        "weight"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for a player with the name Michael Johnson and retrieve his full details.",
+      "domain": "sports",
+      "required_inputs": [
+        "player name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 1965,
+    "total_tokens": 2069,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 1314,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 351,
+      "service_ttlt_ms": 1597,
+      "total_duration_ms": 1480,
+      "user_visible_ttft_ms": 226
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for players whose weight is 200 pounds and retrieve their names and weights.",
+        "domain": "sports",
+        "required_inputs": [
+          "weight"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for a player with the name Michael Johnson and retrieve his details.",
+        "domain": "sports",
+        "required_inputs": [
+          "player name"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "record_id": "Finance_response_4774",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Analyze the working days, working hours, weekend days, and public holidays in the month of October from October 1st to October 31st for the friend's company based on the specified country calendar\",\n      \"domain\": \"Events\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"country_code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Add 2 working hours to the start date October 1st at 9:00 AM according to the specified country calendar\",\n      \"domain\": \"Events\",\n      \"required_inputs\": [\"start_date\", \"start_time\", \"country_code\", \"working_hours_to_add\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Evaluate the arithmetic expression '($1500 - $100)'\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"expression\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Analyze the working days, working hours, weekend days, and public holidays in the month of October from October 1st to October 31st for the friend's company based on the specified country calendar",
+        "domain": "Events",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "country_code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Add 2 working hours to the start date October 1st at 9:00 AM according to the specified country calendar",
+        "domain": "Events",
+        "required_inputs": [
+          "start_date",
+          "start_time",
+          "country_code",
+          "working_hours_to_add"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Evaluate the arithmetic expression '($1500 - $100)'",
+        "domain": "Finance",
+        "required_inputs": [
+          "expression"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Analyze the working days, working hours, weekend days, and public holidays in the month of October from October 1st to October 31st for the friend's company based on the specified country calendar",
+      "domain": "Events",
+      "required_inputs": [
+        "start_date",
+        "end_date",
+        "country_code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Add 2 working hours to the start date October 1st at 9:00 AM according to the specified country calendar",
+      "domain": "Events",
+      "required_inputs": [
+        "start_date",
+        "start_time",
+        "country_code",
+        "working_hours_to_add"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Evaluate the arithmetic expression '($1500 - $100)'",
+      "domain": "Finance",
+      "required_inputs": [
+        "expression"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 2811,
+    "total_tokens": 3017,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 2969,
+      "pre_inference_ms": 171,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 338,
+      "service_ttlt_ms": 3221,
+      "total_duration_ms": 3062,
+      "user_visible_ttft_ms": 168
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Analyze the working days in the month of October for the friend's company from October 1st to October 31st including number of working days, working hours, weekend days, and public holidays",
+        "domain": "Events",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "country_code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Add 2 hours of working time to the start date of October 1st at 9:00 AM",
+        "domain": "Events",
+        "required_inputs": [
+          "start_date",
+          "start_time",
+          "country_code",
+          "working_hours_to_add"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Evaluate the arithmetic expression '($1500 - $100)'",
+        "domain": "Finance",
+        "required_inputs": [
+          "expression"
+        ]
+      }
+    ]
+  }
+}

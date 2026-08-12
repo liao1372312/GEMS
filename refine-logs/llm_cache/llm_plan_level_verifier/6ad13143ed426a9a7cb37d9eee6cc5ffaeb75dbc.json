@@ -1,0 +1,50 @@
+{
+  "record_id": "Tourism_response_4054",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":false,\"reason\":\"Semantic top-1 API is unrelated to golf course details; no suitable API available for this step.\"},{\"step_id\":2,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 and correctly fulfills the step requirement.\"},{\"step_id\":3,\"accept_llm\":true,\"reason\":\"LLM choice matches semantic top-1 and correctly fulfills the step requirement.\"}],\"workflow_confidence\":0.5}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Semantic top-1 API is unrelated to golf course details; no suitable API available for this step."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 and correctly fulfills the step requirement."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 and correctly fulfills the step requirement."
+      }
+    ],
+    "workflow_confidence": 0.5
+  },
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 1196,
+    "total_tokens": 1303,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1380,
+      "pre_inference_ms": 169,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 322,
+      "service_ttlt_ms": 1618,
+      "total_duration_ms": 1461,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

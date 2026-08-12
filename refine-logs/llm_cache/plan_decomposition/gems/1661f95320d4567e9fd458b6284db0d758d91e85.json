@@ -1,0 +1,70 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search and retrieve location keys for different cities to access their climate data\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"city_name or zip_code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get detailed climate data for each city using their location keys or latitude/longitude\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"location_key or latitude\", \"longitude\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search and retrieve location keys for different cities to access their climate data",
+        "domain": "Weather",
+        "required_inputs": [
+          "city_name or zip_code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Get detailed climate data for each city using their location keys or latitude/longitude",
+        "domain": "Weather",
+        "required_inputs": [
+          "location_key or latitude",
+          "longitude"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search and retrieve location keys for different cities to access their climate data",
+      "domain": "Weather",
+      "required_inputs": [
+        "city_name or zip_code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Get detailed climate data for each city using their location keys or latitude/longitude",
+      "domain": "Weather",
+      "required_inputs": [
+        "location_key or latitude",
+        "longitude"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 2254,
+    "total_tokens": 2366,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 132,
+      "engine_ttlt_ms": 1349,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 311,
+      "service_ttlt_ms": 1515,
+      "total_duration_ms": 1407,
+      "user_visible_ttft_ms": 193
+    }
+  }
+}

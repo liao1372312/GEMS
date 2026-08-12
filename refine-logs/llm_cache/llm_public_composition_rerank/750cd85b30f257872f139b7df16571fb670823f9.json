@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1369",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information which can include reviews and photos, suitable for fetching business details of tourist attractions near Eiffel Tower. It is more relevant and specific to business details than other generic or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.8,
+    "rationale": "The Unofficial Trust Pilot API provides detailed business information which can include reviews and photos, suitable for fetching business details of tourist attractions near Eiffel Tower. It is more relevant and specific to business details than other generic or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1923,
+    "total_tokens": 1990,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 1373,
+      "pre_inference_ms": 148,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1570,
+      "total_duration_ms": 1432,
+      "user_visible_ttft_ms": 126
+    }
+  }
+}

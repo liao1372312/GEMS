@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_562",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate is a Food domain API that retrieves recipes by ingredient, matching the subtask to select a unique ingredient and get a recipe showcasing it. It supports GET method with required 'ingredient' parameter, fitting the need to suggest a recipe for a chosen ingredient from the list.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate is a Food domain API that retrieves recipes by ingredient, matching the subtask to select a unique ingredient and get a recipe showcasing it. It supports GET method with required 'ingredient' parameter, fitting the need to suggest a recipe for a chosen ingredient from the list."
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1937,
+    "total_tokens": 2016,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 1463,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 290,
+      "service_ttlt_ms": 1678,
+      "total_duration_ms": 1549,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "record_id": "Finance_response_4555",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical daily prices for Apple Inc. during August, including price, volume, dividends, and splits information.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"company_name\", \"start_date\", \"end_date\", \"data_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the ESG scores for Apple Inc.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"company_name\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the current tax rate for the zip code 94102.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"zip_code\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical daily prices for Apple Inc. during August, including price, volume, dividends, and splits information.",
+        "domain": "finance",
+        "required_inputs": [
+          "company_name",
+          "start_date",
+          "end_date",
+          "data_type"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the ESG scores for Apple Inc.",
+        "domain": "finance",
+        "required_inputs": [
+          "company_name"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the current tax rate for the zip code 94102.",
+        "domain": "finance",
+        "required_inputs": [
+          "zip_code"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch historical daily prices for Apple Inc. during August, including price, volume, dividends, and splits information.",
+      "domain": "finance",
+      "required_inputs": [
+        "company_name",
+        "start_date",
+        "end_date",
+        "data_type"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the ESG scores for Apple Inc.",
+      "domain": "finance",
+      "required_inputs": [
+        "company_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the current tax rate for the zip code 94102.",
+      "domain": "finance",
+      "required_inputs": [
+        "zip_code"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 537,
+    "total_tokens": 698,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 3414,
+      "pre_inference_ms": 156,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 3615,
+      "total_duration_ms": 3464,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

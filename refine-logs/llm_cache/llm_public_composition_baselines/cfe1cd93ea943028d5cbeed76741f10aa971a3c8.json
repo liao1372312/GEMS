@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1094",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The user wants the spot price of Bitcoin, and this API specifically provides the spot price of Bitcoin with no required parameters, matching the intent precisely.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The user wants the spot price of Bitcoin, and this API specifically provides the spot price of Bitcoin with no required parameters, matching the intent precisely."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1198,
+    "total_tokens": 1249,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 422,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 238,
+      "service_ttlt_ms": 613,
+      "total_duration_ms": 506,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

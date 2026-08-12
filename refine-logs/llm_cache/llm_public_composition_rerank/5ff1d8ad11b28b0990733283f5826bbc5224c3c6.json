@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8605",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide music download links or are related to music or entertainment domain. However, the user needs a download link for 'Shape of You', which is a music-related request. Since no suitable music or entertainment API is available, no candidate API can fulfill the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide music download links or are related to music or entertainment domain. However, the user needs a download link for 'Shape of You', which is a music-related request. Since no suitable music or entertainment API is available, no candidate API can fulfill the subtask."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 2025,
+    "total_tokens": 2105,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 799,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 153,
+      "service_ttlt_ms": 909,
+      "total_duration_ms": 828,
+      "user_visible_ttft_ms": 64
+    }
+  }
+}

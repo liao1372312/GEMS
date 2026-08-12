@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1677",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The Google Search 2 - Google Maps Data ID API can be used to query local dining options along the route, which aligns with the subtask of identifying budget-friendly restaurants.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The Google Search 2 - Google Maps Data ID API can be used to query local dining options along the route, which aligns with the subtask of identifying budget-friendly restaurants."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1558,
+    "total_tokens": 1615,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 575,
+      "pre_inference_ms": 161,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 322,
+      "service_ttlt_ms": 853,
+      "total_duration_ms": 701,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

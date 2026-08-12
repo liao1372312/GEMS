@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor API can help analyze the content of the website, including title tags, which is essential for SEO analysis and optimization recommendations.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor API can help analyze the content of the website, including title tags, which is essential for SEO analysis and optimization recommendations."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1212,
+    "total_tokens": 1263,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 878,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 1035,
+      "total_duration_ms": 936,
+      "user_visible_ttft_ms": 95
+    }
+  }
+}

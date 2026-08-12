@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3473",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The user request includes needing the exchange rate from USD to a favorite currency, which aligns with the Finance domain and the Currency Conversion and Exchange Rates API that provides exchange rate data. Other candidates are mostly about quotes or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The user request includes needing the exchange rate from USD to a favorite currency, which aligns with the Finance domain and the Currency Conversion and Exchange Rates API that provides exchange rate data. Other candidates are mostly about quotes or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1412,
+    "total_tokens": 1479,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 154,
+      "engine_ttlt_ms": 921,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 330,
+      "service_ttlt_ms": 1117,
+      "total_duration_ms": 1067,
+      "user_visible_ttft_ms": 210
+    }
+  }
+}

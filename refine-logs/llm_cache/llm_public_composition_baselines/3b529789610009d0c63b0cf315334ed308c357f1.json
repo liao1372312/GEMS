@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs directly offer public holiday data or real-time stock data, which are required for the user's request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs directly offer public holiday data or real-time stock data, which are required for the user's request."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1503,
+    "total_tokens": 1549,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 481,
+      "pre_inference_ms": 80,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 211,
+      "service_ttlt_ms": 637,
+      "total_duration_ms": 565,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

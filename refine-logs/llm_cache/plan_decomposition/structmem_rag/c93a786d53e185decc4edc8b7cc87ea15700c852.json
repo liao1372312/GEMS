@@ -1,0 +1,70 @@
+{
+  "record_id": "Technology_response_5398",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of ongoing sports matches with their current status and scores.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"sport_type\", \"current_date_time\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed live updates for each ongoing match including player statistics and event timeline.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"match_id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of ongoing sports matches with their current status and scores.",
+        "domain": "technology",
+        "required_inputs": [
+          "sport_type",
+          "current_date_time"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed live updates for each ongoing match including player statistics and event timeline.",
+        "domain": "technology",
+        "required_inputs": [
+          "match_id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of ongoing sports matches with their current status and scores.",
+      "domain": "technology",
+      "required_inputs": [
+        "sport_type",
+        "current_date_time"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed live updates for each ongoing match including player statistics and event timeline.",
+      "domain": "technology",
+      "required_inputs": [
+        "match_id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 585,
+    "total_tokens": 693,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 1792,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 1971,
+      "total_duration_ms": 1888,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

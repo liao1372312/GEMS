@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9863",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are related to sports or provide images of matches or teams. However, the subtask requires images of matches and teams, which none of the given APIs can provide. Therefore, no suitable API is available among the candidates.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are related to sports or provide images of matches or teams. However, the subtask requires images of matches and teams, which none of the given APIs can provide. Therefore, no suitable API is available among the candidates."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 2061,
+    "total_tokens": 2132,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1106,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 352,
+      "service_ttlt_ms": 1379,
+      "total_duration_ms": 1259,
+      "user_visible_ttft_ms": 224
+    }
+  }
+}

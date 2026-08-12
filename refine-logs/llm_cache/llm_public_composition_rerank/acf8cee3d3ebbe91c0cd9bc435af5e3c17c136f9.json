@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1920",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.8, \"rationale\": \"The Addressr API provides detailed information about a specific address, which can be used to retrieve detailed information about each tourist attraction (assuming the attractions can be identified by address or ID). It directly satisfies the subtask of retrieving detailed information about tourist attractions, and required parameters can be bound from the list of tourist attractions.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.8,
+    "rationale": "The Addressr API provides detailed information about a specific address, which can be used to retrieve detailed information about each tourist attraction (assuming the attractions can be identified by address or ID). It directly satisfies the subtask of retrieving detailed information about tourist attractions, and required parameters can be bound from the list of tourist attractions."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1338,
+    "total_tokens": 1423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 1156,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 352,
+      "service_ttlt_ms": 1423,
+      "total_duration_ms": 1315,
+      "user_visible_ttft_ms": 236
+    }
+  }
+}

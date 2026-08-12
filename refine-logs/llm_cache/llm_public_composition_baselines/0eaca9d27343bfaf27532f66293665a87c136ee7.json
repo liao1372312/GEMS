@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1859",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 1.0, \"rationale\": \"The Dad Jokes_v2 - /dad-jokes/joke-of-the-day endpoint directly matches the subtask to fetch the joke of the day with no required parameters.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 1.0,
+    "rationale": "The Dad Jokes_v2 - /dad-jokes/joke-of-the-day endpoint directly matches the subtask to fetch the joke of the day with no required parameters."
+  },
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1488,
+    "total_tokens": 1544,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 1112,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 1318,
+      "total_duration_ms": 1198,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

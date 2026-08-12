@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Pilot end-to-end results on the stratified 53-workflow subset after corrected plan matching and validation-selected GEMS policy.}
+\label{tab:main-end-to-end-pilot-auto}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccc}
+\toprule
+Method & Plan.Acc $\uparrow$ & Plan.SemF1 $\uparrow$ & API.Acc $\uparrow$ & Para.F1 $\uparrow$ & Workflow Exact $\uparrow$ \\
+\midrule
+Direct-LLM & \textbf{0.3019} & 0.4682 & \textbf{0.7415} & \textbf{0.7732} & \textbf{0.6038} \\
+CoT-LLM & 0.2453 & 0.4515 & 0.6803 & 0.7211 & 0.4151 \\
+ReAct & 0.2264 & 0.4407 & 0.6667 & 0.7211 & 0.4717 \\
+RestGPT-style & 0.2264 & 0.4401 & 0.7211 & 0.7596 & 0.5472 \\
+MA-NoMem & 0.2453 & 0.4402 & 0.6667 & 0.7324 & 0.4528 \\
+Trace-RAG & 0.2264 & 0.4595 & 0.6190 & 0.6463 & 0.4717 \\
+StructMem-RAG & 0.2075 & \textbf{0.4688} & 0.6122 & 0.6395 & 0.4528 \\
+GraphRAG-static & 0.2264 & 0.4584 & 0.6190 & 0.6463 & 0.4717 \\
+AgentKB-style & 0.2075 & 0.4631 & 0.5646 & 0.6259 & 0.3585 \\
+\textsc{GEMS} & 0.1887 & 0.4575 & 0.6871 & 0.7211 & 0.5283 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

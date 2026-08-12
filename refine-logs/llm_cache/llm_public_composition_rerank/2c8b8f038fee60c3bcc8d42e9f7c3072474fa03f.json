@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5021",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'Easy Weather - Hourly forecast (48 hours)' API provides weather alerts for a given latitude and longitude, directly satisfying the subtask to check for weather alerts in Miami. Required parameters latitude and longitude can be bound from the user request location (Miami). It is specific to weather and includes alerts, making it more suitable than broader or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'Easy Weather - Hourly forecast (48 hours)' API provides weather alerts for a given latitude and longitude, directly satisfying the subtask to check for weather alerts in Miami. Required parameters latitude and longitude can be bound from the user request location (Miami). It is specific to weather and includes alerts, making it more suitable than broader or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 2093,
+    "total_tokens": 2186,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 23,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 2234,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 23,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 2349,
+      "total_duration_ms": 2267,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

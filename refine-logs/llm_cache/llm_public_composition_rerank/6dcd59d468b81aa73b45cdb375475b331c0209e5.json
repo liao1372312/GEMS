@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7570",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"Only the first API is related to entertainment content and can potentially provide a Chuck Norris joke, while others are unrelated to jokes or entertainment.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "Only the first API is related to entertainment content and can potentially provide a Chuck Norris joke, while others are unrelated to jokes or entertainment."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1927,
+    "total_tokens": 1976,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 762,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 167,
+      "service_ttlt_ms": 872,
+      "total_duration_ms": 791,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

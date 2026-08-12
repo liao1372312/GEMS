@@ -1,0 +1,80 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available from Admiralbet\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each basketball match from Admiralbet\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"list of latest basketball matches\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Collect teams participating and match timings for each basketball match\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"list of latest basketball matches\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available from Admiralbet",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each basketball match from Admiralbet",
+        "domain": "Finance",
+        "required_inputs": [
+          "list of latest basketball matches"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Collect teams participating and match timings for each basketball match",
+        "domain": "Finance",
+        "required_inputs": [
+          "list of latest basketball matches"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest basketball matches available from Admiralbet",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the odds for each basketball match from Admiralbet",
+      "domain": "Finance",
+      "required_inputs": [
+        "list of latest basketball matches"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Collect teams participating and match timings for each basketball match",
+      "domain": "Finance",
+      "required_inputs": [
+        "list of latest basketball matches"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 210,
+    "total_tokens": 351,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 30,
+      "engine_ttlt_ms": 1410,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 299,
+      "service_ttlt_ms": 1740,
+      "total_duration_ms": 1691,
+      "user_visible_ttft_ms": 205
+    }
+  }
+}

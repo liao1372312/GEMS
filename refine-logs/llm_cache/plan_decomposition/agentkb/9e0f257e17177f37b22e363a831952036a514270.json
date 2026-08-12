@@ -1,0 +1,86 @@
+{
+  "record_id": "Technology_response_3462",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search and gather recent news articles related to charity events for inspiration.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"keywords related to charity events\", \"time range for recent news\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Extract headlines from the gathered news articles to provide a quick overview.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"news articles from step 1\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Summarize key themes and ideas from the collected news articles and headlines to inspire the upcoming charity event.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"news articles and headlines from steps 1 and 2\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search and gather recent news articles related to charity events for inspiration.",
+        "domain": "Technology",
+        "required_inputs": [
+          "keywords related to charity events",
+          "time range for recent news"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Extract headlines from the gathered news articles to provide a quick overview.",
+        "domain": "Technology",
+        "required_inputs": [
+          "news articles from step 1"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Summarize key themes and ideas from the collected news articles and headlines to inspire the upcoming charity event.",
+        "domain": "Technology",
+        "required_inputs": [
+          "news articles and headlines from steps 1 and 2"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search and gather recent news articles related to charity events for inspiration.",
+      "domain": "Technology",
+      "required_inputs": [
+        "keywords related to charity events",
+        "time range for recent news"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Extract headlines from the gathered news articles to provide a quick overview.",
+      "domain": "Technology",
+      "required_inputs": [
+        "news articles from step 1"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Summarize key themes and ideas from the collected news articles and headlines to inspire the upcoming charity event.",
+      "domain": "Technology",
+      "required_inputs": [
+        "news articles and headlines from steps 1 and 2"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 392,
+    "total_tokens": 568,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 2638,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 2802,
+      "total_duration_ms": 2736,
+      "user_visible_ttft_ms": 104
+    }
+  }
+}

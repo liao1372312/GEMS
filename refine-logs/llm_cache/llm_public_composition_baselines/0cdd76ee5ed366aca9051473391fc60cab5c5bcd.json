@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4930",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The first API is specifically designed to calculate body fat percentage using all the required parameters (height, weight, waist, neck, hip, age) provided by the user, making it the most suitable choice for the user's request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The first API is specifically designed to calculate body fat percentage using all the required parameters (height, weight, waist, neck, hip, age) provided by the user, making it the most suitable choice for the user's request."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 2006,
+    "total_tokens": 2073,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 226,
+      "user_visible_ttft_ms": 129,
+      "total_duration_ms": 1114,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 15,
+      "service_ttlt_ms": 1203,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 1021,
+      "engine_tbt_ms": 15
+    }
+  }
+}

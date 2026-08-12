@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3878",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.95, \"rationale\": \"The Healthcaremailing API is specifically designed for direct marketing in the healthcare domain and provides mailing lists of healthcare professionals, matching the user's request for targeted mailing.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.95,
+    "rationale": "The Healthcaremailing API is specifically designed for direct marketing in the healthcare domain and provides mailing lists of healthcare professionals, matching the user's request for targeted mailing."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1236,
+    "total_tokens": 1289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 421,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 143,
+      "service_ttlt_ms": 527,
+      "total_duration_ms": 450,
+      "user_visible_ttft_ms": 61
+    }
+  }
+}

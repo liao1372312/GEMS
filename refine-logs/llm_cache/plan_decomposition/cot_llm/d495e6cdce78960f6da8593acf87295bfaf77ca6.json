@@ -1,0 +1,90 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the sports and specific matches relevant to the birthday party theme\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"preferred sports\", \"date of the party\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve accurate predictions for the identified sports matches\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"list of matches\", \"date of matches\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Compile the sports-themed party plan including decorations, activities, and match predictions\",\n      \"domain\": \"Event Planning\",\n      \"required_inputs\": [\"predictions data\", \"party theme details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the sports and specific matches relevant to the birthday party theme",
+        "domain": "Sports",
+        "required_inputs": [
+          "preferred sports",
+          "date of the party"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve accurate predictions for the identified sports matches",
+        "domain": "Sports",
+        "required_inputs": [
+          "list of matches",
+          "date of matches"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Compile the sports-themed party plan including decorations, activities, and match predictions",
+        "domain": "Event Planning",
+        "required_inputs": [
+          "predictions data",
+          "party theme details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the sports and specific matches relevant to the birthday party theme",
+      "domain": "Sports",
+      "required_inputs": [
+        "preferred sports",
+        "date of the party"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve accurate predictions for the identified sports matches",
+      "domain": "Sports",
+      "required_inputs": [
+        "list of matches",
+        "date of matches"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Compile the sports-themed party plan including decorations, activities, and match predictions",
+      "domain": "Event Planning",
+      "required_inputs": [
+        "predictions data",
+        "party theme details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 176,
+    "total_tokens": 338,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 2699,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 2892,
+      "total_duration_ms": 2808,
+      "user_visible_ttft_ms": 135
+    }
+  }
+}

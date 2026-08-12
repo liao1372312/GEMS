@@ -1,0 +1,55 @@
+{
+  "record_id": "Tourism_response_91",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice ScrapeMaster API is clearly more relevant and specific for researching popular beach resorts with family-friendly amenities than the unrelated finance API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Skyscanner_v2 - Get Hotel Details API directly provides detailed hotel amenities, matching the subtask of compiling family-friendly amenities.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice Skyscanner_v2 - Get Hotel Details API is more relevant for investigating water sports activities in the destination area than the unrelated Giphy API.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice Large text to speech API is unrelated to summarizing water sports activities; semantic top-1 is also unrelated, so no suitable API is available.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice ScrapeMaster API is clearly more relevant and specific for researching popular beach resorts with family-friendly amenities than the unrelated finance API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice Skyscanner_v2 - Get Hotel Details API directly provides detailed hotel amenities, matching the subtask of compiling family-friendly amenities."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice Skyscanner_v2 - Get Hotel Details API is more relevant for investigating water sports activities in the destination area than the unrelated Giphy API."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "LLM choice Large text to speech API is unrelated to summarizing water sports activities; semantic top-1 is also unrelated, so no suitable API is available."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 243,
+    "prompt_tokens": 1948,
+    "total_tokens": 2191,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 3862,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 4043,
+      "total_duration_ms": 3931,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

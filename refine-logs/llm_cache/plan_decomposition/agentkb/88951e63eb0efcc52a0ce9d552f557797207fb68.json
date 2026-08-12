@@ -1,0 +1,80 @@
+{
+  "record_id": "Tourism_response_4345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of major airports in the United States including their names and locations\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed information about each airport such as airport codes, city served, and facilities available\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"list of major airports\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Provide transportation options and connectivity details for the major airports\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"list of major airports\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of major airports in the United States including their names and locations",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed information about each airport such as airport codes, city served, and facilities available",
+        "domain": "Tourism",
+        "required_inputs": [
+          "list of major airports"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Provide transportation options and connectivity details for the major airports",
+        "domain": "Tourism",
+        "required_inputs": [
+          "list of major airports"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of major airports in the United States including their names and locations",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed information about each airport such as airport codes, city served, and facilities available",
+      "domain": "Tourism",
+      "required_inputs": [
+        "list of major airports"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Provide transportation options and connectivity details for the major airports",
+      "domain": "Tourism",
+      "required_inputs": [
+        "list of major airports"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 429,
+    "total_tokens": 584,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 2490,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 192,
+      "service_ttlt_ms": 2626,
+      "total_duration_ms": 2536,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

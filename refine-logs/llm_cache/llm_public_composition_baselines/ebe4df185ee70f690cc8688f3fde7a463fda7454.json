@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2628",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Profanity Filter API health endpoint returns the current UTC time, which can be used to determine the current date and time in Dakar with timezone conversion. None of the other APIs provide date/time or location-based information relevant to the user's request.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Profanity Filter API health endpoint returns the current UTC time, which can be used to determine the current date and time in Dakar with timezone conversion. None of the other APIs provide date/time or location-based information relevant to the user's request."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1309,
+    "total_tokens": 1379,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 925,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 1089,
+      "total_duration_ms": 995,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_262",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are from Raider.IO or related to World of Warcraft mythic plus scores. The Diablo4 Smartable APIs are for Diablo 4 data, not WoW. The League of Legends APIs are unrelated. Therefore, no candidate API directly satisfies the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are from Raider.IO or related to World of Warcraft mythic plus scores. The Diablo4 Smartable APIs are for Diablo 4 data, not WoW. The League of Legends APIs are unrelated. Therefore, no candidate API directly satisfies the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1603,
+    "total_tokens": 1682,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 24,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 1978,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 24,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 2099,
+      "total_duration_ms": 2011,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

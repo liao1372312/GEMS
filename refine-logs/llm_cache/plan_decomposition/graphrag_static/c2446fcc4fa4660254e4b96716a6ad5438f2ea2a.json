@@ -1,0 +1,154 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Determine the start and end points for the road trip route across the country.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Calculate the driving route and distance between the start and end points.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Identify interesting and scenic places to visit along the planned route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"route_coordinates\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Search for budget-friendly restaurants along the road trip route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"route_coordinates\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Search for budget-friendly hotels along the road trip route.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"route_coordinates\"]\n    },\n    {\n      \"id\": 6,\n      \"description\": \"Retrieve current exchange rates for relevant currencies to manage expenses.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 7,\n      \"description\": \"Estimate total travel expenses including fuel, accommodation, and food costs.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"route_distance\", \"hotel_prices\", \"restaurant_prices\", \"fuel_cost_per_mile\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Determine the start and end points for the road trip route across the country.",
+        "domain": "tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Calculate the driving route and distance between the start and end points.",
+        "domain": "tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Identify interesting and scenic places to visit along the planned route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "route_coordinates"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Search for budget-friendly restaurants along the road trip route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "route_coordinates"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Search for budget-friendly hotels along the road trip route.",
+        "domain": "tourism",
+        "required_inputs": [
+          "route_coordinates"
+        ]
+      },
+      {
+        "id": 6,
+        "description": "Retrieve current exchange rates for relevant currencies to manage expenses.",
+        "domain": "finance",
+        "required_inputs": []
+      },
+      {
+        "id": 7,
+        "description": "Estimate total travel expenses including fuel, accommodation, and food costs.",
+        "domain": "finance",
+        "required_inputs": [
+          "route_distance",
+          "hotel_prices",
+          "restaurant_prices",
+          "fuel_cost_per_mile"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Determine the start and end points for the road trip route across the country.",
+      "domain": "tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Calculate the driving route and distance between the start and end points.",
+      "domain": "tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Identify interesting and scenic places to visit along the planned route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "route_coordinates"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Search for budget-friendly restaurants along the road trip route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "route_coordinates"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Search for budget-friendly hotels along the road trip route.",
+      "domain": "tourism",
+      "required_inputs": [
+        "route_coordinates"
+      ]
+    },
+    {
+      "id": 6,
+      "description": "Retrieve current exchange rates for relevant currencies to manage expenses.",
+      "domain": "finance",
+      "required_inputs": []
+    },
+    {
+      "id": 7,
+      "description": "Estimate total travel expenses including fuel, accommodation, and food costs.",
+      "domain": "finance",
+      "required_inputs": [
+        "route_distance",
+        "hotel_prices",
+        "restaurant_prices",
+        "fuel_cost_per_mile"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 345,
+    "prompt_tokens": 662,
+    "total_tokens": 1007,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 3003,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 208,
+      "service_ttlt_ms": 3161,
+      "total_duration_ms": 3078,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

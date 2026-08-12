@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1027",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The 'Vehicle charging stations - Get Stations' API is the only one related to vehicles and travel, which is the closest domain to motorbikes and their carbon footprint. Although it focuses on EV charging stations, it is more relevant than unrelated APIs. None of the other APIs provide information about carbon footprints or motorbikes.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The 'Vehicle charging stations - Get Stations' API is the only one related to vehicles and travel, which is the closest domain to motorbikes and their carbon footprint. Although it focuses on EV charging stations, it is more relevant than unrelated APIs. None of the other APIs provide information about carbon footprints or motorbikes."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 2342,
+    "total_tokens": 2429,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1195,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 235,
+      "service_ttlt_ms": 1362,
+      "total_duration_ms": 1251,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

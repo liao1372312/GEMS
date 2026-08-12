@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_815",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 1.0, \"rationale\": \"None of the candidates provide SoundCloud playlist details; no SoundCloud API candidate is listed for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 1.0,
+    "rationale": "None of the candidates provide SoundCloud playlist details; no SoundCloud API candidate is listed for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1550,
+    "total_tokens": 1594,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 434,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 626,
+      "total_duration_ms": 517,
+      "user_visible_ttft_ms": 140
+    }
+  }
+}

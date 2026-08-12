@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3159",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Ind Nutrient API provides nutritional information for food items, which is relevant for compiling nutritional analysis and portion control guidelines into a comprehensive menu plan.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Ind Nutrient API provides nutritional information for food items, which is relevant for compiling nutritional analysis and portion control guidelines into a comprehensive menu plan."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1832,
+    "total_tokens": 1883,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 1042,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 184,
+      "service_ttlt_ms": 1146,
+      "total_duration_ms": 1067,
+      "user_visible_ttft_ms": 98
+    }
+  }
+}

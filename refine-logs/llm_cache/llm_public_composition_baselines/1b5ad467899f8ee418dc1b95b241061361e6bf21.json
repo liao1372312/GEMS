@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2807",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs match the tourism domain or the specific request for logistics companies or shipping options for a smartwatch from Gearbest to Colombia.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs match the tourism domain or the specific request for logistics companies or shipping options for a smartwatch from Gearbest to Colombia."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1781,
+    "total_tokens": 1831,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 1162,
+      "pre_inference_ms": 182,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 353,
+      "service_ttlt_ms": 1400,
+      "total_duration_ms": 1257,
+      "user_visible_ttft_ms": 171
+    }
+  }
+}

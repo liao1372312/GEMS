@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3999",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requested a list of cocktails with their names and IDs, which matches the capabilities of The Cocktail DB - List of Cocktails API. Although the user also wants to convert 1 cup of milk to grams, no suitable Food Ingredient Measurement Conversion API is provided in the candidates. Therefore, selecting the API that can fulfill the cocktail list request with high confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requested a list of cocktails with their names and IDs, which matches the capabilities of The Cocktail DB - List of Cocktails API. Although the user also wants to convert 1 cup of milk to grams, no suitable Food Ingredient Measurement Conversion API is provided in the candidates. Therefore, selecting the API that can fulfill the cocktail list request with high confidence."
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 1483,
+    "total_tokens": 1577,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 807,
+      "pre_inference_ms": 138,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 236,
+      "service_ttlt_ms": 997,
+      "total_duration_ms": 901,
+      "user_visible_ttft_ms": 99
+    }
+  }
+}

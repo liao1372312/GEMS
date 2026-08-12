@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4555",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Currency Conversion and Exchange Rates - Time-Series Endpoint supports retrieving historical data between specified dates, suitable for fetching Apple's historical stock prices for August.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Currency Conversion and Exchange Rates - Time-Series Endpoint supports retrieving historical data between specified dates, suitable for fetching Apple's historical stock prices for August."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1469,
+    "total_tokens": 1519,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 826,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 157,
+      "service_ttlt_ms": 934,
+      "total_duration_ms": 854,
+      "user_visible_ttft_ms": 71
+    }
+  }
+}

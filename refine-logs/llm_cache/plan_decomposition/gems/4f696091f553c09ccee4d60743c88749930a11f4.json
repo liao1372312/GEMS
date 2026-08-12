@@ -1,0 +1,70 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"platform_name\", \"sport_type (basketball)\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"match_id or match details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+        "domain": "Sports",
+        "required_inputs": [
+          "platform_name",
+          "sport_type (basketball)"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+        "domain": "Sports",
+        "required_inputs": [
+          "match_id or match details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+      "domain": "Sports",
+      "required_inputs": [
+        "platform_name",
+        "sport_type (basketball)"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the odds for each of the latest basketball matches fetched from Admiralbet.",
+      "domain": "Sports",
+      "required_inputs": [
+        "match_id or match details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 2775,
+    "total_tokens": 2891,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1372,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 332,
+      "service_ttlt_ms": 1553,
+      "total_duration_ms": 1415,
+      "user_visible_ttft_ms": 188
+    }
+  }
+}

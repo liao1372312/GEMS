@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4345",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Airports Finder - Get Airports By Country' API directly provides a comprehensive list of airports in the United States with names, IATA codes, and locations, perfectly matching the subtask requirements and requiring no additional input binding.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Airports Finder - Get Airports By Country' API directly provides a comprehensive list of airports in the United States with names, IATA codes, and locations, perfectly matching the subtask requirements and requiring no additional input binding."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1721,
+    "total_tokens": 1789,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 26,
+      "engine_ttft_ms": 188,
+      "engine_ttlt_ms": 1933,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 26,
+      "service_ttft_ms": 308,
+      "service_ttlt_ms": 2050,
+      "total_duration_ms": 1977,
+      "user_visible_ttft_ms": 227
+    }
+  }
+}

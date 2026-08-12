@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_687",
+  "step_id": 4,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The subtask is to send invite emails using a compiled mailing list and email template, which requires a communication API. The 'whin - group invite link' API is from the Communication domain and supports sending messages to groups, making it the most relevant and specific choice for sending invites compared to other unrelated or generic APIs.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The subtask is to send invite emails using a compiled mailing list and email template, which requires a communication API. The 'whin - group invite link' API is from the Communication domain and supports sending messages to groups, making it the most relevant and specific choice for sending invites compared to other unrelated or generic APIs."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1789,
+    "total_tokens": 1870,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 826,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 151,
+      "service_ttlt_ms": 926,
+      "total_duration_ms": 854,
+      "user_visible_ttft_ms": 73
+    }
+  }
+}

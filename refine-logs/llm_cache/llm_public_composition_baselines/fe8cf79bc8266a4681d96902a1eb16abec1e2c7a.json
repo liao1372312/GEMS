@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4440",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The TTSKraken API is the only candidate related to text content and can provide quotes or text about love and relationships, fitting the subtask requirement to retrieve quotes about love and relationships.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The TTSKraken API is the only candidate related to text content and can provide quotes or text about love and relationships, fitting the subtask requirement to retrieve quotes about love and relationships."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1574,
+    "total_tokens": 1634,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 127,
+      "engine_ttlt_ms": 976,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 544,
+      "service_ttlt_ms": 1385,
+      "total_duration_ms": 1272,
+      "user_visible_ttft_ms": 423
+    }
+  }
+}

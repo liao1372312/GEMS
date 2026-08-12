@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4658",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Crypto News API provides access to the latest news articles from multiple websites covering technology-related topics, including crypto, which is a significant tech trend. It supports retrieving articles with authors, publication dates, and full-text content, aligning well with the user's request for tech news sources and detailed article information.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Crypto News API provides access to the latest news articles from multiple websites covering technology-related topics, including crypto, which is a significant tech trend. It supports retrieving articles with authors, publication dates, and full-text content, aligning well with the user's request for tech news sources and detailed article information."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1809,
+    "total_tokens": 1890,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 226,
+      "user_visible_ttft_ms": 104,
+      "total_duration_ms": 821,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 935,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 759,
+      "engine_tbt_ms": 9
+    }
+  }
+}

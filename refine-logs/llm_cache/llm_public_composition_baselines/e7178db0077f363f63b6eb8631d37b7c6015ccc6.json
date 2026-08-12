@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2964",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request is to collect quotes about travel and adventure from famous authors like Albert Einstein, which aligns with the subtask description. Among the candidates, none directly provide quotes from authors, but the first candidate is about country details and search, which is unrelated. However, since no candidate matches the quote collection task, the first candidate is selected by default with low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request is to collect quotes about travel and adventure from famous authors like Albert Einstein, which aligns with the subtask description. Among the candidates, none directly provide quotes from authors, but the first candidate is about country details and search, which is unrelated. However, since no candidate matches the quote collection task, the first candidate is selected by default with low confidence."
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 1695,
+    "total_tokens": 1791,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1067,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 205,
+      "service_ttlt_ms": 1222,
+      "total_duration_ms": 1145,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

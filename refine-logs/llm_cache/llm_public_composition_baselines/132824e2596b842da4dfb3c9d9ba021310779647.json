@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3679",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Betway - Odds API is top-ranked and suitable for retrieving live and upcoming American football game scores as requested.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Betway - Odds API is top-ranked and suitable for retrieving live and upcoming American football game scores as requested."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 869,
+    "total_tokens": 913,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 412,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 187,
+      "service_ttlt_ms": 562,
+      "total_duration_ms": 461,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

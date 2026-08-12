@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5398",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Ultimate Tennis - Live Matches Stats API is in the sports domain and specifically provides live betting odds and details for matches, including odds count. It requires match_id as input, matching the subtask requirement.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Ultimate Tennis - Live Matches Stats API is in the sports domain and specifically provides live betting odds and details for matches, including odds count. It requires match_id as input, matching the subtask requirement."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1838,
+    "total_tokens": 1901,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 565,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 195,
+      "service_ttlt_ms": 713,
+      "total_duration_ms": 616,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

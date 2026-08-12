@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_999",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"Currency_v2 - Free Convert API directly provides currency conversion from USD to JPY with required parameters clearly defined and bindable from the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "Currency_v2 - Free Convert API directly provides currency conversion from USD to JPY with required parameters clearly defined and bindable from the subtask."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1466,
+    "total_tokens": 1517,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 197,
+      "user_visible_ttft_ms": 94,
+      "total_duration_ms": 687,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 780,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 638,
+      "engine_tbt_ms": 12
+    }
+  }
+}

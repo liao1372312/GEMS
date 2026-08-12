@@ -1,0 +1,91 @@
+{
+  "record_id": "Finance_response_4555",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical prices for Apple Inc. during August\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company_name\", \"start_date\", \"end_date\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch ESG scores for Apple Inc.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company_name\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve the current tax rate for the zip code 94102\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"zip\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch historical prices for Apple Inc. during August",
+        "domain": "Finance",
+        "required_inputs": [
+          "company_name",
+          "start_date",
+          "end_date"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch ESG scores for Apple Inc.",
+        "domain": "Finance",
+        "required_inputs": [
+          "company_name"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Retrieve the current tax rate for the zip code 94102",
+        "domain": "Finance",
+        "required_inputs": [
+          "zip"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch historical prices for Apple Inc. during August",
+      "domain": "Finance",
+      "required_inputs": [
+        "company_name",
+        "start_date",
+        "end_date"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch ESG scores for Apple Inc.",
+      "domain": "Finance",
+      "required_inputs": [
+        "company_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Retrieve the current tax rate for the zip code 94102",
+      "domain": "Finance",
+      "required_inputs": [
+        "zip"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 2176,
+    "total_tokens": 2319,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1777,
+      "pre_inference_ms": 174,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 374,
+      "service_ttlt_ms": 2092,
+      "total_duration_ms": 1928,
+      "user_visible_ttft_ms": 200
+    }
+  },
+  "goal_hints": [
+    "I want to obtain historical prices for Apple Inc. during August, ESG scores for the company, and the current tax rate for the zip code 94102."
+  ]
+}

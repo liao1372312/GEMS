@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2036",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.95, \"rationale\": \"The subtask requires a weather forecast for Maldives, and the 'Weather - 16 Day Forecast' API provides a detailed daily forecast, which is more comprehensive and suitable for vacation planning than shorter interval forecasts. It requires latitude and longitude, which can be set for Maldives, directly satisfying the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.95,
+    "rationale": "The subtask requires a weather forecast for Maldives, and the 'Weather - 16 Day Forecast' API provides a detailed daily forecast, which is more comprehensive and suitable for vacation planning than shorter interval forecasts. It requires latitude and longitude, which can be set for Maldives, directly satisfying the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1840,
+    "total_tokens": 1923,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 211,
+      "engine_ttlt_ms": 1775,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 358,
+      "service_ttlt_ms": 1917,
+      "total_duration_ms": 1812,
+      "user_visible_ttft_ms": 246
+    }
+  }
+}

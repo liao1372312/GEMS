@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1711",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Database Of Airports API provides detailed information about airports worldwide, including location data, which is relevant for obtaining geographical coordinates of Heathrow Airport.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Database Of Airports API provides detailed information about airports worldwide, including location data, which is relevant for obtaining geographical coordinates of Heathrow Airport."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1371,
+    "total_tokens": 1420,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 534,
+      "pre_inference_ms": 198,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 394,
+      "service_ttlt_ms": 847,
+      "total_duration_ms": 661,
+      "user_visible_ttft_ms": 196
+    }
+  }
+}

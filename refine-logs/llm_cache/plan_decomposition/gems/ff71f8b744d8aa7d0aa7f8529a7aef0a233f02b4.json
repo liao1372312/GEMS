@@ -1,0 +1,73 @@
+{
+  "record_id": "Tourism_response_5444",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Query for popular tourist attractions in the specified new city along with their names, types, and addresses.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"city_name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the recent horse racing statistics for the horse named 'ZANAHIYR'.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"horse_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Query for popular tourist attractions in the specified new city along with their names, types, and addresses.",
+        "domain": "tourism",
+        "required_inputs": [
+          "city_name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Fetch the recent horse racing statistics for the horse named 'ZANAHIYR'.",
+        "domain": "sports",
+        "required_inputs": [
+          "horse_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Query for popular tourist attractions in the specified new city along with their names, types, and addresses.",
+      "domain": "tourism",
+      "required_inputs": [
+        "city_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the recent horse racing statistics for the horse named 'ZANAHIYR'.",
+      "domain": "sports",
+      "required_inputs": [
+        "horse_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 2381,
+    "total_tokens": 2494,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 40,
+      "engine_ttft_ms": 153,
+      "engine_ttlt_ms": 4654,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 40,
+      "service_ttft_ms": 772,
+      "service_ttlt_ms": 5276,
+      "total_duration_ms": 5181,
+      "user_visible_ttft_ms": 675
+    }
+  },
+  "goal_hints": [
+    "I'm planning a trip to a new city and I need recommendations for places to explore. Can you suggest some popular tourist attractions",
+    "their names, types, and addresses",
+    "fetch the recent horse racing statistics for the horse named 'ZANAHIYR' to satisfy my curiosity about its performance"
+  ]
+}

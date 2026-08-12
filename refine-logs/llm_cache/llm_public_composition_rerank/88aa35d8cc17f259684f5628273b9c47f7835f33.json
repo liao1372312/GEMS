@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3922",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 1.0, \"rationale\": \"The 'timedb - results' API directly returns the latest results for a query associated with a given webhookId, which matches the subtask to retrieve the latest results for webhook ID '0x12345'. It requires the webhookId parameter, which is provided in the subtask inputs, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 1.0,
+    "rationale": "The 'timedb - results' API directly returns the latest results for a query associated with a given webhookId, which matches the subtask to retrieve the latest results for webhook ID '0x12345'. It requires the webhookId parameter, which is provided in the subtask inputs, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 1891,
+    "total_tokens": 1978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 1401,
+      "pre_inference_ms": 94,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 203,
+      "service_ttlt_ms": 1527,
+      "total_duration_ms": 1444,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_566",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Although the top candidates focus on cryptocurrency news, the first candidate allows keyword search which can be used to find news articles related to road trip experiences, making it the best available option among the given APIs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Although the top candidates focus on cryptocurrency news, the first candidate allows keyword search which can be used to find news articles related to road trip experiences, making it the best available option among the given APIs."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1459,
+    "total_tokens": 1521,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 781,
+      "pre_inference_ms": 142,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 277,
+      "service_ttlt_ms": 1031,
+      "total_duration_ms": 897,
+      "user_visible_ttft_ms": 136
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API 'SEO Checker - Analyze' matches the task intent of performing on-page SEO analysis for a website, requires the website URL as input, and is designed for SEO performance analysis, making it the most suitable choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API 'SEO Checker - Analyze' matches the task intent of performing on-page SEO analysis for a website, requires the website URL as input, and is designed for SEO performance analysis, making it the most suitable choice."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1374,
+    "total_tokens": 1442,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 401,
+      "user_visible_ttft_ms": 192,
+      "total_duration_ms": 732,
+      "pre_inference_ms": 208,
+      "service_tbt_ms": 8,
+      "service_ttlt_ms": 896,
+      "engine_ttft_ms": 34,
+      "engine_ttlt_ms": 622,
+      "engine_tbt_ms": 9
+    }
+  }
+}

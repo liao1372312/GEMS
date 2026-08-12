@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_872",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the tourism domain or provide the required inputs for recommending popular landmarks along the road trip route.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the tourism domain or provide the required inputs for recommending popular landmarks along the road trip route."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1570,
+    "total_tokens": 1616,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 652,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 305,
+      "service_ttlt_ms": 856,
+      "total_duration_ms": 750,
+      "user_visible_ttft_ms": 182
+    }
+  }
+}

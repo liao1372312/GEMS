@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_3991",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search API supports a search endpoint with a query parameter, which can be used to search for interesting tracks relevant to the user's request. Although it is not explicitly a music API, it is the closest match among the candidates for searching content based on a query.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search API supports a search endpoint with a query parameter, which can be used to search for interesting tracks relevant to the user's request. Although it is not explicitly a music API, it is the closest match among the candidates for searching content based on a query."
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1608,
+    "total_tokens": 1687,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 669,
+      "pre_inference_ms": 159,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 485,
+      "service_ttlt_ms": 1141,
+      "total_duration_ms": 999,
+      "user_visible_ttft_ms": 326
+    }
+  }
+}

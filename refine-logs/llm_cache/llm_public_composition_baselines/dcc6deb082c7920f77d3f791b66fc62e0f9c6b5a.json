@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3953",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The first candidate API directly matches the user's request to fetch a list of all available virtual currencies in the finance domain, with no required parameters, making it the most suitable choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The first candidate API directly matches the user's request to fetch a list of all available virtual currencies in the finance domain, with no required parameters, making it the most suitable choice."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1705,
+    "total_tokens": 1762,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 140,
+      "engine_ttlt_ms": 859,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 348,
+      "service_ttlt_ms": 1083,
+      "total_duration_ms": 1045,
+      "user_visible_ttft_ms": 228
+    }
+  }
+}

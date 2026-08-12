@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2668",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants details about a popular song and its artist from Soundcloud, and the Shazam - Search Track API can provide song details including artist information, which aligns well with the subtask of extracting artist info from song details.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants details about a popular song and its artist from Soundcloud, and the Shazam - Search Track API can provide song details including artist information, which aligns well with the subtask of extracting artist info from song details."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1703,
+    "total_tokens": 1771,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 772,
+      "pre_inference_ms": 274,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 386,
+      "service_ttlt_ms": 1087,
+      "total_duration_ms": 822,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

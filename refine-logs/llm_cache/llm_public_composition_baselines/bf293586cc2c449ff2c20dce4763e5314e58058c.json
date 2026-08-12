@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 1.0, \"rationale\": \"This API specifically returns companies' balance sheet statements and supports the AAPL ticker, matching the subtask requirement exactly.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "This API specifically returns companies' balance sheet statements and supports the AAPL ticker, matching the subtask requirement exactly."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1352,
+    "total_tokens": 1397,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 873,
+      "pre_inference_ms": 174,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 289,
+      "service_ttlt_ms": 1114,
+      "total_duration_ms": 992,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

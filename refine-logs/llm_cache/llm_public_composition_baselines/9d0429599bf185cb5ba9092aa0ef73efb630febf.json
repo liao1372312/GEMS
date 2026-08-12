@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_809",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The 'World of Jokes - Get Random Joke By Category' API supports fetching jokes by category, which can be used to get a manatee joke by specifying the category. It matches the subtask of fetching a manatee joke from Jokes by API-Ninjas best.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The 'World of Jokes - Get Random Joke By Category' API supports fetching jokes by category, which can be used to get a manatee joke by specifying the category. It matches the subtask of fetching a manatee joke from Jokes by API-Ninjas best."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1377,
+    "total_tokens": 1455,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 903,
+      "pre_inference_ms": 121,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 234,
+      "service_ttlt_ms": 1078,
+      "total_duration_ms": 968,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

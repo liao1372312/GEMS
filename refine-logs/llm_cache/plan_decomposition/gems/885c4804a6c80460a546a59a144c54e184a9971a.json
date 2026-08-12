@@ -1,0 +1,68 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random Chuck Norris joke to entertain the audience.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the sanction data for Canada to ensure compliance with the event.\",\n      \"domain\": \"compliance\",\n      \"required_inputs\": [\"country_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random Chuck Norris joke to entertain the audience.",
+        "domain": "entertainment",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the sanction data for Canada to ensure compliance with the event.",
+        "domain": "compliance",
+        "required_inputs": [
+          "country_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random Chuck Norris joke to entertain the audience.",
+      "domain": "entertainment",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the sanction data for Canada to ensure compliance with the event.",
+      "domain": "compliance",
+      "required_inputs": [
+        "country_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 2129,
+    "total_tokens": 2227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 72,
+      "engine_ttlt_ms": 981,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 196,
+      "service_ttlt_ms": 1100,
+      "total_duration_ms": 1016,
+      "user_visible_ttft_ms": 105
+    }
+  },
+  "goal_hints": [
+    "I'm organizing a comedy show and I need some jokes to entertain the audience",
+    "fetch me the sanction data for Canada to ensure compliance with the event"
+  ]
+}

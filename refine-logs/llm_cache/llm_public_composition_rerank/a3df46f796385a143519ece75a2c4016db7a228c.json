@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6831",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are related to music or artist latest releases. No suitable API is available to query the latest releases of artists by artist_ids.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are related to music or artist latest releases. No suitable API is available to query the latest releases of artists by artist_ids."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2074,
+    "total_tokens": 2126,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 777,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 895,
+      "total_duration_ms": 809,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

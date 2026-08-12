@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9562",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate API matches the sports domain or supports querying players by weight or name.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate API matches the sports domain or supports querying players by weight or name."
+  },
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 1721,
+    "total_tokens": 1759,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 365,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 163,
+      "service_ttlt_ms": 462,
+      "total_duration_ms": 398,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

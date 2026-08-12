@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4642",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":9,\"confidence\":0.9,\"rationale\":\"The Target.Com Product Details API can provide detailed product information, which may include nutritional content for common ingredients, directly addressing the subtask of analyzing nutritional content. It requires parameters that can be bound from ingredient references. Other APIs are unrelated or too generic.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The Target.Com Product Details API can provide detailed product information, which may include nutritional content for common ingredients, directly addressing the subtask of analyzing nutritional content. It requires parameters that can be bound from ingredient references. Other APIs are unrelated or too generic."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 2094,
+    "total_tokens": 2161,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 1157,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 254,
+      "service_ttlt_ms": 1400,
+      "total_duration_ms": 1299,
+      "user_visible_ttft_ms": 150
+    }
+  }
+}

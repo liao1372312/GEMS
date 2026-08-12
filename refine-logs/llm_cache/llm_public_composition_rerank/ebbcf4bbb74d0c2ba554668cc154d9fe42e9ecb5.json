@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1636",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The subtask is to fetch the document link for a document by file name. Among the candidates, Aspose.Tasks Cloud - GetTaskDocument (rank 10) is the only API that directly deals with retrieving a document by its name. Although it is in the 'Other' domain, it is the closest match to the subtask intent and requires the 'name' parameter which can be bound to the document_name input. Other APIs are unrelated to document retrieval or are about exercises, music, or project reports not relevant to the medical document retrieval.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The subtask is to fetch the document link for a document by file name. Among the candidates, Aspose.Tasks Cloud - GetTaskDocument (rank 10) is the only API that directly deals with retrieving a document by its name. Although it is in the 'Other' domain, it is the closest match to the subtask intent and requires the 'name' parameter which can be bound to the document_name input. Other APIs are unrelated to document retrieval or are about exercises, music, or project reports not relevant to the medical document retrieval."
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 1914,
+    "total_tokens": 2046,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 101,
+      "engine_ttlt_ms": 2306,
+      "pre_inference_ms": 176,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 328,
+      "service_ttlt_ms": 2536,
+      "total_duration_ms": 2371,
+      "user_visible_ttft_ms": 153
+    }
+  }
+}

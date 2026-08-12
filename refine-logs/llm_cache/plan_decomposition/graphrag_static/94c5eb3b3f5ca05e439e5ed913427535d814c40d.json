@@ -1,0 +1,76 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find live giveaways for popular games on platforms like Steam and Epic Games Store.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Estimate the monetary worth in dollars of the live giveaways found in popular games.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"giveaway details from step 1\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve champion abilities of popular League of Legends champions.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find live giveaways for popular games on platforms like Steam and Epic Games Store.",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Estimate the monetary worth in dollars of the live giveaways found in popular games.",
+        "domain": "gaming",
+        "required_inputs": [
+          "giveaway details from step 1"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Retrieve champion abilities of popular League of Legends champions.",
+        "domain": "gaming",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find live giveaways for popular games on platforms like Steam and Epic Games Store.",
+      "domain": "gaming",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Estimate the monetary worth in dollars of the live giveaways found in popular games.",
+      "domain": "gaming",
+      "required_inputs": [
+        "giveaway details from step 1"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Retrieve champion abilities of popular League of Legends champions.",
+      "domain": "gaming",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 728,
+    "total_tokens": 873,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1511,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 240,
+      "service_ttlt_ms": 1692,
+      "total_duration_ms": 1589,
+      "user_visible_ttft_ms": 128
+    }
+  }
+}

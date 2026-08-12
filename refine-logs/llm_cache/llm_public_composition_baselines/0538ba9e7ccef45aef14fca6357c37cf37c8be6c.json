@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2343",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"This API provides nearest or largest city information including population based on latitude/longitude, which fits the need to query the five largest cities from a given city list.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "This API provides nearest or largest city information including population based on latitude/longitude, which fits the need to query the five largest cities from a given city list."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1547,
+    "total_tokens": 1601,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 509,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 225,
+      "service_ttlt_ms": 675,
+      "total_duration_ms": 579,
+      "user_visible_ttft_ms": 117
+    }
+  }
+}

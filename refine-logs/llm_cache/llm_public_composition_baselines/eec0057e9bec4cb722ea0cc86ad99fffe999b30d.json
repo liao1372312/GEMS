@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1686",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"This API provides both real-time and historical metal prices for silver and platinum, which is necessary for comparing historical rates as requested.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "This API provides both real-time and historical metal prices for silver and platinum, which is necessary for comparing historical rates as requested."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1607,
+    "total_tokens": 1654,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 300,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 513,
+      "service_ttlt_ms": 894,
+      "total_duration_ms": 788,
+      "user_visible_ttft_ms": 403
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "record_id": "Medical_response_2571",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for unique recipes on ComfyFood that include chocolate and fruits as ingredients\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"ingredients: chocolate, fruits\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve cooking times for the identified unique recipes\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"recipe list from step 1\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for unique recipes on ComfyFood that include chocolate and fruits as ingredients",
+        "domain": "Medical",
+        "required_inputs": [
+          "ingredients: chocolate, fruits"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve cooking times for the identified unique recipes",
+        "domain": "Medical",
+        "required_inputs": [
+          "recipe list from step 1"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for unique recipes on ComfyFood that include chocolate and fruits as ingredients",
+      "domain": "Medical",
+      "required_inputs": [
+        "ingredients: chocolate, fruits"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve cooking times for the identified unique recipes",
+      "domain": "Medical",
+      "required_inputs": [
+        "recipe list from step 1"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 375,
+    "total_tokens": 481,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1416,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 316,
+      "service_ttlt_ms": 1688,
+      "total_duration_ms": 1593,
+      "user_visible_ttft_ms": 209
+    }
+  }
+}

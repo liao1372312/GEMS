@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3234",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The subtask requires movie details including overview, streaming platforms, and audio options, which matches the 'OTT details - Additional Title Details' API that provides comprehensive movie details using movie_id.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The subtask requires movie details including overview, streaming platforms, and audio options, which matches the 'OTT details - Additional Title Details' API that provides comprehensive movie details using movie_id."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1420,
+    "total_tokens": 1479,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 707,
+      "pre_inference_ms": 300,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 469,
+      "service_ttlt_ms": 1091,
+      "total_duration_ms": 809,
+      "user_visible_ttft_ms": 169
+    }
+  }
+}

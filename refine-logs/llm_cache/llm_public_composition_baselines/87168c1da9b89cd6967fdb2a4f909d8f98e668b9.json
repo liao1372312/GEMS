@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8706",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides categories which is relevant to checking joke categories, but it does not directly fetch jokes about manatees. However, none of the other candidates are related to jokes or entertainment, so this is the best available option to start with category information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides categories which is relevant to checking joke categories, but it does not directly fetch jokes about manatees. However, none of the other candidates are related to jokes or entertainment, so this is the best available option to start with category information."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1670,
+    "total_tokens": 1745,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 1132,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 310,
+      "service_ttlt_ms": 1357,
+      "total_duration_ms": 1236,
+      "user_visible_ttft_ms": 164
+    }
+  }
+}

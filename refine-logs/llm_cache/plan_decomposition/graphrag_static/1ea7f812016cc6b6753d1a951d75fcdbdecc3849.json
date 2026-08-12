@@ -1,0 +1,80 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of cities for which climate data is available.\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"For each selected city, fetch the historical and current climate data including temperature, precipitation, and humidity.\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"city_name\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Provide a summary or comparison of climate trends across the selected cities.\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"climate_data\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of cities for which climate data is available.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "For each selected city, fetch the historical and current climate data including temperature, precipitation, and humidity.",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "city_name"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Provide a summary or comparison of climate trends across the selected cities.",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "climate_data"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of cities for which climate data is available.",
+      "domain": "Cross-Domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "For each selected city, fetch the historical and current climate data including temperature, precipitation, and humidity.",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "city_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Provide a summary or comparison of climate trends across the selected cities.",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "climate_data"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 521,
+    "total_tokens": 676,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 1452,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 184,
+      "service_ttlt_ms": 1585,
+      "total_duration_ms": 1488,
+      "user_visible_ttft_ms": 81
+    }
+  }
+}

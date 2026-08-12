@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8016",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The 'yiwugo product data - search products' API allows searching products by keyword, which can be used to find funny GIFs by using the keyword '搞笑GIF'. It directly satisfies the subtask of searching for suitable funny GIF animations for the party and accepts the required input parameter 'keyword'.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The 'yiwugo product data - search products' API allows searching products by keyword, which can be used to find funny GIFs by using the keyword '搞笑GIF'. It directly satisfies the subtask of searching for suitable funny GIF animations for the party and accepts the required input parameter 'keyword'."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1696,
+    "total_tokens": 1780,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 2952,
+      "user_visible_ttft_ms": 131,
+      "total_duration_ms": 1754,
+      "pre_inference_ms": 2822,
+      "service_tbt_ms": 19,
+      "service_ttlt_ms": 4567,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 1699,
+      "engine_tbt_ms": 19
+    }
+  }
+}

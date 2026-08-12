@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_239",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.95, \"rationale\": \"The 23andMe - risks API is specifically designed for medical data on lifetime disease risks for different populations, matching the subtask requirements.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.95,
+    "rationale": "The 23andMe - risks API is specifically designed for medical data on lifetime disease risks for different populations, matching the subtask requirements."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1870,
+    "total_tokens": 1920,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 358,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 156,
+      "service_ttlt_ms": 467,
+      "total_duration_ms": 395,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1565",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The Quotient API provides live current market price data for Tesla Inc., which directly matches the requirement to fetch the latest stock prices for Tesla.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The Quotient API provides live current market price data for Tesla Inc., which directly matches the requirement to fetch the latest stock prices for Tesla."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1357,
+    "total_tokens": 1407,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 532,
+      "pre_inference_ms": 100,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 656,
+      "total_duration_ms": 562,
+      "user_visible_ttft_ms": 73
+    }
+  }
+}

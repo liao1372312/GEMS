@@ -1,0 +1,97 @@
+{
+  "record_id": "Finance_response_2300",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Validate the VAT number 2121316722 in Slovakia to check if it is valid using a TIN validation service.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"VAT_number: 2121316722\", \"country: Slovakia\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve information on cashback offers specifically for hotels in Los Angeles.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"location: Los Angeles\", \"offer_type: cashback\", \"category: hotels\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Validate the VAT number 2121316722 in Slovakia to check if it is valid using a TIN validation service.",
+        "domain": "Finance",
+        "required_inputs": [
+          "VAT_number: 2121316722",
+          "country: Slovakia"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve information on cashback offers specifically for hotels in Los Angeles.",
+        "domain": "Finance",
+        "required_inputs": [
+          "location: Los Angeles",
+          "offer_type: cashback",
+          "category: hotels"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Validate the VAT number 2121316722 in Slovakia to check if it is valid using a TIN validation service.",
+      "domain": "Finance",
+      "required_inputs": [
+        "VAT_number: 2121316722",
+        "country: Slovakia"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve information on cashback offers specifically for hotels in Los Angeles.",
+      "domain": "Finance",
+      "required_inputs": [
+        "location: Los Angeles",
+        "offer_type: cashback",
+        "category: hotels"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2685,
+    "total_tokens": 2819,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1949,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 173,
+      "service_ttlt_ms": 2051,
+      "total_duration_ms": 2005,
+      "user_visible_ttft_ms": 89
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Validate the VAT number 2121316722 in Slovakia to check if it is valid.",
+        "domain": "Finance",
+        "required_inputs": [
+          "VAT_number: 2121316722",
+          "country: Slovakia"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve information on cashback offers for hotels in Los Angeles.",
+        "domain": "Finance",
+        "required_inputs": [
+          "location: Los Angeles",
+          "offer_type: cashback",
+          "category: hotels"
+        ]
+      }
+    ]
+  }
+}

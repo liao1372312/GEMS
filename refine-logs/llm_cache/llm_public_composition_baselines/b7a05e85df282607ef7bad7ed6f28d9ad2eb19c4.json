@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2257",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Webit Image Search API is specifically designed for searching images, making it the most relevant choice for finding images of successful charity events.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Webit Image Search API is specifically designed for searching images, making it the most relevant choice for finding images of successful charity events."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1412,
+    "total_tokens": 1461,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 322,
+      "user_visible_ttft_ms": 150,
+      "total_duration_ms": 649,
+      "pre_inference_ms": 173,
+      "service_tbt_ms": 10,
+      "service_ttlt_ms": 813,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 538,
+      "engine_tbt_ms": 10
+    }
+  }
+}

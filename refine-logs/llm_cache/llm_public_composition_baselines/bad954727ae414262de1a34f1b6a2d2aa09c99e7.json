@@ -1,0 +1,27 @@
+{
+  "record_id": "Medical_response_4299",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"No candidate APIs match the user's request for chicken recipes and halal restaurants; all candidates are unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "No candidate APIs match the user's request for chicken recipes and halal restaurants; all candidates are unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 2029,
+    "total_tokens": 2071,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 43
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 2023
+    }
+  }
+}

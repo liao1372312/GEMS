@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5275",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.8, \"rationale\": \"The Skyscanner_v2 - Search Place API is relevant for searching places in New York, which can help find breweries offering tours.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.8,
+    "rationale": "The Skyscanner_v2 - Search Place API is relevant for searching places in New York, which can help find breweries offering tours."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1259,
+    "total_tokens": 1308,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 479,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 724,
+      "total_duration_ms": 638,
+      "user_visible_ttft_ms": 173
+    }
+  }
+}

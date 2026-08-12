@@ -1,0 +1,64 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the list of foods to include in the dinner party menu\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve nutritional information for each identified food item\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"list of food items\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the list of foods to include in the dinner party menu",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve nutritional information for each identified food item",
+        "domain": "Medical",
+        "required_inputs": [
+          "list of food items"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the list of foods to include in the dinner party menu",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve nutritional information for each identified food item",
+      "domain": "Medical",
+      "required_inputs": [
+        "list of food items"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 169,
+    "total_tokens": 264,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 119,
+      "engine_ttft_ms": 8125,
+      "engine_ttlt_ms": 19390,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 119,
+      "service_ttft_ms": 9907,
+      "service_ttlt_ms": 20944,
+      "total_duration_ms": 21115,
+      "user_visible_ttft_ms": 9806
+    }
+  }
+}

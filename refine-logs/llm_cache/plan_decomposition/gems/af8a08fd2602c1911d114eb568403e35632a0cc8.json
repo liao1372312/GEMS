@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of cities for which climate data is available.\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"For each selected city, fetch the climate data including temperature, precipitation, and other relevant metrics.\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"city_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of cities for which climate data is available.",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "For each selected city, fetch the climate data including temperature, precipitation, and other relevant metrics.",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "city_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of cities for which climate data is available.",
+      "domain": "Cross-Domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "For each selected city, fetch the climate data including temperature, precipitation, and other relevant metrics.",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "city_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 538,
+    "total_tokens": 644,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 28,
+      "engine_ttft_ms": 182,
+      "engine_ttlt_ms": 3165,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 28,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 3251,
+      "total_duration_ms": 3186,
+      "user_visible_ttft_ms": 201
+    }
+  }
+}

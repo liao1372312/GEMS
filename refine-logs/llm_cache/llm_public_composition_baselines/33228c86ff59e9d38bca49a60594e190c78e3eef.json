@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3042",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The top-ranked API supports BMI calculation with multiple units, includes weight categorization, and offers ethnicity-based categories, matching the user's requirements closely.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The top-ranked API supports BMI calculation with multiple units, includes weight categorization, and offers ethnicity-based categories, matching the user's requirements closely."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 2120,
+    "total_tokens": 2170,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 230,
+      "user_visible_ttft_ms": 119,
+      "total_duration_ms": 499,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 8,
+      "service_ttlt_ms": 600,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 419,
+      "engine_tbt_ms": 8
+    }
+  }
+}

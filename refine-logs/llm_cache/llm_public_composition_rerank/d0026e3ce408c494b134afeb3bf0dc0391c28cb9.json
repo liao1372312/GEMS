@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4406",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Tank01 Fantasy Stats API provides detailed NBA game data including team details for games, which aligns well with retrieving NBA games and team info. It is specific to NBA and basketball, unlike other APIs that are either for different sports or unrelated domains.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Tank01 Fantasy Stats API provides detailed NBA game data including team details for games, which aligns well with retrieving NBA games and team info. It is specific to NBA and basketball, unlike other APIs that are either for different sports or unrelated domains."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 2438,
+    "total_tokens": 2509,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1097,
+      "pre_inference_ms": 132,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 288,
+      "service_ttlt_ms": 1321,
+      "total_duration_ms": 1198,
+      "user_visible_ttft_ms": 156
+    }
+  }
+}

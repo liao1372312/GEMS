@@ -1,0 +1,128 @@
+{
+  "record_id": "Finance_response_1677",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Gather user preferences and details for the road trip such as start location, end location, and travel dates\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"start_location\", \"end_location\", \"travel_dates\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Generate a detailed road trip itinerary including route, stops, and estimated travel times\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"start_location\", \"end_location\", \"travel_dates\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Estimate travel expenses including fuel, accommodation, food, and other costs based on the itinerary\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"itinerary_details\", \"vehicle_info\", \"accommodation_preferences\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Create and manage a budget plan for the road trip expenses\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"estimated_expenses\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Track and update actual expenses during the road trip\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"expense_entries\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Gather user preferences and details for the road trip such as start location, end location, and travel dates",
+        "domain": "Travel",
+        "required_inputs": [
+          "start_location",
+          "end_location",
+          "travel_dates"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Generate a detailed road trip itinerary including route, stops, and estimated travel times",
+        "domain": "Travel",
+        "required_inputs": [
+          "start_location",
+          "end_location",
+          "travel_dates"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Estimate travel expenses including fuel, accommodation, food, and other costs based on the itinerary",
+        "domain": "Finance",
+        "required_inputs": [
+          "itinerary_details",
+          "vehicle_info",
+          "accommodation_preferences"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Create and manage a budget plan for the road trip expenses",
+        "domain": "Finance",
+        "required_inputs": [
+          "estimated_expenses"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Track and update actual expenses during the road trip",
+        "domain": "Finance",
+        "required_inputs": [
+          "expense_entries"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Gather user preferences and details for the road trip such as start location, end location, and travel dates",
+      "domain": "Travel",
+      "required_inputs": [
+        "start_location",
+        "end_location",
+        "travel_dates"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Generate a detailed road trip itinerary including route, stops, and estimated travel times",
+      "domain": "Travel",
+      "required_inputs": [
+        "start_location",
+        "end_location",
+        "travel_dates"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Estimate travel expenses including fuel, accommodation, food, and other costs based on the itinerary",
+      "domain": "Finance",
+      "required_inputs": [
+        "itinerary_details",
+        "vehicle_info",
+        "accommodation_preferences"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Create and manage a budget plan for the road trip expenses",
+      "domain": "Finance",
+      "required_inputs": [
+        "estimated_expenses"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Track and update actual expenses during the road trip",
+      "domain": "Finance",
+      "required_inputs": [
+        "expense_entries"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 274,
+    "prompt_tokens": 170,
+    "total_tokens": 444,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 2982,
+      "pre_inference_ms": 226,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 434,
+      "service_ttlt_ms": 3362,
+      "total_duration_ms": 3148,
+      "user_visible_ttft_ms": 207
+    }
+  }
+}

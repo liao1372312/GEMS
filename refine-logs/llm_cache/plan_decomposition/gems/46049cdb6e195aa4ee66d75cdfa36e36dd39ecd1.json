@@ -1,0 +1,73 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"platform_name\", \"sport_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each basketball match fetched from Admiralbet.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"match_id\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+        "domain": "sports",
+        "required_inputs": [
+          "platform_name",
+          "sport_type"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the odds for each basketball match fetched from Admiralbet.",
+        "domain": "sports",
+        "required_inputs": [
+          "match_id"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+      "domain": "sports",
+      "required_inputs": [
+        "platform_name",
+        "sport_type"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the odds for each basketball match fetched from Admiralbet.",
+      "domain": "sports",
+      "required_inputs": [
+        "match_id"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 2816,
+    "total_tokens": 2922,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 1583,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 210,
+      "service_ttlt_ms": 1730,
+      "total_duration_ms": 1620,
+      "user_visible_ttft_ms": 94
+    }
+  },
+  "goal_hints": [
+    "I'm planning a family gathering and I thought it would be fun to have a friendly basketball match. Please fetch the latest matches available from Admiralbet and provide me with the odds for each match. It would be great if you could include the teams participating and the match timings as well."
+  ]
+}

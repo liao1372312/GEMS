@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1487",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Workout Planner - Get Customized Plan' API directly addresses the subtask of assessing the user's fitness level and workout goals to generate a leg workout plan. It accepts parameters for fitness level, fitness goals, target muscle (legs), equipment, and time, all of which can be derived from the user request and required inputs. Other APIs are unrelated to fitness or workout planning.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Workout Planner - Get Customized Plan' API directly addresses the subtask of assessing the user's fitness level and workout goals to generate a leg workout plan. It accepts parameters for fitness level, fitness goals, target muscle (legs), equipment, and time, all of which can be derived from the user request and required inputs. Other APIs are unrelated to fitness or workout planning."
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 2424,
+    "total_tokens": 2521,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 1826,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 264,
+      "service_ttlt_ms": 2016,
+      "total_duration_ms": 1918,
+      "user_visible_ttft_ms": 156
+    }
+  }
+}

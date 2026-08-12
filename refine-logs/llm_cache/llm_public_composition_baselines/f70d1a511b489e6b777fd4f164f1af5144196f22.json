@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1006",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user wants albums and singles from a favorite artist; the Halsey Lyric Snippets API provides all albums by a specified artist, fitting the requirement to query albums by the identified artist.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user wants albums and singles from a favorite artist; the Halsey Lyric Snippets API provides all albums by a specified artist, fitting the requirement to query albums by the identified artist."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1591,
+    "total_tokens": 1652,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 807,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 1016,
+      "total_duration_ms": 926,
+      "user_visible_ttft_ms": 173
+    }
+  }
+}

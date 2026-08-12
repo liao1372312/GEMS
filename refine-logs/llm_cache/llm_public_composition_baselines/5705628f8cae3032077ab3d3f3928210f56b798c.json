@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate 1 provides top coins by followers change in the last 24 hours, matching the first part of the request, and the subtask is to fetch influencer posts related to Bitcoin, which can be done subsequently.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate 1 provides top coins by followers change in the last 24 hours, matching the first part of the request, and the subtask is to fetch influencer posts related to Bitcoin, which can be done subsequently."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 3616,
+    "total_tokens": 3681,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 811,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 283,
+      "service_ttlt_ms": 1050,
+      "total_duration_ms": 970,
+      "user_visible_ttft_ms": 196
+    }
+  }
+}

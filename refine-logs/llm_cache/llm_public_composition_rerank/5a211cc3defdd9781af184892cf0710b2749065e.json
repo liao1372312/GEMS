@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5221",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The 'taboo-api - Get Taboo Words From Word' API can provide related words including antonyms or taboo words for the given word 'happy', directly addressing the subtask to retrieve antonyms for 'happy'.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The 'taboo-api - Get Taboo Words From Word' API can provide related words including antonyms or taboo words for the given word 'happy', directly addressing the subtask to retrieve antonyms for 'happy'."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 2064,
+    "total_tokens": 2128,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 1013,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 1189,
+      "total_duration_ms": 1095,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

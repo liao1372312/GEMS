@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_918",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"Vision Weather Map API directly provides weather forecasts for diverse cities and dates, matching the subtask to obtain weather forecast for the tournament date and location. It requires no parameters that cannot be bound from the subtask inputs, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "Vision Weather Map API directly provides weather forecasts for diverse cities and dates, matching the subtask to obtain weather forecast for the tournament date and location. It requires no parameters that cannot be bound from the subtask inputs, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1973,
+    "total_tokens": 2044,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 24,
+      "engine_ttft_ms": 82,
+      "engine_ttlt_ms": 1787,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 24,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 1954,
+      "total_duration_ms": 1839,
+      "user_visible_ttft_ms": 134
+    }
+  }
+}

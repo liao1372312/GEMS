@@ -1,0 +1,88 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a random English word that contains the substring 'game' to inspire a board game selection\",\n      \"domain\": \"Data\",\n      \"required_inputs\": [\"substring\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather reviews for the selected board game from a gaming website\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": [\"game_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a random English word that contains the substring 'game' to inspire a board game selection",
+        "domain": "Data",
+        "required_inputs": [
+          "substring"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Gather reviews for the selected board game from a gaming website",
+        "domain": "recreation",
+        "required_inputs": [
+          "game_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find a random English word that contains the substring 'game' to inspire a board game selection",
+      "domain": "Data",
+      "required_inputs": [
+        "substring"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather reviews for the selected board game from a gaming website",
+      "domain": "recreation",
+      "required_inputs": [
+        "game_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 2281,
+    "total_tokens": 2386,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 360,
+      "user_visible_ttft_ms": 182,
+      "total_duration_ms": 1098,
+      "pre_inference_ms": 178,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 1265,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 992,
+      "engine_tbt_ms": 9
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a random word that contains the substring 'game' to inspire a board game selection",
+        "domain": "Data",
+        "required_inputs": [
+          "substring"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Gather reviews for the selected board game from a gaming website",
+        "domain": "recreation",
+        "required_inputs": [
+          "game_name"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3844",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"Candidate 1 provides both the roster and schedule for the Boston Celtics in 2008, matching the user's request for basketball history. However, it does not cover Formula 1 news, so further steps are needed for that part.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "Candidate 1 provides both the roster and schedule for the Boston Celtics in 2008, matching the user's request for basketball history. However, it does not cover Formula 1 news, so further steps are needed for that part."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1681,
+    "total_tokens": 1749,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 828,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 178,
+      "service_ttlt_ms": 1005,
+      "total_duration_ms": 929,
+      "user_visible_ttft_ms": 88
+    }
+  }
+}

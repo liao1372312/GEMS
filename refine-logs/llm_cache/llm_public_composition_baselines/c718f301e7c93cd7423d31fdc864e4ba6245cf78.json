@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3049",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request involves recommending holiday destinations with beautiful landscapes, which aligns with the Tourism domain. However, none of the provided APIs are related to tourism or travel destinations. The highest-ranked API is Shazam for music search, which is unrelated. Since no suitable API for holiday destination recommendations or token forwarding transaction webhook is available, the best choice is to acknowledge the lack of relevant APIs and prioritize the first-ranked candidate for partial relevance.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request involves recommending holiday destinations with beautiful landscapes, which aligns with the Tourism domain. However, none of the provided APIs are related to tourism or travel destinations. The highest-ranked API is Shazam for music search, which is unrelated. Since no suitable API for holiday destination recommendations or token forwarding transaction webhook is available, the best choice is to acknowledge the lack of relevant APIs and prioritize the first-ranked candidate for partial relevance."
+  },
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 1504,
+    "total_tokens": 1611,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 845,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 171,
+      "service_ttlt_ms": 976,
+      "total_duration_ms": 877,
+      "user_visible_ttft_ms": 65
+    }
+  }
+}

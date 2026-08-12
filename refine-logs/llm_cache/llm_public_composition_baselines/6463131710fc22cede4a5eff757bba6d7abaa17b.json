@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5445",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs match the user's request for calendar management, working days info in Italy, or calculation. No suitable API available.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs match the user's request for calendar management, working days info in Italy, or calculation. No suitable API available."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1821,
+    "total_tokens": 1870,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 5,
+      "engine_ttft_ms": 30,
+      "engine_ttlt_ms": 290,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 5,
+      "service_ttft_ms": 136,
+      "service_ttlt_ms": 393,
+      "total_duration_ms": 320,
+      "user_visible_ttft_ms": 57
+    }
+  }
+}

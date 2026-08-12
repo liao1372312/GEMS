@@ -1,0 +1,128 @@
+{
+  "dataset": "HSC-main",
+  "split": {
+    "train": 7000,
+    "val": 1000,
+    "test": 2000
+  },
+  "models": 15463,
+  "memory_items": 21663,
+  "selection_objective": "balanced",
+  "gems_routing": "function",
+  "gems_validation_metrics": {
+    "service_acc": 0.5357495881383855,
+    "workflow_exact": 0.278,
+    "qos_score": 0.533468623217873,
+    "constraint_sr": 0.3617792421746293,
+    "reliable_at_1": 0.8352553542009885,
+    "success_at_1": 0.9920922570016475,
+    "avg_reliability": 0.8524179040616235,
+    "avg_successability": 0.9802220952380987,
+    "workflows": 1000,
+    "slots": 3035,
+    "balanced_score": 0.6516690129467048
+  },
+  "gems_weights": {
+    "qos": 0.7,
+    "constraint": 0.1,
+    "rel": 0.1,
+    "succ": 0.1,
+    "top_k": 5
+  },
+  "function_specific_weight_count": 177,
+  "metrics": {
+    "service_acc": "Selected service equals optimizer-provided best_solution for a gold function slot.",
+    "workflow_exact": "All selected services equal the best_solution for a workflow.",
+    "qos_score": "Mean objective utility of selected services under HSC objective weights.",
+    "constraint_sr": "Fraction of selected services satisfying nonzero HSC constraints.",
+    "reliable_at_1": "Fraction of selected services with reliability >= 0.7.",
+    "success_at_1": "Fraction of selected services with successability >= 0.7.",
+    "balanced_score": "Mean of Service.Acc, QoS.Score, Constraint.SR, Reliable@1, and Success@1."
+  },
+  "rows": [
+    {
+      "method": "Popularity",
+      "service_acc": 0.5377585377585378,
+      "workflow_exact": 0.2715,
+      "qos_score": 0.47140393412440545,
+      "constraint_sr": 0.33942600609267276,
+      "reliable_at_1": 0.5400032066698733,
+      "success_at_1": 0.9565496232162899,
+      "avg_reliability": 0.707082480519481,
+      "avg_successability": 0.9459040005411286,
+      "workflows": 2000,
+      "slots": 6237,
+      "balanced_score": 0.5690282615723559
+    },
+    {
+      "method": "QoS-greedy",
+      "service_acc": 0.5047298380631714,
+      "workflow_exact": 0.246,
+      "qos_score": 0.5320452275505083,
+      "constraint_sr": 0.3360590027256694,
+      "reliable_at_1": 0.7006573673240339,
+      "success_at_1": 0.9535032868366202,
+      "avg_reliability": 0.7783278300865827,
+      "avg_successability": 0.9437673360389628,
+      "workflows": 2000,
+      "slots": 6237,
+      "balanced_score": 0.6053989445000008
+    },
+    {
+      "method": "Reliability-greedy",
+      "service_acc": 0.23953823953823955,
+      "workflow_exact": 0.0365,
+      "qos_score": 0.4409498943366821,
+      "constraint_sr": 0.3105659772326439,
+      "reliable_at_1": 0.9429212762546096,
+      "success_at_1": 0.9915023248356581,
+      "avg_reliability": 0.9306139145021683,
+      "avg_successability": 0.9872288154761875,
+      "workflows": 2000,
+      "slots": 6237,
+      "balanced_score": 0.5850955424395666
+    },
+    {
+      "method": "Trace-RAG",
+      "service_acc": 0.5797659130992464,
+      "workflow_exact": 0.2825,
+      "qos_score": 0.48523442552067586,
+      "constraint_sr": 0.3426326759660093,
+      "reliable_at_1": 0.6208112874779541,
+      "success_at_1": 0.9915023248356581,
+      "avg_reliability": 0.7599242646103876,
+      "avg_successability": 0.9739768782467558,
+      "workflows": 2000,
+      "slots": 6237,
+      "balanced_score": 0.6039893253799088
+    },
+    {
+      "method": "GraphRAG-static",
+      "service_acc": 0.5044091710758377,
+      "workflow_exact": 0.2025,
+      "qos_score": 0.48337296174774236,
+      "constraint_sr": 0.33990700657367323,
+      "reliable_at_1": 0.6875100208433542,
+      "success_at_1": 0.9847683181016514,
+      "avg_reliability": 0.7867307835497838,
+      "avg_successability": 0.9711680882034656,
+      "workflows": 2000,
+      "slots": 6237,
+      "balanced_score": 0.5999934956684518
+    },
+    {
+      "method": "GEMS",
+      "service_acc": 0.5539522206188873,
+      "workflow_exact": 0.24,
+      "qos_score": 0.5143120521443826,
+      "constraint_sr": 0.36123136123136124,
+      "reliable_at_1": 0.8338945005611672,
+      "success_at_1": 0.9897386564053231,
+      "avg_reliability": 0.8357389837662358,
+      "avg_successability": 0.9737783766233792,
+      "workflows": 2000,
+      "slots": 6237,
+      "balanced_score": 0.6506257581922242
+    }
+  ]
+}

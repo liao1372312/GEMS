@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3042",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"This API supports BMI calculation using both Imperial and Metric units, allows input of height in feet and inches and weight in kilograms, and provides weight categorization including special categories for Asians, matching the user's requirements closely.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "This API supports BMI calculation using both Imperial and Metric units, allows input of height in feet and inches and weight in kilograms, and provides weight categorization including special categories for Asians, matching the user's requirements closely."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 2114,
+    "total_tokens": 2178,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 89,
+      "engine_ttlt_ms": 1112,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 214,
+      "service_ttlt_ms": 1234,
+      "total_duration_ms": 1148,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

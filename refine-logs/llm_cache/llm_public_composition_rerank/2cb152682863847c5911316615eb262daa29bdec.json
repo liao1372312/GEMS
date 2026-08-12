@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1952",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The API 'Recipe Finder - cake/ingredient' directly satisfies the subtask of fetching a random cake recipe with lime as an ingredient and requires the ingredient parameter which can be bound to 'lime' from the subtask inputs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The API 'Recipe Finder - cake/ingredient' directly satisfies the subtask of fetching a random cake recipe with lime as an ingredient and requires the ingredient parameter which can be bound to 'lime' from the subtask inputs."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 2274,
+    "total_tokens": 2341,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 87,
+      "engine_ttlt_ms": 1128,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 1271,
+      "total_duration_ms": 1180,
+      "user_visible_ttft_ms": 136
+    }
+  }
+}

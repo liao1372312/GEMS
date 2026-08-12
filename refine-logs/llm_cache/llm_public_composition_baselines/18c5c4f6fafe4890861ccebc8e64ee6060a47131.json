@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5216",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The first candidate API provides current weather including wind speed and hourly forecast, matching the user's request for current conditions and three-hourly forecast for the hiking location.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The first candidate API provides current weather including wind speed and hourly forecast, matching the user's request for current conditions and three-hourly forecast for the hiking location."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1593,
+    "total_tokens": 1646,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 565,
+      "pre_inference_ms": 159,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 296,
+      "service_ttlt_ms": 800,
+      "total_duration_ms": 649,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

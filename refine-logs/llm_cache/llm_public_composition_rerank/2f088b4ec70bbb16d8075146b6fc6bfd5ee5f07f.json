@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"HandballAPI - TeamPlayersStatisticsSeasons directly offers player statistics for a team by ID, matching the need to collect player statistics relevant to teams participating today. It requires team IDs, which are among the required inputs, making it appropriate and specific for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "HandballAPI - TeamPlayersStatisticsSeasons directly offers player statistics for a team by ID, matching the need to collect player statistics relevant to teams participating today. It requires team IDs, which are among the required inputs, making it appropriate and specific for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 2418,
+    "total_tokens": 2494,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 642,
+      "engine_ttlt_ms": 1690,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 801,
+      "service_ttlt_ms": 1843,
+      "total_duration_ms": 1739,
+      "user_visible_ttft_ms": 688
+    }
+  }
+}

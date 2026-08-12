@@ -1,0 +1,52 @@
+{
+  "record_id": "Tourism_response_1345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve detailed information about the airport with the IATA code DFW, including its name and location.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"code\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve detailed information about the airport with the IATA code DFW, including its name and location.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "code"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve detailed information about the airport with the IATA code DFW, including its name and location.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "code"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 2127,
+    "total_tokens": 2189,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 80,
+      "engine_ttlt_ms": 902,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 1030,
+      "total_duration_ms": 931,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

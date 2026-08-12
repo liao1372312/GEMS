@@ -1,0 +1,76 @@
+{
+  "record_id": "Tourism_response_4653",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Provide general travel information and tips for a trip to Rome.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a random Roman god to learn about.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve detailed information about the selected Roman god, including mythology and significance.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"name of the selected Roman god\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Provide general travel information and tips for a trip to Rome.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a random Roman god to learn about.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Retrieve detailed information about the selected Roman god, including mythology and significance.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "name of the selected Roman god"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Provide general travel information and tips for a trip to Rome.",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a random Roman god to learn about.",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Retrieve detailed information about the selected Roman god, including mythology and significance.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "name of the selected Roman god"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 377,
+    "total_tokens": 519,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 1703,
+      "pre_inference_ms": 128,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1879,
+      "total_duration_ms": 1762,
+      "user_visible_ttft_ms": 105
+    }
+  }
+}

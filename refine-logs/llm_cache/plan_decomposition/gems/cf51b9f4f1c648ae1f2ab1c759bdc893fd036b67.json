@@ -1,0 +1,84 @@
+{
+  "record_id": "Cross_Domain_response_1089",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for the Soundcloud playlist named 'Almost Lover' to obtain its playlist details.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"playlist name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Identify the artist related to the song 'Shape of You' to find the artist's identifier.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"song title\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the latest release information of the identified artist using the artist identifier.\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"artist identifier\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for the Soundcloud playlist named 'Almost Lover' to obtain its playlist details.",
+        "domain": "technology",
+        "required_inputs": [
+          "playlist name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Identify the artist related to the song 'Shape of You' to find the artist's identifier.",
+        "domain": "technology",
+        "required_inputs": [
+          "song title"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the latest release information of the identified artist using the artist identifier.",
+        "domain": "technology",
+        "required_inputs": [
+          "artist identifier"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for the Soundcloud playlist named 'Almost Lover' to obtain its playlist details.",
+      "domain": "technology",
+      "required_inputs": [
+        "playlist name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Identify the artist related to the song 'Shape of You' to find the artist's identifier.",
+      "domain": "technology",
+      "required_inputs": [
+        "song title"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the latest release information of the identified artist using the artist identifier.",
+      "domain": "technology",
+      "required_inputs": [
+        "artist identifier"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 509,
+    "total_tokens": 665,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 31,
+      "engine_ttlt_ms": 1524,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 134,
+      "service_ttlt_ms": 1622,
+      "total_duration_ms": 1554,
+      "user_visible_ttft_ms": 58
+    }
+  }
+}

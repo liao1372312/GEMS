@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_5324",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly provides current prices of Bitcoin, Ethereum, and Litecoin without parameters, better matching the step than semantic top-1 which focuses on TVL data.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly provides current prices of world currencies without parameters, better matching the step than semantic top-1 which focuses on TVL data.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice matches semantic top-1; no alternative provided and it fits the comparison step well.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice directly provides current prices of Bitcoin, Ethereum, and Litecoin without parameters, better matching the step than semantic top-1 which focuses on TVL data."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice directly provides current prices of world currencies without parameters, better matching the step than semantic top-1 which focuses on TVL data."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice matches semantic top-1; no alternative provided and it fits the comparison step well."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 1159,
+    "total_tokens": 1338,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 77,
+      "engine_ttlt_ms": 3793,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 205,
+      "service_ttlt_ms": 3917,
+      "total_duration_ms": 3829,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "record_id": "Tourism_response_1345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve general information about the airport with IATA code DFW, including its location, size, and significance.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"IATA code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather details about the facilities and services available at the DFW airport.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"IATA code\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain historical background and development information about the DFW airport.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"IATA code\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve general information about the airport with IATA code DFW, including its location, size, and significance.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "IATA code"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Gather details about the facilities and services available at the DFW airport.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "IATA code"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain historical background and development information about the DFW airport.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "IATA code"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve general information about the airport with IATA code DFW, including its location, size, and significance.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "IATA code"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather details about the facilities and services available at the DFW airport.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "IATA code"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain historical background and development information about the DFW airport.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "IATA code"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 348,
+    "total_tokens": 509,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 1991,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 2216,
+      "total_duration_ms": 2109,
+      "user_visible_ttft_ms": 118
+    }
+  }
+}

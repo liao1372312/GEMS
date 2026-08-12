@@ -1,0 +1,60 @@
+{
+  "record_id": "Cross_Domain_response_1040",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the list of upcoming Formula 1 races for the current season including race dates, locations, and race names\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the current driver standings for the ongoing Formula 1 season\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the list of upcoming Formula 1 races for the current season including race dates, locations, and race names",
+        "domain": "Sports",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the current driver standings for the ongoing Formula 1 season",
+        "domain": "Sports",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the list of upcoming Formula 1 races for the current season including race dates, locations, and race names",
+      "domain": "Sports",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the current driver standings for the ongoing Formula 1 season",
+      "domain": "Sports",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 198,
+    "total_tokens": 302,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 32,
+      "engine_ttlt_ms": 1234,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 146,
+      "service_ttlt_ms": 1343,
+      "total_duration_ms": 1262,
+      "user_visible_ttft_ms": 58
+    }
+  }
+}

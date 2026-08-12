@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_817",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The D7 Verify API is specifically designed for phone number verification, matching the user's intent to verify volunteer phone numbers.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The D7 Verify API is specifically designed for phone number verification, matching the user's intent to verify volunteer phone numbers."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1361,
+    "total_tokens": 1406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 656,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 225,
+      "service_ttlt_ms": 827,
+      "total_duration_ms": 748,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

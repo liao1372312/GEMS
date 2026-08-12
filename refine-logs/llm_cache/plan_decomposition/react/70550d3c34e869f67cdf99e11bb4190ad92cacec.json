@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_1492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a suitable picnic location in a park with active products or activities available\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the 5-day weather forecast for the selected picnic location to ensure favorable weather conditions\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find a suitable picnic location in a park with active products or activities available",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get the 5-day weather forecast for the selected picnic location to ensure favorable weather conditions",
+        "domain": "tourism",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find a suitable picnic location in a park with active products or activities available",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Get the 5-day weather forecast for the selected picnic location to ensure favorable weather conditions",
+      "domain": "tourism",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 203,
+    "total_tokens": 308,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 262,
+      "user_visible_ttft_ms": 153,
+      "total_duration_ms": 1178,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 10,
+      "service_ttlt_ms": 1279,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 1075,
+      "engine_tbt_ms": 10
+    }
+  }
+}

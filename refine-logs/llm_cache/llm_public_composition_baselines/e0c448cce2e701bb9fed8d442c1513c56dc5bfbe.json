@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3953",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first API provides a list of all available currencies, which matches the user's request to explore virtual currencies for creating a virtual account. It is in the Finance domain and directly relevant. The subtask about checking interesting products in the store is not directly covered by any candidate, but the first API is the best fit for the main request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first API provides a list of all available currencies, which matches the user's request to explore virtual currencies for creating a virtual account. It is in the Finance domain and directly relevant. The subtask about checking interesting products in the store is not directly covered by any candidate, but the first API is the best fit for the main request."
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 1705,
+    "total_tokens": 1794,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 42,
+      "engine_ttft_ms": 89,
+      "engine_ttlt_ms": 3821,
+      "pre_inference_ms": 79,
+      "service_tbt_ms": 42,
+      "service_ttft_ms": 1471,
+      "service_ttlt_ms": 5198,
+      "total_duration_ms": 5127,
+      "user_visible_ttft_ms": 1392
+    }
+  }
+}

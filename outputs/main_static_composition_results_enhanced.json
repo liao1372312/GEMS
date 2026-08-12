@@ -1,0 +1,108 @@
+{
+  "split": "test",
+  "workflows": 211,
+  "steps": 623,
+  "note": "Full-test table: non-GEMS memory baselines use semantic-safe validation-motivated weighting.",
+  "rows": [
+    {
+      "method": "Direct-LLM",
+      "workflow_exact": 0.4312796208530806,
+      "api_acc": 0.6918138041733547,
+      "para_f1": 0.7597110754414126,
+      "steps": 623,
+      "workflows": 211,
+      "source": "outputs/llm_public_composition_baselines_test_all.json",
+      "paper_ready": true
+    },
+    {
+      "method": "CoT-LLM",
+      "workflow_exact": 0.35545023696682465,
+      "api_acc": 0.637239165329053,
+      "para_f1": 0.7134296415195291,
+      "steps": 623,
+      "workflows": 211,
+      "source": "outputs/llm_public_composition_baselines_test_all.json",
+      "paper_ready": true
+    },
+    {
+      "method": "ReAct",
+      "workflow_exact": 0.3696682464454976,
+      "api_acc": 0.6356340288924559,
+      "para_f1": 0.7115034777956126,
+      "steps": 623,
+      "workflows": 211,
+      "source": "outputs/llm_public_composition_baselines_test_all.json",
+      "paper_ready": true
+    },
+    {
+      "method": "RestGPT-style",
+      "workflow_exact": 0.4075829383886256,
+      "api_acc": 0.6837881219903692,
+      "para_f1": 0.7491706795077582,
+      "steps": 623,
+      "workflows": 211,
+      "source": "outputs/llm_public_composition_baselines_test_all.json",
+      "paper_ready": true
+    },
+    {
+      "method": "MA-NoMem",
+      "workflow_exact": 0.3791469194312796,
+      "api_acc": 0.6548956661316212,
+      "para_f1": 0.7286249331193152,
+      "steps": 623,
+      "workflows": 211,
+      "source": "outputs/llm_public_composition_baselines_test_all.json",
+      "paper_ready": true
+    },
+    {
+      "method": "Trace-RAG",
+      "workflow_exact": 0.3981042654028436,
+      "api_acc": 0.5858747993579454,
+      "para_f1": 0.6855805243445693,
+      "steps": 623,
+      "workflows": 211,
+      "source": "semantic-safe tuned feature reranker",
+      "paper_ready": true
+    },
+    {
+      "method": "StructMem-RAG",
+      "workflow_exact": 0.3886255924170616,
+      "api_acc": 0.5874799357945425,
+      "para_f1": 0.6845104333868378,
+      "steps": 623,
+      "workflows": 211,
+      "source": "semantic-safe tuned feature reranker",
+      "paper_ready": true
+    },
+    {
+      "method": "GraphRAG-static",
+      "workflow_exact": 0.4028436018957346,
+      "api_acc": 0.5858747993579454,
+      "para_f1": 0.6885232744783306,
+      "steps": 623,
+      "workflows": 211,
+      "source": "semantic-safe tuned feature reranker",
+      "paper_ready": true
+    },
+    {
+      "method": "AgentKB-style",
+      "workflow_exact": 0.35545023696682465,
+      "api_acc": 0.5666131621187801,
+      "para_f1": 0.673542001070091,
+      "steps": 623,
+      "workflows": 211,
+      "source": "outputs/reflexion_memory_baseline_semantic_safe.json",
+      "paper_ready": true
+    },
+    {
+      "method": "\\textsc{GEMS}",
+      "workflow_exact": 0.44075829383886256,
+      "api_acc": 0.6179775280898876,
+      "para_f1": 0.706474050294275,
+      "steps": 623,
+      "workflows": 211,
+      "source": "outputs/gems_plan_verifier_safe_plan_eval.json",
+      "paper_ready": true
+    }
+  ]
+}

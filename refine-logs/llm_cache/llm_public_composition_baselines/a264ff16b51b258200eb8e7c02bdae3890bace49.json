@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8706",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate provides categories related to entertainment, which aligns with the need to fetch a random joke category for entertainment and atmosphere.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate provides categories related to entertainment, which aligns with the need to fetch a random joke category for entertainment and atmosphere."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1505,
+    "total_tokens": 1553,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 755,
+      "pre_inference_ms": 117,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 230,
+      "service_ttlt_ms": 946,
+      "total_duration_ms": 838,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

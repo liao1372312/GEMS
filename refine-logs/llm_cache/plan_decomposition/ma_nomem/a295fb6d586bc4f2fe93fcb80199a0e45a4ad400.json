@@ -1,0 +1,88 @@
+{
+  "record_id": "Finance_response_5268",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"index_name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the latest price of gold\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"metal_name\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve the latest price of silver\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"metal_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020",
+        "domain": "Finance",
+        "required_inputs": [
+          "start_date",
+          "end_date",
+          "index_name"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the latest price of gold",
+        "domain": "Finance",
+        "required_inputs": [
+          "metal_name"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Retrieve the latest price of silver",
+        "domain": "Finance",
+        "required_inputs": [
+          "metal_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020",
+      "domain": "Finance",
+      "required_inputs": [
+        "start_date",
+        "end_date",
+        "index_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the latest price of gold",
+      "domain": "Finance",
+      "required_inputs": [
+        "metal_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Retrieve the latest price of silver",
+      "domain": "Finance",
+      "required_inputs": [
+        "metal_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 237,
+    "total_tokens": 395,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 2890,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 264,
+      "service_ttlt_ms": 3086,
+      "total_duration_ms": 2976,
+      "user_visible_ttft_ms": 139
+    }
+  }
+}

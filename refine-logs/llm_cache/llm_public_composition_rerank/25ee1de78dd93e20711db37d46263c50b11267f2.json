@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_1082",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidate APIs explicitly mention checking if Aspose OCR Cloud storage exists, but among the given options, all are related to Aspose.PDF Cloud and none directly relate to OCR storage existence check. However, the first-ranked API is a general PDF-related API and might be closest to storage-related operations. Still, no candidate perfectly matches the subtask intent, so the top-ranked API is selected with moderate confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidate APIs explicitly mention checking if Aspose OCR Cloud storage exists, but among the given options, all are related to Aspose.PDF Cloud and none directly relate to OCR storage existence check. However, the first-ranked API is a general PDF-related API and might be closest to storage-related operations. Still, no candidate perfectly matches the subtask intent, so the top-ranked API is selected with moderate confidence."
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 2045,
+    "total_tokens": 2151,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 927,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 158,
+      "service_ttlt_ms": 1042,
+      "total_duration_ms": 960,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

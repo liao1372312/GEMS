@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8576",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The MusiclinkssApi - Search by query endpoint allows searching for music-related content by query and type, which fits well for fetching details about 'Hotel California' by Eagles from SongMeanings and also for searching jazz tracks on Soundcloud using the query 'jazz music'.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The MusiclinkssApi - Search by query endpoint allows searching for music-related content by query and type, which fits well for fetching details about 'Hotel California' by Eagles from SongMeanings and also for searching jazz tracks on Soundcloud using the query 'jazz music'."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1592,
+    "total_tokens": 1670,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 874,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 1031,
+      "total_duration_ms": 927,
+      "user_visible_ttft_ms": 91
+    }
+  }
+}

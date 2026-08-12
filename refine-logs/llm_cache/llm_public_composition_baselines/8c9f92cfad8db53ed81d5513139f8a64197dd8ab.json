@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5445",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The user requests detailed information about working days in Italy on February 1st, which relates to country-specific calendar data. The City and State Search API - Country Details can provide detailed country information, including holidays and working days. This API is the most relevant to fulfill the user's request about working days in Italy.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The user requests detailed information about working days in Italy on February 1st, which relates to country-specific calendar data. The City and State Search API - Country Details can provide detailed country information, including holidays and working days. This API is the most relevant to fulfill the user's request about working days in Italy."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1509,
+    "total_tokens": 1593,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 590,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 184,
+      "service_ttlt_ms": 722,
+      "total_duration_ms": 622,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

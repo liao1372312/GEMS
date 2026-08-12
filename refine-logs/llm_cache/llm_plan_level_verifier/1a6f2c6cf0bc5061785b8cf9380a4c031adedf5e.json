@@ -1,0 +1,45 @@
+{
+  "record_id": "Finance_response_4457",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice 'Chaingateway.io - exportAddress' explicitly returns all Ethereum addresses created with an account, directly matching the step intent better than the semantic top-1.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is a stock sentiment API, not the Webull API as requested; semantic top-1 is unrelated but LLM choice does not match the step requirement to use Webull API.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice 'Chaingateway.io - exportAddress' explicitly returns all Ethereum addresses created with an account, directly matching the step intent better than the semantic top-1."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice is a stock sentiment API, not the Webull API as requested; semantic top-1 is unrelated but LLM choice does not match the step requirement to use Webull API."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 1012,
+    "total_tokens": 1158,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 2507,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 194,
+      "service_ttlt_ms": 2627,
+      "total_duration_ms": 2540,
+      "user_visible_ttft_ms": 96
+    }
+  }
+}

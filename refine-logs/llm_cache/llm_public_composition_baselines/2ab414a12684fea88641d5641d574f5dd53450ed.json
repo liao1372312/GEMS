@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7252",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide wisdom quotes about anger, Netflix original series list, or horoscope information. The top-ranked candidate is an eCommerce product search API unrelated to the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide wisdom quotes about anger, Netflix original series list, or horoscope information. The top-ranked candidate is an eCommerce product search API unrelated to the request."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 2082,
+    "total_tokens": 2139,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 303,
+      "user_visible_ttft_ms": 198,
+      "total_duration_ms": 1069,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 15,
+      "service_ttlt_ms": 1162,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 978,
+      "engine_tbt_ms": 16
+    }
+  }
+}

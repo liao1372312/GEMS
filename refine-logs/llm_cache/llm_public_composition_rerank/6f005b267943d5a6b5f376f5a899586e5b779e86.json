@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The subtask requires retrieving detailed recipe information including ingredients and method using the Recipe API with the dish name as input. Among the candidates, the 'Recipe Finder - dinner/ingredient' API is a food domain API that returns recipes with ingredients and instructions, matching the subtask intent. It requires an ingredient parameter, which can be bound to the dish_name input or adapted accordingly. This API is specific to recipes, unlike broad or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The subtask requires retrieving detailed recipe information including ingredients and method using the Recipe API with the dish name as input. Among the candidates, the 'Recipe Finder - dinner/ingredient' API is a food domain API that returns recipes with ingredients and instructions, matching the subtask intent. It requires an ingredient parameter, which can be bound to the dish_name input or adapted accordingly. This API is specific to recipes, unlike broad or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 2074,
+    "total_tokens": 2184,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 1633,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 233,
+      "service_ttlt_ms": 1850,
+      "total_duration_ms": 1730,
+      "user_visible_ttft_ms": 111
+    }
+  }
+}

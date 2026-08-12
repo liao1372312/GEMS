@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8358",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask explicitly requires fetching book details using the Shopee API, and the first candidate is the only one in the education domain that might relate to product data, though its description is vague. Other APIs are unrelated to books or Shopee. Despite limited description, candidate 1 is the best fit given the domain and intent.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask explicitly requires fetching book details using the Shopee API, and the first candidate is the only one in the education domain that might relate to product data, though its description is vague. Other APIs are unrelated to books or Shopee. Despite limited description, candidate 1 is the best fit given the domain and intent."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1906,
+    "total_tokens": 1994,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 1287,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 202,
+      "service_ttlt_ms": 1430,
+      "total_duration_ms": 1328,
+      "user_visible_ttft_ms": 90
+    }
+  }
+}

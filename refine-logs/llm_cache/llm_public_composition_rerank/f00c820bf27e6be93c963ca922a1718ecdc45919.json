@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2643",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The subtask requires detailed information about specific payment card data such as type, limits, and associations. Candidate 4 directly provides detailed information for a specific payment card by card number, which matches the subtask intent and required input 'payment_card_data'. It is more specific than general pagination or employee-based card queries, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The subtask requires detailed information about specific payment card data such as type, limits, and associations. Candidate 4 directly provides detailed information for a specific payment card by card number, which matches the subtask intent and required input 'payment_card_data'. It is more specific than general pagination or employee-based card queries, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 2292,
+    "total_tokens": 2378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1317,
+      "pre_inference_ms": 244,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 395,
+      "service_ttlt_ms": 1630,
+      "total_duration_ms": 1397,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

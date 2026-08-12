@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5053",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":4,\"confidence\":1.0,\"rationale\":\"The subtask is to fetch zip code details for cities, and among the candidates, only the 'Homeless Shelter - By Zip Code' API directly deals with zip code data. Although it focuses on homeless shelters by zip code, it is the only API related to zip code information. Other APIs are focused on Amazon product data or unrelated domains. Therefore, this API best satisfies the subtask intent and required inputs.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "The subtask is to fetch zip code details for cities, and among the candidates, only the 'Homeless Shelter - By Zip Code' API directly deals with zip code data. Although it focuses on homeless shelters by zip code, it is the only API related to zip code information. Other APIs are focused on Amazon product data or unrelated domains. Therefore, this API best satisfies the subtask intent and required inputs."
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 1878,
+    "total_tokens": 1978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 171,
+      "engine_ttlt_ms": 1946,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 301,
+      "service_ttlt_ms": 2071,
+      "total_duration_ms": 1979,
+      "user_visible_ttft_ms": 200
+    }
+  }
+}

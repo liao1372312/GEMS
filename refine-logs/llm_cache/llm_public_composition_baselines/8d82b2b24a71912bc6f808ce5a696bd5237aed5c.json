@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_409",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"None of the candidates provide jokes, but the first API is the closest to entertainment content, so it is the best available option for fetching random jokes.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "None of the candidates provide jokes, but the first API is the closest to entertainment content, so it is the best available option for fetching random jokes."
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 1437,
+    "total_tokens": 1489,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 51
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1427
+    }
+  }
+}

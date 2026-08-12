@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_600",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided candidates are relevant to collecting information on the cultural significance of Italian expressions for tourism. No suitable API is available in the candidates.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided candidates are relevant to collecting information on the cultural significance of Italian expressions for tourism. No suitable API is available in the candidates."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1755,
+    "total_tokens": 1806,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 520,
+      "pre_inference_ms": 163,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 280,
+      "service_ttlt_ms": 726,
+      "total_duration_ms": 571,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

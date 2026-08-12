@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"This API provides real-time social sentiment and news activity related to a specific stock, which aligns well with the requirement to gather real-time performance data for the identified stock.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "This API provides real-time social sentiment and news activity related to a specific stock, which aligns well with the requirement to gather real-time performance data for the identified stock."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 1517,
+    "total_tokens": 1572,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 408,
+      "user_visible_ttft_ms": 201,
+      "total_duration_ms": 1084,
+      "pre_inference_ms": 207,
+      "service_tbt_ms": 16,
+      "service_ttlt_ms": 1272,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 488,
+      "engine_tbt_ms": 8
+    }
+  }
+}

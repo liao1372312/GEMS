@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3143",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.7, \"rationale\": \"Among the given APIs, the 'Drug Info and Price History - Drug Info' API is the only one in the Medical domain, which is closest to the user's request about fasting and health-related guidelines. Although it focuses on drug information, it is more relevant than finance, entertainment, or unrelated domains. No API specifically about Ramadan fasting is available, so this is the best fit to potentially provide health-related exemptions or guidelines.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.7,
+    "rationale": "Among the given APIs, the 'Drug Info and Price History - Drug Info' API is the only one in the Medical domain, which is closest to the user's request about fasting and health-related guidelines. Although it focuses on drug information, it is more relevant than finance, entertainment, or unrelated domains. No API specifically about Ramadan fasting is available, so this is the best fit to potentially provide health-related exemptions or guidelines."
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 1537,
+    "total_tokens": 1643,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1587,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 170,
+      "service_ttlt_ms": 1729,
+      "total_duration_ms": 1646,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

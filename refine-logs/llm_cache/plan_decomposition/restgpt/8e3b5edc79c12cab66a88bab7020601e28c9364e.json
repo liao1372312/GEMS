@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Obtain a list of cities to explore climate data for\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve climate data for each selected city\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"city name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Obtain a list of cities to explore climate data for",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve climate data for each selected city",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "city name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Obtain a list of cities to explore climate data for",
+      "domain": "Cross-Domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve climate data for each selected city",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "city name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 169,
+    "total_tokens": 264,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1710,
+      "pre_inference_ms": 81,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 159,
+      "service_ttlt_ms": 1817,
+      "total_duration_ms": 1744,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

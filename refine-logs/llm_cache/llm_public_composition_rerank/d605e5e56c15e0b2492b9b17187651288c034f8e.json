@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6843",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 1.0, \"rationale\": \"The API 'manatee jokes - random' directly provides random manatee jokes, exactly matching the subtask requirement to fetch a random manatee joke. It requires no parameters and is specific to manatee jokes, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 1.0,
+    "rationale": "The API 'manatee jokes - random' directly provides random manatee jokes, exactly matching the subtask requirement to fetch a random manatee joke. It requires no parameters and is specific to manatee jokes, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1242,
+    "total_tokens": 1312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 67,
+      "engine_ttlt_ms": 1099,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 293,
+      "service_ttlt_ms": 1318,
+      "total_duration_ms": 1225,
+      "user_visible_ttft_ms": 166
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2371",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Rugby Live Data - Standings' API directly provides rugby fixtures and standings for a given season and competition, matching the subtask to fetch 2020 rugby season fixtures. It requires parameters that can be defaulted to the 2020 season and a competition ID, which aligns with the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Rugby Live Data - Standings' API directly provides rugby fixtures and standings for a given season and competition, matching the subtask to fetch 2020 rugby season fixtures. It requires parameters that can be defaulted to the 2020 season and a competition ID, which aligns with the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 1745,
+    "total_tokens": 1832,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 71,
+      "engine_ttlt_ms": 1499,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 1675,
+      "total_duration_ms": 1581,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

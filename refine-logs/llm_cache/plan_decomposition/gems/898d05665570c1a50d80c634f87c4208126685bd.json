@@ -1,0 +1,76 @@
+{
+  "record_id": "Cross_Domain_response_1040",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the race dates, locations, and names for all races in the current Formula 1 season\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the current driver standings for the ongoing Formula 1 season\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the race dates, locations, and names for all races in the current Formula 1 season",
+        "domain": "Sports",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get the current driver standings for the ongoing Formula 1 season",
+        "domain": "Sports",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the race dates, locations, and names for all races in the current Formula 1 season",
+      "domain": "Sports",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Get the current driver standings for the ongoing Formula 1 season",
+      "domain": "Sports",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 2047,
+    "total_tokens": 2148,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1334,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 249,
+      "service_ttlt_ms": 1520,
+      "total_duration_ms": 1440,
+      "user_visible_ttft_ms": 155
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the race dates, locations, and names for the current Formula 1 season",
+        "domain": "Sports",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Get the current driver standings for the Formula 1 season",
+        "domain": "Sports",
+        "required_inputs": []
+      }
+    ]
+  }
+}

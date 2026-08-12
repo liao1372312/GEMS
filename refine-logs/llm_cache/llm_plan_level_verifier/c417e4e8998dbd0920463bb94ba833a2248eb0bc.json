@@ -1,0 +1,45 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"The LLM choice provides an API that can return random quotes including villain quotes, directly matching the step intent, whereas the semantic top-1 API only lists categories and does not provide quotes.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"Neither semantic top-1 nor LLM choice provide interesting facts about numbers; the LLM choice is unrelated motivational quotes, so keep semantic top-1 by default but note no suitable API.\"}],\"workflow_confidence\":0.6}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "The LLM choice provides an API that can return random quotes including villain quotes, directly matching the step intent, whereas the semantic top-1 API only lists categories and does not provide quotes."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Neither semantic top-1 nor LLM choice provide interesting facts about numbers; the LLM choice is unrelated motivational quotes, so keep semantic top-1 by default but note no suitable API."
+      }
+    ],
+    "workflow_confidence": 0.6
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 1133,
+    "total_tokens": 1252,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 266,
+      "user_visible_ttft_ms": 152,
+      "total_duration_ms": 1600,
+      "pre_inference_ms": 115,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 1704,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 1550,
+      "engine_tbt_ms": 12
+    }
+  }
+}

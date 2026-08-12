@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5322",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"Candidate 2 is the only finance-related API that could potentially provide credit score information, matching the subtask requirement to retrieve the credit score for the specified company.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "Candidate 2 is the only finance-related API that could potentially provide credit score information, matching the subtask requirement to retrieve the credit score for the specified company."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1458,
+    "total_tokens": 1512,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 449,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 642,
+      "total_duration_ms": 528,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

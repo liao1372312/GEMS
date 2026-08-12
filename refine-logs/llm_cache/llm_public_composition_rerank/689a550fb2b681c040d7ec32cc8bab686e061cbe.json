@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5073",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 1.0, \"rationale\": \"The subtask is to check the availability of the username 'travelbuddies' on Instagram. The API 'Check Username - Instagram' directly satisfies this intent and requires the username parameter, which can be bound from the subtask description.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 1.0,
+    "rationale": "The subtask is to check the availability of the username 'travelbuddies' on Instagram. The API 'Check Username - Instagram' directly satisfies this intent and requires the username parameter, which can be bound from the subtask description."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1687,
+    "total_tokens": 1757,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 745,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 189,
+      "service_ttlt_ms": 870,
+      "total_duration_ms": 782,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

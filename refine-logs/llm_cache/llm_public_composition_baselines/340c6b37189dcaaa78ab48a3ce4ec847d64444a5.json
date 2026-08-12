@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_566",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The AI Trip Planner API directly supports generating personalized trip plans including routes and attractions, matching the subtask requirements best.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The AI Trip Planner API directly supports generating personalized trip plans including routes and attractions, matching the subtask requirements best."
+  },
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 1550,
+    "total_tokens": 1595,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 246,
+      "user_visible_ttft_ms": 122,
+      "total_duration_ms": 642,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 754,
+      "engine_ttft_ms": 51,
+      "engine_ttlt_ms": 567,
+      "engine_tbt_ms": 11
+    }
+  }
+}

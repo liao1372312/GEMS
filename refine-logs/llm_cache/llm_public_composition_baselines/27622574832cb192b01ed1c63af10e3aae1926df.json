@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3742",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"This API specifically supports fetching a random Mediterranean recipe with a specified ingredient, such as fish, which matches the subtask requirements perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "This API specifically supports fetching a random Mediterranean recipe with a specified ingredient, such as fish, which matches the subtask requirements perfectly."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1685,
+    "total_tokens": 1733,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 72,
+      "engine_ttft_ms": 4974,
+      "engine_ttlt_ms": 8436,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 72,
+      "service_ttft_ms": 6431,
+      "service_ttlt_ms": 9885,
+      "total_duration_ms": 9794,
+      "user_visible_ttft_ms": 6329
+    }
+  }
+}

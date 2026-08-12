@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Overall performance on the main service composition benchmark. Exec.SR and Retry require live execution or repair traces and are not available for the public benchmark.}
+\label{tab:main-results}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccccc}
+\toprule
+Method & Plan.Acc $\uparrow$ & API.Acc $\uparrow$ & Para.F1 $\uparrow$ & Exec.SR $\uparrow$ & HalluRate $\downarrow$ & Retry $\downarrow$ \\
+\midrule
+Direct-LLM & -- & -- & -- & -- & -- & -- \\
+CoT-LLM & -- & -- & -- & -- & -- & -- \\
+ReAct & -- & -- & -- & -- & -- & -- \\
+RestGPT-style & -- & -- & -- & -- & -- & -- \\
+MA-NoMem & -- & -- & -- & -- & -- & -- \\
+Trace-RAG & 0.1961 & 0.4795 & 0.6274 & -- & \textbf{0.0000} & -- \\
+StructMem-RAG & 0.0980 & 0.2603 & 0.4183 & -- & \textbf{0.0000} & -- \\
+GraphRAG-static & 0.0980 & 0.3425 & 0.5073 & -- & \textbf{0.0000} & -- \\
+Reflexion-Memory & \textbf{0.2745} & \textbf{0.5411} & \textbf{0.6740} & -- & \textbf{0.0000} & -- \\
+\textsc{GEMS} & 0.1961 & 0.4932 & 0.5772 & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

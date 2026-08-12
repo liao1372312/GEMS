@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5265",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Fidelity Investments - news/list-top API provides the latest top news from Fidelity Investments, which matches the user's request for top news from Fidelity. It also supports international market information. For US public holidays in 2022, this API does not provide that data, but it is the best fit for the main part of the request.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Fidelity Investments - news/list-top API provides the latest top news from Fidelity Investments, which matches the user's request for top news from Fidelity. It also supports international market information. For US public holidays in 2022, this API does not provide that data, but it is the best fit for the main part of the request."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1334,
+    "total_tokens": 1422,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 974,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 177,
+      "service_ttlt_ms": 1243,
+      "total_duration_ms": 1219,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}

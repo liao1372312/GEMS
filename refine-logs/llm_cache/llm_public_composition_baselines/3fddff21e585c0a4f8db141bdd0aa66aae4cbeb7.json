@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_999",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user specifically requests the current exchange rate from USD to JPY, and candidate 1 is a dedicated currency conversion API with required parameters matching the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user specifically requests the current exchange rate from USD to JPY, and candidate 1 is a dedicated currency conversion API with required parameters matching the request."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1215,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 533,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 302,
+      "service_ttlt_ms": 774,
+      "total_duration_ms": 672,
+      "user_visible_ttft_ms": 192
+    }
+  }
+}

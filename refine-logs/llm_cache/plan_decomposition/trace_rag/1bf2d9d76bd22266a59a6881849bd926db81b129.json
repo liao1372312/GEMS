@@ -1,0 +1,66 @@
+{
+  "record_id": "Finance_response_3009",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the current exchange rates for a set of different currencies.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the current exchange rate from EUR to USD.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"source_currency\", \"target_currency\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the current exchange rates for a set of different currencies.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the current exchange rate from EUR to USD.",
+        "domain": "Finance",
+        "required_inputs": [
+          "source_currency",
+          "target_currency"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the current exchange rates for a set of different currencies.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the current exchange rate from EUR to USD.",
+      "domain": "Finance",
+      "required_inputs": [
+        "source_currency",
+        "target_currency"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 295,
+    "total_tokens": 392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 563,
+      "engine_ttlt_ms": 2000,
+      "pre_inference_ms": 131,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 752,
+      "service_ttlt_ms": 2180,
+      "total_duration_ms": 2059,
+      "user_visible_ttft_ms": 621
+    }
+  }
+}

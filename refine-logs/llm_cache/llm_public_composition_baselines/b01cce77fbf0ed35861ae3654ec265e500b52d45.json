@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3318",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs match the task of finding webcams near famous landmarks for a virtual tour.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs match the task of finding webcams near famous landmarks for a virtual tour."
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 1257,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 351,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 270,
+      "service_ttlt_ms": 570,
+      "total_duration_ms": 466,
+      "user_visible_ttft_ms": 143
+    }
+  }
+}

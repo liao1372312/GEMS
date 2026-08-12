@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2079",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":3,\"confidence\":0.9,\"rationale\":\"The Mexican Food DB provides recipes with IDs and images, allowing detailed recipe retrieval by ID, which fits the subtask of searching for a dessert recipe by its ID. It is a specific food recipe API, unlike generic or unrelated domain APIs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Mexican Food DB provides recipes with IDs and images, allowing detailed recipe retrieval by ID, which fits the subtask of searching for a dessert recipe by its ID. It is a specific food recipe API, unlike generic or unrelated domain APIs."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1549,
+    "total_tokens": 1614,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 1112,
+      "pre_inference_ms": 106,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 242,
+      "service_ttlt_ms": 1267,
+      "total_duration_ms": 1274,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

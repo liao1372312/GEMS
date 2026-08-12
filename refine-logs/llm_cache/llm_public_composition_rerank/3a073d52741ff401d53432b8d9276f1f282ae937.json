@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_760",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Shazam API - songs/list-recommendations endpoint is designed to retrieve a list of songs related to a given song or playlist ID, which aligns well with the subtask of retrieving the list of songs in the found playlist and identifying the most popular song. It requires an 'id' parameter that can be bound from the playlist ID input. Other music APIs either do not accept playlist ID or are unrelated to playlist song listing.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Shazam API - songs/list-recommendations endpoint is designed to retrieve a list of songs related to a given song or playlist ID, which aligns well with the subtask of retrieving the list of songs in the found playlist and identifying the most popular song. It requires an 'id' parameter that can be bound from the playlist ID input. Other music APIs either do not accept playlist ID or are unrelated to playlist song listing."
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 2307,
+    "total_tokens": 2415,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 341,
+      "user_visible_ttft_ms": 166,
+      "total_duration_ms": 1759,
+      "pre_inference_ms": 175,
+      "service_tbt_ms": 15,
+      "service_ttlt_ms": 1922,
+      "engine_ttft_ms": 95,
+      "engine_ttlt_ms": 1683,
+      "engine_tbt_ms": 15
+    }
+  }
+}

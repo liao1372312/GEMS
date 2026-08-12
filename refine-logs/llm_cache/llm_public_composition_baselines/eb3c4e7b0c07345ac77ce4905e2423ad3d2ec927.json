@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_79",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user specifically requested vaccination guidelines for adults to ensure a safe environment, which is a medical-related query. Among the candidates, none directly provide vaccination guidelines or medical professional lists. However, the highest-ranked API is unrelated to medical information, and no suitable API is available for vaccination guidelines. Given the options, none fit the request well, but the top-ranked API is selected by default with low confidence.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user specifically requested vaccination guidelines for adults to ensure a safe environment, which is a medical-related query. Among the candidates, none directly provide vaccination guidelines or medical professional lists. However, the highest-ranked API is unrelated to medical information, and no suitable API is available for vaccination guidelines. Given the options, none fit the request well, but the top-ranked API is selected by default with low confidence."
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 1425,
+    "total_tokens": 1527,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 1025,
+      "pre_inference_ms": 187,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 385,
+      "service_ttlt_ms": 1337,
+      "total_duration_ms": 1162,
+      "user_visible_ttft_ms": 197
+    }
+  }
+}

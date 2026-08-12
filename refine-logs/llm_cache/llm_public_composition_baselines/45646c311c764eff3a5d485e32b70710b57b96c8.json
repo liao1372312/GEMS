@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_2949",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"API rank 9 provides real-time market capitalization data for cryptocurrencies, which aligns with the request for current market capitalization and real-time rates of popular cryptocurrencies. However, it does not cover Japanese stock market capitalization, but it is the best fit among candidates.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "API rank 9 provides real-time market capitalization data for cryptocurrencies, which aligns with the request for current market capitalization and real-time rates of popular cryptocurrencies. However, it does not cover Japanese stock market capitalization, but it is the best fit among candidates."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1576,
+    "total_tokens": 1648,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 32,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 2355,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 32,
+      "service_ttft_ms": 243,
+      "service_ttlt_ms": 2515,
+      "total_duration_ms": 2412,
+      "user_visible_ttft_ms": 133
+    }
+  }
+}

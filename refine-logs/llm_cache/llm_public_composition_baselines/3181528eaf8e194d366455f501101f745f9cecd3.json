@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1369",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Unofficial Trust Pilot API provides detailed business information and reviews, suitable for fetching business details and photos of tourist attractions near Eiffel Tower.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Unofficial Trust Pilot API provides detailed business information and reviews, suitable for fetching business details and photos of tourist attractions near Eiffel Tower."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1607,
+    "total_tokens": 1656,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 528,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 156,
+      "service_ttlt_ms": 641,
+      "total_duration_ms": 558,
+      "user_visible_ttft_ms": 67
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "record_id": "Technology_response_5297",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly matches the step by collecting manatee jokes, unlike the semantic top-1 which is unrelated.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    }\n  ],\n  \"workflow_confidence\": 1\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice directly matches the step by collecting manatee jokes, unlike the semantic top-1 which is unrelated."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      }
+    ],
+    "workflow_confidence": 1
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 844,
+    "total_tokens": 952,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1289,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 325,
+      "service_ttlt_ms": 1499,
+      "total_duration_ms": 1399,
+      "user_visible_ttft_ms": 217
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for foods using the keywords relevant to the dinner party such as 'chicken', 'broccoli', and 'rice' to gather a list of food items.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"query\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the nutritional information for each selected food item identified by their FDC ID from the search results.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"FDC_ID\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for foods using the keywords relevant to the dinner party such as 'chicken', 'broccoli', and 'rice' to gather a list of food items.",
+        "domain": "Medical",
+        "required_inputs": [
+          "query"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the nutritional information for each selected food item identified by their FDC ID from the search results.",
+        "domain": "Medical",
+        "required_inputs": [
+          "FDC_ID"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for foods using the keywords relevant to the dinner party such as 'chicken', 'broccoli', and 'rice' to gather a list of food items.",
+      "domain": "Medical",
+      "required_inputs": [
+        "query"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the nutritional information for each selected food item identified by their FDC ID from the search results.",
+      "domain": "Medical",
+      "required_inputs": [
+        "FDC_ID"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 2529,
+    "total_tokens": 2656,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 70,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 8964,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 70,
+      "service_ttft_ms": 186,
+      "service_ttlt_ms": 9089,
+      "total_duration_ms": 9005,
+      "user_visible_ttft_ms": 88
+    }
+  },
+  "refined_from": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for foods relevant to the dinner party using appropriate keywords to gather a list of food items.",
+        "domain": "Medical",
+        "required_inputs": [
+          "keywords"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the nutritional information for each selected food item identified in the search step.",
+        "domain": "Medical",
+        "required_inputs": [
+          "FDC_ID"
+        ]
+      }
+    ]
+  }
+}

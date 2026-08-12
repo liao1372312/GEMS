@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_9",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":3,\"confidence\":0.9,\"rationale\":\"Zillow Data v2 - Autocomplete API is a real estate-specific API that provides location-based search for properties, directly satisfying the subtask to query information about houses in Los Angeles. It accepts a 'text' parameter which can be bound to 'Los Angeles' from the required inputs. This is more specific and relevant than generic content or search APIs.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "Zillow Data v2 - Autocomplete API is a real estate-specific API that provides location-based search for properties, directly satisfying the subtask to query information about houses in Los Angeles. It accepts a 'text' parameter which can be bound to 'Los Angeles' from the required inputs. This is more specific and relevant than generic content or search APIs."
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1762,
+    "total_tokens": 1850,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 1161,
+      "pre_inference_ms": 131,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 273,
+      "service_ttlt_ms": 1352,
+      "total_duration_ms": 1232,
+      "user_visible_ttft_ms": 142
+    }
+  }
+}

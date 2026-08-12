@@ -1,0 +1,64 @@
+{
+  "record_id": "Cross_Domain_response_6284",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for a random word containing the substring 'game' to use as inspiration for board game selection\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Use the selected word to query a gaming website for board game reviews related to that word\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": [\"word\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for a random word containing the substring 'game' to use as inspiration for board game selection",
+        "domain": "recreation",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Use the selected word to query a gaming website for board game reviews related to that word",
+        "domain": "recreation",
+        "required_inputs": [
+          "word"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for a random word containing the substring 'game' to use as inspiration for board game selection",
+      "domain": "recreation",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Use the selected word to query a gaming website for board game reviews related to that word",
+      "domain": "recreation",
+      "required_inputs": [
+        "word"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 182,
+    "total_tokens": 292,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1505,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 162,
+      "service_ttlt_ms": 1638,
+      "total_duration_ms": 1557,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

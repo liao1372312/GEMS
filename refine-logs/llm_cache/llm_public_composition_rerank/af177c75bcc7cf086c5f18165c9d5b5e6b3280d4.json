@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_808",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'mymappi - Search places' API directly supports searching for nearby points of interest around a given location within a specified radius, which matches the subtask of retrieving nearby attractions and activities. It requires latitude, longitude, and radius parameters, which can be derived from the user request location 'Sydney' and a chosen radius. This API is specific to location-based place search, making it more suitable than broader or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'mymappi - Search places' API directly supports searching for nearby points of interest around a given location within a specified radius, which matches the subtask of retrieving nearby attractions and activities. It requires latitude, longitude, and radius parameters, which can be derived from the user request location 'Sydney' and a chosen radius. This API is specific to location-based place search, making it more suitable than broader or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 1934,
+    "total_tokens": 2042,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1522,
+      "pre_inference_ms": 72,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 140,
+      "service_ttlt_ms": 1615,
+      "total_duration_ms": 1550,
+      "user_visible_ttft_ms": 68
+    }
+  }
+}

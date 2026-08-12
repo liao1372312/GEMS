@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2397",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The subtask is to check the consent status of phone numbers, which relates to contact information. The 'Upcall - fetchSpecificContact' API is designed to get a specific contact by ID, which is the closest to checking consent status of phone numbers among the given options. Although it requires a contact ID rather than a phone number directly, it is the most relevant and specific API for contact-related queries in the communication domain, unlike other APIs that require campaign or webhook IDs or are unrelated.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The subtask is to check the consent status of phone numbers, which relates to contact information. The 'Upcall - fetchSpecificContact' API is designed to get a specific contact by ID, which is the closest to checking consent status of phone numbers among the given options. Although it requires a contact ID rather than a phone number directly, it is the most relevant and specific API for contact-related queries in the communication domain, unlike other APIs that require campaign or webhook IDs or are unrelated."
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 1997,
+    "total_tokens": 2117,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 1907,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 364,
+      "service_ttlt_ms": 2188,
+      "total_duration_ms": 2070,
+      "user_visible_ttft_ms": 237
+    }
+  }
+}

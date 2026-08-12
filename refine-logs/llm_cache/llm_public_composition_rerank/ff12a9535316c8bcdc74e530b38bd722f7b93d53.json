@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "step_id": 10,
+  "raw": "{\"selected_rank\":9,\"confidence\":0.9,\"rationale\":\"The subtask is to fetch historical weather records for Madrid, requiring climate/weather data by city name. Candidate 9 (RapidWeather - Coordinates by location name) provides historical weather data and accepts city name as input, directly matching the subtask intent. It is more specific to weather data than other broader location or air quality APIs.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "The subtask is to fetch historical weather records for Madrid, requiring climate/weather data by city name. Candidate 9 (RapidWeather - Coordinates by location name) provides historical weather data and accepts city name as input, directly matching the subtask intent. It is more specific to weather data than other broader location or air quality APIs."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 1810,
+    "total_tokens": 1893,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 217,
+      "user_visible_ttft_ms": 120,
+      "total_duration_ms": 1272,
+      "pre_inference_ms": 96,
+      "service_tbt_ms": 14,
+      "service_ttlt_ms": 1356,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 1207,
+      "engine_tbt_ms": 14
+    }
+  }
+}

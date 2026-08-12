@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidates relate to gaming or League of Legends champion abilities; no suitable API available for the current subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidates relate to gaming or League of Legends champion abilities; no suitable API available for the current subtask."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1675,
+    "total_tokens": 1721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 97,
+      "engine_ttlt_ms": 830,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 242,
+      "service_ttlt_ms": 954,
+      "total_duration_ms": 874,
+      "user_visible_ttft_ms": 155
+    }
+  }
+}

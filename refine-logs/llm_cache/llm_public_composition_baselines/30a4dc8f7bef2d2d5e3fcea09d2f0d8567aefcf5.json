@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_5648",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request includes fetching World of Tanks account statistics, and candidate rank 1 API directly provides detailed player stats for World of Tanks including battles, victories, defeats, and kills, matching the request perfectly. However, no candidate API matches the request for Diablo 4 druid gameplay videos, so only the World of Tanks stats API is selected.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request includes fetching World of Tanks account statistics, and candidate rank 1 API directly provides detailed player stats for World of Tanks including battles, victories, defeats, and kills, matching the request perfectly. However, no candidate API matches the request for Diablo 4 druid gameplay videos, so only the World of Tanks stats API is selected."
+  },
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 1753,
+    "total_tokens": 1844,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 1074,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 195,
+      "service_ttlt_ms": 1201,
+      "total_duration_ms": 1109,
+      "user_visible_ttft_ms": 97
+    }
+  }
+}

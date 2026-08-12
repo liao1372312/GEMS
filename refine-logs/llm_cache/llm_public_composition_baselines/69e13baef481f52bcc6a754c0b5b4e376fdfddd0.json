@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5444",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The WonderboyAPI provides recent racing information updates, which is relevant for retrieving recent horse racing statistics for 'ZANAHIYR'.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The WonderboyAPI provides recent racing information updates, which is relevant for retrieving recent horse racing statistics for 'ZANAHIYR'."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1563,
+    "total_tokens": 1613,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 521,
+      "pre_inference_ms": 180,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 402,
+      "service_ttlt_ms": 872,
+      "total_duration_ms": 701,
+      "user_visible_ttft_ms": 222
+    }
+  }
+}

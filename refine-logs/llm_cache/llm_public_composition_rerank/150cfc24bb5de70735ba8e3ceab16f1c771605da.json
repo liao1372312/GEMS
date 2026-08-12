@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_395",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 1.0, \"rationale\": \"The 'Drinking - Get random question' API provides random questions including challenges, which can include funny 'Would You Rather' questions. It directly satisfies the subtask to generate a funny 'Would You Rather' question and requires no parameters, making it the best fit.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 1.0,
+    "rationale": "The 'Drinking - Get random question' API provides random questions including challenges, which can include funny 'Would You Rather' questions. It directly satisfies the subtask to generate a funny 'Would You Rather' question and requires no parameters, making it the best fit."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1914,
+    "total_tokens": 1990,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 1044,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 230,
+      "service_ttlt_ms": 1177,
+      "total_duration_ms": 1095,
+      "user_visible_ttft_ms": 137
+    }
+  }
+}

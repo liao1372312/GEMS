@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3986",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Palmy Investing API allows querying multiple data points including asset allocation, stock statistics, dividends, splits, and press releases in one request, making it the best fit for the comprehensive data needed for ticker ID '913255598'.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Palmy Investing API allows querying multiple data points including asset allocation, stock statistics, dividends, splits, and press releases in one request, making it the best fit for the comprehensive data needed for ticker ID '913255598'."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1501,
+    "total_tokens": 1570,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 109,
+      "engine_ttlt_ms": 1131,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 337,
+      "service_ttlt_ms": 1347,
+      "total_duration_ms": 1220,
+      "user_visible_ttft_ms": 200
+    }
+  }
+}

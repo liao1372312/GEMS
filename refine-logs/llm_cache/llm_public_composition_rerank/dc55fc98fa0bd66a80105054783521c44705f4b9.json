@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_323",
+  "step_id": 3,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.9,\"rationale\":\"The subtask is to search for luxury hotels in London suitable for corporate retreats. The 'Google Search 2 - Google Maps Data ID' API allows querying place data by search query, which can be used to find luxury hotels in London. It directly satisfies the subtask intent and requires only a 'query' parameter that can be set to 'luxury hotels in London'. Other APIs are either unrelated or do not specifically provide hotel search functionality.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The subtask is to search for luxury hotels in London suitable for corporate retreats. The 'Google Search 2 - Google Maps Data ID' API allows querying place data by search query, which can be used to find luxury hotels in London. It directly satisfies the subtask intent and requires only a 'query' parameter that can be set to 'luxury hotels in London'. Other APIs are either unrelated or do not specifically provide hotel search functionality."
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 2462,
+    "total_tokens": 2568,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 366,
+      "engine_ttlt_ms": 2128,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 552,
+      "service_ttlt_ms": 2309,
+      "total_duration_ms": 2215,
+      "user_visible_ttft_ms": 450
+    }
+  }
+}

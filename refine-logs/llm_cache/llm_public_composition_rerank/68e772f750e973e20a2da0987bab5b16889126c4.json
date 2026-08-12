@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5378",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"The Recipe Finder API directly provides recipes along with their list of ingredients, which matches the subtask of compiling a list of ingredients for the selected recipes. It requires the ingredient parameter, which can be bound from the recipes obtained in Step 1. Other APIs are unrelated to food or recipes.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "The Recipe Finder API directly provides recipes along with their list of ingredients, which matches the subtask of compiling a list of ingredients for the selected recipes. It requires the ingredient parameter, which can be bound from the recipes obtained in Step 1. Other APIs are unrelated to food or recipes."
+  },
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 1986,
+    "total_tokens": 2066,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1396,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 317,
+      "service_ttlt_ms": 1759,
+      "total_duration_ms": 1682,
+      "user_visible_ttft_ms": 202
+    }
+  }
+}

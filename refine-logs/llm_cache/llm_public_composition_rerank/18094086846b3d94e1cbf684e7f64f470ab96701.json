@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2964",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Shazam - Search Track API directly supports searching for songs by artist or track name, which aligns with the subtask to gather MP3 files for songs by Taylor Swift and Ed Sheeran. It requires track name input, which can be derived from artist names and song titles. Other APIs are unrelated to music search or do not provide direct access to song files.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Shazam - Search Track API directly supports searching for songs by artist or track name, which aligns with the subtask to gather MP3 files for songs by Taylor Swift and Ed Sheeran. It requires track name input, which can be derived from artist names and song titles. Other APIs are unrelated to music search or do not provide direct access to song files."
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 1927,
+    "total_tokens": 2022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 101,
+      "engine_ttlt_ms": 1530,
+      "pre_inference_ms": 252,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 450,
+      "service_ttlt_ms": 2012,
+      "total_duration_ms": 1809,
+      "user_visible_ttft_ms": 198
+    }
+  }
+}

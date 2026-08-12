@@ -1,0 +1,80 @@
+{
+  "record_id": "Cross_Domain_response_503",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify a list of cities for which to explore climate data\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve climate data for each identified city\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"city names\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Aggregate and present the climate data for comparison\",\n      \"domain\": \"Cross-Domain\",\n      \"required_inputs\": [\"climate data for each city\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify a list of cities for which to explore climate data",
+        "domain": "Cross-Domain",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve climate data for each identified city",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "city names"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Aggregate and present the climate data for comparison",
+        "domain": "Cross-Domain",
+        "required_inputs": [
+          "climate data for each city"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify a list of cities for which to explore climate data",
+      "domain": "Cross-Domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve climate data for each identified city",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "city names"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Aggregate and present the climate data for comparison",
+      "domain": "Cross-Domain",
+      "required_inputs": [
+        "climate data for each city"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 170,
+    "total_tokens": 312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 1670,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 231,
+      "service_ttlt_ms": 1865,
+      "total_duration_ms": 1748,
+      "user_visible_ttft_ms": 107
+    }
+  }
+}

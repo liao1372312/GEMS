@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3049",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requested to fetch the current token forwarding transaction webhook to track financial activities related to the party, which aligns with the Finance domain. Among the candidates, the Palmy Investing API - keyfigures_retrieve (rank 2) is the best fit for financial data retrieval without restrictions and no required parameters, making it suitable for fetching relevant financial information.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requested to fetch the current token forwarding transaction webhook to track financial activities related to the party, which aligns with the Finance domain. Among the candidates, the Palmy Investing API - keyfigures_retrieve (rank 2) is the best fit for financial data retrieval without restrictions and no required parameters, making it suitable for fetching relevant financial information."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1608,
+    "total_tokens": 1701,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 919,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 1112,
+      "total_duration_ms": 1002,
+      "user_visible_ttft_ms": 140
+    }
+  }
+}

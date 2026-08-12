@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4421",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Google Translator - Languages API provides a direct GET endpoint to fetch the list of supported translation languages, matching the subtask to fetch Microsoft Translator Text API supported languages closely in functionality and domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Google Translator - Languages API provides a direct GET endpoint to fetch the list of supported translation languages, matching the subtask to fetch Microsoft Translator Text API supported languages closely in functionality and domain."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1089,
+    "total_tokens": 1149,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 559,
+      "pre_inference_ms": 170,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 282,
+      "service_ttlt_ms": 807,
+      "total_duration_ms": 670,
+      "user_visible_ttft_ms": 112
+    }
+  }
+}

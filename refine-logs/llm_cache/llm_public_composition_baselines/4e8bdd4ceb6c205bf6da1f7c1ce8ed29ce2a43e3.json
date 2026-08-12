@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3234",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The Alpaca Trading API provides the current market clock, which directly matches the subtask requirement to get the current market clock to check market status.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The Alpaca Trading API provides the current market clock, which directly matches the subtask requirement to get the current market clock to check market status."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1246,
+    "total_tokens": 1297,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 71,
+      "engine_ttft_ms": 749,
+      "engine_ttlt_ms": 4387,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 71,
+      "service_ttft_ms": 1678,
+      "service_ttlt_ms": 5310,
+      "total_duration_ms": 5209,
+      "user_visible_ttft_ms": 1568
+    }
+  }
+}

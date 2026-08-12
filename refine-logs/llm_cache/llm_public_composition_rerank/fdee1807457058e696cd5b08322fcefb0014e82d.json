@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7342",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Numbers - Get year fact' API provides interesting facts about numbers, including trivia about the number 42, and it accepts the required parameter 'number' which can be set to 42 to retrieve the trivia fact directly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Numbers - Get year fact' API provides interesting facts about numbers, including trivia about the number 42, and it accepts the required parameter 'number' which can be set to 42 to retrieve the trivia fact directly."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1938,
+    "total_tokens": 2006,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 281,
+      "user_visible_ttft_ms": 127,
+      "total_duration_ms": 1147,
+      "pre_inference_ms": 154,
+      "service_tbt_ms": 15,
+      "service_ttlt_ms": 1292,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1066,
+      "engine_tbt_ms": 15
+    }
+  }
+}

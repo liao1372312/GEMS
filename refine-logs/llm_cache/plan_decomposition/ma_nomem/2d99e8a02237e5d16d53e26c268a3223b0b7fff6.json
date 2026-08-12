@@ -1,0 +1,72 @@
+{
+  "record_id": "Tourism_response_492",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the main route and key cities between New York City and Los Angeles for the road trip\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find interesting landmarks and attractions located along the identified route and key cities\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"route\", \"key_cities\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the main route and key cities between New York City and Los Angeles for the road trip",
+        "domain": "Tourism",
+        "required_inputs": [
+          "start_location",
+          "end_location"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find interesting landmarks and attractions located along the identified route and key cities",
+        "domain": "Tourism",
+        "required_inputs": [
+          "route",
+          "key_cities"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the main route and key cities between New York City and Los Angeles for the road trip",
+      "domain": "Tourism",
+      "required_inputs": [
+        "start_location",
+        "end_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find interesting landmarks and attractions located along the identified route and key cities",
+      "domain": "Tourism",
+      "required_inputs": [
+        "route",
+        "key_cities"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 187,
+    "total_tokens": 304,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 2438,
+      "pre_inference_ms": 152,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 2655,
+      "total_duration_ms": 2514,
+      "user_visible_ttft_ms": 126
+    }
+  }
+}

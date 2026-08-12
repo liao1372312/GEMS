@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2860",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The user wants to find restaurants in Los Angeles for a team lunch, and the Wyre Data - Search restaurants by town API is designed to find restaurants within a town/city, matching the location-based restaurant search intent.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The user wants to find restaurants in Los Angeles for a team lunch, and the Wyre Data - Search restaurants by town API is designed to find restaurants within a town/city, matching the location-based restaurant search intent."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1393,
+    "total_tokens": 1459,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 648,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 795,
+      "total_duration_ms": 723,
+      "user_visible_ttft_ms": 132
+    }
+  }
+}

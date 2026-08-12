@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The taboo-api provides categories and game ideas suitable for unique and engaging team-building activities, which aligns well with the request for fun and unique options. Other APIs focus on sports events, which are less relevant to the user's request.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The taboo-api provides categories and game ideas suitable for unique and engaging team-building activities, which aligns well with the request for fun and unique options. Other APIs focus on sports events, which are less relevant to the user's request."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 2214,
+    "total_tokens": 2281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 553,
+      "pre_inference_ms": 169,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 298,
+      "service_ttlt_ms": 831,
+      "total_duration_ms": 669,
+      "user_visible_ttft_ms": 129
+    }
+  }
+}

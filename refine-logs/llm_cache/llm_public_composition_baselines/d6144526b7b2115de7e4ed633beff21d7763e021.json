@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3042",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"API rank 2 offers BMI calculation using both Imperial and Metric units and includes weight categorization based on BMI, matching the user's request closely.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "API rank 2 offers BMI calculation using both Imperial and Metric units and includes weight categorization based on BMI, matching the user's request closely."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1922,
+    "total_tokens": 1972,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 137,
+      "engine_ttlt_ms": 959,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 279,
+      "service_ttlt_ms": 1096,
+      "total_duration_ms": 1000,
+      "user_visible_ttft_ms": 172
+    }
+  }
+}

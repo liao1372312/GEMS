@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4072",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Skyscanner_v2 - Search Place API is in the travel domain and allows searching for places to get entityId needed for hotel searches, which aligns well with the subtask of finding good hotels in each city from the destination list.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The Skyscanner_v2 - Search Place API is in the travel domain and allows searching for places to get entityId needed for hotel searches, which aligns well with the subtask of finding good hotels in each city from the destination list."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1986,
+    "total_tokens": 2056,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 107,
+      "engine_ttlt_ms": 945,
+      "pre_inference_ms": 291,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 500,
+      "service_ttlt_ms": 1331,
+      "total_duration_ms": 1052,
+      "user_visible_ttft_ms": 209
+    }
+  }
+}

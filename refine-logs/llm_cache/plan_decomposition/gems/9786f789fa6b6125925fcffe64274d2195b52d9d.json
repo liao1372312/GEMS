@@ -1,0 +1,76 @@
+{
+  "record_id": "Tourism_response_4653",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Provide general travel information and tips for a trip to Rome.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Select a random Roman god to learn about.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve detailed information about the selected Roman god.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"name_of_roman_god\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Provide general travel information and tips for a trip to Rome.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Select a random Roman god to learn about.",
+        "domain": "tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 3,
+        "description": "Retrieve detailed information about the selected Roman god.",
+        "domain": "tourism",
+        "required_inputs": [
+          "name_of_roman_god"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Provide general travel information and tips for a trip to Rome.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Select a random Roman god to learn about.",
+      "domain": "tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Retrieve detailed information about the selected Roman god.",
+      "domain": "tourism",
+      "required_inputs": [
+        "name_of_roman_god"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 644,
+    "total_tokens": 781,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1785,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 238,
+      "service_ttlt_ms": 1974,
+      "total_duration_ms": 1876,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

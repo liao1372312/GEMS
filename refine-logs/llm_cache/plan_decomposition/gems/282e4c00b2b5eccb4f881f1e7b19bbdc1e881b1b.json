@@ -1,0 +1,68 @@
+{
+  "record_id": "Cross_Domain_response_755",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Recommend a vegan dinner dish from the 'List of Foods' API or a similar recipe API.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Provide a detailed recipe for the recommended vegan dinner dish including ingredients, method, and an image of the final dish.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"dish_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Recommend a vegan dinner dish from the 'List of Foods' API or a similar recipe API.",
+        "domain": "Food",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Provide a detailed recipe for the recommended vegan dinner dish including ingredients, method, and an image of the final dish.",
+        "domain": "Food",
+        "required_inputs": [
+          "dish_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Recommend a vegan dinner dish from the 'List of Foods' API or a similar recipe API.",
+      "domain": "Food",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Provide a detailed recipe for the recommended vegan dinner dish including ingredients, method, and an image of the final dish.",
+      "domain": "Food",
+      "required_inputs": [
+        "dish_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 2562,
+    "total_tokens": 2675,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1273,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 341,
+      "service_ttlt_ms": 1561,
+      "total_duration_ms": 1440,
+      "user_visible_ttft_ms": 214
+    }
+  },
+  "goal_hints": [
+    "I'm planning a vegan dinner party and need a recipe. Can you recommend a dish from the 'List of Foods' API",
+    "Then, provide me with a detailed recipe including the ingredients, method, and an image of the final dish"
+  ]
+}

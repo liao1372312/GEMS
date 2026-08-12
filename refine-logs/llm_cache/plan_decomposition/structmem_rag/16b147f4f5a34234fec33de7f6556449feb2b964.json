@@ -1,0 +1,64 @@
+{
+  "record_id": "Tourism_response_4345",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of major airports in the United States including their names, codes, and locations.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch detailed information about each airport such as facilities, transportation options, and nearby accommodations.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"list of airports\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of major airports in the United States including their names, codes, and locations.",
+        "domain": "Tourism",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch detailed information about each airport such as facilities, transportation options, and nearby accommodations.",
+        "domain": "Tourism",
+        "required_inputs": [
+          "list of airports"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of major airports in the United States including their names, codes, and locations.",
+      "domain": "Tourism",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch detailed information about each airport such as facilities, transportation options, and nearby accommodations.",
+      "domain": "Tourism",
+      "required_inputs": [
+        "list of airports"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 928,
+    "total_tokens": 1038,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1157,
+      "pre_inference_ms": 202,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 287,
+      "service_ttlt_ms": 1400,
+      "total_duration_ms": 1207,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

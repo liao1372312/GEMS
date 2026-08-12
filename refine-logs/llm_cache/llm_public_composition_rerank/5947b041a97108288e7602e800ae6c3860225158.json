@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The 'Crypto Arbitrage Trading - Get coin price difference' API provides real-time price data for a specific coin, which aligns with the subtask of gathering real-time performance data for a stock symbol. It requires a 'name' parameter that can be bound to the 'stock_symbol' input. This API is specific to financial real-time data, making it more suitable than generic or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The 'Crypto Arbitrage Trading - Get coin price difference' API provides real-time price data for a specific coin, which aligns with the subtask of gathering real-time performance data for a stock symbol. It requires a 'name' parameter that can be bound to the 'stock_symbol' input. This API is specific to financial real-time data, making it more suitable than generic or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 1777,
+    "total_tokens": 1878,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 167,
+      "engine_ttlt_ms": 1858,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 347,
+      "service_ttlt_ms": 2032,
+      "total_duration_ms": 1920,
+      "user_visible_ttft_ms": 225
+    }
+  }
+}

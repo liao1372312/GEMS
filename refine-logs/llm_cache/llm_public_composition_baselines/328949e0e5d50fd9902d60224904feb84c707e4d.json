@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_138",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Crypto News_v2 API supports keyword search for recent news articles, which can be used to fetch interesting news about Las Vegas by using 'Las Vegas' as the keyword. It matches the subtask of fetching news articles for itinerary planning.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Crypto News_v2 API supports keyword search for recent news articles, which can be used to fetch interesting news about Las Vegas by using 'Las Vegas' as the keyword. It matches the subtask of fetching news articles for itinerary planning."
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1846,
+    "total_tokens": 1916,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 967,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 160,
+      "service_ttlt_ms": 1074,
+      "total_duration_ms": 997,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

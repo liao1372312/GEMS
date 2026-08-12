@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4440",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"This API specifically provides recipes for dinner and allows searching by ingredient, which aligns well with finding romantic dinner recipes.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "This API specifically provides recipes for dinner and allows searching by ingredient, which aligns well with finding romantic dinner recipes."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1858,
+    "total_tokens": 1902,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 274,
+      "user_visible_ttft_ms": 148,
+      "total_duration_ms": 501,
+      "pre_inference_ms": 125,
+      "service_tbt_ms": 8,
+      "service_ttlt_ms": 596,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 384,
+      "engine_tbt_ms": 8
+    }
+  }
+}

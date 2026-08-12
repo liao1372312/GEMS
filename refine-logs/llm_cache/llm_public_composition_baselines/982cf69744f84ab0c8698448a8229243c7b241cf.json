@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3385",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The Football Prediction API provides historical odds and prediction details for football matches, matching the requirement to retrieve historical odds for the specified soccer event ID.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The Football Prediction API provides historical odds and prediction details for football matches, matching the requirement to retrieve historical odds for the specified soccer event ID."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1954,
+    "total_tokens": 2004,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 461,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 231,
+      "service_ttlt_ms": 634,
+      "total_duration_ms": 545,
+      "user_visible_ttft_ms": 128
+    }
+  }
+}

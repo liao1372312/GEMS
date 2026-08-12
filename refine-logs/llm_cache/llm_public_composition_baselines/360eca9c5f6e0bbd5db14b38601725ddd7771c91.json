@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_562",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request is about food ingredients and recipes, so the Food domain APIs are relevant. The top-ranked candidate is a recipe API that provides recipes by ingredient, which aligns well with the subtask of selecting a unique ingredient and suggesting a recipe. Although the user also wants nutritional information and a list of ingredients, the provided candidates focus on recipes by ingredient. The first candidate is suitable for suggesting a recipe showcasing a selected ingredient.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request is about food ingredients and recipes, so the Food domain APIs are relevant. The top-ranked candidate is a recipe API that provides recipes by ingredient, which aligns well with the subtask of selecting a unique ingredient and suggesting a recipe. Although the user also wants nutritional information and a list of ingredients, the provided candidates focus on recipes by ingredient. The first candidate is suitable for suggesting a recipe showcasing a selected ingredient."
+  },
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 1933,
+    "total_tokens": 2040,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1544,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 218,
+      "service_ttlt_ms": 1685,
+      "total_duration_ms": 1588,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

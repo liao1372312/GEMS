@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3349",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs romantic songs for an anniversary slideshow. None of the candidate APIs explicitly provide romantic songs, but the Philosophers API (rank 1) is unrelated to music. Other APIs are unrelated or for different domains. Since no direct music API is available, none perfectly fit, but rank 1 is the best available though not ideal. However, given the strict criteria, no candidate directly satisfies the subtask. But since one must be selected, rank 1 is chosen as it is unrelated to music but at least related to culture and history, which might help with quotes or context.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs romantic songs for an anniversary slideshow. None of the candidate APIs explicitly provide romantic songs, but the Philosophers API (rank 1) is unrelated to music. Other APIs are unrelated or for different domains. Since no direct music API is available, none perfectly fit, but rank 1 is the best available though not ideal. However, given the strict criteria, no candidate directly satisfies the subtask. But since one must be selected, rank 1 is chosen as it is unrelated to music but at least related to culture and history, which might help with quotes or context."
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1799,
+    "total_tokens": 1939,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 2385,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 211,
+      "service_ttlt_ms": 2526,
+      "total_duration_ms": 2419,
+      "user_visible_ttft_ms": 97
+    }
+  }
+}

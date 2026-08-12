@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5268",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Palmy Investing API - financial_ratios_retrieve endpoint is the best fit for retrieving historical stock prices data for the S&P 500 index, as it supports quantitative stock research and provides comprehensive financial data.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Palmy Investing API - financial_ratios_retrieve endpoint is the best fit for retrieving historical stock prices data for the S&P 500 index, as it supports quantitative stock research and provides comprehensive financial data."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1464,
+    "total_tokens": 1528,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 726,
+      "pre_inference_ms": 77,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 166,
+      "service_ttlt_ms": 827,
+      "total_duration_ms": 755,
+      "user_visible_ttft_ms": 89
+    }
+  }
+}

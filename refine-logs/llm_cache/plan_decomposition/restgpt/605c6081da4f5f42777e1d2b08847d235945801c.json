@@ -1,0 +1,90 @@
+{
+  "record_id": "Tourism_response_5275",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for venues or locations suitable for hosting a wine tasting event with cheese pairings\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"event type\", \"location\", \"preferences for cheese pairings\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find local suppliers or caterers that provide cheese pairings for wine tasting events\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\", \"event type\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Search for brewery tours available in New York\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Search for venues or locations suitable for hosting a wine tasting event with cheese pairings",
+        "domain": "Tourism",
+        "required_inputs": [
+          "event type",
+          "location",
+          "preferences for cheese pairings"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find local suppliers or caterers that provide cheese pairings for wine tasting events",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location",
+          "event type"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Search for brewery tours available in New York",
+        "domain": "Tourism",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Search for venues or locations suitable for hosting a wine tasting event with cheese pairings",
+      "domain": "Tourism",
+      "required_inputs": [
+        "event type",
+        "location",
+        "preferences for cheese pairings"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find local suppliers or caterers that provide cheese pairings for wine tasting events",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location",
+        "event type"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Search for brewery tours available in New York",
+      "domain": "Tourism",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 178,
+    "total_tokens": 341,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 2117,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 146,
+      "service_ttlt_ms": 2226,
+      "total_duration_ms": 2148,
+      "user_visible_ttft_ms": 63
+    }
+  }
+}

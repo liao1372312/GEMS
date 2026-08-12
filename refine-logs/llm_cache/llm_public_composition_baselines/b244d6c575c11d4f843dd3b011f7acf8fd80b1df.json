@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5265",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The user specifically requests top news from Fidelity Investments; this API lists top news from Fidelity without requiring parameters, matching the intent closely.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The user specifically requests top news from Fidelity Investments; this API lists top news from Fidelity without requiring parameters, matching the intent closely."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1327,
+    "total_tokens": 1375,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 687,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 162,
+      "service_ttlt_ms": 794,
+      "total_duration_ms": 720,
+      "user_visible_ttft_ms": 80
+    }
+  }
+}

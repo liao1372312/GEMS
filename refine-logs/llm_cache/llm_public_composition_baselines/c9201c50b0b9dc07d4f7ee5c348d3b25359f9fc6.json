@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7065",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate Kohls - stores/list API can list stores near the given GEO location, which matches the request to find stores within 25 miles of the specified longitude and latitude. However, no candidate directly supports searching product details by barcode, so this step focuses on store listing as per the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate Kohls - stores/list API can list stores near the given GEO location, which matches the request to find stores within 25 miles of the specified longitude and latitude. However, no candidate directly supports searching product details by barcode, so this step focuses on store listing as per the subtask."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 2049,
+    "total_tokens": 2133,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 177,
+      "engine_ttlt_ms": 1473,
+      "pre_inference_ms": 82,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 280,
+      "service_ttlt_ms": 1573,
+      "total_duration_ms": 1496,
+      "user_visible_ttft_ms": 198
+    }
+  }
+}

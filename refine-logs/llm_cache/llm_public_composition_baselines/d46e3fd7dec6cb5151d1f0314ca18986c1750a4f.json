@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3009",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"This API specifically provides a list of all currently available currency symbols, which matches the subtask requirement perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "This API specifically provides a list of all currently available currency symbols, which matches the subtask requirement perfectly."
+  },
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1180,
+    "total_tokens": 1223,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 26,
+      "engine_ttft_ms": 238,
+      "engine_ttlt_ms": 1341,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 26,
+      "service_ttft_ms": 439,
+      "service_ttlt_ms": 1536,
+      "total_duration_ms": 1447,
+      "user_visible_ttft_ms": 325
+    }
+  }
+}

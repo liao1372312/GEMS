@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6447",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The subtask requires querying logistics companies for office supplies delivery including service scope and contact info. The 'yiwugo product data - search shops' API can search shops by keyword, which is more specific to finding companies (shops) than product search APIs. It aligns with the logistics company list input and is in the eCommerce domain relevant to office supplies and delivery services.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The subtask requires querying logistics companies for office supplies delivery including service scope and contact info. The 'yiwugo product data - search shops' API can search shops by keyword, which is more specific to finding companies (shops) than product search APIs. It aligns with the logistics company list input and is in the eCommerce domain relevant to office supplies and delivery services."
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 2050,
+    "total_tokens": 2146,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 1347,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 224,
+      "service_ttlt_ms": 1498,
+      "total_duration_ms": 1399,
+      "user_visible_ttft_ms": 116
+    }
+  }
+}

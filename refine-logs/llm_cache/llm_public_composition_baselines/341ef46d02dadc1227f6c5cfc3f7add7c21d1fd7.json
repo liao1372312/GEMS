@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_562",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask requires finding or creating a recipe featuring a selected ingredient. Candidate rank 1 is about retrieving user's food preferences and ingredients, which is relevant to obtaining ingredient information. However, it does not directly provide recipes. Candidates ranked 7-10 provide recipe search by ingredient but require the selected ingredient as input, which is not yet provided. Since the subtask requires the selected ingredient as input, and no candidate directly matches the subtask without that input, the best match is candidate 1 to get ingredient info first, enabling the next step.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask requires finding or creating a recipe featuring a selected ingredient. Candidate rank 1 is about retrieving user's food preferences and ingredients, which is relevant to obtaining ingredient information. However, it does not directly provide recipes. Candidates ranked 7-10 provide recipe search by ingredient but require the selected ingredient as input, which is not yet provided. Since the subtask requires the selected ingredient as input, and no candidate directly matches the subtask without that input, the best match is candidate 1 to get ingredient info first, enabling the next step."
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 1925,
+    "total_tokens": 2057,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1569,
+      "pre_inference_ms": 95,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 180,
+      "service_ttlt_ms": 1704,
+      "total_duration_ms": 1615,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

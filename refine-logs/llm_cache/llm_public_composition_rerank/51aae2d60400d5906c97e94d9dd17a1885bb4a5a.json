@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2593",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 1.0, \"rationale\": \"The Tunisia API - Directions Between 2 Locations directly provides directions between two locations in Tunisia, including Sfax and Tunis, which matches the subtask perfectly. It requires latitude and longitude inputs, which can be obtained or are provided as defaults for these cities, making it the most specific and relevant API for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "The Tunisia API - Directions Between 2 Locations directly provides directions between two locations in Tunisia, including Sfax and Tunis, which matches the subtask perfectly. It requires latitude and longitude inputs, which can be obtained or are provided as defaults for these cities, making it the most specific and relevant API for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 1666,
+    "total_tokens": 1752,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 1072,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 348,
+      "service_ttlt_ms": 1356,
+      "total_duration_ms": 1269,
+      "user_visible_ttft_ms": 214
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "record_id": "Cross_Domain_response_7311",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random trivia fact about a number between 10 and 20 to impress colleagues.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"number_range\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find an album on Deezer that features various genres and has received positive reviews.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"genre_filter\", \"review_filter\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch a random trivia fact about a number between 10 and 20 to impress colleagues.",
+        "domain": "entertainment",
+        "required_inputs": [
+          "number_range"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Find an album on Deezer that features various genres and has received positive reviews.",
+        "domain": "entertainment",
+        "required_inputs": [
+          "genre_filter",
+          "review_filter"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch a random trivia fact about a number between 10 and 20 to impress colleagues.",
+      "domain": "entertainment",
+      "required_inputs": [
+        "number_range"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find an album on Deezer that features various genres and has received positive reviews.",
+      "domain": "entertainment",
+      "required_inputs": [
+        "genre_filter",
+        "review_filter"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 359,
+    "total_tokens": 475,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 26,
+      "engine_ttlt_ms": 830,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 244,
+      "service_ttlt_ms": 1040,
+      "total_duration_ms": 925,
+      "user_visible_ttft_ms": 121
+    }
+  }
+}

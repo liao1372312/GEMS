@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3353",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 1.0, \"rationale\": \"Candidate rank 4 directly provides detailed football match predictions for the specified match ID, matching the user's request precisely.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 1.0,
+    "rationale": "Candidate rank 4 directly provides detailed football match predictions for the specified match ID, matching the user's request precisely."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1755,
+    "total_tokens": 1799,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 372,
+      "pre_inference_ms": 150,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 270,
+      "service_ttlt_ms": 608,
+      "total_duration_ms": 466,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

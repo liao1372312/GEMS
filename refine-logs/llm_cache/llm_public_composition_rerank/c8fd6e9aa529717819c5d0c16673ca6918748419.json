@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8576",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"MusiclinkssApi - Search by query directly supports searching music content by song title and artist, which fits the subtask of fetching facts about 'Hotel California' by Eagles. It accepts query parameters that can be bound from the subtask inputs. Other APIs do not focus on song facts or comments from SongMeanings specifically, but this is the closest relevant music-specific API.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "MusiclinkssApi - Search by query directly supports searching music content by song title and artist, which fits the subtask of fetching facts about 'Hotel California' by Eagles. It accepts query parameters that can be bound from the subtask inputs. Other APIs do not focus on song facts or comments from SongMeanings specifically, but this is the closest relevant music-specific API."
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 1948,
+    "total_tokens": 2045,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 65,
+      "engine_ttlt_ms": 1583,
+      "pre_inference_ms": 148,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 263,
+      "service_ttlt_ms": 1772,
+      "total_duration_ms": 1633,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

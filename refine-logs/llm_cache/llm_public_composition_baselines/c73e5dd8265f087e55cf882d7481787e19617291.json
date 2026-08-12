@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides a GET endpoint to retrieve all users, which can be filtered or formatted to get a list of healthcare professionals for targeted mailing. Although it is from the Commerce domain, it is the closest match for obtaining a list of professionals. None of the other candidates provide healthcare professional lists or nutritional analysis. Combining this with a nutritional analysis API (not listed here) would fulfill the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides a GET endpoint to retrieve all users, which can be filtered or formatted to get a list of healthcare professionals for targeted mailing. Although it is from the Commerce domain, it is the closest match for obtaining a list of professionals. None of the other candidates provide healthcare professional lists or nutritional analysis. Combining this with a nutritional analysis API (not listed here) would fulfill the subtask."
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1775,
+    "total_tokens": 1878,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 63,
+      "engine_ttlt_ms": 1303,
+      "pre_inference_ms": 109,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 267,
+      "service_ttlt_ms": 1509,
+      "total_duration_ms": 1412,
+      "user_visible_ttft_ms": 159
+    }
+  }
+}

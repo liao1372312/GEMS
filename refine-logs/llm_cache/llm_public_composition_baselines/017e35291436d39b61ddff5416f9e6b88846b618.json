@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7311",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Programming Memes Images API is the only entertainment-related API that can provide random content, which may include various genres and positive reviews indirectly through popularity; other APIs do not match the request for an album on Deezer with various genres and positive reviews.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Programming Memes Images API is the only entertainment-related API that can provide random content, which may include various genres and positive reviews indirectly through popularity; other APIs do not match the request for an album on Deezer with various genres and positive reviews."
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 2316,
+    "total_tokens": 2388,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 6,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 478,
+      "pre_inference_ms": 110,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 180,
+      "service_ttlt_ms": 613,
+      "total_duration_ms": 509,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

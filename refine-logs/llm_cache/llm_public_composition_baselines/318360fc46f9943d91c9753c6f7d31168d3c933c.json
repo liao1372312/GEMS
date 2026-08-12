@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5324",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"This API converts currency and bitcoin prices to other currencies, suitable for comparing cryptocurrency prices with world currencies as required.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "This API converts currency and bitcoin prices to other currencies, suitable for comparing cryptocurrency prices with world currencies as required."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1118,
+    "total_tokens": 1162,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 310,
+      "user_visible_ttft_ms": 135,
+      "total_duration_ms": 535,
+      "pre_inference_ms": 175,
+      "service_tbt_ms": 9,
+      "service_ttlt_ms": 700,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 439,
+      "engine_tbt_ms": 9
+    }
+  }
+}

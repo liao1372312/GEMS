@@ -1,0 +1,55 @@
+{
+  "record_id": "Finance_response_3986",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Palmy Investing API) directly matches the need for detailed asset allocation data and supports ticker ID input, better than semantic top-1 which is a news API.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (YH Finance Complete - Stock Price) specifically retrieves detailed stock statistics for a given ticker, better matching the step than semantic top-1 which is broader Palmy Investing API.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Stock Prices - YTD Historical Daily Prices) explicitly provides dividend and split info for a ticker, directly satisfying the step better than semantic top-1 which is a news API.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"Semantic top-1 (Global Stock Market API Data - Get Latest News) is more appropriate for fetching latest press releases than LLM choice which is social sentiment content, less directly matching the step.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice (Palmy Investing API) directly matches the need for detailed asset allocation data and supports ticker ID input, better than semantic top-1 which is a news API."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (YH Finance Complete - Stock Price) specifically retrieves detailed stock statistics for a given ticker, better matching the step than semantic top-1 which is broader Palmy Investing API."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice (Stock Prices - YTD Historical Daily Prices) explicitly provides dividend and split info for a ticker, directly satisfying the step better than semantic top-1 which is a news API."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "Semantic top-1 (Global Stock Market API Data - Get Latest News) is more appropriate for fetching latest press releases than LLM choice which is social sentiment content, less directly matching the step."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 275,
+    "prompt_tokens": 1825,
+    "total_tokens": 2100,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 3155,
+      "pre_inference_ms": 168,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 359,
+      "service_ttlt_ms": 3393,
+      "total_duration_ms": 3235,
+      "user_visible_ttft_ms": 191
+    }
+  }
+}

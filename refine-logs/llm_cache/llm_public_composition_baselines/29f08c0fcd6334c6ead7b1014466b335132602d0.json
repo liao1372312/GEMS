@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2982",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to team-building activities or restaurants in London; they mostly provide sports or gaming data unrelated to the user's request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to team-building activities or restaurants in London; they mostly provide sports or gaming data unrelated to the user's request."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 2177,
+    "total_tokens": 2227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 902,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 256,
+      "service_ttlt_ms": 1093,
+      "total_duration_ms": 989,
+      "user_visible_ttft_ms": 142
+    }
+  }
+}

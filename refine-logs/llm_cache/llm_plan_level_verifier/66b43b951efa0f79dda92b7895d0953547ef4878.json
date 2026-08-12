@@ -1,0 +1,45 @@
+{
+  "record_id": "Medical_response_2128",
+  "raw": "{\"decisions\": [{\"step_id\": 1, \"accept_llm\": false, \"reason\": \"No suitable API for calorie calculation; both semantic top-1 and LLM choices are unrelated QR code APIs.\"}, {\"step_id\": 2, \"accept_llm\": true, \"reason\": \"LLM choice is a specific QR code generation API matching the step requirement better than semantic top-1, which is a text generation API.\"}], \"workflow_confidence\": 0.7}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "No suitable API for calorie calculation; both semantic top-1 and LLM choices are unrelated QR code APIs."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice is a specific QR code generation API matching the step requirement better than semantic top-1, which is a text generation API."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1052,
+    "total_tokens": 1155,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 87,
+      "engine_ttlt_ms": 866,
+      "pre_inference_ms": 149,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 291,
+      "service_ttlt_ms": 1064,
+      "total_duration_ms": 924,
+      "user_visible_ttft_ms": 142
+    }
+  }
+}

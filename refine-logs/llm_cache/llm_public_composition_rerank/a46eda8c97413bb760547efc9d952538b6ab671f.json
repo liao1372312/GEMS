@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2009",
+  "step_id": 6,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.8, \"rationale\": \"The 'Flight Data_v2 - City data in json format' API is related to travel and provides city data, which is the most relevant among the candidates for obtaining time zone information for Paris. Other APIs are unrelated to time zones or the travel domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.8,
+    "rationale": "The 'Flight Data_v2 - City data in json format' API is related to travel and provides city data, which is the most relevant among the candidates for obtaining time zone information for Paris. Other APIs are unrelated to time zones or the travel domain."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1708,
+    "total_tokens": 1781,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 780,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 160,
+      "service_ttlt_ms": 895,
+      "total_duration_ms": 814,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

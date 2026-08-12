@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_5648",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request includes fetching World of Tanks account statistics for 'PasiHD', and candidate rank 1 API directly provides player stats including battles, victories, defeats, and kills, matching the subtask requirements best.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request includes fetching World of Tanks account statistics for 'PasiHD', and candidate rank 1 API directly provides player stats including battles, victories, defeats, and kills, matching the subtask requirements best."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1757,
+    "total_tokens": 1822,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 132,
+      "engine_ttlt_ms": 684,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 357,
+      "service_ttlt_ms": 906,
+      "total_duration_ms": 802,
+      "user_visible_ttft_ms": 221
+    }
+  }
+}

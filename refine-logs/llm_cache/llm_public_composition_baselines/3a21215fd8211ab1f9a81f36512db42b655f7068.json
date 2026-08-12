@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5475",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides comprehensive historical data for NCAA Men's Final Four teams, including champions, records, and appearances, which aligns well with the need to obtain historical data for teams involved in today's matches.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides comprehensive historical data for NCAA Men's Final Four teams, including champions, records, and appearances, which aligns well with the need to obtain historical data for teams involved in today's matches."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1191,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 641,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 305,
+      "service_ttlt_ms": 900,
+      "total_duration_ms": 809,
+      "user_visible_ttft_ms": 206
+    }
+  }
+}

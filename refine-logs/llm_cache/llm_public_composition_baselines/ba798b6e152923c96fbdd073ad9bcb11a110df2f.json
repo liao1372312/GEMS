@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1040",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The 'Formula 1 Standings - Races' API provides the current season races with basic information including race dates, locations, and names, matching the subtask requirements perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The 'Formula 1 Standings - Races' API provides the current season races with basic information including race dates, locations, and names, matching the subtask requirements perfectly."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1202,
+    "total_tokens": 1260,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 909,
+      "pre_inference_ms": 148,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 325,
+      "service_ttlt_ms": 1217,
+      "total_duration_ms": 1076,
+      "user_visible_ttft_ms": 178
+    }
+  }
+}

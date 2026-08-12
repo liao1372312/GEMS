@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_764",
+  "step_id": 3,
+  "raw": "{\"selected_rank\":1,\"confidence\":0.9,\"rationale\":\"The subtask is to combine fetched card details and a random joke to create personalized messages. Among the candidates, only the 'Programming Memes Images - v1/memes' API provides random humorous content (jokes/memes) relevant to the user's need for a random joke to add humor. The other APIs are unrelated to cards with names, numbers, meanings, and images or jokes. Thus, this API best supports the subtask intent of adding humor to the personalized messages.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to combine fetched card details and a random joke to create personalized messages. Among the candidates, only the 'Programming Memes Images - v1/memes' API provides random humorous content (jokes/memes) relevant to the user's need for a random joke to add humor. The other APIs are unrelated to cards with names, numbers, meanings, and images or jokes. Thus, this API best supports the subtask intent of adding humor to the personalized messages."
+  },
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 2147,
+    "total_tokens": 2260,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 2304,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 191,
+      "service_ttlt_ms": 2410,
+      "total_duration_ms": 2333,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

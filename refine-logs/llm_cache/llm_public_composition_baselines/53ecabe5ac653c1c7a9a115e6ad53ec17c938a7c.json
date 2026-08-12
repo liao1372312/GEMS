@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2371",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requested rugby fixtures for the 2020 season, and candidate rank 2 provides rugby fixtures, results, standings, and live match coverage for a given season and competition, matching the rugby fixtures subtask. However, no candidate matches the 2PEAK.com training activities request, so the best match for the rugby fixtures subtask is rank 2.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requested rugby fixtures for the 2020 season, and candidate rank 2 provides rugby fixtures, results, standings, and live match coverage for a given season and competition, matching the rugby fixtures subtask. However, no candidate matches the 2PEAK.com training activities request, so the best match for the rugby fixtures subtask is rank 2."
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 1422,
+    "total_tokens": 1517,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1079,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 162,
+      "service_ttlt_ms": 1196,
+      "total_duration_ms": 1109,
+      "user_visible_ttft_ms": 71
+    }
+  }
+}

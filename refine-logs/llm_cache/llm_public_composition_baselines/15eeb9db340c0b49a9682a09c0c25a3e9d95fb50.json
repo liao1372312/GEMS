@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2571",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request is for unique recipe ideas with ingredients like chocolate and fruits, including cooking times, which aligns best with the Birthday Cake With Name Generator API that relates to birthday cakes and recipes, despite the domain mismatch. Other APIs are unrelated to recipes or cooking.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request is for unique recipe ideas with ingredients like chocolate and fruits, including cooking times, which aligns best with the Birthday Cake With Name Generator API that relates to birthday cakes and recipes, despite the domain mismatch. Other APIs are unrelated to recipes or cooking."
+  },
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 1562,
+    "total_tokens": 1636,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 966,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 167,
+      "service_ttlt_ms": 1072,
+      "total_duration_ms": 995,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

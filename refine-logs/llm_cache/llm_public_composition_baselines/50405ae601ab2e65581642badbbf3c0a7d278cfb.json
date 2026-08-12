@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4584",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The City and State Search API - States List can provide a list of cities and states, which is a necessary input for processing and ranking cities by homicide rates in the next step.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The City and State Search API - States List can provide a list of cities and states, which is a necessary input for processing and ranking cities by homicide rates in the next step."
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 2094,
+    "total_tokens": 2152,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 670,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 322,
+      "service_ttlt_ms": 1104,
+      "total_duration_ms": 994,
+      "user_visible_ttft_ms": 185
+    }
+  }
+}

@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{External validation on the HSC AI service composition benchmark.}
+\label{tab:hsc-external-validation}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccccc}
+\toprule
+Method & Service.Acc $\uparrow$ & QoS.Score $\uparrow$ & Constraint.SR $\uparrow$ & Reliable@1 $\uparrow$ & Success@1 $\uparrow$ & Balanced $\uparrow$ \\
+\midrule
+Popularity & 0.5378 & 0.4714 & 0.3394 & 0.5400 & 0.9565 & 0.5690 \\
+QoS-greedy & 0.5047 & \textbf{0.5320} & 0.3361 & 0.7007 & 0.9535 & \textbf{0.6054} \\
+Reliability-greedy & 0.2395 & 0.4409 & 0.3106 & \textbf{0.9429} & \textbf{0.9915} & 0.5851 \\
+Trace-RAG & 0.5809 & 0.4848 & 0.3428 & 0.6187 & \textbf{0.9915} & 0.6037 \\
+GraphRAG-static & 0.5038 & 0.4840 & 0.3388 & 0.6917 & 0.9849 & 0.6006 \\
+\textsc{GEMS} & \textbf{0.5823} & 0.4849 & \textbf{0.3431} & 0.6192 & 0.9913 & 0.6042 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

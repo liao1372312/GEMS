@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_872",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked candidate provides random programming memes, which is unrelated to the request for a random trivia fact about a number. However, none of the other candidates offer trivia facts about numbers. The best available option is the top-ranked candidate, but confidence is moderate due to mismatch with the requested subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked candidate provides random programming memes, which is unrelated to the request for a random trivia fact about a number. However, none of the other candidates offer trivia facts about numbers. The best available option is the top-ranked candidate, but confidence is moderate due to mismatch with the requested subtask."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1387,
+    "total_tokens": 1469,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 699,
+      "pre_inference_ms": 137,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 215,
+      "service_ttlt_ms": 867,
+      "total_duration_ms": 743,
+      "user_visible_ttft_ms": 78
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "record_id": "Technology_response_1866",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Provide access to the dashboard with all features for email marketing\",\n      \"domain\": \"Business\",\n      \"required_inputs\": [\"get_dash_url\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Validate the email address 'donor1@example.com' to check if it is correct and not disposable\",\n      \"domain\": \"Commerce\",\n      \"required_inputs\": [\"email\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Provide access to the dashboard with all features for email marketing",
+        "domain": "Business",
+        "required_inputs": [
+          "get_dash_url"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Validate the email address 'donor1@example.com' to check if it is correct and not disposable",
+        "domain": "Commerce",
+        "required_inputs": [
+          "email"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Provide access to the dashboard with all features for email marketing",
+      "domain": "Business",
+      "required_inputs": [
+        "get_dash_url"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Validate the email address 'donor1@example.com' to check if it is correct and not disposable",
+      "domain": "Commerce",
+      "required_inputs": [
+        "email"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 2661,
+    "total_tokens": 2768,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 68,
+      "engine_ttlt_ms": 934,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 313,
+      "service_ttlt_ms": 1132,
+      "total_duration_ms": 1034,
+      "user_visible_ttft_ms": 197
+    }
+  },
+  "goal_hints": [
+    "I am organizing a charity event and I need some help with email marketing. Please provide me with access to the dashboard with all features for email marketing",
+    "I would like to validate the email addresses of our donors. Please validate the email 'donor1@example.com' and let us know if it is correct"
+  ]
+}

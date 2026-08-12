@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5275",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user wants to organize a wine tasting event with cheese pairings and find a brewery tour. The Youtube Videos API can provide relevant videos on wine and cheese pairings as well as brewery tours, which is more directly useful than the other APIs focused on flight or scientific data.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user wants to organize a wine tasting event with cheese pairings and find a brewery tour. The Youtube Videos API can provide relevant videos on wine and cheese pairings as well as brewery tours, which is more directly useful than the other APIs focused on flight or scientific data."
+  },
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 1338,
+    "total_tokens": 1415,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 710,
+      "pre_inference_ms": 146,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 306,
+      "service_ttlt_ms": 965,
+      "total_duration_ms": 827,
+      "user_visible_ttft_ms": 160
+    }
+  }
+}

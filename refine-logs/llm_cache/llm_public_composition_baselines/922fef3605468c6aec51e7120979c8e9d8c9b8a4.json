@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_616",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"The Air Quality API - Current Air Quality provides current air quality data for specified cities, which directly addresses the user's need to compare air quality in Barcelona, Rome, and Amsterdam for a weekend getaway.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "The Air Quality API - Current Air Quality provides current air quality data for specified cities, which directly addresses the user's need to compare air quality in Barcelona, Rome, and Amsterdam for a weekend getaway."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1525,
+    "total_tokens": 1586,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 331,
+      "user_visible_ttft_ms": 199,
+      "total_duration_ms": 1021,
+      "pre_inference_ms": 131,
+      "service_tbt_ms": 13,
+      "service_ttlt_ms": 1129,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 897,
+      "engine_tbt_ms": 13
+    }
+  }
+}

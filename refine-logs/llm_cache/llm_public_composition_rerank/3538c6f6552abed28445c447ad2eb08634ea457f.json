@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_1090",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs specifically provide interesting facts about numbers. However, the Motivational Quotes API (rank 1) is unrelated to number facts, but no better option is available. Since the subtask is to retrieve interesting facts about numbers, and no candidate API matches this intent, no suitable API is present. The best available is the Motivational Quotes API, but it does not satisfy the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs specifically provide interesting facts about numbers. However, the Motivational Quotes API (rank 1) is unrelated to number facts, but no better option is available. Since the subtask is to retrieve interesting facts about numbers, and no candidate API matches this intent, no suitable API is present. The best available is the Motivational Quotes API, but it does not satisfy the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 1825,
+    "total_tokens": 1930,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 1520,
+      "pre_inference_ms": 102,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 1704,
+      "total_duration_ms": 1610,
+      "user_visible_ttft_ms": 135
+    }
+  }
+}

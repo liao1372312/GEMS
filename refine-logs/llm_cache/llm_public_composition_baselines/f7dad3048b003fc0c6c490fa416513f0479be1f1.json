@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_600",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.0, \"rationale\": \"None of the candidates provide Italian greetings or translations; however, candidate 2 is related to travel and has no required parameters, making it the least irrelevant option.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.0,
+    "rationale": "None of the candidates provide Italian greetings or translations; however, candidate 2 is related to travel and has no required parameters, making it the least irrelevant option."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1521,
+    "total_tokens": 1575,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 109,
+      "engine_ttft_ms": 2597,
+      "engine_ttlt_ms": 8475,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 109,
+      "service_ttft_ms": 3515,
+      "service_ttlt_ms": 9379,
+      "total_duration_ms": 9281,
+      "user_visible_ttft_ms": 3407
+    }
+  }
+}

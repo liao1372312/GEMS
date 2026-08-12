@@ -1,0 +1,27 @@
+{
+  "record_id": "Finance_response_1563",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided candidates recommend payment gateways; all sports odds APIs or unrelated finance message APIs.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided candidates recommend payment gateways; all sports odds APIs or unrelated finance message APIs."
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 980,
+    "total_tokens": 1021,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 41
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 979
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1412",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The 'Pet Store - getInventory' API provides a map of status codes to quantities, which is likely to include available pet supplies and toys suitable for a new puppy, matching the subtask requirement for recommending fun and interactive toys.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The 'Pet Store - getInventory' API provides a map of status codes to quantities, which is likely to include available pet supplies and toys suitable for a new puppy, matching the subtask requirement for recommending fun and interactive toys."
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1102,
+    "total_tokens": 1170,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 56,
+      "engine_ttlt_ms": 864,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 231,
+      "service_ttlt_ms": 1033,
+      "total_duration_ms": 928,
+      "user_visible_ttft_ms": 115
+    }
+  }
+}

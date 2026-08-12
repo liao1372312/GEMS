@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_1780",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API allows searching content based on a query, which can be used to find English news articles about Kenya. It directly satisfies the subtask intent and requires only a query parameter that can be set to 'Kenya English news' or similar. Other APIs are either unrelated to news or not specific to news about Kenya.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API allows searching content based on a query, which can be used to find English news articles about Kenya. It directly satisfies the subtask intent and requires only a query parameter that can be set to 'Kenya English news' or similar. Other APIs are either unrelated to news or not specific to news about Kenya."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 2224,
+    "total_tokens": 2317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 75,
+      "engine_ttlt_ms": 1191,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 236,
+      "service_ttlt_ms": 1348,
+      "total_duration_ms": 1237,
+      "user_visible_ttft_ms": 118
+    }
+  }
+}

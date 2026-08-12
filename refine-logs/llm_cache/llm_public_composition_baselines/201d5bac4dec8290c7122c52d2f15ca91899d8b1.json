@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_848",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user wants to explore gas prices in different cities in California (USA) and fetch airplane types. Among the candidates, the 'Gas Price - usaCitiesList' API provides gas price info for US cities, which fits the requirement for California cities. However, no candidate directly provides airplane types, so selecting the best match for gas prices in US cities is appropriate for this step.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user wants to explore gas prices in different cities in California (USA) and fetch airplane types. Among the candidates, the 'Gas Price - usaCitiesList' API provides gas price info for US cities, which fits the requirement for California cities. However, no candidate directly provides airplane types, so selecting the best match for gas prices in US cities is appropriate for this step."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1173,
+    "total_tokens": 1271,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 31,
+      "engine_ttlt_ms": 1351,
+      "pre_inference_ms": 247,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 352,
+      "service_ttlt_ms": 1666,
+      "total_duration_ms": 1428,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4658",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide endpoints for retrieving popular tech blogs or news websites with articles, authors, publication dates, and full-text content. Most candidates are quotes APIs or unrelated news domains like anime or amusement park blogs. Therefore, no suitable API matches the subtask.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide endpoints for retrieving popular tech blogs or news websites with articles, authors, publication dates, and full-text content. Most candidates are quotes APIs or unrelated news domains like anime or amusement park blogs. Therefore, no suitable API matches the subtask."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1821,
+    "total_tokens": 1897,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 42,
+      "engine_ttlt_ms": 592,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 227,
+      "service_ttlt_ms": 781,
+      "total_duration_ms": 668,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

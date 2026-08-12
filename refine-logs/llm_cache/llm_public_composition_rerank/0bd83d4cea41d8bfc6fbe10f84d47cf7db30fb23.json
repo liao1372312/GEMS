@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2965",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The Recipe Generator API can generate unique recipes including ingredients and cooking methods, which directly satisfies the subtask of compiling vegan recipes. It is broad enough to create vegan options without being limited to a specific ingredient or dish type, unlike the other APIs which focus on specific categories or ingredients that may not be vegan.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The Recipe Generator API can generate unique recipes including ingredients and cooking methods, which directly satisfies the subtask of compiling vegan recipes. It is broad enough to create vegan options without being limited to a specific ingredient or dish type, unlike the other APIs which focus on specific categories or ingredients that may not be vegan."
+  },
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 2152,
+    "total_tokens": 2235,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 27,
+      "engine_ttft_ms": 81,
+      "engine_ttlt_ms": 2327,
+      "pre_inference_ms": 108,
+      "service_tbt_ms": 27,
+      "service_ttft_ms": 227,
+      "service_ttlt_ms": 2468,
+      "total_duration_ms": 2370,
+      "user_visible_ttft_ms": 119
+    }
+  }
+}

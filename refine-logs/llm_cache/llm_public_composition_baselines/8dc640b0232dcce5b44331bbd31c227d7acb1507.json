@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3942",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 1.0, \"rationale\": \"The user specifically requests the detailed recipe for the cake with ID 5, which matches exactly the API 'The Birthday Cake DB - Detailed Cake Recipe by ID' with rank 3.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 1.0,
+    "rationale": "The user specifically requests the detailed recipe for the cake with ID 5, which matches exactly the API 'The Birthday Cake DB - Detailed Cake Recipe by ID' with rank 3."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 1614,
+    "total_tokens": 1673,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 633,
+      "pre_inference_ms": 103,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 213,
+      "service_ttlt_ms": 790,
+      "total_duration_ms": 694,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

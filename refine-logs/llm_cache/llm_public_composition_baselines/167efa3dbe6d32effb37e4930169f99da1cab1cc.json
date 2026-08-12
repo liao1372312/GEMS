@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4642",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.1, \"rationale\": \"None of the candidates directly provide lifetime disease risks or nutritional analysis; the closest is the URL Content Extractor which might help find relevant information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.1,
+    "rationale": "None of the candidates directly provide lifetime disease risks or nutritional analysis; the closest is the URL Content Extractor which might help find relevant information."
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1794,
+    "total_tokens": 1844,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 383,
+      "pre_inference_ms": 160,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 280,
+      "service_ttlt_ms": 618,
+      "total_duration_ms": 468,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_562",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask is to select one unique ingredient from the list and suggest a recipe showcasing it. The candidate APIs provide recipes by ingredient, allowing to input the selected ingredient from the list. Among them, the 'Recipe Finder - icecream/ingredient' API is specific and directly supports searching recipes by ingredient, fitting the subtask well. Any of these recipe APIs could work, but selecting the first-ranked one is reasonable as it is specific and directly matches the subtask intent.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask is to select one unique ingredient from the list and suggest a recipe showcasing it. The candidate APIs provide recipes by ingredient, allowing to input the selected ingredient from the list. Among them, the 'Recipe Finder - icecream/ingredient' API is specific and directly supports searching recipes by ingredient, fitting the subtask well. Any of these recipe APIs could work, but selecting the first-ranked one is reasonable as it is specific and directly matches the subtask intent."
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 2254,
+    "total_tokens": 2371,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1774,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 207,
+      "service_ttlt_ms": 1920,
+      "total_duration_ms": 1831,
+      "user_visible_ttft_ms": 114
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7311",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"The Daily Cat Facts API provides random facts which can be used for trivia with a number between 10 and 20. It matches the entertainment domain and the subtask of generating a random fact. None of the other APIs provide trivia facts or random facts relevant to the request.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "The Daily Cat Facts API provides random facts which can be used for trivia with a number between 10 and 20. It matches the entertainment domain and the subtask of generating a random fact. None of the other APIs provide trivia facts or random facts relevant to the request."
+  },
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 2182,
+    "total_tokens": 2259,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 957,
+      "pre_inference_ms": 149,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 257,
+      "service_ttlt_ms": 1162,
+      "total_duration_ms": 1023,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

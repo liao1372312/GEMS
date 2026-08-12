@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3353",
+  "step_id": 1,
+  "raw": "{\"selected_rank\":2,\"confidence\":0.95,\"rationale\":\"This API provides daily football match score predictions along with average goal statistics, directly matching the subtask to fetch today's football match scores and average goal stats without requiring additional parameters.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "This API provides daily football match score predictions along with average goal statistics, directly matching the subtask to fetch today's football match scores and average goal stats without requiring additional parameters."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 2012,
+    "total_tokens": 2063,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 921,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 292,
+      "service_ttlt_ms": 1182,
+      "total_duration_ms": 1062,
+      "user_visible_ttft_ms": 166
+    }
+  }
+}

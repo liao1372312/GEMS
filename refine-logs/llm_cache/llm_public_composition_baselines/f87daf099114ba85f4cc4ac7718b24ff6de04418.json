@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4930",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.95, \"rationale\": \"The subtask is to fetch the NBA game schedule on October 15th. Candidate rank 9 provides an endpoint specifically for getting NBA games for a given date with the required parameter 'gameDate' in YYYYMMDD format, which matches the subtask perfectly.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.95,
+    "rationale": "The subtask is to fetch the NBA game schedule on October 15th. Candidate rank 9 provides an endpoint specifically for getting NBA games for a given date with the required parameter 'gameDate' in YYYYMMDD format, which matches the subtask perfectly."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 2072,
+    "total_tokens": 2147,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 700,
+      "pre_inference_ms": 138,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 311,
+      "service_ttlt_ms": 912,
+      "total_duration_ms": 827,
+      "user_visible_ttft_ms": 173
+    }
+  }
+}

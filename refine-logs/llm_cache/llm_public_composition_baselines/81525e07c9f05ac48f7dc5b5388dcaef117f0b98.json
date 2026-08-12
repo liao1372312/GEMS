@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_566",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user needs country-specific cultural and historical details for landmarks, and the City and State Search API - Country Details provides detailed country information suitable for this subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user needs country-specific cultural and historical details for landmarks, and the City and State Search API - Country Details provides detailed country information suitable for this subtask."
+  },
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1506,
+    "total_tokens": 1560,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 778,
+      "pre_inference_ms": 144,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 284,
+      "service_ttlt_ms": 1021,
+      "total_duration_ms": 896,
+      "user_visible_ttft_ms": 140
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "split": "test",
+  "diagnostic_only": true,
+  "reason": "Operating points are selected and evaluated on the 211-workflow test split.",
+  "steps": 623,
+  "workflows": 211,
+  "rows": [
+    {
+      "name": "Semantic top-1",
+      "description": "Keep semantic rank-1 for every step.",
+      "policy": {
+        "name": "Semantic top-1",
+        "description": "Keep semantic rank-1 for every step.",
+        "mode": "semantic",
+        "confidence_min": 0.0,
+        "margin_max": 1.0,
+        "max_plan_steps": 99,
+        "max_changed_steps": 99,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6147672552166934,
+        "workflow_exact": 0.45023696682464454,
+        "para_f1": 0.7009898341359015,
+        "llm_accept_rate": 0.0,
+        "llm_change_rate": 0.0,
+        "steps": 623,
+        "workflows": 211
+      }
+    },
+    {
+      "name": "Full LLM",
+      "description": "Use the LLM reranker for every step.",
+      "policy": {
+        "name": "Full LLM",
+        "description": "Use the LLM reranker for every step.",
+        "mode": "all_llm",
+        "confidence_min": 0.0,
+        "margin_max": 1.0,
+        "max_plan_steps": 99,
+        "max_changed_steps": 99,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6725521669341894,
+        "workflow_exact": 0.3886255924170616,
+        "para_f1": 0.750187265917603,
+        "llm_accept_rate": 1.0,
+        "llm_change_rate": 0.5762439807383628,
+        "steps": 623,
+        "workflows": 211
+      }
+    },
+    {
+      "name": "GEMS-Plan",
+      "description": "Plan-preserving verifier: only short plans, high confidence, tiny semantic margin.",
+      "policy": {
+        "name": "GEMS-Plan",
+        "description": "Plan-preserving verifier: only short plans, high confidence, tiny semantic margin.",
+        "mode": "policy",
+        "confidence_min": 0.99,
+        "margin_max": 0.005,
+        "max_plan_steps": 2,
+        "max_changed_steps": 1,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6276083467094703,
+        "workflow_exact": 0.4786729857819905,
+        "para_f1": 0.7110219368646334,
+        "llm_accept_rate": 0.016051364365971106,
+        "llm_change_rate": 0.016051364365971106,
+        "steps": 623,
+        "workflows": 211
+      }
+    },
+    {
+      "name": "GEMS-Balanced",
+      "description": "Conservative balanced verifier: short plans with at most two high-confidence changes.",
+      "policy": {
+        "name": "GEMS-Balanced",
+        "description": "Conservative balanced verifier: short plans with at most two high-confidence changes.",
+        "mode": "policy",
+        "confidence_min": 0.99,
+        "margin_max": 0.005,
+        "max_plan_steps": 3,
+        "max_changed_steps": 2,
+        "allowed_ranks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "metrics": {
+        "api_acc": 0.6356340288924559,
+        "workflow_exact": 0.46919431279620855,
+        "para_f1": 0.7171214553237025,
+        "llm_accept_rate": 0.033707865168539325,
+        "llm_change_rate": 0.033707865168539325,
+        "steps": 623,
+        "workflows": 211
+      }
+    }
+  ]
+}

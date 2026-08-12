@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_5435",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide vaccination requirements information for Germany or nutritional analysis for the recipe. No suitable API is available for the medical domain request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide vaccination requirements information for Germany or nutritional analysis for the recipe. No suitable API is available for the medical domain request."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 1844,
+    "total_tokens": 1895,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 563,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 179,
+      "service_ttlt_ms": 705,
+      "total_duration_ms": 625,
+      "user_visible_ttft_ms": 92
+    }
+  }
+}

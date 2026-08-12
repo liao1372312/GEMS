@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_695",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"FoodieFetch API directly relates to food and restaurant locations, but it requires a query for a specific restaurant, not user location. However, none of the other APIs provide geocoordinates for grocery stores based on user location. FoodieFetch is the closest relevant API for food-related location data, which aligns best with the subtask of determining user location for nearby grocery stores.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "FoodieFetch API directly relates to food and restaurant locations, but it requires a query for a specific restaurant, not user location. However, none of the other APIs provide geocoordinates for grocery stores based on user location. FoodieFetch is the closest relevant API for food-related location data, which aligns best with the subtask of determining user location for nearby grocery stores."
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 2177,
+    "total_tokens": 2274,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 80,
+      "engine_ttlt_ms": 1296,
+      "pre_inference_ms": 122,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 298,
+      "service_ttlt_ms": 1508,
+      "total_duration_ms": 1393,
+      "user_visible_ttft_ms": 176
+    }
+  }
+}

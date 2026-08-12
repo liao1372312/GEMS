@@ -1,0 +1,60 @@
+{
+  "record_id": "Finance_response_3795",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly returns Apple balance sheet with required symbol parameter, clearly better than unrelated semantic top-1.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches step perfectly with correct API and required symbol parameter.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice correctly returns Apple cash flow statement with required symbol parameter, matching step.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice matches semantic top-1 and correctly provides Bitcoin spot price.\"\n    },\n    {\n      \"step_id\": 5,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice specifically supports symbol parameter to get Ethereum price, better matching step than semantic top-1.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice directly returns Apple balance sheet with required symbol parameter, clearly better than unrelated semantic top-1."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice matches step perfectly with correct API and required symbol parameter."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": true,
+        "reason": "LLM choice correctly returns Apple cash flow statement with required symbol parameter, matching step."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": true,
+        "reason": "LLM choice matches semantic top-1 and correctly provides Bitcoin spot price."
+      },
+      {
+        "step_id": 5,
+        "accept_llm": true,
+        "reason": "LLM choice specifically supports symbol parameter to get Ethereum price, better matching step than semantic top-1."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 236,
+    "prompt_tokens": 1821,
+    "total_tokens": 2057,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 139,
+      "engine_ttlt_ms": 4842,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 266,
+      "service_ttlt_ms": 4965,
+      "total_duration_ms": 4874,
+      "user_visible_ttft_ms": 168
+    }
+  }
+}

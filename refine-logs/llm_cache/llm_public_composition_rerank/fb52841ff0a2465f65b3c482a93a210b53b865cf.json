@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3570",
+  "step_id": 3,
+  "raw": "{\"selected_rank\":9,\"confidence\":1.0,\"rationale\":\"The subtask is to fetch influencer posts related to Bitcoin. The API 'Crowdsense - Get All Social Spikes by Coin Name' (rank 9) directly provides social media spikes including influencer posts related to a specified coin name, here Bitcoin, with no additional required inputs beyond the coin name which can be bound from the subtask. This API is specific to the finance domain and matches the intent precisely, unlike other APIs that focus on top coins or sentiment changes without providing influencer posts.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 1.0,
+    "rationale": "The subtask is to fetch influencer posts related to Bitcoin. The API 'Crowdsense - Get All Social Spikes by Coin Name' (rank 9) directly provides social media spikes including influencer posts related to a specified coin name, here Bitcoin, with no additional required inputs beyond the coin name which can be bound from the subtask. This API is specific to the finance domain and matches the intent precisely, unlike other APIs that focus on top coins or sentiment changes without providing influencer posts."
+  },
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 3867,
+    "total_tokens": 3983,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 18,
+      "engine_ttft_ms": 128,
+      "engine_ttlt_ms": 2174,
+      "pre_inference_ms": 206,
+      "service_tbt_ms": 18,
+      "service_ttft_ms": 677,
+      "service_ttlt_ms": 2759,
+      "total_duration_ms": 2575,
+      "user_visible_ttft_ms": 470
+    }
+  }
+}

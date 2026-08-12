@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2757",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the provided APIs relate to car rental locations or live traffic conditions. They mostly cover baseball and hospital data, which are irrelevant to the user's tourism-related request.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the provided APIs relate to car rental locations or live traffic conditions. They mostly cover baseball and hospital data, which are irrelevant to the user's tourism-related request."
+  },
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 2021,
+    "total_tokens": 2076,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 693,
+      "pre_inference_ms": 162,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 285,
+      "service_ttlt_ms": 950,
+      "total_duration_ms": 812,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

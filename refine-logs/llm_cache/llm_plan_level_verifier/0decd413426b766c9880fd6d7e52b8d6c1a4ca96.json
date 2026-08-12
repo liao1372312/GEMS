@@ -1,0 +1,45 @@
+{
+  "record_id": "Finance_response_5268",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is identical to semantic top-1; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly provides current gold and silver prices without parameters, better matching the step intent.\"\n    }\n  ],\n  \"workflow_confidence\": 0.95\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice directly provides current gold and silver prices without parameters, better matching the step intent."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 1014,
+    "total_tokens": 1120,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 29,
+      "engine_ttft_ms": 133,
+      "engine_ttlt_ms": 3230,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 29,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 3324,
+      "total_duration_ms": 3253,
+      "user_visible_ttft_ms": 154
+    }
+  }
+}

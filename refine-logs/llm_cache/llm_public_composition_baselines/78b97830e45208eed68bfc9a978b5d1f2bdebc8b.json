@@ -1,0 +1,27 @@
+{
+  "record_id": "Cross_Domain_response_6246",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.95, \"rationale\": \"This API specifically supports fetching a random joke by category, which matches the requirement to get a joke in the 'virtual games' category.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.95,
+    "rationale": "This API specifically supports fetching a random joke by category, which matches the requirement to get a joke in the 'virtual games' category."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1241,
+    "total_tokens": 1290,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "content_tokens": 48
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 1249
+    }
+  }
+}

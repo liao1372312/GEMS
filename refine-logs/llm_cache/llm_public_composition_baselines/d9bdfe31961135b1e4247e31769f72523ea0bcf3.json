@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2128",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The first candidate API is suitable for generating a QR code for the provided FHIR ID, which matches part of the user request. However, it does not calculate calories burned. Since no candidate directly calculates calories burned, selecting the QR code API to fulfill that part of the request is the best option.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The first candidate API is suitable for generating a QR code for the provided FHIR ID, which matches part of the user request. However, it does not calculate calories burned. Since no candidate directly calculates calories burned, selecting the QR code API to fulfill that part of the request is the best option."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1795,
+    "total_tokens": 1877,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 663,
+      "pre_inference_ms": 177,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 295,
+      "service_ttlt_ms": 915,
+      "total_duration_ms": 748,
+      "user_visible_ttft_ms": 118
+    }
+  }
+}

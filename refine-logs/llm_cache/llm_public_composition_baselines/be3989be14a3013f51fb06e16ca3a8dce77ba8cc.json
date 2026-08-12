@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5265",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides comprehensive international market information and stock market news globally, matching the subtask to fetch international market information.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides comprehensive international market information and stock market news globally, matching the subtask to fetch international market information."
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 1334,
+    "total_tokens": 1381,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 56,
+      "engine_ttft_ms": 147,
+      "engine_ttlt_ms": 2774,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 56,
+      "service_ttft_ms": 1601,
+      "service_ttlt_ms": 4218,
+      "total_duration_ms": 4115,
+      "user_visible_ttft_ms": 1478
+    }
+  }
+}

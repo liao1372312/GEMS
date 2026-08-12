@@ -1,0 +1,1657 @@
+{
+  "split": "test",
+  "role": "provider",
+  "num_tasks": 1720,
+  "variants": {
+    "gems_full": {
+      "metrics": {
+        "top1": 0.9848837209302326,
+        "top3": 0.9912790697674418,
+        "mrr": 0.9892704872646734,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 1,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 1,
+          "top_endpoint_id": "7551b2ab5f9402e7"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 1,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 1,
+          "top_endpoint_id": "33df2fdcaab987f9"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 1,
+          "top_endpoint_id": "f561061fd96fa5f8"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 1,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 1,
+          "top_endpoint_id": "af1b5a38f4106579"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 1,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 1,
+          "top_endpoint_id": "99ec66e7394506d6"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 1,
+          "top_endpoint_id": "77b8ad037bafacab"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 1,
+          "top_endpoint_id": "de91c2f8791301ca"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 1,
+          "top_endpoint_id": "42a9c7ef5923f92e"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 1,
+          "top_endpoint_id": "216f5468283e9578"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 1,
+          "top_endpoint_id": "a45d36d1f9f4d66f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 1,
+          "top_endpoint_id": "a48fd928c4526085"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 5,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "reliability_intent": {
+      "metrics": {
+        "top1": 0.19069767441860466,
+        "top3": 0.45058139534883723,
+        "mrr": 0.4036669435215961,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 7,
+          "top_endpoint_id": "55a6960bcd1d5bc1"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 7,
+          "top_endpoint_id": "7e10e889f2a033e9"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 4,
+          "top_endpoint_id": "7d3651bd798e295d"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 4,
+          "top_endpoint_id": "462a067042514f75"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 4,
+          "top_endpoint_id": "0fc8dce09c118c23"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 4,
+          "top_endpoint_id": "aec58192a95a1c11"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 4,
+          "top_endpoint_id": "a8201760992146e9"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 5,
+          "top_endpoint_id": "63b14430fb977b80"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 2,
+          "top_endpoint_id": "c3ca4b47417e10e9"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 4,
+          "top_endpoint_id": "34404060580db434"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 5,
+          "top_endpoint_id": "556de134f590b52f"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 2,
+          "top_endpoint_id": "199e6ed158c9a75f"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 7,
+          "top_endpoint_id": "d81fa8bf56d3660d"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 2,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "c4b9e9fc0cc83d3f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 5,
+          "top_endpoint_id": "dddc841650135d87"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 3,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 7,
+          "top_endpoint_id": "7b3af9ef41545131"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 7,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "text_only": {
+      "metrics": {
+        "top1": 0.9854651162790697,
+        "top3": 0.9912790697674418,
+        "mrr": 0.9899321705426356,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 1,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 1,
+          "top_endpoint_id": "7551b2ab5f9402e7"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 1,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 1,
+          "top_endpoint_id": "33df2fdcaab987f9"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 1,
+          "top_endpoint_id": "f561061fd96fa5f8"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 1,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 1,
+          "top_endpoint_id": "af1b5a38f4106579"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 1,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 1,
+          "top_endpoint_id": "99ec66e7394506d6"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 1,
+          "top_endpoint_id": "77b8ad037bafacab"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 1,
+          "top_endpoint_id": "de91c2f8791301ca"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 1,
+          "top_endpoint_id": "42a9c7ef5923f92e"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 1,
+          "top_endpoint_id": "216f5468283e9578"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 4,
+          "top_endpoint_id": "6c308446a5ba14e4"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 1,
+          "top_endpoint_id": "a45d36d1f9f4d66f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 1,
+          "top_endpoint_id": "a48fd928c4526085"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 1,
+          "top_endpoint_id": "436be4a6987cd67f"
+        }
+      ]
+    },
+    "reliability_only": {
+      "metrics": {
+        "top1": 0.19069767441860466,
+        "top3": 0.45058139534883723,
+        "mrr": 0.4036669435215961,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 7,
+          "top_endpoint_id": "55a6960bcd1d5bc1"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 7,
+          "top_endpoint_id": "7e10e889f2a033e9"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 4,
+          "top_endpoint_id": "7d3651bd798e295d"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 4,
+          "top_endpoint_id": "462a067042514f75"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 4,
+          "top_endpoint_id": "0fc8dce09c118c23"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 4,
+          "top_endpoint_id": "aec58192a95a1c11"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 4,
+          "top_endpoint_id": "a8201760992146e9"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 5,
+          "top_endpoint_id": "63b14430fb977b80"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 2,
+          "top_endpoint_id": "c3ca4b47417e10e9"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 4,
+          "top_endpoint_id": "34404060580db434"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 5,
+          "top_endpoint_id": "556de134f590b52f"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 2,
+          "top_endpoint_id": "199e6ed158c9a75f"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 7,
+          "top_endpoint_id": "d81fa8bf56d3660d"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 2,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "c4b9e9fc0cc83d3f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 5,
+          "top_endpoint_id": "dddc841650135d87"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 3,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 7,
+          "top_endpoint_id": "7b3af9ef41545131"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 7,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "initial_confidence_only": {
+      "metrics": {
+        "top1": 0.175,
+        "top3": 0.42965116279069765,
+        "mrr": 0.389897563676635,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 6,
+          "top_endpoint_id": "55a6960bcd1d5bc1"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 7,
+          "top_endpoint_id": "7e10e889f2a033e9"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 4,
+          "top_endpoint_id": "7d3651bd798e295d"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 4,
+          "top_endpoint_id": "462a067042514f75"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 4,
+          "top_endpoint_id": "0fc8dce09c118c23"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 4,
+          "top_endpoint_id": "aec58192a95a1c11"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 4,
+          "top_endpoint_id": "a8201760992146e9"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 5,
+          "top_endpoint_id": "63b14430fb977b80"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 2,
+          "top_endpoint_id": "c3ca4b47417e10e9"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 4,
+          "top_endpoint_id": "34404060580db434"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 5,
+          "top_endpoint_id": "556de134f590b52f"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 2,
+          "top_endpoint_id": "199e6ed158c9a75f"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 7,
+          "top_endpoint_id": "d81fa8bf56d3660d"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 2,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "c4b9e9fc0cc83d3f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 5,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 3,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 7,
+          "top_endpoint_id": "7b3af9ef41545131"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 7,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "text_plus_initial_confidence": {
+      "metrics": {
+        "top1": 0.9023255813953488,
+        "top3": 0.9441860465116279,
+        "mrr": 0.9289700996677741,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 1,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 3,
+          "top_endpoint_id": "7e10e889f2a033e9"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 1,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 1,
+          "top_endpoint_id": "33df2fdcaab987f9"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 1,
+          "top_endpoint_id": "f561061fd96fa5f8"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 1,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 1,
+          "top_endpoint_id": "af1b5a38f4106579"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 1,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 1,
+          "top_endpoint_id": "99ec66e7394506d6"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 1,
+          "top_endpoint_id": "77b8ad037bafacab"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 1,
+          "top_endpoint_id": "de91c2f8791301ca"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 1,
+          "top_endpoint_id": "42a9c7ef5923f92e"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 1,
+          "top_endpoint_id": "216f5468283e9578"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "c4b9e9fc0cc83d3f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 1,
+          "top_endpoint_id": "a45d36d1f9f4d66f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 4,
+          "top_endpoint_id": "b127880908571f49"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 6,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "text_plus_reliability": {
+      "metrics": {
+        "top1": 0.9848837209302326,
+        "top3": 0.9912790697674418,
+        "mrr": 0.9892704872646734,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 1,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 1,
+          "top_endpoint_id": "7551b2ab5f9402e7"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 1,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 1,
+          "top_endpoint_id": "33df2fdcaab987f9"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 1,
+          "top_endpoint_id": "f561061fd96fa5f8"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 1,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 1,
+          "top_endpoint_id": "af1b5a38f4106579"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 1,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 1,
+          "top_endpoint_id": "99ec66e7394506d6"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 1,
+          "top_endpoint_id": "77b8ad037bafacab"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 1,
+          "top_endpoint_id": "de91c2f8791301ca"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 1,
+          "top_endpoint_id": "42a9c7ef5923f92e"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 1,
+          "top_endpoint_id": "216f5468283e9578"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 1,
+          "top_endpoint_id": "a45d36d1f9f4d66f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 1,
+          "top_endpoint_id": "a48fd928c4526085"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 5,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "no_reliability": {
+      "metrics": {
+        "top1": 0.9854651162790697,
+        "top3": 0.9912790697674418,
+        "mrr": 0.9899321705426356,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 1,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 1,
+          "top_endpoint_id": "7551b2ab5f9402e7"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 1,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 1,
+          "top_endpoint_id": "33df2fdcaab987f9"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 1,
+          "top_endpoint_id": "f561061fd96fa5f8"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 1,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 1,
+          "top_endpoint_id": "af1b5a38f4106579"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 1,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 1,
+          "top_endpoint_id": "99ec66e7394506d6"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 1,
+          "top_endpoint_id": "77b8ad037bafacab"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 1,
+          "top_endpoint_id": "de91c2f8791301ca"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 1,
+          "top_endpoint_id": "42a9c7ef5923f92e"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 1,
+          "top_endpoint_id": "216f5468283e9578"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 4,
+          "top_endpoint_id": "6c308446a5ba14e4"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 1,
+          "top_endpoint_id": "a45d36d1f9f4d66f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 1,
+          "top_endpoint_id": "a48fd928c4526085"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 1,
+          "top_endpoint_id": "436be4a6987cd67f"
+        }
+      ]
+    },
+    "no_type_prior": {
+      "metrics": {
+        "top1": 0.9848837209302326,
+        "top3": 0.9912790697674418,
+        "mrr": 0.9892704872646734,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 1,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 1,
+          "top_endpoint_id": "7551b2ab5f9402e7"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 1,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 1,
+          "top_endpoint_id": "33df2fdcaab987f9"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 1,
+          "top_endpoint_id": "f561061fd96fa5f8"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 1,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 1,
+          "top_endpoint_id": "af1b5a38f4106579"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 1,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 1,
+          "top_endpoint_id": "99ec66e7394506d6"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 1,
+          "top_endpoint_id": "77b8ad037bafacab"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 1,
+          "top_endpoint_id": "de91c2f8791301ca"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 1,
+          "top_endpoint_id": "42a9c7ef5923f92e"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 1,
+          "top_endpoint_id": "216f5468283e9578"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 1,
+          "top_endpoint_id": "a45d36d1f9f4d66f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 1,
+          "top_endpoint_id": "a48fd928c4526085"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 5,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "no_risk_conflict": {
+      "metrics": {
+        "top1": 0.9848837209302326,
+        "top3": 0.9912790697674418,
+        "mrr": 0.9892704872646734,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 1,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 1,
+          "top_endpoint_id": "7551b2ab5f9402e7"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 1,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 1,
+          "top_endpoint_id": "33df2fdcaab987f9"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 1,
+          "top_endpoint_id": "f561061fd96fa5f8"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 1,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 1,
+          "top_endpoint_id": "af1b5a38f4106579"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 1,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 1,
+          "top_endpoint_id": "df95dff1380e02fb"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 1,
+          "top_endpoint_id": "99ec66e7394506d6"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 1,
+          "top_endpoint_id": "77b8ad037bafacab"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 1,
+          "top_endpoint_id": "de91c2f8791301ca"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 1,
+          "top_endpoint_id": "42a9c7ef5923f92e"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 1,
+          "top_endpoint_id": "216f5468283e9578"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 7,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 1,
+          "top_endpoint_id": "a45d36d1f9f4d66f"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 1,
+          "top_endpoint_id": "a48fd928c4526085"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 5,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        }
+      ]
+    },
+    "deterministic_random": {
+      "metrics": {
+        "top1": 0.16104651162790698,
+        "top3": 0.45348837209302323,
+        "mrr": 0.3862403100775199,
+        "count": 1720
+      },
+      "examples": [
+        {
+          "task_id": "8a20cb7ab9c7ec5fa3",
+          "query": "Find a web API endpoint that can testing auto subscription",
+          "positive_endpoint_id": "8b26994c3aee036d",
+          "rank": 6,
+          "top_endpoint_id": "3c037bd2f5efa5ea"
+        },
+        {
+          "task_id": "bad9ba9e1ae2f6020e",
+          "query": "Find a web API endpoint that can https://football_api_key.p.rapidapi.com/",
+          "positive_endpoint_id": "7551b2ab5f9402e7",
+          "rank": 1,
+          "top_endpoint_id": "7551b2ab5f9402e7"
+        },
+        {
+          "task_id": "e3306b79e6d0c32023",
+          "query": "Find a web API endpoint that can returns a single pet",
+          "positive_endpoint_id": "3c037bd2f5efa5ea",
+          "rank": 2,
+          "top_endpoint_id": "db750644bb63961c"
+        },
+        {
+          "task_id": "28bedeb2f5c4bf49d0",
+          "query": "Find a web API endpoint that can returns a map of status codes to quantities",
+          "positive_endpoint_id": "33df2fdcaab987f9",
+          "rank": 3,
+          "top_endpoint_id": "8b26994c3aee036d"
+        },
+        {
+          "task_id": "a861b4755086ad4f0a",
+          "query": "Find a web API endpoint that can for valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+          "positive_endpoint_id": "46509400b06271df",
+          "rank": 1,
+          "top_endpoint_id": "46509400b06271df"
+        },
+        {
+          "task_id": "f74fe6a6692cb77a7f",
+          "query": "Find a web API endpoint for loginUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "f561061fd96fa5f8",
+          "rank": 5,
+          "top_endpoint_id": "aec58192a95a1c11"
+        },
+        {
+          "task_id": "32e06bee2afb9f6958",
+          "query": "Find a web API endpoint for getUserByName in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "6e8a08fc4fd36fd7",
+          "rank": 3,
+          "top_endpoint_id": "3b1a446e9411f8c8"
+        },
+        {
+          "task_id": "ba10923d6cf402bc08",
+          "query": "Find a web API endpoint for logoutUser in FreePlanwithHardLimit.",
+          "positive_endpoint_id": "af1b5a38f4106579",
+          "rank": 7,
+          "top_endpoint_id": "df862e9d3cdd600e"
+        },
+        {
+          "task_id": "8ef801a50446d8af59",
+          "query": "Find a web API endpoint that can generate catchy captions for social media",
+          "positive_endpoint_id": "db750644bb63961c",
+          "rank": 3,
+          "top_endpoint_id": "6e8a08fc4fd36fd7"
+        },
+        {
+          "task_id": "62fcb80b9ca5eaa72b",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\") from the set",
+          "positive_endpoint_id": "df95dff1380e02fb",
+          "rank": 2,
+          "top_endpoint_id": "d6b831956558ceb3"
+        },
+        {
+          "task_id": "71be364a37764bc6a7",
+          "query": "Find a web API endpoint that can returns requested binary image (\"image/png\"). Full image set",
+          "positive_endpoint_id": "99ec66e7394506d6",
+          "rank": 3,
+          "top_endpoint_id": "6fb0a7113e1ee6d3"
+        },
+        {
+          "task_id": "52a22445700178f319",
+          "query": "Find a web API endpoint that can get status of the previously posted job. - outcome - if Failure, then it comes from MJ, like censorship. - estimated_time - in seconds. based on previous generation. - percent - available when actual generation started",
+          "positive_endpoint_id": "77b8ad037bafacab",
+          "rank": 6,
+          "top_endpoint_id": "a7afcbc049977e13"
+        },
+        {
+          "task_id": "5bcc3f5ca6731c0435",
+          "query": "Find a web API endpoint that can business Name Generator",
+          "positive_endpoint_id": "de91c2f8791301ca",
+          "rank": 6,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "e448a552d6c8110b6e",
+          "query": "Find a web API endpoint for /validate.php?action=validate&id={user@example.com} in Check Mail.",
+          "positive_endpoint_id": "42a9c7ef5923f92e",
+          "rank": 4,
+          "top_endpoint_id": "2b1dc1768c509264"
+        },
+        {
+          "task_id": "bd3501bab78b6a78b9",
+          "query": "Find a web API endpoint that can gets team",
+          "positive_endpoint_id": "216f5468283e9578",
+          "rank": 2,
+          "top_endpoint_id": "224fd5c75416641a"
+        },
+        {
+          "task_id": "4505798cdf23f31ce0",
+          "query": "Find a web API endpoint that can 0o",
+          "positive_endpoint_id": "275f35200557cd54",
+          "rank": 3,
+          "top_endpoint_id": "5c7e3e08d84bf064"
+        },
+        {
+          "task_id": "21abbfe5d15de5cf0b",
+          "query": "Find a web API endpoint that can get data, place parameter page to paginate list by 1000 object. ex.: *?page=2*",
+          "positive_endpoint_id": "a25bd8a580880b60",
+          "rank": 1,
+          "top_endpoint_id": "a25bd8a580880b60"
+        },
+        {
+          "task_id": "12e05dac89db7d74d9",
+          "query": "Find a web API endpoint that can test",
+          "positive_endpoint_id": "a45d36d1f9f4d66f",
+          "rank": 5,
+          "top_endpoint_id": "ff5a110f85caeef3"
+        },
+        {
+          "task_id": "2f3039b04cb726e205",
+          "query": "Find a web API endpoint that can list of products",
+          "positive_endpoint_id": "a48fd928c4526085",
+          "rank": 5,
+          "top_endpoint_id": "d0bc1898e46a6e1f"
+        },
+        {
+          "task_id": "c3ec406a7785667c64",
+          "query": "Find a web API endpoint that can quotation service",
+          "positive_endpoint_id": "436be4a6987cd67f",
+          "rank": 1,
+          "top_endpoint_id": "436be4a6987cd67f"
+        }
+      ]
+    }
+  }
+}

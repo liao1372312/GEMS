@@ -1,0 +1,45 @@
+{
+  "record_id": "Tourism_response_1083",
+  "raw": "{\"decisions\":[{\"step_id\":1,\"accept_llm\":true,\"reason\":\"LLM choice 'Places Nearby a Coordinates - Nearby' directly matches the step to find nearby hotels by coordinates, unlike semantic top-1 which is for elevation.\"},{\"step_id\":2,\"accept_llm\":false,\"reason\":\"LLM choice is identical to semantic top-1; no change needed.\"}],\"workflow_confidence\":0.95}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice 'Places Nearby a Coordinates - Nearby' directly matches the step to find nearby hotels by coordinates, unlike semantic top-1 which is for elevation."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "LLM choice is identical to semantic top-1; no change needed."
+      }
+    ],
+    "workflow_confidence": 0.95
+  },
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 918,
+    "total_tokens": 1008,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 36,
+      "engine_ttlt_ms": 1002,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 1136,
+      "total_duration_ms": 1050,
+      "user_visible_ttft_ms": 62
+    }
+  }
+}

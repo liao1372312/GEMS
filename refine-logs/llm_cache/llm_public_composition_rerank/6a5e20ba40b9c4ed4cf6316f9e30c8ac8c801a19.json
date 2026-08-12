@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_897",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.7, \"rationale\": \"Among the candidates, GroupDocs.Signature Cloud - GetSupportedFileFormats is the most relevant API related to document types. Although it does not explicitly mention filtering by modification date, it is the only API related to document types, which aligns with the subtask of retrieving document types. Other APIs are unrelated to document management or document types.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.7,
+    "rationale": "Among the candidates, GroupDocs.Signature Cloud - GetSupportedFileFormats is the most relevant API related to document types. Although it does not explicitly mention filtering by modification date, it is the only API related to document types, which aligns with the subtask of retrieving document types. Other APIs are unrelated to document management or document types."
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 1888,
+    "total_tokens": 1977,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 149,
+      "engine_ttlt_ms": 1593,
+      "pre_inference_ms": 99,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 272,
+      "service_ttlt_ms": 1713,
+      "total_duration_ms": 1619,
+      "user_visible_ttft_ms": 173
+    }
+  }
+}

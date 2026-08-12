@@ -1,0 +1,84 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the list of stock tickers to identify the stocks for comparison.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the minimum trading values for each selected stock ticker over the desired timeframe.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"tickers\", \"timeframe\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Calculate or fetch the price differences for each stock over the specified timeframe.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"tickers\", \"timeframe\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the list of stock tickers to identify the stocks for comparison.",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the minimum trading values for each selected stock ticker over the desired timeframe.",
+        "domain": "Finance",
+        "required_inputs": [
+          "tickers",
+          "timeframe"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate or fetch the price differences for each stock over the specified timeframe.",
+        "domain": "Finance",
+        "required_inputs": [
+          "tickers",
+          "timeframe"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the list of stock tickers to identify the stocks for comparison.",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the minimum trading values for each selected stock ticker over the desired timeframe.",
+      "domain": "Finance",
+      "required_inputs": [
+        "tickers",
+        "timeframe"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calculate or fetch the price differences for each stock over the specified timeframe.",
+      "domain": "Finance",
+      "required_inputs": [
+        "tickers",
+        "timeframe"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 2028,
+    "total_tokens": 2182,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1789,
+      "pre_inference_ms": 92,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 219,
+      "service_ttlt_ms": 1962,
+      "total_duration_ms": 1879,
+      "user_visible_ttft_ms": 127
+    }
+  }
+}

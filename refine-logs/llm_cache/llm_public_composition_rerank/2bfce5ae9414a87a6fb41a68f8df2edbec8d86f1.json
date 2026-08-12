@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2057",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"AllSportsApi - Baseball Match Statistics is the only API related to cricket and sports statistics among the candidates, and it covers cricket statistics. Although it requires a match id, it is the most relevant and specific API for obtaining cricket facts compared to unrelated or generic fact APIs.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "AllSportsApi - Baseball Match Statistics is the only API related to cricket and sports statistics among the candidates, and it covers cricket statistics. Although it requires a match id, it is the most relevant and specific API for obtaining cricket facts compared to unrelated or generic fact APIs."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1904,
+    "total_tokens": 1980,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 94,
+      "engine_ttlt_ms": 1536,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 549,
+      "service_ttlt_ms": 1963,
+      "total_duration_ms": 1895,
+      "user_visible_ttft_ms": 473
+    }
+  }
+}

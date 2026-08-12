@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3042",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.95, \"rationale\": \"This API supports both Imperial and Metric units for BMI calculation and provides weight categorization based on BMI, including ethnicity-specific categories, matching the user's requirements closely.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.95,
+    "rationale": "This API supports both Imperial and Metric units for BMI calculation and provides weight categorization based on BMI, including ethnicity-specific categories, matching the user's requirements closely."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1759,
+    "total_tokens": 1812,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 46,
+      "engine_ttlt_ms": 454,
+      "pre_inference_ms": 207,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 485,
+      "service_ttlt_ms": 773,
+      "total_duration_ms": 593,
+      "user_visible_ttft_ms": 278
+    }
+  }
+}

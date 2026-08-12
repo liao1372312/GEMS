@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_4774",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'Working days - /1.3/analyse' API directly calculates the number of working days between given start and end dates, which matches the subtask perfectly. It requires start_date and end_date parameters that are provided, and it is specific to working days analysis rather than a generic search or unrelated domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'Working days - /1.3/analyse' API directly calculates the number of working days between given start and end dates, which matches the subtask perfectly. It requires start_date and end_date parameters that are provided, and it is specific to working days analysis rather than a generic search or unrelated domain."
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 2467,
+    "total_tokens": 2552,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 1258,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 1423,
+      "total_duration_ms": 1312,
+      "user_visible_ttft_ms": 138
+    }
+  }
+}

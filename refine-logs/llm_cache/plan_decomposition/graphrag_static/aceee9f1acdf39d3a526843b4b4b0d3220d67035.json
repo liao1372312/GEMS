@@ -1,0 +1,86 @@
+{
+  "record_id": "Finance_response_4555",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Obtain historical stock prices for Apple Inc. during August.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"company_name: 'Apple Inc.'\", \"time_period: 'August'\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve ESG scores for Apple Inc.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"company_name: 'Apple Inc.'\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the current tax rate for the zip code 94102.\",\n      \"domain\": \"finance\",\n      \"required_inputs\": [\"zip_code: '94102'\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Obtain historical stock prices for Apple Inc. during August.",
+        "domain": "finance",
+        "required_inputs": [
+          "company_name: 'Apple Inc.'",
+          "time_period: 'August'"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve ESG scores for Apple Inc.",
+        "domain": "finance",
+        "required_inputs": [
+          "company_name: 'Apple Inc.'"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Fetch the current tax rate for the zip code 94102.",
+        "domain": "finance",
+        "required_inputs": [
+          "zip_code: '94102'"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Obtain historical stock prices for Apple Inc. during August.",
+      "domain": "finance",
+      "required_inputs": [
+        "company_name: 'Apple Inc.'",
+        "time_period: 'August'"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve ESG scores for Apple Inc.",
+      "domain": "finance",
+      "required_inputs": [
+        "company_name: 'Apple Inc.'"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the current tax rate for the zip code 94102.",
+      "domain": "finance",
+      "required_inputs": [
+        "zip_code: '94102'"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 577,
+    "total_tokens": 738,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 1561,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 189,
+      "service_ttlt_ms": 1704,
+      "total_duration_ms": 1606,
+      "user_visible_ttft_ms": 84
+    }
+  }
+}

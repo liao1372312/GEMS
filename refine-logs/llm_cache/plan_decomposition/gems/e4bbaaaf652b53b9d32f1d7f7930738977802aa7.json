@@ -1,0 +1,76 @@
+{
+  "record_id": "Cross_Domain_response_7924",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find live giveaways for popular games on platforms like Steam and Epic Games Store\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Estimate the worth in dollars of the live giveaways found\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"live giveaways data\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get champion abilities of popular League of Legends champions\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find live giveaways for popular games on platforms like Steam and Epic Games Store",
+        "domain": "gaming",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Estimate the worth in dollars of the live giveaways found",
+        "domain": "gaming",
+        "required_inputs": [
+          "live giveaways data"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Get champion abilities of popular League of Legends champions",
+        "domain": "gaming",
+        "required_inputs": []
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find live giveaways for popular games on platforms like Steam and Epic Games Store",
+      "domain": "gaming",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Estimate the worth in dollars of the live giveaways found",
+      "domain": "gaming",
+      "required_inputs": [
+        "live giveaways data"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get champion abilities of popular League of Legends champions",
+      "domain": "gaming",
+      "required_inputs": []
+    }
+  ],
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 2146,
+    "total_tokens": 2283,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 69,
+      "engine_ttlt_ms": 1674,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 503,
+      "service_ttlt_ms": 2101,
+      "total_duration_ms": 2026,
+      "user_visible_ttft_ms": 418
+    }
+  }
+}

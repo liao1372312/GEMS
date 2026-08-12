@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9267",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Shazam - Search Track API is the only relevant music-related API that can search for a song by title, which is a necessary step before downloading a song from Soundcloud. Although it does not directly download from Soundcloud, none of the other APIs provide direct Soundcloud download functionality. This API can at least identify the track 'The Phoenix' to facilitate further download steps.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Shazam - Search Track API is the only relevant music-related API that can search for a song by title, which is a necessary step before downloading a song from Soundcloud. Although it does not directly download from Soundcloud, none of the other APIs provide direct Soundcloud download functionality. This API can at least identify the track 'The Phoenix' to facilitate further download steps."
+  },
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1970,
+    "total_tokens": 2068,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 1405,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 192,
+      "service_ttlt_ms": 1536,
+      "total_duration_ms": 1440,
+      "user_visible_ttft_ms": 90
+    }
+  }
+}

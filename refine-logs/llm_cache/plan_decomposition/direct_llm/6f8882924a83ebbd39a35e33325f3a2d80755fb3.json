@@ -1,0 +1,80 @@
+{
+  "record_id": "Finance_response_4210",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the latest basketball matches available from Admiralbet\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the odds for each of the latest basketball matches\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"match IDs or identifiers from step 1\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Obtain the teams participating and match timings for each basketball match\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"match IDs or identifiers from step 1\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the latest basketball matches available from Admiralbet",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Fetch the odds for each of the latest basketball matches",
+        "domain": "Finance",
+        "required_inputs": [
+          "match IDs or identifiers from step 1"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Obtain the teams participating and match timings for each basketball match",
+        "domain": "Finance",
+        "required_inputs": [
+          "match IDs or identifiers from step 1"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the latest basketball matches available from Admiralbet",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the odds for each of the latest basketball matches",
+      "domain": "Finance",
+      "required_inputs": [
+        "match IDs or identifiers from step 1"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Obtain the teams participating and match timings for each basketball match",
+      "domain": "Finance",
+      "required_inputs": [
+        "match IDs or identifiers from step 1"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 202,
+    "total_tokens": 351,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 2330,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 214,
+      "service_ttlt_ms": 2485,
+      "total_duration_ms": 2377,
+      "user_visible_ttft_ms": 94
+    }
+  }
+}

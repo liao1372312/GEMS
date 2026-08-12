@@ -1,0 +1,64 @@
+{
+  "record_id": "Medical_response_4299",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find easy-to-follow chicken recipes suitable for outdoor dining\",\n      \"domain\": \"Cooking\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for halal restaurants in Korea\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Find easy-to-follow chicken recipes suitable for outdoor dining",
+        "domain": "Cooking",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Search for halal restaurants in Korea",
+        "domain": "Food",
+        "required_inputs": [
+          "location"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Find easy-to-follow chicken recipes suitable for outdoor dining",
+      "domain": "Cooking",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Search for halal restaurants in Korea",
+      "domain": "Food",
+      "required_inputs": [
+        "location"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 213,
+    "total_tokens": 301,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 94,
+      "engine_ttlt_ms": 1411,
+      "pre_inference_ms": 111,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 262,
+      "service_ttlt_ms": 1565,
+      "total_duration_ms": 1457,
+      "user_visible_ttft_ms": 151
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "workflow_subset": "outputs/test53_stratified_workflows.json",
+  "workflows": 53,
+  "steps": 147,
+  "rows": [
+    {
+      "method": "Direct-LLM",
+      "workflow_exact": 0.6037735849056604,
+      "api_acc": 0.7414965986394558,
+      "para_f1": 0.7732426303854876,
+      "steps": 147,
+      "workflows": 53,
+      "source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "CoT-LLM",
+      "workflow_exact": 0.41509433962264153,
+      "api_acc": 0.6802721088435374,
+      "para_f1": 0.7210884353741497,
+      "steps": 147,
+      "workflows": 53,
+      "source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "ReAct",
+      "workflow_exact": 0.4716981132075472,
+      "api_acc": 0.6666666666666666,
+      "para_f1": 0.7210884353741497,
+      "steps": 147,
+      "workflows": 53,
+      "source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "RestGPT-style",
+      "workflow_exact": 0.5471698113207547,
+      "api_acc": 0.7210884353741497,
+      "para_f1": 0.7596371882086168,
+      "steps": 147,
+      "workflows": 53,
+      "source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "MA-NoMem",
+      "workflow_exact": 0.4528301886792453,
+      "api_acc": 0.6666666666666666,
+      "para_f1": 0.7324263038548753,
+      "steps": 147,
+      "workflows": 53,
+      "source": "outputs/llm_public_composition_baselines_test_all.json"
+    },
+    {
+      "method": "Trace-RAG",
+      "workflow_exact": 0.4716981132075472,
+      "api_acc": 0.6190476190476191,
+      "para_f1": 0.6462585034013606,
+      "steps": 147,
+      "workflows": 53,
+      "source": "semantic-safe tuned feature reranker"
+    },
+    {
+      "method": "StructMem-RAG",
+      "workflow_exact": 0.4528301886792453,
+      "api_acc": 0.6122448979591837,
+      "para_f1": 0.6394557823129252,
+      "steps": 147,
+      "workflows": 53,
+      "source": "semantic-safe tuned feature reranker"
+    },
+    {
+      "method": "GraphRAG-static",
+      "workflow_exact": 0.4716981132075472,
+      "api_acc": 0.6190476190476191,
+      "para_f1": 0.6462585034013606,
+      "steps": 147,
+      "workflows": 53,
+      "source": "semantic-safe tuned feature reranker"
+    },
+    {
+      "method": "AgentKB-style",
+      "workflow_exact": 0.3584905660377358,
+      "api_acc": 0.564625850340136,
+      "para_f1": 0.6258503401360545,
+      "steps": 147,
+      "workflows": 53,
+      "source": "semantic-safe AgentKB-style rerun on subset"
+    },
+    {
+      "method": "\\textsc{GEMS}",
+      "workflow_exact": 0.5094339622641509,
+      "api_acc": 0.6462585034013606,
+      "para_f1": 0.6802721088435374,
+      "steps": 147,
+      "workflows": 53,
+      "source": "GEMS-safe policy rerun on subset"
+    }
+  ]
+}

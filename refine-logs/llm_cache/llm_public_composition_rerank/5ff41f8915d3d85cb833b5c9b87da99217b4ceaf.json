@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_4436",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs directly relate to searching the Croatian company register using the MBS identifier. However, the first API is about airports and unrelated, and the rest are either project management or entertainment APIs. No suitable API is available in the candidates for the subtask.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs directly relate to searching the Croatian company register using the MBS identifier. However, the first API is about airports and unrelated, and the rest are either project management or entertainment APIs. No suitable API is available in the candidates for the subtask."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1996,
+    "total_tokens": 2072,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 100,
+      "engine_ttlt_ms": 1512,
+      "pre_inference_ms": 98,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 1661,
+      "total_duration_ms": 1576,
+      "user_visible_ttft_ms": 160
+    }
+  }
+}

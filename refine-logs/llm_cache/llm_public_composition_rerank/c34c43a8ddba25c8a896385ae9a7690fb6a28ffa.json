@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1903",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.7, \"rationale\": \"None of the location APIs provide cancer rates data. The Crossref API in the Science domain can be used to search for research outputs related to cancer rates, which is closest to the subtask intent of finding cancer rates information.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.7,
+    "rationale": "None of the location APIs provide cancer rates data. The Crossref API in the Science domain can be used to search for research outputs related to cancer rates, which is closest to the subtask intent of finding cancer rates information."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 1829,
+    "total_tokens": 1896,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1035,
+      "pre_inference_ms": 90,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 166,
+      "service_ttlt_ms": 1149,
+      "total_duration_ms": 1065,
+      "user_visible_ttft_ms": 76
+    }
+  }
+}

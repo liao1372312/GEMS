@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2965",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask requires finding a grocery store that sells ingredients for selected recipes, which implies having the selected recipes first. The top-ranked candidate provides vegan recipes from a specific food blog, which is relevant to obtaining the selected recipes before finding stores. Other candidates do not relate to recipes or grocery stores.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask requires finding a grocery store that sells ingredients for selected recipes, which implies having the selected recipes first. The top-ranked candidate provides vegan recipes from a specific food blog, which is relevant to obtaining the selected recipes before finding stores. Other candidates do not relate to recipes or grocery stores."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1297,
+    "total_tokens": 1378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 693,
+      "pre_inference_ms": 71,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 129,
+      "service_ttlt_ms": 782,
+      "total_duration_ms": 717,
+      "user_visible_ttft_ms": 58
+    }
+  }
+}

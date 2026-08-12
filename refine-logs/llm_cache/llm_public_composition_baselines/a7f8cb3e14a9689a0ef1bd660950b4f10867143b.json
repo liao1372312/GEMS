@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3973",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The Google Reviews Scraper API can provide reviews, ratings, and business details including photos and Google Maps URLs for restaurants, which aligns with the user's request to fetch photos and details of top-ranked restaurants in San Francisco.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The Google Reviews Scraper API can provide reviews, ratings, and business details including photos and Google Maps URLs for restaurants, which aligns with the user's request to fetch photos and details of top-ranked restaurants in San Francisco."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1603,
+    "total_tokens": 1668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 44,
+      "engine_ttlt_ms": 589,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 155,
+      "service_ttlt_ms": 688,
+      "total_duration_ms": 615,
+      "user_visible_ttft_ms": 77
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_4642",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API can be used to gather lifetime disease risk statistics from reliable health databases by searching relevant content, which fits the requirement for gathering disease risk statistics for various age groups.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API can be used to gather lifetime disease risk statistics from reliable health databases by searching relevant content, which fits the requirement for gathering disease risk statistics for various age groups."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1741,
+    "total_tokens": 1804,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 39,
+      "engine_ttlt_ms": 1118,
+      "pre_inference_ms": 212,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 359,
+      "service_ttlt_ms": 1417,
+      "total_duration_ms": 1212,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

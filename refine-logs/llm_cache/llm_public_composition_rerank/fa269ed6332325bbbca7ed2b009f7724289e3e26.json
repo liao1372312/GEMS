@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_872",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide functionality to recommend popular landmarks based on starting location, destination, and trip duration. The available APIs are unrelated to tourism or location-based landmark recommendations.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide functionality to recommend popular landmarks based on starting location, destination, and trip duration. The available APIs are unrelated to tourism or location-based landmark recommendations."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1804,
+    "total_tokens": 1861,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 48,
+      "engine_ttlt_ms": 763,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 273,
+      "service_ttlt_ms": 1054,
+      "total_duration_ms": 981,
+      "user_visible_ttft_ms": 147
+    }
+  }
+}

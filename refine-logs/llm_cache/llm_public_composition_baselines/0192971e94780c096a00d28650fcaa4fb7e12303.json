@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4874",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The user request includes two subtasks: generating a map tile with French labels for specific coordinates and getting the latest average price of a used Apple MacBook Pro 13\\\" 2020. The top-ranked API (Apfelpreise - price) directly provides the latest average price for the specified Apple product in used condition, which is part of the user's request. The second-ranked API (MapTiles - getMapTilewithFrenchLabels) is suitable for generating the map tile with French labels. However, since the user request is combined, the best approach is to first get the price data using the top-ranked API, then separately call the map tile API. Given the instruction to select one API, the price API is selected as it is more specific and less common, while the map tile API is straightforward and can be called next. The confidence is high because the API matches the product and condition exactly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The user request includes two subtasks: generating a map tile with French labels for specific coordinates and getting the latest average price of a used Apple MacBook Pro 13\" 2020. The top-ranked API (Apfelpreise - price) directly provides the latest average price for the specified Apple product in used condition, which is part of the user's request. The second-ranked API (MapTiles - getMapTilewithFrenchLabels) is suitable for generating the map tile with French labels. However, since the user request is combined, the best approach is to first get the price data using the top-ranked API, then separately call the map tile API. Given the instruction to select one API, the price API is selected as it is more specific and less common, while the map tile API is straightforward and can be called next. The confidence is high because the API matches the product and condition exactly."
+  },
+  "usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 2231,
+    "total_tokens": 2433,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 1620,
+      "pre_inference_ms": 171,
+      "service_tbt_ms": 8,
+      "service_ttft_ms": 278,
+      "service_ttlt_ms": 1827,
+      "total_duration_ms": 1666,
+      "user_visible_ttft_ms": 107
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_5479",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The user requests a random motivational quote with a limit of 50 characters and educational resources. The Dr Almotawa Quotes API is in the Education domain and provides random quotes, making it more relevant than others in Business or Entertainment domains.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The user requests a random motivational quote with a limit of 50 characters and educational resources. The Dr Almotawa Quotes API is in the Education domain and provides random quotes, making it more relevant than others in Business or Entertainment domains."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1417,
+    "total_tokens": 1486,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 100,
+      "engine_ttlt_ms": 1202,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 310,
+      "service_ttlt_ms": 1403,
+      "total_duration_ms": 1306,
+      "user_visible_ttft_ms": 203
+    }
+  }
+}

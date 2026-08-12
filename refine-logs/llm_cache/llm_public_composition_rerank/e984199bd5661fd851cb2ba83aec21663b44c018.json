@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3998",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": null, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to plumbing service providers or the San Francisco location; all relevant APIs are for sports or travel accommodations, not plumbing services.\"}",
+  "parsed": {
+    "selected_rank": null,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to plumbing service providers or the San Francisco location; all relevant APIs are for sports or travel accommodations, not plumbing services."
+  },
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 2245,
+    "total_tokens": 2296,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 32,
+      "engine_ttft_ms": 73,
+      "engine_ttlt_ms": 1693,
+      "pre_inference_ms": 91,
+      "service_tbt_ms": 32,
+      "service_ttft_ms": 199,
+      "service_ttlt_ms": 1814,
+      "total_duration_ms": 1731,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_5445",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"Aspose.Tasks Cloud - GetCalendar API is related to calendar management and can be used to manipulate calendar data, making it the most relevant for removing a custom period in the user's calendar.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "Aspose.Tasks Cloud - GetCalendar API is related to calendar management and can be used to manipulate calendar data, making it the most relevant for removing a custom period in the user's calendar."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 2258,
+    "total_tokens": 2317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 96,
+      "engine_ttlt_ms": 884,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 289,
+      "service_ttlt_ms": 1064,
+      "total_duration_ms": 945,
+      "user_visible_ttft_ms": 160
+    }
+  }
+}

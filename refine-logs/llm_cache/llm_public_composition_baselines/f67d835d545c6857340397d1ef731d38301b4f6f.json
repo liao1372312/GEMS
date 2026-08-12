@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2187",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requests a historical fact about the year 1492, which is related to history and general knowledge. Among the candidates, none directly provide historical facts, but the Instant Cameroon News API might provide some historical or news-related information. However, it is not ideal. Since no API specifically offers historical facts, the best available option is the highest-ranked API, which is Instant Cameroon News, though it may not perfectly match the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requests a historical fact about the year 1492, which is related to history and general knowledge. Among the candidates, none directly provide historical facts, but the Instant Cameroon News API might provide some historical or news-related information. However, it is not ideal. Since no API specifically offers historical facts, the best available option is the highest-ranked API, which is Instant Cameroon News, though it may not perfectly match the request."
+  },
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 1322,
+    "total_tokens": 1431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 79,
+      "engine_ttlt_ms": 1044,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 298,
+      "service_ttlt_ms": 1256,
+      "total_duration_ms": 1145,
+      "user_visible_ttft_ms": 174
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7282",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide movie ratings or reviews; no suitable API available in the list for fetching movie user and Rotten Tomatoes ratings.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide movie ratings or reviews; no suitable API available in the list for fetching movie user and Rotten Tomatoes ratings."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1583,
+    "total_tokens": 1632,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 358,
+      "pre_inference_ms": 120,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 545,
+      "total_duration_ms": 436,
+      "user_visible_ttft_ms": 155
+    }
+  }
+}

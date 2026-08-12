@@ -1,0 +1,84 @@
+{
+  "record_id": "Medical_response_4391",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify a list of various foods to include in the dinner party menu.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food categories or specific food names\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for nutritional information for each identified food item.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food names or food IDs\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Compile and organize the nutritional information for all selected foods to assist in dinner party planning.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"nutritional data for each food item\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify a list of various foods to include in the dinner party menu.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food categories or specific food names"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Search for nutritional information for each identified food item.",
+        "domain": "Medical",
+        "required_inputs": [
+          "food names or food IDs"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Compile and organize the nutritional information for all selected foods to assist in dinner party planning.",
+        "domain": "Medical",
+        "required_inputs": [
+          "nutritional data for each food item"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify a list of various foods to include in the dinner party menu.",
+      "domain": "Medical",
+      "required_inputs": [
+        "food categories or specific food names"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for nutritional information for each identified food item.",
+      "domain": "Medical",
+      "required_inputs": [
+        "food names or food IDs"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Compile and organize the nutritional information for all selected foods to assist in dinner party planning.",
+      "domain": "Medical",
+      "required_inputs": [
+        "nutritional data for each food item"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 342,
+    "total_tokens": 502,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 37,
+      "engine_ttlt_ms": 1924,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 157,
+      "service_ttlt_ms": 2040,
+      "total_duration_ms": 1958,
+      "user_visible_ttft_ms": 69
+    }
+  }
+}

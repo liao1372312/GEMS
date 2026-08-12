@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6246",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"This API provides random jokes by category, matching the need to get a random joke in the 'virtual games' category, which aligns with the user's request for jokes to keep the atmosphere lively during a virtual game night.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "This API provides random jokes by category, matching the need to get a random joke in the 'virtual games' category, which aligns with the user's request for jokes to keep the atmosphere lively during a virtual game night."
+  },
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 1222,
+    "total_tokens": 1287,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 61,
+      "engine_ttft_ms": 3427,
+      "engine_ttlt_ms": 7396,
+      "pre_inference_ms": 112,
+      "service_tbt_ms": 61,
+      "service_ttft_ms": 4948,
+      "service_ttlt_ms": 8910,
+      "total_duration_ms": 8807,
+      "user_visible_ttft_ms": 4836
+    }
+  }
+}

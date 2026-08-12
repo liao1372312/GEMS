@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2917",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 4, \"confidence\": 0.9, \"rationale\": \"The 'Google Search 2 - Google Maps Data ID' API can be used to search for local florists by querying relevant terms, directly addressing the subtask of finding a local florist for anniversary flower arrangements. It is more specific and relevant than generic or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.9,
+    "rationale": "The 'Google Search 2 - Google Maps Data ID' API can be used to search for local florists by querying relevant terms, directly addressing the subtask of finding a local florist for anniversary flower arrangements. It is more specific and relevant than generic or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 1948,
+    "total_tokens": 2024,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 22,
+      "engine_ttft_ms": 49,
+      "engine_ttlt_ms": 1692,
+      "pre_inference_ms": 151,
+      "service_tbt_ms": 22,
+      "service_ttft_ms": 253,
+      "service_ttlt_ms": 1892,
+      "total_duration_ms": 1748,
+      "user_visible_ttft_ms": 101
+    }
+  }
+}

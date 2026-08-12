@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9541",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user request is about entertainment, specifically top-rated drama movies from IMDb and character details from Marvel Heroic API. Among the candidates, none directly match the entertainment domain or IMDb or Marvel Heroic API. However, the first candidate is unrelated (Japanese kanji), and others are unrelated to entertainment or movie data. Since no direct API for IMDb or Marvel Heroic is listed, the best approach is to select the top-ranked candidate to start with the IMDb drama movies chart query as per the subtask, assuming further steps will involve Marvel Heroic API. Thus, candidate rank 1 is selected for initial step.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user request is about entertainment, specifically top-rated drama movies from IMDb and character details from Marvel Heroic API. Among the candidates, none directly match the entertainment domain or IMDb or Marvel Heroic API. However, the first candidate is unrelated (Japanese kanji), and others are unrelated to entertainment or movie data. Since no direct API for IMDb or Marvel Heroic is listed, the best approach is to select the top-ranked candidate to start with the IMDb drama movies chart query as per the subtask, assuming further steps will involve Marvel Heroic API. Thus, candidate rank 1 is selected for initial step."
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 2220,
+    "total_tokens": 2365,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1518,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 266,
+      "service_ttlt_ms": 1694,
+      "total_duration_ms": 1628,
+      "user_visible_ttft_ms": 132
+    }
+  }
+}

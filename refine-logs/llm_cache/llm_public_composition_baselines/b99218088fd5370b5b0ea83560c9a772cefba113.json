@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3844",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The request is to retrieve the schedule of the Boston Celtics for 2008. Candidate rank 3 specifically provides the W/L schedule for a specific year for the Boston Celtics, matching the subtask requirements precisely.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The request is to retrieve the schedule of the Boston Celtics for 2008. Candidate rank 3 specifically provides the W/L schedule for a specific year for the Boston Celtics, matching the subtask requirements precisely."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1686,
+    "total_tokens": 1750,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 41,
+      "engine_ttlt_ms": 919,
+      "pre_inference_ms": 191,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 347,
+      "service_ttlt_ms": 1208,
+      "total_duration_ms": 1029,
+      "user_visible_ttft_ms": 155
+    }
+  }
+}

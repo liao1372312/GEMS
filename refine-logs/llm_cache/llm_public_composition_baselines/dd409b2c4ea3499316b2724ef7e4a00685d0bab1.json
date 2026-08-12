@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_4406",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 8, \"confidence\": 0.9, \"rationale\": \"This API provides detailed NBA game data including team details and game stats, suitable for retrieving NBA games and team info, which aligns with the request for NBA charity event games and team details.\"}",
+  "parsed": {
+    "selected_rank": 8,
+    "confidence": 0.9,
+    "rationale": "This API provides detailed NBA game data including team details and game stats, suitable for retrieving NBA games and team info, which aligns with the request for NBA charity event games and team details."
+  },
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 2144,
+    "total_tokens": 2203,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 569,
+      "pre_inference_ms": 139,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 245,
+      "service_ttlt_ms": 754,
+      "total_duration_ms": 624,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

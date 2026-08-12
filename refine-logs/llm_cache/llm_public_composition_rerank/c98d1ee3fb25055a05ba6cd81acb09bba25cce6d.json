@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2009",
+  "step_id": 12,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"The Flight Data_v2 API provides travel insights and popular destinations data, which is relevant for suggesting popular tourist attractions in Amsterdam. It is travel domain specific and more suitable than unrelated finance or art event APIs focused on Italy.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "The Flight Data_v2 API provides travel insights and popular destinations data, which is relevant for suggesting popular tourist attractions in Amsterdam. It is travel domain specific and more suitable than unrelated finance or art event APIs focused on Italy."
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1615,
+    "total_tokens": 1681,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 809,
+      "pre_inference_ms": 130,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 232,
+      "service_ttlt_ms": 1023,
+      "total_duration_ms": 898,
+      "user_visible_ttft_ms": 102
+    }
+  }
+}

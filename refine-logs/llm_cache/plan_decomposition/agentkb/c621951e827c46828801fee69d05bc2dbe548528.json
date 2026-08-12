@@ -1,0 +1,118 @@
+{
+  "record_id": "Finance_response_1528",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the list of stock tickers to be compared\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve trading data for each stock ticker including price values over a specified time period\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"stock tickers\", \"time period\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Calculate the minimum price value for each stock within the retrieved trading data\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"trading data\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Compute the price differences for each stock over the specified time period\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"trading data\"]\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Compare the tickers, minimum values, and price differences across the selected stocks\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"minimum values\", \"price differences\", \"stock tickers\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Fetch the list of stock tickers to be compared",
+        "domain": "Finance",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Retrieve trading data for each stock ticker including price values over a specified time period",
+        "domain": "Finance",
+        "required_inputs": [
+          "stock tickers",
+          "time period"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Calculate the minimum price value for each stock within the retrieved trading data",
+        "domain": "Finance",
+        "required_inputs": [
+          "trading data"
+        ]
+      },
+      {
+        "id": 4,
+        "description": "Compute the price differences for each stock over the specified time period",
+        "domain": "Finance",
+        "required_inputs": [
+          "trading data"
+        ]
+      },
+      {
+        "id": 5,
+        "description": "Compare the tickers, minimum values, and price differences across the selected stocks",
+        "domain": "Finance",
+        "required_inputs": [
+          "minimum values",
+          "price differences",
+          "stock tickers"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Fetch the list of stock tickers to be compared",
+      "domain": "Finance",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve trading data for each stock ticker including price values over a specified time period",
+      "domain": "Finance",
+      "required_inputs": [
+        "stock tickers",
+        "time period"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calculate the minimum price value for each stock within the retrieved trading data",
+      "domain": "Finance",
+      "required_inputs": [
+        "trading data"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Compute the price differences for each stock over the specified time period",
+      "domain": "Finance",
+      "required_inputs": [
+        "trading data"
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Compare the tickers, minimum values, and price differences across the selected stocks",
+      "domain": "Finance",
+      "required_inputs": [
+        "minimum values",
+        "price differences",
+        "stock tickers"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 253,
+    "prompt_tokens": 343,
+    "total_tokens": 596,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 99,
+      "engine_ttlt_ms": 4857,
+      "pre_inference_ms": 105,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 266,
+      "service_ttlt_ms": 5007,
+      "total_duration_ms": 4912,
+      "user_visible_ttft_ms": 161
+    }
+  }
+}

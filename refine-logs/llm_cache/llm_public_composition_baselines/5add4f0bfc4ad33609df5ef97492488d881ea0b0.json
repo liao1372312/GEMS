@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_5648",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user requested World of Tanks account statistics for 'PasiHD', and the top-ranked API provides exactly that data including battles, victories, defeats, and kills. No API is available for Diablo 4 druid gameplay videos, so selecting the relevant API for the World of Tanks stats is the best choice.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user requested World of Tanks account statistics for 'PasiHD', and the top-ranked API provides exactly that data including battles, victories, defeats, and kills. No API is available for Diablo 4 druid gameplay videos, so selecting the relevant API for the World of Tanks stats is the best choice."
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1760,
+    "total_tokens": 1844,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 61,
+      "engine_ttlt_ms": 1134,
+      "pre_inference_ms": 104,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 275,
+      "service_ttlt_ms": 1341,
+      "total_duration_ms": 1244,
+      "user_visible_ttft_ms": 171
+    }
+  }
+}

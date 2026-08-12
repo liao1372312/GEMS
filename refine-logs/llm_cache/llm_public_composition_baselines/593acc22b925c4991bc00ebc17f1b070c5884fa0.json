@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3742",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The top-ranked candidate directly matches the request for a random Mediterranean recipe with fish, providing the necessary parameters and relevant domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The top-ranked candidate directly matches the request for a random Mediterranean recipe with fish, providing the necessary parameters and relevant domain."
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1694,
+    "total_tokens": 1740,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 463,
+      "pre_inference_ms": 149,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 258,
+      "service_ttlt_ms": 652,
+      "total_duration_ms": 513,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

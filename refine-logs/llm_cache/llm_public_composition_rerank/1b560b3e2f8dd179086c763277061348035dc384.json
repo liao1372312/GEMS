@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_5648",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The 'World of Tanks Stats - Get Stats' API directly provides player statistics such as battles, victories, defeats, and kills for a given player username, matching the subtask requirements perfectly and is from the relevant gaming domain.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The 'World of Tanks Stats - Get Stats' API directly provides player statistics such as battles, victories, defeats, and kills for a given player username, matching the subtask requirements perfectly and is from the relevant gaming domain."
+  },
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 2313,
+    "total_tokens": 2380,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 60,
+      "engine_ttlt_ms": 862,
+      "pre_inference_ms": 93,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 191,
+      "service_ttlt_ms": 986,
+      "total_duration_ms": 898,
+      "user_visible_ttft_ms": 98
+    }
+  }
+}

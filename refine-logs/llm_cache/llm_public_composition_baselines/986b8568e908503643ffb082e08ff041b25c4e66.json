@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3827",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"This API provides city details including geolocation and timezone, which matches the user's request for tropical cities with beach and warm weather information.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "This API provides city details including geolocation and timezone, which matches the user's request for tropical cities with beach and warm weather information."
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 1611,
+    "total_tokens": 1659,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 8,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 443,
+      "pre_inference_ms": 179,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 475,
+      "service_ttlt_ms": 770,
+      "total_duration_ms": 601,
+      "user_visible_ttft_ms": 296
+    }
+  }
+}

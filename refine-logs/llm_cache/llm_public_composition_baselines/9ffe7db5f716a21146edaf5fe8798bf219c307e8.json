@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2668",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The user wants details of a popular song on Soundcloud and artist info; Shazam - Search Track API can search for songs and provide artist info, fitting the request well.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The user wants details of a popular song on Soundcloud and artist info; Shazam - Search Track API can search for songs and provide artist info, fitting the request well."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1712,
+    "total_tokens": 1769,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 783,
+      "pre_inference_ms": 118,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 227,
+      "service_ttlt_ms": 945,
+      "total_duration_ms": 836,
+      "user_visible_ttft_ms": 109
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_5322",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.7, \"rationale\": \"Candidate 6 provides news sentiment data related to a stock ticker, suitable for fetching ESG news articles about Apple Inc. However, no candidate directly supports fetching credit scores for a company, so this is the best match for the ESG news subtask.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.7,
+    "rationale": "Candidate 6 provides news sentiment data related to a stock ticker, suitable for fetching ESG news articles about Apple Inc. However, no candidate directly supports fetching credit scores for a company, so this is the best match for the ESG news subtask."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 1493,
+    "total_tokens": 1564,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 66,
+      "engine_ttft_ms": 187,
+      "engine_ttlt_ms": 4870,
+      "pre_inference_ms": 88,
+      "service_tbt_ms": 66,
+      "service_ttft_ms": 1623,
+      "service_ttlt_ms": 6305,
+      "total_duration_ms": 6221,
+      "user_visible_ttft_ms": 1535
+    }
+  }
+}

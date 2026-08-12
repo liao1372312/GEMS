@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The 'Forecast crypto and fiat currency exchange rates - Get banks in a country' API provides information about banks, including whether they are central or non-central banks, which is necessary to fetch the latest rates for the top 5 non-central banks as requested.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The 'Forecast crypto and fiat currency exchange rates - Get banks in a country' API provides information about banks, including whether they are central or non-central banks, which is necessary to fetch the latest rates for the top 5 non-central banks as requested."
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1577,
+    "total_tokens": 1650,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 1144,
+      "pre_inference_ms": 220,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 328,
+      "service_ttlt_ms": 1422,
+      "total_duration_ms": 1213,
+      "user_visible_ttft_ms": 108
+    }
+  }
+}

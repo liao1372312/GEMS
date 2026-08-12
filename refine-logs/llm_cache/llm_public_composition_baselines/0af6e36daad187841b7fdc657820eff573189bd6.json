@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3328",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.9, \"rationale\": \"The candidate provides historical daily candlestick data for Bitcoin, matching the request for last 90 days with 1 day interval on Binance.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.9,
+    "rationale": "The candidate provides historical daily candlestick data for Bitcoin, matching the request for last 90 days with 1 day interval on Binance."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1716,
+    "total_tokens": 1765,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 33,
+      "engine_ttlt_ms": 359,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 6,
+      "service_ttft_ms": 259,
+      "service_ttlt_ms": 559,
+      "total_duration_ms": 461,
+      "user_visible_ttft_ms": 158
+    }
+  }
+}

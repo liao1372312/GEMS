@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1694",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs relate to cooking, recipes, or tips for packing food. No suitable API is available to fulfill the subtask of gathering tips on how to pack and keep recipes fresh for a picnic.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs relate to cooking, recipes, or tips for packing food. No suitable API is available to fulfill the subtask of gathering tips on how to pack and keep recipes fresh for a picnic."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 2096,
+    "total_tokens": 2160,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 1057,
+      "pre_inference_ms": 123,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 256,
+      "service_ttlt_ms": 1232,
+      "total_duration_ms": 1118,
+      "user_visible_ttft_ms": 133
+    }
+  }
+}

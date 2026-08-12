@@ -1,0 +1,3822 @@
+{
+  "config": {
+    "split": "test",
+    "methods": [
+      "gems"
+    ],
+    "limit": 0,
+    "model": "gpt-4.1-mini",
+    "cache_dir": "refine-logs/llm_cache/plan_decomposition",
+    "match_threshold": 0.45,
+    "extra_step_penalty": 0.25,
+    "matcher": "auto",
+    "memory_k": 3,
+    "catalog_k": 12,
+    "dry_run": false,
+    "cache_only": false,
+    "gems_refine": false,
+    "gems_catalog_plan": true
+  },
+  "elapsed_seconds": 186.19820976629853,
+  "results": {
+    "gems": {
+      "label": "\\textsc{GEMS}",
+      "metrics": {
+        "plan_acc": 0.18867924528301888,
+        "plan_sem_f1": 0.45628930817610064,
+        "plan_precision": 0.47830188679245284,
+        "plan_recall": 0.44654088050314467,
+        "step_count_acc": 0.5849056603773585,
+        "step_order_acc": 0.18867924528301888,
+        "matched_step_similarity": 0.4489530805637497,
+        "workflows": 53,
+        "requested_workflows": 53,
+        "missing_cache": 0,
+        "api_errors": 0,
+        "dry_run": 0,
+        "coverage": 1.0,
+        "matcher": "auto"
+      },
+      "usage": {
+        "completion_tokens": 5793,
+        "prompt_tokens": 124664,
+        "total_tokens": 130457
+      },
+      "predictions": [
+        {
+          "record_id": "Tourism_response_616",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get a list of cities with their details to identify potential cities with excellent air quality.\",\n      \"domain\": \"Data\",\n      \"required_inputs\": [\"name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve current air quality data for candidate cities to find one with excellent air quality.\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"country\", \"city\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Get a list of cities with their details to identify potential cities with excellent air quality.",
+                "domain": "Data",
+                "required_inputs": [
+                  "name"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Retrieve current air quality data for candidate cities to find one with excellent air quality.",
+                "domain": "Weather",
+                "required_inputs": [
+                  "country",
+                  "city"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Get a list of cities with their details to identify potential cities with excellent air quality.",
+              "domain": "Data",
+              "required_inputs": [
+                "name"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Retrieve current air quality data for candidate cities to find one with excellent air quality.",
+              "domain": "Weather",
+              "required_inputs": [
+                "country",
+                "city"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 108,
+            "prompt_tokens": 2213,
+            "total_tokens": 2321,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 72,
+              "engine_ttlt_ms": 1260,
+              "pre_inference_ms": 77,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 275,
+              "service_ttlt_ms": 1459,
+              "total_duration_ms": 1388,
+              "user_visible_ttft_ms": 198
+            }
+          },
+          "goal_hints": [
+            "I want to surprise my family with a weekend getaway to a city with excellent air quality."
+          ]
+        },
+        {
+          "record_id": "Tourism_response_5446",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the vehicle type for the rental car with license plate number 'AFM915' in Finland.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"license_plate_number\", \"country\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Check the availability of the trademark 'amazon' using the USPTO Trademark API.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"trademark_name\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch the vehicle type for the rental car with license plate number 'AFM915' in Finland.",
+                "domain": "Tourism",
+                "required_inputs": [
+                  "license_plate_number",
+                  "country"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Check the availability of the trademark 'amazon' using the USPTO Trademark API.",
+                "domain": "Tourism",
+                "required_inputs": [
+                  "trademark_name"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch the vehicle type for the rental car with license plate number 'AFM915' in Finland.",
+              "domain": "Tourism",
+              "required_inputs": [
+                "license_plate_number",
+                "country"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Check the availability of the trademark 'amazon' using the USPTO Trademark API.",
+              "domain": "Tourism",
+              "required_inputs": [
+                "trademark_name"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 117,
+            "prompt_tokens": 2481,
+            "total_tokens": 2598,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 13,
+              "engine_ttft_ms": 80,
+              "engine_ttlt_ms": 1628,
+              "pre_inference_ms": 109,
+              "service_tbt_ms": 13,
+              "service_ttft_ms": 243,
+              "service_ttlt_ms": 1785,
+              "total_duration_ms": 1685,
+              "user_visible_ttft_ms": 134
+            }
+          },
+          "goal_hints": [
+            "I'm planning a trip to Finland and I want to know the type of my rental car based on the license plate number 'AFM915'. Can you provide me with this information",
+            "I would like to check the availability of the trademark 'amazon' using the USPTO Trademark API"
+          ]
+        },
+        {
+          "record_id": "Tourism_response_700",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get the current date and time in London in ISO8601 format\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the current time in London in 12-hour format\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the current time in London in 24-hour format\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Get the abbreviation of the timezone for London\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 5,\n      \"description\": \"Determine if London is currently in Daylight Savings Time\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Get the current date and time in London in ISO8601 format",
+                "domain": "tourism",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Get the current time in London in 12-hour format",
+                "domain": "tourism",
+                "required_inputs": []
+              },
+              {
+                "id": 3,
+                "description": "Get the current time in London in 24-hour format",
+                "domain": "tourism",
+                "required_inputs": []
+              },
+              {
+                "id": 4,
+                "description": "Get the abbreviation of the timezone for London",
+                "domain": "tourism",
+                "required_inputs": []
+              },
+              {
+                "id": 5,
+                "description": "Determine if London is currently in Daylight Savings Time",
+                "domain": "tourism",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Get the current date and time in London in ISO8601 format",
+              "domain": "tourism",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Get the current time in London in 12-hour format",
+              "domain": "tourism",
+              "required_inputs": []
+            },
+            {
+              "id": 3,
+              "description": "Get the current time in London in 24-hour format",
+              "domain": "tourism",
+              "required_inputs": []
+            },
+            {
+              "id": 4,
+              "description": "Get the abbreviation of the timezone for London",
+              "domain": "tourism",
+              "required_inputs": []
+            },
+            {
+              "id": 5,
+              "description": "Determine if London is currently in Daylight Savings Time",
+              "domain": "tourism",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 218,
+            "prompt_tokens": 2399,
+            "total_tokens": 2617,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 50,
+              "engine_ttlt_ms": 1971,
+              "pre_inference_ms": 102,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 182,
+              "service_ttlt_ms": 2118,
+              "total_duration_ms": 2019,
+              "user_visible_ttft_ms": 79
+            }
+          },
+          "goal_hints": [
+            "I want to plan a trip to London and need to know the current date and time in the city. Can you provide me with the ISO8601 formatted date and time",
+            "the 12-hour and 24-hour format",
+            "I would like to know the abbreviation of the timezone and whether it falls in Daylight Savings. Thank you"
+          ]
+        },
+        {
+          "record_id": "Tourism_response_91",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for popular beach resorts with family-friendly amenities at a beach destination.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"location\", \"family_friendly\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find water sports activities available in the area of the selected beach destination.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search for popular beach resorts with family-friendly amenities at a beach destination.",
+                "domain": "tourism",
+                "required_inputs": [
+                  "location",
+                  "family_friendly"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Find water sports activities available in the area of the selected beach destination.",
+                "domain": "tourism",
+                "required_inputs": [
+                  "location"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search for popular beach resorts with family-friendly amenities at a beach destination.",
+              "domain": "tourism",
+              "required_inputs": [
+                "location",
+                "family_friendly"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Find water sports activities available in the area of the selected beach destination.",
+              "domain": "tourism",
+              "required_inputs": [
+                "location"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 107,
+            "prompt_tokens": 2742,
+            "total_tokens": 2849,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 53,
+              "engine_ttlt_ms": 963,
+              "pre_inference_ms": 164,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 305,
+              "service_ttlt_ms": 1207,
+              "total_duration_ms": 1071,
+              "user_visible_ttft_ms": 141
+            }
+          },
+          "goal_hints": [
+            "I'm planning a family vacation to a beach destination. Can you suggest some popular beach resorts with family-friendly amenities",
+            "I would like to know about any water sports activities available in the area"
+          ]
+        },
+        {
+          "record_id": "Tourism_response_1345",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve detailed information about the airport with the IATA code DFW, including its name and location.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"code\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve detailed information about the airport with the IATA code DFW, including its name and location.",
+                "domain": "Tourism",
+                "required_inputs": [
+                  "code"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve detailed information about the airport with the IATA code DFW, including its name and location.",
+              "domain": "Tourism",
+              "required_inputs": [
+                "code"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 62,
+            "prompt_tokens": 2129,
+            "total_tokens": 2191,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 7,
+              "engine_ttft_ms": 52,
+              "engine_ttlt_ms": 513,
+              "pre_inference_ms": 105,
+              "service_tbt_ms": 7,
+              "service_ttft_ms": 249,
+              "service_ttlt_ms": 699,
+              "total_duration_ms": 605,
+              "user_visible_ttft_ms": 144
+            }
+          },
+          "goal_hints": [
+            "I want to know more about a specific airport with the IATA code DFW."
+          ]
+        },
+        {
+          "record_id": "Finance_response_3009",
+          "raw": "{\"steps\":[{\"id\":1,\"description\":\"Fetch current exchange rates for different currencies including EUR and USD.\",\"domain\":\"Finance\",\"required_inputs\":[]},{\"id\":2,\"description\":\"Fetch the current exchange rate from EUR to USD.\",\"domain\":\"Finance\",\"required_inputs\":[\"source_currency\",\"target_currency\"]}]}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch current exchange rates for different currencies including EUR and USD.",
+                "domain": "Finance",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Fetch the current exchange rate from EUR to USD.",
+                "domain": "Finance",
+                "required_inputs": [
+                  "source_currency",
+                  "target_currency"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch current exchange rates for different currencies including EUR and USD.",
+              "domain": "Finance",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Fetch the current exchange rate from EUR to USD.",
+              "domain": "Finance",
+              "required_inputs": [
+                "source_currency",
+                "target_currency"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 62,
+            "prompt_tokens": 1910,
+            "total_tokens": 1972,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 63,
+              "engine_ttlt_ms": 637,
+              "pre_inference_ms": 114,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 281,
+              "service_ttlt_ms": 839,
+              "total_duration_ms": 733,
+              "user_visible_ttft_ms": 168
+            }
+          },
+          "goal_hints": [
+            "I want to know the current exchange rates for different currencies and the exchange rate from EUR to USD."
+          ]
+        },
+        {
+          "record_id": "Finance_response_4774",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Analyze the working days in the month of October for the friend's company from October 1st to October 31st using the appropriate country calendar\",\n      \"domain\": \"Events\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"country_code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Add 2 hours of working time to the start date of October 1st at 9:00 AM for the friend's company\",\n      \"domain\": \"Events\",\n      \"required_inputs\": [\"start_date\", \"start_time\", \"country_code\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Evaluate the expression '($1500 - $100)'\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Analyze the working days in the month of October for the friend's company from October 1st to October 31st using the appropriate country calendar",
+                "domain": "Events",
+                "required_inputs": [
+                  "start_date",
+                  "end_date",
+                  "country_code"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Add 2 hours of working time to the start date of October 1st at 9:00 AM for the friend's company",
+                "domain": "Events",
+                "required_inputs": [
+                  "start_date",
+                  "start_time",
+                  "country_code"
+                ]
+              },
+              {
+                "id": 3,
+                "description": "Evaluate the expression '($1500 - $100)'",
+                "domain": "Finance",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Analyze the working days in the month of October for the friend's company from October 1st to October 31st using the appropriate country calendar",
+              "domain": "Events",
+              "required_inputs": [
+                "start_date",
+                "end_date",
+                "country_code"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Add 2 hours of working time to the start date of October 1st at 9:00 AM for the friend's company",
+              "domain": "Events",
+              "required_inputs": [
+                "start_date",
+                "start_time",
+                "country_code"
+              ]
+            },
+            {
+              "id": 3,
+              "description": "Evaluate the expression '($1500 - $100)'",
+              "domain": "Finance",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 187,
+            "prompt_tokens": 2741,
+            "total_tokens": 2928,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 7,
+              "engine_ttft_ms": 45,
+              "engine_ttlt_ms": 1280,
+              "pre_inference_ms": 148,
+              "service_tbt_ms": 6,
+              "service_ttft_ms": 330,
+              "service_ttlt_ms": 1521,
+              "total_duration_ms": 1391,
+              "user_visible_ttft_ms": 182
+            }
+          },
+          "goal_hints": [
+            "Can you analyze the working days in the month of October for my friend's company",
+            "The start date is October 1st and the end date is October 31st",
+            "add 2 hours of working time to the start date of October 1st at 9:00 AM. Evaluate the expression '($1500 - $100)'"
+          ]
+        },
+        {
+          "record_id": "Finance_response_1677",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve current exchange rates for various currencies along with their symbols to help manage expenses during the road trip.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve current exchange rates for various currencies along with their symbols to help manage expenses during the road trip.",
+                "domain": "Finance",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve current exchange rates for various currencies along with their symbols to help manage expenses during the road trip.",
+              "domain": "Finance",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 59,
+            "prompt_tokens": 2262,
+            "total_tokens": 2321,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 51,
+              "engine_ttlt_ms": 771,
+              "pre_inference_ms": 109,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 319,
+              "service_ttlt_ms": 1033,
+              "total_duration_ms": 933,
+              "user_visible_ttft_ms": 210
+            }
+          },
+          "goal_hints": [
+            "I want to plan a road trip across the country and manage expenses."
+          ]
+        },
+        {
+          "record_id": "Finance_response_5265",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the details of the top news from Fidelity Investments.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Provide international market information based on the latest news.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the list of public holidays in the United States for the year 2022.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch the details of the top news from Fidelity Investments.",
+                "domain": "Finance",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Provide international market information based on the latest news.",
+                "domain": "Finance",
+                "required_inputs": []
+              },
+              {
+                "id": 3,
+                "description": "Get the list of public holidays in the United States for the year 2022.",
+                "domain": "Finance",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch the details of the top news from Fidelity Investments.",
+              "domain": "Finance",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Provide international market information based on the latest news.",
+              "domain": "Finance",
+              "required_inputs": []
+            },
+            {
+              "id": 3,
+              "description": "Get the list of public holidays in the United States for the year 2022.",
+              "domain": "Finance",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 135,
+            "prompt_tokens": 2115,
+            "total_tokens": 2250,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 41,
+              "engine_ttlt_ms": 1247,
+              "pre_inference_ms": 155,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 251,
+              "service_ttlt_ms": 1453,
+              "total_duration_ms": 1305,
+              "user_visible_ttft_ms": 96
+            }
+          },
+          "goal_hints": [
+            "I'm a stock trader and I need to stay updated on the latest news and market trends. Can you fetch the details of the top news from Fidelity Investments and provide me with the international market information",
+            "I would like to know the public holidays in the United States for the year 2022"
+          ]
+        },
+        {
+          "record_id": "Technology_response_2668",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Provide the genre of a specific editorial on Deezer\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"editorial ID or name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the details of a popular song on Soundcloud\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"song ID or title\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the information about the artist of the popular song retrieved from Soundcloud\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"artist ID from song details\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Provide the genre of a specific editorial on Deezer",
+                "domain": "Technology",
+                "required_inputs": [
+                  "editorial ID or name"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Fetch the details of a popular song on Soundcloud",
+                "domain": "Technology",
+                "required_inputs": [
+                  "song ID or title"
+                ]
+              },
+              {
+                "id": 3,
+                "description": "Get the information about the artist of the popular song retrieved from Soundcloud",
+                "domain": "Technology",
+                "required_inputs": [
+                  "artist ID from song details"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Provide the genre of a specific editorial on Deezer",
+              "domain": "Technology",
+              "required_inputs": [
+                "editorial ID or name"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Fetch the details of a popular song on Soundcloud",
+              "domain": "Technology",
+              "required_inputs": [
+                "song ID or title"
+              ]
+            },
+            {
+              "id": 3,
+              "description": "Get the information about the artist of the popular song retrieved from Soundcloud",
+              "domain": "Technology",
+              "required_inputs": [
+                "artist ID from song details"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 151,
+            "prompt_tokens": 2222,
+            "total_tokens": 2373,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 72,
+              "engine_ttlt_ms": 1588,
+              "pre_inference_ms": 137,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 426,
+              "service_ttlt_ms": 1972,
+              "total_duration_ms": 1849,
+              "user_visible_ttft_ms": 289
+            }
+          },
+          "goal_hints": [
+            "I'm a music producer and I'm looking for inspiration for my next track. Can you provide me with the genre of a specific editorial on Deezer",
+            "fetch the details of a popular song on Soundcloud and give me the information about its artist"
+          ]
+        },
+        {
+          "record_id": "Technology_response_5279",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Check the existence of the specific key provided by the user.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"key_to_check_existence\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the ILOD check result for the specified key.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"key_for_ilod_check\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Merge multiple PDF files into a single document.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"list_of_pdf_files\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Check the existence of the specific key provided by the user.",
+                "domain": "Technology",
+                "required_inputs": [
+                  "key_to_check_existence"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Get the ILOD check result for the specified key.",
+                "domain": "Technology",
+                "required_inputs": [
+                  "key_for_ilod_check"
+                ]
+              },
+              {
+                "id": 3,
+                "description": "Merge multiple PDF files into a single document.",
+                "domain": "Technology",
+                "required_inputs": [
+                  "list_of_pdf_files"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Check the existence of the specific key provided by the user.",
+              "domain": "Technology",
+              "required_inputs": [
+                "key_to_check_existence"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Get the ILOD check result for the specified key.",
+              "domain": "Technology",
+              "required_inputs": [
+                "key_for_ilod_check"
+              ]
+            },
+            {
+              "id": 3,
+              "description": "Merge multiple PDF files into a single document.",
+              "domain": "Technology",
+              "required_inputs": [
+                "list_of_pdf_files"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 146,
+            "prompt_tokens": 2142,
+            "total_tokens": 2288,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 48,
+              "engine_ttlt_ms": 1699,
+              "pre_inference_ms": 95,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 477,
+              "service_ttlt_ms": 2125,
+              "total_duration_ms": 2038,
+              "user_visible_ttft_ms": 382
+            }
+          },
+          "goal_hints": [
+            "I want to check the existence of a specific key, get the ILOD check result for another key, and merge multiple PDF files into a single document."
+          ]
+        },
+        {
+          "record_id": "Medical_response_4299",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for easy-to-follow chicken recipes that are perfect for outdoor dining and suitable for a picnic with friends.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"cuisine_type\", \"dish_type\", \"serving_size\", \"meal_setting\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find halal restaurants in Korea to accommodate a friend who only eats halal food.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"country\", \"food_preference\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search for easy-to-follow chicken recipes that are perfect for outdoor dining and suitable for a picnic with friends.",
+                "domain": "Medical",
+                "required_inputs": [
+                  "cuisine_type",
+                  "dish_type",
+                  "serving_size",
+                  "meal_setting"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Find halal restaurants in Korea to accommodate a friend who only eats halal food.",
+                "domain": "Medical",
+                "required_inputs": [
+                  "country",
+                  "food_preference"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search for easy-to-follow chicken recipes that are perfect for outdoor dining and suitable for a picnic with friends.",
+              "domain": "Medical",
+              "required_inputs": [
+                "cuisine_type",
+                "dish_type",
+                "serving_size",
+                "meal_setting"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Find halal restaurants in Korea to accommodate a friend who only eats halal food.",
+              "domain": "Medical",
+              "required_inputs": [
+                "country",
+                "food_preference"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 128,
+            "prompt_tokens": 2940,
+            "total_tokens": 3068,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 70,
+              "engine_ttlt_ms": 1360,
+              "pre_inference_ms": 207,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 444,
+              "service_ttlt_ms": 1726,
+              "total_duration_ms": 1532,
+              "user_visible_ttft_ms": 237
+            }
+          },
+          "goal_hints": [
+            "I'm planning a picnic with my friends and I want to prepare some tasty chicken dishes. Can you provide me with easy-to-follow recipes that are perfect for outdoor dining",
+            "I need to find halal restaurants in Korea for one of my friends who only eats halal food"
+          ]
+        },
+        {
+          "record_id": "Medical_response_2571",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve unique cake recipes from ComfyFood that include ingredients like chocolate and fruits, along with cooking times\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"ingredient\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve unique cake recipes from ComfyFood that include ingredients like chocolate and fruits, along with cooking times",
+                "domain": "Food",
+                "required_inputs": [
+                  "ingredient"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve unique cake recipes from ComfyFood that include ingredients like chocolate and fruits, along with cooking times",
+              "domain": "Food",
+              "required_inputs": [
+                "ingredient"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 62,
+            "prompt_tokens": 2672,
+            "total_tokens": 2734,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 35,
+              "engine_ttft_ms": 79,
+              "engine_ttlt_ms": 2226,
+              "pre_inference_ms": 192,
+              "service_tbt_ms": 35,
+              "service_ttft_ms": 360,
+              "service_ttlt_ms": 2492,
+              "total_duration_ms": 2315,
+              "user_visible_ttft_ms": 168
+            }
+          },
+          "goal_hints": [
+            "I'm planning a surprise birthday party for my best friend and I need some unique recipe ideas from ComfyFood that include ingredients like chocolate and fruits cooking times"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_7252",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch wisdom quotes related to anger to help calm the mind\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the list of top-ranked Netflix original series\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get today's general horoscope for the user's zodiac sign in English\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"zodiac_sign\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch wisdom quotes related to anger to help calm the mind",
+                "domain": "entertainment",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Retrieve the list of top-ranked Netflix original series",
+                "domain": "entertainment",
+                "required_inputs": []
+              },
+              {
+                "id": 3,
+                "description": "Get today's general horoscope for the user's zodiac sign in English",
+                "domain": "entertainment",
+                "required_inputs": [
+                  "zodiac_sign"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch wisdom quotes related to anger to help calm the mind",
+              "domain": "entertainment",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Retrieve the list of top-ranked Netflix original series",
+              "domain": "entertainment",
+              "required_inputs": []
+            },
+            {
+              "id": 3,
+              "description": "Get today's general horoscope for the user's zodiac sign in English",
+              "domain": "entertainment",
+              "required_inputs": [
+                "zodiac_sign"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 141,
+            "prompt_tokens": 2612,
+            "total_tokens": 2753,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 77,
+              "engine_ttft_ms": 2334,
+              "engine_ttlt_ms": 13134,
+              "pre_inference_ms": 117,
+              "service_tbt_ms": 77,
+              "service_ttft_ms": 3697,
+              "service_ttlt_ms": 14493,
+              "total_duration_ms": 14387,
+              "user_visible_ttft_ms": 3581
+            }
+          },
+          "goal_hints": [
+            "I'm feeling a bit angry today and could use some wisdom to calm my mind. Can you provide me with some wisdom quotes related to anger",
+            "I'm curious about the top-ranked Netflix original series. Can you fetch the list for me",
+            "I'd like to know my horoscope for today. Please give me the general horoscope for my zodiac sign in English"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_6708",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get a random quote about education\",\n      \"domain\": \"education\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Generate a random date between 2022-01-01 and 2022-12-31\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"start_date\", \"end_date\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Get a random quote about education",
+                "domain": "education",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Generate a random date between 2022-01-01 and 2022-12-31",
+                "domain": "education",
+                "required_inputs": [
+                  "start_date",
+                  "end_date"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Get a random quote about education",
+              "domain": "education",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Generate a random date between 2022-01-01 and 2022-12-31",
+              "domain": "education",
+              "required_inputs": [
+                "start_date",
+                "end_date"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 103,
+            "prompt_tokens": 2001,
+            "total_tokens": 2104,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 15,
+              "engine_ttft_ms": 46,
+              "engine_ttlt_ms": 1566,
+              "pre_inference_ms": 122,
+              "service_tbt_ms": 15,
+              "service_ttft_ms": 308,
+              "service_ttlt_ms": 1827,
+              "total_duration_ms": 1716,
+              "user_visible_ttft_ms": 187
+            }
+          },
+          "goal_hints": [
+            "I want to get a random quote about education and generate a random date between 2022-01-01 and 2022-12-31 for my presentation."
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_1040",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get the race dates, locations, and names for the current Formula 1 season\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the current driver standings for the current Formula 1 season\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Get the race dates, locations, and names for the current Formula 1 season",
+                "domain": "Sports",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Get the current driver standings for the current Formula 1 season",
+                "domain": "Sports",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Get the race dates, locations, and names for the current Formula 1 season",
+              "domain": "Sports",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Get the current driver standings for the current Formula 1 season",
+              "domain": "Sports",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 98,
+            "prompt_tokens": 2053,
+            "total_tokens": 2151,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 8,
+              "engine_ttft_ms": 63,
+              "engine_ttlt_ms": 891,
+              "pre_inference_ms": 137,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 304,
+              "service_ttlt_ms": 1126,
+              "total_duration_ms": 1003,
+              "user_visible_ttft_ms": 168
+            }
+          },
+          "goal_hints": [
+            "I'm planning to attend a Formula 1 race and I need information about the upcoming races. Can you give me the race dates, locations, and names for the current season",
+            "I would like to know the current driver standings for the season"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_9639",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a list of latest anime news articles to keep the user updated with anime news\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve different types of media related to anime to enhance the anime-watching experience\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch a list of latest anime news articles to keep the user updated with anime news",
+                "domain": "entertainment",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Retrieve different types of media related to anime to enhance the anime-watching experience",
+                "domain": "entertainment",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch a list of latest anime news articles to keep the user updated with anime news",
+              "domain": "entertainment",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Retrieve different types of media related to anime to enhance the anime-watching experience",
+              "domain": "entertainment",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 105,
+            "prompt_tokens": 2051,
+            "total_tokens": 2156,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 8,
+              "engine_ttft_ms": 44,
+              "engine_ttlt_ms": 915,
+              "pre_inference_ms": 118,
+              "service_tbt_ms": 8,
+              "service_ttft_ms": 249,
+              "service_ttlt_ms": 1104,
+              "total_duration_ms": 998,
+              "user_visible_ttft_ms": 131
+            }
+          },
+          "goal_hints": [
+            "I'm a huge fan of anime and I want to stay updated with the latest news. Can you provide me with a list of anime news articles",
+            "I would like to explore different media related to anime to enhance my anime-watching experience"
+          ]
+        },
+        {
+          "record_id": "Tourism_response_4653",
+          "raw": "{\"steps\":[{\"id\":1,\"description\":\"Get information about a random Roman god to learn about them for the trip to Rome.\",\"domain\":\"Database\",\"required_inputs\":[]}]}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Get information about a random Roman god to learn about them for the trip to Rome.",
+                "domain": "Database",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Get information about a random Roman god to learn about them for the trip to Rome.",
+              "domain": "Database",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 37,
+            "prompt_tokens": 2293,
+            "total_tokens": 2330,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 48,
+              "engine_ttlt_ms": 457,
+              "pre_inference_ms": 151,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 258,
+              "service_ttlt_ms": 659,
+              "total_duration_ms": 518,
+              "user_visible_ttft_ms": 107
+            }
+          },
+          "goal_hints": [
+            "I am planning a trip to Rome and I want to learn about a random Roman god."
+          ]
+        },
+        {
+          "record_id": "Tourism_response_1492",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find a suitable park location with active products for a family picnic\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the 5-day weather forecast for the chosen park location to ensure favorable weather conditions\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"latitude\", \"longitude\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Find a suitable park location with active products for a family picnic",
+                "domain": "tourism",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Get the 5-day weather forecast for the chosen park location to ensure favorable weather conditions",
+                "domain": "Weather",
+                "required_inputs": [
+                  "latitude",
+                  "longitude"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Find a suitable park location with active products for a family picnic",
+              "domain": "tourism",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Get the 5-day weather forecast for the chosen park location to ensure favorable weather conditions",
+              "domain": "Weather",
+              "required_inputs": [
+                "latitude",
+                "longitude"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 105,
+            "prompt_tokens": 2429,
+            "total_tokens": 2534,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 40,
+              "engine_ttlt_ms": 953,
+              "pre_inference_ms": 93,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 164,
+              "service_ttlt_ms": 1074,
+              "total_duration_ms": 986,
+              "user_visible_ttft_ms": 71
+            }
+          },
+          "goal_hints": [
+            "I want to surprise my family with a picnic in the park. Can you find me a suitable location with active products",
+            "provide me with the 5 day forecast for that location to ensure favorable weather conditions"
+          ]
+        },
+        {
+          "record_id": "Tourism_response_138",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for recent arrest records in Clark County to ensure the safety of the trip\",\n      \"domain\": \"legal/safety\",\n      \"required_inputs\": [\"county_name\", \"record_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather interesting news articles about Las Vegas to help plan the itinerary\",\n      \"domain\": \"travel\",\n      \"required_inputs\": [\"location\", \"topic\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search for recent arrest records in Clark County to ensure the safety of the trip",
+                "domain": "legal/safety",
+                "required_inputs": [
+                  "county_name",
+                  "record_type"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Gather interesting news articles about Las Vegas to help plan the itinerary",
+                "domain": "travel",
+                "required_inputs": [
+                  "location",
+                  "topic"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search for recent arrest records in Clark County to ensure the safety of the trip",
+              "domain": "legal/safety",
+              "required_inputs": [
+                "county_name",
+                "record_type"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Gather interesting news articles about Las Vegas to help plan the itinerary",
+              "domain": "travel",
+              "required_inputs": [
+                "location",
+                "topic"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 111,
+            "prompt_tokens": 2676,
+            "total_tokens": 2787,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 17,
+              "engine_ttft_ms": 65,
+              "engine_ttlt_ms": 1920,
+              "pre_inference_ms": 89,
+              "service_tbt_ms": 17,
+              "service_ttft_ms": 186,
+              "service_ttlt_ms": 2037,
+              "total_duration_ms": 1954,
+              "user_visible_ttft_ms": 97
+            }
+          },
+          "goal_hints": [
+            "I want to surprise my sister with a trip to Las Vegas for her birthday. Can you find recent arrest records in Clark County to ensure the safety of our trip",
+            "fetch some interesting news articles about Las Vegas to plan our itinerary"
+          ]
+        },
+        {
+          "record_id": "Tourism_response_492",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify major landmarks and attractions between New York City and Los Angeles.\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"start_location\", \"end_location\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Identify major landmarks and attractions between New York City and Los Angeles.",
+                "domain": "Tourism",
+                "required_inputs": [
+                  "start_location",
+                  "end_location"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Identify major landmarks and attractions between New York City and Los Angeles.",
+              "domain": "Tourism",
+              "required_inputs": [
+                "start_location",
+                "end_location"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 60,
+            "prompt_tokens": 2299,
+            "total_tokens": 2359,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 14,
+              "engine_ttft_ms": 87,
+              "engine_ttlt_ms": 927,
+              "pre_inference_ms": 95,
+              "service_tbt_ms": 14,
+              "service_ttft_ms": 213,
+              "service_ttlt_ms": 1047,
+              "total_duration_ms": 961,
+              "user_visible_ttft_ms": 118
+            }
+          },
+          "goal_hints": [
+            "I'm planning a road trip with my friends and we need to find some interesting landmarks and attractions along the way between New York City and Los Angeles."
+          ]
+        },
+        {
+          "record_id": "Tourism_response_5275",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Find wine tasting events with cheese pairings available for organization\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find brewery tours available in New York\",\n      \"domain\": \"Tourism\",\n      \"required_inputs\": [\"location\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Find wine tasting events with cheese pairings available for organization",
+                "domain": "Tourism",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Find brewery tours available in New York",
+                "domain": "Tourism",
+                "required_inputs": [
+                  "location"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Find wine tasting events with cheese pairings available for organization",
+              "domain": "Tourism",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Find brewery tours available in New York",
+              "domain": "Tourism",
+              "required_inputs": [
+                "location"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 92,
+            "prompt_tokens": 2051,
+            "total_tokens": 2143,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 58,
+              "engine_ttlt_ms": 877,
+              "pre_inference_ms": 80,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 181,
+              "service_ttlt_ms": 1013,
+              "total_duration_ms": 935,
+              "user_visible_ttft_ms": 101
+            }
+          },
+          "goal_hints": [
+            "I want to organize a wine tasting event with cheese pairings and find a brewery tour in New York."
+          ]
+        },
+        {
+          "record_id": "Tourism_response_4345",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of airports in the United States with details including names, IATA codes, and locations.\",\n      \"domain\": \"Travel\",\n      \"required_inputs\": [\"country\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve a list of airports in the United States with details including names, IATA codes, and locations.",
+                "domain": "Travel",
+                "required_inputs": [
+                  "country"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve a list of airports in the United States with details including names, IATA codes, and locations.",
+              "domain": "Travel",
+              "required_inputs": [
+                "country"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 62,
+            "prompt_tokens": 2685,
+            "total_tokens": 2747,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 47,
+              "engine_ttlt_ms": 668,
+              "pre_inference_ms": 138,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 333,
+              "service_ttlt_ms": 989,
+              "total_duration_ms": 887,
+              "user_visible_ttft_ms": 195
+            }
+          },
+          "goal_hints": [
+            "I'm organizing a group trip to the United States and we need to know about the airports in the country."
+          ]
+        },
+        {
+          "record_id": "Tourism_response_5444",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Query for popular tourist attractions in the specified new city along with their names, types, and addresses.\",\n      \"domain\": \"tourism\",\n      \"required_inputs\": [\"city_name\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the recent horse racing statistics for the horse named 'ZANAHIYR'.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"horse_name\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Query for popular tourist attractions in the specified new city along with their names, types, and addresses.",
+                "domain": "tourism",
+                "required_inputs": [
+                  "city_name"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Fetch the recent horse racing statistics for the horse named 'ZANAHIYR'.",
+                "domain": "sports",
+                "required_inputs": [
+                  "horse_name"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Query for popular tourist attractions in the specified new city along with their names, types, and addresses.",
+              "domain": "tourism",
+              "required_inputs": [
+                "city_name"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Fetch the recent horse racing statistics for the horse named 'ZANAHIYR'.",
+              "domain": "sports",
+              "required_inputs": [
+                "horse_name"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 113,
+            "prompt_tokens": 2381,
+            "total_tokens": 2494,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 40,
+              "engine_ttft_ms": 153,
+              "engine_ttlt_ms": 4654,
+              "pre_inference_ms": 97,
+              "service_tbt_ms": 40,
+              "service_ttft_ms": 772,
+              "service_ttlt_ms": 5276,
+              "total_duration_ms": 5181,
+              "user_visible_ttft_ms": 675
+            }
+          },
+          "goal_hints": [
+            "I'm planning a trip to a new city and I need recommendations for places to explore. Can you suggest some popular tourist attractions",
+            "their names, types, and addresses",
+            "fetch the recent horse racing statistics for the horse named 'ZANAHIYR' to satisfy my curiosity about its performance"
+          ]
+        },
+        {
+          "record_id": "Finance_response_1528",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a list of stock tickers to identify the stocks for comparison.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the trading data including minimum values and price differences for the selected stock tickers.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"tickers\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch a list of stock tickers to identify the stocks for comparison.",
+                "domain": "Finance",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Fetch the trading data including minimum values and price differences for the selected stock tickers.",
+                "domain": "Finance",
+                "required_inputs": [
+                  "tickers"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch a list of stock tickers to identify the stocks for comparison.",
+              "domain": "Finance",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Fetch the trading data including minimum values and price differences for the selected stock tickers.",
+              "domain": "Finance",
+              "required_inputs": [
+                "tickers"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 102,
+            "prompt_tokens": 2033,
+            "total_tokens": 2135,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 43,
+              "engine_ttlt_ms": 1093,
+              "pre_inference_ms": 144,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 295,
+              "service_ttlt_ms": 1336,
+              "total_duration_ms": 1206,
+              "user_visible_ttft_ms": 151
+            }
+          },
+          "goal_hints": [
+            "I want to compare trading data for different stocks including tickers, minimum values, and price differences."
+          ]
+        },
+        {
+          "record_id": "Finance_response_4555",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical prices for Apple Inc. during August\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company_name\", \"start_date\", \"end_date\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch ESG scores for Apple Inc.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"company_name\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve the current tax rate for the zip code 94102\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"zip\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch historical prices for Apple Inc. during August",
+                "domain": "Finance",
+                "required_inputs": [
+                  "company_name",
+                  "start_date",
+                  "end_date"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Fetch ESG scores for Apple Inc.",
+                "domain": "Finance",
+                "required_inputs": [
+                  "company_name"
+                ]
+              },
+              {
+                "id": 3,
+                "description": "Retrieve the current tax rate for the zip code 94102",
+                "domain": "Finance",
+                "required_inputs": [
+                  "zip"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch historical prices for Apple Inc. during August",
+              "domain": "Finance",
+              "required_inputs": [
+                "company_name",
+                "start_date",
+                "end_date"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Fetch ESG scores for Apple Inc.",
+              "domain": "Finance",
+              "required_inputs": [
+                "company_name"
+              ]
+            },
+            {
+              "id": 3,
+              "description": "Retrieve the current tax rate for the zip code 94102",
+              "domain": "Finance",
+              "required_inputs": [
+                "zip"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 143,
+            "prompt_tokens": 2176,
+            "total_tokens": 2319,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 52,
+              "engine_ttlt_ms": 1777,
+              "pre_inference_ms": 174,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 374,
+              "service_ttlt_ms": 2092,
+              "total_duration_ms": 1928,
+              "user_visible_ttft_ms": 200
+            }
+          },
+          "goal_hints": [
+            "I want to obtain historical prices for Apple Inc. during August, ESG scores for the company, and the current tax rate for the zip code 94102."
+          ]
+        },
+        {
+          "record_id": "Finance_response_5268",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the daily closing prices of the S&P 500 index from January 1, 2010 to December 31, 2020\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"S&P 500 index identifier\", \"start_date\", \"end_date\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the latest current price of gold in US dollars per ounce\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the latest current price of silver in US dollars per ounce\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch the daily closing prices of the S&P 500 index from January 1, 2010 to December 31, 2020",
+                "domain": "Finance",
+                "required_inputs": [
+                  "S&P 500 index identifier",
+                  "start_date",
+                  "end_date"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Get the latest current price of gold in US dollars per ounce",
+                "domain": "Finance",
+                "required_inputs": []
+              },
+              {
+                "id": 3,
+                "description": "Get the latest current price of silver in US dollars per ounce",
+                "domain": "Finance",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch the daily closing prices of the S&P 500 index from January 1, 2010 to December 31, 2020",
+              "domain": "Finance",
+              "required_inputs": [
+                "S&P 500 index identifier",
+                "start_date",
+                "end_date"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Get the latest current price of gold in US dollars per ounce",
+              "domain": "Finance",
+              "required_inputs": []
+            },
+            {
+              "id": 3,
+              "description": "Get the latest current price of silver in US dollars per ounce",
+              "domain": "Finance",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 167,
+            "prompt_tokens": 2161,
+            "total_tokens": 2328,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 53,
+              "engine_ttlt_ms": 1878,
+              "pre_inference_ms": 175,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 383,
+              "service_ttlt_ms": 2173,
+              "total_duration_ms": 2019,
+              "user_visible_ttft_ms": 208
+            }
+          },
+          "goal_hints": [
+            "I'm a financial analyst and I need to analyze the historical stock prices of the S&P 500 index for my research project. Can you provide me with the daily closing prices from January 1st, 2010 to December 31st, 2020",
+            "I would like to know the current prices of gold and silver. Could you please give me the latest prices for these metals"
+          ]
+        },
+        {
+          "record_id": "Finance_response_1466",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch historical exchange rates for US Dollar in China from 2022-07-01 to 2022-07-31\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"start_date\", \"end_date\", \"currency_pair\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve VAT rates for all EU member states\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"region\", \"tax_type\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch historical exchange rates for US Dollar in China from 2022-07-01 to 2022-07-31",
+                "domain": "Finance",
+                "required_inputs": [
+                  "start_date",
+                  "end_date",
+                  "currency_pair"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Retrieve VAT rates for all EU member states",
+                "domain": "Finance",
+                "required_inputs": [
+                  "region",
+                  "tax_type"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch historical exchange rates for US Dollar in China from 2022-07-01 to 2022-07-31",
+              "domain": "Finance",
+              "required_inputs": [
+                "start_date",
+                "end_date",
+                "currency_pair"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Retrieve VAT rates for all EU member states",
+              "domain": "Finance",
+              "required_inputs": [
+                "region",
+                "tax_type"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 120,
+            "prompt_tokens": 2364,
+            "total_tokens": 2484,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 55,
+              "engine_ttlt_ms": 1303,
+              "pre_inference_ms": 240,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 442,
+              "service_ttlt_ms": 1651,
+              "total_duration_ms": 1421,
+              "user_visible_ttft_ms": 202
+            }
+          },
+          "goal_hints": [
+            "I'm planning a family vacation to Asia and I need to know the currency exchange rates for the next month. Can you provide me with the historical exchange rates for the US Dollar in China from 2022-07-01 to 2022-07-31",
+            "I would like to get the VAT rates for all EU member states"
+          ]
+        },
+        {
+          "record_id": "Finance_response_2300",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Validate the VAT number 2121316722 for Slovakia to check if it is valid\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"vat_number\", \"country_code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve information on cashback offers for hotels in Los Angeles\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"city_name\", \"offer_type\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Validate the VAT number 2121316722 for Slovakia to check if it is valid",
+                "domain": "Finance",
+                "required_inputs": [
+                  "vat_number",
+                  "country_code"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Retrieve information on cashback offers for hotels in Los Angeles",
+                "domain": "Finance",
+                "required_inputs": [
+                  "city_name",
+                  "offer_type"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Validate the VAT number 2121316722 for Slovakia to check if it is valid",
+              "domain": "Finance",
+              "required_inputs": [
+                "vat_number",
+                "country_code"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Retrieve information on cashback offers for hotels in Los Angeles",
+              "domain": "Finance",
+              "required_inputs": [
+                "city_name",
+                "offer_type"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 111,
+            "prompt_tokens": 2658,
+            "total_tokens": 2769,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 110,
+              "engine_ttft_ms": 8074,
+              "engine_ttlt_ms": 20326,
+              "pre_inference_ms": 117,
+              "service_tbt_ms": 110,
+              "service_ttft_ms": 10131,
+              "service_ttlt_ms": 22368,
+              "total_duration_ms": 22274,
+              "user_visible_ttft_ms": 10014
+            }
+          },
+          "goal_hints": [
+            "Can you check the validity of the VAT number 2121316722 in Slovakia",
+            "I need to know if this VAT number is valid",
+            "I need information on cashback offers for hotels in Los Angeles. Thank you!"
+          ]
+        },
+        {
+          "record_id": "Finance_response_4210",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"platform_name\", \"sport_type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the odds for each basketball match fetched from Admiralbet.\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"match_id\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+                "domain": "sports",
+                "required_inputs": [
+                  "platform_name",
+                  "sport_type"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Retrieve the odds for each basketball match fetched from Admiralbet.",
+                "domain": "sports",
+                "required_inputs": [
+                  "match_id"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch the latest basketball matches available from Admiralbet including match timings and participating teams.",
+              "domain": "sports",
+              "required_inputs": [
+                "platform_name",
+                "sport_type"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Retrieve the odds for each basketball match fetched from Admiralbet.",
+              "domain": "sports",
+              "required_inputs": [
+                "match_id"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 106,
+            "prompt_tokens": 2816,
+            "total_tokens": 2922,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 14,
+              "engine_ttft_ms": 58,
+              "engine_ttlt_ms": 1583,
+              "pre_inference_ms": 116,
+              "service_tbt_ms": 14,
+              "service_ttft_ms": 210,
+              "service_ttlt_ms": 1730,
+              "total_duration_ms": 1620,
+              "user_visible_ttft_ms": 94
+            }
+          },
+          "goal_hints": [
+            "I'm planning a family gathering and I thought it would be fun to have a friendly basketball match. Please fetch the latest matches available from Admiralbet and provide me with the odds for each match. It would be great if you could include the teams participating and the match timings as well."
+          ]
+        },
+        {
+          "record_id": "Technology_response_1866",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Provide access to the dashboard with all features for email marketing\",\n      \"domain\": \"Business\",\n      \"required_inputs\": [\"get_dash_url\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Validate the email address 'donor1@example.com' to check if it is correct and not disposable\",\n      \"domain\": \"Commerce\",\n      \"required_inputs\": [\"email\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Provide access to the dashboard with all features for email marketing",
+                "domain": "Business",
+                "required_inputs": [
+                  "get_dash_url"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Validate the email address 'donor1@example.com' to check if it is correct and not disposable",
+                "domain": "Commerce",
+                "required_inputs": [
+                  "email"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Provide access to the dashboard with all features for email marketing",
+              "domain": "Business",
+              "required_inputs": [
+                "get_dash_url"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Validate the email address 'donor1@example.com' to check if it is correct and not disposable",
+              "domain": "Commerce",
+              "required_inputs": [
+                "email"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 107,
+            "prompt_tokens": 2661,
+            "total_tokens": 2768,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 8,
+              "engine_ttft_ms": 68,
+              "engine_ttlt_ms": 934,
+              "pre_inference_ms": 116,
+              "service_tbt_ms": 8,
+              "service_ttft_ms": 313,
+              "service_ttlt_ms": 1132,
+              "total_duration_ms": 1034,
+              "user_visible_ttft_ms": 197
+            }
+          },
+          "goal_hints": [
+            "I am organizing a charity event and I need some help with email marketing. Please provide me with access to the dashboard with all features for email marketing",
+            "I would like to validate the email addresses of our donors. Please validate the email 'donor1@example.com' and let us know if it is correct"
+          ]
+        },
+        {
+          "record_id": "Technology_response_5475",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Get today's football match predictions with accurate details for the surprise sports-themed birthday party.\",\n      \"domain\": \"Sports\",\n      \"required_inputs\": [\"event_date\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Get today's football match predictions with accurate details for the surprise sports-themed birthday party.",
+                "domain": "Sports",
+                "required_inputs": [
+                  "event_date"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Get today's football match predictions with accurate details for the surprise sports-themed birthday party.",
+              "domain": "Sports",
+              "required_inputs": [
+                "event_date"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 58,
+            "prompt_tokens": 2849,
+            "total_tokens": 2907,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 51,
+              "engine_ttlt_ms": 638,
+              "pre_inference_ms": 152,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 273,
+              "service_ttlt_ms": 855,
+              "total_duration_ms": 712,
+              "user_visible_ttft_ms": 121
+            }
+          },
+          "goal_hints": [
+            "I'm planning a surprise sports-themed birthday party for my friend and I want to include accurate predictions for the matches."
+          ]
+        },
+        {
+          "record_id": "Technology_response_5398",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch live updates on ongoing sports matches including scores, participating teams, and match status\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch live updates on ongoing sports matches including scores, participating teams, and match status",
+                "domain": "Technology",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch live updates on ongoing sports matches including scores, participating teams, and match status",
+              "domain": "Technology",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 56,
+            "prompt_tokens": 2256,
+            "total_tokens": 2312,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 60,
+              "engine_ttlt_ms": 571,
+              "pre_inference_ms": 135,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 288,
+              "service_ttlt_ms": 792,
+              "total_duration_ms": 668,
+              "user_visible_ttft_ms": 153
+            }
+          },
+          "goal_hints": [
+            "I am developing a sports application and I need to retrieve information about ongoing matches."
+          ]
+        },
+        {
+          "record_id": "Technology_response_2871",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future to gather fun facts about the artists.\",\n      \"domain\": \"Entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch a list of levels from Jet Set Radio and Jet Set Radio Future with detailed information about each level.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future to gather fun facts about the artists.",
+                "domain": "Entertainment",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Fetch a list of levels from Jet Set Radio and Jet Set Radio Future with detailed information about each level.",
+                "domain": "Technology",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve a list of all music artists who contributed to Jet Set Radio and Jet Set Radio Future to gather fun facts about the artists.",
+              "domain": "Entertainment",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Fetch a list of levels from Jet Set Radio and Jet Set Radio Future with detailed information about each level.",
+              "domain": "Technology",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 115,
+            "prompt_tokens": 2139,
+            "total_tokens": 2254,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 34,
+              "engine_ttft_ms": 77,
+              "engine_ttlt_ms": 3968,
+              "pre_inference_ms": 140,
+              "service_tbt_ms": 34,
+              "service_ttft_ms": 274,
+              "service_ttlt_ms": 4158,
+              "total_duration_ms": 4029,
+              "user_visible_ttft_ms": 134
+            }
+          },
+          "goal_hints": [
+            "I want to learn more about the game Jet Set Radio and Jet Set Radio Future, including fun facts about the artists and a list of levels with details."
+          ]
+        },
+        {
+          "record_id": "Technology_response_4421",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the list of available translation languages supported by the Microsoft Translator Text API.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get suggestions for online language learning platforms.\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve the list of available translation languages supported by the Microsoft Translator Text API.",
+                "domain": "Technology",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Get suggestions for online language learning platforms.",
+                "domain": "Technology",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve the list of available translation languages supported by the Microsoft Translator Text API.",
+              "domain": "Technology",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Get suggestions for online language learning platforms.",
+              "domain": "Technology",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 91,
+            "prompt_tokens": 2042,
+            "total_tokens": 2133,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 46,
+              "engine_ttlt_ms": 1167,
+              "pre_inference_ms": 168,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 258,
+              "service_ttlt_ms": 1369,
+              "total_duration_ms": 1210,
+              "user_visible_ttft_ms": 91
+            }
+          },
+          "goal_hints": [
+            "I want to know the available translation languages supported by the Microsoft Translator Text API and get suggestions for online language learning platforms."
+          ]
+        },
+        {
+          "record_id": "Technology_response_3462",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch news articles related to charity events for inspiration for an upcoming event\",\n      \"domain\": \"News_Media\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch news articles related to charity events for inspiration for an upcoming event",
+                "domain": "News_Media",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch news articles related to charity events for inspiration for an upcoming event",
+              "domain": "News_Media",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 55,
+            "prompt_tokens": 2219,
+            "total_tokens": 2274,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 41,
+              "engine_ttlt_ms": 525,
+              "pre_inference_ms": 127,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 344,
+              "service_ttlt_ms": 815,
+              "total_duration_ms": 700,
+              "user_visible_ttft_ms": 216
+            }
+          },
+          "goal_hints": [
+            "I want to gather news articles and headlines related to charity events for inspiration for an upcoming event."
+          ]
+        },
+        {
+          "record_id": "Medical_response_2024",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve news articles related to COVID-19 from BMJ using the Covid news_v2 API\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"newsId\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Provide keyword trends for 'COVID-19' using the Targeted Keyword trend API\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"keyword\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve news articles related to COVID-19 from BMJ using the Covid news_v2 API",
+                "domain": "Medical",
+                "required_inputs": [
+                  "newsId"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Provide keyword trends for 'COVID-19' using the Targeted Keyword trend API",
+                "domain": "Medical",
+                "required_inputs": [
+                  "keyword"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve news articles related to COVID-19 from BMJ using the Covid news_v2 API",
+              "domain": "Medical",
+              "required_inputs": [
+                "newsId"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Provide keyword trends for 'COVID-19' using the Targeted Keyword trend API",
+              "domain": "Medical",
+              "required_inputs": [
+                "keyword"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 109,
+            "prompt_tokens": 2119,
+            "total_tokens": 2228,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 14,
+              "engine_ttft_ms": 65,
+              "engine_ttlt_ms": 1593,
+              "pre_inference_ms": 103,
+              "service_tbt_ms": 14,
+              "service_ttft_ms": 206,
+              "service_ttlt_ms": 1725,
+              "total_duration_ms": 1629,
+              "user_visible_ttft_ms": 103
+            }
+          },
+          "goal_hints": [
+            "I'm interested in news articles from a specific source, BMJ, about COVID-19. Retrieve news articles related to COVID-19 from BMJ using the Covid news_v2 API",
+            "provide me with the keyword trends for 'COVID-19' using the Targeted Keyword trend API"
+          ]
+        },
+        {
+          "record_id": "Medical_response_3942",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a list of cake names and images to feature on the blog.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get the detailed recipe for the cake with ID 5.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"id\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and get its address.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"restaurant ID\"]\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Send a request to get predictions and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"url\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch a list of cake names and images to feature on the blog.",
+                "domain": "Food",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Get the detailed recipe for the cake with ID 5.",
+                "domain": "Food",
+                "required_inputs": [
+                  "id"
+                ]
+              },
+              {
+                "id": 3,
+                "description": "Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and get its address.",
+                "domain": "Food",
+                "required_inputs": [
+                  "restaurant ID"
+                ]
+              },
+              {
+                "id": 4,
+                "description": "Send a request to get predictions and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.",
+                "domain": "Food",
+                "required_inputs": [
+                  "url"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch a list of cake names and images to feature on the blog.",
+              "domain": "Food",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Get the detailed recipe for the cake with ID 5.",
+              "domain": "Food",
+              "required_inputs": [
+                "id"
+              ]
+            },
+            {
+              "id": 3,
+              "description": "Fetch the details for the restaurant with ID 56c467cb7b0d464811a42017 and get its address.",
+              "domain": "Food",
+              "required_inputs": [
+                "restaurant ID"
+              ]
+            },
+            {
+              "id": 4,
+              "description": "Send a request to get predictions and other data for the image with the provided URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'.",
+              "domain": "Food",
+              "required_inputs": [
+                "url"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 230,
+            "prompt_tokens": 2252,
+            "total_tokens": 2482,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 72,
+              "engine_ttlt_ms": 2467,
+              "pre_inference_ms": 131,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 302,
+              "service_ttlt_ms": 2647,
+              "total_duration_ms": 2522,
+              "user_visible_ttft_ms": 171
+            }
+          },
+          "goal_hints": [
+            "I'm a food blogger and I'm looking for cake recipes to feature on my blog. Can you provide me with a list of cake names and images to choose from",
+            "I need the detailed recipe for a cake with ID 5",
+            "fetch the details for a restaurant with ID 56c467cb7b0d464811a42017 and provide me with its address. Lastly, could you send me the prediction and other data for an image with the URL '0026c6e1-3988-4060-85b3-3cdfbce8a201.jpg'"
+          ]
+        },
+        {
+          "record_id": "Medical_response_4391",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for foods relevant to the dinner party by querying nutritional information databases with broad keywords related to typical dinner foods.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"query\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search for foods relevant to the dinner party by querying nutritional information databases with broad keywords related to typical dinner foods.",
+                "domain": "Food",
+                "required_inputs": [
+                  "query"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search for foods relevant to the dinner party by querying nutritional information databases with broad keywords related to typical dinner foods.",
+              "domain": "Food",
+              "required_inputs": [
+                "query"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 63,
+            "prompt_tokens": 2491,
+            "total_tokens": 2554,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 56,
+              "engine_ttlt_ms": 762,
+              "pre_inference_ms": 176,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 330,
+              "service_ttlt_ms": 1009,
+              "total_duration_ms": 846,
+              "user_visible_ttft_ms": 154
+            }
+          },
+          "goal_hints": [
+            "I want to plan a dinner party by finding nutritional information for various foods."
+          ]
+        },
+        {
+          "record_id": "Medical_response_4731",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for stories on Medium related to cooking and food.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"topic\", \"platform\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch competitor news to keep updated with the latest food trends.\",\n      \"domain\": \"medical\",\n      \"required_inputs\": [\"keywords\", \"sources\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search for stories on Medium related to cooking and food.",
+                "domain": "medical",
+                "required_inputs": [
+                  "topic",
+                  "platform"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Fetch competitor news to keep updated with the latest food trends.",
+                "domain": "medical",
+                "required_inputs": [
+                  "keywords",
+                  "sources"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search for stories on Medium related to cooking and food.",
+              "domain": "medical",
+              "required_inputs": [
+                "topic",
+                "platform"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Fetch competitor news to keep updated with the latest food trends.",
+              "domain": "medical",
+              "required_inputs": [
+                "keywords",
+                "sources"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 101,
+            "prompt_tokens": 2592,
+            "total_tokens": 2693,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 51,
+              "engine_ttlt_ms": 1261,
+              "pre_inference_ms": 143,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 405,
+              "service_ttlt_ms": 1579,
+              "total_duration_ms": 1465,
+              "user_visible_ttft_ms": 262
+            }
+          },
+          "goal_hints": [
+            "I'm a food enthusiast and I'm looking for some delicious recipes to try. Can you recommend some stories on Medium related to cooking and food",
+            "It would be great if you could",
+            "fetch me some competitor news to keep me updated with the latest food trends"
+          ]
+        },
+        {
+          "record_id": "Medical_response_2137",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of healthcare professionals for targeted mailing for the healthcare conference.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Perform nutritional analysis for the specified food item.\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food_item\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve a list of healthcare professionals for targeted mailing for the healthcare conference.",
+                "domain": "Medical",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Perform nutritional analysis for the specified food item.",
+                "domain": "Medical",
+                "required_inputs": [
+                  "food_item"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve a list of healthcare professionals for targeted mailing for the healthcare conference.",
+              "domain": "Medical",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Perform nutritional analysis for the specified food item.",
+              "domain": "Medical",
+              "required_inputs": [
+                "food_item"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 94,
+            "prompt_tokens": 2568,
+            "total_tokens": 2662,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 48,
+              "engine_ttlt_ms": 1210,
+              "pre_inference_ms": 168,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 341,
+              "service_ttlt_ms": 1495,
+              "total_duration_ms": 1337,
+              "user_visible_ttft_ms": 173
+            }
+          },
+          "goal_hints": [
+            "My company is organizing a conference on healthcare and we need to reach out to potential attendees. Can you provide us with a list of healthcare professionals for targeted mailing",
+            "I would like to know the nutritional analysis for a specific food item"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_9562",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for players whose weight is 200 pounds and retrieve their names and weights\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"weight\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for a player with the name Michael Johnson and provide his details\",\n      \"domain\": \"sports\",\n      \"required_inputs\": [\"player name\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search for players whose weight is 200 pounds and retrieve their names and weights",
+                "domain": "sports",
+                "required_inputs": [
+                  "weight"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Search for a player with the name Michael Johnson and provide his details",
+                "domain": "sports",
+                "required_inputs": [
+                  "player name"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search for players whose weight is 200 pounds and retrieve their names and weights",
+              "domain": "sports",
+              "required_inputs": [
+                "weight"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Search for a player with the name Michael Johnson and provide his details",
+              "domain": "sports",
+              "required_inputs": [
+                "player name"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 103,
+            "prompt_tokens": 1951,
+            "total_tokens": 2054,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 81,
+              "engine_ttlt_ms": 1110,
+              "pre_inference_ms": 129,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 402,
+              "service_ttlt_ms": 1425,
+              "total_duration_ms": 1330,
+              "user_visible_ttft_ms": 273
+            }
+          },
+          "goal_hints": [
+            "Find players whose weight is 200 pounds. I want to know their names and weights",
+            "search for a player with the name Michael Johnson and provide me with his details"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_1089",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch playlist information for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API\",\n      \"domain\": \"technology\",\n      \"required_inputs\": [\"playlist name\", \"Soundcloud API credentials\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Search for the track 'Shape of You' using the Shazam API to identify the artist\",\n      \"domain\": \"Media\",\n      \"required_inputs\": [\"track\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Get the latest release of the artist related to the song 'Shape of You' using the Shazam API\",\n      \"domain\": \"Music\",\n      \"required_inputs\": [\"artist id\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch playlist information for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API",
+                "domain": "technology",
+                "required_inputs": [
+                  "playlist name",
+                  "Soundcloud API credentials"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Search for the track 'Shape of You' using the Shazam API to identify the artist",
+                "domain": "Media",
+                "required_inputs": [
+                  "track"
+                ]
+              },
+              {
+                "id": 3,
+                "description": "Get the latest release of the artist related to the song 'Shape of You' using the Shazam API",
+                "domain": "Music",
+                "required_inputs": [
+                  "artist id"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch playlist information for the Soundcloud playlist named 'Almost Lover' using the Soundcloud API",
+              "domain": "technology",
+              "required_inputs": [
+                "playlist name",
+                "Soundcloud API credentials"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Search for the track 'Shape of You' using the Shazam API to identify the artist",
+              "domain": "Media",
+              "required_inputs": [
+                "track"
+              ]
+            },
+            {
+              "id": 3,
+              "description": "Get the latest release of the artist related to the song 'Shape of You' using the Shazam API",
+              "domain": "Music",
+              "required_inputs": [
+                "artist id"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 171,
+            "prompt_tokens": 2182,
+            "total_tokens": 2353,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 42,
+              "engine_ttlt_ms": 1736,
+              "pre_inference_ms": 370,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 598,
+              "service_ttlt_ms": 2413,
+              "total_duration_ms": 2080,
+              "user_visible_ttft_ms": 228
+            }
+          },
+          "goal_hints": [
+            "I'm a music enthusiast planning a road trip with my friends. Could you fetch the playlist info for the Soundcloud playlist 'Almost Lover' using the Soundcloud API",
+            "provide me with the latest release of an artist related to the song 'Shape of You' using the Shazam API"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_6284",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random word containing the substring 'game' to inspire a board game selection\",\n      \"domain\": \"Data\",\n      \"required_inputs\": [\"substring\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Gather reviews from a gaming website for the selected word or related board games\",\n      \"domain\": \"recreation\",\n      \"required_inputs\": [\"game_name_or_keyword\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch a random word containing the substring 'game' to inspire a board game selection",
+                "domain": "Data",
+                "required_inputs": [
+                  "substring"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Gather reviews from a gaming website for the selected word or related board games",
+                "domain": "recreation",
+                "required_inputs": [
+                  "game_name_or_keyword"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch a random word containing the substring 'game' to inspire a board game selection",
+              "domain": "Data",
+              "required_inputs": [
+                "substring"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Gather reviews from a gaming website for the selected word or related board games",
+              "domain": "recreation",
+              "required_inputs": [
+                "game_name_or_keyword"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 108,
+            "prompt_tokens": 2257,
+            "total_tokens": 2365,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 20,
+              "engine_ttft_ms": 57,
+              "engine_ttlt_ms": 2216,
+              "pre_inference_ms": 91,
+              "service_tbt_ms": 20,
+              "service_ttft_ms": 179,
+              "service_ttlt_ms": 2334,
+              "total_duration_ms": 2249,
+              "user_visible_ttft_ms": 89
+            }
+          },
+          "goal_hints": [
+            "I want to find a random word containing 'game' to inspire a board game selection and gather reviews from a gaming website."
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_7924",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve live giveaways for popular games on Steam and Epic Games Store including their details\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Estimate the worth in dollars of the live giveaways retrieved for popular games\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"live giveaways data from step 1\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Fetch champion abilities of popular League of Legends champions\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve live giveaways for popular games on Steam and Epic Games Store including their details",
+                "domain": "gaming",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Estimate the worth in dollars of the live giveaways retrieved for popular games",
+                "domain": "gaming",
+                "required_inputs": [
+                  "live giveaways data from step 1"
+                ]
+              },
+              {
+                "id": 3,
+                "description": "Fetch champion abilities of popular League of Legends champions",
+                "domain": "gaming",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve live giveaways for popular games on Steam and Epic Games Store including their details",
+              "domain": "gaming",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Estimate the worth in dollars of the live giveaways retrieved for popular games",
+              "domain": "gaming",
+              "required_inputs": [
+                "live giveaways data from step 1"
+              ]
+            },
+            {
+              "id": 3,
+              "description": "Fetch champion abilities of popular League of Legends champions",
+              "domain": "gaming",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 145,
+            "prompt_tokens": 2166,
+            "total_tokens": 2311,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 47,
+              "engine_ttlt_ms": 1402,
+              "pre_inference_ms": 117,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 245,
+              "service_ttlt_ms": 1576,
+              "total_duration_ms": 1467,
+              "user_visible_ttft_ms": 128
+            }
+          },
+          "goal_hints": [
+            "I want to find live giveaways for popular games on platforms like Steam and Epic Games Store, estimate their worth in dollars, and get champion abilities of popular League of Legends champions."
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_7901",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the current list of free games available on the Epic Games Store.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the scheduled Rocket League tournaments in the Europe region.\",\n      \"domain\": \"gaming\",\n      \"required_inputs\": [\"region: Europe\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Retrieve the current list of free games available on the Epic Games Store.",
+                "domain": "gaming",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Fetch the scheduled Rocket League tournaments in the Europe region.",
+                "domain": "gaming",
+                "required_inputs": [
+                  "region: Europe"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Retrieve the current list of free games available on the Epic Games Store.",
+              "domain": "gaming",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Fetch the scheduled Rocket League tournaments in the Europe region.",
+              "domain": "gaming",
+              "required_inputs": [
+                "region: Europe"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 97,
+            "prompt_tokens": 2179,
+            "total_tokens": 2276,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 58,
+              "engine_ttlt_ms": 1192,
+              "pre_inference_ms": 183,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 320,
+              "service_ttlt_ms": 1447,
+              "total_duration_ms": 1274,
+              "user_visible_ttft_ms": 138
+            }
+          },
+          "goal_hints": [
+            "I'm a gamer and I'm interested in the current free games available on Epic Games Store. Can you fetch the list of free games",
+            "I'm a big fan of Rocket League and I want to know if there are any scheduled tournaments in the Europe region. I would love to participate and showcase my skills"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_8358",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search and select books for upcoming exams in the education domain\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"exam_subjects\", \"book_preferences\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Generate barcodes for the selected books\",\n      \"domain\": \"education\",\n      \"required_inputs\": [\"book_list\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search and select books for upcoming exams in the education domain",
+                "domain": "education",
+                "required_inputs": [
+                  "exam_subjects",
+                  "book_preferences"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Generate barcodes for the selected books",
+                "domain": "education",
+                "required_inputs": [
+                  "book_list"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search and select books for upcoming exams in the education domain",
+              "domain": "education",
+              "required_inputs": [
+                "exam_subjects",
+                "book_preferences"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Generate barcodes for the selected books",
+              "domain": "education",
+              "required_inputs": [
+                "book_list"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 99,
+            "prompt_tokens": 2204,
+            "total_tokens": 2303,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 10,
+              "engine_ttft_ms": 81,
+              "engine_ttlt_ms": 1094,
+              "pre_inference_ms": 192,
+              "service_tbt_ms": 10,
+              "service_ttft_ms": 351,
+              "service_ttlt_ms": 1357,
+              "total_duration_ms": 1177,
+              "user_visible_ttft_ms": 159
+            }
+          },
+          "goal_hints": [
+            "I want to buy some books for my upcoming exams and generate barcodes for them."
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_409",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random Chuck Norris joke to entertain the audience.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch the sanction data for Canada to ensure compliance with the event.\",\n      \"domain\": \"compliance\",\n      \"required_inputs\": [\"country_name\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch a random Chuck Norris joke to entertain the audience.",
+                "domain": "entertainment",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Fetch the sanction data for Canada to ensure compliance with the event.",
+                "domain": "compliance",
+                "required_inputs": [
+                  "country_name"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch a random Chuck Norris joke to entertain the audience.",
+              "domain": "entertainment",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Fetch the sanction data for Canada to ensure compliance with the event.",
+              "domain": "compliance",
+              "required_inputs": [
+                "country_name"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 98,
+            "prompt_tokens": 2129,
+            "total_tokens": 2227,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 72,
+              "engine_ttlt_ms": 981,
+              "pre_inference_ms": 91,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 196,
+              "service_ttlt_ms": 1100,
+              "total_duration_ms": 1016,
+              "user_visible_ttft_ms": 105
+            }
+          },
+          "goal_hints": [
+            "I'm organizing a comedy show and I need some jokes to entertain the audience",
+            "fetch me the sanction data for Canada to ensure compliance with the event"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_7065",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search for product details using the barcode '194574942221'.\",\n      \"domain\": \"shopping\",\n      \"required_inputs\": [\"barcode\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"List stores within a 25-mile radius of location (latitude: 33.9733, longitude: -118.2487) that offer the product with barcode '194574942221'.\",\n      \"domain\": \"eCommerce\",\n      \"required_inputs\": [\"latitude\", \"longitude\", \"radius\", \"product_barcode\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search for product details using the barcode '194574942221'.",
+                "domain": "shopping",
+                "required_inputs": [
+                  "barcode"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "List stores within a 25-mile radius of location (latitude: 33.9733, longitude: -118.2487) that offer the product with barcode '194574942221'.",
+                "domain": "eCommerce",
+                "required_inputs": [
+                  "latitude",
+                  "longitude",
+                  "radius",
+                  "product_barcode"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search for product details using the barcode '194574942221'.",
+              "domain": "shopping",
+              "required_inputs": [
+                "barcode"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "List stores within a 25-mile radius of location (latitude: 33.9733, longitude: -118.2487) that offer the product with barcode '194574942221'.",
+              "domain": "eCommerce",
+              "required_inputs": [
+                "latitude",
+                "longitude",
+                "radius",
+                "product_barcode"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 138,
+            "prompt_tokens": 2659,
+            "total_tokens": 2797,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 78,
+              "engine_ttlt_ms": 1644,
+              "pre_inference_ms": 168,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 353,
+              "service_ttlt_ms": 1917,
+              "total_duration_ms": 1754,
+              "user_visible_ttft_ms": 185
+            }
+          },
+          "goal_hints": [
+            "I am planning a birthday party for my friend and I want to buy some unique gifts. Can you search for products using the barcode '194574942221' and provide me with the details of the products",
+            "I would like to know the stores near me that offer these products. Please list the stores within a 25-mile radius of my location at longitude '-118.2487' and latitude '33.9733'"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_1090",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random quote from a villain to inspire the comic book storyline.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Fetch an interesting fact about numbers to incorporate into the comic book storyline.\",\n      \"domain\": \"education\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch a random quote from a villain to inspire the comic book storyline.",
+                "domain": "entertainment",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Fetch an interesting fact about numbers to incorporate into the comic book storyline.",
+                "domain": "education",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch a random quote from a villain to inspire the comic book storyline.",
+              "domain": "entertainment",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Fetch an interesting fact about numbers to incorporate into the comic book storyline.",
+              "domain": "education",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 98,
+            "prompt_tokens": 2195,
+            "total_tokens": 2293,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 52,
+              "engine_ttlt_ms": 1179,
+              "pre_inference_ms": 142,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 319,
+              "service_ttlt_ms": 1431,
+              "total_duration_ms": 1299,
+              "user_visible_ttft_ms": 176
+            }
+          },
+          "goal_hints": [
+            "I need some inspiration for my new comic book. Can you provide me with a random quote from a villain",
+            "I'm looking for interesting facts about numbers to incorporate into the storyline"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_503",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Search location by city name or zip code to get the key for the climate forecast\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"city or zip code\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Get climate data for the location using latitude/longitude or the key obtained from location search\",\n      \"domain\": \"Weather\",\n      \"required_inputs\": [\"latitude and longitude or location key\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Search location by city name or zip code to get the key for the climate forecast",
+                "domain": "Weather",
+                "required_inputs": [
+                  "city or zip code"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Get climate data for the location using latitude/longitude or the key obtained from location search",
+                "domain": "Weather",
+                "required_inputs": [
+                  "latitude and longitude or location key"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Search location by city name or zip code to get the key for the climate forecast",
+              "domain": "Weather",
+              "required_inputs": [
+                "city or zip code"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Get climate data for the location using latitude/longitude or the key obtained from location search",
+              "domain": "Weather",
+              "required_inputs": [
+                "latitude and longitude or location key"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 115,
+            "prompt_tokens": 2250,
+            "total_tokens": 2365,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 9,
+              "engine_ttft_ms": 42,
+              "engine_ttlt_ms": 1123,
+              "pre_inference_ms": 125,
+              "service_tbt_ms": 9,
+              "service_ttft_ms": 289,
+              "service_ttlt_ms": 1356,
+              "total_duration_ms": 1239,
+              "user_visible_ttft_ms": 163
+            }
+          },
+          "goal_hints": [
+            "I want to explore the climate data of different cities."
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_7311",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Fetch a random fact about a number between 10 and 20.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": [\"number_range_start\", \"number_range_end\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Find an album on Deezer that features various genres and has received positive reviews.\",\n      \"domain\": \"entertainment\",\n      \"required_inputs\": []\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Fetch a random fact about a number between 10 and 20.",
+                "domain": "entertainment",
+                "required_inputs": [
+                  "number_range_start",
+                  "number_range_end"
+                ]
+              },
+              {
+                "id": 2,
+                "description": "Find an album on Deezer that features various genres and has received positive reviews.",
+                "domain": "entertainment",
+                "required_inputs": []
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Fetch a random fact about a number between 10 and 20.",
+              "domain": "entertainment",
+              "required_inputs": [
+                "number_range_start",
+                "number_range_end"
+              ]
+            },
+            {
+              "id": 2,
+              "description": "Find an album on Deezer that features various genres and has received positive reviews.",
+              "domain": "entertainment",
+              "required_inputs": []
+            }
+          ],
+          "usage": {
+            "completion_tokens": 111,
+            "prompt_tokens": 3035,
+            "total_tokens": 3146,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 12,
+              "engine_ttft_ms": 107,
+              "engine_ttlt_ms": 1402,
+              "pre_inference_ms": 111,
+              "service_tbt_ms": 12,
+              "service_ttft_ms": 281,
+              "service_ttlt_ms": 1568,
+              "total_duration_ms": 1467,
+              "user_visible_ttft_ms": 170
+            }
+          },
+          "goal_hints": [
+            "I want to impress my colleagues at the office with some trivia. Give me a random fact using a number between 10 and 20",
+            "find an album on Deezer that features various genres and has received positive reviews"
+          ]
+        },
+        {
+          "record_id": "Cross_Domain_response_755",
+          "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Recommend a vegan dinner dish from the 'List of Foods' API or a similar recipe API.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Provide a detailed recipe for the recommended vegan dinner dish including ingredients, method, and an image of the final dish.\",\n      \"domain\": \"Food\",\n      \"required_inputs\": [\"dish_name\"]\n    }\n  ]\n}",
+          "parsed": {
+            "steps": [
+              {
+                "id": 1,
+                "description": "Recommend a vegan dinner dish from the 'List of Foods' API or a similar recipe API.",
+                "domain": "Food",
+                "required_inputs": []
+              },
+              {
+                "id": 2,
+                "description": "Provide a detailed recipe for the recommended vegan dinner dish including ingredients, method, and an image of the final dish.",
+                "domain": "Food",
+                "required_inputs": [
+                  "dish_name"
+                ]
+              }
+            ]
+          },
+          "steps": [
+            {
+              "id": 1,
+              "description": "Recommend a vegan dinner dish from the 'List of Foods' API or a similar recipe API.",
+              "domain": "Food",
+              "required_inputs": []
+            },
+            {
+              "id": 2,
+              "description": "Provide a detailed recipe for the recommended vegan dinner dish including ingredients, method, and an image of the final dish.",
+              "domain": "Food",
+              "required_inputs": [
+                "dish_name"
+              ]
+            }
+          ],
+          "usage": {
+            "completion_tokens": 113,
+            "prompt_tokens": 2562,
+            "total_tokens": 2675,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 11,
+              "engine_ttft_ms": 47,
+              "engine_ttlt_ms": 1273,
+              "pre_inference_ms": 127,
+              "service_tbt_ms": 11,
+              "service_ttft_ms": 341,
+              "service_ttlt_ms": 1561,
+              "total_duration_ms": 1440,
+              "user_visible_ttft_ms": 214
+            }
+          },
+          "goal_hints": [
+            "I'm planning a vegan dinner party and need a recipe. Can you recommend a dish from the 'List of Foods' API",
+            "Then, provide me with a detailed recipe including the ingredients, method, and an image of the final dish"
+          ]
+        }
+      ]
+    }
+  }
+}

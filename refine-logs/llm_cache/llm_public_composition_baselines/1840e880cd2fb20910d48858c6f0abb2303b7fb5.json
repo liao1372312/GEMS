@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_817",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The City and State Search API - States List can provide state and country information which may include example phone number formats or related data for Australia, France, and Brazil, useful for reference in phone number validation.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The City and State Search API - States List can provide state and country information which may include example phone number formats or related data for Australia, France, and Brazil, useful for reference in phone number validation."
+  },
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1621,
+    "total_tokens": 1684,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 710,
+      "pre_inference_ms": 119,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 879,
+      "total_duration_ms": 769,
+      "user_visible_ttft_ms": 93
+    }
+  }
+}

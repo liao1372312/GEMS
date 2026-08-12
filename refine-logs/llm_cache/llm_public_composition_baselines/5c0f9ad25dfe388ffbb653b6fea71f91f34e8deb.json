@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_893",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 6, \"confidence\": 0.9, \"rationale\": \"This API provides information about banks in a country, including whether they are central banks, which is essential to retrieve current interest rates for the top 5 central banks and non-central banks as requested.\"}",
+  "parsed": {
+    "selected_rank": 6,
+    "confidence": 0.9,
+    "rationale": "This API provides information about banks in a country, including whether they are central banks, which is essential to retrieve current interest rates for the top 5 central banks and non-central banks as requested."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 1558,
+    "total_tokens": 1619,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 731,
+      "pre_inference_ms": 167,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 398,
+      "service_ttlt_ms": 1055,
+      "total_duration_ms": 895,
+      "user_visible_ttft_ms": 231
+    }
+  }
+}

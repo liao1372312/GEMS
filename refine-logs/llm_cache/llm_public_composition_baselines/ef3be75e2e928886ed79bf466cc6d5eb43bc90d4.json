@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_9562",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"None of the provided APIs are related to sports or player data. The user request is about finding sports players by weight and name, but no suitable sports-related API is available in the candidates. Therefore, no API can fulfill the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "None of the provided APIs are related to sports or player data. The user request is about finding sports players by weight and name, but no suitable sports-related API is available in the candidates. Therefore, no API can fulfill the request."
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 1721,
+    "total_tokens": 1790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 1148,
+      "pre_inference_ms": 78,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 201,
+      "service_ttlt_ms": 1294,
+      "total_duration_ms": 1229,
+      "user_visible_ttft_ms": 123
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_484",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 7, \"confidence\": 0.9, \"rationale\": \"The user wants real-time stock performance data, and the Stock Sentiment API - Most Negative News provides real-time social sentiment and news related to a specific stock, which aligns well with monitoring stock performance.\"}",
+  "parsed": {
+    "selected_rank": 7,
+    "confidence": 0.9,
+    "rationale": "The user wants real-time stock performance data, and the Stock Sentiment API - Most Negative News provides real-time social sentiment and news related to a specific stock, which aligns well with monitoring stock performance."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1530,
+    "total_tokens": 1592,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 512,
+      "engine_ttlt_ms": 1182,
+      "pre_inference_ms": 129,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 874,
+      "service_ttlt_ms": 1538,
+      "total_duration_ms": 1419,
+      "user_visible_ttft_ms": 745
+    }
+  }
+}

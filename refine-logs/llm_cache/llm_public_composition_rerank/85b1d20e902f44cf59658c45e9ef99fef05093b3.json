@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1653",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"This API directly provides current air quality conditions for any location given latitude and longitude, matching the subtask perfectly and allowing binding of required parameters from the inputs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "This API directly provides current air quality conditions for any location given latitude and longitude, matching the subtask perfectly and allowing binding of required parameters from the inputs."
+  },
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 1970,
+    "total_tokens": 2023,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 64,
+      "engine_ttlt_ms": 801,
+      "pre_inference_ms": 201,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 332,
+      "service_ttlt_ms": 1071,
+      "total_duration_ms": 880,
+      "user_visible_ttft_ms": 131
+    }
+  }
+}

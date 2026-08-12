@@ -1,0 +1,72 @@
+{
+  "record_id": "Finance_response_2300",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Validate the VAT number 2121316722 for Slovakia to determine if it is valid.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"VAT number\", \"country\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve information on cashback offers available for hotels in Los Angeles.\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"location\", \"category\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Validate the VAT number 2121316722 for Slovakia to determine if it is valid.",
+        "domain": "Finance",
+        "required_inputs": [
+          "VAT number",
+          "country"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve information on cashback offers available for hotels in Los Angeles.",
+        "domain": "Finance",
+        "required_inputs": [
+          "location",
+          "category"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Validate the VAT number 2121316722 for Slovakia to determine if it is valid.",
+      "domain": "Finance",
+      "required_inputs": [
+        "VAT number",
+        "country"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve information on cashback offers available for hotels in Los Angeles.",
+      "domain": "Finance",
+      "required_inputs": [
+        "location",
+        "category"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 380,
+    "total_tokens": 489,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 13,
+      "engine_ttft_ms": 27,
+      "engine_ttlt_ms": 1392,
+      "pre_inference_ms": 75,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 132,
+      "service_ttlt_ms": 1491,
+      "total_duration_ms": 1421,
+      "user_visible_ttft_ms": 57
+    }
+  }
+}

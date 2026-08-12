@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_3318",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.7, \"rationale\": \"The Tripadvisor API for searching restaurants and attractions is the closest relevant API in the travel domain that can provide information about tourist attractions near a location, which can be used to fetch photos of top tourist attractions as required.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.7,
+    "rationale": "The Tripadvisor API for searching restaurants and attractions is the closest relevant API in the travel domain that can provide information about tourist attractions near a location, which can be used to fetch photos of top tourist attractions as required."
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1421,
+    "total_tokens": 1485,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 694,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 160,
+      "service_ttlt_ms": 807,
+      "total_duration_ms": 726,
+      "user_visible_ttft_ms": 70
+    }
+  }
+}

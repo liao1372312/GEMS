@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2137",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.9, \"rationale\": \"B2BHint - Search company by Name API is a business tool that provides access to official registry data on companies and associated people, suitable for gathering lists of professionals. It allows searching by parameters, which can include specialization and geographical area, making it appropriate for finding healthcare professionals for targeted mailing. Other APIs are either unrelated to healthcare professionals or do not provide contact information.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.9,
+    "rationale": "B2BHint - Search company by Name API is a business tool that provides access to official registry data on companies and associated people, suitable for gathering lists of professionals. It allows searching by parameters, which can include specialization and geographical area, making it appropriate for finding healthcare professionals for targeted mailing. Other APIs are either unrelated to healthcare professionals or do not provide contact information."
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 1919,
+    "total_tokens": 2015,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 1449,
+      "pre_inference_ms": 190,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 339,
+      "service_ttlt_ms": 1726,
+      "total_duration_ms": 1546,
+      "user_visible_ttft_ms": 149
+    }
+  }
+}

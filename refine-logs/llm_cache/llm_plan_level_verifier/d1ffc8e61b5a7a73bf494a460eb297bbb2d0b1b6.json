@@ -1,0 +1,50 @@
+{
+  "record_id": "Finance_response_1375",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API available for credit report generation; both semantic top-1 and LLM choices are identical and inappropriate.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice directly matches the subtask intent by returning daily low stock price for a given symbol, more specific and appropriate than semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"No suitable API for gift recommendations; both semantic top-1 and LLM choices are identical and unrelated to the subtask.\"\n    }\n  ],\n  \"workflow_confidence\": 0.4\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "No suitable API available for credit report generation; both semantic top-1 and LLM choices are identical and inappropriate."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice directly matches the subtask intent by returning daily low stock price for a given symbol, more specific and appropriate than semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "No suitable API for gift recommendations; both semantic top-1 and LLM choices are identical and unrelated to the subtask."
+      }
+    ],
+    "workflow_confidence": 0.4
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 1316,
+    "total_tokens": 1491,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 58,
+      "engine_ttlt_ms": 2758,
+      "pre_inference_ms": 124,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 276,
+      "service_ttlt_ms": 2970,
+      "total_duration_ms": 2855,
+      "user_visible_ttft_ms": 152
+    }
+  }
+}

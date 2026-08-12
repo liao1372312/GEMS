@@ -1,0 +1,90 @@
+{
+  "record_id": "Finance_response_5268",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve the daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"index symbol or name\", \"start date\", \"end date\", \"price type\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve the latest price of gold\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"commodity name or symbol\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Retrieve the latest price of silver\",\n      \"domain\": \"Finance\",\n      \"required_inputs\": [\"commodity name or symbol\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve the daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020",
+        "domain": "Finance",
+        "required_inputs": [
+          "index symbol or name",
+          "start date",
+          "end date",
+          "price type"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve the latest price of gold",
+        "domain": "Finance",
+        "required_inputs": [
+          "commodity name or symbol"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Retrieve the latest price of silver",
+        "domain": "Finance",
+        "required_inputs": [
+          "commodity name or symbol"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve the daily closing prices of the S&P 500 index from January 1st, 2010 to December 31st, 2020",
+      "domain": "Finance",
+      "required_inputs": [
+        "index symbol or name",
+        "start date",
+        "end date",
+        "price type"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the latest price of gold",
+      "domain": "Finance",
+      "required_inputs": [
+        "commodity name or symbol"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Retrieve the latest price of silver",
+      "domain": "Finance",
+      "required_inputs": [
+        "commodity name or symbol"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 239,
+    "total_tokens": 408,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 50,
+      "engine_ttlt_ms": 2877,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 220,
+      "service_ttlt_ms": 3043,
+      "total_duration_ms": 2934,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

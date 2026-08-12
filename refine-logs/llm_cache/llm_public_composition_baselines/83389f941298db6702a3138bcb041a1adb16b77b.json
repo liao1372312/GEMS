@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_2371",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 2, \"confidence\": 0.9, \"rationale\": \"The Rugby Live Data API provides rugby fixtures and standings for the 2020 season, matching the request for rugby fixtures. However, no candidate matches the 2PEAK.com Dynamic TRAINING PLANS API for fetching training activities, so the best available candidate for the rugby fixtures subtask is selected.\"}",
+  "parsed": {
+    "selected_rank": 2,
+    "confidence": 0.9,
+    "rationale": "The Rugby Live Data API provides rugby fixtures and standings for the 2020 season, matching the request for rugby fixtures. However, no candidate matches the 2PEAK.com Dynamic TRAINING PLANS API for fetching training activities, so the best available candidate for the rugby fixtures subtask is selected."
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1412,
+    "total_tokens": 1494,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 15,
+      "engine_ttft_ms": 62,
+      "engine_ttlt_ms": 1290,
+      "pre_inference_ms": 113,
+      "service_tbt_ms": 15,
+      "service_ttft_ms": 212,
+      "service_ttlt_ms": 1433,
+      "total_duration_ms": 1326,
+      "user_visible_ttft_ms": 99
+    }
+  }
+}

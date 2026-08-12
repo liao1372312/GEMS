@@ -1,0 +1,55 @@
+{
+  "record_id": "Cross_Domain_response_817",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Melrose Labs Voice API) directly provides a list of allocated phone numbers, which better matches the subtask of gathering volunteer phone numbers than the semantic top-1 API that only lists countries.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice (Greip - /validatePhone) directly validates phone numbers with country code and phone number inputs, clearly better matching the step than the semantic top-1 API which validates TIN numbers, unrelated to phone numbers.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice is the same as semantic top-1; it does not provide phone number examples but is the best available API for country-related data.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice (D7 Verify - Get OTP Status) is for OTP status retrieval, not for compiling verification results and example numbers into a report. Semantic top-1 API is unrelated but no better alternative is provided.\"\n    }\n  ],\n  \"workflow_confidence\": 0.9\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": true,
+        "reason": "LLM choice (Melrose Labs Voice API) directly provides a list of allocated phone numbers, which better matches the subtask of gathering volunteer phone numbers than the semantic top-1 API that only lists countries."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice (Greip - /validatePhone) directly validates phone numbers with country code and phone number inputs, clearly better matching the step than the semantic top-1 API which validates TIN numbers, unrelated to phone numbers."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice is the same as semantic top-1; it does not provide phone number examples but is the best available API for country-related data."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "LLM choice (D7 Verify - Get OTP Status) is for OTP status retrieval, not for compiling verification results and example numbers into a report. Semantic top-1 API is unrelated but no better alternative is provided."
+      }
+    ],
+    "workflow_confidence": 0.9
+  },
+  "usage": {
+    "completion_tokens": 284,
+    "prompt_tokens": 1886,
+    "total_tokens": 2170,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 92,
+      "engine_ttlt_ms": 4695,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 214,
+      "service_ttlt_ms": 4810,
+      "total_duration_ms": 4728,
+      "user_visible_ttft_ms": 126
+    }
+  }
+}

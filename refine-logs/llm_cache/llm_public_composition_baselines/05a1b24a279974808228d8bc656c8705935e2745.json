@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1528",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides stock and options data for specific tickers including Apple (AAPL), which matches the requirement to retrieve lowest values for specific stocks. Although it requires separate calls per ticker, it is the best fit among candidates for retrieving detailed stock data for Apple, Microsoft, and Amazon.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides stock and options data for specific tickers including Apple (AAPL), which matches the requirement to retrieve lowest values for specific stocks. Although it requires separate calls per ticker, it is the best fit among candidates for retrieving detailed stock data for Apple, Microsoft, and Amazon."
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1281,
+    "total_tokens": 1362,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 14,
+      "engine_ttft_ms": 78,
+      "engine_ttlt_ms": 1249,
+      "pre_inference_ms": 89,
+      "service_tbt_ms": 14,
+      "service_ttft_ms": 194,
+      "service_ttlt_ms": 1361,
+      "total_duration_ms": 1279,
+      "user_visible_ttft_ms": 106
+    }
+  }
+}

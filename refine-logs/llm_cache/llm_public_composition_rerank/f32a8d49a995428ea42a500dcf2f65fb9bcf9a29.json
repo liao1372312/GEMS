@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1251",
+  "step_id": 2,
+  "raw": "{\"selected_rank\":4,\"confidence\":0.8,\"rationale\":\"The 31Events - Send Native Calendar Invites - AccountList API is related to event management and communication, which aligns with gathering information about mailing lists or contacts for inviting professionals. It is more relevant and specific to event invitations than disposable email checkers or unrelated APIs.\"}",
+  "parsed": {
+    "selected_rank": 4,
+    "confidence": 0.8,
+    "rationale": "The 31Events - Send Native Calendar Invites - AccountList API is related to event management and communication, which aligns with gathering information about mailing lists or contacts for inviting professionals. It is more relevant and specific to event invitations than disposable email checkers or unrelated APIs."
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 2072,
+    "total_tokens": 2143,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 88,
+      "engine_ttlt_ms": 1553,
+      "pre_inference_ms": 114,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 286,
+      "service_ttlt_ms": 1746,
+      "total_duration_ms": 1647,
+      "user_visible_ttft_ms": 173
+    }
+  }
+}

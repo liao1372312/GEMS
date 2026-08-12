@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3946",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"The first API provides a complete list of supported banks in Cyprus, Hungary, and Ireland along with the necessary fields to create a login form similar to the bank's original, matching the user's request for reliable bank connections. The second API complements this by providing the list of categories from Afterbanks' own categorizer including descriptions, colors, and icons, which also matches the user's request. Both APIs are in the Finance domain and directly address the user's needs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "The first API provides a complete list of supported banks in Cyprus, Hungary, and Ireland along with the necessary fields to create a login form similar to the bank's original, matching the user's request for reliable bank connections. The second API complements this by providing the list of categories from Afterbanks' own categorizer including descriptions, colors, and icons, which also matches the user's request. Both APIs are in the Finance domain and directly address the user's needs."
+  },
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 2197,
+    "total_tokens": 2309,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 74,
+      "engine_ttlt_ms": 2294,
+      "pre_inference_ms": 126,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 238,
+      "service_ttlt_ms": 2475,
+      "total_duration_ms": 2352,
+      "user_visible_ttft_ms": 113
+    }
+  }
+}

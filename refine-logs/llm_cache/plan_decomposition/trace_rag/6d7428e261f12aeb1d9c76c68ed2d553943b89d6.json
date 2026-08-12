@@ -1,0 +1,80 @@
+{
+  "record_id": "Medical_response_2137",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retrieve a list of healthcare professionals suitable for targeted mailing for the conference outreach\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": []\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Obtain the name or details of the specific food item for which nutritional analysis is requested\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food_item_name\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Perform nutritional analysis on the specified food item\",\n      \"domain\": \"Medical\",\n      \"required_inputs\": [\"food_item_name\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Retrieve a list of healthcare professionals suitable for targeted mailing for the conference outreach",
+        "domain": "Medical",
+        "required_inputs": []
+      },
+      {
+        "id": 2,
+        "description": "Obtain the name or details of the specific food item for which nutritional analysis is requested",
+        "domain": "Medical",
+        "required_inputs": [
+          "food_item_name"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Perform nutritional analysis on the specified food item",
+        "domain": "Medical",
+        "required_inputs": [
+          "food_item_name"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Retrieve a list of healthcare professionals suitable for targeted mailing for the conference outreach",
+      "domain": "Medical",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Obtain the name or details of the specific food item for which nutritional analysis is requested",
+      "domain": "Medical",
+      "required_inputs": [
+        "food_item_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Perform nutritional analysis on the specified food item",
+      "domain": "Medical",
+      "required_inputs": [
+        "food_item_name"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 348,
+    "total_tokens": 495,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 29,
+      "engine_ttlt_ms": 1859,
+      "pre_inference_ms": 83,
+      "service_tbt_ms": 13,
+      "service_ttft_ms": 237,
+      "service_ttlt_ms": 2080,
+      "total_duration_ms": 2007,
+      "user_visible_ttft_ms": 155
+    }
+  }
+}

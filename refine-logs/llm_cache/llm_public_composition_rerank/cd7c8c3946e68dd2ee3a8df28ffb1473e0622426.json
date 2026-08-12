@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_7207",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs are related to searching Soundcloud or music tracks by genre. No suitable API is available in the given candidates.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs are related to searching Soundcloud or music tracks by genre. No suitable API is available in the given candidates."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 2094,
+    "total_tokens": 2143,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 45,
+      "engine_ttft_ms": 53,
+      "engine_ttlt_ms": 2261,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 45,
+      "service_ttft_ms": 193,
+      "service_ttlt_ms": 2399,
+      "total_duration_ms": 2304,
+      "user_visible_ttft_ms": 93
+    }
+  }
+}

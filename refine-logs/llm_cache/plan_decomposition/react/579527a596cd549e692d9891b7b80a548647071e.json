@@ -1,0 +1,90 @@
+{
+  "record_id": "Technology_response_5475",
+  "raw": "{\n  \"steps\": [\n    {\n      \"id\": 1,\n      \"description\": \"Identify the sports and specific matches relevant to the birthday party theme\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"friend's favorite sports\", \"date of the party\"]\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Retrieve accurate and up-to-date predictions for the identified matches\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"list of matches\", \"date of the matches\"]\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Format the predictions and sports information for inclusion in the party materials\",\n      \"domain\": \"Technology\",\n      \"required_inputs\": [\"predictions data\", \"party theme details\"]\n    }\n  ]\n}",
+  "parsed": {
+    "steps": [
+      {
+        "id": 1,
+        "description": "Identify the sports and specific matches relevant to the birthday party theme",
+        "domain": "Technology",
+        "required_inputs": [
+          "friend's favorite sports",
+          "date of the party"
+        ]
+      },
+      {
+        "id": 2,
+        "description": "Retrieve accurate and up-to-date predictions for the identified matches",
+        "domain": "Technology",
+        "required_inputs": [
+          "list of matches",
+          "date of the matches"
+        ]
+      },
+      {
+        "id": 3,
+        "description": "Format the predictions and sports information for inclusion in the party materials",
+        "domain": "Technology",
+        "required_inputs": [
+          "predictions data",
+          "party theme details"
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "id": 1,
+      "description": "Identify the sports and specific matches relevant to the birthday party theme",
+      "domain": "Technology",
+      "required_inputs": [
+        "friend's favorite sports",
+        "date of the party"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Retrieve accurate and up-to-date predictions for the identified matches",
+      "domain": "Technology",
+      "required_inputs": [
+        "list of matches",
+        "date of the matches"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Format the predictions and sports information for inclusion in the party materials",
+      "domain": "Technology",
+      "required_inputs": [
+        "predictions data",
+        "party theme details"
+      ]
+    }
+  ],
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 181,
+    "total_tokens": 346,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 10,
+      "engine_ttft_ms": 43,
+      "engine_ttlt_ms": 1685,
+      "pre_inference_ms": 86,
+      "service_tbt_ms": 10,
+      "service_ttft_ms": 153,
+      "service_ttlt_ms": 1791,
+      "total_duration_ms": 1712,
+      "user_visible_ttft_ms": 67
+    }
+  }
+}

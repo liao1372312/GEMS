@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1653",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 1.0, \"rationale\": \"The user wants to monitor current air quality at specific coordinates. The top-ranked API provides current air quality data for any location given latitude and longitude, matching the user's request perfectly.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 1.0,
+    "rationale": "The user wants to monitor current air quality at specific coordinates. The top-ranked API provides current air quality data for any location given latitude and longitude, matching the user's request perfectly."
+  },
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 1575,
+    "total_tokens": 1632,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 56,
+      "engine_ttft_ms": 4050,
+      "engine_ttlt_ms": 7236,
+      "pre_inference_ms": 84,
+      "service_tbt_ms": 56,
+      "service_ttft_ms": 4725,
+      "service_ttlt_ms": 7893,
+      "total_duration_ms": 7825,
+      "user_visible_ttft_ms": 4641
+    }
+  }
+}

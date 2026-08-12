@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_1284",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 10, \"confidence\": 0.7, \"rationale\": \"None of the candidate APIs specifically target textbook search or pricing. However, the user request is about affordable textbooks and price ranges, which relates to finance and pricing data. Among the finance domain APIs, the Defi Data - Protocols API is the only one that deals with financial data, though it is about TVL and coins, not textbooks. The other finance APIs are about stock options or filters, unrelated to textbooks. The Airbnb and other domain APIs are unrelated. Since no perfect match exists, the best available is the finance-related Defi Data API, but confidence is low.\"}",
+  "parsed": {
+    "selected_rank": 10,
+    "confidence": 0.7,
+    "rationale": "None of the candidate APIs specifically target textbook search or pricing. However, the user request is about affordable textbooks and price ranges, which relates to finance and pricing data. Among the finance domain APIs, the Defi Data - Protocols API is the only one that deals with financial data, though it is about TVL and coins, not textbooks. The other finance APIs are about stock options or filters, unrelated to textbooks. The Airbnb and other domain APIs are unrelated. Since no perfect match exists, the best available is the finance-related Defi Data API, but confidence is low."
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 1885,
+    "total_tokens": 2023,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 12,
+      "engine_ttft_ms": 52,
+      "engine_ttlt_ms": 1750,
+      "pre_inference_ms": 101,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 211,
+      "service_ttlt_ms": 1892,
+      "total_duration_ms": 1798,
+      "user_visible_ttft_ms": 110
+    }
+  }
+}

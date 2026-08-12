@@ -1,0 +1,36 @@
+{
+  "record_id": "Finance_response_3795",
+  "step_id": 5,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.9, \"rationale\": \"Candidate 3 provides realtime crypto prices and accepts a symbol parameter, suitable for getting the current price of Ethereum.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.9,
+    "rationale": "Candidate 3 provides realtime crypto prices and accepts a symbol parameter, suitable for getting the current price of Ethereum."
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1319,
+    "total_tokens": 1363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 35,
+      "engine_ttlt_ms": 537,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 12,
+      "service_ttft_ms": 304,
+      "service_ttlt_ms": 800,
+      "total_duration_ms": 695,
+      "user_visible_ttft_ms": 188
+    }
+  }
+}

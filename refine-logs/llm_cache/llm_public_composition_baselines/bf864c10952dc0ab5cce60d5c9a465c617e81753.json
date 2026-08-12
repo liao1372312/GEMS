@@ -1,0 +1,36 @@
+{
+  "record_id": "Technology_response_2004",
+  "step_id": 3,
+  "raw": "{\"selected_rank\": 9, \"confidence\": 0.8, \"rationale\": \"The 'Domain Analysis' API is relevant for SEO performance analysis and optimization recommendations, matching the user's intent better than travel or entertainment APIs.\"}",
+  "parsed": {
+    "selected_rank": 9,
+    "confidence": 0.8,
+    "rationale": "The 'Domain Analysis' API is relevant for SEO performance analysis and optimization recommendations, matching the user's intent better than travel or entertainment APIs."
+  },
+  "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 1135,
+    "total_tokens": 1184,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 280,
+      "user_visible_ttft_ms": 111,
+      "total_duration_ms": 499,
+      "pre_inference_ms": 168,
+      "service_tbt_ms": 8,
+      "service_ttlt_ms": 658,
+      "engine_ttft_ms": 30,
+      "engine_ttlt_ms": 422,
+      "engine_tbt_ms": 8
+    }
+  }
+}

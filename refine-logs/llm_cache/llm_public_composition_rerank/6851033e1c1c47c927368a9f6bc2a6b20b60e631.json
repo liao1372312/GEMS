@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_6233",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The subtask requires querying basic user information for a specific Soundcloud user, but no Soundcloud-specific API is available. The Instagram Cheapest - userinfo API provides user info by username in a social media context, which is the closest match and can bind the required username parameter.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The subtask requires querying basic user information for a specific Soundcloud user, but no Soundcloud-specific API is available. The Instagram Cheapest - userinfo API provides user info by username in a social media context, which is the closest match and can bind the required username parameter."
+  },
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 2076,
+    "total_tokens": 2153,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 19,
+      "engine_ttft_ms": 47,
+      "engine_ttlt_ms": 1521,
+      "pre_inference_ms": 85,
+      "service_tbt_ms": 19,
+      "service_ttft_ms": 204,
+      "service_ttlt_ms": 1667,
+      "total_duration_ms": 1591,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

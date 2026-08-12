@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3999",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The top-ranked API provides a list of cocktails with their names and IDs, matching the user's request for cocktail recipes. However, it does not support ingredient measurement conversion, which is required for the first subtask. Since no API candidate supports the Food Ingredient Measurement Conversion API, selecting the cocktail API is the best available option for the second part of the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The top-ranked API provides a list of cocktails with their names and IDs, matching the user's request for cocktail recipes. However, it does not support ingredient measurement conversion, which is required for the first subtask. Since no API candidate supports the Food Ingredient Measurement Conversion API, selecting the cocktail API is the best available option for the second part of the request."
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1479,
+    "total_tokens": 1572,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 11,
+      "engine_ttft_ms": 55,
+      "engine_ttlt_ms": 1111,
+      "pre_inference_ms": 178,
+      "service_tbt_ms": 11,
+      "service_ttft_ms": 449,
+      "service_ttlt_ms": 1421,
+      "total_duration_ms": 1245,
+      "user_visible_ttft_ms": 271
+    }
+  }
+}

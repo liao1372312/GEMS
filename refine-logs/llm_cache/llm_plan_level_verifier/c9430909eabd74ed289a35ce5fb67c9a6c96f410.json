@@ -1,0 +1,55 @@
+{
+  "record_id": "Cross_Domain_response_569",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice are the same API; no change needed.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": true,\n      \"reason\": \"LLM choice API directly matches the step requirement to find recent disasters near Paris with appropriate parameters, better than semantic top-1.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"LLM choice API is for crypto prices, not ETFs; semantic top-1 is unrelated but closer in domain; LLM choice not clearly better.\"\n    },\n    {\n      \"step_id\": 4,\n      \"accept_llm\": false,\n      \"reason\": \"No candidate API explicitly supports report compilation; keep semantic top-1 as best available.\"\n    }\n  ],\n  \"workflow_confidence\": 0.7\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choice are the same API; no change needed."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": true,
+        "reason": "LLM choice API directly matches the step requirement to find recent disasters near Paris with appropriate parameters, better than semantic top-1."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "LLM choice API is for crypto prices, not ETFs; semantic top-1 is unrelated but closer in domain; LLM choice not clearly better."
+      },
+      {
+        "step_id": 4,
+        "accept_llm": false,
+        "reason": "No candidate API explicitly supports report compilation; keep semantic top-1 as best available."
+      }
+    ],
+    "workflow_confidence": 0.7
+  },
+  "usage": {
+    "completion_tokens": 213,
+    "prompt_tokens": 1833,
+    "total_tokens": 2046,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 16,
+      "engine_ttft_ms": 59,
+      "engine_ttlt_ms": 3462,
+      "pre_inference_ms": 116,
+      "service_tbt_ms": 16,
+      "service_ttft_ms": 274,
+      "service_ttlt_ms": 3667,
+      "total_duration_ms": 3561,
+      "user_visible_ttft_ms": 157
+    }
+  }
+}

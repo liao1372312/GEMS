@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_8576",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.9, \"rationale\": \"The URL Content Extractor - Search Content API is suitable for searching content based on a query, which fits the requirement to search for jazz tracks on Soundcloud using the query 'jazz music'.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.9,
+    "rationale": "The URL Content Extractor - Search Content API is suitable for searching content based on a query, which fits the requirement to search for jazz tracks on Soundcloud using the query 'jazz music'."
+  },
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 1569,
+    "total_tokens": 1631,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 577,
+      "pre_inference_ms": 134,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 254,
+      "service_ttlt_ms": 778,
+      "total_duration_ms": 657,
+      "user_visible_ttft_ms": 120
+    }
+  }
+}

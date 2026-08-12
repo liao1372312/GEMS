@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_3042",
+  "step_id": 4,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.95, \"rationale\": \"API rank 1 directly supports BMI calculation with multiple units and provides weight categorization based on BMI, including ethnicity options, making it the most comprehensive and specific choice for the user's BMI calculator needs.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.95,
+    "rationale": "API rank 1 directly supports BMI calculation with multiple units and provides weight categorization based on BMI, including ethnicity options, making it the most comprehensive and specific choice for the user's BMI calculator needs."
+  },
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 2474,
+    "total_tokens": 2535,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 17,
+      "engine_ttft_ms": 45,
+      "engine_ttlt_ms": 1087,
+      "pre_inference_ms": 147,
+      "service_tbt_ms": 17,
+      "service_ttft_ms": 293,
+      "service_ttlt_ms": 1332,
+      "total_duration_ms": 1198,
+      "user_visible_ttft_ms": 145
+    }
+  }
+}

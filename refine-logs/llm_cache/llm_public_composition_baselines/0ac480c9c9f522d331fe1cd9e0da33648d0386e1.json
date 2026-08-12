@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_999",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 0, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide NBA history trivia, facts about the number 42, or currency exchange rates from USD to JPY. All candidates are related to American football (NFL) data, which is unrelated to the user's request about the NBA and other domains.\"}",
+  "parsed": {
+    "selected_rank": 0,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide NBA history trivia, facts about the number 42, or currency exchange rates from USD to JPY. All candidates are related to American football (NFL) data, which is unrelated to the user's request about the NBA and other domains."
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 2436,
+    "total_tokens": 2511,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 363,
+      "user_visible_ttft_ms": 162,
+      "total_duration_ms": 1075,
+      "pre_inference_ms": 201,
+      "service_tbt_ms": 12,
+      "service_ttlt_ms": 1256,
+      "engine_ttft_ms": 57,
+      "engine_ttlt_ms": 949,
+      "engine_tbt_ms": 12
+    }
+  }
+}

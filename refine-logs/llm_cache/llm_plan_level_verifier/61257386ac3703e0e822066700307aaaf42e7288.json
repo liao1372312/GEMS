@@ -1,0 +1,50 @@
+{
+  "record_id": "Medical_response_1860",
+  "raw": "{\n  \"decisions\": [\n    {\n      \"step_id\": 1,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice use unrelated finance API; no suitable API available.\"\n    },\n    {\n      \"step_id\": 2,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice use unrelated Google Reviews Scraper API; no suitable API available.\"\n    },\n    {\n      \"step_id\": 3,\n      \"accept_llm\": false,\n      \"reason\": \"Both semantic top-1 and LLM choice use unrelated Google Reviews Scraper API; no suitable API available.\"\n    }\n  ],\n  \"workflow_confidence\": 0.0\n}",
+  "parsed": {
+    "decisions": [
+      {
+        "step_id": 1,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choice use unrelated finance API; no suitable API available."
+      },
+      {
+        "step_id": 2,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choice use unrelated Google Reviews Scraper API; no suitable API available."
+      },
+      {
+        "step_id": 3,
+        "accept_llm": false,
+        "reason": "Both semantic top-1 and LLM choice use unrelated Google Reviews Scraper API; no suitable API available."
+      }
+    ],
+    "workflow_confidence": 0.0
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 1238,
+    "total_tokens": 1398,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 20,
+      "engine_ttft_ms": 66,
+      "engine_ttlt_ms": 3300,
+      "pre_inference_ms": 127,
+      "service_tbt_ms": 20,
+      "service_ttft_ms": 283,
+      "service_ttlt_ms": 3457,
+      "total_duration_ms": 3336,
+      "user_visible_ttft_ms": 156
+    }
+  }
+}

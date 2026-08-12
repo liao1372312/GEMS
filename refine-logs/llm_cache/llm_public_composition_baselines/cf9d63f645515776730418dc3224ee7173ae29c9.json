@@ -1,0 +1,36 @@
+{
+  "record_id": "Medical_response_1860",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 1, \"confidence\": 0.0, \"rationale\": \"None of the candidate APIs provide burger options or descriptions; no suitable API available for the request.\"}",
+  "parsed": {
+    "selected_rank": 1,
+    "confidence": 0.0,
+    "rationale": "None of the candidate APIs provide burger options or descriptions; no suitable API available for the request."
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 1499,
+    "total_tokens": 1540,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "service_ttft_ms": 318,
+      "user_visible_ttft_ms": 107,
+      "total_duration_ms": 447,
+      "pre_inference_ms": 211,
+      "service_tbt_ms": 8,
+      "service_ttlt_ms": 649,
+      "engine_ttft_ms": 40,
+      "engine_ttlt_ms": 378,
+      "engine_tbt_ms": 8
+    }
+  }
+}

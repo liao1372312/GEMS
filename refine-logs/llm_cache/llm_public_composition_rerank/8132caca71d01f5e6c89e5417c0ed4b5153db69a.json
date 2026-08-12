@@ -1,0 +1,36 @@
+{
+  "record_id": "Cross_Domain_response_995",
+  "step_id": 2,
+  "raw": "{\"selected_rank\": 3, \"confidence\": 0.7, \"rationale\": \"The WonderboyAPI is in the Events domain and likely related to event information, which fits the subtask of retrieving tickets for an event. Although it does not explicitly mention tickets, it is the closest relevant API for event-related data. Other APIs are unrelated to events or tickets.\"}",
+  "parsed": {
+    "selected_rank": 3,
+    "confidence": 0.7,
+    "rationale": "The WonderboyAPI is in the Events domain and likely related to event information, which fits the subtask of retrieving tickets for an event. Although it does not explicitly mention tickets, it is the closest relevant API for event-related data. Other APIs are unrelated to events or tickets."
+  },
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 1957,
+    "total_tokens": 2035,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 21,
+      "engine_ttft_ms": 54,
+      "engine_ttlt_ms": 1666,
+      "pre_inference_ms": 107,
+      "service_tbt_ms": 21,
+      "service_ttft_ms": 193,
+      "service_ttlt_ms": 1801,
+      "total_duration_ms": 1700,
+      "user_visible_ttft_ms": 85
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "record_id": "Tourism_response_2625",
+  "step_id": 1,
+  "raw": "{\"selected_rank\": 5, \"confidence\": 0.9, \"rationale\": \"The Latest Spotify Downloader API allows downloading MP3 files of tracks by track ID, which fits the requirement to download MP3 files for songs by famous artists like Taylor Swift and Ed Sheeran.\"}",
+  "parsed": {
+    "selected_rank": 5,
+    "confidence": 0.9,
+    "rationale": "The Latest Spotify Downloader API allows downloading MP3 files of tracks by track ID, which fits the requirement to download MP3 files for songs by famous artists like Taylor Swift and Ed Sheeran."
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1764,
+    "total_tokens": 1824,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 59,
+      "engine_ttft_ms": 70,
+      "engine_ttlt_ms": 3583,
+      "pre_inference_ms": 97,
+      "service_tbt_ms": 59,
+      "service_ttft_ms": 197,
+      "service_ttlt_ms": 3706,
+      "total_duration_ms": 3616,
+      "user_visible_ttft_ms": 100
+    }
+  }
+}
